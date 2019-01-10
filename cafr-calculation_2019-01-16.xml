@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
+<!--Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
 Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
+
   
 This file is an entry point for cafr.
   
@@ -13,28 +13,28 @@ This file is an entry point for cafr.
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
-      xlink:href="cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
       xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
+      roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
       xlink:href="cafr_2019-01-16.xsd#roleType_statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"
+      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
+      xlink:href="cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"
       xlink:type="simple"/>
     <calculationLink
       xlink:role="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
