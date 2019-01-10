@@ -54,6 +54,7 @@ This file is an entry point for cafr.
                 <link:definition>2100 - CAFR statement of net position, government wide, assets and deferred outflows</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
+                <link:usedOn>link:calculationLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
