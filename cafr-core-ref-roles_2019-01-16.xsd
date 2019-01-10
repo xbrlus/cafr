@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
-Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
-  
-This file is an entry point for cafr.
-  
--->
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
   targetNamespace="http://xbrl.us/cafr/roles/reference"
   xmlns:cafr-ref-roles="http://xbrl.us/cafr/roles/reference"

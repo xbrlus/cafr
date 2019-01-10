@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
+<!--Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
 Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
+
   
 This file is an entry point for cafr.
   
@@ -13,41 +13,37 @@ This file is an entry point for cafr.
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <roleRef
-      roleURI="http://xbrl.us/slg/cafr/cover"
-      xlink:href="cafr_2019-01-16.xsd#roleType_cover"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
       xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
-      xlink:href="cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"
+      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/slg/cafr/letterOfTransmittal"
+      xlink:href="cafr_2019-01-16.xsd#roleType_letterOfTransmittal"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/slg/cafr/auditLetter"
@@ -57,21 +53,25 @@ This file is an entry point for cafr.
       roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
       xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
       xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
+      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/letterOfTransmittal"
-      xlink:href="cafr_2019-01-16.xsd#roleType_letterOfTransmittal"
+      roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
+      xlink:href="cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
-      xlink:href="cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"
+      roleURI="http://xbrl.us/slg/cafr/cover"
+      xlink:href="cafr_2019-01-16.xsd#roleType_cover"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/slg/cafr/cover"

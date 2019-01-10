@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
+<!--Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
 Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
+
   
 This file is an entry point for cafr.
   
@@ -227,7 +227,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_ProprietaryFundsMember_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
             <ref:Section>1300</ref:Section>
             <ref:Paragraph>109</ref:Paragraph>
@@ -304,7 +304,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_FiduciaryFundsMember_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
             <ref:Section>1300</ref:Section>
             <ref:Paragraph>111-.114</ref:Paragraph>
@@ -532,7 +532,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_AccrualBasisOfAccountingMember_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
             <ref:Section>1300</ref:Section>
             <ref:Paragraph>102</ref:Paragraph>
@@ -551,7 +551,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_AccrualBasisOfAccountingMember_3"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
             <ref:Section>1600</ref:Section>
             <ref:Paragraph>130</ref:Paragraph>
@@ -570,8 +570,9 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_AccrualBasisOfAccountingMember_4"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>eGAAFR p. 76</ref:Publisher>
-            <ref:Page>Accrual Basis of Accounting</ref:Page>
+            <ref:Publisher>Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.</ref:Publisher>
+            <ref:Page>76</ref:Page>
+            <ref:Section>Accrual Basis of Accounting</ref:Section>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NondepreciableMember"
@@ -762,7 +763,7 @@ This file is an entry point for cafr.
             <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
             <ref:Section>2450</ref:Section>
-            <ref:Paragraph>fn 2</ref:Paragraph>
+            <ref:Footnote>2</ref:Footnote>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_Investments"
@@ -798,25 +799,9 @@ This file is an entry point for cafr.
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
-            <ref:Page>IV P20 FN 7, "An Analyst's Guide to Government Financial Statements (GASB, 3rd Edition)</ref:Page>
-        </reference>
-        <loc
-          xlink:href="cafr_2019-01-16.xsd#cafr_NetPensionAssetLiability"
-          xlink:label="cafr_NetPensionAssetLiability_2"
-          xlink:type="locator"/>
-        <referenceArc
-          order="2"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetPensionAssetLiability_2"
-          xlink:to="label_cafr_NetPensionAssetLiability_2"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetPensionAssetLiability_2"
-          xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
             <ref:Page>IV</ref:Page>
-            <ref:Appendix>P20 fn 7</ref:Appendix>
+            <ref:Section>P20</ref:Section>
+            <ref:Footnote>7</ref:Footnote>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetOpebAssetLiability"
@@ -851,7 +836,7 @@ This file is an entry point for cafr.
             <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
             <ref:Section>2300</ref:Section>
-            <ref:Paragraph>fn 1</ref:Paragraph>
+            <ref:Footnote>1</ref:Footnote>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_Inventory"
@@ -890,22 +875,6 @@ This file is an entry point for cafr.
             <ref:Section>360</ref:Section>
             <ref:Paragraph>10</ref:Paragraph>
             <ref:Subparagraph>45-9</ref:Subparagraph>
-        </reference>
-        <loc
-          xlink:href="cafr_2019-01-16.xsd#cafr_PropertyHeldForResale"
-          xlink:label="cafr_PropertyHeldForResale_2"
-          xlink:type="locator"/>
-        <referenceArc
-          order="2"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_PropertyHeldForResale_2"
-          xlink:to="label_cafr_PropertyHeldForResale_2"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_PropertyHeldForResale_2"
-          xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>FASB Codification</ref:Publisher>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_OtherAssets"
@@ -1020,8 +989,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_LiabilitiesAbstract_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
-            <ref:Page>B.CS4.17-.23</ref:Page>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Appendix>B</ref:Appendix>
+            <ref:Section>CS4</ref:Section>
+            <ref:Paragraph>17-23</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_AccountsPayable"
@@ -1037,8 +1008,8 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_AccountsPayable"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>EGAAFR</ref:Publisher>
-            <ref:Page>p.700</ref:Page>
+            <ref:Publisher>Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.</ref:Publisher>
+            <ref:Page>700</ref:Page>
             <ref:Section>Accounts Payable</ref:Section>
         </reference>
         <loc
@@ -1055,8 +1026,8 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_UnearnedRevenue"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>EGAAFR</ref:Publisher>
-            <ref:Page>p.643</ref:Page>
+            <ref:Publisher>Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.</ref:Publisher>
+            <ref:Page>643</ref:Page>
             <ref:Section>Unearned Revenues</ref:Section>
         </reference>
         <loc
@@ -1113,8 +1084,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_Liabilities_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
-            <ref:Page>B.CS4.17-.23</ref:Page>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Appendix>B</ref:Appendix>
+            <ref:Section>CS4</ref:Section>
+            <ref:Paragraph>17-23</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_DeferredInflowsOfResources"
@@ -1150,9 +1123,8 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_DeferredInflowsOfResources_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>eGAAFR.p784.Deferred Inflows of Resources</ref:Publisher>
-            <ref:Page>EGAAFR</ref:Page>
-            <ref:Appendix>p.784</ref:Appendix>
+            <ref:Publisher>Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.</ref:Publisher>
+            <ref:Page>784</ref:Page>
             <ref:Section>Deferred Inflows of Resources</ref:Section>
         </reference>
         <loc
@@ -1189,10 +1161,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_LiabilitiesAndDeferredInflows_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>2200</ref:Appendix>
-            <ref:Section>124</ref:Section>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>124</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_DebtServiceMember"
@@ -1322,10 +1294,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
-            <ref:Appendix>1800</ref:Appendix>
-            <ref:Section>155</ref:Section>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>155</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionAbstract"
@@ -1341,10 +1313,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_3"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>2200</ref:Appendix>
-            <ref:Section>117</ref:Section>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>117</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionAbstract"
@@ -1360,7 +1332,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_4"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
             <ref:Appendix>2200</ref:Appendix>
             <ref:Section>119-.123</ref:Section>
@@ -1379,10 +1351,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_5"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>2200</ref:Appendix>
-            <ref:Section>124</ref:Section>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>124</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionAbstract"
@@ -1398,10 +1370,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_6"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>1800</ref:Appendix>
-            <ref:Section>162</ref:Section>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>162</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionAbstract"
@@ -1417,8 +1389,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPositionAbstract_7"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
-            <ref:Page>B.CS4.36-.37</ref:Page>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Appendix>B</ref:Appendix>
+            <ref:Section>CS4</ref:Section>
+            <ref:Paragraph>36-37</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionRestricted"
@@ -1491,10 +1465,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_2"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>I</ref:Page>
-            <ref:Appendix>1800</ref:Appendix>
-            <ref:Section>155</ref:Section>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>155</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPosition"
@@ -1510,10 +1484,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_3"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>2200</ref:Appendix>
-            <ref:Section>117</ref:Section>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>117</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPosition"
@@ -1529,7 +1503,7 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_4"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
             <ref:Appendix>2200</ref:Appendix>
             <ref:Section>119-.123</ref:Section>
@@ -1548,10 +1522,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_5"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>2200</ref:Appendix>
-            <ref:Section>124</ref:Section>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>124</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPosition"
@@ -1567,10 +1541,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_6"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
             <ref:Page>II</ref:Page>
-            <ref:Appendix>1800</ref:Appendix>
-            <ref:Section>162</ref:Section>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>162</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_NetPosition"
@@ -1586,8 +1560,10 @@ This file is an entry point for cafr.
           xlink:label="label_cafr_NetPosition_7"
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
-            <ref:Publisher>GASB Codification</ref:Publisher>
-            <ref:Page>B.CS4.36-.37</ref:Page>
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Appendix>B</ref:Appendix>
+            <ref:Section>CS4</ref:Section>
+            <ref:Paragraph>36-37</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_StatementOfActivitiesTable"
@@ -1719,6 +1695,63 @@ This file is an entry point for cafr.
           xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher/>
+        </reference>
+        <loc
+          xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionRollForward"
+          xlink:label="cafr_NetPositionRollForward"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetPositionRollForward"
+          xlink:to="label_cafr_NetPositionRollForward"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetPositionRollForward"
+          xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Page>I</ref:Page>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>157-161</ref:Paragraph>
+        </reference>
+        <loc
+          xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionRollForward"
+          xlink:label="cafr_NetPositionRollForward_2"
+          xlink:type="locator"/>
+        <referenceArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetPositionRollForward_2"
+          xlink:to="label_cafr_NetPositionRollForward_2"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetPositionRollForward_2"
+          xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Page>I</ref:Page>
+            <ref:Section>1800</ref:Section>
+            <ref:Paragraph>155</ref:Paragraph>
+        </reference>
+        <loc
+          xlink:href="cafr_2019-01-16.xsd#cafr_NetPositionRollForward"
+          xlink:label="cafr_NetPositionRollForward_3"
+          xlink:type="locator"/>
+        <referenceArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetPositionRollForward_3"
+          xlink:to="label_cafr_NetPositionRollForward_3"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetPositionRollForward_3"
+          xlink:role="http://xbrl.us/cafr/2019-01-16/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018</ref:Publisher>
+            <ref:Page>II</ref:Page>
+            <ref:Section>2200</ref:Section>
+            <ref:Paragraph>119-123</ref:Paragraph>
         </reference>
         <loc
           xlink:href="cafr_2019-01-16.xsd#cafr_ChangeInNetPosition"
