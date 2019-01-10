@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 Copyright (C) 2019 XBRL US, Inc. All Rights Reserved.
 Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
@@ -5,7 +6,6 @@ Notice: Authorized Uses are Set Forth at http://xbrl.us/cafr_legal
 This file is an entry point for cafr.
   
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <linkbase
   xmlns="http://www.xbrl.org/2003/linkbase"
   xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
