@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.10.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>3</ContextCount>
+  <ElementCount>20</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>0</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>1</UnitCount>
+  <MyReports>
+    <Report instance="VABeach_StmtNetPos_iXBRL_20190115.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>2100 - CAFR statement of net position, government wide, assets and deferred outflows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="VABeach_StmtNetPos_iXBRL_20190115.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>2200 - CAFR statement of net position, government wide, liabilities and deferred inflows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="VABeach_StmtNetPos_iXBRL_20190115.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>2300 - CAFR statement of net position, government wide, net position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="(Source)" original="VABeach_StmtNetPos_iXBRL_20190115.html">VABeach_StmtNetPos_iXBRL_20190115.html</File>
+  </InputFiles>
+  <SupplementalFiles/>
+  <BaseTaxonomies>
+    <BaseTaxonomy>http://www.xbrl.us/slg/cafr/2019-01-16</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>false</HasPresentationLinkbase>
+  <HasCalculationLinkbase>false</HasCalculationLinkbase>
+</FilingSummary>
