@@ -11,7 +11,7 @@
       xlink:type="simple"/>
     <context id="_ctx9">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -26,7 +26,7 @@
     </context>
     <context id="_ctx10">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <startDate>2017-07-01</startDate>
@@ -42,7 +42,7 @@
     </context>
     <context id="_ctx11">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -57,7 +57,7 @@
     </context>
     <context id="_ctx12">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <startDate>2017-07-01</startDate>
@@ -73,7 +73,7 @@
     </context>
     <context id="_ctx13">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2017-07-01</instant>
@@ -86,9 +86,24 @@
             <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
         </scenario>
     </context>
+    <context id="_ctx14">
+        <entity>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
+        </entity>
+        <period>
+            <instant>2017-07-01</instant>
+        </period>
+        <scenario>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+        </scenario>
+    </context>
     <context id="_ctx1">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <startDate>2017-07-01</startDate>
@@ -97,7 +112,7 @@
     </context>
     <context id="_ctx2">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -105,7 +120,7 @@
     </context>
     <context id="_ctx3">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -119,7 +134,7 @@
     </context>
     <context id="_ctx4">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -134,7 +149,7 @@
     </context>
     <context id="_ctx5">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -148,7 +163,7 @@
     </context>
     <context id="_ctx6">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2018-06-30</instant>
@@ -161,7 +176,7 @@
     </context>
     <context id="_ctx7">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <startDate>2017-07-01</startDate>
@@ -175,7 +190,7 @@
     </context>
     <context id="_ctx8">
         <entity>
-            <identifier scheme="http://www.govwiki.info">47210100100000</identifier>
+            <identifier scheme="http://www.govwiki.info">47105405400000</identifier>
         </entity>
         <period>
             <instant>2017-07-01</instant>
@@ -190,268 +205,263 @@
         <measure>iso4217:USD</measure>
     </unit>
     <cafr:DocumentTitle contextRef="_ctx1" id="COVER_C6" xml:lang="en">CAFR</cafr:DocumentTitle>
-    <cafr:NameOfGovernment contextRef="_ctx1" id="COVER_C7" xml:lang="en">City of Alexandria, Virginia</cafr:NameOfGovernment>
+    <cafr:NameOfGovernment contextRef="_ctx1" id="COVER_C7" xml:lang="en">County of Loudoun, Virginia</cafr:NameOfGovernment>
     <cafr:FiscalStartDate contextRef="_ctx2" id="COVER_C8">2017-07-01</cafr:FiscalStartDate>
     <cafr:FiscalEndDate contextRef="_ctx2" id="COVER_C9">2018-06-30</cafr:FiscalEndDate>
     <cafr:NameOfState contextRef="_ctx1" id="COVER_C10" xml:lang="en">Virginia</cafr:NameOfState>
-    <cafr:DateOfAuditOpinion contextRef="_ctx2" id="COVER_C14">2018-12-21</cafr:DateOfAuditOpinion>
-    <cafr:NameOfAuditFirm contextRef="_ctx1" id="COVER_C15" xml:lang="en">CliftonLarsonAllen LLP</cafr:NameOfAuditFirm>
-    <cafr:TypeOfGovernment contextRef="_ctx1" id="COVER_G15" xml:lang="en">City</cafr:TypeOfGovernment>
+    <cafr:DateOfAuditOpinion contextRef="_ctx2" id="COVER_C14">2018-11-30</cafr:DateOfAuditOpinion>
+    <cafr:NameOfAuditFirm contextRef="_ctx1" id="COVER_C15" xml:lang="en">CherryBekaert LLP</cafr:NameOfAuditFirm>
+    <cafr:TypeOfGovernment contextRef="_ctx1" id="COVER_G15" xml:lang="en">County</cafr:TypeOfGovernment>
     <cafr:AuditOpinion contextRef="_ctx1" id="COVER_C16" xml:lang="en">Unmodified</cafr:AuditOpinion>
-    <cafr:DateOfTransmittal contextRef="_ctx2" id="COVER_G16">2018-12-21</cafr:DateOfTransmittal>
+    <cafr:DateOfTransmittal contextRef="_ctx2" id="COVER_G16">2018-11-30</cafr:DateOfTransmittal>
     <cafr:CashAndCashEquivalents
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B10"
-      unitRef="ISO4217_USD">336089928</cafr:CashAndCashEquivalents>
+      id="NETPOSITION_B12"
+      unitRef="ISO4217_USD">1176244905</cafr:CashAndCashEquivalents>
     <cafr:Investments
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B11"
-      unitRef="ISO4217_USD">219874961</cafr:Investments>
-    <cafr:ReceivablesNet
-      contextRef="_ctx3"
-      decimals="0"
-      id="NETPOSITION_B12"
-      unitRef="ISO4217_USD">298834712</cafr:ReceivablesNet>
+      id="NETPOSITION_B13"
+      unitRef="ISO4217_USD">257877899</cafr:Investments>
     <cafr:DueFromRelated
       contextRef="_ctx4"
       decimals="0"
-      id="NETPOSITION_B16"
-      unitRef="ISO4217_USD">40659559</cafr:DueFromRelated>
+      id="NETPOSITION_B19"
+      unitRef="ISO4217_USD">49428368</cafr:DueFromRelated>
     <cafr:Inventory
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B17"
-      unitRef="ISO4217_USD">3451507</cafr:Inventory>
+      id="NETPOSITION_B23"
+      unitRef="ISO4217_USD">52736</cafr:Inventory>
     <cafr:PrepaidItems
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B18"
-      unitRef="ISO4217_USD">8484313</cafr:PrepaidItems>
+      id="NETPOSITION_B24"
+      unitRef="ISO4217_USD">1239295</cafr:PrepaidItems>
     <cafr:CapitalAssetsNet
-      contextRef="_ctx3"
+      contextRef="_ctx5"
       decimals="0"
-      id="NETPOSITION_B23"
-      unitRef="ISO4217_USD">861590961</cafr:CapitalAssetsNet>
+      id="NETPOSITION_B29"
+      unitRef="ISO4217_USD">1358591947</cafr:CapitalAssetsNet>
     <cafr:Assets
       contextRef="_ctx5"
       decimals="0"
-      id="NETPOSITION_B24"
-      unitRef="ISO4217_USD">1769055656</cafr:Assets>
+      id="NETPOSITION_B30"
+      unitRef="ISO4217_USD">3497761798</cafr:Assets>
     <cafr:DeferredOutflowsOfResources
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B30"
-      unitRef="ISO4217_USD">54550796</cafr:DeferredOutflowsOfResources>
+      id="NETPOSITION_B36"
+      unitRef="ISO4217_USD">27763411</cafr:DeferredOutflowsOfResources>
     <cafr:AccountsPayable
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B33"
-      unitRef="ISO4217_USD">16384155</cafr:AccountsPayable>
+      id="NETPOSITION_B39"
+      unitRef="ISO4217_USD">53253625</cafr:AccountsPayable>
     <cafr:UnearnedRevenue
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B36"
-      unitRef="ISO4217_USD">7517690</cafr:UnearnedRevenue>
+      id="NETPOSITION_B42"
+      unitRef="ISO4217_USD">11007458</cafr:UnearnedRevenue>
     <cafr:OtherLiabilities
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B37"
-      unitRef="ISO4217_USD">21402607</cafr:OtherLiabilities>
+      id="NETPOSITION_B45"
+      unitRef="ISO4217_USD">6823603</cafr:OtherLiabilities>
     <cafr:NoncurrentLiabilitiesDueLessThanOneYear
       contextRef="_ctx3"
       decimals="0"
-      id="NETPOSITION_B40"
-      unitRef="ISO4217_USD">50017044</cafr:NoncurrentLiabilitiesDueLessThanOneYear>
+      id="NETPOSITION_B47"
+      unitRef="ISO4217_USD">145043873</cafr:NoncurrentLiabilitiesDueLessThanOneYear>
     <cafr:NoncurrentLiabilitiesDueOneYearOrLater
       contextRef="_ctx5"
       decimals="0"
-      id="NETPOSITION_B41"
-      unitRef="ISO4217_USD">657636767</cafr:NoncurrentLiabilitiesDueOneYearOrLater>
-    <cafr:NetPensionAssetLiability
-      contextRef="_ctx5"
-      decimals="0"
-      id="NETPOSITION_B42"
-      unitRef="ISO4217_USD">163020518</cafr:NetPensionAssetLiability>
-    <cafr:NetOpebAssetLiability
-      contextRef="_ctx5"
-      decimals="0"
-      id="NETPOSITION_B43"
-      unitRef="ISO4217_USD">65284471</cafr:NetOpebAssetLiability>
+      id="NETPOSITION_B48"
+      unitRef="ISO4217_USD">1665010778</cafr:NoncurrentLiabilitiesDueOneYearOrLater>
     <cafr:Liabilities
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B44"
-      unitRef="ISO4217_USD">998032004</cafr:Liabilities>
+      id="NETPOSITION_B50"
+      unitRef="ISO4217_USD">2190865372</cafr:Liabilities>
     <cafr:DeferredInflowsOfResources
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B50"
-      unitRef="ISO4217_USD">319257914</cafr:DeferredInflowsOfResources>
+      id="NETPOSITION_B58"
+      unitRef="ISO4217_USD">653988005</cafr:DeferredInflowsOfResources>
     <cafr:NetInvestmentInCapitalAssets
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B53"
-      unitRef="ISO4217_USD">416057692</cafr:NetInvestmentInCapitalAssets>
+      id="NETPOSITION_B61"
+      unitRef="ISO4217_USD">1237487750</cafr:NetInvestmentInCapitalAssets>
     <cafr:NetPositionUnrestricted
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B58"
-      unitRef="ISO4217_USD">64145352</cafr:NetPositionUnrestricted>
+      id="NETPOSITION_B73"
+      unitRef="ISO4217_USD">-850200389</cafr:NetPositionUnrestricted>
     <cafr:NetPosition
       contextRef="_ctx6"
       decimals="0"
-      id="NETPOSITION_B59"
-      unitRef="ISO4217_USD">506316534</cafr:NetPosition>
+      id="NETPOSITION_B74"
+      unitRef="ISO4217_USD">680671832</cafr:NetPosition>
     <cafr:Expenses
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_B25"
-      unitRef="ISO4217_USD">747173978</cafr:Expenses>
+      id="ACTIVITIES_C24"
+      unitRef="ISO4217_USD">1749106653</cafr:Expenses>
     <cafr:ChargesForServices
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_C25"
-      unitRef="ISO4217_USD">77661733</cafr:ChargesForServices>
+      id="ACTIVITIES_E24"
+      unitRef="ISO4217_USD">82404464</cafr:ChargesForServices>
     <cafr:OperatingGrantsAndContributions
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_D25"
-      unitRef="ISO4217_USD">52231942</cafr:OperatingGrantsAndContributions>
+      id="ACTIVITIES_G24"
+      unitRef="ISO4217_USD">85545876</cafr:OperatingGrantsAndContributions>
     <cafr:CapitalGrantsAndContributions
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_E25"
-      unitRef="ISO4217_USD">7132675</cafr:CapitalGrantsAndContributions>
+      id="ACTIVITIES_I24"
+      unitRef="ISO4217_USD">34267434</cafr:CapitalGrantsAndContributions>
     <cafr:ProgramRevenues
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_G25"
-      unitRef="ISO4217_USD">-610147627</cafr:ProgramRevenues>
+      id="ACTIVITIES_K24"
+      unitRef="ISO4217_USD">-1546888879</cafr:ProgramRevenues>
     <cafr:GeneralRevenues
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_G50"
-      unitRef="ISO4217_USD">714712769</cafr:GeneralRevenues>
+      id="ACTIVITIES_K47"
+      unitRef="ISO4217_USD">1532470694</cafr:GeneralRevenues>
     <cafr:ChangeInNetPosition
       contextRef="_ctx7"
       decimals="0"
-      id="ACTIVITIES_G51"
-      unitRef="ISO4217_USD">104565142</cafr:ChangeInNetPosition>
+      id="ACTIVITIES_K48"
+      unitRef="ISO4217_USD">-14418185</cafr:ChangeInNetPosition>
     <cafr:NetPosition
       contextRef="_ctx8"
       decimals="0"
-      id="ACTIVITIES_G52"
-      unitRef="ISO4217_USD">401751392</cafr:NetPosition>
+      id="ACTIVITIES_K49"
+      unitRef="ISO4217_USD">695090017</cafr:NetPosition>
     <cafr:NetPosition
       contextRef="_ctx6"
       decimals="0"
-      id="ACTIVITIES_G53"
-      unitRef="ISO4217_USD">506316534</cafr:NetPosition>
+      id="ACTIVITIES_K50"
+      unitRef="ISO4217_USD">680671832</cafr:NetPosition>
     <cafr:NonspendableFundBalance
       contextRef="_ctx9"
       decimals="0"
-      id="BALANCE_B38"
-      unitRef="ISO4217_USD">11009773</cafr:NonspendableFundBalance>
+      id="BALANCE_C43"
+      unitRef="ISO4217_USD">1324240</cafr:NonspendableFundBalance>
+    <cafr:NonspendableFundBalance
+      contextRef="_ctx11"
+      decimals="0"
+      id="BALANCE_K43"
+      unitRef="ISO4217_USD">1324240</cafr:NonspendableFundBalance>
     <cafr:RestrictedFundBalance
       contextRef="_ctx11"
       decimals="0"
-      id="BALANCE_G39"
-      unitRef="ISO4217_USD">26113490</cafr:RestrictedFundBalance>
+      id="BALANCE_K44"
+      unitRef="ISO4217_USD">492296800</cafr:RestrictedFundBalance>
     <cafr:CommittedFundBalance
       contextRef="_ctx9"
       decimals="0"
-      id="BALANCE_B40"
-      unitRef="ISO4217_USD">10015523</cafr:CommittedFundBalance>
+      id="BALANCE_C45"
+      unitRef="ISO4217_USD">226632199</cafr:CommittedFundBalance>
     <cafr:CommittedFundBalance
       contextRef="_ctx11"
       decimals="0"
-      id="BALANCE_G40"
-      unitRef="ISO4217_USD">377358258</cafr:CommittedFundBalance>
+      id="BALANCE_K45"
+      unitRef="ISO4217_USD">363885676</cafr:CommittedFundBalance>
     <cafr:AssignedFundBalance
       contextRef="_ctx9"
       decimals="0"
-      id="BALANCE_B41"
-      unitRef="ISO4217_USD">34152482</cafr:AssignedFundBalance>
+      id="BALANCE_C46"
+      unitRef="ISO4217_USD">33784272</cafr:AssignedFundBalance>
     <cafr:AssignedFundBalance
       contextRef="_ctx11"
       decimals="0"
-      id="BALANCE_G41"
-      unitRef="ISO4217_USD">34152482</cafr:AssignedFundBalance>
+      id="BALANCE_K46"
+      unitRef="ISO4217_USD">108873689</cafr:AssignedFundBalance>
     <cafr:UnassignedFundBalance
       contextRef="_ctx10"
       decimals="0"
-      id="BALANCE_B42"
-      unitRef="ISO4217_USD">73780565</cafr:UnassignedFundBalance>
+      id="BALANCE_C47"
+      unitRef="ISO4217_USD">99528390</cafr:UnassignedFundBalance>
     <cafr:UnassignedFundBalance
       contextRef="_ctx12"
       decimals="0"
-      id="BALANCE_G42"
-      unitRef="ISO4217_USD">74014681</cafr:UnassignedFundBalance>
+      id="BALANCE_K47"
+      unitRef="ISO4217_USD">99528390</cafr:UnassignedFundBalance>
     <cafr:TotalFundBalance
       contextRef="_ctx9"
       decimals="0"
-      id="BALANCE_B43"
-      unitRef="ISO4217_USD">128958343</cafr:TotalFundBalance>
+      id="BALANCE_C48"
+      unitRef="ISO4217_USD">361269101</cafr:TotalFundBalance>
     <cafr:TotalFundBalance
       contextRef="_ctx11"
       decimals="0"
-      id="BALANCE_G43"
-      unitRef="ISO4217_USD">522648684</cafr:TotalFundBalance>
+      id="BALANCE_K48"
+      unitRef="ISO4217_USD">1065908795</cafr:TotalFundBalance>
     <cafr:Revenues
       contextRef="_ctx10"
       decimals="0"
-      id="REVEXPCHANGES_C20"
-      unitRef="ISO4217_USD">717727325</cafr:Revenues>
+      id="REVEXPCHANGES_C25"
+      unitRef="ISO4217_USD">1571898973</cafr:Revenues>
     <cafr:Revenues
       contextRef="_ctx12"
       decimals="0"
-      id="REVEXPCHANGES_K20"
-      unitRef="ISO4217_USD">842310823</cafr:Revenues>
+      id="REVEXPCHANGES_K25"
+      unitRef="ISO4217_USD">1716569673</cafr:Revenues>
     <cafr:Expenditures
       contextRef="_ctx10"
       decimals="0"
-      id="REVEXPCHANGES_C37"
-      unitRef="ISO4217_USD">614696136</cafr:Expenditures>
+      id="REVEXPCHANGES_C42"
+      unitRef="ISO4217_USD">1271158595</cafr:Expenditures>
     <cafr:Expenditures
       contextRef="_ctx12"
       decimals="0"
-      id="REVEXPCHANGES_K37"
-      unitRef="ISO4217_USD">843609339</cafr:Expenditures>
+      id="REVEXPCHANGES_K42"
+      unitRef="ISO4217_USD">1920749731</cafr:Expenditures>
     <cafr:OtherFinancingSourcesAndUsesIncludingTransfers
       contextRef="_ctx10"
       decimals="0"
-      id="REVEXPCHANGES_C50"
-      unitRef="ISO4217_USD">-94167380</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
+      id="REVEXPCHANGES_C56"
+      unitRef="ISO4217_USD">-277130870</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
     <cafr:OtherFinancingSourcesAndUsesIncludingTransfers
       contextRef="_ctx12"
       decimals="0"
-      id="REVEXPCHANGES_K50"
-      unitRef="ISO4217_USD">110186432</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
+      id="REVEXPCHANGES_K56"
+      unitRef="ISO4217_USD">275521308</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
     <cafr:NetChangeInFundBalances
       contextRef="_ctx10"
       decimals="0"
-      id="REVEXPCHANGES_C52"
-      unitRef="ISO4217_USD">8863809</cafr:NetChangeInFundBalances>
+      id="REVEXPCHANGES_C58"
+      unitRef="ISO4217_USD">23609508</cafr:NetChangeInFundBalances>
     <cafr:NetChangeInFundBalances
       contextRef="_ctx12"
       decimals="0"
-      id="REVEXPCHANGES_K52"
-      unitRef="ISO4217_USD">108887916</cafr:NetChangeInFundBalances>
+      id="REVEXPCHANGES_K58"
+      unitRef="ISO4217_USD">71341250</cafr:NetChangeInFundBalances>
     <cafr:TotalFundBalance
       contextRef="_ctx13"
       decimals="0"
-      id="REVEXPCHANGES_C53"
-      unitRef="ISO4217_USD">120006283</cafr:TotalFundBalance>
+      id="REVEXPCHANGES_C60"
+      unitRef="ISO4217_USD">337659593</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="_ctx14"
+      decimals="0"
+      id="REVEXPCHANGES_K60"
+      unitRef="ISO4217_USD">994567545</cafr:TotalFundBalance>
     <cafr:TotalFundBalance
       contextRef="_ctx9"
       decimals="0"
-      id="REVEXPCHANGES_C55"
-      unitRef="ISO4217_USD">128958343</cafr:TotalFundBalance>
+      id="REVEXPCHANGES_C61"
+      unitRef="ISO4217_USD">361269101</cafr:TotalFundBalance>
     <cafr:TotalFundBalance
       contextRef="_ctx11"
       decimals="0"
-      id="HIDDENTAGS_K5"
-      unitRef="ISO4217_USD">522648684</cafr:TotalFundBalance>
+      id="REVEXPCHANGES_K61"
+      unitRef="ISO4217_USD">1065908795</cafr:TotalFundBalance>
 </xbrl>

@@ -1,6 +1,6 @@
 {
  "instance": {
-  "Rose Enterprises-Alexandria-2018-Statements.htm": {
+  "Alexandria-2018-Statements.htm": {
    "axisCustom": 0,
    "axisStandard": 7,
    "contextCount": 13,
@@ -17,7 +17,7 @@
     },
     "inline": {
      "local": [
-      "Rose Enterprises-Alexandria-2018-Statements.htm"
+      "Alexandria-2018-Statements.htm"
      ]
     },
     "labelLink": {
@@ -472,7 +472,7 @@
       "decimals": "0",
       "first": true,
       "lang": "en",
-      "name": "cafr:RestrictedFundBalance",
+      "name": "cafr:NonspendableFundBalance",
       "reportCount": 1,
       "unique": true,
       "unitRef": "ISO4217_USD",
@@ -496,7 +496,7 @@
       "decimals": "0",
       "first": true,
       "lang": "en",
-      "name": "cafr:RestrictedFundBalance",
+      "name": "cafr:NonspendableFundBalance",
       "reportCount": 1,
       "unique": true,
       "unitRef": "ISO4217_USD",
