@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.10.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>13</ContextCount>
+  <ElementCount>48</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>0</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>1</UnitCount>
+  <MyReports>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>1000 - CAFR cover</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/cover</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>1100 - CAFR letter of transmittal</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/letterOfTransmittal</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>1200 - CAFR audit letter</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/auditLetter</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>2100 - CAFR statement of net position, government wide, assets and deferred outflows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>2200 - CAFR statement of net position, government wide, liabilities and deferred inflows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>2300 - CAFR statement of net position, government wide, net position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>2500 - CAFR statement of activities, government wide, general revenues</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>2600 - CAFR statement of activities, government wide, program revenues and expenses</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>3100 - CAFR balance sheet, governmental funds</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="Rose Enterprises-Alexandria-2018-Statements.html">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds</Role>
+      <ShortName></ShortName>
+      <MenuCategory>Uncategorized</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="(Source)" original="Rose Enterprises-Alexandria-2018-Statements.html">Rose Enterprises-Alexandria-2018-Statements.html</File>
+  </InputFiles>
+  <SupplementalFiles/>
+  <BaseTaxonomies>
+    <BaseTaxonomy>http://www.xbrl.us/slg/cafr/2019-01-16</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>false</HasPresentationLinkbase>
+  <HasCalculationLinkbase>false</HasCalculationLinkbase>
+</FilingSummary>
