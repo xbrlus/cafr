@@ -59,11 +59,12 @@
             display:block;
           }
           li.octave {border-top: 1px solid black;}
-        </style><script type="text/javascript">var InstanceReportXslt = "/include/InstanceReport.xslt"; var InstanceReportXsltDoc = null; var reports = new Array();
+        </style><script type="text/javascript">var InstanceReportXslt = "/include/InstanceReport.xslt"; var InstanceReportXsltDoc = null; var processXsltInBrowser = "false";var reports = new Array();
         reports[1]="R1.htm";
         reports[2]="R2.htm";
         reports[3]="R3.htm";
         reports[4]="all";
+        reports[5]="RenderingLogs.htm";
           var parentreport = new Array();//
                     
         parentreport[1]=-1;
@@ -121,7 +122,7 @@
                   .find('img').attr('src', function(i, val) { return fixSrcAttr(val);}).end();
               }
           });            
-      } else {
+      } else if (processXsltInBrowser == 'true') {
           $.ajax({
           type: "GET",
           url: url,
@@ -141,6 +142,7 @@
                    	 doc.loadXML(data);
                      xslproc.input = doc;
                      xslproc.addParameter("source", path );
+                     xslproc.addParameter("asPage", "true" );
                      xslproc.transform();
                      // Find all images and prepend the base URL to the src attribute
                      jQuery('#reportDiv').append(jQuery(xslproc.output)
@@ -152,8 +154,9 @@
                   // code for other browsers
                   else if (document.implementation && document.implementation.createDocument) {
                      xsltProcessor=new XSLTProcessor();
-                     xsltProcessor.importStylesheet(loadXmlDoc(xsl_url));                     
+                     xsltProcessor.importStylesheet(loadXmlDoc(xsl_url));                  
                      xsltProcessor.setParameter(null,"source",path);
+                     xsltProcessor.setParameter(null,"asPage","true");
                      parser = new DOMParser();
                      xmlDoc = parser.parseFromString(data, "text/xml");
                      var rpt = xsltProcessor.transformToFragment(xmlDoc, document);
@@ -279,4 +282,4 @@
             +reports[1]+" from opening.");}}
       loadReport(1);
    }
-</script></head><body style="margin: 0"><noscript><div style="color:red; font-weight:bold; text-align:center;">This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser.</div></noscript><div><table><tr><td colspan="2"><a class="xbrlviewer" style="color: black; font-weight: bold;" href="javascript:window.print();">Print Document</a> <a class="xbrlviewer" href="Financial_Report.xlsx">View Excel Document</a></td></tr><tr><td style="vertical-align: top;"><div style="width: 170px; margin-right: 5px;"><ul id="menu"><li class="accordion octave"><a href="http://hq-dera-d44941:8080/vf/documents/VABeach_StmtNetPos_iXBRL_20190115.html">(Source)</a></li><li class="accordion"><a id="menu_cat0" href="#">Cover</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(1);"></a></li></ul></li><li class="accordion"><a id="menu_cat1" href="#">Other</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(2);"></a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(3);"></a></li></ul></li><li class="accordion"><a href="javascript:loadReport(4)"><img src="/include/reports.gif" border="0" height="12" width="9" alt="Reports"></img>All Reports</a></li></ul></div></td><td style="vertical-align: top;"><div id="reportDiv"></div></td></tr></table></div></body></html>
+</script></head><body style="margin: 0"><noscript><div style="color:red; font-weight:bold; text-align:center;">This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser.</div></noscript><div><table><tr><td colspan="2"><a class="xbrlviewer" style="color: black; font-weight: bold;" href="javascript:window.print();">Print Document</a> <a class="xbrlviewer" href="Financial_Report.xlsx">View Excel Document</a></td></tr><tr><td style="vertical-align: top;"><div style="width: 170px; margin-right: 5px;"><ul id="menu"><li class="accordion octave"><a href="http://hq-dera-d44941:8080/vf/documents/VABeach_StmtNetPos_iXBRL_20190116.html">(Source)</a></li><li class="accordion"><a id="menu_cat0" href="#">Cover</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(1);"></a></li></ul></li><li class="accordion"><a id="menu_cat1" href="#">Other</a><ul><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(2);"></a></li><li class="accordion" style="margin-left:0em"><a class="xbrlviewer" onClick="javascript:highlight(this);" href="javascript:loadReport(3);"></a></li></ul></li><li class="accordion"><a href="javascript:loadReport(4)"><img src="/include/reports.gif" border="0" height="12" width="9" alt="Reports"></img>All Reports</a></li><li class="accordion"><a href="javascript:loadReport(5)"><img src="/include/reports.gif" border="0" height="12" width="9" alt="Logs"></img>Rendering Log</a></li></ul></div></td><td style="vertical-align: top;"><div id="reportDiv"></div></td></tr></table></div></body></html>
