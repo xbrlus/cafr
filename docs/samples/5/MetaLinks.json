@@ -1,0 +1,40 @@
+{
+ "instance": {
+  "Rose Enterprises-Loudoun-2018-Statements.htm": {
+   "axisCustom": 0,
+   "axisStandard": 0,
+   "contextCount": 0,
+   "dts": {
+    "inline": {
+     "local": [
+      "Rose Enterprises-Loudoun-2018-Statements.htm"
+     ]
+    },
+    "schema": {
+     "remote": [
+      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
+      "http://www.xbrl.org/2006/xbrldi-2006.xsd"
+     ]
+    }
+   },
+   "elementCount": 0,
+   "entityCount": 0,
+   "hidden": {
+    "total": 0
+   },
+   "keyCustom": 0,
+   "keyStandard": 0,
+   "memberCustom": 0,
+   "memberStandard": 0,
+   "report": {},
+   "segmentCount": 0,
+   "tag": {},
+   "unitCount": 0
+  }
+ },
+ "std_ref": {},
+ "version": "2.0"
+}
