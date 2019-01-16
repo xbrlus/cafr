@@ -12,7 +12,7 @@
   <TuplesReported>false</TuplesReported>
   <UnitCount>1</UnitCount>
   <MyReports>
-    <Report instance="StPete_StmtNetPos_iXBRL_20190115.html">
+    <Report instance="StPete_StmtNetPos_iXBRL_20190116.html">
       <IsDefault>false</IsDefault>
       <HasEmbeddedReports>false</HasEmbeddedReports>
       <HtmlFileName>R1.htm</HtmlFileName>
@@ -23,7 +23,7 @@
       <MenuCategory>Cover</MenuCategory>
       <Position>1</Position>
     </Report>
-    <Report instance="StPete_StmtNetPos_iXBRL_20190115.html">
+    <Report instance="StPete_StmtNetPos_iXBRL_20190116.html">
       <IsDefault>false</IsDefault>
       <HasEmbeddedReports>false</HasEmbeddedReports>
       <HtmlFileName>R2.htm</HtmlFileName>
@@ -34,7 +34,7 @@
       <MenuCategory>Notes</MenuCategory>
       <Position>2</Position>
     </Report>
-    <Report instance="StPete_StmtNetPos_iXBRL_20190115.html">
+    <Report instance="StPete_StmtNetPos_iXBRL_20190116.html">
       <IsDefault>false</IsDefault>
       <HasEmbeddedReports>false</HasEmbeddedReports>
       <HtmlFileName>R3.htm</HtmlFileName>
@@ -53,8 +53,24 @@
       <ShortName>All Reports</ShortName>
     </Report>
   </MyReports>
+  <Logs>
+    <Log type="Error">[EFM.6.07.12] The definition ''1000 - CAFR cover'' of role http://xbrl.us/slg/cafr/cover does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds'' of role http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''3100 - CAFR balance sheet, governmental funds'' of role http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''2200 - CAFR statement of net position, government wide, liabilities and deferred inflows'' of role http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''1200 - CAFR audit letter'' of role http://xbrl.us/slg/cafr/auditLetter does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''0000 - CAFR common axes'' of role http://xbrl.us/cafr/commonAxes does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''2300 - CAFR statement of net position, government wide, net position'' of role http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''1100 - CAFR letter of transmittal'' of role http://xbrl.us/slg/cafr/letterOfTransmittal does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''2500 - CAFR statement of activities, government wide, general revenues'' of role http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''2600 - CAFR statement of activities, government wide, program revenues and expenses'' of role http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[EFM.6.07.12] The definition ''2100 - CAFR statement of net position, government wide, assets and deferred outflows'' of role http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows does not match the expected format. Please check that the definition matches {number} - {type} - {text}. - StPete_StmtNetPos_iXBRL_20190116.html  - StPete_StmtNetPos_iXBRL_20190116.html </Log>
+    <Log type="Error">[cp-0505-Segment-Child-Not-Explicit-Member] There must be no segments with non-explicitDimension content, but 2 was(were) found: xbrldi:explicitMember, xbrldi:explicitMember. - StPete_StmtNetPos_iXBRL_20190116.html 10379</Log>
+    <Log type="Error">[cp-0505-Segment-Child-Not-Explicit-Member] There must be no segments with non-explicitDimension content, but 2 was(were) found: xbrldi:explicitMember, xbrldi:explicitMember. - StPete_StmtNetPos_iXBRL_20190116.html 10367</Log>
+    <Log type="Error">[cp-0505-Segment-Child-Not-Explicit-Member] There must be no segments with non-explicitDimension content, but 1 was(were) found: xbrldi:explicitMember. - StPete_StmtNetPos_iXBRL_20190116.html 10391</Log>
+  </Logs>
   <InputFiles>
-    <File doctype="(Source)" original="StPete_StmtNetPos_iXBRL_20190115.html">StPete_StmtNetPos_iXBRL_20190115.html</File>
+    <File doctype="(Source)" original="StPete_StmtNetPos_iXBRL_20190116.html">StPete_StmtNetPos_iXBRL_20190116.html</File>
   </InputFiles>
   <SupplementalFiles/>
   <BaseTaxonomies>

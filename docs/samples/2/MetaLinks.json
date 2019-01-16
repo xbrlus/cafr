@@ -1,6 +1,6 @@
 {
  "instance": {
-  "VABeach_StmtNetPos_iXBRL_20190115.html": {
+  "VABeach_StmtNetPos_iXBRL_20190116.html": {
    "axisCustom": 0,
    "axisStandard": 2,
    "contextCount": 3,
@@ -17,7 +17,7 @@
     },
     "inline": {
      "local": [
-      "VABeach_StmtNetPos_iXBRL_20190115.html"
+      "VABeach_StmtNetPos_iXBRL_20190116.html"
      ]
     },
     "labelLink": {
@@ -71,6 +71,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
@@ -96,6 +97,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
@@ -117,6 +119,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
@@ -142,6 +145,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
@@ -163,6 +167,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
@@ -188,6 +193,7 @@
        "body",
        "html"
       ],
+      "baseRef": "VABeach_StmtNetPos_iXBRL_20190116.html",
       "contextRef": "c_GovernmentalActivities_AsOf30Jun2018",
       "decimals": "0",
       "first": true,
