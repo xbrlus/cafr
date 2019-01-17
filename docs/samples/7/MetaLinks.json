@@ -1,9 +1,9 @@
 {
  "instance": {
-  "ga-20190116.htm": {
+  "ut-20190117.htm": {
    "axisCustom": 0,
-   "axisStandard": 13,
-   "contextCount": 277,
+   "axisStandard": 10,
+   "contextCount": 141,
    "dts": {
     "calculationLink": {
      "remote": [
@@ -12,7 +12,7 @@
     },
     "definitionLink": {
      "local": [
-      "ga-20190116_def.xml"
+      "ut-20190117_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -20,12 +20,12 @@
     },
     "inline": {
      "local": [
-      "ga-20190116.htm"
+      "ut-20190117.htm"
      ]
     },
     "labelLink": {
      "local": [
-      "ga-20190116_lab.xml"
+      "ut-20190117_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
@@ -33,7 +33,7 @@
     },
     "presentationLink": {
      "local": [
-      "ga-20190116_pre.xml"
+      "ut-20190117_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -46,7 +46,7 @@
     },
     "schema": {
      "local": [
-      "ga-20190116.xsd"
+      "ut-20190117.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -64,60 +64,63 @@
      ]
     }
    },
-   "elementCount": 238,
+   "elementCount": 244,
    "entityCount": 1,
    "hidden": {
     "http://www.xbrl.us/slg/cafr/2019-01-16": 6,
     "total": 6
    },
-   "keyCustom": 1,
+   "keyCustom": 11,
    "keyStandard": 57,
-   "memberCustom": 38,
-   "memberStandard": 28,
-   "nsprefix": "ga",
-   "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+   "memberCustom": 27,
+   "memberStandard": 19,
+   "nsprefix": "ut",
+   "nsuri": "http://www.utah.gov/20190117",
    "report": {
     "R1": {
      "firstAnchor": null,
      "groupType": "",
      "isDefault": "true",
-     "longName": "1000 - CAFR cover",
-     "role": "http://xbrl.us/slg/cafr/cover",
+     "longName": "000001 - Cover (details)",
+     "role": "http://www.utah.gov/role/Coverdetails",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
     },
     "R10": {
-     "firstAnchor": null,
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i29c5b5912410444db12464dfb77d2bf9_D20160701-20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:TaxRevenues",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
      "groupType": "",
      "isDefault": "false",
-     "longName": "400401 - Cover (details)",
-     "role": "http://sao.georgia.gov/role/Coverdetails",
+     "longName": "000010 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
     },
     "R11": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "ibf50bb6065ac435cade22ba0dbc5c08d_I20170630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "cafr:DateOfAuditOpinion",
-      "reportCount": 1,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
+     "firstAnchor": null,
      "groupType": "",
      "isDefault": "false",
-     "longName": "400403 - Audit letter (details)",
-     "role": "http://sao.georgia.gov/role/Auditletterdetails",
+     "longName": "1000 - CAFR cover",
+     "role": "http://xbrl.us/slg/cafr/cover",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
@@ -126,317 +129,36 @@
      "firstAnchor": {
       "ancestors": [
        "span",
-       "td",
-       "tr",
-       "table",
        "div",
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
-      "decimals": "-3",
+      "contextRef": "i19dd3a39a0f145d5bca5151e1cfcf2e7_D20160701-20170630",
+      "decimals": null,
       "first": true,
       "lang": null,
-      "name": "cafr:Assets",
+      "name": "cafr:TypeOfGovernment",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": null,
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "400404 - Statement of net position, assets (details)",
-     "role": "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+     "longName": "1100 - CAFR letter of transmittal",
+     "role": "http://xbrl.us/slg/cafr/letterOfTransmittal",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "ia1233c8b81794164ac75433475cbea47_I20170630",
-      "decimals": "-3",
-      "lang": null,
-      "name": "ga:PooledInvestmentsWithStateTreasury",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
+     "uniqueAnchor": null
     },
     "R13": {
      "firstAnchor": {
       "ancestors": [
        "span",
-       "td",
-       "tr",
-       "table",
        "div",
        "body",
        "html"
       ],
-      "contextRef": "icfecc26a5fb24009962dda5208a5fd99_I20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:Liabilities",
-      "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400405 - Statement of net position, liabilities (details)",
-     "role": "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "i98a67a5d37894306a493f7dd1c85a763_I20170630",
-      "decimals": "-3",
-      "lang": null,
-      "name": "cafr:AccountsPayable",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
-    },
-    "R14": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:NetInvestmentInCapitalAssets",
-      "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400406 - Statement of net position, net position (details)",
-     "role": "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "ib84824d63ef049aab9deaca7767cdc7a_I20170630",
-      "decimals": "-3",
-      "lang": null,
-      "name": "cafr:NetPositionRestricted",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
-    },
-    "R15": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
-      "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400407 - Statement of activities, general revenues (details)",
-     "role": "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R16": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400408 - Statement of activities, program revenues (details)",
-     "role": "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "ia4313d22a58445279e139bff0902f352_D20160701-20170630",
-      "decimals": "-3",
-      "lang": null,
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
-    },
-    "R17": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "i8129f1e78be24c4085e0d24198996e3b_I20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:AccountsPayable",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400409 - Balance sheet, governmental funds (details)",
-     "role": "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "i8129f1e78be24c4085e0d24198996e3b_I20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:AccountsPayable",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
-    },
-    "R18": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "icb68d431edf54f0db5299f21ff4e75aa_D20160701-20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:TransfersIn",
-      "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "400410 - Statement of revenue, governmental funds (details)",
-     "role": "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "iefced699d349423cb47b07c40195fef4_D20160701-20170630",
-      "decimals": "-3",
-      "lang": null,
-      "name": "cafr:OtherFinancingSourcesAndUsesExcludingTransfers",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
-    },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "ibf50bb6065ac435cade22ba0dbc5c08d_I20170630",
+      "contextRef": "i19a65fa9b59f45479a53e2befc41f7db_I20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -453,7 +175,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R3": {
+    "R14": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -464,13 +186,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:Assets",
+      "name": "cafr:CashAndCashEquivalents",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -481,7 +203,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R4": {
+    "R15": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -492,13 +214,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:Liabilities",
+      "name": "cafr:AccountsPayable",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -509,7 +231,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R5": {
+    "R16": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -520,13 +242,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -537,7 +259,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R6": {
+    "R17": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -548,13 +270,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+      "name": "cafr:TaxRevenues",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -565,7 +287,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R7": {
+    "R18": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -576,13 +298,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -601,13 +323,305 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "ie49910a5ec31424f89bc22ea2886db59_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
-      "name": "cafr:ChargesForServices",
+      "name": "cafr:Expenses",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     }
+    },
+    "R19": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:RestrictedFundBalance",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "3100 - CAFR balance sheet, governmental funds",
+     "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R2": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i19a65fa9b59f45479a53e2befc41f7db_I20170630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:DateOfTransmittal",
+      "reportCount": 1,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000002 - CAFR letter of transmittal (details)",
+     "role": "http://www.utah.gov/role/CAFRletteroftransmittaldetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R20": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i29c5b5912410444db12464dfb77d2bf9_D20160701-20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:TaxRevenues",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds",
+     "role": "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R3": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i19dd3a39a0f145d5bca5151e1cfcf2e7_D20160701-20170630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:NameOfAuditFirm",
+      "reportCount": 1,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000003 - CAFR audit letter (details)",
+     "role": "http://www.utah.gov/role/CAFRauditletterdetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R4": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:ReceivablesNet",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000004 - CAFR statement of net position, government wide, assets and deferred outflows (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "decimals": "-3",
+      "lang": null,
+      "name": "ut:LandAndOtherDepreciableAssets",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     }
+    },
+    "R5": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:Liabilities",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000005 - CAFR statement of net position, government wide, liabilities and deferred inflows (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "decimals": "-3",
+      "lang": null,
+      "name": "ut:SecuritiesLending",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     }
+    },
+    "R6": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "cafr:NetInvestmentInCapitalAssets",
+      "reportCount": 1,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000006 - CAFR statement of net position, government wide, net position (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i2cac26e96c0a4f669ad76217ec3ca081_I20170630",
+      "decimals": "-3",
+      "lang": null,
+      "name": "cafr:NetPositionRestricted",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     }
+    },
+    "R7": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "ut:CapitalContributions",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "000007 - CAFR statement of activities, government wide, general revenues (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "ut:CapitalContributions",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -622,20 +636,19 @@
        "body",
        "html"
       ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
+      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:NonspendableFundBalance",
+      "name": "cafr:ChargesForServices",
       "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "3100 - CAFR balance sheet, governmental funds",
-     "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
+     "longName": "000008 - CAFR statement of activities, government wide, program revenues and expenses (details)",
+     "role": "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -648,14 +661,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
+      "contextRef": "i0159b47952204c4fb7e1e2d3c1749897_D20160701-20170630",
       "decimals": "-3",
-      "first": true,
       "lang": null,
-      "name": "cafr:NonspendableFundBalance",
+      "name": "cafr:ChargesForServices",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -670,25 +682,22 @@
        "body",
        "html"
       ],
-      "contextRef": "i93c3077011a54a438f57e3db74ed96af_D20160701-20170630",
+      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:TaxRevenues",
+      "name": "cafr:Assets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds",
-     "role": "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+     "longName": "000009 - CAFR balance sheet, governmental funds (details)",
+     "role": "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R9999": {
-     "firstAnchor": {
+     "uniqueAnchor": {
       "ancestors": [
        "span",
        "td",
@@ -698,25 +707,18 @@
        "body",
        "html"
       ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
+      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
       "decimals": "-3",
-      "first": true,
       "lang": null,
-      "name": "cafr:DeferredInflowsOfResources",
+      "name": "ut:TotalLiabilitiesDeferredInflowsOfResourcesAndFundBalances",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unique": true,
+      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "Uncategorized Items - ga-20190116.htm",
-     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - ga-20190116.htm",
-     "subGroupType": "",
-     "uniqueAnchor": null
+     }
     }
    },
-   "segmentCount": 71,
+   "segmentCount": 51,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [
@@ -747,8 +749,8 @@
      "localname": "AccountsPayable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -777,11 +779,11 @@
      "localname": "AccrualBasisOfAccountingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -810,13 +812,13 @@
      "localname": "ActivityTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -847,13 +849,13 @@
      "localname": "ActivityTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -895,8 +897,9 @@
      "localname": "Assets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -922,7 +925,7 @@
      "localname": "AssetsAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -982,7 +985,7 @@
      "localname": "AssignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1018,7 +1021,7 @@
      "localname": "AuditLetterLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Auditletterdetails",
+      "http://www.utah.gov/role/CAFRauditletterdetails",
       "http://xbrl.us/slg/cafr/auditLetter"
      ],
      "xbrltype": "stringItemType"
@@ -1062,7 +1065,7 @@
      "localname": "AuditOpinion",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Auditletterdetails",
+      "http://www.utah.gov/role/CAFRauditletterdetails",
       "http://xbrl.us/slg/cafr/auditLetter"
      ],
      "xbrltype": "stringItemType"
@@ -1119,7 +1122,7 @@
      "localname": "BalanceSheetLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -1143,13 +1146,13 @@
      "localname": "BasisOfAccountingAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -1180,13 +1183,13 @@
      "localname": "BasisOfAccountingDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -1217,11 +1220,11 @@
      "localname": "BusinessTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -1286,7 +1289,7 @@
      "localname": "CapitalAssetsNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1320,7 +1323,7 @@
      "localname": "CapitalGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -1335,11 +1338,19 @@
         "documentation": "Capital projects funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for capital outlays including the acquisition or construction of capital facilities and other capital assets. Capital projects funds exclude those types of capital-related outflows financed by proprietary funds or for assets that will be held in trust for individuals, private organizations, or other governments. Capital outlays financed from general obligation bond proceeds should be accounted for through a capital projects fund.",
         "label": "Capital Projects Fund [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Capital Projects Fund [Member]",
+        "terseLabel": "Capital Projects Fund [Member]"
+       }
       }
      },
      "localname": "CapitalProjectsFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1364,7 +1375,7 @@
      "localname": "CapitalProjectsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -1398,8 +1409,7 @@
      "localname": "CashAndCashEquivalents",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1412,11 +1422,18 @@
         "documentation": "0",
         "label": "Cash, Basis of Accounting [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Cash, Basis of Accounting [Member]",
+        "terseLabel": "Cash, Basis of Accounting [Member]"
+       }
       }
      },
      "localname": "CashBasisOfAccountingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/cafr/commonAxes"
      ],
      "xbrltype": "domainItemType"
@@ -1443,7 +1460,7 @@
      "localname": "ChangeInNetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -1482,7 +1499,8 @@
      "localname": "ChargesForServices",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1506,8 +1524,9 @@
      "localname": "ClassificationOfDueToDueFromAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1531,8 +1550,9 @@
      "localname": "ClassificationOfDueToDueFromDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1559,8 +1579,8 @@
      "localname": "ClassificationOfFundTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1588,8 +1608,8 @@
      "localname": "ClassificationOfFundTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1603,11 +1623,18 @@
        "role": {
         "label": "Classification of Inflows Outflows [Axis]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Classification of Inflows Outflows [Axis]",
+        "terseLabel": "Classification of Inflows Outflows [Axis]"
+       }
       }
      },
      "localname": "ClassificationOfInflowsOutflowsAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1620,11 +1647,18 @@
        "role": {
         "label": "Classification of Inflows Outflows [Domain]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Classification of Inflows Outflows [Domain]",
+        "terseLabel": "Classification of Inflows Outflows [Domain]"
+       }
       }
      },
      "localname": "ClassificationOfInflowsOutflowsDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1641,14 +1675,14 @@
       "en-US": {
        "role": {
         "label": "Classification of Net Position Restricted [Domain]",
-        "terseLabel": "Classification of Net Position Restricted [Domain]"
+        "terseLabel": "Classification of Net Position, Restricted [Domain]"
        }
       }
      },
      "localname": "ClassificationOfNetPositionRestrictedDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -1671,7 +1705,7 @@
      "localname": "ClassificationOfNetPositionsRestrictedAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -1739,7 +1773,7 @@
      "localname": "CommittedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1765,11 +1799,12 @@
      "localname": "ComponentUnitsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -1795,11 +1830,18 @@
         "documentation": "Amounts remitted to funds whose principal balances may not be legally expended.",
         "label": "Contributions to Permanent Funds"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Contributions to Permanent Funds",
+        "terseLabel": "Contributions to Permanent Funds"
+       }
       }
      },
      "localname": "ContributionsToPermanentFunds",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -1822,7 +1864,7 @@
      "localname": "CoverLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "stringItemType"
@@ -1860,15 +1902,14 @@
       "en-US": {
        "role": {
         "label": "Culture and Recreation [Member]",
-        "terseLabel": "Culture and Recreation [Member]"
+        "terseLabel": "Heritage and Arts [Member]"
        }
       }
      },
      "localname": "CultureAndRecreationMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -1884,11 +1925,18 @@
         "documentation": "Amount of obligations for items that have entered into the operating cycle incurred in the acquisition of materials and supplies to be used in providing services; collections received in advance of the performance of services.",
         "label": "Current [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Current [Member]",
+        "terseLabel": "Current [Member]"
+       }
       }
      },
      "localname": "CurrentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -1913,7 +1961,7 @@
      "localname": "DateOfAuditOpinion",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Auditletterdetails",
+      "http://www.utah.gov/role/CAFRauditletterdetails",
       "http://xbrl.us/slg/cafr/auditLetter"
      ],
      "xbrltype": "dateItemType"
@@ -1936,7 +1984,7 @@
      "localname": "DateOfTransmittal",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Letteroftransmittaldetails",
+      "http://www.utah.gov/role/CAFRletteroftransmittaldetails",
       "http://xbrl.us/slg/cafr/letterOfTransmittal"
      ],
      "xbrltype": "dateItemType"
@@ -1948,11 +1996,18 @@
        "role": {
         "label": "Debt Refunding [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Debt Refunding [Member]",
+        "terseLabel": "Debt Refunding [Member]"
+       }
       }
      },
      "localname": "DebtRefundingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1979,8 +2034,8 @@
      "localname": "DebtServiceFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2008,7 +2063,7 @@
      "localname": "DebtServiceMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -2036,8 +2091,9 @@
      "localname": "DeferredInflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2071,7 +2127,7 @@
      "localname": "DeferredOutflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2094,7 +2150,8 @@
      "localname": "DepreciabilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -2117,7 +2174,8 @@
      "localname": "DepreciabilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -2140,7 +2198,8 @@
      "localname": "DepreciableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -2152,11 +2211,18 @@
        "role": {
         "label": "Derivatives [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Derivatives [Member]",
+        "terseLabel": "Derivatives [Member]"
+       }
       }
      },
      "localname": "DerivativesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -2180,7 +2246,7 @@
      "localname": "DocumentTitle",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "stringItemType"
@@ -2212,8 +2278,8 @@
      "localname": "DueFromRelated",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2245,8 +2311,8 @@
      "localname": "DueToRelatedParty",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2263,14 +2329,14 @@
       "en-US": {
        "role": {
         "label": "Economic Environment [Member]",
-        "terseLabel": "Economic Environment [Member]"
+        "terseLabel": "Community and Economic Loan Programs [Member]"
        }
       }
      },
      "localname": "EconomicEnvironmentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2294,7 +2360,7 @@
      "localname": "EndowmentsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -2338,7 +2404,7 @@
      "localname": "ExpendabilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -2364,7 +2430,7 @@
      "localname": "ExpendabilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -2390,7 +2456,7 @@
      "localname": "ExpendableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -2417,7 +2483,7 @@
      "localname": "Expenditures",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2440,7 +2506,7 @@
      "localname": "ExpendituresAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2465,7 +2531,7 @@
      "localname": "Expenses",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -2488,11 +2554,18 @@
         "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraordinary items should be reported separately at the bottom of the statement of activities.",
         "label": "Extraordinary Items"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Extraordinary Items",
+        "terseLabel": "Extraordinary Items"
+       }
       }
      },
      "localname": "ExtraordinaryItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2524,11 +2597,18 @@
        "role": {
         "label": "Fiduciary Unit [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Fiduciary Unit [Member]",
+        "terseLabel": "Fiduciary Unit [Member]"
+       }
       }
      },
      "localname": "FiduciaryUnitMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -2555,13 +2635,13 @@
      "localname": "FinancialReportingEntityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2594,13 +2674,13 @@
      "localname": "FinancialReportingEntityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2639,7 +2719,7 @@
      "localname": "FinesAndForfeitsRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2662,7 +2742,7 @@
      "localname": "FiscalEndDate",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "dateItemType"
@@ -2685,7 +2765,7 @@
      "localname": "FiscalStartDate",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "dateItemType"
@@ -2708,7 +2788,7 @@
      "localname": "FundBalanceRollForward",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2734,8 +2814,8 @@
      "localname": "GeneralFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2767,11 +2847,18 @@
         "label": "General Revenues",
         "totalLabel": "General Revenues, Total"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "General Revenues",
+        "terseLabel": "General Revenues"
+       }
       }
      },
      "localname": "GeneralRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2797,7 +2884,7 @@
      "localname": "GeneralRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
@@ -2831,7 +2918,7 @@
      "localname": "GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2855,7 +2942,7 @@
      "localname": "GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfersAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
@@ -2876,11 +2963,18 @@
         "documentation": "Revenues obtained from sources other than taxes, charges for services, grants and contributions. This category includes earnings on investments.",
         "label": "General Revenues Other than Tax Revenues"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "General Revenues Other than Tax Revenues",
+        "terseLabel": "General Revenues Other than Tax Revenues"
+       }
       }
      },
      "localname": "GeneralRevenuesOtherThanTaxRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2906,8 +3000,8 @@
      "localname": "GovernmentalFundsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2933,13 +3027,13 @@
      "localname": "GovernmentalTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -3007,7 +3101,7 @@
      "localname": "IncomeStatementGovernmentalFundsLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -3040,11 +3134,18 @@
        "role": {
         "label": "Intangible [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Intangible [Member]",
+        "terseLabel": "Intangible [Member]"
+       }
       }
      },
      "localname": "IntangibleMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -3068,7 +3169,7 @@
      "localname": "InterestAndFiscalChargesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3100,7 +3201,7 @@
      "localname": "IntergovernmentalFundRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3132,7 +3233,7 @@
      "localname": "InternalBalancesAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3185,8 +3286,7 @@
      "localname": "Inventory",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3218,7 +3318,9 @@
      "localname": "InvestmentIncome",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
+      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3252,9 +3354,7 @@
      "localname": "Investments",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3290,7 +3390,7 @@
      "localname": "LetterOfTransmittalLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Letteroftransmittaldetails",
+      "http://www.utah.gov/role/CAFRletteroftransmittaldetails",
       "http://xbrl.us/slg/cafr/letterOfTransmittal"
      ],
      "xbrltype": "stringItemType"
@@ -3348,8 +3448,9 @@
      "localname": "Liabilities",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3375,7 +3476,7 @@
      "localname": "LiabilitiesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "stringItemType"
@@ -3393,11 +3494,18 @@
         "label": "Liabilities and Deferred Inflows",
         "totalLabel": "Liabilities and Deferred Inflows, Total"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Liabilities and Deferred Inflows",
+        "terseLabel": "Liabilities and Deferred Inflows"
+       }
       }
      },
      "localname": "LiabilitiesAndDeferredInflows",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3428,7 +3536,7 @@
      "localname": "LicensesAndPermits",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3454,7 +3562,7 @@
      "localname": "LiquidityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -3482,7 +3590,7 @@
      "localname": "LiquidityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -3508,8 +3616,9 @@
      "localname": "MagnitudeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3535,8 +3644,9 @@
      "localname": "MagnitudeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3562,8 +3672,8 @@
      "localname": "MajorMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3597,7 +3707,7 @@
      "localname": "MiscellaneousRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3621,8 +3731,9 @@
      "localname": "ModifiedAccrualBasisOfAccountingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3637,11 +3748,18 @@
         "documentation": "0",
         "label": "Modified Cash, Basis of Accounting [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Modified Cash, Basis of Accounting [Member]",
+        "terseLabel": "Modified Cash, Basis of Accounting [Member]"
+       }
       }
      },
      "localname": "ModifiedCashBasisOfAccountingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/cafr/commonAxes"
      ],
      "xbrltype": "domainItemType"
@@ -3664,7 +3782,7 @@
      "localname": "NameOfAuditFirm",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Auditletterdetails",
+      "http://www.utah.gov/role/CAFRauditletterdetails",
       "http://xbrl.us/slg/cafr/auditLetter"
      ],
      "xbrltype": "stringItemType"
@@ -3676,11 +3794,19 @@
        "role": {
         "label": "Name of Fund [Axis]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Name of Fund [Axis]",
+        "terseLabel": "Name of Fund [Axis]"
+       }
       }
      },
      "localname": "NameOfFundAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -3693,11 +3819,19 @@
        "role": {
         "label": "Name of Fund [Domain]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Name of Fund [Domain]",
+        "terseLabel": "Name of Fund [Domain]"
+       }
       }
      },
      "localname": "NameOfFundDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -3721,7 +3855,7 @@
      "localname": "NameOfGovernment",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "stringItemType"
@@ -3738,17 +3872,17 @@
       "en-US": {
        "role": {
         "label": "Name of Program or Function [Axis]",
-        "verboseLabel": "Name of Program or Function [Axis]"
+        "terseLabel": "Name of Program or Function [Axis]"
        }
       }
      },
      "localname": "NameOfProgramOrFunctionAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3773,9 +3907,10 @@
      "localname": "NameOfProgramOrFunctionDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3799,7 +3934,7 @@
      "localname": "NameOfState",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Coverdetails",
+      "http://www.utah.gov/role/Coverdetails",
       "http://xbrl.us/slg/cafr/cover"
      ],
      "xbrltype": "stringItemType"
@@ -3811,11 +3946,19 @@
        "role": {
         "label": "Natural Resources [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Natural Resources [Member]",
+        "terseLabel": "Natural Resources [Member]"
+       }
       }
      },
      "localname": "NaturalResourcesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -3840,7 +3983,7 @@
      "localname": "NetChangeInFundBalances",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3872,7 +4015,7 @@
      "localname": "NetInvestmentInCapitalAssets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3895,11 +4038,18 @@
         "documentation": "The government's total liability for Other Post-Employment benefits less the fiduciary net position of OPEB plans in which the government has an interest.",
         "label": "Net OPEB Asset/(Liability)"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Net OPEB Asset/(Liability)",
+        "terseLabel": "Net OPEB Asset/(Liability)"
+       }
       }
      },
      "localname": "NetOpebAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3922,19 +4072,11 @@
         "documentation": "The government's total liability for employee pension benefits less the fiduciary net position of pension plans in which the government has an interest.",
         "label": "Net Pension Asset/(Liability)"
        }
-      },
-      "en-US": {
-       "role": {
-        "label": "Net Pension Asset/(Liability)",
-        "terseLabel": "Net Pension Asset/(Liability)"
-       }
       }
      },
      "localname": "NetPensionAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3980,8 +4122,8 @@
      "localname": "NetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
@@ -4014,7 +4156,7 @@
      "localname": "NetPositionAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -4048,7 +4190,7 @@
      "localname": "NetPositionRestricted",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -4076,7 +4218,7 @@
      "localname": "NetPositionRollForward",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
@@ -4110,7 +4252,7 @@
      "localname": "NetPositionUnrestricted",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -4136,7 +4278,7 @@
      "localname": "NonExpendableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -4168,7 +4310,7 @@
      "localname": "NoncurrentLiabilitiesDueLessThanOneYear",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4200,7 +4342,7 @@
      "localname": "NoncurrentLiabilitiesDueOneYearOrLater",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4226,7 +4368,7 @@
      "localname": "NoncurrentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -4253,7 +4395,8 @@
      "localname": "NondepreciableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -4277,8 +4420,9 @@
      "localname": "NonmajorMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -4292,11 +4436,19 @@
        "role": {
         "label": "Nonrelated Party [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Nonrelated Party [Member]",
+        "terseLabel": "Nonrelated Party [Member]"
+       }
       }
      },
      "localname": "NonrelatedPartyMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4331,7 +4483,7 @@
      "localname": "NonspendableFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4346,11 +4498,18 @@
         "documentation": "Other postemployment benefits (OPEB) are benefits (such as death benefits, life insurance, disability, and long-term care) that are paid in the period after employment and that are provided separately from a pension plan, as well as healthcare benefits paid in the period after employment, regardless of the manner in which they are provided. OPEB does not include termination benefits or termination payments for sick leave.",
         "label": "OPEB [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "OPEB [Member]",
+        "terseLabel": "OPEB [Member]"
+       }
       }
      },
      "localname": "OpebMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4385,7 +4544,7 @@
      "localname": "OperatingGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -4419,8 +4578,7 @@
      "localname": "OtherAssets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4433,11 +4591,18 @@
         "documentation": "0",
         "label": "Other, Basis of Accounting [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Other, Basis of Accounting [Member]",
+        "terseLabel": "Other, Basis of Accounting [Member]"
+       }
       }
      },
      "localname": "OtherBasisOfAccountingMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/cafr/commonAxes"
      ],
      "xbrltype": "domainItemType"
@@ -4450,11 +4615,18 @@
         "label": "Other [Member]",
         "terseLabel": "Other [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Other [Member]",
+        "terseLabel": "Other Classification Of Deferred Inflows Outflows [Member]"
+       }
       }
      },
      "localname": "OtherClassificationOfDeferredInflowsOutflowsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4479,7 +4651,7 @@
      "localname": "OtherClassificationOfNetPositionsRestrictedMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -4503,7 +4675,7 @@
      "localname": "OtherFinancingSourcesAndUsesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -4535,7 +4707,7 @@
      "localname": "OtherFinancingSourcesAndUsesExcludingTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4569,7 +4741,7 @@
      "localname": "OtherFinancingSourcesAndUsesIncludingTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4581,11 +4753,18 @@
        "role": {
         "label": "Other Government [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Other Government [Member]",
+        "terseLabel": "Other Government [Member]"
+       }
       }
      },
      "localname": "OtherGovernmentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4611,8 +4790,8 @@
      "localname": "OtherGovernmentalFundsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -4648,8 +4827,7 @@
      "localname": "OtherLiabilities",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4664,11 +4842,18 @@
         "documentation": "Provision and support of recreational and cultural-scientific facilities and activities including golf courses, play fields, playgrounds, public beaches, swimming pools, tennis courts, parks, auditoriums, stadiums, auto camps, recreation piers, marinas, botanical gardens, galleries, museums, and zoos. Also includes building and operation of convention centers and exhibition halls.",
         "label": "Parks and Recreation [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Parks and Recreation [Member]",
+        "terseLabel": "Parks and Recreation [Member]"
+       }
       }
      },
      "localname": "ParksAndRecreationMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -4681,11 +4866,18 @@
        "role": {
         "label": "Pensions [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Pensions [Member]",
+        "terseLabel": "Pensions [Member]"
+       }
       }
      },
      "localname": "PensionsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4701,11 +4893,19 @@
         "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds, which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
         "label": "Permanent Fund [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Permanent Fund [Member]",
+        "terseLabel": "Permanent Fund [Member]"
+       }
       }
      },
      "localname": "PermanentFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -4741,7 +4941,7 @@
      "localname": "PrepaidItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4767,13 +4967,13 @@
      "localname": "PrimaryGovernmentActivitiesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -4793,11 +4993,18 @@
         "documentation": "0",
         "label": "Principal [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Principal [Member]",
+        "terseLabel": "Principal [Member]"
+       }
       }
      },
      "localname": "PrincipalMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -4814,12 +5021,21 @@
         "documentation": "0",
         "label": "Prior Period Adjustments"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Prior Period Adjustments",
+        "terseLabel": "Prior Period Adjustments"
+       }
       }
      },
      "localname": "PriorPeriodAdjustments",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
+      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
+      "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -4854,7 +5070,7 @@
      "localname": "ProgramRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -4880,7 +5096,7 @@
      "localname": "ProgramRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "stringItemType"
@@ -4922,11 +5138,18 @@
         "documentation": "Taxes conditioned on ownership of property and measured by its value. Includes general property taxes related to property as a whole, real and personal, tangible or intangible, whether taxed at a single rate or at classified rates, and taxes on selected types of property, such as motor vehicles, or on certain or all intangibles.",
         "label": "Property Taxes [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Property Taxes [Member]",
+        "terseLabel": "Property Taxes [Member]"
+       }
       }
      },
      "localname": "PropertyTaxesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4960,11 +5183,18 @@
         "documentation": "0",
         "label": "Public Works [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Public Works [Member]",
+        "terseLabel": "Public Works [Member]"
+       }
       }
      },
      "localname": "PublicWorksMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -4997,8 +5227,7 @@
      "localname": "ReceivablesNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -5021,8 +5250,8 @@
      "localname": "RelatedPartyMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5046,8 +5275,8 @@
      "localname": "ReportingRelationshipAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5071,8 +5300,8 @@
      "localname": "ReportingRelationshipDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5099,9 +5328,8 @@
      "localname": "RestrictedAssetOrLiabilityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5136,7 +5364,7 @@
      "localname": "RestrictedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -5162,9 +5390,8 @@
      "localname": "RestrictionOfAssetOrLiabilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5191,9 +5418,8 @@
      "localname": "RestrictionOfAssetOrLiabilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5234,7 +5460,7 @@
      "localname": "Revenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -5257,7 +5483,7 @@
      "localname": "RevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -5280,11 +5506,18 @@
         "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management.",
         "label": "Special Items"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Special Items",
+        "terseLabel": "Special Items"
+       }
       }
      },
      "localname": "SpecialItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -5299,11 +5532,19 @@
         "documentation": "Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund. A stabilization arrangement would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund. Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
         "label": "Special Revenue Fund [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Special Revenue Fund [Member]",
+        "terseLabel": "Special Revenue Fund [Member]"
+       }
       }
      },
      "localname": "SpecialRevenueFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -5371,8 +5612,8 @@
      "localname": "StatementOfActivitiesLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -5448,9 +5689,9 @@
      "localname": "StatementOfNetPositionLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -5500,11 +5741,18 @@
        "role": {
         "label": "Tangibility [Axis]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Tangibility [Axis]",
+        "terseLabel": "Tangibility [Axis]"
+       }
       }
      },
      "localname": "TangibilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -5516,11 +5764,18 @@
        "role": {
         "label": "Tangibility [Domain]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Tangibility [Domain]",
+        "terseLabel": "Tangibility [Domain]"
+       }
       }
      },
      "localname": "TangibilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -5532,11 +5787,18 @@
        "role": {
         "label": "Tangible [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Tangible [Member]",
+        "terseLabel": "Tangible [Member]"
+       }
       }
      },
      "localname": "TangibleMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -5573,7 +5835,8 @@
      "localname": "TaxRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -5605,6 +5868,8 @@
       "en-US": {
        "role": {
         "label": "Fund Balance",
+        "periodEndLabel": "Fund Balance, Ending Balance",
+        "periodStartLabel": "Fund Balance, Beginning Balance",
         "terseLabel": "Fund Balance"
        }
       }
@@ -5612,8 +5877,8 @@
      "localname": "TotalFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -5646,7 +5911,7 @@
      "localname": "TransfersIn",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -5667,11 +5932,18 @@
         "documentation": "0",
         "label": "Transfers, Net"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Transfers, Net",
+        "terseLabel": "Transfers, Net"
+       }
       }
      },
      "localname": "TransfersNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -5703,7 +5975,7 @@
      "localname": "TransfersOut",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -5726,7 +5998,7 @@
      "localname": "TypeOfGovernment",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Letteroftransmittaldetails",
+      "http://www.utah.gov/role/CAFRletteroftransmittaldetails",
       "http://xbrl.us/slg/cafr/letterOfTransmittal"
      ],
      "xbrltype": "stringItemType"
@@ -5760,7 +6032,7 @@
      "localname": "UnassignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -5794,8 +6066,8 @@
      "localname": "UnearnedRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -5811,16 +6083,15 @@
       "en-US": {
        "role": {
         "label": "Unemployment Programs [Member]",
-        "terseLabel": "Unemployment Programs [Member]",
-        "verboseLabel": "Unemployment Compensation [Member]"
+        "terseLabel": "Unemployment Compensation [Member]"
        }
       }
      },
      "localname": "UnemploymentProgramsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -5845,362 +6116,289 @@
      "localname": "UnrestrictedAssetOrLiabilityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_AccruedInterestMember": {
+    "ut_AccumulatedDepreciation": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Accumulated Depreciation",
+        "label": "Accumulated Depreciation",
+        "terseLabel": "Accumulated Depreciation"
+       }
+      }
+     },
+     "localname": "AccumulatedDepreciation",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_BuildingsEquipmentAndOtherDepreciableAssets": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Buildings, Equipment, and Other Depreciable Assets",
+        "label": "Buildings, Equipment, and Other Depreciable Assets",
+        "terseLabel": "Buildings, Equipment, and Other Depreciable Assets"
+       }
+      }
+     },
+     "localname": "BuildingsEquipmentAndOtherDepreciableAssets",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_BusinessLaborAndAgricultureMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Accrued interest.",
-        "label": "Accrued Interest [Member]",
-        "terseLabel": "Accrued Interest [Member]"
+        "documentation": "Business, labor, and agriculture.",
+        "label": "Business, Labor, and Agriculture [Member]",
+        "terseLabel": "Business, Labor, and Agriculture [Member]"
        }
       }
      },
-     "localname": "AccruedInterestMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "BusinessLaborAndAgricultureMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_BenefitsMember": {
+    "ut_CapitalContributions": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Capital Contributions",
+        "label": "Capital Contributions",
+        "terseLabel": "Capital Contributions"
+       }
+      }
+     },
+     "localname": "CapitalContributions",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_CapitalLeasePaymentsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Benefits.",
-        "label": "Benefits",
-        "terseLabel": "Benefits"
+        "documentation": "Capital Lease Payments",
+        "label": "Capital Lease Payments [Member]",
+        "terseLabel": "Capital Lease Payments [Member]"
        }
       }
      },
-     "localname": "BenefitsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "CapitalLeasePaymentsMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_CapitalLeasesMember": {
+    "ut_ChargesForServicesRevenue": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "label": "Charges for Services Revenue",
+        "terseLabel": "Charges for Services Revenue"
+       }
+      }
+     },
+     "localname": "ChargesForServicesRevenue",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_ConstructionInProgress": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Construction In Progress",
+        "label": "Construction In Progress",
+        "terseLabel": "Construction In Progress"
+       }
+      }
+     },
+     "localname": "ConstructionInProgress",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_CorpIncTaxEducationMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Capital Leases [Member]",
-        "label": "Capital Leases [Member]",
-        "terseLabel": "Capital Leases [Member]"
+        "documentation": "Corporate Income Tax Imposed for Education",
+        "label": "Corp Inc Tax Education [Member]",
+        "terseLabel": "Corp Inc Tax Education [Member]"
        }
       }
      },
-     "localname": "CapitalLeasesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "CorpIncTaxEducationMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_CapitalOutlayMember": {
+    "ut_CorrectionsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Capital Outlay [Member]",
-        "label": "Capital Outlay [Member]",
-        "terseLabel": "Capital Outlay [Member]"
+        "documentation": "Corrections.",
+        "label": "Corrections [Member]",
+        "terseLabel": "Corrections [Member]"
        }
       }
      },
-     "localname": "CapitalOutlayMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "CorrectionsMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_ClaimsAndJudgmentsMember": {
+    "ut_Courts": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Claims and judgments.",
-        "label": "Claims and Judgments [Member]",
-        "terseLabel": "Claims and Judgments [Member]"
+        "documentation": "Courts.",
+        "label": "Courts",
+        "terseLabel": "Courts"
        }
       }
      },
-     "localname": "ClaimsAndJudgmentsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "Courts",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_ConservationMember": {
+    "ut_Deposits": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Deposits",
+        "label": "Deposits",
+        "terseLabel": "Deposits"
+       }
+      }
+     },
+     "localname": "Deposits",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_EducationPublicAndHigherMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Conservation.",
-        "label": "Conservation [Member]",
-        "terseLabel": "Conservation [Member]"
+        "documentation": "Education - Public and Higher [Member]",
+        "label": "Education - Public and Higher [Member]",
+        "terseLabel": "Education - Public and Higher [Member]"
        }
       }
      },
-     "localname": "ConservationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "EducationPublicAndHigherMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_ContractsMember": {
+    "ut_EmploymentAndFamilyServicesMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Contracts.",
-        "label": "Contracts [Member]",
-        "terseLabel": "Contracts [Member]"
+        "documentation": "Employment and family services.",
+        "label": "Employment and Family Services [Member]",
+        "terseLabel": "Employment and Family Services [Member]"
        }
       }
      },
-     "localname": "ContractsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "EmploymentAndFamilyServicesMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_DebtIssuanceGeneralObligationBondsMember": {
+    "ut_FundBalancesBeginningAsAdjusted": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Debt Issuance - General Obligation Bonds [Member]",
-        "label": "Debt Issuance - General Obligation Bonds [Member]",
-        "terseLabel": "Debt Issuance - General Obligation Bonds [Member]"
+        "documentation": "Fund Balances - Beginning As Adjusted",
+        "label": "Fund Balances - Beginning As Adjusted",
+        "terseLabel": "Fund Balances - Beginning As Adjusted"
        }
       }
      },
-     "localname": "DebtIssuanceGeneralObligationBondsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "FundBalancesBeginningAsAdjusted",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
+      "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
-     "xbrltype": "domainItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "ga_DebtIssuanceGeneralObligationBondsPremiumMember": {
+    "ut_GainOnSaleOfCapitalAssetsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Debt Issuance - General Obligation Bonds Premium [Member]",
-        "label": "Debt Issuance - General Obligation Bonds Premium [Member]",
-        "terseLabel": "Debt Issuance - General Obligation Bonds Premium [Member]"
+        "documentation": "Gain on Sale of Capital Assets [Member]",
+        "label": "Gain on Sale of Capital Assets [Member]",
+        "terseLabel": "Gain on Sale of Capital Assets [Member]"
        }
       }
      },
-     "localname": "DebtIssuanceGeneralObligationBondsPremiumMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "GainOnSaleOfCapitalAssetsMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_DebtIssuanceOtherMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Issuance - Other [Member]",
-        "label": "Debt Issuance - Other [Member]",
-        "terseLabel": "Debt Issuance - Other [Member]"
-       }
-      }
-     },
-     "localname": "DebtIssuanceOtherMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_DebtIssuanceRefundingBondsMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Issuance - Refunding Bonds [Member]",
-        "label": "Debt Issuance - Refunding Bonds [Member]",
-        "terseLabel": "Debt Issuance - Refunding Bonds [Member]"
-       }
-      }
-     },
-     "localname": "DebtIssuanceRefundingBondsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_DebtIssuanceRefundingBondsPremiumMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Issuance - Refunding Bonds Premium [Member]",
-        "label": "Debt Issuance - Refunding Bonds Premium [Member]",
-        "terseLabel": "Debt Issuance - Refunding Bonds Premium [Member]"
-       }
-      }
-     },
-     "localname": "DebtIssuanceRefundingBondsPremiumMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_DebtServiceInterestMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Service - Interest [Member]",
-        "label": "Debt Service - Interest [Member]",
-        "terseLabel": "Debt Service - Interest [Member]"
-       }
-      }
-     },
-     "localname": "DebtServiceInterestMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_DebtServiceOtherMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Service - Interest [Member] restricted to Debt Service Expense other than Principal or Interest",
-        "label": "Debt Service - Other [Member]",
-        "terseLabel": "Debt Service - Other [Member]"
-       }
-      }
-     },
-     "localname": "DebtServiceOtherMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_DebtServicePrincipalMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Debt Service - Principal [Member]",
-        "label": "Debt Service - Principal [Member]",
-        "terseLabel": "Debt Service - Principal [Member]"
-       }
-      }
-     },
-     "localname": "DebtServicePrincipalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_EconomicDevelopmentAndAssistanceMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Economic development and assistance.",
-        "label": "Economic Development and Assistance [Member]",
-        "terseLabel": "Economic Development and Assistance [Member]"
-       }
-      }
-     },
-     "localname": "EconomicDevelopmentAndAssistanceMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_EducationMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to education.",
-        "label": "Education [Member]",
-        "terseLabel": "Education [Member]"
-       }
-      }
-     },
-     "localname": "EducationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_FederalMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Federal [Member]",
-        "label": "Federal [Member]",
-        "terseLabel": "Federal [Member]"
-       }
-      }
-     },
-     "localname": "FederalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_FundsHeldForOthersMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Funds held for others.",
-        "label": "Funds Held for Others [Member]",
-        "terseLabel": "Funds Held for Others [Member]"
-       }
-      }
-     },
-     "localname": "FundsHeldForOthersMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_GeneralGovernmentMember": {
+    "ut_GeneralGovernmentMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
@@ -6212,305 +6410,377 @@
       }
      },
      "localname": "GeneralGovernmentMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_GuaranteedRevenueDebtCommonReserveFundMember": {
+    "ut_HealthAndEnvironmentalQualityMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Restricted to guaranteed revenue debt common reserve fund.",
-        "label": "Guaranteed Revenue Debt Common Reserve Fund [Member]",
-        "terseLabel": "Guaranteed Revenue Debt Common Reserve Fund [Member]"
+        "documentation": "Health and environmental quality.",
+        "label": "Health and Environmental Quality [Member]",
+        "terseLabel": "Health and Environmental Quality [Member]"
        }
       }
      },
-     "localname": "GuaranteedRevenueDebtCommonReserveFundMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "HealthAndEnvironmentalQualityMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_HealthAndWelfareMember": {
+    "ut_HigherEducationMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Health and Welfare [Member]",
-        "label": "Health and Welfare [Member]",
-        "terseLabel": "Health and Welfare [Member]"
-       }
-      }
-     },
-     "localname": "HealthAndWelfareMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_HigherEducationMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to higher education.",
+        "documentation": "Higher Education [Member]",
         "label": "Higher Education [Member]",
         "terseLabel": "Higher Education [Member]"
        }
       }
      },
      "localname": "HigherEducationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_HighwaysAndStreetsMember": {
+    "ut_HighwaysAndStreetsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
         "label": "Highways and Streets [Member]",
-        "terseLabel": "Highway and Streets [Member]"
+        "terseLabel": "Highways and Streets [Member]"
        }
       }
      },
      "localname": "HighwaysAndStreetsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_HospitalMember": {
+    "ut_HumanServicesAndJuvenileJusticeServicesMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Hospital Provider Revenue or Expense",
-        "label": "Hospital [Member]",
-        "terseLabel": "Hospital [Member]"
+        "documentation": "Human services and juvenile justice services.",
+        "label": "Human Services and Juvenile Justice Services [Member]",
+        "terseLabel": "Human Services and Juvenile Justice Services [Member]"
        }
       }
      },
-     "localname": "HospitalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "HumanServicesAndJuvenileJusticeServicesMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_IntergovernmentalMember": {
+    "ut_IndIncTaxEducationMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Intergovernmental [Member]",
-        "label": "Intergovernmental [Member]",
-        "terseLabel": "Intergovernmental [Member]"
+        "documentation": "Individual Income Tax Imposed for Education",
+        "label": "Ind Inc Tax Education [Member]",
+        "terseLabel": "Ind Inc Tax Education [Member]"
        }
       }
      },
-     "localname": "IntergovernmentalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "IndIncTaxEducationMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_LoanAndGrantProgramsMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to loan and grant programs.",
-        "label": "Loan and Grant Programs [Member]",
-        "terseLabel": "Loan and Grant Programs [Member]"
-       }
-      }
-     },
-     "localname": "LoanAndGrantProgramsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_LocalEducationAgenciesMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "",
-        "label": "Local Education Agencies [Member]",
-        "terseLabel": "Local Education Agencies [Member]"
-       }
-      }
-     },
-     "localname": "LocalEducationAgenciesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_LotteryMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to lottery for education.",
-        "label": "Lottery [Member]",
-        "terseLabel": "Lottery for Education [Member]"
-       }
-      }
-     },
-     "localname": "LotteryMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_MotorFuelTaxFundsMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to motor fuel tax funds.",
-        "label": "Motor Fuel Tax Funds [Member]",
-        "terseLabel": "Motor Fuel Tax Funds [Member]"
-       }
-      }
-     },
-     "localname": "MotorFuelTaxFundsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_NursingHomeMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Nursing Home Provider Fees or Revenue",
-        "label": "Nursing Home [Member]",
-        "terseLabel": "Nursing Home [Member]"
-       }
-      }
-     },
-     "localname": "NursingHomeMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_OtherBenefitsMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Restricted to other benefits.",
-        "label": "Other Benefits [Member]",
-        "terseLabel": "Other Benefits [Member]"
-       }
-      }
-     },
-     "localname": "OtherBenefitsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_OtherBusinessTypeActivitiesMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Other business type activities.",
-        "label": "Other Business Type Activities [Member]",
-        "terseLabel": "Other Business Type Activities [Member]"
-       }
-      }
-     },
-     "localname": "OtherBusinessTypeActivitiesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_PaymentToRefundedBondEscrowAgentMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Payment to Refunded Bond Escrow Agent [Member]",
-        "label": "Payment to Refunded Bond Escrow Agent [Member]",
-        "terseLabel": "Payment to Refunded Bond Escrow Agent [Member]"
-       }
-      }
-     },
-     "localname": "PaymentToRefundedBondEscrowAgentMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
-     "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ga_PooledInvestmentsWithStateTreasury": {
+    "ut_Infrastructure": {
      "auth_ref": [],
      "crdr": "debit",
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Asset Member - Pooled Investments with State Treasury",
-        "label": "Pooled Investments with State Treasury",
-        "terseLabel": "Pooled Investments with State Treasury"
+        "documentation": "Infrastructure",
+        "label": "Infrastructure",
+        "terseLabel": "Infrastructure"
        }
       }
      },
-     "localname": "PooledInvestmentsWithStateTreasury",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "Infrastructure",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails"
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "ga_PooledWithStateTreasurerMember": {
+    "ut_InventoriesMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Pooled with State Treasurer [Member]",
-        "label": "Pooled with State Treasurer [Member]",
-        "terseLabel": "Pooled with State Treasurer [Member]"
+        "documentation": "Inventories [Member]",
+        "label": "Inventories [Member]",
+        "terseLabel": "Inventories [Member]"
        }
       }
      },
-     "localname": "PooledWithStateTreasurerMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "InventoriesMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_PublicSafetyMember": {
+    "ut_LandAndOtherDepreciableAssets": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Land and Other Depreciable Assets",
+        "label": "Land and Other Depreciable Assets",
+        "terseLabel": "Land and Other Depreciable Assets"
+       }
+      }
+     },
+     "localname": "LandAndOtherDepreciableAssets",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_LiquorRetailSalesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Liquor retail sales.",
+        "label": "Liquor Retail Sales [Member]",
+        "terseLabel": "Liquor Retail Sales [Member]"
+       }
+      }
+     },
+     "localname": "LiquorRetailSalesMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_LoanProgramsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Loan Programs",
+        "label": "Loan Programs [Member]",
+        "terseLabel": "Loan Programs [Member]"
+       }
+      }
+     },
+     "localname": "LoanProgramsMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_LongtermPortionOfInterfundLoansReceivableMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Long-term Portion of Interfund Loans Receivable [Member]",
+        "label": "Long-term Portion of Interfund Loans Receivable [Member]",
+        "terseLabel": "Long-term Portion of Interfund Loans Receivable [Member]"
+       }
+      }
+     },
+     "localname": "LongtermPortionOfInterfundLoansReceivableMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_MiscellaneousMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Miscellaneous [Member]",
+        "label": "Miscellaneous [Member]",
+        "terseLabel": "Miscellaneous [Member]"
+       }
+      }
+     },
+     "localname": "MiscellaneousMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_NetPositionBeginningAsAdjusted": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Net Position\u2014Beginning as Adjusted (Net Position plus/minus prior period adj, special or extraordinary items)",
+        "label": "Net Position\u2014Beginning as Adjusted",
+        "terseLabel": "Net Position\u2014Beginning as Adjusted"
+       }
+      }
+     },
+     "localname": "NetPositionBeginningAsAdjusted",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_NotesLoansMortgagesPledgesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Notes/Loans/Mortgages/Pledges",
+        "label": "Notes/Loans/Mortgages/Pledges [Member]",
+        "terseLabel": "Notes/Loans/Mortgages/Pledges [Member]"
+       }
+      }
+     },
+     "localname": "NotesLoansMortgagesPledgesMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_OtherFundsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Other Funds [Member]",
+        "label": "Other Funds [Member]",
+        "terseLabel": "Other Funds [Member]"
+       }
+      }
+     },
+     "localname": "OtherFundsMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_OtherMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Other",
+        "label": "Other [Member]",
+        "terseLabel": "Other [Member]"
+       }
+      }
+     },
+     "localname": "OtherMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_PermanentFundPrincipalMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Permanent Fund Principal [Member]",
+        "label": "Permanent Fund Principal [Member]",
+        "terseLabel": "Permanent Fund Principal [Member]"
+       }
+      }
+     },
+     "localname": "PermanentFundPrincipalMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_PledgedLoansMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Pledged Loans",
+        "label": "Pledged Loans [Member]",
+        "terseLabel": "Pledged Loans [Member]"
+       }
+      }
+     },
+     "localname": "PledgedLoansMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_PrepaidItemsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Prepaid Items [Member]",
+        "label": "Prepaid Items [Member]",
+        "terseLabel": "Prepaid Items [Member]"
+       }
+      }
+     },
+     "localname": "PrepaidItemsMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_PublicEducationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Public Education [Member]",
+        "label": "Public Education [Member]",
+        "terseLabel": "Public Education [Member]"
+       }
+      }
+     },
+     "localname": "PublicEducationMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_PublicSafetyMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
@@ -6522,83 +6792,193 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_StateHealthBenefitPlanMember": {
+    "ut_SalesAndUseTaxMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "State health benefit plan.",
-        "label": "State Health Benefit Plan [Member]",
-        "terseLabel": "State Health Benefit Plan [Member]"
+        "documentation": "Sales and Use Tax [Member]",
+        "label": "Sales and Use Tax [Member]",
+        "terseLabel": "Sales and Use Tax [Member]"
        }
       }
      },
-     "localname": "StateHealthBenefitPlanMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "SalesAndUseTaxMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_TransportationMember": {
+    "ut_SecuritiesLending": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Securities Lending",
+        "label": "Securities Lending",
+        "terseLabel": "Securities Lending"
+       }
+      }
+     },
+     "localname": "SecuritiesLending",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_StateFundingForCollegesAndUniversitiesMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Transportation.",
+        "documentation": "State Funding for Colleges and Universities [Member]",
+        "label": "State Funding for Colleges and Universities [Member]",
+        "terseLabel": "State Funding for Colleges and Universities [Member]"
+       }
+      }
+     },
+     "localname": "StateFundingForCollegesAndUniversitiesMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_StateFundingForComponentUnitsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "State Funding for Component Units [Member]",
+        "label": "State Funding for Component Units [Member]",
+        "terseLabel": "State Funding for Component Units [Member]"
+       }
+      }
+     },
+     "localname": "StateFundingForComponentUnitsMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_StudentAssistanceProgramsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Student assistance programs.",
+        "label": "Student Assistance Programs [Member]",
+        "terseLabel": "Student Assistance Programs [Member]"
+       }
+      }
+     },
+     "localname": "StudentAssistanceProgramsMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_TaxMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Tax [Member]",
+        "label": "Tax [Member]",
+        "terseLabel": "Tax [Member]"
+       }
+      }
+     },
+     "localname": "TaxMember",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "ut_TotalLiabilitiesDeferredInflowsOfResourcesAndFundBalances": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Total Liabilities, Deferred Inflows of Resources, and Fund Balances",
+        "label": "Total Liabilities, Deferred Inflows of Resources, and Fund Balances",
+        "terseLabel": "Total Liabilities, Deferred Inflows of Resources, and Fund Balances"
+       }
+      }
+     },
+     "localname": "TotalLiabilitiesDeferredInflowsOfResourcesAndFundBalances",
+     "nsuri": "http://www.utah.gov/20190117",
+     "presentation": [
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "ut_TransportationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en-US": {
+       "role": {
+        "documentation": "Transportation [Member]",
         "label": "Transportation [Member]",
         "terseLabel": "Transportation [Member]"
        }
       }
      },
      "localname": "TransportationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
+      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_UnclaimedPropertyMember": {
+    "ut_TrustLandsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Unclaimed Property [Member]",
-        "label": "Unclaimed Property [Member]",
-        "terseLabel": "Unclaimed Property [Member]"
+        "documentation": "Trust Lands [Member]",
+        "label": "Trust Lands [Member]",
+        "terseLabel": "Trust Lands [Member]"
        }
       }
      },
-     "localname": "UnclaimedPropertyMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "TrustLandsMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
      "xbrltype": "domainItemType"
     },
-    "ga_UndistributedLocalGovernmentSalesTaxMember": {
+    "ut_WaterLoanProgramsMember": {
      "auth_ref": [],
      "lang": {
       "en-US": {
        "role": {
-        "documentation": "Undistributed Local Government Sales Tax",
-        "label": "Undistributed Local Government Sales Tax [Member]",
-        "terseLabel": "Undistributed Local Government Sales Tax [Member]"
+        "documentation": "Water loan programs",
+        "label": "Water Loan Programs [Member]",
+        "terseLabel": "Water Loan Programs [Member]"
        }
       }
      },
-     "localname": "UndistributedLocalGovernmentSalesTaxMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "localname": "WaterLoanProgramsMember",
+     "nsuri": "http://www.utah.gov/20190117",
      "presentation": [
-      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails"
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
     }
