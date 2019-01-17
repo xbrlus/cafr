@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:va-t-ashl="http://www.town.ashland.va.us/20170630"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef xlink:href="va-t-ashl-20170630.xsd" xlink:type="simple"/>
+    <context id="AS_OF_30June2017">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_InfrastructureMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:InfrastructureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_SoftwareMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:SoftwareMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_BuildingsAndImprovementsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:BuildingsAndImprovementsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_LandMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:LandMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GeneralFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_CapitalProjectsFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GovernmentalFundsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GeneralFundMember_PropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PropertyTaxesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GeneralFundMember_OtherClassificationOfDeferredInflowsOutflowsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:OtherClassificationOfDeferredInflowsOutflowsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GovernmentalFundsMember_OtherClassificationOfDeferredInflowsOutflowsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:OtherClassificationOfDeferredInflowsOutflowsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GeneralFundMember_OtherGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GovernmentalFundsMember_OtherGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_GovernmentalFundsMember_PropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PropertyTaxesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_CapitalProjectsFundMember_OtherGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfDueToDueFromAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_MachineryAndEquipmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:MachineryAndEquipmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PensionsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PensionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_GeneralGovernmentAdministrationMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:GeneralGovernmentAdministrationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:PublicSafetyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">cafr:PublicWorksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ParksRecreationAndCulturalMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:ParksRecreationAndCulturalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_CommunityDevelopmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:CommunityDevelopmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:BusinessTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_ComponentUnitsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2016_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2016_ComponentUnitsMember_BusinessTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:BusinessTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_ComponentUnitsMember_BusinessTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:BusinessTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_GeneralPropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:GeneralPropertyTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ContributionsFromPrimaryGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:ContributionsFromPrimaryGovernmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_TransientOccupancyMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:TransientOccupancyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_BusinessLicenseMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:BusinessLicenseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_MealsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:MealsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_LocalSalesAndUseMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:LocalSalesAndUseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:OtherLocalTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember_ContributionsFromPrimaryGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:ContributionsFromPrimaryGovernmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:BusinessTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2016_GeneralFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_CapitalProjectsFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id=" AS_OF_30June2016_CapitalProjectsFundMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_ComponentUnitsMember_EconomicDevelopmentAuthorityMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:NameOfComponentUnitAxis">va-t-ashl:EconomicDevelopmentAuthorityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2016_GovernmentalFundsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_GeneralPropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:GeneralPropertyTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_OtherLocalTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:OtherLocalTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_OtherLocalTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:OtherLocalTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_GeneralPropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:ClassificationOfGeneralRevenueAxis">va-t-ashl:GeneralPropertyTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_GeneralGovernmentAdministrationMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:GeneralGovernmentAdministrationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_PublicSafetyMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:PublicSafetyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_PublicWorksMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:PublicSafetyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_ParksRecreationAndCulturalMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:ParksRecreationAndCulturalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PropertyTaxesMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PropertyTaxesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="FYE_2017_GeneralFundMember_CommunityDdevelopmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:CommunityDevelopmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_CapitalProjectsFundMember_CapitalProjectsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:CapitalProjectsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_GeneralGovernmentAdministrationMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:GeneralGovernmentAdministrationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_PublicSafetyMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:PublicSafetyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_PublicWorksMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">cafr:PublicWorksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_ParksRecreationAndCulturalMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:ParksRecreationAndCulturalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_CommunityDdevelopmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:CommunityDevelopmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="FYE_2017_GovernmentalFundsMember_CapitalProjectsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:NameOfProgramOrFunctionAxis">va-t-ashl:CapitalProjectsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2016-07-01</startDate>
+            <endDate>2017-06-30</endDate>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherClassificationOfDeferredInflowsOutflowsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:OtherClassificationOfDeferredInflowsOutflowsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfDueToDueFromAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ConstructionInProgressMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">14300900200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-t-ashl:CapitalAssetsAxis">va-t-ashl:ConstructionInProgressMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <cafr:CashAndCashEquivalents
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">9199392</cafr:CashAndCashEquivalents>
+    <cafr:CashAndCashEquivalents
+      contextRef="AS_OF_30June2017_ComponentUnitsMember_EconomicDevelopmentAuthorityMember"
+      decimals="0"
+      unitRef="USD">272768</cafr:CashAndCashEquivalents>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">187294</cafr:ReceivablesNet>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherClassificationOfDeferredInflowsOutflowsMember"
+      decimals="0"
+      unitRef="USD">264928</cafr:ReceivablesNet>
+    <cafr:DueFromRelated
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">199532</cafr:DueFromRelated>
+    <cafr:PrepaidItems
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">210244</cafr:PrepaidItems>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_LandMember"
+      decimals="0"
+      unitRef="USD">2542575</cafr:CapitalAssetsNet>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_BuildingsAndImprovementsMember"
+      decimals="0"
+      unitRef="USD">2447221</cafr:CapitalAssetsNet>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_MachineryAndEquipmentMember"
+      decimals="0"
+      unitRef="USD">3015626</cafr:CapitalAssetsNet>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_InfrastructureMember"
+      decimals="0"
+      unitRef="USD">19888843</cafr:CapitalAssetsNet>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_SoftwareMember"
+      decimals="0"
+      unitRef="USD">193410</cafr:CapitalAssetsNet>
+    <cafr:CapitalAssetsNet
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ConstructionInProgressMember"
+      decimals="0"
+      unitRef="USD">1041526</cafr:CapitalAssetsNet>
+    <va-t-ashl:AccumulatedDepreciationAndAmortizationCapitalAssets
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">-10376982</va-t-ashl:AccumulatedDepreciationAndAmortizationCapitalAssets>
+    <cafr:Assets
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">28813609</cafr:Assets>
+    <cafr:Assets
+      contextRef="AS_OF_30June2017_ComponentUnitsMember_EconomicDevelopmentAuthorityMember"
+      decimals="0"
+      unitRef="USD">272768</cafr:Assets>
+    <cafr:DeferredOutflowsOfResources
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PensionsMember"
+      decimals="0"
+      unitRef="USD">660687</cafr:DeferredOutflowsOfResources>
+    <cafr:AccountsPayable
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">199891</cafr:AccountsPayable>
+    <va-t-ashl:AccruedPayrollAndBenefits
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">175512</va-t-ashl:AccruedPayrollAndBenefits>
+    <cafr:DueToRelatedParty
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">2007</cafr:DueToRelatedParty>
+    <cafr:UnearnedRevenue
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">9559</cafr:UnearnedRevenue>
+    <va-t-ashl:PerformanceBondPayable
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">77710</va-t-ashl:PerformanceBondPayable>
+    <cafr:NoncurrentLiabilitiesDueLessThanOneYear
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">42252</cafr:NoncurrentLiabilitiesDueLessThanOneYear>
+    <cafr:NoncurrentLiabilitiesDueOneYearOrLater
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">380268</cafr:NoncurrentLiabilitiesDueOneYearOrLater>
+    <va-t-ashl:NetPensionLiability
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">1479718</va-t-ashl:NetPensionLiability>
+    <cafr:Liabilities
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">2366917</cafr:Liabilities>
+    <cafr:DeferredInflowsOfResources
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PensionsMember"
+      decimals="0"
+      unitRef="USD">267547</cafr:DeferredInflowsOfResources>
+    <cafr:NetInvestmentInCapitalAssets
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">18752219</cafr:NetInvestmentInCapitalAssets>
+    <cafr:NetPositionUnrestricted
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">8087613</cafr:NetPositionUnrestricted>
+    <cafr:NetPositionUnrestricted
+      contextRef="AS_OF_30June2017_ComponentUnitsMember_EconomicDevelopmentAuthorityMember"
+      decimals="0"
+      unitRef="USD">272768</cafr:NetPositionUnrestricted>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">26839832</cafr:NetPosition>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2017_ComponentUnitsMember_EconomicDevelopmentAuthorityMember"
+      decimals="0"
+      unitRef="USD">272768</cafr:NetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_GeneralGovernmentAdministrationMember"
+      decimals="0"
+      unitRef="USD">1043210</cafr:Expenses>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_GeneralGovernmentAdministrationMember"
+      decimals="0"
+      unitRef="USD">-1043210</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">2741517</cafr:Expenses>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">152900</cafr:ChargesForServices>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">210106</cafr:OperatingGrantsAndContributions>
+    <cafr:CapitalGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">4618</cafr:CapitalGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">-2373893</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">3226822</cafr:Expenses>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">2347</cafr:ChargesForServices>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">433964</cafr:OperatingGrantsAndContributions>
+    <cafr:CapitalGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">1445201</cafr:CapitalGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">-1345310</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ParksRecreationAndCulturalMember"
+      decimals="0"
+      unitRef="USD">187282</cafr:Expenses>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ParksRecreationAndCulturalMember"
+      decimals="0"
+      unitRef="USD">71010</cafr:ChargesForServices>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_ParksRecreationAndCulturalMember"
+      decimals="0"
+      unitRef="USD">-116272</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_CommunityDevelopmentMember"
+      decimals="0"
+      unitRef="USD">586557</cafr:Expenses>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_CommunityDevelopmentMember"
+      decimals="0"
+      unitRef="USD">10076</cafr:OperatingGrantsAndContributions>
+    <cafr:CapitalGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_CommunityDevelopmentMember"
+      decimals="0"
+      unitRef="USD">87226</cafr:CapitalGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_CommunityDevelopmentMember"
+      decimals="0"
+      unitRef="USD">-489255</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">7785388</cafr:Expenses>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">226257</cafr:ChargesForServices>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">654146</cafr:OperatingGrantsAndContributions>
+    <cafr:CapitalGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">1537045</cafr:CapitalGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">-5367940</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember"
+      decimals="0"
+      unitRef="USD">7785388</cafr:Expenses>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember"
+      decimals="0"
+      unitRef="USD">226257</cafr:ChargesForServices>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember"
+      decimals="0"
+      unitRef="USD">654146</cafr:OperatingGrantsAndContributions>
+    <cafr:CapitalGrantsAndContributions
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember"
+      decimals="0"
+      unitRef="USD">1537045</cafr:CapitalGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember"
+      decimals="0"
+      unitRef="USD">-5367940</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">26953</cafr:Expenses>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">24473</cafr:OperatingGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">-2480</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:Expenses
+      contextRef="FYE_2017_ComponentUnitsMember"
+      decimals="0"
+      unitRef="USD">26953</cafr:Expenses>
+    <cafr:OperatingGrantsAndContributions
+      contextRef="FYE_2017_ComponentUnitsMember"
+      decimals="0"
+      unitRef="USD">24473</cafr:OperatingGrantsAndContributions>
+    <va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition
+      contextRef="FYE_2017_ComponentUnitsMember"
+      decimals="0"
+      unitRef="USD">-2480</va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_GeneralPropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">1281426</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember_ContributionsFromPrimaryGovernmentMember"
+      decimals="0"
+      unitRef="USD">10000</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_MealsMember"
+      decimals="0"
+      unitRef="USD">2188430</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_TransientOccupancyMember"
+      decimals="0"
+      unitRef="USD">671630</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_BusinessLicenseMember"
+      decimals="0"
+      unitRef="USD">536950</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_LocalSalesAndUseMember"
+      decimals="0"
+      unitRef="USD">514697</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherMember"
+      decimals="0"
+      unitRef="USD">863083</cafr:TaxRevenues>
+    <va-t-ashl:IntergovernmentalNonCategoricalAid
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">492071</va-t-ashl:IntergovernmentalNonCategoricalAid>
+    <va-t-ashl:UseOfMoneyAndProperty
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">74880</va-t-ashl:UseOfMoneyAndProperty>
+    <va-t-ashl:UseOfMoneyAndProperty
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">1236</va-t-ashl:UseOfMoneyAndProperty>
+    <cafr:MiscellaneousRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">66982</cafr:MiscellaneousRevenues>
+    <cafr:GeneralRevenues
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">6690149</cafr:GeneralRevenues>
+    <cafr:GeneralRevenues
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">11236</cafr:GeneralRevenues>
+    <cafr:ChangeInNetPosition
+      contextRef="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">1322209</cafr:ChangeInNetPosition>
+    <cafr:ChangeInNetPosition
+      contextRef="FYE_2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">8756</cafr:ChangeInNetPosition>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2016_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">25517623</cafr:NetPosition>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2016_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">264012</cafr:NetPosition>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember"
+      decimals="0"
+      unitRef="USD">26839832</cafr:NetPosition>
+    <cafr:NetPosition
+      contextRef="AS_OF_30June2017_ComponentUnitsMember_BusinessTypeActivityMember"
+      decimals="0"
+      unitRef="USD">272768</cafr:NetPosition>
+    <va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5378727</va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments>
+    <va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3820665</va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments>
+    <va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9199392</va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_GeneralFundMember_PropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">187294</cafr:ReceivablesNet>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember_PropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">187294</cafr:ReceivablesNet>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_GeneralFundMember_OtherClassificationOfDeferredInflowsOutflowsMember"
+      decimals="0"
+      unitRef="USD">264928</cafr:ReceivablesNet>
+    <cafr:ReceivablesNet
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember_OtherClassificationOfDeferredInflowsOutflowsMember"
+      decimals="0"
+      unitRef="USD">264928</cafr:ReceivablesNet>
+    <cafr:DueFromRelated
+      contextRef="AS_OF_30June2017_GeneralFundMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">155678</cafr:DueFromRelated>
+    <cafr:DueFromRelated
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">43854</cafr:DueFromRelated>
+    <cafr:DueFromRelated
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">199532</cafr:DueFromRelated>
+    <cafr:Assets
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5986627</cafr:Assets>
+    <cafr:Assets
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3864519</cafr:Assets>
+    <cafr:Assets
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9851146</cafr:Assets>
+    <cafr:AccountsPayable
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">80942</cafr:AccountsPayable>
+    <cafr:AccountsPayable
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">118949</cafr:AccountsPayable>
+    <cafr:AccountsPayable
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">199891</cafr:AccountsPayable>
+    <va-t-ashl:AccruedPayrollAndBenefits
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">175512</va-t-ashl:AccruedPayrollAndBenefits>
+    <va-t-ashl:AccruedPayrollAndBenefits
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">175512</va-t-ashl:AccruedPayrollAndBenefits>
+    <cafr:DueToRelatedParty
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">2007</cafr:DueToRelatedParty>
+    <cafr:DueToRelatedParty
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember_OtherGovernmentMember"
+      decimals="0"
+      unitRef="USD">2007</cafr:DueToRelatedParty>
+    <va-t-ashl:PerformanceBondPayable
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">77710</va-t-ashl:PerformanceBondPayable>
+    <va-t-ashl:PerformanceBondPayable
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">77710</va-t-ashl:PerformanceBondPayable>
+    <cafr:UnearnedRevenue
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">9559</cafr:UnearnedRevenue>
+    <cafr:UnearnedRevenue
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9559</cafr:UnearnedRevenue>
+    <cafr:Liabilities
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">343723</cafr:Liabilities>
+    <cafr:Liabilities
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">120956</cafr:Liabilities>
+    <cafr:Liabilities
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">464679</cafr:Liabilities>
+    <cafr:DeferredInflowsOfResources
+      contextRef="AS_OF_30June2017_GeneralFundMember_PropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">184885</cafr:DeferredInflowsOfResources>
+    <cafr:DeferredInflowsOfResources
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember_PropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">184885</cafr:DeferredInflowsOfResources>
+    <cafr:DeferredInflowsOfResources
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">184885</cafr:DeferredInflowsOfResources>
+    <cafr:DeferredInflowsOfResources
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">184885</cafr:DeferredInflowsOfResources>
+    <cafr:CommittedFundBalance
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3743563</cafr:CommittedFundBalance>
+    <cafr:CommittedFundBalance
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">3743563</cafr:CommittedFundBalance>
+    <cafr:UnassignedFundBalance
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5458019</cafr:UnassignedFundBalance>
+    <cafr:UnassignedFundBalance
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">5458019</cafr:UnassignedFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5458019</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3743563</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9201582</cafr:TotalFundBalance>
+    <va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5986627</va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances>
+    <va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3864519</va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances>
+    <va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9851146</va-t-ashl:LiabilitiesDeferredInflowsOfResourcesAndFundBalances>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_GeneralFundMember_GeneralPropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">1244228</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_GovernmentalFundsMember_GeneralPropertyTaxesMember"
+      decimals="0"
+      unitRef="USD">1244228</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_GeneralFundMember_OtherLocalTaxesMember"
+      decimals="0"
+      unitRef="USD">4774790</cafr:TaxRevenues>
+    <cafr:TaxRevenues
+      contextRef="FYE_2017_GovernmentalFundsMember_OtherLocalTaxesMember"
+      decimals="0"
+      unitRef="USD">4774790</cafr:TaxRevenues>
+    <cafr:LicensesAndPermits
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">36000</cafr:LicensesAndPermits>
+    <cafr:LicensesAndPermits
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">6532</cafr:LicensesAndPermits>
+    <cafr:LicensesAndPermits
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">42532</cafr:LicensesAndPermits>
+    <cafr:FinesAndForfeitsRevenue
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">109888</cafr:FinesAndForfeitsRevenue>
+    <cafr:FinesAndForfeitsRevenue
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">109888</cafr:FinesAndForfeitsRevenue>
+    <va-t-ashl:UseOfMoneyAndProperty
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">48077</va-t-ashl:UseOfMoneyAndProperty>
+    <va-t-ashl:UseOfMoneyAndProperty
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">26803</va-t-ashl:UseOfMoneyAndProperty>
+    <va-t-ashl:UseOfMoneyAndProperty
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">74880</va-t-ashl:UseOfMoneyAndProperty>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">71010</cafr:ChargesForServices>
+    <cafr:ChargesForServices
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">71010</cafr:ChargesForServices>
+    <cafr:MiscellaneousRevenues
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">66982</cafr:MiscellaneousRevenues>
+    <cafr:MiscellaneousRevenues
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">66982</cafr:MiscellaneousRevenues>
+    <va-t-ashl:RecoveredCosts
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">2827</va-t-ashl:RecoveredCosts>
+    <va-t-ashl:RecoveredCosts
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">2827</va-t-ashl:RecoveredCosts>
+    <cafr:IntergovernmentalFundRevenues
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">2433270</cafr:IntergovernmentalFundRevenues>
+    <cafr:IntergovernmentalFundRevenues
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">249992</cafr:IntergovernmentalFundRevenues>
+    <cafr:IntergovernmentalFundRevenues
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">2683262</cafr:IntergovernmentalFundRevenues>
+    <cafr:Revenues
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">8787072</cafr:Revenues>
+    <cafr:Revenues
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">283327</cafr:Revenues>
+    <cafr:Revenues
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9070399</cafr:Revenues>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember_GeneralGovernmentAdministrationMember"
+      decimals="0"
+      unitRef="USD">1052604</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_GeneralGovernmentAdministrationMember"
+      decimals="0"
+      unitRef="USD">1052604</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">2648090</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_PublicSafetyMember"
+      decimals="0"
+      unitRef="USD">2648090</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">3008375</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_PublicWorksMember"
+      decimals="0"
+      unitRef="USD">3008375</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember_ParksRecreationAndCulturalMember"
+      decimals="0"
+      unitRef="USD">150089</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_ParksRecreationAndCulturalMember"
+      decimals="0"
+      unitRef="USD">150089</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember_CommunityDdevelopmentMember"
+      decimals="0"
+      unitRef="USD">560180</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_CommunityDdevelopmentMember"
+      decimals="0"
+      unitRef="USD">560180</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_CapitalProjectsFundMember_CapitalProjectsMember"
+      decimals="0"
+      unitRef="USD">1282212</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember_CapitalProjectsMember"
+      decimals="0"
+      unitRef="USD">1282212</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">7419338</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">1282212</cafr:Expenditures>
+    <cafr:Expenditures
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">8701550</cafr:Expenditures>
+    <va-t-ashl:RevenuesOverUnderExpenditures
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">1367734</va-t-ashl:RevenuesOverUnderExpenditures>
+    <va-t-ashl:RevenuesOverUnderExpenditures
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">-998885</va-t-ashl:RevenuesOverUnderExpenditures>
+    <va-t-ashl:RevenuesOverUnderExpenditures
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">368849</va-t-ashl:RevenuesOverUnderExpenditures>
+    <va-t-ashl:TransfersInOut
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">-1420000</va-t-ashl:TransfersInOut>
+    <va-t-ashl:TransfersInOut
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">1420000</va-t-ashl:TransfersInOut>
+    <cafr:OtherFinancingSourcesAndUsesIncludingTransfers
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">-1420000</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
+    <cafr:OtherFinancingSourcesAndUsesIncludingTransfers
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">1420000</cafr:OtherFinancingSourcesAndUsesIncludingTransfers>
+    <cafr:NetChangeInFundBalances
+      contextRef="FYE_2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">-52266</cafr:NetChangeInFundBalances>
+    <cafr:NetChangeInFundBalances
+      contextRef="FYE_2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">421115</cafr:NetChangeInFundBalances>
+    <cafr:NetChangeInFundBalances
+      contextRef="FYE_2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">368849</cafr:NetChangeInFundBalances>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2016_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5510285</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef=" AS_OF_30June2016_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3322448</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2016_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">8832733</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_GeneralFundMember"
+      decimals="0"
+      unitRef="USD">5458019</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_CapitalProjectsFundMember"
+      decimals="0"
+      unitRef="USD">3743563</cafr:TotalFundBalance>
+    <cafr:TotalFundBalance
+      contextRef="AS_OF_30June2017_GovernmentalFundsMember"
+      decimals="0"
+      unitRef="USD">9201582</cafr:TotalFundBalance>
+</xbrl>
