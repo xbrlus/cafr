@@ -55,8 +55,7 @@
    "elementCount": 197,
    "entityCount": 1,
    "hidden": {
-    "http://www.xbrl.us/slg/cafr/2019-01-16": 1,
-    "total": 1
+    "total": 0
    },
    "keyCustom": 0,
    "keyStandard": 48,
@@ -504,7 +503,7 @@
      }
     }
    },
-   "segmentCount": 0,
+   "segmentCount": 10,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [
