@@ -3,18 +3,22 @@
   "va-c-bris-20160630.xhtml": {
    "axisCustom": 7,
    "axisStandard": 8,
-   "contextCount": 187,
+   "contextCount": 191,
    "dts": {
     "calculationLink": {
      "local": [
-      "cafr-calculation_2019-01-16.xml",
       "va-c-bris-20160630_cal.xml"
+     ],
+     "remote": [
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
      "local": [
-      "cafr-definition_2019-01-16.xml",
       "va-c-bris-20160630_def.xml"
+     ],
+     "remote": [
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
      ]
     },
     "inline": {
@@ -24,25 +28,27 @@
     },
     "labelLink": {
      "local": [
-      "cafr-label_2019-01-16.xml",
       "va-c-bris-20160630_lab.xml"
+     ],
+     "remote": [
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
      ]
     },
     "presentationLink": {
      "local": [
-      "cafr-presentation_2019-01-16.xml",
       "va-c-bris-20160630_pre.xml"
+     ],
+     "remote": [
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
      ]
     },
     "referenceLink": {
-     "local": [
-      "cafr-reference_2019-01-16.xml"
+     "remote": [
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-reference_2019-01-16.xml"
      ]
     },
     "schema": {
      "local": [
-      "cafr-core-ref-roles_2019-01-16.xsd",
-      "cafr_2019-01-16.xsd",
       "va-c-bris-20160630.xsd"
      ],
      "remote": [
@@ -54,19 +60,21 @@
       "http://www.xbrl.org/2006/ref-2006-02-27.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
-      "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd"
+      "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-core-ref-roles_2019-01-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd"
      ]
     }
    },
-   "elementCount": 269,
+   "elementCount": 270,
    "entityCount": 1,
    "hidden": {
     "total": 0
    },
    "keyCustom": 24,
-   "keyStandard": 46,
+   "keyStandard": 71,
    "memberCustom": 35,
-   "memberStandard": 14,
+   "memberStandard": 15,
    "nsprefix": "va-c-bris",
    "nsuri": "http://www.bristolva.org/20160630",
    "report": {
@@ -78,14 +86,10 @@
        "tbody",
        "table",
        "div",
-       "div",
-       "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -107,14 +111,10 @@
        "tbody",
        "table",
        "div",
-       "div",
-       "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "lang": null,
       "name": "va-c-bris:NotesReceivables",
@@ -134,28 +134,28 @@
        "div",
        "div",
        "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember_AssetForfeitureMember",
+      "contextRef": "FYE_2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:RestrictedFundBalance",
+      "name": "cafr:Expenses",
       "reportCount": 1,
-      "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "3100 - CAFR balance sheet, governmental funds",
-     "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
+     "longName": "2600 - CAFR statement of activities, government wide, program revenues and expenses",
+     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": {
+     "uniqueAnchor": null
+    },
+    "R11": {
+     "firstAnchor": {
       "ancestors": [
        "td",
        "tr",
@@ -169,18 +169,24 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember_AssetForfeitureMember",
+      "contextRef": "FYE_2016_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:RestrictedFundBalance",
+      "name": "cafr:UnassignedFundBalance",
       "reportCount": 1,
-      "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
-     }
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "3100 - CAFR balance sheet, governmental funds",
+     "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
     },
-    "R11": {
+    "R12": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -191,7 +197,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2016_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_2016_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -216,14 +222,16 @@
        "tbody",
        "table",
        "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2016_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:ChargesForServices",
+      "name": "cafr:Expenses",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -271,13 +279,12 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GeneralFundMember_GeneralFundMember",
+      "contextRef": "AS_OF_30June2016_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
       "name": "cafr:ReceivablesNet",
       "reportCount": 1,
-      "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
      },
@@ -301,11 +308,10 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GeneralFundMember_GeneralFundMember",
+      "contextRef": "FYE_2016_GeneralFundMember_GeneralFundMember",
       "decimals": "0",
-      "first": true,
       "lang": null,
-      "name": "cafr:ReceivablesNet",
+      "name": "cafr:UnassignedFundBalance",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -323,7 +329,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2016_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_2016_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -348,7 +354,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2016_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_2016_GovernmentalFundsMember",
       "decimals": "0",
       "lang": null,
       "name": "va-c-bris:RevenueFromUseOfProperty",
@@ -361,19 +367,59 @@
     "R5": {
      "firstAnchor": {
       "ancestors": [
+       "b",
+       "p",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "C_20150701to20160630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "1000 - CAFR cover",
+     "role": "http://xbrl.us/slg/cafr/cover",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "b",
+       "p",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "C_20150701to20160630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R6": {
+     "firstAnchor": {
+      "ancestors": [
        "td",
        "tr",
        "tbody",
        "table",
        "div",
-       "div",
-       "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -390,7 +436,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R6": {
+    "R7": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -398,14 +444,10 @@
        "tbody",
        "table",
        "div",
-       "div",
-       "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2016_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -422,7 +464,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R7": {
+    "R8": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -450,7 +492,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R8": {
+    "R9": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -482,34 +524,6 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R9": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "FYE_2016_GovernmentalTypeActivityMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:ChargesForServices",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "2600 - CAFR statement of activities, government wide, program revenues and expenses",
-     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
     "R9999": {
      "firstAnchor": {
       "ancestors": [
@@ -525,11 +539,11 @@
        "body",
        "html"
       ],
-      "contextRef": "AsOf_30June2015_ComponentUnitsMember_SchoolBoardMember_ScenarioPreviouslyReportedMember",
+      "contextRef": "FYE_2016_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:NetPosition",
+      "name": "va-c-bris:InsuranceRecoveries",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -543,11 +557,11 @@
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 61,
+   "segmentCount": 59,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [
-      "r52"
+      "r64"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
@@ -574,10 +588,10 @@
     },
     "cafr_AccrualBasisOfAccountingMember": {
      "auth_ref": [
-      "r21",
-      "r58",
-      "r61",
-      "r70"
+      "r9",
+      "r24",
+      "r26",
+      "r65"
      ],
      "lang": {
       "en": {
@@ -655,7 +669,7 @@
     },
     "cafr_Assets": {
      "auth_ref": [
-      "r4"
+      "r6"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -663,6 +677,11 @@
        "parentTag": null,
        "root": true,
        "weight": null
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_AssetsAndDeferredOutflows",
+       "weight": 1.0
       }
      },
      "crdr": "debit",
@@ -686,7 +705,7 @@
     },
     "cafr_AssetsAbstract": {
      "auth_ref": [
-      "r6"
+      "r8"
      ],
      "lang": {
       "en": {
@@ -707,6 +726,14 @@
     },
     "cafr_AssetsAndDeferredOutflows": {
      "auth_ref": [],
+     "calculation": {
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      }
+     },
      "lang": {
       "en": {
        "role": {
@@ -725,7 +752,7 @@
     },
     "cafr_AssignedFundBalance": {
      "auth_ref": [
-      "r31"
+      "r37"
      ],
      "calculation": {
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds": {
@@ -964,11 +991,16 @@
     },
     "cafr_CapitalAssetsNet": {
      "auth_ref": [
-      "r19"
+      "r22"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 13.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -992,7 +1024,7 @@
     },
     "cafr_CapitalGrantsAndContributions": {
      "auth_ref": [
-      "r43"
+      "r54"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
@@ -1020,7 +1052,7 @@
     },
     "cafr_CapitalProjectsFundMember": {
      "auth_ref": [
-      "r14"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -1060,10 +1092,15 @@
     },
     "cafr_CashAndCashEquivalents": {
      "auth_ref": [
-      "r46"
+      "r57"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
@@ -1106,7 +1143,7 @@
     },
     "cafr_ChangeInNetPosition": {
      "auth_ref": [
-      "r37"
+      "r43"
      ],
      "crdr": "credit",
      "lang": {
@@ -1127,7 +1164,7 @@
     },
     "cafr_ChargesForServices": {
      "auth_ref": [
-      "r42"
+      "r53"
      ],
      "calculation": {
       "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
@@ -1205,7 +1242,7 @@
     },
     "cafr_ClassificationOfFundTypeAxis": {
      "auth_ref": [
-      "r7"
+      "r9"
      ],
      "lang": {
       "en": {
@@ -1228,7 +1265,7 @@
     },
     "cafr_ClassificationOfFundTypeDomain": {
      "auth_ref": [
-      "r7"
+      "r9"
      ],
      "lang": {
       "en": {
@@ -1329,7 +1366,6 @@
      "localname": "ClassificationOfRestrictedFundBalanceAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1347,7 +1383,6 @@
      "localname": "ClassificationOfRestrictedFundBalanceDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1355,7 +1390,7 @@
     },
     "cafr_CommittedFundBalance": {
      "auth_ref": [
-      "r30"
+      "r36"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
@@ -1368,7 +1403,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements. [GASBS 54, \u00b610]",
+        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements.",
         "label": "Committed Fund Balance"
        }
       }
@@ -1380,26 +1415,9 @@
      ],
      "xbrltype": "monetaryItemType"
     },
-    "cafr_CommonWealthAttorneyMember": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Common Wealth Attorney [Member]"
-       }
-      }
-     },
-     "localname": "CommonWealthAttorneyMember",
-     "nsuri": "http://www.bristolva.org/20160630",
-     "presentation": [
-      "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds"
-     ],
-     "xbrltype": "domainItemType"
-    },
     "cafr_ComponentUnitsMember": {
      "auth_ref": [
-      "r40"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -1501,7 +1519,7 @@
     },
     "cafr_CurrentMember": {
      "auth_ref": [
-      "r20"
+      "r23"
      ],
      "lang": {
       "en": {
@@ -1571,12 +1589,12 @@
     },
     "cafr_DebtServiceFundMember": {
      "auth_ref": [
-      "r15"
+      "r17"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund (see paragraph .114 rather than a debt service fund to reflect the fact that the government\u2019s duties are limited to acting as an agent for the assessed property owners and the bondholders, as discussed in Section S40, \u201cSpecial Assessments,\u201d paragraph .119",
+        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund.",
         "label": "Debt Service Fund [Member]"
        }
       }
@@ -1592,7 +1610,7 @@
     },
     "cafr_DebtServiceMember": {
      "auth_ref": [
-      "r15"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -1611,14 +1629,14 @@
     },
     "cafr_DeferredInflowsOfResources": {
      "auth_ref": [
-      "r3",
-      "r71"
+      "r4",
+      "r66"
      ],
      "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "documentation": "An acquistion of net position by the government that is applicable to a future reporting period.",
+        "documentation": "An acquisition of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Inflows of Resources"
        }
       }
@@ -1634,8 +1652,15 @@
     },
     "cafr_DeferredOutflowsOfResources": {
      "auth_ref": [
-      "r2"
+      "r3"
      ],
+     "calculation": {
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_AssetsAndDeferredOutflows",
+       "weight": 1.0
+      }
+     },
      "crdr": "debit",
      "lang": {
       "en": {
@@ -1741,6 +1766,11 @@
        "order": 6.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
       }
      },
      "crdr": "debit",
@@ -1828,7 +1858,7 @@
     },
     "cafr_EnterpriseFundMember": {
      "auth_ref": [
-      "r17"
+      "r19"
      ],
      "lang": {
       "en": {
@@ -1847,7 +1877,7 @@
     },
     "cafr_ExpendabilityAxis": {
      "auth_ref": [
-      "r26"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -1865,7 +1895,7 @@
     },
     "cafr_ExpendabilityDomain": {
      "auth_ref": [
-      "r26"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -1884,7 +1914,7 @@
     },
     "cafr_ExpendableMember": {
      "auth_ref": [
-      "r26"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -1903,7 +1933,7 @@
     },
     "cafr_Expenditures": {
      "auth_ref": [
-      "r22"
+      "r25"
      ],
      "crdr": "debit",
      "lang": {
@@ -1960,7 +1990,7 @@
     },
     "cafr_ExtraordinaryItems": {
      "auth_ref": [
-      "r38"
+      "r44"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
@@ -1973,7 +2003,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraorinary items should be reported separately at the bottom of the statement of activities. [GASBS 34, \u00b655, as amended by GASBS 62, \u00b645\u2013\u00b649]",
+        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraordinary items should be reported separately at the bottom of the statement of activities.",
         "label": "Extraordinary Items"
        }
       }
@@ -1987,8 +2017,8 @@
     },
     "cafr_FiduciaryFundsMember": {
      "auth_ref": [
-      "r10",
-      "r60"
+      "r12",
+      "r21"
      ],
      "lang": {
       "en": {
@@ -2024,7 +2054,7 @@
     },
     "cafr_FinancialReportingEntityAxis": {
      "auth_ref": [
-      "r34"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -2052,12 +2082,12 @@
     },
     "cafr_FinancialReportingEntityDomain": {
      "auth_ref": [
-      "r34"
+      "r40"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
         "label": "Financial Reporting Entity [Domain]"
        }
       }
@@ -2096,7 +2126,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Revenues obtained through penalties and other law enforcement activities",
+        "documentation": "Revenues obtained through penalties and other law enforcement activities.",
         "label": "Fines and Forfeits Revenue"
        }
       }
@@ -2160,7 +2190,7 @@
     },
     "cafr_GeneralFundMember": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -2183,7 +2213,7 @@
     },
     "cafr_GeneralRevenues": {
      "auth_ref": [
-      "r44"
+      "r55"
      ],
      "calculation": {
       "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
@@ -2208,7 +2238,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues, as discussed in paragraphs .136\u2013.139. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
+        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
         "label": "General Revenues",
         "totalLabel": "General Revenues, Total"
        }
@@ -2223,7 +2253,7 @@
     },
     "cafr_GeneralRevenuesAbstract": {
      "auth_ref": [
-      "r44"
+      "r55"
      ],
      "lang": {
       "en": {
@@ -2319,7 +2349,7 @@
     },
     "cafr_GovernmentalFundsMember": {
      "auth_ref": [
-      "r8"
+      "r10"
      ],
      "lang": {
       "en": {
@@ -2439,13 +2469,6 @@
      ],
      "xbrltype": "stringItemType"
     },
-    "cafr_InsuranceRecoveries": {
-     "auth_ref": [],
-     "crdr": "credit",
-     "localname": "InsuranceRecoveries",
-     "nsuri": "http://www.bristolva.org/20160630",
-     "xbrltype": "monetaryItemType"
-    },
     "cafr_IntangibleMember": {
      "auth_ref": [],
      "lang": {
@@ -2467,7 +2490,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt servce payments other than principal repayment.",
+        "documentation": "Debt service payments other than principal repayment.",
         "label": "Interest and Fiscal Charges [Member]"
        }
       }
@@ -2515,11 +2538,18 @@
     },
     "cafr_InternalBalancesAssetLiability": {
      "auth_ref": [],
+     "calculation": {
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
      "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "documentation": "Net residual amounts due between governmental and business-type activities in the government-wide Statement of Net Assets",
+        "documentation": "Net residual amounts due between governmental and business-type activities in the government-wide Statement of Net Assets.",
         "label": "Internal Balances Asset/(Liability)"
        }
       }
@@ -2533,7 +2563,7 @@
     },
     "cafr_InternalServiceFundMember": {
      "auth_ref": [
-      "r18"
+      "r20"
      ],
      "lang": {
       "en": {
@@ -2552,11 +2582,16 @@
     },
     "cafr_Inventory": {
      "auth_ref": [
-      "r47"
+      "r58"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 9.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -2612,11 +2647,16 @@
     },
     "cafr_Investments": {
      "auth_ref": [
-      "r48"
+      "r59"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 2.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -2685,8 +2725,8 @@
     },
     "cafr_Liabilities": {
      "auth_ref": [
-      "r41",
-      "r55"
+      "r2",
+      "r49"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -2723,8 +2763,8 @@
     },
     "cafr_LiabilitiesAbstract": {
      "auth_ref": [
-      "r41",
-      "r55"
+      "r2",
+      "r49"
      ],
      "lang": {
       "en": {
@@ -2744,8 +2784,8 @@
     },
     "cafr_LiabilitiesAndDeferredInflows": {
      "auth_ref": [
-      "r27",
-      "r65"
+      "r33",
+      "r52"
      ],
      "crdr": "credit",
      "lang": {
@@ -2989,6 +3029,7 @@
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
+      "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -3007,6 +3048,7 @@
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
+      "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -3156,6 +3198,13 @@
      "auth_ref": [
       "r1"
      ],
+     "calculation": {
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
      "crdr": "debit",
      "lang": {
       "en": {
@@ -3174,12 +3223,16 @@
     },
     "cafr_NetPensionAssetLiability": {
      "auth_ref": [
-      "r50",
-      "r66"
+      "r60"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 12.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -3203,13 +3256,13 @@
     },
     "cafr_NetPosition": {
      "auth_ref": [
-      "r25",
-      "r56",
-      "r57",
-      "r62",
-      "r63",
-      "r64",
-      "r65"
+      "r5",
+      "r29",
+      "r30",
+      "r46",
+      "r47",
+      "r50",
+      "r52"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -3249,13 +3302,13 @@
     },
     "cafr_NetPositionAbstract": {
      "auth_ref": [
-      "r25",
-      "r56",
-      "r57",
-      "r62",
-      "r63",
-      "r64",
-      "r65"
+      "r5",
+      "r29",
+      "r30",
+      "r46",
+      "r47",
+      "r50",
+      "r52"
      ],
      "lang": {
       "en": {
@@ -3275,7 +3328,7 @@
     },
     "cafr_NetPositionRestricted": {
      "auth_ref": [
-      "r25"
+      "r30"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -3307,7 +3360,11 @@
      "xbrltype": "monetaryItemType"
     },
     "cafr_NetPositionRollForward": {
-     "auth_ref": [],
+     "auth_ref": [
+      "r29",
+      "r31",
+      "r51"
+     ],
      "lang": {
       "en": {
        "role": {
@@ -3325,7 +3382,7 @@
     },
     "cafr_NetPositionUnrestricted": {
      "auth_ref": [
-      "r25"
+      "r30"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -3358,7 +3415,7 @@
     },
     "cafr_NonExpendableMember": {
      "auth_ref": [
-      "r26"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -3514,7 +3571,7 @@
     },
     "cafr_NonspendableFundBalance": {
      "auth_ref": [
-      "r28"
+      "r34"
      ],
      "calculation": {
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds": {
@@ -3547,7 +3604,7 @@
     },
     "cafr_OpebMember": {
      "auth_ref": [
-      "r49"
+      "r61"
      ],
      "lang": {
       "en": {
@@ -3567,7 +3624,7 @@
     },
     "cafr_OperatingGrantsAndContributions": {
      "auth_ref": [
-      "r43"
+      "r54"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
@@ -3595,11 +3652,16 @@
     },
     "cafr_OtherAssets": {
      "auth_ref": [
-      "r5"
+      "r7"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 11.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -3777,7 +3839,7 @@
     },
     "cafr_OtherGovernmentalFundsMember": {
      "auth_ref": [
-      "r11"
+      "r13"
      ],
      "lang": {
       "en": {
@@ -3797,7 +3859,7 @@
     },
     "cafr_OtherLiabilities": {
      "auth_ref": [
-      "r20"
+      "r23"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
@@ -3864,12 +3926,12 @@
     },
     "cafr_PermanentFundMember": {
      "auth_ref": [
-      "r16"
+      "r18"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds (defined in paragraph .113), which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
+        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds, which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
         "label": "Permanent Fund [Member]"
        }
       }
@@ -3885,11 +3947,16 @@
     },
     "cafr_PrepaidItems": {
      "auth_ref": [
-      "r45"
+      "r56"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 8.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -3913,12 +3980,12 @@
     },
     "cafr_PrimaryGovernmentActivitiesMember": {
      "auth_ref": [
-      "r35"
+      "r41"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria:\n \n a. It has a separately elected governing body.\n \n b. It is legally separateOpen this link as a new document (see paragraph .114Open this link as a new document).\n \n c. It is fiscally independentOpen this link as a new document of other state and local governments (see paragraphs .115\u2013.117Open this link as a new document).\n \n [GASBS 14, \u00b613]\n A primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, agencies, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government. [GASBS 14, \u00b614]",
+        "documentation": "The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria:\n \n a. It has a separately elected governing body.\n \n b. It is legally separate\n \n c. It is fiscally independent\n \nA primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, agencies, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government.",
         "label": "Primary Government Activities [Member]"
        }
       }
@@ -3979,7 +4046,7 @@
     },
     "cafr_ProgramRevenues": {
      "auth_ref": [
-      "r24"
+      "r28"
      ],
      "calculation": {
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
@@ -4009,7 +4076,7 @@
     },
     "cafr_ProgramRevenuesAbstract": {
      "auth_ref": [
-      "r24"
+      "r28"
      ],
      "lang": {
       "en": {
@@ -4029,12 +4096,16 @@
     },
     "cafr_PropertyHeldForResale": {
      "auth_ref": [
-      "r53",
-      "r54"
+      "r62"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 10.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -4081,8 +4152,8 @@
     },
     "cafr_ProprietaryFundsMember": {
      "auth_ref": [
-      "r9",
-      "r59"
+      "r11",
+      "r19"
      ],
      "lang": {
       "en": {
@@ -4125,6 +4196,11 @@
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
        "order": 3.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
+      "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
+       "order": 1.0,
        "parentTag": "cafr_Assets",
        "weight": 1.0
       }
@@ -4200,7 +4276,7 @@
     },
     "cafr_RestrictedAssetOrLiabilityMember": {
      "auth_ref": [
-      "r23"
+      "r27"
      ],
      "lang": {
       "en": {
@@ -4222,7 +4298,7 @@
     },
     "cafr_RestrictedFundBalance": {
      "auth_ref": [
-      "r29"
+      "r35"
      ],
      "calculation": {
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds": {
@@ -4255,7 +4331,7 @@
     },
     "cafr_RestrictionOfAssetOrLiabilityAxis": {
      "auth_ref": [
-      "r23"
+      "r27"
      ],
      "lang": {
       "en": {
@@ -4269,6 +4345,7 @@
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4276,7 +4353,7 @@
     },
     "cafr_RestrictionOfAssetOrLiabilityDomain": {
      "auth_ref": [
-      "r23"
+      "r27"
      ],
      "lang": {
       "en": {
@@ -4290,6 +4367,7 @@
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4354,7 +4432,7 @@
     },
     "cafr_SpecialItems": {
      "auth_ref": [
-      "r39"
+      "r45"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
@@ -4372,7 +4450,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management. [GASBS 34, \u00b656]",
+        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management.",
         "label": "Special Items"
        }
       }
@@ -4387,7 +4465,7 @@
     },
     "cafr_SpecialRevenueFundMember": {
      "auth_ref": [
-      "r13"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -4450,7 +4528,7 @@
     },
     "cafr_StatementOfActivitiesLineItems": {
      "auth_ref": [
-      "r36"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -4485,7 +4563,7 @@
     },
     "cafr_StatementOfActivitiesTable": {
      "auth_ref": [
-      "r36"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -4660,7 +4738,7 @@
     },
     "cafr_TotalFundBalance": {
      "auth_ref": [
-      "r33"
+      "r39"
      ],
      "calculation": {
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds": {
@@ -4680,7 +4758,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Governments should disclose the following about their fund balance classification policies and procedures in the notes to the financial statements:\n\na.    For committed fund balance: (1) the government\u2019s highest level of decision-making authority and (2) the formal action that is required to be taken to establish (and modify or rescind) a fund balance commitment\n\nb.    For assigned fund balance: (1) the body or official authorized to assign amounts to a specific purpose and (2) the policy established by the governing body pursuant to which that authorization is given\n\nc.    For the classification of fund balances in accordance with paragraph .178Open this link as a new document: (1) whether the government considers restricted or unrestricted amounts to have been spent when an expenditure is incurred for purposes for which both restricted and unrestricted fund balance is available and (2) whether committed, assigned, or unassigned amounts are considered to have been spent when an expenditure is incurred for purposes for which amounts in any of those unrestricted fund balance classifications could be used.",
+        "documentation": "Governments should disclose the following about their fund balance classification policies and procedures in the notes to the financial statements:\n\na.    For committed fund balance: (1) the government\u2019s highest level of decision-making authority and (2) the formal action that is required to be taken to establish (and modify or rescind) a fund balance commitment\n\nb.    For assigned fund balance: (1) the body or official authorized to assign amounts to a specific purpose and (2) the policy established by the governing body pursuant to which that authorization is given\n\nc.    For the classification of fund balances (1) whether the government considers restricted or unrestricted amounts to have been spent when an expenditure is incurred for purposes for which both restricted and unrestricted fund balance is available and (2) whether committed, assigned, or unassigned amounts are considered to have been spent when an expenditure is incurred for purposes for which amounts in any of those unrestricted fund balance classifications could be used.",
         "label": "Fund Balance",
         "periodEndLabel": "Fund Balance, Ending Balance",
         "periodStartLabel": "Fund Balance, Beginning Balance",
@@ -4808,7 +4886,7 @@
     },
     "cafr_UnassignedFundBalance": {
      "auth_ref": [
-      "r32"
+      "r38"
      ],
      "calculation": {
       "http://www.bristolva.org/role/balanceSheetGovernmentalFunds": {
@@ -4841,7 +4919,7 @@
     },
     "cafr_UnearnedRevenue": {
      "auth_ref": [
-      "r51"
+      "r63"
      ],
      "calculation": {
       "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
@@ -5221,6 +5299,23 @@
      ],
      "xbrltype": "domainItemType"
     },
+    "va-c-bris_CommonWealthAttorneyMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Common Wealth Attorney [Member]"
+       }
+      }
+     },
+     "localname": "CommonWealthAttorneyMember",
+     "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
     "va-c-bris_CommunityDevelopmentBlockGrantFundMember": {
      "auth_ref": [],
      "lang": {
@@ -5233,7 +5328,8 @@
      "localname": "CommunityDevelopmentBlockGrantFundMember",
      "nsuri": "http://www.bristolva.org/20160630",
      "presentation": [
-      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds"
+      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds",
+      "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
@@ -5249,6 +5345,7 @@
      "localname": "CommunityDevelopmentMember",
      "nsuri": "http://www.bristolva.org/20160630",
      "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
@@ -5413,6 +5510,7 @@
      "localname": "EducationMember",
      "nsuri": "http://www.bristolva.org/20160630",
      "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://www.bristolva.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
@@ -5568,6 +5666,13 @@
      ],
      "xbrltype": "domainItemType"
     },
+    "va-c-bris_InsuranceRecoveries": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "InsuranceRecoveries",
+     "nsuri": "http://www.bristolva.org/20160630",
+     "xbrltype": "monetaryItemType"
+    },
     "va-c-bris_InsuranceRecoveriesMember": {
      "auth_ref": [],
      "lang": {
@@ -5611,6 +5716,9 @@
      },
      "localname": "InvestigativeFundsMember",
      "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/balanceSheetGovernmentalFunds"
+     ],
      "xbrltype": "domainItemType"
     },
     "va-c-bris_JudicialAdministrationMember": {
@@ -5908,6 +6016,9 @@
      },
      "localname": "RestatementAdjustmentMember",
      "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
      "xbrltype": "domainItemType"
     },
     "va-c-bris_RestatementAdjustments": {
@@ -5938,7 +6049,26 @@
      },
      "localname": "RestatementAxis",
      "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
      "xbrltype": "stringItemType"
+    },
+    "va-c-bris_RestatementDomain": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Restatement [Domain]"
+       }
+      }
+     },
+     "localname": "RestatementDomain",
+     "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
     },
     "va-c-bris_RevenueFromUseOfProperty": {
      "auth_ref": [],
@@ -5984,6 +6114,9 @@
      },
      "localname": "ScenarioPreviouslyReportedMember",
      "nsuri": "http://www.bristolva.org/20160630",
+     "presentation": [
+      "http://www.bristolva.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
      "xbrltype": "domainItemType"
     },
     "va-c-bris_SchoolBoardMember": {
@@ -6180,362 +6313,371 @@
    "Paragraph": "102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300",
-   "Subparagraph": "c"
+   "Subparagraph": "a"
   },
   "r11": {
+   "Page": "I",
+   "Paragraph": "102",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1300",
+   "Subparagraph": "b"
+  },
+  "r12": {
+   "Page": "I",
+   "Paragraph": "102",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1300",
+   "Subparagraph": "c"
+  },
+  "r13": {
    "Page": "I",
    "Paragraph": "102-.108",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
-  "r12": {
+  "r14": {
    "Page": "I",
    "Paragraph": "104",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
-  "r13": {
+  "r15": {
    "Page": "I",
    "Paragraph": "105",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
-  "r14": {
-   "Page": "I",
-   "Paragraph": "106",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1300"
-  },
-  "r15": {
-   "Page": "I",
-   "Paragraph": "107",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1300"
-  },
   "r16": {
    "Page": "I",
-   "Paragraph": "108",
+   "Paragraph": "106",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
   "r17": {
    "Page": "I",
-   "Paragraph": "109",
+   "Paragraph": "107",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
   "r18": {
    "Page": "I",
-   "Paragraph": "110",
+   "Paragraph": "108",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1300"
   },
   "r19": {
    "Page": "I",
-   "Paragraph": "103",
+   "Paragraph": "109",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1400"
+   "Section": "1300"
   },
   "r2": {
    "Appendix": "B",
-   "Paragraph": "32-.33",
+   "Paragraph": "17-23",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "CS4"
   },
   "r20": {
    "Page": "I",
+   "Paragraph": "110",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1300"
+  },
+  "r21": {
+   "Page": "I",
+   "Paragraph": "111-.114",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1300"
+  },
+  "r22": {
+   "Page": "I",
+   "Paragraph": "103",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1400"
+  },
+  "r23": {
+   "Page": "I",
    "Paragraph": "106",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1500"
   },
-  "r21": {
+  "r24": {
    "Page": "I",
    "Paragraph": "103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1600"
   },
-  "r22": {
+  "r25": {
    "Page": "I",
    "Paragraph": "116",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1600"
   },
-  "r23": {
+  "r26": {
+   "Page": "I",
+   "Paragraph": "130",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1600"
+  },
+  "r27": {
    "Page": "I",
    "Paragraph": "110",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
-  "r24": {
-   "Page": "I",
-   "Paragraph": "142",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1800"
-  },
-  "r25": {
-   "Page": "I",
-   "Paragraph": "157-.161",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1800"
-  },
-  "r26": {
-   "Page": "I",
-   "Paragraph": "161",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1800"
-  },
-  "r27": {
-   "Page": "I",
-   "Paragraph": "162",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1800"
-  },
   "r28": {
    "Page": "I",
-   "Paragraph": "166",
+   "Paragraph": "142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r29": {
    "Page": "I",
-   "Paragraph": "168",
+   "Paragraph": "155",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r3": {
    "Appendix": "B",
-   "Paragraph": "34",
+   "Paragraph": "32-.33",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "CS4"
   },
   "r30": {
    "Page": "I",
-   "Paragraph": "170",
+   "Paragraph": "157-.161",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r31": {
    "Page": "I",
-   "Paragraph": "173",
+   "Paragraph": "157-161",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r32": {
    "Page": "I",
-   "Paragraph": "177",
+   "Paragraph": "161",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r33": {
    "Page": "I",
-   "Paragraph": "183",
+   "Paragraph": "162",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "1800"
   },
   "r34": {
    "Page": "I",
+   "Paragraph": "166",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r35": {
+   "Page": "I",
+   "Paragraph": "168",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r36": {
+   "Page": "I",
+   "Paragraph": "170",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r37": {
+   "Page": "I",
+   "Paragraph": "173",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r38": {
+   "Page": "I",
+   "Paragraph": "177",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r39": {
+   "Page": "I",
+   "Paragraph": "183",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r4": {
+   "Appendix": "B",
+   "Paragraph": "34",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "CS4"
+  },
+  "r40": {
+   "Page": "I",
    "Paragraph": "111",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2100"
   },
-  "r35": {
+  "r41": {
    "Page": "I",
    "Paragraph": "112-.113",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2100"
   },
-  "r36": {
+  "r42": {
    "Page": "I",
    "Paragraph": "126-.127",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r37": {
+  "r43": {
    "Page": "I",
    "Paragraph": "142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r38": {
+  "r44": {
    "Page": "I",
    "Paragraph": "143",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r39": {
+  "r45": {
    "Page": "I",
    "Paragraph": "144",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r4": {
-   "Appendix": "B",
-   "Paragraph": "8",
+  "r46": {
+   "Appendix": "2200",
+   "Page": "II",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "CS4"
+   "Section": "119-.123"
   },
-  "r40": {
+  "r47": {
+   "Page": "II",
+   "Paragraph": "162",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "1800"
+  },
+  "r48": {
    "Page": "II",
    "Paragraph": "505",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2100"
   },
-  "r41": {
+  "r49": {
    "Page": "II",
    "Paragraph": "116",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r42": {
+  "r5": {
+   "Appendix": "B",
+   "Paragraph": "36-37",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "CS4"
+  },
+  "r50": {
+   "Page": "II",
+   "Paragraph": "117",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "2200"
+  },
+  "r51": {
+   "Page": "II",
+   "Paragraph": "119-123",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "2200"
+  },
+  "r52": {
+   "Page": "II",
+   "Paragraph": "124",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "2200"
+  },
+  "r53": {
    "Page": "II",
    "Paragraph": "137",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r43": {
+  "r54": {
    "Page": "II",
    "Paragraph": "138",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r44": {
+  "r55": {
    "Page": "II",
    "Paragraph": "140",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2200"
   },
-  "r45": {
+  "r56": {
+   "Footnote": "1",
    "Page": "II",
-   "Paragraph": "fn 1",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2300"
   },
-  "r46": {
+  "r57": {
+   "Footnote": "2",
    "Page": "II",
-   "Paragraph": "fn 2",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "2450"
   },
-  "r47": {
+  "r58": {
    "Page": "IV",
    "Paragraph": "102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "140"
   },
-  "r48": {
+  "r59": {
    "Page": "IV",
    "Paragraph": "103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "150"
   },
-  "r49": {
-   "Page": "IV",
-   "Paragraph": "539",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "P50"
-  },
-  "r5": {
-   "Appendix": "B",
-   "Paragraph": "8-.16",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "CS4"
-  },
-  "r50": {
-   "Page": "IV P20 FN 7, \"An Analyst's Guide to Government Financial Statements (GASB, 3rd Edition)",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
-  },
-  "r51": {
-   "Page": "p.643",
-   "Publisher": "EGAAFR",
-   "Section": "Unearned Revenues"
-  },
-  "r52": {
-   "Page": "p.700",
-   "Publisher": "EGAAFR",
-   "Section": "Accounts Payable"
-  },
-  "r53": {
-   "Publisher": "FASB Codification"
-  },
-  "r54": {
-   "Paragraph": "10",
-   "Publisher": "FASB Financial Accounting Standards Codification",
-   "Section": "360",
-   "Subparagraph": "45-9"
-  },
-  "r55": {
-   "Page": "B.CS4.17-.23",
-   "Publisher": "GASB Codification"
-  },
-  "r56": {
-   "Page": "B.CS4.36-.37",
-   "Publisher": "GASB Codification"
-  },
-  "r57": {
-   "Appendix": "1800",
-   "Page": "I",
-   "Publisher": "GASB Codification",
-   "Section": "155"
-  },
-  "r58": {
-   "Page": "I",
-   "Paragraph": "102",
-   "Publisher": "GASB Codification",
-   "Section": "1300"
-  },
-  "r59": {
-   "Page": "I",
-   "Paragraph": "109",
-   "Publisher": "GASB Codification",
-   "Section": "1300"
-  },
   "r6": {
    "Appendix": "B",
-   "Page": "B",
    "Paragraph": "8",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
    "Section": "CS4"
   },
   "r60": {
-   "Page": "I",
-   "Paragraph": "111-.114",
-   "Publisher": "GASB Codification",
-   "Section": "1300"
+   "Footnote": "7",
+   "Page": "IV",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "P20"
   },
   "r61": {
-   "Page": "I",
-   "Paragraph": "130",
-   "Publisher": "GASB Codification",
-   "Section": "1600"
+   "Page": "IV",
+   "Paragraph": "539",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
+   "Section": "P50"
   },
   "r62": {
-   "Appendix": "1800",
-   "Page": "II",
-   "Publisher": "GASB Codification",
-   "Section": "162"
+   "Paragraph": "10",
+   "Publisher": "FASB Financial Accounting Standards Codification",
+   "Section": "360",
+   "Subparagraph": "45-9"
   },
   "r63": {
-   "Appendix": "2200",
-   "Page": "II",
-   "Publisher": "GASB Codification",
-   "Section": "117"
+   "Page": "643",
+   "Publisher": "Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.",
+   "Section": "Unearned Revenues"
   },
   "r64": {
-   "Appendix": "2200",
-   "Page": "II",
-   "Publisher": "GASB Codification",
-   "Section": "119-.123"
+   "Page": "700",
+   "Publisher": "Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.",
+   "Section": "Accounts Payable"
   },
   "r65": {
-   "Appendix": "2200",
-   "Page": "II",
-   "Publisher": "GASB Codification",
-   "Section": "124"
+   "Page": "76",
+   "Publisher": "Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.",
+   "Section": "Accrual Basis of Accounting"
   },
   "r66": {
-   "Appendix": "P20 fn 7",
-   "Page": "IV",
-   "Publisher": "GASB Codification"
+   "Page": "784",
+   "Publisher": "Stephen J. Gauthier, Governmental Accounting, Auditing, and Financial Reporting, GFOA, 2014.",
+   "Section": "Deferred Inflows of Resources"
   },
   "r67": {
    "Page": "COG",
@@ -6556,34 +6698,23 @@
    "Section": "Glossary"
   },
   "r7": {
-   "Page": "I",
-   "Paragraph": "102",
+   "Appendix": "B",
+   "Paragraph": "8-.16",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1300"
-  },
-  "r70": {
-   "Page": "Accrual Basis of Accounting",
-   "Publisher": "eGAAFR p. 76"
-  },
-  "r71": {
-   "Appendix": "p.784",
-   "Page": "EGAAFR",
-   "Publisher": "eGAAFR.p784.Deferred Inflows of Resources",
-   "Section": "Deferred Inflows of Resources"
+   "Section": "CS4"
   },
   "r8": {
-   "Page": "I",
-   "Paragraph": "102",
+   "Appendix": "B",
+   "Page": "B",
+   "Paragraph": "8",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1300",
-   "Subparagraph": "a"
+   "Section": "CS4"
   },
   "r9": {
    "Page": "I",
    "Paragraph": "102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018",
-   "Section": "1300",
-   "Subparagraph": "b"
+   "Section": "1300"
   }
  },
  "version": "2.0"

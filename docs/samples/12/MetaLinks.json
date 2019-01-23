@@ -1,18 +1,21 @@
 {
  "instance": {
-  "va-t-ashl-20170630.xhtml": {
-   "axisCustom": 3,
-   "axisStandard": 6,
-   "contextCount": 69,
+  "va-o-culp-20180630.xhtml": {
+   "axisCustom": 4,
+   "axisStandard": 7,
+   "contextCount": 179,
    "dts": {
     "calculationLink": {
+     "local": [
+      "va-o-culp-20180630_cal.xml"
+     ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
      "local": [
-      "va-t-ashl-20170630_def.xml"
+      "va-o-culp-20180630_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -20,25 +23,20 @@
     },
     "inline": {
      "local": [
-      "va-t-ashl-20170630.xhtml"
+      "va-o-culp-20180630.xhtml"
      ]
     },
     "labelLink": {
      "local": [
-      "va-t-ashl-20170630_lab.xml"
+      "va-o-culp-20180630_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
      ]
     },
-    "linkbase": {
-     "local": [
-      "va-t-ashl-20170630_cal.xml"
-     ]
-    },
     "presentationLink": {
      "local": [
-      "va-t-ashl-20170630_pre.xml"
+      "va-o-culp-20180630_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -51,7 +49,7 @@
     },
     "schema": {
      "local": [
-      "va-t-ashl-20170630.xsd"
+      "va-o-culp-20180630.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -68,17 +66,17 @@
      ]
     }
    },
-   "elementCount": 242,
+   "elementCount": 265,
    "entityCount": 1,
    "hidden": {
     "total": 0
    },
-   "keyCustom": 14,
+   "keyCustom": 17,
    "keyStandard": 71,
-   "memberCustom": 18,
-   "memberStandard": 13,
-   "nsprefix": "va-t-ashl",
-   "nsuri": "http://www.town.ashland.va.us/20170630",
+   "memberCustom": 30,
+   "memberStandard": 15,
+   "nsprefix": "va-o-culp",
+   "nsuri": "http://www.co.culpeper.va.us/20180630",
    "report": {
     "R1": {
      "firstAnchor": {
@@ -88,10 +86,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018_CapitalProjectsFundMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -102,8 +101,8 @@
      },
      "groupType": "",
      "isDefault": "true",
-     "longName": "0001 -STATEMENT OF NET POSITION",
-     "role": "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+     "longName": "0001 - Statement of Net Position Government Wide Assets Laibilities and Deferred Inflows Outflows",
+     "role": "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -113,13 +112,14 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:AccumulatedDepreciationAndAmortizationCapitalAssets",
+      "name": "va-o-culp:LiabilitiesDeferredInflowsAndNetPosition",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -134,10 +134,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -162,14 +163,15 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AS_OF_30June2018_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:CommittedFundBalance",
+      "name": "cafr:RestrictedFundBalance",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -190,10 +192,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GovernmentalFundsMember",
+      "contextRef": "FYE_30-June-2018_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -218,10 +221,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -232,8 +236,8 @@
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "0003 - STATEMENT OF ACTIVITIES",
-     "role": "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+     "longName": "0002 - Statement of activities, government wide, program general revenues and expenses",
+     "role": "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -243,13 +247,14 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:IntergovernmentalNonCategoricalAid",
+      "name": "va-o-culp:NetExpenseRevenue",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -264,23 +269,23 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AS_OF_30June2018_GeneralFundMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments",
+      "name": "cafr:CashAndCashEquivalents",
       "reportCount": 1,
-      "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "0004 - BALANCE SHEET GOVERNMENTAL FUNDS",
-     "role": "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+     "longName": "0003 - Balance sheet, governmental funds",
+     "role": "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -290,14 +295,14 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AS_OF_30June2018_GeneralFundMember",
       "decimals": "0",
-      "first": true,
       "lang": null,
-      "name": "va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments",
+      "name": "va-o-culp:TaxesIncludingPenalties",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -312,10 +317,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GeneralFundMember",
+      "contextRef": "FYE_30-June-2018_GeneralFundMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -326,8 +332,8 @@
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "0005 - STATEMENT OF REVENUES, EXPENDITURES AND CHANGES IN FUND BALANCES GOVERNMENTAL FUNDS",
-     "role": "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+     "longName": "0004 - Statement of revenues, expenditures, and changes in fund balance, governmental funds",
+     "role": "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -337,13 +343,14 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GeneralFundMember",
+      "contextRef": "FYE_30-June-2018_GeneralFundMember",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:UseOfMoneyAndProperty",
+      "name": "va-o-culp:RevenueFromUseOfMoneyAndProperty",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -354,7 +361,7 @@
      "firstAnchor": {
       "ancestors": [
        "b",
-       "p",
+       "div",
        "div",
        "body",
        "html"
@@ -378,7 +385,7 @@
      "uniqueAnchor": {
       "ancestors": [
        "b",
-       "p",
+       "div",
        "div",
        "body",
        "html"
@@ -402,14 +409,15 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018_PrimaryGovernmentActivitiesMembe",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:CashAndCashEquivalents",
+      "name": "cafr:Assets",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -430,14 +438,15 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:AccountsPayable",
+      "name": "cafr:Liabilities",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -458,10 +467,11 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -486,14 +496,15 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:GeneralRevenues",
+      "name": "cafr:TransfersNet",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -514,29 +525,46 @@
        "tbody",
        "table",
        "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember_OtherLocalTaxesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition",
+      "name": "cafr:TaxRevenues",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "longName": "Uncategorized Items - va-o-culp-20180630.xhtml",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "shortName": "Uncategorized Items - va-o-culp-20180630.xhtml",
      "subGroupType": "",
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 32,
+   "segmentCount": 49,
    "tag": {
+    "FederalMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Federal [Member]"
+       }
+      }
+     },
+     "localname": "FederalMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
     "cafr_AccountsPayable": {
      "auth_ref": [
       "r64"
@@ -560,8 +588,8 @@
      "localname": "AccountsPayable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -606,8 +634,8 @@
      "localname": "ActivityTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -632,8 +660,8 @@
      "localname": "ActivityTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -650,6 +678,12 @@
       "r6"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_AssetsAndDeferredOutflows",
@@ -669,8 +703,8 @@
      "localname": "Assets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -690,8 +724,8 @@
      "localname": "AssetsAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -718,6 +752,7 @@
      "localname": "AssetsAndDeferredOutflows",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -727,6 +762,11 @@
       "r37"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -737,7 +777,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements, as discussed in paragraph .181 . Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes. [GASBS 54, \u00b613]",
+        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements.. Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes.",
         "label": "Assigned Fund Balance"
        }
       }
@@ -745,6 +785,7 @@
      "localname": "AssignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -835,7 +876,7 @@
      "localname": "BalanceSheetGovernmentFundsTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -852,7 +893,7 @@
      "localname": "BalanceSheetLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -918,7 +959,8 @@
      "localname": "BusinessTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -959,6 +1001,11 @@
       "r22"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 13.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -977,7 +1024,7 @@
      "localname": "CapitalAssetsNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1005,7 +1052,7 @@
      "localname": "CapitalGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -1025,8 +1072,9 @@
      "localname": "CapitalProjectsFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1045,8 +1093,6 @@
      "localname": "CapitalProjectsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -1056,6 +1102,11 @@
       "r57"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -1074,7 +1125,8 @@
      "localname": "CashAndCashEquivalents",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1112,7 +1164,7 @@
      "localname": "ChangeInNetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -1122,6 +1174,11 @@
       "r53"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -1145,8 +1202,8 @@
      "localname": "ChargesForServices",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1164,8 +1221,8 @@
      "localname": "ClassificationOfDueToDueFromAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1183,8 +1240,8 @@
      "localname": "ClassificationOfDueToDueFromDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1205,8 +1262,9 @@
      "localname": "ClassificationOfFundTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1228,8 +1286,9 @@
      "localname": "ClassificationOfFundTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1248,8 +1307,7 @@
      "localname": "ClassificationOfInflowsOutflowsAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1267,8 +1325,7 @@
      "localname": "ClassificationOfInflowsOutflowsDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1318,6 +1375,7 @@
      "localname": "ClassificationOfRestrictedFundBalanceAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1335,6 +1393,7 @@
      "localname": "ClassificationOfRestrictedFundBalanceDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1363,7 +1422,7 @@
      "localname": "CommittedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1383,8 +1442,9 @@
      "localname": "ComponentUnitsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -1484,6 +1544,7 @@
      "localname": "CurrentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -1588,7 +1649,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "An acquisition of net position by the government that is applicable to a future reporting period.",
+        "documentation": "An acquistion of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Inflows of Resources"
        }
       }
@@ -1596,8 +1657,7 @@
      "localname": "DeferredInflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1625,7 +1685,7 @@
      "localname": "DeferredOutflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1714,6 +1774,11 @@
     "cafr_DueFromRelated": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 6.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -1732,8 +1797,8 @@
      "localname": "DueFromRelated",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1741,6 +1806,11 @@
     "cafr_DueToRelatedParty": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 4.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -1759,8 +1829,8 @@
      "localname": "DueToRelatedParty",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1806,7 +1876,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources. 5\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
+        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources.\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
         "label": "Enterprise Fund [Member]"
        }
       }
@@ -1882,7 +1952,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Decrease in financial resources",
+        "documentation": "Decrease in financial resources.",
         "label": "Expenditures"
        }
       }
@@ -1890,7 +1960,7 @@
      "localname": "Expenditures",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1907,7 +1977,7 @@
      "localname": "ExpendituresAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -1926,7 +1996,7 @@
      "localname": "Expenses",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -1946,7 +2016,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraorinary items should be reported separately at the bottom of the statement of activities. [GASBS 34, \u00b655, as amended by GASBS 62, \u00b645\u2013\u00b649]",
+        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraordinary items should be reported separately at the bottom of the statement of activities.",
         "label": "Extraordinary Items"
        }
       }
@@ -2002,7 +2072,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
         "label": "Financial Reporting Entity [Axis]"
        }
       }
@@ -2010,8 +2080,8 @@
      "localname": "FinancialReportingEntityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2038,8 +2108,8 @@
      "localname": "FinancialReportingEntityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2054,6 +2124,11 @@
     "cafr_FinesAndForfeitsRevenue": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2064,7 +2139,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Revenues obtained through penalties and other law enforcement activities",
+        "documentation": "Revenues obtained through penalties and other law enforcement activities.",
         "label": "Fines and Forfeits Revenue"
        }
       }
@@ -2072,7 +2147,7 @@
      "localname": "FinesAndForfeitsRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2121,6 +2196,7 @@
      "localname": "FundBalanceRollForward",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2140,8 +2216,9 @@
      "localname": "GeneralFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2153,6 +2230,12 @@
       "r55"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -2169,7 +2252,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
+        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues, as discussed in paragraphs .136\u2013.139. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
         "label": "General Revenues",
         "totalLabel": "General Revenues, Total"
        }
@@ -2178,7 +2261,6 @@
      "localname": "GeneralRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2190,7 +2272,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues, as discussed in paragraphs .136\u2013.139. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
+        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
         "label": "General Revenues [Abstract]"
        }
       }
@@ -2198,7 +2280,6 @@
      "localname": "GeneralRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
@@ -2206,6 +2287,12 @@
     "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": null,
        "parentTag": null,
@@ -2226,6 +2313,7 @@
      "localname": "GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2279,7 +2367,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds.\n \n  Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
+        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
         "label": "Governmental Funds [Member]"
        }
       }
@@ -2287,8 +2375,9 @@
      "localname": "GovernmentalFundsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2308,8 +2397,8 @@
      "localname": "GovernmentalTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2354,6 +2443,7 @@
      "localname": "HumanServicesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2371,7 +2461,7 @@
      "localname": "IncomeStatementGovernmentalFundsLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2388,7 +2478,7 @@
      "localname": "IncomeStatementGovernmentalFundsTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2422,6 +2512,8 @@
      "localname": "InterestAndFiscalChargesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2430,6 +2522,11 @@
     "cafr_IntergovernmentalFundRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2447,7 +2544,7 @@
      "localname": "IntergovernmentalFundRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2465,7 +2562,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Net residual amounts due between governmental and business-type activities in the government-wide Statement of Net Assets",
+        "documentation": "Net residual amounts due between governmental and business-type activities in the government-wide Statement of Net Assets.",
         "label": "Internal Balances Asset/(Liability)"
        }
       }
@@ -2473,6 +2570,7 @@
      "localname": "InternalBalancesAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2501,6 +2599,11 @@
       "r58"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 9.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -2519,6 +2622,7 @@
      "localname": "Inventory",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2526,6 +2630,11 @@
     "cafr_InvestmentIncome": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2553,6 +2662,11 @@
       "r59"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -2626,6 +2740,12 @@
       "r49"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": null,
        "parentTag": null,
@@ -2646,8 +2766,8 @@
      "localname": "Liabilities",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2667,8 +2787,8 @@
      "localname": "LiabilitiesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "stringItemType"
@@ -2698,6 +2818,11 @@
     "cafr_LicensesAndPermits": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2715,7 +2840,7 @@
      "localname": "LicensesAndPermits",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2735,6 +2860,7 @@
      "localname": "LiquidityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -2756,6 +2882,7 @@
      "localname": "LiquidityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -2805,7 +2932,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Major funds are funds whose revenues, expenditures/expenses, assets, or liabilities (excluding extraordinary items) are at least 10 percent of corresponding totals for all governmental or enterprise funds and at least 5 percent of the aggregate amount for all governmental and enterprise funds. Any other fund may be reported as a major fund if the government\u2019s officials believe that fund is particularly important to ?nancial statement users.",
+        "documentation": "Major funds are funds whose revenues, expenditures/expenses, assets, or liabilities (excluding extraordinary items) are at least 10 percent of corresponding totals for all governmental or enterprise funds and at least 5 percent of the aggregate amount for all governmental and enterprise funds. Any other fund may be reported as a major fund if the government\u2019s officials believe that fund is particularly important to \ufb01nancial statement users.",
         "label": "Major [Member]"
        }
       }
@@ -2822,6 +2949,11 @@
     "cafr_MiscellaneousRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2840,8 +2972,8 @@
      "localname": "MiscellaneousRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2961,8 +3093,8 @@
      "localname": "NameOfProgramOrFunctionAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2981,8 +3113,8 @@
      "localname": "NameOfProgramOrFunctionDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3034,7 +3166,7 @@
      "localname": "NetChangeInFundBalances",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3042,6 +3174,11 @@
     "cafr_NetInvestmentInCapitalAssets": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3060,7 +3197,7 @@
      "localname": "NetInvestmentInCapitalAssets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3088,6 +3225,7 @@
      "localname": "NetOpebAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3097,6 +3235,11 @@
       "r60"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 12.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3115,6 +3258,7 @@
      "localname": "NetPensionAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3130,6 +3274,12 @@
       "r52"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": null,
        "parentTag": null,
@@ -3152,8 +3302,8 @@
      "localname": "NetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
@@ -3180,7 +3330,7 @@
      "localname": "NetPositionAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -3190,6 +3340,11 @@
       "r30"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3238,6 +3393,11 @@
       "r30"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3256,7 +3416,7 @@
      "localname": "NetPositionUnrestricted",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3283,6 +3443,11 @@
     "cafr_NoncurrentLiabilitiesDueLessThanOneYear": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 8.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -3301,7 +3466,7 @@
      "localname": "NoncurrentLiabilitiesDueLessThanOneYear",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3309,6 +3474,11 @@
     "cafr_NoncurrentLiabilitiesDueOneYearOrLater": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 9.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -3327,7 +3497,7 @@
      "localname": "NoncurrentLiabilitiesDueOneYearOrLater",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3347,6 +3517,7 @@
      "localname": "NoncurrentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
@@ -3412,6 +3583,11 @@
       "r34"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -3449,6 +3625,7 @@
      "localname": "OpebMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3477,7 +3654,7 @@
      "localname": "OperatingGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -3487,6 +3664,11 @@
       "r7"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 11.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3539,8 +3721,6 @@
      "localname": "OtherClassificationOfDeferredInflowsOutflowsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3576,7 +3756,7 @@
      "localname": "OtherFinancingSourcesAndUsesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -3584,6 +3764,11 @@
     "cafr_OtherFinancingSourcesAndUsesExcludingTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -3609,6 +3794,12 @@
     "cafr_OtherFinancingSourcesAndUsesIncludingTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": null,
        "parentTag": null,
@@ -3629,7 +3820,7 @@
      "localname": "OtherFinancingSourcesAndUsesIncludingTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3646,8 +3837,8 @@
      "localname": "OtherGovernmentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3715,6 +3906,8 @@
      "localname": "ParksAndRecreationMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3732,7 +3925,7 @@
      "localname": "PensionsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3764,6 +3957,11 @@
       "r56"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 8.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3782,7 +3980,7 @@
      "localname": "PrepaidItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3802,8 +4000,8 @@
      "localname": "PrimaryGovernmentActivitiesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -3878,6 +4076,7 @@
      "localname": "ProgramRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -3897,6 +4096,7 @@
      "localname": "ProgramRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "stringItemType"
@@ -3906,6 +4106,11 @@
       "r62"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 10.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3943,8 +4148,7 @@
      "localname": "PropertyTaxesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3983,8 +4187,8 @@
      "localname": "PublicWorksMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3993,6 +4197,11 @@
     "cafr_ReceivablesNet": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -4011,8 +4220,8 @@
      "localname": "ReceivablesNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4083,6 +4292,7 @@
      "localname": "RestrictedAssetOrLiabilityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4093,6 +4303,11 @@
       "r35"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -4111,6 +4326,7 @@
      "localname": "RestrictedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4158,6 +4374,12 @@
     "cafr_Revenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
        "order": null,
        "parentTag": null,
@@ -4184,7 +4406,7 @@
      "localname": "Revenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4201,7 +4423,7 @@
      "localname": "RevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -4211,6 +4433,11 @@
       "r45"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 9.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -4221,7 +4448,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management.",
+        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management. [GASBS 34, \u00b656]",
         "label": "Special Items"
        }
       }
@@ -4248,6 +4475,7 @@
      "localname": "SpecialRevenueFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -4301,7 +4529,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Line Items]"
        }
       }
@@ -4309,7 +4537,7 @@
      "localname": "StatementOfActivitiesLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -4336,7 +4564,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Table]"
        }
       }
@@ -4374,7 +4602,7 @@
      "localname": "StatementOfNetPositionLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -4393,7 +4621,7 @@
      "localname": "StatementOfNetPositionTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -4464,6 +4692,16 @@
     "cafr_TaxRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 1.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_GeneralRevenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenues",
@@ -4487,8 +4725,8 @@
      "localname": "TaxRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -4499,6 +4737,12 @@
       "r39"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": null,
        "parentTag": null,
@@ -4521,8 +4765,8 @@
      "localname": "TotalFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -4531,6 +4775,11 @@
     "cafr_TransfersIn": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -4549,6 +4798,7 @@
      "localname": "TransfersIn",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4556,6 +4806,11 @@
     "cafr_TransfersNet": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 10.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -4574,6 +4829,7 @@
      "localname": "TransfersNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -4581,6 +4837,11 @@
     "cafr_TransfersOut": {
      "auth_ref": [],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": -1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -4599,6 +4860,7 @@
      "localname": "TransfersOut",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4624,6 +4886,11 @@
       "r38"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -4634,7 +4901,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Unassigned fund balance is the residual classification for the general fund. This classification represents fund balance that has not been assigned to other funds and that has not been restricted, committed, or assigned to specific purposes within the general fund. The general fund should be the only fund that reports a positive unassigned fund balance amount. In other governmental funds, if expenditures incurred for specific purposes exceeded the amounts restricted, committed, or assigned to those purposes, it may be necessary to report a negative unassigned fund balance, as discussed in paragraph .179. [GASBS 54, \u00b617]",
+        "documentation": "Unassigned fund balance is the residual classification for the general fund. This classification represents fund balance that has not been assigned to other funds and that has not been restricted, committed, or assigned to specific purposes within the general fund. The general fund should be the only fund that reports a positive unassigned fund balance amount. In other governmental funds, if expenditures incurred for specific purposes exceeded the amounts restricted, committed, or assigned to those purposes, it may be necessary to report a negative unassigned fund balance.",
         "label": "Unassigned Fund Balance"
        }
       }
@@ -4642,7 +4909,7 @@
      "localname": "UnassignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4652,6 +4919,11 @@
       "r63"
      ],
      "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 5.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -4670,8 +4942,7 @@
      "localname": "UnearnedRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4711,139 +4982,193 @@
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_AccruedPayrollAndBenefits": {
+    "va-o-culp_AccountsPayableAndAccruedLiabilities": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accounts Payable And Accrued Liabilities"
+       }
+      }
+     },
+     "localname": "AccountsPayableAndAccruedLiabilities",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_AccountsReceivables": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accounts Receivables"
+       }
+      }
+     },
+     "localname": "AccountsReceivables",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_AccruedInterestPayable": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accrued Interest Payable"
+       }
+      }
+     },
+     "localname": "AccruedInterestPayable",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_AccruedPayrollAndRelatedLiabilities": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accrued Payroll And Related Liabilities"
+       }
+      }
+     },
+     "localname": "AccruedPayrollAndRelatedLiabilities",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_AirportMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Airport [Member]"
+       }
+      }
+     },
+     "localname": "AirportMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_AmountHeldForOThers": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Accrued Payroll And Benefits"
+        "label": "Amount Held For OThers"
        }
       }
      },
-     "localname": "AccruedPayrollAndBenefits",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "AmountHeldForOthers",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_AccumulatedDepreciationAndAmortizationCapitalAssets": {
+    "va-o-culp_AssetsHeldInAgencyCapacity": {
      "auth_ref": [],
-     "crdr": "debit",
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 7.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Accumulated Depreciation and Amortization, Capital Assets"
+        "label": "Assets Held In Agency Capacity"
        }
       }
      },
-     "localname": "AccumulatedDepreciationAndAmortizationCapitalAssets",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
+     "localname": "AssetsHeldInAgencyCapacity",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_BuildingsAndImprovementsMember": {
+    "va-o-culp_BuildingsAndImprovementsMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Buildings and improvements [Member]"
+        "label": "Buildings And Improvements [Member]"
        }
       }
      },
      "localname": "BuildingsAndImprovementsMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_BusinessLicenseMember": {
+    "va-o-culp_ClassificationOfCapitalAssetsAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Business License [Member]"
+        "label": "Classification Of Capital Assets [Axis]"
        }
       }
      },
-     "localname": "BusinessLicenseMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "ClassificationOfCapitalAssetsAxis",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "va-t-ashl_CapitalAssetsAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Capital Assets [Abstract]"
-       }
-      }
-     },
-     "localname": "CapitalAssetsAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_CapitalAssetsAxis": {
+    "va-o-culp_ClassificationOfCapitalAssetsDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Capital Assets [Axis]"
+        "label": "Classification Of Capital Assets [Domain]"
        }
       }
      },
-     "localname": "CapitalAssetsAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "ClassificationOfCapitalAssetsDomain",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "va-t-ashl_CapitalAssetsDomain": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Capital Assets [Domain]"
-       }
-      }
-     },
-     "localname": "CapitalAssetsDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_CashCashEquivalentsAndTemporaryCashInvestments": {
-     "auth_ref": [],
-     "crdr": "debit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Cash, cash equivalents and temporary cash investments"
-       }
-      }
-     },
-     "localname": "CashCashEquivalentsAndTemporaryCashInvestments",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_ClassificationOfGeneralRevenueAxis": {
+    "va-o-culp_ClassificationOfGeneralRevenueAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4853,14 +5178,14 @@
       }
      },
      "localname": "ClassificationOfGeneralRevenueAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_ClassificationOfGeneralRevenueDomain": {
+    "va-o-culp_ClassificationOfGeneralRevenueDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4870,14 +5195,30 @@
       }
      },
      "localname": "ClassificationOfGeneralRevenueDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_CommunityDevelopmentMember": {
+    "va-o-culp_CommonWealthMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Common Wealth [Member]"
+       }
+      }
+     },
+     "localname": "CommonWealthMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_CommunityDevelopmentMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4887,129 +5228,273 @@
       }
      },
      "localname": "CommunityDevelopmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ConstructionInProgressMember": {
+    "va-o-culp_ConstructionInProgressMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Construction in progress [Member]"
+        "label": "Construction In Progress [Member]"
        }
       }
      },
      "localname": "ConstructionInProgressMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ContributionsFromPrimaryGovernmentMember": {
+    "va-o-culp_ConsumerUtilityTaxesMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Contributions from Primary Government [Member]"
+        "label": "Consumer Utility Taxes [Member]"
        }
       }
      },
-     "localname": "ContributionsFromPrimaryGovernmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "ConsumerUtilityTaxesMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_DeferredInflowsOfResourcesAbstract": {
+    "va-o-culp_CountyContributionToEDA": {
      "auth_ref": [],
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "label": "Deferred Inflows Of Resources [Abstract]"
+        "label": "County Contribution To EDA"
        }
       }
      },
-     "localname": "DeferredInflowsOfResourcesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CountyContributionToEDA",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_DeferredOutflowsOfResourcesAbstract": {
+    "va-o-culp_CountyContributionToSchoolBoard": {
      "auth_ref": [],
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Deferred Outflows Of Resources [Abstract]"
+        "label": "County Contribution To School Board"
        }
       }
      },
-     "localname": "DeferredOutflowsOfResourcesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CountyContributionToSchoolBoard",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_EconomicDevelopmentAuthorityMember": {
+    "va-o-culp_CulpeperCountryEDAMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Economic Development Authority [Member]"
+        "label": "Culpeper Country EDA [Member]"
        }
       }
      },
-     "localname": "EconomicDevelopmentAuthorityMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CulpeperCountryEDAMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_FundBalancesAbstract": {
+    "va-o-culp_CulpeperCountyEDAMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Fund Balances [Abstract]"
+        "label": "Culpeper County EDA [Member]"
        }
       }
      },
-     "localname": "FundBalancesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CulpeperCountyEDAMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "domainItemType"
     },
-    "va-t-ashl_GeneralGovernmentAdministrationMember": {
+    "va-o-culp_CustomerDepositsPayable": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 6.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Customer Deposits Payable"
+       }
+      }
+     },
+     "localname": "CustomerDepositsPayable",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_DeferredChargeOnRefundingMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "General government administration [Member]"
+        "label": "Deferred Charge On Refunding [Member]"
+       }
+      }
+     },
+     "localname": "DeferredChargeOnRefundingMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_DueFromOthers": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 7.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Due From Others"
+       }
+      }
+     },
+     "localname": "DueFromOthers",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_EducationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Education [Member]"
+       }
+      }
+     },
+     "localname": "EducationMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_EquipmentMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Equipment [Member]"
+       }
+      }
+     },
+     "localname": "EquipmentMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_ExcessDeficiencyOfRevenuesOverUnderExpenditures": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Excess Deficiency Of Revenues Over Under Expenditures"
+       }
+      }
+     },
+     "localname": "ExcessDeficiencyOfRevenuesOverUnderExpenditures",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_GainLossOnSaleOfProperty": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 6.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Gain (Loss) On Sale Of Property"
+       }
+      }
+     },
+     "localname": "GainLossOnSaleOfProperty",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_GeneralGovernmentAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "General Government Administration [Member]"
        }
       }
      },
      "localname": "GeneralGovernmentAdministrationMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_GeneralPropertyTaxesMember": {
+    "va-o-culp_GeneralGovernmentMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "General Government [Member]"
+       }
+      }
+     },
+     "localname": "GeneralGovernmentMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_GeneralPropertyTaxesMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5019,128 +5504,202 @@
       }
      },
      "localname": "GeneralPropertyTaxesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_InfrastructureMember": {
+    "va-o-culp_GrantsAndContributionsNotRestrictedToSpecificProgram": {
      "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 4.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Infrastructure [Member]"
+        "label": "Grants And Contributions Not Restricted To Specific Program"
        }
       }
      },
-     "localname": "InfrastructureMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "domainItemType"
+     "localname": "GrantsAndContributionsNotRestrictedToSpecificProgram",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_IntergovernmentalNonCategoricalAid": {
+    "va-o-culp_GrantsAndContributionsNotRestrictedToSpecificPrograms": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Intergovernmental, non-categorical aid"
+        "label": "Grants And Contributions Not Restricted To Specific Programs"
        }
       }
      },
-     "localname": "IntergovernmentalNonCategoricalAid",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "GrantsAndContributionsNotRestrictedToSpecificPrograms",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_LandMember": {
+    "va-o-culp_HealthAndWelfareMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Land [Member]"
+        "label": "Health And Welfare [Member]"
        }
       }
      },
-     "localname": "LandMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "HealthAndWelfareMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_LiabilitiesDeferredInflowsOfResourcesAndFundBalances": {
+    "va-o-culp_IssuanceOfCapitalLease": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Liabilities Deferred Inflows Of Resources And Fund Balances"
+        "label": "Issuance Of Capital Lease"
        }
       }
      },
-     "localname": "LiabilitiesDeferredInflowsOfResourcesAndFundBalances",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "IssuanceOfCapitalLease",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_LocalSalesAndUseMember": {
+    "va-o-culp_JointlyOwnedAssetsMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Local Sales And Use [Member]"
+        "label": "Jointly Owned Assets [Member]"
        }
       }
      },
-     "localname": "LocalSalesAndUseMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "JointlyOwnedAssetsMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_MachineryAndEquipmentMember": {
+    "va-o-culp_JudicialAdministrationMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Machinery and equipment [Member]"
+        "label": "Judicial Administration [Member]"
        }
       }
      },
-     "localname": "MachineryAndEquipmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "JudicialAdministrationMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_MealsMember": {
+    "va-o-culp_LandAndLandImprovementsMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Meals [Member]"
+        "label": "Land And Land Improvements [Member]"
        }
       }
      },
-     "localname": "MealsMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "LandAndLandImprovementsMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_NameOfComponentUnitAxis": {
+    "va-o-culp_LandfillMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Landfill [Member]"
+       }
+      }
+     },
+     "localname": "LandfillMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_LiabilitiesDeferredInflowsAndNetPosition": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Liabilities Deferred Inflows And Net Position"
+       }
+      }
+     },
+     "localname": "LiabilitiesDeferredInflowsAndNetPosition",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_LocalSalesAndUseTaxesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Local Sales And Use Taxes [Member]"
+       }
+      }
+     },
+     "localname": "LocalSalesAndUseTaxesMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_MotorVehicleLicenseTaxesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Motor Vehicle License Taxes [Member]"
+       }
+      }
+     },
+     "localname": "MotorVehicleLicenseTaxesMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_NameOfComponentUnitAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5151,14 +5710,14 @@
       }
      },
      "localname": "NameOfComponentUnitAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_NameOfComponentUnitDomain": {
+    "va-o-culp_NameOfComponentUnitDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5168,87 +5727,73 @@
       }
      },
      "localname": "NameOfComponentUnitDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_NetExpenseRevenueAndChangesInNetPosition": {
+    "va-o-culp_NetExpenseRevenue": {
      "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Net Expense Revenue"
+       }
+      }
+     },
+     "localname": "NetExpenseRevenue",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_NotesReceivables": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 4.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Notes Receivables"
+       }
+      }
+     },
+     "localname": "NotesReceivables",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_OtherGeneralRevenues": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 8.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Net Expense Revenue And Changes In Net Position"
+        "label": "Other Genera lRevenues"
        }
       }
      },
-     "localname": "NetExpenseRevenueAndChangesInNetPosition",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
-     ],
+     "localname": "OtherGeneralRevenues",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition": {
-     "auth_ref": [],
-     "crdr": "credit",
-     "localname": "NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_NetPensionLiability": {
-     "auth_ref": [],
-     "crdr": "credit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Net pension liability"
-       }
-      }
-     },
-     "localname": "NetPensionLiability",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_NoncurrentLiabilitiesAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Noncurrent Liabilities [Abstract]"
-       }
-      }
-     },
-     "localname": "NoncurrentLiabilitiesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "va-t-ashl_OtherGeneralRevenuesMember": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Other General Revenues [Member]"
-       }
-      }
-     },
-     "localname": "OtherGeneralRevenuesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "va-t-ashl_OtherLocalTaxesMember": {
+    "va-o-culp_OtherLocalTaxesMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5258,64 +5803,104 @@
       }
      },
      "localname": "OtherLocalTaxesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ParksRecreationAndCulturalMember": {
+    "va-o-culp_OtherReceivables": {
      "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 5.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "label": "Parks, Recreation And Cultural [Member]"
+        "label": "Other Receivables"
        }
       }
      },
-     "localname": "ParksRecreationAndCulturalMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
-     ],
-     "xbrltype": "domainItemType"
+     "localname": "OtherReceivables",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_PerformanceBondPayable": {
+    "va-o-culp_PaymentsFromPrimaryGovernment": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 3.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Payments From Primary Government"
+       }
+      }
+     },
+     "localname": "PaymentsFromPrimaryGovernment",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_PensionLiability": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Performance Bond Payable"
+        "label": "Pension Liability"
        }
       }
      },
-     "localname": "PerformanceBondPayable",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "PensionLiability",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_PrepaidAbstract": {
+    "va-o-culp_PrincipalRetirementMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Prepaid [Abstract]"
+        "label": "Principal Retirement [Member]"
        }
       }
      },
-     "localname": "PrepaidAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "PrincipalRetirementMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "domainItemType"
     },
-    "va-t-ashl_PublicSafetyMember": {
+    "va-o-culp_PropertyTaxes": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Property Taxes"
+       }
+      }
+     },
+     "localname": "PropertyTaxes",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_PublicSafetyMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5325,33 +5910,16 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ReceivablesNetAbstract": {
+    "va-o-culp_RecoveredCosts": {
      "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Receivables Net [Abstract]"
-       }
-      }
-     },
-     "localname": "ReceivablesNetAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "va-t-ashl_RecoveredCosts": {
-     "auth_ref": [],
-     "crdr": "credit",
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
@@ -5360,95 +5928,234 @@
       }
      },
      "localname": "RecoveredCosts",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_RevenuesOverUnderExpenditures": {
+    "va-o-culp_RevenueFromUseOfMoneyAndProperty": {
      "auth_ref": [],
-     "crdr": "credit",
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "label": "Revenues Over (Under) Expenditures"
+        "label": "Revenue From Use Of Money And Property"
        }
       }
      },
-     "localname": "RevenuesOverUnderExpenditures",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "RevenueFromUseOfMoneyAndProperty",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_SoftwareMember": {
+    "va-o-culp_RevenueTaxesMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Software [Member]"
+        "label": "Revenue Taxes [Member]"
        }
       }
      },
-     "localname": "SoftwareMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "RevenueTaxesMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_TransfersInOut": {
-     "auth_ref": [],
-     "crdr": "credit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Transfers In (Out)"
-       }
-      }
-     },
-     "localname": "TransfersInOut",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_TransientOccupancyMember": {
+    "va-o-culp_SchoolBoardMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Transient Occupancy [Member]"
+        "label": "School Board [Member]"
        }
       }
      },
-     "localname": "TransientOccupancyMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "SchoolBoardMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_UseOfMoneyAndProperty": {
+    "va-o-culp_StateAid": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 2.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "State Aid"
+       }
+      }
+     },
+     "localname": "StateAid",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_TaxesIncludingPenalties": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Taxes Including Penalties"
+       }
+      }
+     },
+     "localname": "TaxesIncludingPenalties",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_TaxesOnRecordationAndWillsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Taxes On Recordation And Wills [Member]"
+       }
+      }
+     },
+     "localname": "TaxesOnRecordationAndWillsMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_TypeOfDeferredInflowResourcesAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Type Of Deferred Inflow Resources [Axis]"
+       }
+      }
+     },
+     "localname": "TypeOfDeferredInflowResourcesAxis",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "va-o-culp_TypeOfDeferredInflowResourcesDomain": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Type Of Deferred Inflow Resources [Domain]"
+       }
+      }
+     },
+     "localname": "TypeOfDeferredInflowResourcesDomain",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_UnavailableRevenueTaxes": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Use of money and property"
+        "label": "Unavailable Revenue Taxes"
        }
       }
      },
-     "localname": "UseOfMoneyAndProperty",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "UnavailableRevenueTaxes",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.co.culpeper.va.us/role/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_UnrestrictedInvestmentEarnings": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 5.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Unrestricted Investment Earnings"
+       }
+      }
+     },
+     "localname": "UnrestrictedInvestmentEarnings",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_UnrestrictedRevenuesFromUseOfMoneyAndProperty": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Unrestricted Revenues From Use Of Money And Property"
+       }
+      }
+     },
+     "localname": "UnrestrictedRevenuesFromUseOfMoneyAndProperty",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-culp_WaterAndSewerAuthorityMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Water And Sewer Authority [Member]"
+       }
+      }
+     },
+     "localname": "WaterAndSewerAuthorityMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-culp_WaterAndSewerMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Water And Sewer [Member ]"
+       }
+      }
+     },
+     "localname": "WaterAndSewerMember",
+     "nsuri": "http://www.co.culpeper.va.us/20180630",
+     "presentation": [
+      "http://www.co.culpeper.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
     }
    },
    "unitCount": 1
