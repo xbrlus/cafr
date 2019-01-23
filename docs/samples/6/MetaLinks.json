@@ -698,11 +698,10 @@
        "body",
        "html"
       ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:DeferredInflowsOfResources",
+      "name": "cafr:ChargesForServices",
       "reportCount": 1,
       "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
