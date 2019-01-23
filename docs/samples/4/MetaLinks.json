@@ -1,6 +1,6 @@
 {
  "instance": {
-  "FallsChurch-2018-Statements.htm": {
+  "FallsChurch-2018-Statements.html": {
    "axisCustom": 0,
    "axisStandard": 7,
    "contextCount": 14,
@@ -17,7 +17,7 @@
     },
     "inline": {
      "local": [
-      "FallsChurch-2018-Statements.htm"
+      "FallsChurch-2018-Statements.html"
      ]
     },
     "labelLink": {
@@ -503,7 +503,7 @@
      }
     }
    },
-   "segmentCount": 0,
+   "segmentCount": 10,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [

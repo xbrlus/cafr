@@ -1,9 +1,9 @@
 {
  "instance": {
-  "Alexandria-2018-Statements.html": {
+  "iXBRL_Hillsborough_22-Jan-2019.xhtml": {
    "axisCustom": 0,
-   "axisStandard": 7,
-   "contextCount": 13,
+   "axisStandard": 8,
+   "contextCount": 29,
    "dts": {
     "calculationLink": {
      "remote": [
@@ -17,7 +17,7 @@
     },
     "inline": {
      "local": [
-      "Alexandria-2018-Statements.html"
+      "iXBRL_Hillsborough_22-Jan-2019.xhtml"
      ]
     },
     "labelLink": {
@@ -43,7 +43,6 @@
       "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
       "http://www.xbrl.org/2005/xbrldt-2005.xsd",
       "http://www.xbrl.org/2006/ref-2006-02-27.xsd",
-      "http://www.xbrl.org/2006/xbrldi-2006.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
       "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
@@ -55,250 +54,94 @@
    "elementCount": 197,
    "entityCount": 1,
    "hidden": {
-    "total": 0
+    "http://www.xbrl.us/slg/cafr/2019-01-16": 6,
+    "total": 6
    },
    "keyCustom": 0,
-   "keyStandard": 48,
+   "keyStandard": 19,
    "memberCustom": 0,
-   "memberStandard": 10,
+   "memberStandard": 15,
    "report": {
     "R1": {
      "firstAnchor": {
       "ancestors": [
+       "span",
+       "span",
+       "p",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx1",
-      "decimals": null,
+      "contextRef": "I20170630_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "decimals": "2",
       "first": true,
-      "lang": "en",
-      "name": "cafr:DocumentTitle",
+      "lang": null,
+      "name": "cafr:Assets",
       "reportCount": 1,
       "unique": true,
-      "unitRef": null,
+      "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "true",
-     "longName": "1000 - CAFR cover",
-     "role": "http://xbrl.us/slg/cafr/cover",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx1",
-      "decimals": null,
-      "first": true,
-      "lang": "en",
-      "name": "cafr:DocumentTitle",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R10": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx12",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:Revenues",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds",
-     "role": "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx12",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:Revenues",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     }
-    },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx1",
-      "decimals": null,
-      "first": true,
-      "lang": "en",
-      "name": "cafr:TypeOfGovernment",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "1100 - CAFR letter of transmittal",
-     "role": "http://xbrl.us/slg/cafr/letterOfTransmittal",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx1",
-      "decimals": null,
-      "first": true,
-      "lang": "en",
-      "name": "cafr:TypeOfGovernment",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R3": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx2",
-      "decimals": null,
-      "first": true,
-      "lang": "en",
-      "name": "cafr:DateOfAuditOpinion",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "1200 - CAFR audit letter",
-     "role": "http://xbrl.us/slg/cafr/auditLetter",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx2",
-      "decimals": null,
-      "first": true,
-      "lang": "en",
-      "name": "cafr:DateOfAuditOpinion",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R4": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:DeferredOutflowsOfResources",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
      "longName": "2100 - CAFR statement of net position, government wide, assets and deferred outflows",
      "role": "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
+       "span",
+       "p",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
+      "contextRef": "I20170630_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "decimals": "2",
       "first": true,
-      "lang": "en",
-      "name": "cafr:DeferredOutflowsOfResources",
+      "lang": null,
+      "name": "cafr:Assets",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "ISO4217_USD",
+      "unitRef": "USD",
       "xsiNil": "false"
      }
     },
-    "R5": {
+    "R2": {
      "firstAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
+      "contextRef": "I20170630",
+      "decimals": "4",
       "first": true,
-      "lang": "en",
-      "name": "cafr:Liabilities",
+      "lang": null,
+      "name": "cafr:OtherLiabilities",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "ISO4217_USD",
+      "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -309,40 +152,52 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
+      "contextRef": "I20170630",
+      "decimals": "4",
       "first": true,
-      "lang": "en",
-      "name": "cafr:Liabilities",
+      "lang": null,
+      "name": "cafr:OtherLiabilities",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "ISO4217_USD",
+      "unitRef": "USD",
       "xsiNil": "false"
      }
     },
-    "R6": {
+    "R3": {
      "firstAnchor": {
       "ancestors": [
+       "span",
+       "span",
+       "p",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
+      "contextRef": "I20170630_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "decimals": "2",
       "first": true,
-      "lang": "en",
-      "name": "cafr:NetInvestmentInCapitalAssets",
+      "lang": null,
+      "name": "cafr:NetPosition",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "ISO4217_USD",
+      "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -353,157 +208,32 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
+       "span",
+       "span",
+       "p",
        "td",
        "tr",
+       "tbody",
        "table",
+       "div",
+       "div",
+       "div",
        "body",
        "html"
       ],
-      "contextRef": "_ctx6",
-      "decimals": "0",
+      "contextRef": "I20170630_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "decimals": "2",
       "first": true,
-      "lang": "en",
-      "name": "cafr:NetInvestmentInCapitalAssets",
+      "lang": null,
+      "name": "cafr:NetPosition",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     }
-    },
-    "R7": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx7",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:GeneralRevenues",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "2500 - CAFR statement of activities, government wide, general revenues",
-     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx7",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:GeneralRevenues",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     }
-    },
-    "R8": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx7",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "2600 - CAFR statement of activities, government wide, program revenues and expenses",
-     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx7",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     }
-    },
-    "R9": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx11",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:NonspendableFundBalance",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "3100 - CAFR balance sheet, governmental funds",
-     "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "table",
-       "body",
-       "html"
-      ],
-      "contextRef": "_ctx11",
-      "decimals": "0",
-      "first": true,
-      "lang": "en",
-      "name": "cafr:NonspendableFundBalance",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "ISO4217_USD",
+      "unitRef": "USD",
       "xsiNil": "false"
      }
     }
    },
-   "segmentCount": 10,
+   "segmentCount": 15,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [

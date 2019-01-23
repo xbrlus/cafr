@@ -1,6 +1,6 @@
 {
  "instance": {
-  "Loudoun-2018-Statements.htm": {
+  "Loudoun-2018-Statements.html": {
    "axisCustom": 0,
    "axisStandard": 7,
    "contextCount": 14,
@@ -17,7 +17,7 @@
     },
     "inline": {
      "local": [
-      "Loudoun-2018-Statements.htm"
+      "Loudoun-2018-Statements.html"
      ]
     },
     "labelLink": {
