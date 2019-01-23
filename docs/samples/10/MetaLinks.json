@@ -1,9 +1,9 @@
 {
  "instance": {
   "va-o-albe-20170630.xhtml": {
-   "axisCustom": 4,
+   "axisCustom": 3,
    "axisStandard": 8,
-   "contextCount": 143,
+   "contextCount": 148,
    "dts": {
     "calculationLink": {
      "local": [
@@ -66,15 +66,15 @@
      ]
     }
    },
-   "elementCount": 267,
+   "elementCount": 268,
    "entityCount": 1,
    "hidden": {
     "total": 0
    },
-   "keyCustom": 19,
-   "keyStandard": 42,
+   "keyCustom": 22,
+   "keyStandard": 71,
    "memberCustom": 32,
-   "memberStandard": 16,
+   "memberStandard": 15,
    "nsprefix": "va-o-albe",
    "nsuri": "http://www.albemarle.org/20170630",
    "report": {
@@ -138,6 +138,35 @@
        "body",
        "html"
       ],
+      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:Expenses",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "2600 - CAFR statement of activities, government wide, program revenues and expenses",
+     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R11": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
       "contextRef": "AsOf_30June2017_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
@@ -155,7 +184,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R11": {
+    "R12": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -182,26 +211,7 @@
      "role": "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "FYE_2017_GovernmentalFundsMember",
-      "decimals": "0",
-      "lang": null,
-      "name": "cafr:NetChangeInFundBalances",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
+     "uniqueAnchor": null
     },
     "R2": {
      "firstAnchor": {
@@ -352,6 +362,50 @@
     "R5": {
      "firstAnchor": {
       "ancestors": [
+       "b",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "FYE_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "1000 - CAFR cover",
+     "role": "http://xbrl.us/slg/cafr/cover",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "b",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "FYE_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R6": {
+     "firstAnchor": {
+      "ancestors": [
        "td",
        "tr",
        "tbody",
@@ -378,7 +432,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R6": {
+    "R7": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -405,28 +459,9 @@
      "role": "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "AsOf_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
-      "decimals": "0",
-      "lang": null,
-      "name": "cafr:LiabilitiesAndDeferredInflows",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
+     "uniqueAnchor": null
     },
-    "R7": {
+    "R8": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -455,7 +490,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R8": {
+    "R9": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -484,54 +519,6 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R9": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "2600 - CAFR statement of activities, government wide, program revenues and expenses",
-     "role": "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_InterestAndFiscalChargesMember",
-      "decimals": "0",
-      "lang": null,
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
-    },
     "R9999": {
      "firstAnchor": {
       "ancestors": [
@@ -544,11 +531,11 @@
        "body",
        "html"
       ],
-      "contextRef": "AsOf_30June2017_ComponentUnitsMember_SchoolBoardMember",
+      "contextRef": "AsOf_30June2017_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:LiabilitiesAndDeferredInflows",
+      "name": "va-o-albe:GeneralCapitalProjects",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -562,7 +549,7 @@
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 51,
+   "segmentCount": 48,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [
@@ -774,7 +761,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements.. Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes.",
+        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements, as discussed in paragraph .181 . Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes. [GASBS 54, \u00b613]",
         "label": "Assigned Fund Balance"
        }
       }
@@ -1068,6 +1055,7 @@
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
       "http://www.albemarle.org/role/balanceSheetGovernmentalFunds",
+      "http://www.albemarle.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1405,7 +1393,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements. [GASBS 54, \u00b610]",
+        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements.",
         "label": "Committed Fund Balance"
        }
       }
@@ -1596,7 +1584,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund.",
+        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund (see paragraph .114 rather than a debt service fund to reflect the fact that the government\u2019s duties are limited to acting as an agent for the assessed property owners and the bondholders, as discussed in Section S40, \u201cSpecial Assessments,\u201d paragraph .119",
         "label": "Debt Service Fund [Member]"
        }
       }
@@ -1638,7 +1626,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "An acquisition of net position by the government that is applicable to a future reporting period.",
+        "documentation": "An acquistion of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Inflows of Resources"
        }
       }
@@ -1667,7 +1655,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "A consumption  of net position by the government that is applicable to a future reporting period.",
+        "documentation": "A consumption of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Outflows Of Resources"
        }
       }
@@ -1864,7 +1852,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources. 5\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
+        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources.\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
         "label": "Enterprise Fund [Member]"
        }
       }
@@ -1942,7 +1930,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Decrease in financial resources.",
+        "documentation": "Decrease in financial resources",
         "label": "Expenditures"
        }
       }
@@ -2006,7 +1994,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraordinary items should be reported separately at the bottom of the statement of activities.",
+        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraorinary items should be reported separately at the bottom of the statement of activities. [GASBS 34, \u00b655, as amended by GASBS 62, \u00b645\u2013\u00b649]",
         "label": "Extraordinary Items"
        }
       }
@@ -2062,7 +2050,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
         "label": "Financial Reporting Entity [Axis]"
        }
       }
@@ -2090,7 +2078,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
         "label": "Financial Reporting Entity [Domain]"
        }
       }
@@ -2492,7 +2480,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt service payments other than principal repayment.",
+        "documentation": "Debt servce payments other than principal repayment.",
         "label": "Interest and Fiscal Charges [Member]"
        }
       }
@@ -2500,6 +2488,7 @@
      "localname": "InterestAndFiscalChargesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.albemarle.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://www.albemarle.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
@@ -3155,6 +3144,7 @@
      "localname": "NetChangeInFundBalances",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.albemarle.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3585,7 +3575,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The nonspendable fund balance classification includes amounts that cannot be spent because they are either (a) not in spendable form or (b) legally or contractually required to be maintained intact. The \u201cnot in spendable form\u201d criterion includes items that are not expected to be converted to cash, for example, inventories and prepaid amounts. It also includes the long-term amount of loans and notes receivable, as well as property acquired for resale. However, if the use of the proceeds from the collection of those receivables or from the sale of those properties is restricted, committed, or assigned, then they should be included in the appropriate fund balance classification (restricted, committed, or assigned), rather than nonspendable fund balance. The corpus (or principal) of a permanent fund is an example of an amount that is legally or contractually required to be maintained intact. [GASBS 54, \u00b66]",
+        "documentation": "The nonspendable fund balance classification includes amounts that cannot be spent because they are either (a) not in spendable form or (b) legally or contractually required to be maintained intact. The \u201cnot in spendable form\u201d criterion includes items that are not expected to be converted to cash, for example, inventories and prepaid amounts. It also includes the long-term amount of loans and notes receivable, as well as property acquired for resale. However, if the use of the proceeds from the collection of those receivables or from the sale of those properties is restricted, committed, or assigned, then they should be included in the appropriate fund balance classification (restricted, committed, or assigned), rather than nonspendable fund balance. The corpus (or principal) of a permanent fund is an example of an amount that is legally or contractually required to be maintained intact.",
         "label": "Nonspendable Fund Balance"
        }
       }
@@ -3982,7 +3972,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria:\n \n a. It has a separately elected governing body.\n \n b. It is legally separateOpen this link as a new document (see paragraph .114Open this link as a new document).\n \n c. It is fiscally independentOpen this link as a new document of other state and local governments (see paragraphs .115\u2013.117Open this link as a new document).\n \n [GASBS 14, \u00b613]\n A primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, agencies, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government. [GASBS 14, \u00b614]",
+        "documentation": "The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria:\n \n a. It has a separately elected governing body.\n \n b. It is legally separate\n \n c. It is fiscally independent\n \nA primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, agencies, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government.",
         "label": "Primary Government Activities [Member]"
        }
       }
@@ -4311,7 +4301,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.\n [GASBS 54, \u00b68]",
+        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.",
         "label": "Restricted Fund Balance"
        }
       }
@@ -4525,7 +4515,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Line Items]"
        }
       }
@@ -4560,7 +4550,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Table]"
        }
       }
@@ -4896,7 +4886,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Unassigned fund balance is the residual classification for the general fund. This classification represents fund balance that has not been assigned to other funds and that has not been restricted, committed, or assigned to specific purposes within the general fund. The general fund should be the only fund that reports a positive unassigned fund balance amount. In other governmental funds, if expenditures incurred for specific purposes exceeded the amounts restricted, committed, or assigned to those purposes, it may be necessary to report a negative unassigned fund balance, as discussed in paragraph .179. [GASBS 54, \u00b617]",
+        "documentation": "Unassigned fund balance is the residual classification for the general fund. This classification represents fund balance that has not been assigned to other funds and that has not been restricted, committed, or assigned to specific purposes within the general fund. The general fund should be the only fund that reports a positive unassigned fund balance amount. In other governmental funds, if expenditures incurred for specific purposes exceeded the amounts restricted, committed, or assigned to those purposes, it may be necessary to report a negative unassigned fund balance.",
         "label": "Unassigned Fund Balance"
        }
       }
@@ -5119,7 +5109,7 @@
      ],
      "xbrltype": "domainItemType"
     },
-    "va-o-albe_CapitalProjectsFundMember": {
+    "va-o-albe_CapitalProjectsMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5128,7 +5118,7 @@
        }
       }
      },
-     "localname": "CapitalProjectsFundMember",
+     "localname": "CapitalProjectsMember",
      "nsuri": "http://www.albemarle.org/20170630",
      "presentation": [
       "http://www.albemarle.org/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -5230,6 +5220,9 @@
      },
      "localname": "ConsumerUtilityTaxesMember",
      "nsuri": "http://www.albemarle.org/20170630",
+     "presentation": [
+      "http://www.albemarle.org/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
      "xbrltype": "domainItemType"
     },
     "va-o-albe_ContingenciesMember": {
@@ -5702,6 +5695,23 @@
       "http://www.albemarle.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
+    },
+    "va-o-albe_LiabilitiesAndDeferredInflowsAndNetPosition": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Liabilities And Deferred Inflows And Net Position"
+       }
+      }
+     },
+     "localname": "LiabilitiesAndDeferredInflowsAndNetPosition",
+     "nsuri": "http://www.albemarle.org/20170630",
+     "presentation": [
+      "http://www.albemarle.org/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
     },
     "va-o-albe_LiabilitiesDeferredInflowsOfResourcesAndFundBalances": {
      "auth_ref": [],
