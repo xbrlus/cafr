@@ -1,18 +1,21 @@
 {
  "instance": {
-  "va-t-ashl-20170630.xhtml": {
-   "axisCustom": 3,
-   "axisStandard": 6,
-   "contextCount": 69,
+  "va-o-fauq-20180630.xhtml": {
+   "axisCustom": 4,
+   "axisStandard": 9,
+   "contextCount": 324,
    "dts": {
     "calculationLink": {
+     "local": [
+      "va-o-fauq-20180630_cal.xml"
+     ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
      "local": [
-      "va-t-ashl-20170630_def.xml"
+      "va-o-fauq-20180630_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -20,25 +23,20 @@
     },
     "inline": {
      "local": [
-      "va-t-ashl-20170630.xhtml"
+      "va-o-fauq-20180630.xhtml"
      ]
     },
     "labelLink": {
      "local": [
-      "va-t-ashl-20170630_lab.xml"
+      "va-o-fauq-20180630_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
      ]
     },
-    "linkbase": {
-     "local": [
-      "va-t-ashl-20170630_cal.xml"
-     ]
-    },
     "presentationLink": {
      "local": [
-      "va-t-ashl-20170630_pre.xml"
+      "va-o-fauq-20180630_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -51,7 +49,7 @@
     },
     "schema": {
      "local": [
-      "va-t-ashl-20170630.xsd"
+      "va-o-fauq-20180630.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -68,17 +66,17 @@
      ]
     }
    },
-   "elementCount": 242,
+   "elementCount": 284,
    "entityCount": 1,
    "hidden": {
     "total": 0
    },
-   "keyCustom": 14,
+   "keyCustom": 25,
    "keyStandard": 71,
-   "memberCustom": 18,
-   "memberStandard": 13,
-   "nsprefix": "va-t-ashl",
-   "nsuri": "http://www.town.ashland.va.us/20170630",
+   "memberCustom": 39,
+   "memberStandard": 21,
+   "nsprefix": "va-o-fauq",
+   "nsuri": "http://www.fauquiercounty.gov/20180630",
    "report": {
     "R1": {
      "firstAnchor": {
@@ -91,7 +89,7 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -102,8 +100,8 @@
      },
      "groupType": "",
      "isDefault": "true",
-     "longName": "0001 -STATEMENT OF NET POSITION",
-     "role": "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+     "longName": "0001 - Statement of Net Position Government Wide Assets Laibilities and Deferred Inflows Outflows",
+     "role": "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -116,10 +114,10 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:AccumulatedDepreciationAndAmortizationCapitalAssets",
+      "name": "va-o-fauq:AccruedAndOtherLiabilities",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -137,7 +135,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
+      "contextRef": "FYE_2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -165,11 +163,11 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AS_OF_31June2018_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:CommittedFundBalance",
+      "name": "cafr:TotalFundBalance",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -193,11 +191,11 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GovernmentalFundsMember",
+      "contextRef": "FYE_2018",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:LicensesAndPermits",
+      "name": "cafr:InvestmentIncome",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -206,34 +204,6 @@
      "isDefault": "false",
      "longName": "3200 - CAFR statement of revenues, expenditures, and changes in fund balance, governmental funds",
      "role": "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:Expenses",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "0003 - STATEMENT OF ACTIVITIES",
-     "role": "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -246,10 +216,58 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_30-June-2018_GovernmentalFundsMember",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:IntergovernmentalNonCategoricalAid",
+      "name": "cafr:TransfersIn",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R2": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "FYE_2018",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "va-o-fauq:NetExpenseRevenueAndChangesInNetPosition",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "0002 - Statement of activities, government wide, program general revenues and expenses",
+     "role": "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "FYE_2018",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "va-o-fauq:NetExpenseRevenueAndChangesInNetPosition",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -267,20 +285,19 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments",
+      "name": "cafr:CashAndCashEquivalents",
       "reportCount": 1,
-      "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "0004 - BALANCE SHEET GOVERNMENTAL FUNDS",
-     "role": "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+     "longName": "0003 - Balance sheet, governmental funds",
+     "role": "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -293,11 +310,10 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_GovernmentalFundsMember",
+      "contextRef": "AsOf_30-June-2018_PrimaryGovernmentActivitiesMember_GovernmentalFundsMember",
       "decimals": "0",
-      "first": true,
       "lang": null,
-      "name": "va-t-ashl:CashCashEquivalentsAndTemporaryCashInvestments",
+      "name": "cafr:Investments",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -315,19 +331,19 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GeneralFundMember",
+      "contextRef": "FYE_2018",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:LicensesAndPermits",
+      "name": "cafr:InvestmentIncome",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "0005 - STATEMENT OF REVENUES, EXPENDITURES AND CHANGES IN FUND BALANCES GOVERNMENTAL FUNDS",
-     "role": "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+     "longName": "0004 - Statement of revenues, expenditures, and changes in fund balance, governmental funds",
+     "role": "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
@@ -340,10 +356,10 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_GeneralFundMember",
+      "contextRef": "FYE_30-June-2018_GovernmentalFundsMember",
       "decimals": "0",
       "lang": null,
-      "name": "va-t-ashl:UseOfMoneyAndProperty",
+      "name": "va-o-fauq:RevenueFromUseOfMoneyAndProperty",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -359,7 +375,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017",
+      "contextRef": "C_20170701to20180630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -383,7 +399,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017",
+      "contextRef": "C_20170701to20180630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -405,7 +421,7 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -433,7 +449,7 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -461,7 +477,7 @@
        "body",
        "html"
       ],
-      "contextRef": "AS_OF_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "AS_OF_30June2018",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -489,11 +505,11 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_2018",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:GeneralRevenues",
+      "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -517,25 +533,25 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_2017_PrimaryGovernmentActivitiesMember",
+      "contextRef": "FYE_30-June-2018_DebtServiceFundMember_PrincipalRetirementMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "va-t-ashl:NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition",
+      "name": "cafr:Expenditures",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "longName": "Uncategorized Items - va-o-fauq-20180630.xhtml",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "shortName": "Uncategorized Items - va-o-fauq-20180630.xhtml",
      "subGroupType": "",
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 32,
+   "segmentCount": 64,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [
@@ -560,8 +576,8 @@
      "localname": "AccountsPayable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -606,8 +622,8 @@
      "localname": "ActivityTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -632,8 +648,8 @@
      "localname": "ActivityTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -650,6 +666,12 @@
       "r6"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_AssetsAndDeferredOutflows",
@@ -669,8 +691,8 @@
      "localname": "Assets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -690,8 +712,8 @@
      "localname": "AssetsAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -718,6 +740,7 @@
      "localname": "AssetsAndDeferredOutflows",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -727,6 +750,11 @@
       "r37"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -745,6 +773,7 @@
      "localname": "AssignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -835,7 +864,7 @@
      "localname": "BalanceSheetGovernmentFundsTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -852,7 +881,7 @@
      "localname": "BalanceSheetLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -918,7 +947,8 @@
      "localname": "BusinessTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -959,6 +989,11 @@
       "r22"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 13.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -977,7 +1012,7 @@
      "localname": "CapitalAssetsNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1005,7 +1040,7 @@
      "localname": "CapitalGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -1025,8 +1060,8 @@
      "localname": "CapitalProjectsFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1045,8 +1080,7 @@
      "localname": "CapitalProjectsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -1056,6 +1090,11 @@
       "r57"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -1074,7 +1113,8 @@
      "localname": "CashAndCashEquivalents",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1112,7 +1152,7 @@
      "localname": "ChangeInNetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -1122,6 +1162,11 @@
       "r53"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -1145,8 +1190,8 @@
      "localname": "ChargesForServices",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -1164,8 +1209,8 @@
      "localname": "ClassificationOfDueToDueFromAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1183,8 +1228,8 @@
      "localname": "ClassificationOfDueToDueFromDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1197,7 +1242,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Fund financial statements should be used to report additional and detailed information about the primary government. Governments should report governmental, proprietary, and fiduciary funds to the extent that they have activities that meet the criteria for using those funds. Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
+        "documentation": "Fund financial statements should be used to report additional and detailed information about the primary government. Governments should report governmental, proprietary, and fiduciary funds to the extent that they have activities that meet the criteria for using those funds. a. Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
         "label": "Classification of Fund Type [Axis]"
        }
       }
@@ -1205,8 +1250,8 @@
      "localname": "ClassificationOfFundTypeAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1228,8 +1273,8 @@
      "localname": "ClassificationOfFundTypeDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1248,8 +1293,8 @@
      "localname": "ClassificationOfInflowsOutflowsAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1267,8 +1312,8 @@
      "localname": "ClassificationOfInflowsOutflowsDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -1286,6 +1331,7 @@
      "localname": "ClassificationOfNetPositionRestrictedDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "domainItemType"
@@ -1302,6 +1348,7 @@
      "localname": "ClassificationOfNetPositionsRestrictedAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -1355,7 +1402,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements.",
+        "documentation": "Amounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements. [GASBS 54, \u00b610]",
         "label": "Committed Fund Balance"
        }
       }
@@ -1363,7 +1410,7 @@
      "localname": "CommittedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1383,8 +1430,8 @@
      "localname": "ComponentUnitsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses",
@@ -1554,6 +1601,8 @@
      "localname": "DebtServiceFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -1567,7 +1616,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund (see paragraph .114 rather than a debt service fund to reflect the fact that the government\u2019s duties are limited to acting as an agent for the assessed property owners and the bondholders, as discussed in Section S40, \u201cSpecial Assessments,\u201d paragraph .119",
+        "documentation": "Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund rather than a debt service fund to reflect the fact that the government\u2019s duties are limited to acting as an agent for the assessed property owners and the bondholders.",
         "label": "Debt Service [Member]"
        }
       }
@@ -1596,8 +1645,8 @@
      "localname": "DeferredInflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1617,7 +1666,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "A consumption  of net position by the government that is applicable to a future reporting period.",
+        "documentation": "A consumption of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Outflows Of Resources"
        }
       }
@@ -1625,7 +1674,7 @@
      "localname": "DeferredOutflowsOfResources",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1642,6 +1691,7 @@
      "localname": "DepreciabilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "stringItemType"
@@ -1658,6 +1708,7 @@
      "localname": "DepreciabilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -1674,6 +1725,7 @@
      "localname": "DepreciableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -1714,6 +1766,11 @@
     "cafr_DueFromRelated": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 6.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -1732,8 +1789,8 @@
      "localname": "DueFromRelated",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1741,6 +1798,11 @@
     "cafr_DueToRelatedParty": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 4.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -1759,8 +1821,7 @@
      "localname": "DueToRelatedParty",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -1806,7 +1867,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources. 5\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
+        "documentation": "Enterprise funds (proprietary funds) may be used to report any activity for which a fee is charged to external users for goods or services. Activities are required to be reported as enterprise funds if any one of the following criteria is met. Governments should apply each of these criteria in the context of the activity's principal revenue sources.\n \n a. The activity is financed with debt that is secured solely by a pledge of the net revenues from fees and charges of the activity. Debt that is secured by a pledge of net revenues from fees and charges and the full faith and credit of a related primary government or component unit\u2014even if that government is not expected to make any payments\u2014is not payable solely from fees and charges of the activity. (Some debt may be secured, in part, by a portion of its own proceeds but should be considered as payable \"solely\" from the revenues of the activity.)\n \n b. Laws or regulations require that the activity's costs of providing services, including capital costs (such as depreciation 6 or debt service), be recovered with fees and charges, rather than with taxes or similar revenues. \n \n c. The pricing policies of the activity establish fees and charges designed to recover its costs, including capital costs (such as depreciation or debt service).",
         "label": "Enterprise Fund [Member]"
        }
       }
@@ -1890,7 +1951,7 @@
      "localname": "Expenditures",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -1907,7 +1968,7 @@
      "localname": "ExpendituresAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -1926,7 +1987,7 @@
      "localname": "Expenses",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -2002,7 +2063,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
         "label": "Financial Reporting Entity [Axis]"
        }
       }
@@ -2010,8 +2071,9 @@
      "localname": "FinancialReportingEntityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2030,7 +2092,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
         "label": "Financial Reporting Entity [Domain]"
        }
       }
@@ -2038,8 +2100,9 @@
      "localname": "FinancialReportingEntityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2054,6 +2117,11 @@
     "cafr_FinesAndForfeitsRevenue": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2072,7 +2140,7 @@
      "localname": "FinesAndForfeitsRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2121,6 +2189,7 @@
      "localname": "FundBalanceRollForward",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2140,8 +2209,8 @@
      "localname": "GeneralFundMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2153,6 +2222,12 @@
       "r55"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -2178,7 +2253,6 @@
      "localname": "GeneralRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2190,7 +2264,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues, as discussed in paragraphs .136\u2013.139. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
+        "documentation": "All revenues are general revenues unless they are required to be reported as program revenues. All taxes, even those that are levied for a specific purpose, are general revenues and should be reported by type of tax\u2014for example, sales tax, property tax, franchise tax, income tax. All other nontax revenues (including interest, grants, and contributions) that do not meet the criteria to be reported as program revenues should also be reported as general revenues. General revenues should be reported after total net expense of the government's functions.",
         "label": "General Revenues [Abstract]"
        }
       }
@@ -2198,7 +2272,7 @@
      "localname": "GeneralRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
@@ -2206,6 +2280,12 @@
     "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": null,
        "parentTag": null,
@@ -2226,6 +2306,7 @@
      "localname": "GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -2279,7 +2360,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds.\n \n  Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
+        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
         "label": "Governmental Funds [Member]"
        }
       }
@@ -2287,8 +2368,8 @@
      "localname": "GovernmentalFundsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -2308,8 +2389,8 @@
      "localname": "GovernmentalTypeActivityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -2371,7 +2452,7 @@
      "localname": "IncomeStatementGovernmentalFundsLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2388,7 +2469,7 @@
      "localname": "IncomeStatementGovernmentalFundsTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -2422,6 +2503,8 @@
      "localname": "InterestAndFiscalChargesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2430,6 +2513,11 @@
     "cafr_IntergovernmentalFundRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2447,7 +2535,7 @@
      "localname": "IntergovernmentalFundRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2501,6 +2589,11 @@
       "r58"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 9.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -2519,6 +2612,7 @@
      "localname": "Inventory",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2526,6 +2620,11 @@
     "cafr_InvestmentIncome": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2544,6 +2643,8 @@
      "localname": "InvestmentIncome",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2553,6 +2654,11 @@
       "r59"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -2571,6 +2677,8 @@
      "localname": "Investments",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2626,6 +2734,12 @@
       "r49"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": null,
        "parentTag": null,
@@ -2646,8 +2760,8 @@
      "localname": "Liabilities",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2667,8 +2781,8 @@
      "localname": "LiabilitiesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "stringItemType"
@@ -2691,6 +2805,7 @@
      "localname": "LiabilitiesAndDeferredInflows",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2698,6 +2813,11 @@
     "cafr_LicensesAndPermits": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2715,7 +2835,7 @@
      "localname": "LicensesAndPermits",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2805,7 +2925,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Major funds are funds whose revenues, expenditures/expenses, assets, or liabilities (excluding extraordinary items) are at least 10 percent of corresponding totals for all governmental or enterprise funds and at least 5 percent of the aggregate amount for all governmental and enterprise funds. Any other fund may be reported as a major fund if the government\u2019s officials believe that fund is particularly important to ?nancial statement users.",
+        "documentation": "Major funds are funds whose revenues, expenditures/expenses, assets, or liabilities (excluding extraordinary items) are at least 10 percent of corresponding totals for all governmental or enterprise funds and at least 5 percent of the aggregate amount for all governmental and enterprise funds. Any other fund may be reported as a major fund if the government\u2019s officials believe that fund is particularly important to \ufb01nancial statement users.",
         "label": "Major [Member]"
        }
       }
@@ -2822,6 +2942,11 @@
     "cafr_MiscellaneousRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_Revenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_Revenues",
@@ -2840,8 +2965,8 @@
      "localname": "MiscellaneousRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -2961,8 +3086,8 @@
      "localname": "NameOfProgramOrFunctionAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -2981,8 +3106,8 @@
      "localname": "NameOfProgramOrFunctionDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3034,7 +3159,7 @@
      "localname": "NetChangeInFundBalances",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3042,6 +3167,11 @@
     "cafr_NetInvestmentInCapitalAssets": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3060,7 +3190,7 @@
      "localname": "NetInvestmentInCapitalAssets",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3097,6 +3227,11 @@
       "r60"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 12.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3115,6 +3250,7 @@
      "localname": "NetPensionAssetLiability",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3130,6 +3266,12 @@
       "r52"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": null,
        "parentTag": null,
@@ -3152,8 +3294,8 @@
      "localname": "NetPosition",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
@@ -3180,7 +3322,7 @@
      "localname": "NetPositionAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -3190,6 +3332,11 @@
       "r30"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3208,6 +3355,7 @@
      "localname": "NetPositionRestricted",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3238,6 +3386,11 @@
       "r30"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_NetPosition",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition": {
        "order": 1.0,
        "parentTag": "cafr_NetPosition",
@@ -3256,7 +3409,7 @@
      "localname": "NetPositionUnrestricted",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "monetaryItemType"
@@ -3283,6 +3436,11 @@
     "cafr_NoncurrentLiabilitiesDueLessThanOneYear": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 8.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -3301,7 +3459,7 @@
      "localname": "NoncurrentLiabilitiesDueLessThanOneYear",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3309,6 +3467,11 @@
     "cafr_NoncurrentLiabilitiesDueOneYearOrLater": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 9.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -3327,7 +3490,7 @@
      "localname": "NoncurrentLiabilitiesDueOneYearOrLater",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3367,6 +3530,7 @@
      "localname": "NondepreciableMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "domainItemType"
@@ -3412,6 +3576,11 @@
       "r34"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -3449,6 +3618,7 @@
      "localname": "OpebMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3477,7 +3647,7 @@
      "localname": "OperatingGrantsAndContributions",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
@@ -3487,6 +3657,11 @@
       "r7"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 11.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3539,8 +3714,6 @@
      "localname": "OtherClassificationOfDeferredInflowsOutflowsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3576,7 +3749,7 @@
      "localname": "OtherFinancingSourcesAndUsesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -3584,6 +3757,11 @@
     "cafr_OtherFinancingSourcesAndUsesExcludingTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -3602,6 +3780,7 @@
      "localname": "OtherFinancingSourcesAndUsesExcludingTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3609,6 +3788,12 @@
     "cafr_OtherFinancingSourcesAndUsesIncludingTransfers": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": null,
        "parentTag": null,
@@ -3629,7 +3814,7 @@
      "localname": "OtherFinancingSourcesAndUsesIncludingTransfers",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3646,8 +3831,8 @@
      "localname": "OtherGovernmentMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3667,6 +3852,8 @@
      "localname": "OtherGovernmentalFundsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3696,6 +3883,7 @@
      "localname": "OtherLiabilities",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3715,6 +3903,8 @@
      "localname": "ParksAndRecreationMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3732,7 +3922,7 @@
      "localname": "PensionsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3745,7 +3935,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds (defined in paragraph .113), which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
+        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds, which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
         "label": "Permanent Fund [Member]"
        }
       }
@@ -3764,6 +3954,11 @@
       "r56"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 8.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3782,7 +3977,7 @@
      "localname": "PrepaidItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3802,8 +3997,9 @@
      "localname": "PrimaryGovernmentActivitiesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
@@ -3897,6 +4093,7 @@
      "localname": "ProgramRevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
      "xbrltype": "stringItemType"
@@ -3906,6 +4103,11 @@
       "r62"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 10.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -3943,8 +4145,8 @@
      "localname": "PropertyTaxesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -3983,8 +4185,9 @@
      "localname": "PublicWorksMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3993,6 +4196,11 @@
     "cafr_ReceivablesNet": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows": {
        "order": 1.0,
        "parentTag": "cafr_Assets",
@@ -4011,8 +4219,8 @@
      "localname": "ReceivablesNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4083,6 +4291,8 @@
      "localname": "RestrictedAssetOrLiabilityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4093,6 +4303,11 @@
       "r35"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -4103,7 +4318,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.\n [GASBS 54, \u00b68]",
+        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.",
         "label": "Restricted Fund Balance"
        }
       }
@@ -4111,6 +4326,7 @@
      "localname": "RestrictedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4130,6 +4346,8 @@
      "localname": "RestrictionOfAssetOrLiabilityAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4150,6 +4368,8 @@
      "localname": "RestrictionOfAssetOrLiabilityDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -4158,6 +4378,12 @@
     "cafr_Revenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses": {
        "order": null,
        "parentTag": null,
@@ -4184,7 +4410,7 @@
      "localname": "Revenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4201,7 +4427,7 @@
      "localname": "RevenuesAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
@@ -4211,6 +4437,11 @@
       "r45"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 9.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -4221,7 +4452,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management.",
+        "documentation": "Significant transactions or other events within the control of management that are either unusual in nature or infrequent in occurrence are special items. Special items should also be reported separately in the statement of activities, before extraordinary items, if any. In addition, governments should disclose in the notes to financial statements any significant transactions or other events that are either unusual or infrequent but not within the control of management. [GASBS 34, \u00b656]",
         "label": "Special Items"
        }
       }
@@ -4240,7 +4471,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund. A stabilization arrangement (as discussed in paragraphs .180 and .181of Section 1800) would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund. Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
+        "documentation": "Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund. A stabilization arrangement would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund. Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
         "label": "Special Revenue Fund [Member]"
        }
       }
@@ -4309,7 +4540,7 @@
      "localname": "StatementOfActivitiesLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -4336,7 +4567,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Table]"
        }
       }
@@ -4374,7 +4605,7 @@
      "localname": "StatementOfNetPositionLineItems",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -4393,7 +4624,7 @@
      "localname": "StatementOfNetPositionTable",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -4464,6 +4695,16 @@
     "cafr_TaxRevenues": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 1.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_GeneralRevenues",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenues",
@@ -4487,8 +4728,8 @@
      "localname": "TaxRevenues",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -4499,6 +4740,12 @@
       "r39"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds": {
+       "order": null,
+       "parentTag": null,
+       "root": true,
+       "weight": null
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": null,
        "parentTag": null,
@@ -4510,7 +4757,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Governments should disclose the following about their fund balance classification policies and procedures in the notes to the financial statements:\n\na.    For committed fund balance: (1) the government\u2019s highest level of decision-making authority and (2) the formal action that is required to be taken to establish (and modify or rescind) a fund balance commitment\n\nb.    For assigned fund balance: (1) the body or official authorized to assign amounts to a specific purpose and (2) the policy established by the governing body pursuant to which that authorization is given\n\nc.    For the classification of fund balances in accordance with paragraph .178Open this link as a new document: (1) whether the government considers restricted or unrestricted amounts to have been spent when an expenditure is incurred for purposes for which both restricted and unrestricted fund balance is available and (2) whether committed, assigned, or unassigned amounts are considered to have been spent when an expenditure is incurred for purposes for which amounts in any of those unrestricted fund balance classifications could be used.",
+        "documentation": "Governments should disclose the following about their fund balance classification policies and procedures in the notes to the financial statements:\n\na.    For committed fund balance: (1) the government\u2019s highest level of decision-making authority and (2) the formal action that is required to be taken to establish (and modify or rescind) a fund balance commitment\n\nb.    For assigned fund balance: (1) the body or official authorized to assign amounts to a specific purpose and (2) the policy established by the governing body pursuant to which that authorization is given\n\nc.    For the classification of fund balances (1) whether the government considers restricted or unrestricted amounts to have been spent when an expenditure is incurred for purposes for which both restricted and unrestricted fund balance is available and (2) whether committed, assigned, or unassigned amounts are considered to have been spent when an expenditure is incurred for purposes for which amounts in any of those unrestricted fund balance classifications could be used.",
         "label": "Fund Balance",
         "periodEndLabel": "Fund Balance, Ending Balance",
         "periodStartLabel": "Fund Balance, Beginning Balance",
@@ -4521,8 +4768,8 @@
      "localname": "TotalFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
@@ -4531,6 +4778,11 @@
     "cafr_TransfersIn": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -4556,6 +4808,11 @@
     "cafr_TransfersNet": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 10.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues": {
        "order": 1.0,
        "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
@@ -4574,6 +4831,7 @@
      "localname": "TransfersNet",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
@@ -4581,6 +4839,11 @@
     "cafr_TransfersOut": {
      "auth_ref": [],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
+       "weight": -1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_OtherFinancingSourcesAndUsesIncludingTransfers",
@@ -4599,6 +4862,7 @@
      "localname": "TransfersOut",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4624,6 +4888,11 @@
       "r38"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds": {
+       "order": 1.0,
+       "parentTag": "cafr_TotalFundBalance",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds": {
        "order": 1.0,
        "parentTag": "cafr_TotalFundBalance",
@@ -4642,7 +4911,7 @@
      "localname": "UnassignedFundBalance",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -4652,6 +4921,11 @@
       "r63"
      ],
      "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 5.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      },
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows": {
        "order": 1.0,
        "parentTag": "cafr_Liabilities",
@@ -4670,8 +4944,8 @@
      "localname": "UnearnedRevenue",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -4706,95 +4980,204 @@
      "localname": "UnrestrictedAssetOrLiabilityMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_AccruedPayrollAndBenefits": {
+    "va-o-fauq_AccountsPayableAndAccruedLiabilities": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 1.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accounts Payable And Accrued Liabilities"
+       }
+      }
+     },
+     "localname": "AccountsPayableAndAccruedLiabilities",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_AccountsReceivablesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accounts Receivables [Member]"
+       }
+      }
+     },
+     "localname": "AccountsReceivablesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_AccruedAndOtherLiabilities": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Accrued Payroll And Benefits"
+        "label": "Accrued And Other Liabilities"
        }
       }
      },
-     "localname": "AccruedPayrollAndBenefits",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "AccruedAndOtherLiabilities",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_AccumulatedDepreciationAndAmortizationCapitalAssets": {
+    "va-o-fauq_AccruedInterestPayable": {
      "auth_ref": [],
-     "crdr": "debit",
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 3.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Accumulated Depreciation and Amortization, Capital Assets"
+        "label": "Accrued Interest Payable"
        }
       }
      },
-     "localname": "AccumulatedDepreciationAndAmortizationCapitalAssets",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "AccruedInterestPayable",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_BuildingsAndImprovementsMember": {
+    "va-o-fauq_AccruedLiabilities": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "AccruedLiabilities",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_AccruedPayrollAndRelatedLiabilities": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 2.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accrued Payroll And Related Liabilities"
+       }
+      }
+     },
+     "localname": "AccruedPayrollAndRelatedLiabilities",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_AccumulatedDepreciationAndAmortization": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Accumulated Depreciation And Amortization"
+       }
+      }
+     },
+     "localname": "AccumulatedDepreciationAndAmortization",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_AirportMember": {
+     "auth_ref": [],
+     "localname": "AirportMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_AssetsHeldInAgencyCapacity": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 7.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Assets Held In Agency Capacity"
+       }
+      }
+     },
+     "localname": "AssetsHeldInAgencyCapacity",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_BuildingsAndImprovementsMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Buildings and improvements [Member]"
+        "label": "Buildings And Improvements [Member]"
        }
       }
      },
      "localname": "BuildingsAndImprovementsMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_BusinessLicenseMember": {
+    "va-o-fauq_BusinessAndProfessionalTaxMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Business License [Member]"
+        "label": "Business And Professional Tax [Member]"
        }
       }
      },
-     "localname": "BusinessLicenseMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "BusinessAndProfessionalTaxMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_CapitalAssetsAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Capital Assets [Abstract]"
-       }
-      }
-     },
-     "localname": "CapitalAssetsAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "va-t-ashl_CapitalAssetsAxis": {
+    "va-o-fauq_CapitalAssetsAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4804,13 +5187,13 @@
       }
      },
      "localname": "CapitalAssetsAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_CapitalAssetsDomain": {
+    "va-o-fauq_CapitalAssetsDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4820,30 +5203,55 @@
       }
      },
      "localname": "CapitalAssetsDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_CashCashEquivalentsAndTemporaryCashInvestments": {
+    "va-o-fauq_CapitalAssetsGross": {
      "auth_ref": [],
      "crdr": "debit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Cash, cash equivalents and temporary cash investments"
-       }
-      }
-     },
-     "localname": "CashCashEquivalentsAndTemporaryCashInvestments",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CapitalAssetsGross",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_ClassificationOfGeneralRevenueAxis": {
+    "va-o-fauq_CapitalOutlayMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Capital Outlay [Member]"
+       }
+      }
+     },
+     "localname": "CapitalOutlayMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_CellImprovementsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Cell Improvements [Member]"
+       }
+      }
+     },
+     "localname": "CellImprovementsMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_ClassificationOfGeneralRevenueAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4853,14 +5261,14 @@
       }
      },
      "localname": "ClassificationOfGeneralRevenueAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_ClassificationOfGeneralRevenueDomain": {
+    "va-o-fauq_ClassificationOfGeneralRevenueDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4870,14 +5278,48 @@
       }
      },
      "localname": "ClassificationOfGeneralRevenueDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_CommunityDevelopmentMember": {
+    "va-o-fauq_ClassificationOfReceivablesAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Classification Of Receivables [Axis]"
+       }
+      }
+     },
+     "localname": "ClassificationOfReceivablesAxis",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "va-o-fauq_ClassificationOfReceivablesDomain": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Classification Of Receivables [Domain]"
+       }
+      }
+     },
+     "localname": "ClassificationOfReceivablesDomain",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_CommunityDevelopmentMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -4887,146 +5329,315 @@
       }
      },
      "localname": "CommunityDevelopmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ConstructionInProgressMember": {
+    "va-o-fauq_ConstructionInProgressMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Construction in progress [Member]"
+        "label": "Construction In Progress [Member]"
        }
       }
      },
      "localname": "ConstructionInProgressMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ContributionsFromPrimaryGovernmentMember": {
+    "va-o-fauq_ConsumersUtilityTaxMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Contributions from Primary Government [Member]"
+        "label": "Consumers Utility Tax [Member]"
        }
       }
      },
-     "localname": "ContributionsFromPrimaryGovernmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "ConsumersUtilityTaxMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_DeferredInflowsOfResourcesAbstract": {
+    "va-o-fauq_ContributionFromPrimaryGovernment": {
      "auth_ref": [],
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Deferred Inflows Of Resources [Abstract]"
+        "label": "Contribution From Primary Government"
        }
       }
      },
-     "localname": "DeferredInflowsOfResourcesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "ContributionFromPrimaryGovernment",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_DeferredOutflowsOfResourcesAbstract": {
+    "va-o-fauq_CustomerDeposits": {
      "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 6.0,
+       "parentTag": "cafr_Liabilities",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Deferred Outflows Of Resources [Abstract]"
+        "label": "Customer Deposits Payable"
        }
       }
      },
-     "localname": "DeferredOutflowsOfResourcesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "CustomerDeposits",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_EconomicDevelopmentAuthorityMember": {
+    "va-o-fauq_DeferredChargeOnRefundingsMember": {
      "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Economic Development Authority [Member]"
-       }
-      }
-     },
-     "localname": "EconomicDevelopmentAuthorityMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "DeferredChargeOnRefundingsMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_FundBalancesAbstract": {
+    "va-o-fauq_DueFromOtherGovernmentalUnits": {
      "auth_ref": [],
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "label": "Fund Balances [Abstract]"
+        "label": "Due From Other Governmental Units"
        }
       }
      },
-     "localname": "FundBalancesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "DueFromOtherGovernmentalUnits",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_GeneralGovernmentAdministrationMember": {
+    "va-o-fauq_DueFromOthers": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 7.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Due From Others"
+       }
+      }
+     },
+     "localname": "DueFromOthers",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_EducationMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "General government administration [Member]"
+        "label": "Education [Member]"
+       }
+      }
+     },
+     "localname": "EducationMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_Escrows": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Escrows"
+       }
+      }
+     },
+     "localname": "Escrows",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_ExcessDeficiencyOfRevenuesOverUnderExpenditures": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Excess Deficiency Of Revenues Over Under Expenditures"
+       }
+      }
+     },
+     "localname": "ExcessDeficiencyOfRevenuesOverUnderExpenditures",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_FireAndRescueFundMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Fire And Rescue Fund [Member]"
+       }
+      }
+     },
+     "localname": "FireAndRescueFundMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_FiscalChargesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Fiscal Charges [Member]"
+       }
+      }
+     },
+     "localname": "FiscalChargesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_GainLossOnSaleOfProperty": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 6.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Gain (Loss) On Sale Of Property"
+       }
+      }
+     },
+     "localname": "GainLossOnSaleOfProperty",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_GeneralGovernmentAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "General Government Administration [Member]"
        }
       }
      },
      "localname": "GeneralGovernmentAdministrationMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_GeneralPropertyTaxesMember": {
+    "va-o-fauq_GiftsAndDonations": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Gifts And Donations"
+       }
+      }
+     },
+     "localname": "GiftsAndDonations",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_GrantsAndContributionsNotRestrictedToSpecificPrograms": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 4.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Grants And Contributions Not Restricted To Specific Program"
+       }
+      }
+     },
+     "localname": "GrantsAndContributionsNotRestrictedToSpecificPrograms",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_HealthAndWelfareMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "General Property Taxes [Member]"
+        "label": "Health And Welfare [Member]"
        }
       }
      },
-     "localname": "GeneralPropertyTaxesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "HealthAndWelfareMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_InfrastructureMember": {
+    "va-o-fauq_InfrastructureMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5036,30 +5647,147 @@
       }
      },
      "localname": "InfrastructureMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_IntangibleAssetsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Intangible Assets [Member]"
+       }
+      }
+     },
+     "localname": "IntangibleAssetsMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_IntergovernmentalNonCategoricalAid": {
+    "va-o-fauq_InterestChargesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Interest Charges [Member]"
+       }
+      }
+     },
+     "localname": "InterestChargesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_IntergovernmentalFundRevenuesFromCommonwealth": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Intergovernmental, non-categorical aid"
+        "label": "Intergovernmental Fund Revenues From Commonwealth"
        }
       }
      },
-     "localname": "IntergovernmentalNonCategoricalAid",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "IntergovernmentalFundRevenuesFromCommonwealth",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_LandMember": {
+    "va-o-fauq_IntergovernmentalFundRevenuesfromFederalGovernment": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Intergovernmental Fund Revenues from Federal Government"
+       }
+      }
+     },
+     "localname": "IntergovernmentalFundRevenuesfromFederalGovernment",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_InternalBalancesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Internal Balances [Member]"
+       }
+      }
+     },
+     "localname": "InternalBalancesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_InvestmentInDirectFinancingLease": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Investment In Direct Financing Lease"
+       }
+      }
+     },
+     "localname": "InvestmentInDirectFinancingLease",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_IssuanceOfDebt": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Issuance Of Debt"
+       }
+      }
+     },
+     "localname": "IssuanceOfDebt",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_JudicialAdministrationMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Judicial Administration [Member]"
+       }
+      }
+     },
+     "localname": "JudicialAdministrationMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_LandMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5069,78 +5797,71 @@
       }
      },
      "localname": "LandMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_LiabilitiesDeferredInflowsOfResourcesAndFundBalances": {
+    "va-o-fauq_LandfillAndRecyclingMember": {
      "auth_ref": [],
-     "crdr": "credit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Liabilities Deferred Inflows Of Resources And Fund Balances"
-       }
-      }
-     },
-     "localname": "LiabilitiesDeferredInflowsOfResourcesAndFundBalances",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "LandfillAndRecyclingMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_LocalSalesAndUseMember": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Local Sales And Use [Member]"
-       }
-      }
-     },
-     "localname": "LocalSalesAndUseMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_MachineryAndEquipmentMember": {
+    "va-o-fauq_LocalSalesAndUseTaxMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Machinery and equipment [Member]"
+        "label": "Local Sales And Use Tax [Member]"
+       }
+      }
+     },
+     "localname": "LocalSalesAndUseTaxMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_MachineryAndEquipmentMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Machinery And Equipment [Member]"
        }
       }
      },
      "localname": "MachineryAndEquipmentMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_MealsMember": {
+    "va-o-fauq_MotorVehicleTaxMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Meals [Member]"
+        "label": "Motor Vehicle Tax [Member]"
        }
       }
      },
-     "localname": "MealsMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "MotorVehicleTaxMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_NameOfComponentUnitAxis": {
+    "va-o-fauq_NameOfComponentUnitAxis": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5151,14 +5872,14 @@
       }
      },
      "localname": "NameOfComponentUnitAxis",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "stringItemType"
     },
-    "va-t-ashl_NameOfComponentUnitDomain": {
+    "va-o-fauq_NameOfComponentUnitDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5168,14 +5889,14 @@
       }
      },
      "localname": "NameOfComponentUnitDomain",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_NetExpenseRevenueAndChangesInNetPosition": {
+    "va-o-fauq_NetExpenseRevenueAndChangesInNetPosition": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
@@ -5186,136 +5907,280 @@
       }
      },
      "localname": "NetExpenseRevenueAndChangesInNetPosition",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition": {
+    "va-o-fauq_NetInvestmentInCapitalAssetsReclassifications": {
      "auth_ref": [],
      "crdr": "credit",
-     "localname": "NetExpenseRevenueAndChangesInNetPositionNetExpenseRevenueAndChangesInNetPosition",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "NetInvestmentInCapitalAssetsReclassifications",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_NetPensionLiability": {
+    "va-o-fauq_NetOtherPostEmploymentBenefitLiability": {
      "auth_ref": [],
      "crdr": "credit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Net pension liability"
-       }
-      }
-     },
+     "localname": "NetOtherPostEmploymentBenefitLiability",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_NetPensionLiability": {
+     "auth_ref": [],
+     "crdr": "credit",
      "localname": "NetPensionLiability",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_NoncurrentLiabilitiesAbstract": {
+    "va-o-fauq_NetPositionUnrestrictedReclassifications": {
      "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Noncurrent Liabilities [Abstract]"
-       }
-      }
-     },
-     "localname": "NoncurrentLiabilitiesAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "crdr": "credit",
+     "localname": "NetPositionUnrestrictedReclassifications",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_OtherGeneralRevenuesMember": {
+    "va-o-fauq_NondepartmentalMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Other General Revenues [Member]"
+        "label": "Nondepartmental [Member]"
        }
       }
      },
-     "localname": "OtherGeneralRevenuesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "NondepartmentalMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_OtherLocalTaxesMember": {
+    "va-o-fauq_NotesReceivables": {
      "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 4.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
      "lang": {
       "en": {
        "role": {
-        "label": "Other Local Taxes [Member]"
+        "label": "Notes Receivables"
        }
       }
      },
-     "localname": "OtherLocalTaxesMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
-     ],
-     "xbrltype": "domainItemType"
+     "localname": "NotesReceivables",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_ParksRecreationAndCulturalMember": {
+    "va-o-fauq_OPEBContributionsSubsequentToMeasurementDateMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Parks, Recreation And Cultural [Member]"
+        "label": "OPEB Contributions Subsequent To Measurement Date [Member]"
+       }
+      }
+     },
+     "localname": "OPEBContributionsSubsequentToMeasurementDateMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_OtherGeneralRevenues": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 8.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Other Genera lRevenues"
+       }
+      }
+     },
+     "localname": "OtherGeneralRevenues",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_OtherLocalTaxMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Other Local Tax [Member]"
+       }
+      }
+     },
+     "localname": "OtherLocalTaxMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_OtherMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Other [Member]"
+       }
+      }
+     },
+     "localname": "OtherMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_OtherReceivables": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows": {
+       "order": 5.0,
+       "parentTag": "cafr_Assets",
+       "weight": 1.0
+      }
+     },
+     "crdr": "debit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Other Receivables"
+       }
+      }
+     },
+     "localname": "OtherReceivables",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_ParksRecreationAndCulturalMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Parks Recreation And Cultural [Member]"
        }
       }
      },
      "localname": "ParksRecreationAndCulturalMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_PerformanceBondPayable": {
+    "va-o-fauq_PaymentsFromPrimaryGovernment": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 3.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Payments From Primary Government"
+       }
+      }
+     },
+     "localname": "PaymentsFromPrimaryGovernment",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_PensionContributionsSubsequentToMeasurementDateMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Pension Contributions Subsequent To Measurement Date [Member]"
+       }
+      }
+     },
+     "localname": "PensionContributionsSubsequentToMeasurementDateMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_PremiumOnDebt": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Performance Bond Payable"
+        "label": "Premium On Debt"
        }
       }
      },
-     "localname": "PerformanceBondPayable",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "PremiumOnDebt",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_PrepaidAbstract": {
+    "va-o-fauq_PrincipalRetirementMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Prepaid [Abstract]"
+        "label": "Principal Retirement [Member]"
        }
       }
      },
-     "localname": "PrepaidAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
-     ],
-     "xbrltype": "stringItemType"
+     "localname": "PrincipalRetirementMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "domainItemType"
     },
-    "va-t-ashl_PublicSafetyMember": {
+    "va-o-fauq_ProffersMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Proffers [Member]"
+       }
+      }
+     },
+     "localname": "ProffersMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_PublicSafetyMember": {
      "auth_ref": [],
      "lang": {
       "en": {
@@ -5325,31 +6190,15 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_ReceivablesNetAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Receivables Net [Abstract]"
-       }
-      }
-     },
-     "localname": "ReceivablesNetAbstract",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
-      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "va-t-ashl_RecoveredCosts": {
+    "va-o-fauq_RecoveredCosts": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
@@ -5360,94 +6209,228 @@
       }
      },
      "localname": "RecoveredCosts",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
     },
-    "va-t-ashl_RevenuesOverUnderExpenditures": {
-     "auth_ref": [],
-     "crdr": "credit",
-     "lang": {
-      "en": {
-       "role": {
-        "label": "Revenues Over (Under) Expenditures"
-       }
-      }
-     },
-     "localname": "RevenuesOverUnderExpenditures",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
-     "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
-    "va-t-ashl_SoftwareMember": {
+    "va-o-fauq_RestatementAdjustmentMember": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Software [Member]"
+        "label": "Restatement Adjustment [Member]"
        }
       }
      },
-     "localname": "SoftwareMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "RestatementAdjustmentMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_TransfersInOut": {
+    "va-o-fauq_RestatementAxis": {
      "auth_ref": [],
-     "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Transfers In (Out)"
+        "label": "Restatement [Axis]"
        }
       }
      },
-     "localname": "TransfersInOut",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "RestatementAxis",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
-     "xbrltype": "monetaryItemType"
+     "xbrltype": "stringItemType"
     },
-    "va-t-ashl_TransientOccupancyMember": {
+    "va-o-fauq_RestatementDomain": {
      "auth_ref": [],
      "lang": {
       "en": {
        "role": {
-        "label": "Transient Occupancy [Member]"
+        "label": "Restatement [Domain]"
        }
       }
      },
-     "localname": "TransientOccupancyMember",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "RestatementDomain",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
      ],
      "xbrltype": "domainItemType"
     },
-    "va-t-ashl_UseOfMoneyAndProperty": {
+    "va-o-fauq_Retainage": {
      "auth_ref": [],
      "crdr": "credit",
      "lang": {
       "en": {
        "role": {
-        "label": "Use of money and property"
+        "label": "Retainage"
        }
       }
      },
-     "localname": "UseOfMoneyAndProperty",
-     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "localname": "Retainage",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "presentation": [
-      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
-      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
      ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_RevenueAdvancesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Revenue Advances [Member]"
+       }
+      }
+     },
+     "localname": "RevenueAdvancesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_RevenueFromUseOfMoneyAndProperty": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Revenue From Use Of Money And Property"
+       }
+      }
+     },
+     "localname": "RevenueFromUseOfMoneyAndProperty",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_SchoolBoardMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "School Board [Member]"
+       }
+      }
+     },
+     "localname": "SchoolBoardMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_SewerMember": {
+     "auth_ref": [],
+     "localname": "SewerMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.fauquiercounty.gov/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_StateAid": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 2.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "State Aid"
+       }
+      }
+     },
+     "localname": "StateAid",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "xbrltype": "monetaryItemType"
+    },
+    "va-o-fauq_TaxesIncludingPenaltiesMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Taxes Including Penalties [Member]"
+       }
+      }
+     },
+     "localname": "TaxesIncludingPenaltiesMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_TaxesOnRecordationAndWillsMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Taxes On Recordation And Wills [Member]"
+       }
+      }
+     },
+     "localname": "TaxesOnRecordationAndWillsMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_UnavailableRevenueMember": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Unavailable Revenue [Member]"
+       }
+      }
+     },
+     "localname": "UnavailableRevenueMember",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
+     "presentation": [
+      "http://www.fauquiercounty.gov/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "domainItemType"
+    },
+    "va-o-fauq_UnrestrictedInvestmentEarnings": {
+     "auth_ref": [],
+     "calculation": {
+      "http://www.fauquiercounty.gov/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses": {
+       "order": 5.0,
+       "parentTag": "cafr_GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
+       "weight": 1.0
+      }
+     },
+     "crdr": "credit",
+     "lang": {
+      "en": {
+       "role": {
+        "label": "Unrestricted Investment Earnings"
+       }
+      }
+     },
+     "localname": "UnrestrictedInvestmentEarnings",
+     "nsuri": "http://www.fauquiercounty.gov/20180630",
      "xbrltype": "monetaryItemType"
     }
    },
