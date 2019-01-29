@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2017 Workiva-->
+<!--r:b0b5dcb5-040e-4d17-815e-74794235d692,g:6b6ac46b-6689-4b5f-a9e1-472ffbf32f95-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Coverdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Coverdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Coverdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Letteroftransmittaldetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Letteroftransmittaldetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Letteroftransmittaldetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Auditletterdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Auditletterdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Auditletterdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofnetpositionassetsdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofnetpositionassetsdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofnetpositionassetsdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofnetpositionliabilitiesdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofnetpositionnetpositiondetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofactivitiesgeneralrevenuesdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofactivitiesprogramrevenuesdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Balancesheetgovernmentalfundsdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails" xlink:type="simple" xlink:href="ga-20190128.xsd#Statementofrevenuegovernmentalfundsdetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails" xlink:type="extended"/>
+</link:linkbase>
