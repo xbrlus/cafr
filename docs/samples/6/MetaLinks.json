@@ -1,18 +1,21 @@
 {
  "instance": {
-  "ga-20190116.htm": {
+  "ga-20190128.htm": {
    "axisCustom": 0,
    "axisStandard": 13,
    "contextCount": 277,
    "dts": {
     "calculationLink": {
+     "local": [
+      "ga-20190128_cal.xml"
+     ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
      "local": [
-      "ga-20190116_def.xml"
+      "ga-20190128_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -20,12 +23,12 @@
     },
     "inline": {
      "local": [
-      "ga-20190116.htm"
+      "ga-20190128.htm"
      ]
     },
     "labelLink": {
      "local": [
-      "ga-20190116_lab.xml"
+      "ga-20190128_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
@@ -33,7 +36,7 @@
     },
     "presentationLink": {
      "local": [
-      "ga-20190116_pre.xml"
+      "ga-20190128_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -46,7 +49,7 @@
     },
     "schema": {
      "local": [
-      "ga-20190116.xsd"
+      "ga-20190128.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -75,7 +78,7 @@
    "memberCustom": 38,
    "memberStandard": 28,
    "nsprefix": "ga",
-   "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+   "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
    "report": {
     "R1": {
      "firstAnchor": null,
@@ -105,7 +108,7 @@
        "body",
        "html"
       ],
-      "contextRef": "ibf50bb6065ac435cade22ba0dbc5c08d_I20170630",
+      "contextRef": "i6ceebfb79df541c984f33f730e2737eb_I20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -133,13 +136,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "ifb98916f42304ec887ef76e48e937d53_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Assets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -158,13 +161,13 @@
        "body",
        "html"
       ],
-      "contextRef": "ia1233c8b81794164ac75433475cbea47_I20170630",
+      "contextRef": "i14aba54f4e124ecbad03cfe68c2dfa98_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "ga:PooledInvestmentsWithStateTreasury",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -179,13 +182,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icfecc26a5fb24009962dda5208a5fd99_I20170630",
+      "contextRef": "ibc8ea4b81280461ea009d9794b6c3142_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Liabilities",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -204,13 +207,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i98a67a5d37894306a493f7dd1c85a763_I20170630",
+      "contextRef": "id3169bb9b754484191915b018ad74a71_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:AccountsPayable",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -225,13 +228,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "ifb98916f42304ec887ef76e48e937d53_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -250,13 +253,13 @@
        "body",
        "html"
       ],
-      "contextRef": "ib84824d63ef049aab9deaca7767cdc7a_I20170630",
+      "contextRef": "i84e0f640952c470dbf5339aa2ee0d752_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:NetPositionRestricted",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -271,13 +274,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i034e8b8e6e484c30b3e15074e4a97e98_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -299,13 +302,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i034e8b8e6e484c30b3e15074e4a97e98_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -324,13 +327,13 @@
        "body",
        "html"
       ],
-      "contextRef": "ia4313d22a58445279e139bff0902f352_D20160701-20170630",
+      "contextRef": "i1c1b6b625aca4fd9b1cff574c1078c43_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -345,14 +348,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i8129f1e78be24c4085e0d24198996e3b_I20170630",
+      "contextRef": "i8cb4a3d12d764e189536419dc289ac8f_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:AccountsPayable",
+      "name": "cafr:TotalFundBalance",
       "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -371,14 +373,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i8129f1e78be24c4085e0d24198996e3b_I20170630",
+      "contextRef": "ie1807e40047a46f49d267a4078291973_I20170630",
       "decimals": "-3",
-      "first": true,
       "lang": null,
-      "name": "cafr:AccountsPayable",
+      "name": "cafr:DeferredInflowsOfResources",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -393,13 +394,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icb68d431edf54f0db5299f21ff4e75aa_D20160701-20170630",
+      "contextRef": "i65e17b180bb042adba114d8b86ef67f8_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:TransfersIn",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -418,13 +419,13 @@
        "body",
        "html"
       ],
-      "contextRef": "iefced699d349423cb47b07c40195fef4_D20160701-20170630",
+      "contextRef": "if19a594b61a54bbb8273a1c164755cec_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:OtherFinancingSourcesAndUsesExcludingTransfers",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -436,7 +437,7 @@
        "body",
        "html"
       ],
-      "contextRef": "ibf50bb6065ac435cade22ba0dbc5c08d_I20170630",
+      "contextRef": "i6ceebfb79df541c984f33f730e2737eb_I20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -464,13 +465,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "ifb98916f42304ec887ef76e48e937d53_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Assets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -492,13 +493,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "ifb98916f42304ec887ef76e48e937d53_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Liabilities",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -520,13 +521,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i3348bb7f8b6e4ebc8ae40a625e686114_I20170630",
+      "contextRef": "ifb98916f42304ec887ef76e48e937d53_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -548,13 +549,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i034e8b8e6e484c30b3e15074e4a97e98_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -576,13 +577,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i034e8b8e6e484c30b3e15074e4a97e98_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -601,13 +602,13 @@
        "body",
        "html"
       ],
-      "contextRef": "icc2868ac074f4b62979ff9736f4bc782_D20160701-20170630",
+      "contextRef": "i034e8b8e6e484c30b3e15074e4a97e98_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:ChargesForServices",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      }
     },
@@ -622,14 +623,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
+      "contextRef": "i9043c2b1395f496a92a589ea0c0ea520_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NonspendableFundBalance",
       "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -638,26 +638,7 @@
      "role": "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "td",
-       "tr",
-       "table",
-       "div",
-       "body",
-       "html"
-      ],
-      "contextRef": "i26e8fe2033ff4851a913230049ee527b_I20170630",
-      "decimals": "-3",
-      "first": true,
-      "lang": null,
-      "name": "cafr:NonspendableFundBalance",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
-      "xsiNil": "false"
-     }
+     "uniqueAnchor": null
     },
     "R9": {
      "firstAnchor": {
@@ -670,13 +651,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i93c3077011a54a438f57e3db74ed96af_D20160701-20170630",
+      "contextRef": "i69e7276bbaa84dd384b18988746e18dc_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:TaxRevenues",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -698,19 +679,20 @@
        "body",
        "html"
       ],
+      "contextRef": "iac10e7b08e754ee3b83be1e673b5a34e_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:ChargesForServices",
       "reportCount": 1,
-      "unitRef": "i58e75da7005c477ea8ab6632795370f3_021a99b3-abb1-48fa-920d-41c505dbc49d",
+      "unitRef": "i0b6d62b2f7c242f9bb0203355af97632_021a99b3-abb1-48fa-920d-41c505dbc49d",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - ga-20190116.htm",
+     "longName": "Uncategorized Items - ga-20190128.htm",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - ga-20190116.htm",
+     "shortName": "Uncategorized Items - ga-20190128.htm",
      "subGroupType": "",
      "uniqueAnchor": null
     }
@@ -1505,6 +1487,7 @@
      "localname": "ClassificationOfDueToDueFromAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
@@ -1530,6 +1513,7 @@
      "localname": "ClassificationOfDueToDueFromDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
@@ -1764,6 +1748,7 @@
      "localname": "ComponentUnitsMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
@@ -3772,6 +3757,7 @@
      "localname": "NameOfProgramOrFunctionDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails",
@@ -4291,11 +4277,18 @@
        "role": {
         "label": "Nonrelated Party [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Nonrelated Party [Member]",
+        "terseLabel": "Nonrelated Party [Member]"
+       }
       }
      },
      "localname": "NonrelatedPartyMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
@@ -5020,6 +5013,7 @@
      "localname": "RelatedPartyMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
@@ -5070,6 +5064,7 @@
      "localname": "ReportingRelationshipDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows",
@@ -5864,7 +5859,7 @@
       }
      },
      "localname": "AccruedInterestMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
      ],
@@ -5876,13 +5871,13 @@
       "en-US": {
        "role": {
         "documentation": "Benefits.",
-        "label": "Benefits",
+        "label": "Benefits [Member]",
         "terseLabel": "Benefits"
        }
       }
      },
      "localname": "BenefitsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
@@ -5901,7 +5896,7 @@
       }
      },
      "localname": "CapitalLeasesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -5919,7 +5914,7 @@
       }
      },
      "localname": "CapitalOutlayMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -5937,7 +5932,7 @@
       }
      },
      "localname": "ClaimsAndJudgmentsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
      ],
@@ -5955,7 +5950,7 @@
       }
      },
      "localname": "ConservationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -5974,7 +5969,7 @@
       }
      },
      "localname": "ContractsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
@@ -5993,7 +5988,7 @@
       }
      },
      "localname": "DebtIssuanceGeneralObligationBondsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6011,7 +6006,7 @@
       }
      },
      "localname": "DebtIssuanceGeneralObligationBondsPremiumMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6029,7 +6024,7 @@
       }
      },
      "localname": "DebtIssuanceOtherMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6047,7 +6042,7 @@
       }
      },
      "localname": "DebtIssuanceRefundingBondsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6065,7 +6060,7 @@
       }
      },
      "localname": "DebtIssuanceRefundingBondsPremiumMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6083,7 +6078,7 @@
       }
      },
      "localname": "DebtServiceInterestMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6101,7 +6096,7 @@
       }
      },
      "localname": "DebtServiceOtherMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6119,7 +6114,7 @@
       }
      },
      "localname": "DebtServicePrincipalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6137,7 +6132,7 @@
       }
      },
      "localname": "EconomicDevelopmentAndAssistanceMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
      ],
@@ -6155,7 +6150,7 @@
       }
      },
      "localname": "EducationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6174,7 +6169,7 @@
       }
      },
      "localname": "FederalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6192,7 +6187,7 @@
       }
      },
      "localname": "FundsHeldForOthersMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
@@ -6211,7 +6206,7 @@
       }
      },
      "localname": "GeneralGovernmentMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6230,7 +6225,7 @@
       }
      },
      "localname": "GuaranteedRevenueDebtCommonReserveFundMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
      ],
@@ -6248,7 +6243,7 @@
       }
      },
      "localname": "HealthAndWelfareMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6267,7 +6262,7 @@
       }
      },
      "localname": "HigherEducationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
@@ -6285,7 +6280,7 @@
       }
      },
      "localname": "HighwaysAndStreetsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6303,7 +6298,7 @@
       }
      },
      "localname": "HospitalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6321,7 +6316,7 @@
       }
      },
      "localname": "IntergovernmentalMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6339,7 +6334,7 @@
       }
      },
      "localname": "LoanAndGrantProgramsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
      ],
@@ -6357,7 +6352,7 @@
       }
      },
      "localname": "LocalEducationAgenciesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails"
      ],
@@ -6375,7 +6370,7 @@
       }
      },
      "localname": "LotteryMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6394,7 +6389,7 @@
       }
      },
      "localname": "MotorFuelTaxFundsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
      ],
@@ -6412,7 +6407,7 @@
       }
      },
      "localname": "NursingHomeMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6430,7 +6425,7 @@
       }
      },
      "localname": "OtherBenefitsMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails"
      ],
@@ -6448,7 +6443,7 @@
       }
      },
      "localname": "OtherBusinessTypeActivitiesMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
      ],
@@ -6466,7 +6461,7 @@
       }
      },
      "localname": "PaymentToRefundedBondEscrowAgentMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6485,7 +6480,7 @@
       }
      },
      "localname": "PooledInvestmentsWithStateTreasury",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofnetpositionassetsdetails"
      ],
@@ -6503,7 +6498,7 @@
       }
      },
      "localname": "PooledWithStateTreasurerMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails"
      ],
@@ -6521,7 +6516,7 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6540,7 +6535,7 @@
       }
      },
      "localname": "StateHealthBenefitPlanMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails"
      ],
@@ -6558,7 +6553,7 @@
       }
      },
      "localname": "TransportationMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails",
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
@@ -6577,7 +6572,7 @@
       }
      },
      "localname": "UnclaimedPropertyMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails"
      ],
@@ -6595,7 +6590,7 @@
       }
      },
      "localname": "UndistributedLocalGovernmentSalesTaxMember",
-     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190116",
+     "nsuri": "http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128",
      "presentation": [
       "http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails"
      ],

@@ -1,18 +1,21 @@
 {
  "instance": {
-  "ut-20190117.htm": {
+  "ut-20190124.htm": {
    "axisCustom": 0,
    "axisStandard": 10,
    "contextCount": 141,
    "dts": {
     "calculationLink": {
+     "local": [
+      "ut-20190124_cal.xml"
+     ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
      "local": [
-      "ut-20190117_def.xml"
+      "ut-20190124_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -20,12 +23,12 @@
     },
     "inline": {
      "local": [
-      "ut-20190117.htm"
+      "ut-20190124.htm"
      ]
     },
     "labelLink": {
      "local": [
-      "ut-20190117_lab.xml"
+      "ut-20190124_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
@@ -33,7 +36,7 @@
     },
     "presentationLink": {
      "local": [
-      "ut-20190117_pre.xml"
+      "ut-20190124_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -46,7 +49,7 @@
     },
     "schema": {
      "local": [
-      "ut-20190117.xsd"
+      "ut-20190124.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -64,7 +67,7 @@
      ]
     }
    },
-   "elementCount": 244,
+   "elementCount": 242,
    "entityCount": 1,
    "hidden": {
     "http://www.xbrl.us/slg/cafr/2019-01-16": 6,
@@ -75,7 +78,7 @@
    "memberCustom": 27,
    "memberStandard": 19,
    "nsprefix": "ut",
-   "nsuri": "http://www.utah.gov/20190117",
+   "nsuri": "http://www.utah.gov/20190124",
    "report": {
     "R1": {
      "firstAnchor": null,
@@ -98,13 +101,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i29c5b5912410444db12464dfb77d2bf9_D20160701-20170630",
+      "contextRef": "i9951a0db08f3406f892b312b02463de4_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:TaxRevenues",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -113,7 +116,25 @@
      "role": "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
      "shortName": "",
      "subGroupType": "",
-     "uniqueAnchor": null
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "contextRef": "i9951a0db08f3406f892b312b02463de4_D20160701-20170630",
+      "decimals": "-3",
+      "lang": null,
+      "name": "cafr:PriorPeriodAdjustments",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
+      "xsiNil": "false"
+     }
     },
     "R11": {
      "firstAnchor": null,
@@ -133,7 +154,7 @@
        "body",
        "html"
       ],
-      "contextRef": "i19dd3a39a0f145d5bca5151e1cfcf2e7_D20160701-20170630",
+      "contextRef": "i8524aa09edcb41c19cfd56205c77d1dd_D20160701-20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -158,7 +179,7 @@
        "body",
        "html"
       ],
-      "contextRef": "i19a65fa9b59f45479a53e2befc41f7db_I20170630",
+      "contextRef": "iaa47e623878b4a50ad4e0aff258944ac_I20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -186,13 +207,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:CashAndCashEquivalents",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -214,13 +235,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:AccountsPayable",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -242,13 +263,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -270,13 +291,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "contextRef": "i3aee3ad15990493fbd72d829cc2b1825_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:TaxRevenues",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -298,13 +319,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "contextRef": "i3aee3ad15990493fbd72d829cc2b1825_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -323,13 +344,13 @@
        "body",
        "html"
       ],
-      "contextRef": "ie49910a5ec31424f89bc22ea2886db59_D20160701-20170630",
+      "contextRef": "ie0ee1a3a28564728bbfb0bd7b04b3421_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -344,13 +365,13 @@
        "body",
        "html"
       ],
-      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
+      "contextRef": "i4fda010fa4c64170a15887c61cfd2d50_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:RestrictedFundBalance",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -369,7 +390,7 @@
        "body",
        "html"
       ],
-      "contextRef": "i19a65fa9b59f45479a53e2befc41f7db_I20170630",
+      "contextRef": "iaa47e623878b4a50ad4e0aff258944ac_I20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -397,13 +418,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i29c5b5912410444db12464dfb77d2bf9_D20160701-20170630",
+      "contextRef": "i9951a0db08f3406f892b312b02463de4_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:TaxRevenues",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -422,7 +443,7 @@
        "body",
        "html"
       ],
-      "contextRef": "i19dd3a39a0f145d5bca5151e1cfcf2e7_D20160701-20170630",
+      "contextRef": "i8524aa09edcb41c19cfd56205c77d1dd_D20160701-20170630",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -450,13 +471,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "cafr:ReceivablesNet",
+      "name": "cafr:CashAndCashEquivalents",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -475,13 +496,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "ut:LandAndOtherDepreciableAssets",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -496,13 +517,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Liabilities",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -521,13 +542,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "ut:SecuritiesLending",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -542,13 +563,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i677b48a19e0f4b6ba640d73bf46e25ce_I20170630",
+      "contextRef": "i014aea089f1141d3b31006dfa74be061_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -567,13 +588,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i2cac26e96c0a4f669ad76217ec3ca081_I20170630",
+      "contextRef": "idb585252a63f4f3bae751904c7576700_I20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:NetPositionRestricted",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -588,14 +609,14 @@
        "body",
        "html"
       ],
-      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "contextRef": "i3aee3ad15990493fbd72d829cc2b1825_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "ut:CapitalContributions",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -614,14 +635,14 @@
        "body",
        "html"
       ],
-      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "contextRef": "i3aee3ad15990493fbd72d829cc2b1825_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "ut:CapitalContributions",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -636,13 +657,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i18ba5049ed264cc595c257f4611c36bb_D20160701-20170630",
+      "contextRef": "i3aee3ad15990493fbd72d829cc2b1825_D20160701-20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:ChargesForServices",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -661,13 +682,13 @@
        "body",
        "html"
       ],
-      "contextRef": "i0159b47952204c4fb7e1e2d3c1749897_D20160701-20170630",
+      "contextRef": "if41371049e2b401fac022a3d60d9a86b_D20160701-20170630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:ChargesForServices",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     },
@@ -682,13 +703,14 @@
        "body",
        "html"
       ],
-      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
+      "contextRef": "i4fda010fa4c64170a15887c61cfd2d50_I20170630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Assets",
       "reportCount": 1,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unique": true,
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -707,13 +729,14 @@
        "body",
        "html"
       ],
-      "contextRef": "ibf88c336b58042e2ae251554282c6c67_I20170630",
+      "contextRef": "i4fda010fa4c64170a15887c61cfd2d50_I20170630",
       "decimals": "-3",
+      "first": true,
       "lang": null,
-      "name": "ut:TotalLiabilitiesDeferredInflowsOfResourcesAndFundBalances",
+      "name": "cafr:Assets",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i57fcf9164a634f25a8b25445c39efb80_75a3e117-5a63-4a59-b896-50201516922c",
+      "unitRef": "i4cfb25f7289f4cb4a90b138c410bd51c_75a3e117-5a63-4a59-b896-50201516922c",
       "xsiNil": "false"
      }
     }
@@ -899,7 +922,6 @@
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails",
-      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -2093,7 +2115,6 @@
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
-      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3073,11 +3094,18 @@
         "documentation": "0",
         "label": "Human Services [Member]"
        }
+      },
+      "en-US": {
+       "role": {
+        "label": "Human Services [Member]",
+        "terseLabel": "Human Services [Member]"
+       }
       }
      },
      "localname": "HumanServicesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://xbrl.us/cafr/commonAxes",
       "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"
      ],
@@ -3279,7 +3307,7 @@
       "en-US": {
        "role": {
         "label": "Inventory",
-        "terseLabel": "Inventory"
+        "terseLabel": "Inventories"
        }
       }
      },
@@ -3320,7 +3348,6 @@
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
-      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
      ],
      "xbrltype": "monetaryItemType"
@@ -3450,7 +3477,6 @@
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails",
-      "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"
      ],
      "xbrltype": "monetaryItemType"
@@ -3805,7 +3831,6 @@
      "localname": "NameOfFundAxis",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3830,7 +3855,6 @@
      "localname": "NameOfFundDomain",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
       "http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds",
       "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
@@ -3957,6 +3981,7 @@
      "localname": "NaturalResourcesMember",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
@@ -4145,18 +4170,11 @@
         "documentation": "Net position represents the difference between all other elements in a statement of financial position and should be displayed in three components\u2014net investment in capital assets, restricted (distinguishing between major categories of restrictions), and unrestricted.",
         "label": "Net Position [Abstract]"
        }
-      },
-      "en-US": {
-       "role": {
-        "label": "Net Position [Abstract]",
-        "terseLabel": "Net Position [Abstract]"
-       }
       }
      },
      "localname": "NetPositionAbstract",
      "nsuri": "http://www.xbrl.us/slg/cafr/2019-01-16",
      "presentation": [
-      "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails",
       "http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition"
      ],
      "xbrltype": "stringItemType"
@@ -5034,8 +5052,7 @@
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
-      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues",
-      "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -6135,7 +6152,7 @@
       }
      },
      "localname": "AccumulatedDepreciation",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6154,7 +6171,7 @@
       }
      },
      "localname": "BuildingsEquipmentAndOtherDepreciableAssets",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6172,7 +6189,7 @@
       }
      },
      "localname": "BusinessLaborAndAgricultureMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6191,7 +6208,7 @@
       }
      },
      "localname": "CapitalContributions",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6209,7 +6226,7 @@
       }
      },
      "localname": "CapitalLeasePaymentsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6227,7 +6244,7 @@
       }
      },
      "localname": "ChargesForServicesRevenue",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6246,7 +6263,7 @@
       }
      },
      "localname": "ConstructionInProgress",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6264,7 +6281,7 @@
       }
      },
      "localname": "CorpIncTaxEducationMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6282,7 +6299,7 @@
       }
      },
      "localname": "CorrectionsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6300,7 +6317,7 @@
       }
      },
      "localname": "Courts",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6319,29 +6336,11 @@
       }
      },
      "localname": "Deposits",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails"
      ],
      "xbrltype": "monetaryItemType"
-    },
-    "ut_EducationPublicAndHigherMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Education - Public and Higher [Member]",
-        "label": "Education - Public and Higher [Member]",
-        "terseLabel": "Education - Public and Higher [Member]"
-       }
-      }
-     },
-     "localname": "EducationPublicAndHigherMember",
-     "nsuri": "http://www.utah.gov/20190117",
-     "presentation": [
-      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
-     ],
-     "xbrltype": "domainItemType"
     },
     "ut_EmploymentAndFamilyServicesMember": {
      "auth_ref": [],
@@ -6355,7 +6354,7 @@
       }
      },
      "localname": "EmploymentAndFamilyServicesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6373,10 +6372,9 @@
       }
      },
      "localname": "FundBalancesBeginningAsAdjusted",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
-      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails",
-      "http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+      "http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -6392,7 +6390,7 @@
       }
      },
      "localname": "GainOnSaleOfCapitalAssetsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6410,8 +6408,9 @@
       }
      },
      "localname": "GeneralGovernmentMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
+      "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
      "xbrltype": "domainItemType"
@@ -6428,7 +6427,7 @@
       }
      },
      "localname": "HealthAndEnvironmentalQualityMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6446,7 +6445,7 @@
       }
      },
      "localname": "HigherEducationMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
@@ -6464,7 +6463,7 @@
       }
      },
      "localname": "HighwaysAndStreetsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6482,7 +6481,7 @@
       }
      },
      "localname": "HumanServicesAndJuvenileJusticeServicesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6500,7 +6499,7 @@
       }
      },
      "localname": "IndIncTaxEducationMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6519,7 +6518,7 @@
       }
      },
      "localname": "Infrastructure",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6537,7 +6536,7 @@
       }
      },
      "localname": "InventoriesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6556,7 +6555,7 @@
       }
      },
      "localname": "LandAndOtherDepreciableAssets",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6574,7 +6573,7 @@
       }
      },
      "localname": "LiquorRetailSalesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6592,7 +6591,7 @@
       }
      },
      "localname": "LoanProgramsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
      ],
@@ -6610,7 +6609,7 @@
       }
      },
      "localname": "LongtermPortionOfInterfundLoansReceivableMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6628,7 +6627,7 @@
       }
      },
      "localname": "MiscellaneousMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6646,7 +6645,7 @@
       }
      },
      "localname": "NetPositionBeginningAsAdjusted",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6664,7 +6663,7 @@
       }
      },
      "localname": "NotesLoansMortgagesPledgesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6682,7 +6681,7 @@
       }
      },
      "localname": "OtherFundsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6700,7 +6699,7 @@
       }
      },
      "localname": "OtherMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
@@ -6719,7 +6718,7 @@
       }
      },
      "localname": "PermanentFundPrincipalMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6737,7 +6736,7 @@
       }
      },
      "localname": "PledgedLoansMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6755,7 +6754,7 @@
       }
      },
      "localname": "PrepaidItemsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6773,7 +6772,7 @@
       }
      },
      "localname": "PublicEducationMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
@@ -6792,7 +6791,7 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6810,7 +6809,7 @@
       }
      },
      "localname": "SalesAndUseTaxMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6829,7 +6828,7 @@
       }
      },
      "localname": "SecuritiesLending",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideliabilitiesanddeferredinflowsdetails"
      ],
@@ -6847,7 +6846,7 @@
       }
      },
      "localname": "StateFundingForCollegesAndUniversitiesMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6865,7 +6864,7 @@
       }
      },
      "localname": "StateFundingForComponentUnitsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails"
      ],
@@ -6883,7 +6882,7 @@
       }
      },
      "localname": "StudentAssistanceProgramsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6901,7 +6900,7 @@
       }
      },
      "localname": "TaxMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwideassetsanddeferredoutflowsdetails"
      ],
@@ -6919,7 +6918,7 @@
       }
      },
      "localname": "TotalLiabilitiesDeferredInflowsOfResourcesAndFundBalances",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
@@ -6937,30 +6936,11 @@
       }
      },
      "localname": "TransportationMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
-      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails",
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwidegeneralrevenuesdetails",
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails",
       "http://www.utah.gov/role/CAFRstatementofnetpositiongovernmentwidenetpositiondetails"
-     ],
-     "xbrltype": "domainItemType"
-    },
-    "ut_TrustLandsMember": {
-     "auth_ref": [],
-     "lang": {
-      "en-US": {
-       "role": {
-        "documentation": "Trust Lands [Member]",
-        "label": "Trust Lands [Member]",
-        "terseLabel": "Trust Lands [Member]"
-       }
-      }
-     },
-     "localname": "TrustLandsMember",
-     "nsuri": "http://www.utah.gov/20190117",
-     "presentation": [
-      "http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails"
      ],
      "xbrltype": "domainItemType"
     },
@@ -6976,7 +6956,7 @@
       }
      },
      "localname": "WaterLoanProgramsMember",
-     "nsuri": "http://www.utah.gov/20190117",
+     "nsuri": "http://www.utah.gov/20190124",
      "presentation": [
       "http://www.utah.gov/role/CAFRstatementofactivitiesgovernmentwideprogramrevenuesandexpensesdetails"
      ],
