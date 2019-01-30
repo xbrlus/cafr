@@ -472,6 +472,7 @@
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47102402400000</identifier>
             <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
             </segment>
         </entity>

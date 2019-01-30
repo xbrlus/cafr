@@ -413,12 +413,12 @@
 <xbrli:instant>2017-06-30</xbrli:instant>
 </xbrli:period>
 </xbrli:context>
-<xbrli:context id="AsOf_30June2017_GeneralFundMember_NonExpendableMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+<xbrli:context id="AsOf_30June2017_GeneralFundMember_InventoriesAndPrepaidItemsMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
 <xbrli:entity>
 <xbrli:identifier scheme="http://harvester.census.gov/GID">47100200200000</xbrli:identifier>
 <xbrli:segment>
 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis" xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16">cafr:GeneralFundMember</xbrldi:explicitMember>
-<xbrldi:explicitMember dimension="cafr:ExpendabilityAxis" xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16">cafr:NonExpendableMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:InventoriesAndPrepaidItemsMember</xbrldi:explicitMember>
 </xbrli:segment>
 </xbrli:entity>
 <xbrli:period>
@@ -520,12 +520,12 @@
 <xbrli:instant>2017-06-30</xbrli:instant>
 </xbrli:period>
 </xbrli:context>
-<xbrli:context id="AsOf_30June2017_CapitalProjectsFundMember_NonExpendableMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+<xbrli:context id="AsOf_30June2017_CapitalProjectsFundMember_LoanReceivableMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
 <xbrli:entity>
 <xbrli:identifier scheme="http://harvester.census.gov/GID">47100200200000</xbrli:identifier>
 <xbrli:segment>
 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
-<xbrldi:explicitMember dimension="cafr:ExpendabilityAxis">cafr:NonExpendableMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:LoanReceivableMember</xbrldi:explicitMember>
 </xbrli:segment>
 </xbrli:entity>
 <xbrli:period>
@@ -602,6 +602,18 @@
 <xbrli:instant>2017-06-30</xbrli:instant>
 </xbrli:period>
 </xbrli:context>
+<xbrli:context id="AsOf_30June2017_GovernmentalFundsMember_LoanReceivableMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+<xbrli:entity>
+<xbrli:identifier scheme="http://harvester.census.gov/GID">47100200200000</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:LoanReceivableMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
 <xbrli:context id="AsOf_30June2017_GovernmentalFundsMember_PropertyTaxesMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
 <xbrli:entity>
 <xbrli:identifier scheme="http://harvester.census.gov/GID">47100200200000</xbrli:identifier>
@@ -614,12 +626,12 @@
 <xbrli:instant>2017-06-30</xbrli:instant>
 </xbrli:period>
 </xbrli:context>
-<xbrli:context id="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+<xbrli:context id="AsOf_30June2017_GovernmentalFundsMember_InventoriesAndPrepaidItemsMember" xmlns:xbrli="http://www.xbrl.org/2003/instance">
 <xbrli:entity>
 <xbrli:identifier scheme="http://harvester.census.gov/GID">47100200200000</xbrli:identifier>
 <xbrli:segment>
 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis" xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
-<xbrldi:explicitMember dimension="cafr:ExpendabilityAxis" xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16">cafr:NonExpendableMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis" xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16">va-o-albe:InventoriesAndPrepaidItemsMember</xbrldi:explicitMember>
 </xbrli:segment>
 </xbrli:entity>
 <xbrli:period>
@@ -4128,7 +4140,7 @@ This financial report is designed to provide our citizens, taxpayers, customers,
 		<tr>
 			<td valign="top" style="width: 280pt; padding: 0in;">Inventories and prepaid items</td>
 			<td valign="top" style="width: 14pt; padding: 0in;text-align:right;">$</td>
-			<td valign="top" style="width: 50pt; padding: 0in;text-align:right;"><ix:nonFraction name="va-o-albe:InventoriesAndPrepaidItems" contextRef="AsOf_30June2017_GeneralFundMember_NonExpendableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">105,800</ix:nonFraction></td>
+			<td valign="top" style="width: 50pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:NonspendableFundBalance" contextRef="AsOf_30June2017_GeneralFundMember_InventoriesAndPrepaidItemsMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">105,800</ix:nonFraction></td>
 			<td valign="top" style="width: 9pt; padding: 0in;text-align:right;">$</td>
 			<td valign="top" style="width: 43pt; padding: 0in;text-align:right;">-</td>
 			<td valign="top" style="width: 11pt; padding: 0in;text-align:right;">$</td>
@@ -4136,7 +4148,7 @@ This financial report is designed to provide our citizens, taxpayers, customers,
 			<td valign="top" style="width: 9pt; padding: 0in;text-align:right;">$</td>
 			<td valign="top" style="width: 43pt; padding: 0in;text-align:right;">-</td>
 			<td valign="top" style="width: 10pt; padding: 0in;text-align:right;">$</td>
-			<td valign="top" style="width: 71pt; padding: 0in;text-align:right;"><ix:nonFraction name="va-o-albe:InventoriesAndPrepaidItems" contextRef="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">105,800</ix:nonFraction></td>
+			<td valign="top" style="width: 71pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:NonspendableFundBalance" contextRef="AsOf_30June2017_GovernmentalFundsMember_InventoriesAndPrepaidItemsMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">105,800</ix:nonFraction></td>
 		</tr>
 		<tr>
 			<td valign="top" style="width: 280pt; padding: 0in;">Loan receivable</td>
@@ -4145,11 +4157,11 @@ This financial report is designed to provide our citizens, taxpayers, customers,
 			<td valign="top" style="width: 9pt; padding: 0in;">&#160;</td>
 			<td valign="top" style="width: 43pt; padding: 0in;text-align:right;">-</td>
 			<td valign="top" style="width: 11pt; padding: 0in;">&#160;</td>
-			<td valign="top" style="width: 48pt; padding: 0in;text-align:right;"><ix:nonFraction name="va-o-albe:LoanReceivable" contextRef="AsOf_30June2017_CapitalProjectsFundMember_NonExpendableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">24,364</ix:nonFraction></td>
+			<td valign="top" style="width: 48pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:NonspendableFundBalance" contextRef="AsOf_30June2017_CapitalProjectsFundMember_LoanReceivableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">24,364</ix:nonFraction></td>
 			<td valign="top" style="width: 9pt; padding: 0in;">&#160;</td>
 			<td valign="top" style="width: 43pt; padding: 0in;text-align:right;">-</td>
 			<td valign="top" style="width: 10pt; padding: 0in;">&#160;</td>
-			<td valign="top" style="width: 71pt; padding: 0in;text-align:right;"><ix:nonFraction name="va-o-albe:LoanReceivable" contextRef="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">24,364</ix:nonFraction></td>
+			<td valign="top" style="width: 71pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:NonspendableFundBalance" contextRef="AsOf_30June2017_GovernmentalFundsMember_LoanReceivableMember" unitRef="USD" decimals="0" format="ixt:numdotdecimal" scale="0" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">24,364</ix:nonFraction></td>
 		</tr>
 		<tr>
 			<td valign="top" style="width: 280pt; padding: 0in;">Restricted:</td>
@@ -5169,7 +5181,7 @@ This financial report is designed to provide our citizens, taxpayers, customers,
 		<tr>
 			<td valign="top" style="width: 187pt; padding: 0in;">Total expenditures</td>
 			<td valign="top" style="width: 29pt; padding: 0in;text-align:right;">$</td>
-			<td valign="top" style="width: 57pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:Expenditures" contextRef="FYE_2017_GeneralFundMember_CapitalProjectsMember" unitRef="USD" decimals="0" scale="0" format="ixt:numdotdecimal" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">220,465,086</ix:nonFraction></td>
+			<td valign="top" style="width: 57pt; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:Expenditures" contextRef="FYE_2017_GeneralFundMember" unitRef="USD" decimals="0" scale="0" format="ixt:numdotdecimal" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">220,465,086</ix:nonFraction></td>
 			<td valign="top" style="width: 11pt; padding: 0in;text-align:right;">$</td>
 			<td valign="top" style="width: 0.75in; padding: 0in;text-align:right;"><ix:nonFraction name="cafr:Expenditures" contextRef="FYE_2017_FederalStateGrantsFundMember" unitRef="USD" decimals="0" scale="0" format="ixt:numdotdecimal" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL">14,980,999</ix:nonFraction></td>
 			<td valign="top" style="width: 11pt; padding: 0in;text-align:right;">$</td>
