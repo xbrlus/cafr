@@ -72,7 +72,7 @@
     "total": 0
    },
    "keyCustom": 17,
-   "keyStandard": 71,
+   "keyStandard": 47,
    "memberCustom": 30,
    "memberStandard": 15,
    "nsprefix": "va-o-culp",
@@ -500,11 +500,11 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:TransfersNet",
+      "name": "cafr:GeneralRevenuesContributionsToPermanentFundsSpecialItemsAndTransfers",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
@@ -529,7 +529,7 @@
        "body",
        "html"
       ],
-      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember_OtherLocalTaxesMember",
+      "contextRef": "FYE_30-June-2018_PrimaryGovernmentActivitiesMember_ConsumerUtilityTaxesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -777,7 +777,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements.. Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes.",
+        "documentation": "Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements, as discussed in paragraph .181 . Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes. [GASBS 54, \u00b613]",
         "label": "Assigned Fund Balance"
        }
       }
@@ -1649,7 +1649,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "An acquistion of net position by the government that is applicable to a future reporting period.",
+        "documentation": "An acquisition of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Inflows of Resources"
        }
       }
@@ -1677,7 +1677,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "A consumption  of net position by the government that is applicable to a future reporting period.",
+        "documentation": "A consumption of net position by the government that is applicable to a future reporting period.",
         "label": "Deferred Outflows Of Resources"
        }
       }
@@ -2016,7 +2016,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraordinary items should be reported separately at the bottom of the statement of activities.",
+        "documentation": "Extraordinary items are transactions or other events that are both unusual in nature and infrequent in occurrence. Extraorinary items should be reported separately at the bottom of the statement of activities. [GASBS 34, \u00b655, as amended by GASBS 62, \u00b645\u2013\u00b649]",
         "label": "Extraordinary Items"
        }
       }
@@ -2072,7 +2072,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountableOpen this link as a new document (see paragraphs .120\u2013.136Open this link as a new document). In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit (see paragraphs .138\u2013.140Open this link as a new document). The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government. [GASBS 14, \u00b612, as amended by GASBS 34, \u00b66 and GASBS 61, \u00b64]",
+        "documentation": "The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
         "label": "Financial Reporting Entity [Axis]"
        }
       }
@@ -2139,7 +2139,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Revenues obtained through penalties and other law enforcement activities.",
+        "documentation": "Revenues obtained through penalties and other law enforcement activities",
         "label": "Fines and Forfeits Revenue"
        }
       }
@@ -2367,7 +2367,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
+        "documentation": "Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds.\n \n  Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
         "label": "Governmental Funds [Member]"
        }
       }
@@ -2504,7 +2504,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Debt service payments other than principal repayment.",
+        "documentation": "Debt servce payments other than principal repayment.",
         "label": "Interest and Fiscal Charges [Member]"
        }
       }
@@ -3938,7 +3938,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds (defined in paragraph .113), which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
+        "documentation": "Permanent funds should be used to account for and report resources that are restricted to the extent that only earnings, and not principal, may be used for purposes that support the reporting government\u2019s programs\u2014that is, for the benefit of the government or its citizenry. Permanent funds do not include private-purpose trust funds, which should be used to report situations in which the government is required to use the principal or earnings for the benefit of individuals, private organizations, or other governments.",
         "label": "Permanent Fund [Member]"
        }
       }
@@ -4318,7 +4318,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.\n [GASBS 54, \u00b68]",
+        "documentation": "Fund balance should be reported as restricted when constraints placed on the use of resources are either:\n a. Externally imposed by creditors (such as through debt covenants), grantors, contributors, or laws or regulations of other governments; or\n b. Imposed by law through constitutional provisions or enabling legislation.",
         "label": "Restricted Fund Balance"
        }
       }
@@ -4467,7 +4467,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund. A stabilization arrangement (as discussed in paragraphs .180 and .181of Section 1800) would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund. Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
+        "documentation": "Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund. A stabilization arrangement would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund. Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
         "label": "Special Revenue Fund [Member]"
        }
       }
@@ -4529,7 +4529,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Line Items]"
        }
       }
@@ -4564,7 +4564,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. As discussed in paragraph .135Open this link as a new document, this notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. An example of a format that meets these requirements is illustrated in paragraph .142Open this link as a new document. 17 [GASBS 34, \u00b638, as amended by GASBS 63, \u00b68; GASBS 37, \u00b611]\nAt a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function, 18 as discussed in Section 1800, paragraphs .132\u2013.137Open this link as a new document, to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "The operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present:\n\na.    Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances\n\nb.    Activities accounted for in enterprise funds by different identifiable activities.",
         "label": "Statement of Activities [Table]"
        }
       }

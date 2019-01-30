@@ -53,12 +53,12 @@
             <instant>2017-06-30</instant>
         </period>
     </context>
-    <context id="AsOf_30June2017_GeneralFundMember_NonExpendableMember">
+    <context id="AsOf_30June2017_GeneralFundMember_InventoriesAndPrepaidItemsMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
             <segment>
+                <xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:InventoriesAndPrepaidItemsMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ExpendabilityAxis">cafr:NonExpendableMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
@@ -173,12 +173,12 @@
             <instant>2017-06-30</instant>
         </period>
     </context>
-    <context id="AsOf_30June2017_CapitalProjectsFundMember_NonExpendableMember">
+    <context id="AsOf_30June2017_CapitalProjectsFundMember_LoanReceivableMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
             <segment>
+                <xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:LoanReceivableMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:CapitalProjectsFundMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ExpendabilityAxis">cafr:NonExpendableMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
@@ -255,24 +255,24 @@
             <instant>2017-06-30</instant>
         </period>
     </context>
-    <context id="AsOf_30June2017_GovernmentalFundsMember_PropertyTaxesMember">
+    <context id="AsOf_30June2017_GovernmentalFundsMember_LoanReceivableMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
             <segment>
+                <xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:LoanReceivableMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PropertyTaxesMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
             <instant>2017-06-30</instant>
         </period>
     </context>
-    <context id="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember">
+    <context id="AsOf_30June2017_GovernmentalFundsMember_PropertyTaxesMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
             <segment>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ExpendabilityAxis">cafr:NonExpendableMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PropertyTaxesMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
@@ -286,6 +286,18 @@
                 <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">va-o-albe:DifferencesInProportionateShareOfNetPensionLiabilitiesMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AsOf_30June2017_GovernmentalFundsMember_InventoriesAndPrepaidItemsMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-o-albe:ClassificationOfFundBalancesAxis">va-o-albe:InventoriesAndPrepaidItemsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
@@ -387,18 +399,6 @@
             <instant>2017-06-30</instant>
         </period>
     </context>
-    <context id="AsOf_30June2017_FederalStateGrantsFundMember_OtherGovernmentMember">
-        <entity>
-            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
-            <segment>
-                <xbrldi:explicitMember dimension="cafr:ClassificationOfDueToDueFromAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">va-o-albe:FederalStateGrantsFundMember</xbrldi:explicitMember>
-            </segment>
-        </entity>
-        <period>
-            <instant>2017-06-30</instant>
-        </period>
-    </context>
     <context id="AsOf_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_PensionsMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
@@ -406,6 +406,18 @@
                 <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">cafr:PensionsMember</xbrldi:explicitMember>
                 <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
+    <context id="AsOf_30June2017_FederalStateGrantsFundMember_OtherGovernmentMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfDueToDueFromAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">va-o-albe:FederalStateGrantsFundMember</xbrldi:explicitMember>
             </segment>
         </entity>
         <period>
@@ -537,6 +549,19 @@
             <endDate>2017-06-30</endDate>
         </period>
     </context>
+    <context id="AsOf_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_DeferredRevenueMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">va-o-albe:DeferredRevenueMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
     <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_InterestAndFiscalChargesMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
@@ -549,19 +574,6 @@
         <period>
             <startDate>2016-07-01</startDate>
             <endDate>2017-06-30</endDate>
-        </period>
-    </context>
-    <context id="AsOf_30June2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_DeferredRevenueMember">
-        <entity>
-            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
-            <segment>
-                <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:ClassificationOfInflowsOutflowsAxis">va-o-albe:DeferredRevenueMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
-            </segment>
-        </entity>
-        <period>
-            <instant>2017-06-30</instant>
         </period>
     </context>
     <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember">
@@ -686,6 +698,18 @@
             <endDate>2017-06-30</endDate>
         </period>
     </context>
+    <context id="AsOf_30June2017_ComponentUnitsMember_SchoolBoardMember">
+        <entity>
+            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="va-o-albe:NameOfComponentUnitAxis">va-o-albe:SchoolBoardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-06-30</instant>
+        </period>
+    </context>
     <context id="FYE_2017_PrimaryGovernmentActivitiesMember_GovernmentalTypeActivityMember_OtherMember">
         <entity>
             <identifier scheme="http://harvester.census.gov/GID  ">47100200200000</identifier>
@@ -698,18 +722,6 @@
         <period>
             <startDate>2016-07-01</startDate>
             <endDate>2017-06-30</endDate>
-        </period>
-    </context>
-    <context id="AsOf_30June2017_ComponentUnitsMember_SchoolBoardMember">
-        <entity>
-            <identifier scheme="http://harvester.census.gov/GID">47100200200000</identifier>
-            <segment>
-                <xbrldi:explicitMember dimension="va-o-albe:NameOfComponentUnitAxis">va-o-albe:SchoolBoardMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:ComponentUnitsMember</xbrldi:explicitMember>
-            </segment>
-        </entity>
-        <period>
-            <instant>2017-06-30</instant>
         </period>
     </context>
     <context id="FYE_2017_ComponentUnitsMember_EducationMember">
@@ -2548,22 +2560,22 @@
       contextRef="AsOf_30June2017_GovernmentalFundsMember_PropertyTaxesMember"
       decimals="0"
       unitRef="USD">8265248</cafr:DeferredInflowsOfResources>
-    <va-o-albe:InventoriesAndPrepaidItems
-      contextRef="AsOf_30June2017_GeneralFundMember_NonExpendableMember"
+    <cafr:NonspendableFundBalance
+      contextRef="AsOf_30June2017_GeneralFundMember_InventoriesAndPrepaidItemsMember"
       decimals="0"
-      unitRef="USD">105800</va-o-albe:InventoriesAndPrepaidItems>
-    <va-o-albe:InventoriesAndPrepaidItems
-      contextRef="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember"
+      unitRef="USD">105800</cafr:NonspendableFundBalance>
+    <cafr:NonspendableFundBalance
+      contextRef="AsOf_30June2017_GovernmentalFundsMember_InventoriesAndPrepaidItemsMember"
       decimals="0"
-      unitRef="USD">105800</va-o-albe:InventoriesAndPrepaidItems>
-    <va-o-albe:LoanReceivable
-      contextRef="AsOf_30June2017_CapitalProjectsFundMember_NonExpendableMember"
+      unitRef="USD">105800</cafr:NonspendableFundBalance>
+    <cafr:NonspendableFundBalance
+      contextRef="AsOf_30June2017_CapitalProjectsFundMember_LoanReceivableMember"
       decimals="0"
-      unitRef="USD">24364</va-o-albe:LoanReceivable>
-    <va-o-albe:LoanReceivable
-      contextRef="AsOf_30June2017_GovernmentalFundsMember_NonExpendableMember"
+      unitRef="USD">24364</cafr:NonspendableFundBalance>
+    <cafr:NonspendableFundBalance
+      contextRef="AsOf_30June2017_GovernmentalFundsMember_LoanReceivableMember"
       decimals="0"
-      unitRef="USD">24364</va-o-albe:LoanReceivable>
+      unitRef="USD">24364</cafr:NonspendableFundBalance>
     <cafr:RestrictedFundBalance
       contextRef="AsOf_30June2017_FederalStateGrantsFundMember"
       decimals="0"
@@ -3029,7 +3041,7 @@
       decimals="0"
       unitRef="USD">14557174</cafr:Expenditures>
     <cafr:Expenditures
-      contextRef="FYE_2017_GeneralFundMember_CapitalProjectsMember"
+      contextRef="FYE_2017_GeneralFundMember"
       decimals="0"
       unitRef="USD">220465086</cafr:Expenditures>
     <cafr:Expenditures
