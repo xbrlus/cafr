@@ -295,9 +295,15 @@
 							App_Find.Highlight.highlight();
 							App_Find.Settings.init();
 		            		_setDocumentCustomPrefix();
-		            		
+			        	} else if (requestObject.version == "2.1") {
+			        		_cacheInstance = _cacheMetaLinks.instance[filename];
+		            		_cacheMetaRefs = _cacheMetaLinks.std_ref;
+							App_Find.Highlight.highlight();
+							App_Find.Settings.init();
+		            		_setDocumentCustomPrefix();
+		            				            		
 			        	} else {
-			        		App.showMessage("Object found was not a MetaLinks version 2.0 file");
+			        		App.showMessage("Object found was not a MetaLinks version 2.0 or 2.1 file");
 			        	}
 			        }
 		        });
