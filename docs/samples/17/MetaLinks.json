@@ -1,13 +1,13 @@
 {
  "instance": {
-  "oak-20190325.htm": {
+  "oak-20190326.htm": {
    "axisCustom": 0,
    "axisStandard": 13,
    "contextCount": 443,
    "dts": {
     "calculationLink": {
      "local": [
-      "oak-20190325_cal.xml"
+      "oak-20190326_cal.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
@@ -15,7 +15,7 @@
     },
     "definitionLink": {
      "local": [
-      "oak-20190325_def.xml"
+      "oak-20190326_def.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
@@ -23,12 +23,12 @@
     },
     "inline": {
      "local": [
-      "oak-20190325.htm"
+      "oak-20190326.htm"
      ]
     },
     "labelLink": {
      "local": [
-      "oak-20190325_lab.xml"
+      "oak-20190326_lab.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
@@ -36,7 +36,7 @@
     },
     "presentationLink": {
      "local": [
-      "oak-20190325_pre.xml"
+      "oak-20190326_pre.xml"
      ],
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
@@ -49,7 +49,7 @@
     },
     "schema": {
      "local": [
-      "oak-20190325.xsd"
+      "oak-20190326.xsd"
      ],
      "remote": [
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
@@ -77,7 +77,7 @@
    "memberCustom": 44,
    "memberStandard": 32,
    "nsprefix": "oak",
-   "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+   "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
    "report": {
     "R1": {
      "firstAnchor": {
@@ -90,8 +90,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ifea3fd17357d4719adbb688c97c43108_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i41d9c678d17441c1924eeac4b757f7c5_D20170701-20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -119,14 +119,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i2802906be52845e89f9c87ee970b5260_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i85f3160db5624c73bb412bd2fa078896_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:LicensesAndPermits",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -148,8 +148,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ifea3fd17357d4719adbb688c97c43108_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i41d9c678d17441c1924eeac4b757f7c5_D20170701-20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -177,8 +177,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ifea3fd17357d4719adbb688c97c43108_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i41d9c678d17441c1924eeac4b757f7c5_D20170701-20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -206,8 +206,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "if60be6abb92b4eda90dda85774752ff2_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i77853d6bcae14bd19c0060f0645f2013_I20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -235,14 +235,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i4a46448410ed4f57ada6ce2b83c798dd_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i743ae510c58047b489d559bb09d9291e_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:DeferredOutflowsOfResources",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -261,14 +261,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i4a46448410ed4f57ada6ce2b83c798dd_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i743ae510c58047b489d559bb09d9291e_I20180630",
       "decimals": "-3",
       "lang": null,
       "name": "oak:CashAndInvestments",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -283,14 +283,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ia33f4cfb91ff4a6383eab2b5f7bccbf9_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i3c127250888343dfa16b009af7d1fa85_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:AccountsPayable",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -309,14 +309,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ia33f4cfb91ff4a6383eab2b5f7bccbf9_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i3c127250888343dfa16b009af7d1fa85_I20180630",
       "decimals": "-3",
       "lang": null,
       "name": "oak:AccruedInterestPayable",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -331,14 +331,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ia33f4cfb91ff4a6383eab2b5f7bccbf9_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i3c127250888343dfa16b009af7d1fa85_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -357,14 +357,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "id6739c77d79441d4be8d5ab4d18e9dc0_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i06bec7f97fc5427b961d413b70acd628_I20180630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:NetPositionRestricted",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -379,15 +379,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i9f4c015e44ec4a9aa7a59f0cd048fa5e_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "ib23fee98a29f4d5386eeb58a4f632eaf_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:PropertyTaxes",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -406,15 +406,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i9f4c015e44ec4a9aa7a59f0cd048fa5e_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "ib23fee98a29f4d5386eeb58a4f632eaf_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:PropertyTaxes",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -429,14 +429,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i9f4c015e44ec4a9aa7a59f0cd048fa5e_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "ib23fee98a29f4d5386eeb58a4f632eaf_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -455,14 +455,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "if321a26e81274ed789882742298fc851_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i334e45ed696749d5b70ccfcd11bbb535_D20170701-20180630",
       "decimals": "-3",
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -477,15 +477,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i376cd81b0b644d4887f7cb6fd6057f08_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i446f44da6c2d4871a34173439f3225ca_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:CashAndInvestments",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -504,15 +504,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i376cd81b0b644d4887f7cb6fd6057f08_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i446f44da6c2d4871a34173439f3225ca_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:CashAndInvestments",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -527,8 +527,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "ifea3fd17357d4719adbb688c97c43108_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i41d9c678d17441c1924eeac4b757f7c5_D20170701-20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -556,15 +556,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i2802906be52845e89f9c87ee970b5260_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i85f3160db5624c73bb412bd2fa078896_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:PropertyTaxes",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -583,15 +583,15 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i2802906be52845e89f9c87ee970b5260_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i85f3160db5624c73bb412bd2fa078896_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "oak:PropertyTaxes",
       "reportCount": 1,
       "unique": true,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      }
     },
@@ -606,8 +606,8 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "if60be6abb92b4eda90dda85774752ff2_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i77853d6bcae14bd19c0060f0645f2013_I20180630",
       "decimals": null,
       "first": true,
       "lang": "en-US",
@@ -635,14 +635,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i4a46448410ed4f57ada6ce2b83c798dd_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i743ae510c58047b489d559bb09d9291e_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:ReceivablesNet",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -664,14 +664,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i4a46448410ed4f57ada6ce2b83c798dd_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i743ae510c58047b489d559bb09d9291e_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:AccountsPayable",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -693,14 +693,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i4a46448410ed4f57ada6ce2b83c798dd_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i743ae510c58047b489d559bb09d9291e_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:NetInvestmentInCapitalAssets",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -722,14 +722,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i9f4c015e44ec4a9aa7a59f0cd048fa5e_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "ib23fee98a29f4d5386eeb58a4f632eaf_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:GeneralRevenuesOtherThanTaxRevenues",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -751,14 +751,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i9f4c015e44ec4a9aa7a59f0cd048fa5e_D20170701-20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "ib23fee98a29f4d5386eeb58a4f632eaf_D20170701-20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:Expenses",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -780,14 +780,14 @@
        "body",
        "html"
       ],
-      "baseRef": "oak-20190325.htm",
-      "contextRef": "i376cd81b0b644d4887f7cb6fd6057f08_I20180630",
+      "baseRef": "oak-20190326.htm",
+      "contextRef": "i446f44da6c2d4871a34173439f3225ca_I20180630",
       "decimals": "-3",
       "first": true,
       "lang": null,
       "name": "cafr:RestrictedFundBalance",
       "reportCount": 1,
-      "unitRef": "i22e3cd3caea343c98986d5f588b6b21a_800a6e0c-d074-4a06-8896-e771918b25eb",
+      "unitRef": "i51f8875484b84448908d16a42c0d28bd_800a6e0c-d074-4a06-8896-e771918b25eb",
       "xsiNil": "false"
      },
      "groupType": "",
@@ -6090,7 +6090,7 @@
       }
      },
      "localname": "AccruedInterestPayable",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/Statementofnetpositionliabilitiesdetails"
      ],
@@ -6109,7 +6109,7 @@
       }
      },
      "localname": "AnnuityIncome",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6127,7 +6127,7 @@
       }
      },
      "localname": "CapitalOutlayMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6146,7 +6146,7 @@
       }
      },
      "localname": "CashAndInvestments",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails"
@@ -6165,7 +6165,7 @@
       }
      },
      "localname": "CityAdministratorMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6183,7 +6183,7 @@
       }
      },
      "localname": "CityAttorneyMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6201,7 +6201,7 @@
       }
      },
      "localname": "CityAuditorMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6219,7 +6219,7 @@
       }
      },
      "localname": "CityClerkMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6237,7 +6237,7 @@
       }
      },
      "localname": "CommunityServiceMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6255,7 +6255,7 @@
       }
      },
      "localname": "CouncilMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6273,7 +6273,7 @@
       }
      },
      "localname": "DebtServiceBondIssuanceCostMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6291,7 +6291,7 @@
       }
      },
      "localname": "DebtServiceInterestAndOtherChargesMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6309,7 +6309,7 @@
       }
      },
      "localname": "DebtServicePaymentToRefundBondEscrowAgentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6327,7 +6327,7 @@
       }
      },
      "localname": "DebtServicePrincipalRepaymentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6345,7 +6345,7 @@
       }
      },
      "localname": "DepartmentOfViolencePreventionMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6363,7 +6363,7 @@
       }
      },
      "localname": "DiscountsOnIssuanceOfBondsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6382,7 +6382,7 @@
       }
      },
      "localname": "FederalAndStateGrantsAndSubventions",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6400,7 +6400,7 @@
       }
      },
      "localname": "FederalStateGrantFundMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6419,7 +6419,7 @@
       }
      },
      "localname": "FinancialServicesMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6437,7 +6437,7 @@
       }
      },
      "localname": "GeneralGovernmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -6455,7 +6455,7 @@
       }
      },
      "localname": "GrantsAndOthersMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails"
      ],
@@ -6473,7 +6473,7 @@
       }
      },
      "localname": "HousingAndCommunityDevelopmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/Statementofnetpositionnetpositiondetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6492,7 +6492,7 @@
       }
      },
      "localname": "HumanResourceManagementMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6510,7 +6510,7 @@
       }
      },
      "localname": "InformationTechnologyMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6528,7 +6528,7 @@
       }
      },
      "localname": "InsuranceClaimsAndSettlementsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6546,7 +6546,7 @@
       }
      },
      "localname": "IssuanceOfBondsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6564,7 +6564,7 @@
       }
      },
      "localname": "IssuanceOnRefundingBondsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6582,7 +6582,7 @@
       }
      },
      "localname": "LibraryMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6600,7 +6600,7 @@
       }
      },
      "localname": "LoansToOSRAMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails"
      ],
@@ -6619,7 +6619,7 @@
       }
      },
      "localname": "LocalTaxesBusinessLicense",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6639,7 +6639,7 @@
       }
      },
      "localname": "LocalTaxesFranchise",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6659,7 +6659,7 @@
       }
      },
      "localname": "LocalTaxesParking",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6679,7 +6679,7 @@
       }
      },
      "localname": "LocalTaxesRealEstateTransfer",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6699,7 +6699,7 @@
       }
      },
      "localname": "LocalTaxesTransientOccupancy",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6719,7 +6719,7 @@
       }
      },
      "localname": "LocalTaxesUtilityConsumption",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6739,7 +6739,7 @@
       }
      },
      "localname": "LocalTaxesVoterApprovedSpecialTax",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6758,7 +6758,7 @@
       }
      },
      "localname": "LowAndModerateIncomeHousingAssetFundMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6777,7 +6777,7 @@
       }
      },
      "localname": "LowAndModerateIncomeHousingRedevelopmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/Statementofnetpositionnetpositiondetails"
      ],
@@ -6795,7 +6795,7 @@
       }
      },
      "localname": "MandatedClaimsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails"
      ],
@@ -6813,7 +6813,7 @@
       }
      },
      "localname": "MayorMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6832,7 +6832,7 @@
       }
      },
      "localname": "NetPositionBeginningAsRestated",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails"
      ],
@@ -6850,7 +6850,7 @@
       }
      },
      "localname": "NotesAndLoansMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails"
      ],
@@ -6868,7 +6868,7 @@
       }
      },
      "localname": "OaklandFireDepartmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6886,7 +6886,7 @@
       }
      },
      "localname": "OaklandPoliceDepartmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6904,7 +6904,7 @@
       }
      },
      "localname": "OaklandRedevelopmentSuccessorAgencyORSAMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails",
@@ -6924,7 +6924,7 @@
       }
      },
      "localname": "OtherMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -6943,7 +6943,7 @@
       }
      },
      "localname": "PaymentToRefundBondEscrowAgentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6961,7 +6961,7 @@
       }
      },
      "localname": "PlanningAndBuildingMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6979,7 +6979,7 @@
       }
      },
      "localname": "PoliceCommissionMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -6997,7 +6997,7 @@
       }
      },
      "localname": "PremiumsOnIssuanceOfBondsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -7015,7 +7015,7 @@
       }
      },
      "localname": "ProceedsFromLoanMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -7033,7 +7033,7 @@
       }
      },
      "localname": "ProceedsFromSaleOfCapitalAssetsMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -7052,7 +7052,7 @@
       }
      },
      "localname": "PropertyHeldForResaleNotesLoansReceivable",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails"
@@ -7072,7 +7072,7 @@
       }
      },
      "localname": "PropertyTaxes",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -7091,7 +7091,7 @@
       }
      },
      "localname": "PublicEthicsCommissionMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -7109,7 +7109,7 @@
       }
      },
      "localname": "PublicSafetyMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -7127,7 +7127,7 @@
       }
      },
      "localname": "PublicWorksAndTransportationMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails"
      ],
@@ -7145,7 +7145,7 @@
       }
      },
      "localname": "RaceAndEquityDepartmentMember",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
      ],
@@ -7164,7 +7164,7 @@
       }
      },
      "localname": "ReceivablesNetAccruedInterest",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails"
@@ -7184,7 +7184,7 @@
       }
      },
      "localname": "ReceivablesNetGrantsReceivable",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails"
@@ -7204,7 +7204,7 @@
       }
      },
      "localname": "ReceivablesNetPropertyTaxes",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/BSdetails",
       "http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails"
@@ -7224,7 +7224,7 @@
       }
      },
      "localname": "StateTaxesGasTax",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -7244,7 +7244,7 @@
       }
      },
      "localname": "StateTaxesMotorVehicleInlieu",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
@@ -7264,7 +7264,7 @@
       }
      },
      "localname": "StateTaxesSalesAndUseTax",
-     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190325",
+     "nsuri": "http://www.oaklandca.gov/documents/2018-comprehensive-annual-financial-report/20190326",
      "presentation": [
       "http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails",
       "http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails"
