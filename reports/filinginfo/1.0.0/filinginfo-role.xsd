@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Filing information -->
+<xsd:schema targetNamespace="https://xbrl.us/2019/filinginfo-role" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:FilingInfo-role="https://xbrl.us/2019/filinginfo-role" xmlns:gen="http://xbrl.org/2008/generic" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional" id="FILINGINFO-Table001-NonDimensional">
+        <link:definition>FILINGINFO-Table001-NonDimensional</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

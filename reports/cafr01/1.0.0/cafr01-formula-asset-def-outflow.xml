@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR01-Statement of net position -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:instance="http://www.xbrl.org/2003/instance" xmlns:ef="http://xbrl.org/2008/filter/entity">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-satisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-satisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-parameter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-parameter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-formula" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-formula"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-precondition"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <generic:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Deferred_Outflow_SubTotal_01" xlink:title="cafr01_Deferred_Outflow_SubTotal_01" id="cafr01_Deferred_Outflow_SubTotal_01" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5 + $V6 + $V7 + $V8)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_01" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_01" xml:lang="en" id="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_01">In CAFR01, In Governmental activities column, Total deferred outflows of resources MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_01"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_01" xlink:title="Var_01" id="Var_01" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_01" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_01" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_01_conceptName_1" xlink:title="Var_01_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_conceptName_1" xlink:title="Var_01_Var_01_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_01_explicitDimension_2" xlink:title="Var_01_explicitDimension_2" id="Var_01_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_explicitDimension_2" xlink:title="Var_01_Var_01_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_01_explicitDimension_3" xlink:title="Var_01_explicitDimension_3" id="Var_01_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_explicitDimension_3" xlink:title="Var_01_Var_01_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_02" xlink:title="Var_02" id="Var_02" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_02" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_02" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_02_conceptName_1" xlink:title="Var_02_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDebtRefunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_conceptName_1" xlink:title="Var_02_Var_02_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_02_explicitDimension_2" xlink:title="Var_02_explicitDimension_2" id="Var_02_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_explicitDimension_2" xlink:title="Var_02_Var_02_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_03" xlink:title="Var_03" id="Var_03" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_03" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_03" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_03_conceptName_1" xlink:title="Var_03_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForPensions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_conceptName_1" xlink:title="Var_03_Var_03_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_03_explicitDimension_2" xlink:title="Var_03_explicitDimension_2" id="Var_03_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_explicitDimension_2" xlink:title="Var_03_Var_03_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_04" xlink:title="Var_04" id="Var_04" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_04" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_04" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_04_conceptName_1" xlink:title="Var_04_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForOtherPostEmploymentBenefitsPlan</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_conceptName_1" xlink:title="Var_04_Var_04_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_04_explicitDimension_2" xlink:title="Var_04_explicitDimension_2" id="Var_04_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_explicitDimension_2" xlink:title="Var_04_Var_04_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_05" xlink:title="Var_05" id="Var_05" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_05" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_05" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_05_conceptName_1" xlink:title="Var_05_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDerivativeInstruments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_05" xlink:to="Var_05_conceptName_1" xlink:title="Var_05_Var_05_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_05_explicitDimension_2" xlink:title="Var_05_explicitDimension_2" id="Var_05_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_05" xlink:to="Var_05_explicitDimension_2" xlink:title="Var_05_Var_05_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_06" xlink:title="Var_06" id="Var_06" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_06" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_06" order="6.0" name="V6"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_06_conceptName_1" xlink:title="Var_06_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForAccumulatedDecreaseInFairValueOfHedging</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_06" xlink:to="Var_06_conceptName_1" xlink:title="Var_06_Var_06_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_06_explicitDimension_2" xlink:title="Var_06_explicitDimension_2" id="Var_06_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_06" xlink:to="Var_06_explicitDimension_2" xlink:title="Var_06_Var_06_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_07" xlink:title="Var_07" id="Var_07" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_07" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_07" order="7.0" name="V7"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_07_conceptName_1" xlink:title="Var_07_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForTaxes</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_07" xlink:to="Var_07_conceptName_1" xlink:title="Var_07_Var_07_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_07_explicitDimension_2" xlink:title="Var_07_explicitDimension_2" id="Var_07_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_07" xlink:to="Var_07_explicitDimension_2" xlink:title="Var_07_Var_07_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_08" xlink:title="Var_08" id="Var_08" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_01" xlink:to="Var_08" xlink:title="cafr01_Deferred_Outflow_SubTotal_01_Var_08" order="8.0" name="V8"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_08_conceptName_1" xlink:title="Var_08_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:OtherDeferredOutflowOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_08" xlink:to="Var_08_conceptName_1" xlink:title="Var_08_Var_08_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_08_explicitDimension_2" xlink:title="Var_08_explicitDimension_2" id="Var_08_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_08" xlink:to="Var_08_explicitDimension_2" xlink:title="Var_08_Var_08_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Deferred_Outflow_SubTotal_02" xlink:title="cafr01_Deferred_Outflow_SubTotal_02" id="cafr01_Deferred_Outflow_SubTotal_02" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5 + $V6 + $V7 + $V8)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_02" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_02" xml:lang="en" id="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_02">In CAFR01, In Business-type activities column, Total deferred outflows of resources MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_02"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_31" xlink:title="Var_31" id="Var_31" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_31" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_31" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_31_conceptName_1" xlink:title="Var_31_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_conceptName_1" xlink:title="Var_31_Var_31_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_31_explicitDimension_2" xlink:title="Var_31_explicitDimension_2" id="Var_31_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_explicitDimension_2" xlink:title="Var_31_Var_31_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_31_explicitDimension_3" xlink:title="Var_31_explicitDimension_3" id="Var_31_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_explicitDimension_3" xlink:title="Var_31_Var_31_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_32" xlink:title="Var_32" id="Var_32" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_32" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_32" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_32_conceptName_1" xlink:title="Var_32_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDebtRefunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_conceptName_1" xlink:title="Var_32_Var_32_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_32_explicitDimension_2" xlink:title="Var_32_explicitDimension_2" id="Var_32_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_explicitDimension_2" xlink:title="Var_32_Var_32_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_33" xlink:title="Var_33" id="Var_33" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_33" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_33" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_33_conceptName_1" xlink:title="Var_33_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForPensions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_33" xlink:to="Var_33_conceptName_1" xlink:title="Var_33_Var_33_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_33_explicitDimension_2" xlink:title="Var_33_explicitDimension_2" id="Var_33_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_33" xlink:to="Var_33_explicitDimension_2" xlink:title="Var_33_Var_33_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_34" xlink:title="Var_34" id="Var_34" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_34" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_34" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_34_conceptName_1" xlink:title="Var_34_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForOtherPostEmploymentBenefitsPlan</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_34" xlink:to="Var_34_conceptName_1" xlink:title="Var_34_Var_34_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_34_explicitDimension_2" xlink:title="Var_34_explicitDimension_2" id="Var_34_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_34" xlink:to="Var_34_explicitDimension_2" xlink:title="Var_34_Var_34_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_35" xlink:title="Var_35" id="Var_35" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_35" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_35" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_35_conceptName_1" xlink:title="Var_35_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDerivativeInstruments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_35" xlink:to="Var_35_conceptName_1" xlink:title="Var_35_Var_35_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_35_explicitDimension_2" xlink:title="Var_35_explicitDimension_2" id="Var_35_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_35" xlink:to="Var_35_explicitDimension_2" xlink:title="Var_35_Var_35_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_36" xlink:title="Var_36" id="Var_36" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_36" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_36" order="6.0" name="V6"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_36_conceptName_1" xlink:title="Var_36_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForAccumulatedDecreaseInFairValueOfHedging</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_36" xlink:to="Var_36_conceptName_1" xlink:title="Var_36_Var_36_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_36_explicitDimension_2" xlink:title="Var_36_explicitDimension_2" id="Var_36_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_36" xlink:to="Var_36_explicitDimension_2" xlink:title="Var_36_Var_36_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_37" xlink:title="Var_37" id="Var_37" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_37" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_37" order="7.0" name="V7"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_37_conceptName_1" xlink:title="Var_37_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForTaxes</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_37" xlink:to="Var_37_conceptName_1" xlink:title="Var_37_Var_37_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_37_explicitDimension_2" xlink:title="Var_37_explicitDimension_2" id="Var_37_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_37" xlink:to="Var_37_explicitDimension_2" xlink:title="Var_37_Var_37_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_38" xlink:title="Var_38" id="Var_38" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_02" xlink:to="Var_38" xlink:title="cafr01_Deferred_Outflow_SubTotal_02_Var_38" order="8.0" name="V8"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_38_conceptName_1" xlink:title="Var_38_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:OtherDeferredOutflowOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_38" xlink:to="Var_38_conceptName_1" xlink:title="Var_38_Var_38_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_38_explicitDimension_2" xlink:title="Var_38_explicitDimension_2" id="Var_38_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_38" xlink:to="Var_38_explicitDimension_2" xlink:title="Var_38_Var_38_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Deferred_Outflow_SubTotal_03" xlink:title="cafr01_Deferred_Outflow_SubTotal_03" id="cafr01_Deferred_Outflow_SubTotal_03" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5 + $V6 + $V7 + $V8)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_03" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_03" xml:lang="en" id="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_03">In CAFR01, In Total primary government activities column, Total deferred outflows of resources MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_03"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_61" xlink:title="Var_61" id="Var_61" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_61" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_61" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_61_conceptName_1" xlink:title="Var_61_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_conceptName_1" xlink:title="Var_61_Var_61_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_61_explicitDimension_2" xlink:title="Var_61_explicitDimension_2" id="Var_61_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_explicitDimension_2" xlink:title="Var_61_Var_61_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_61_explicitDimension_3" xlink:title="Var_61_explicitDimension_3" id="Var_61_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_explicitDimension_3" xlink:title="Var_61_Var_61_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_62" xlink:title="Var_62" id="Var_62" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_62" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_62" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_62_conceptName_1" xlink:title="Var_62_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDebtRefunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_conceptName_1" xlink:title="Var_62_Var_62_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_62_explicitDimension_2" xlink:title="Var_62_explicitDimension_2" id="Var_62_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_explicitDimension_2" xlink:title="Var_62_Var_62_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_63" xlink:title="Var_63" id="Var_63" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_63" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_63" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_63_conceptName_1" xlink:title="Var_63_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForPensions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_conceptName_1" xlink:title="Var_63_Var_63_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_63_explicitDimension_2" xlink:title="Var_63_explicitDimension_2" id="Var_63_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_explicitDimension_2" xlink:title="Var_63_Var_63_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_64" xlink:title="Var_64" id="Var_64" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_64" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_64" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_64_conceptName_1" xlink:title="Var_64_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForOtherPostEmploymentBenefitsPlan</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_conceptName_1" xlink:title="Var_64_Var_64_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_64_explicitDimension_2" xlink:title="Var_64_explicitDimension_2" id="Var_64_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_explicitDimension_2" xlink:title="Var_64_Var_64_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_65" xlink:title="Var_65" id="Var_65" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_65" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_65" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_65_conceptName_1" xlink:title="Var_65_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDerivativeInstruments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_65" xlink:to="Var_65_conceptName_1" xlink:title="Var_65_Var_65_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_65_explicitDimension_2" xlink:title="Var_65_explicitDimension_2" id="Var_65_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_65" xlink:to="Var_65_explicitDimension_2" xlink:title="Var_65_Var_65_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_66" xlink:title="Var_66" id="Var_66" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_66" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_66" order="6.0" name="V6"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_66_conceptName_1" xlink:title="Var_66_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForAccumulatedDecreaseInFairValueOfHedging</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_66" xlink:to="Var_66_conceptName_1" xlink:title="Var_66_Var_66_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_66_explicitDimension_2" xlink:title="Var_66_explicitDimension_2" id="Var_66_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_66" xlink:to="Var_66_explicitDimension_2" xlink:title="Var_66_Var_66_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_67" xlink:title="Var_67" id="Var_67" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_67" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_67" order="7.0" name="V7"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_67_conceptName_1" xlink:title="Var_67_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForTaxes</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_67" xlink:to="Var_67_conceptName_1" xlink:title="Var_67_Var_67_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_67_explicitDimension_2" xlink:title="Var_67_explicitDimension_2" id="Var_67_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_67" xlink:to="Var_67_explicitDimension_2" xlink:title="Var_67_Var_67_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_68" xlink:title="Var_68" id="Var_68" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_03" xlink:to="Var_68" xlink:title="cafr01_Deferred_Outflow_SubTotal_03_Var_68" order="8.0" name="V8"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_68_conceptName_1" xlink:title="Var_68_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:OtherDeferredOutflowOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_68" xlink:to="Var_68_conceptName_1" xlink:title="Var_68_Var_68_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_68_explicitDimension_2" xlink:title="Var_68_explicitDimension_2" id="Var_68_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_68" xlink:to="Var_68_explicitDimension_2" xlink:title="Var_68_Var_68_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Deferred_Outflow_SubTotal_04" xlink:title="cafr01_Deferred_Outflow_SubTotal_04" id="cafr01_Deferred_Outflow_SubTotal_04" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5 + $V6 + $V7 + $V8)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_04" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_04" xml:lang="en" id="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_04">In CAFR01, In Component unit column, Total deferred outflows of resources MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="ErrorMessage_cafr01_Deferred_Outflow_SubTotal_04"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_91" xlink:title="Var_91" id="Var_91" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_91" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_91" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_91_conceptName_1" xlink:title="Var_91_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_conceptName_1" xlink:title="Var_91_Var_91_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_91_explicitDimension_2" xlink:title="Var_91_explicitDimension_2" id="Var_91_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_explicitDimension_2" xlink:title="Var_91_Var_91_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_91_explicitDimension_3" xlink:title="Var_91_explicitDimension_3" id="Var_91_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_explicitDimension_3" xlink:title="Var_91_Var_91_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_92" xlink:title="Var_92" id="Var_92" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_92" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_92" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_92_conceptName_1" xlink:title="Var_92_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDebtRefunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_conceptName_1" xlink:title="Var_92_Var_92_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_92_explicitDimension_2" xlink:title="Var_92_explicitDimension_2" id="Var_92_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_explicitDimension_2" xlink:title="Var_92_Var_92_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_93" xlink:title="Var_93" id="Var_93" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_93" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_93" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_93_conceptName_1" xlink:title="Var_93_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForPensions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_93" xlink:to="Var_93_conceptName_1" xlink:title="Var_93_Var_93_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_93_explicitDimension_2" xlink:title="Var_93_explicitDimension_2" id="Var_93_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_93" xlink:to="Var_93_explicitDimension_2" xlink:title="Var_93_Var_93_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_94" xlink:title="Var_94" id="Var_94" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_94" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_94" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_94_conceptName_1" xlink:title="Var_94_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForOtherPostEmploymentBenefitsPlan</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_94" xlink:to="Var_94_conceptName_1" xlink:title="Var_94_Var_94_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_94_explicitDimension_2" xlink:title="Var_94_explicitDimension_2" id="Var_94_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_94" xlink:to="Var_94_explicitDimension_2" xlink:title="Var_94_Var_94_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_95" xlink:title="Var_95" id="Var_95" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_95" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_95" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_95_conceptName_1" xlink:title="Var_95_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForDerivativeInstruments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_95" xlink:to="Var_95_conceptName_1" xlink:title="Var_95_Var_95_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_95_explicitDimension_2" xlink:title="Var_95_explicitDimension_2" id="Var_95_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_95" xlink:to="Var_95_explicitDimension_2" xlink:title="Var_95_Var_95_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_96" xlink:title="Var_96" id="Var_96" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_96" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_96" order="6.0" name="V6"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_96_conceptName_1" xlink:title="Var_96_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForAccumulatedDecreaseInFairValueOfHedging</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_96" xlink:to="Var_96_conceptName_1" xlink:title="Var_96_Var_96_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_96_explicitDimension_2" xlink:title="Var_96_explicitDimension_2" id="Var_96_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_96" xlink:to="Var_96_explicitDimension_2" xlink:title="Var_96_Var_96_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_97" xlink:title="Var_97" id="Var_97" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_97" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_97" order="7.0" name="V7"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_97_conceptName_1" xlink:title="Var_97_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:DeferredOutflowsForTaxes</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_97" xlink:to="Var_97_conceptName_1" xlink:title="Var_97_Var_97_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_97_explicitDimension_2" xlink:title="Var_97_explicitDimension_2" id="Var_97_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_97" xlink:to="Var_97_explicitDimension_2" xlink:title="Var_97_Var_97_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_98" xlink:title="Var_98" id="Var_98" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Deferred_Outflow_SubTotal_04" xlink:to="Var_98" xlink:title="cafr01_Deferred_Outflow_SubTotal_04_Var_98" order="8.0" name="V8"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_98_conceptName_1" xlink:title="Var_98_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:OtherDeferredOutflowOfResources</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_98" xlink:to="Var_98_conceptName_1" xlink:title="Var_98_Var_98_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_98_explicitDimension_2" xlink:title="Var_98_explicitDimension_2" id="Var_98_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_98" xlink:to="Var_98_explicitDimension_2" xlink:title="Var_98_Var_98_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+  </generic:link>
+</link:linkbase>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR02-Statement of activities -->
+<xsd:schema targetNamespace="https://xbrl.us/2019/cafr02-role" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:CAFR02-role="https://xbrl.us/2019/cafr02-role" xmlns:gen="http://xbrl.org/2008/generic" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table001-NonDimensional" id="CAFR02-Table001-NonDimensional">
+        <link:definition>CAFR02-Statement of activities-Table001-NonDimensional</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table002" id="CAFR02-Table002">
+        <link:definition>CAFR02-Statement of activities-Table002</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table003" id="CAFR02-Table003">
+        <link:definition>CAFR02-Statement of activities-Table003</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table004" id="CAFR02-Table004">
+        <link:definition>CAFR02-Statement of activities-Table004</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table005" id="CAFR02-Table005">
+        <link:definition>CAFR02-Statement of activities-Table005</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table006" id="CAFR02-Table006">
+        <link:definition>CAFR02-Statement of activities-Table006</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table007" id="CAFR02-Table007">
+        <link:definition>CAFR02-Statement of activities-Table007</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>
