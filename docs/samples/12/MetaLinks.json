@@ -10,7 +10,7 @@
       "va-o-culp-20180630_cal.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
@@ -18,7 +18,7 @@
       "va-o-culp-20180630_def.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-definition_2019-01-16.xml"
      ]
     },
     "inline": {
@@ -31,7 +31,7 @@
       "va-o-culp-20180630_lab.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-label_2019-01-16.xml"
      ]
     },
     "presentationLink": {
@@ -39,12 +39,12 @@
       "va-o-culp-20180630_pre.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-presentation_2019-01-16.xml"
      ]
     },
     "referenceLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-reference_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-reference_2019-01-16.xml"
      ]
     },
     "schema": {
@@ -61,7 +61,7 @@
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
       "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-core-ref-roles_2019-01-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-core-ref-roles_2019-01-16.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"
      ]
     }
