@@ -10,7 +10,7 @@
       "cafr-20171130_cal.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-calculation_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-calculation_2019-01-16.xml"
      ]
     },
     "definitionLink": {
@@ -20,7 +20,7 @@
      "remote": [
       "http://xbrl.fasb.org/srt/2018/elts/srt-eedm1-def-2018-01-31.xml",
       "http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-eedm-def-2018-01-31.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-definition_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-definition_2019-01-16.xml"
      ]
     },
     "inline": {
@@ -33,7 +33,7 @@
       "cafr-20171130_lab.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-label_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-label_2019-01-16.xml"
      ]
     },
     "presentationLink": {
@@ -41,12 +41,12 @@
       "cafr-20171130_pre.xml"
      ],
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-presentation_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-presentation_2019-01-16.xml"
      ]
     },
     "referenceLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-reference_2019-01-16.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-reference_2019-01-16.xml"
      ]
     },
     "schema": {
@@ -71,8 +71,8 @@
       "http://xbrl.fasb.org/us-gaap/2018/elts/us-roles-2018-01-31.xsd",
       "http://xbrl.fasb.org/us-gaap/2018/elts/us-types-2018-01-31.xsd",
       "http://xbrl.sec.gov/country/2017/country-2017-01-31.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-core-ref-roles_2019-01-16.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr-core-ref-roles_2019-01-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"
      ]
     }
    },

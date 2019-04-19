@@ -8,7 +8,7 @@
   <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
   <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
   <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
-  <xs:import namespace="http://www.xbrl.us/slg/cafr/2019-01-16" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd"/>
+  <xs:import namespace="http://www.xbrl.us/slg/cafr/2019-01-16" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"/>
   <xs:element id="ga_DebtIssuanceRefundingBondsPremiumMember" abstract="false" name="DebtIssuanceRefundingBondsPremiumMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
   <xs:element id="ga_FundsHeldForOthersMember" abstract="true" name="FundsHeldForOthersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
   <xs:element id="ga_AccruedInterestMember" abstract="true" name="AccruedInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>

@@ -98,7 +98,7 @@
 <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
 
 <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
-<import namespace="http://www.xbrl.us/slg/cafr/2019-01-16" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd" />
+<import namespace="http://www.xbrl.us/slg/cafr/2019-01-16" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd" />
 
 <import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
 <import namespace="http://www.xbrl.org/2009/role/net" schemaLocation="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd" />
