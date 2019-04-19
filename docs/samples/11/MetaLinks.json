@@ -72,7 +72,7 @@
       "http://xbrl.fasb.org/us-gaap/2018/elts/us-types-2018-01-31.xsd",
       "http://xbrl.sec.gov/country/2017/country-2017-01-31.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-core-ref-roles_2019-01-16.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"
      ]
     }
    },

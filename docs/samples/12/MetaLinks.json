@@ -62,7 +62,7 @@
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
       "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-core-ref-roles_2019-01-16.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"
      ]
     }
    },

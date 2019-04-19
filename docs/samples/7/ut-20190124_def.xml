@@ -29,26 +29,26 @@
   <link:definitionLink xlink:role="http://www.utah.gov/role/CAFRbalancesheetgovernmentalfundsdetails" xlink:type="extended" id="ia90c695dd21a4c378d75e21f6c55c327_f2135bcf-0f06-44d6-9d8e-c35ab453bb9d"/>
   <link:roleRef roleURI="http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails" xlink:type="simple" xlink:href="ut-20190124.xsd#CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails"/>
   <link:definitionLink xlink:role="http://www.utah.gov/role/CAFRstatementofrevenuesexpendituresandchangesinfundbalancegovernmentalfundsdetails" xlink:type="extended" id="iaf3c8705d5e74eeb9fd09b6160c3346f_b65147e7-a343-4d3f-b05a-de219708ceae"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"/>
-  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#roleType_statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_balanceSheetGovernmentalFunds"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideGeneralRevenues"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfActivitiesGovernmentWideProgramRevenuesAndExpenses"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideNetPosition" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfNetPositionGovernmentWideNetPosition"/>
+  <link:roleRef roleURI="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds" xlink:type="simple" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#roleType_statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"/>
 
   <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.us/slg/cafr/balanceSheetGovernmentalFunds">
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_LongtermPortionOfInterfundLoansReceivableMember" xlink:label="LongtermPortionOfInterfundLoansReceivableMember" xlink:title="LongtermPortionOfInterfundLoansReceivableMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_PrepaidItemsMember" xlink:label="PrepaidItemsMember" xlink:title="PrepaidItemsMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_InventoriesMember" xlink:label="InventoriesMember" xlink:title="InventoriesMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_PermanentFundPrincipalMember" xlink:label="PermanentFundPrincipalMember" xlink:title="PermanentFundPrincipalMember"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis" xlink:title="NameOfProgramOrFunctionAxis"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain" xlink:title="NameOfProgramOrFunctionDomain"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_BalanceSheetGovernmentFundsTable" xlink:label="BalanceSheetGovernmentFundsTable" xlink:title="BalanceSheetGovernmentFundsTable"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_BalanceSheetLineItems" xlink:label="BalanceSheetLineItems" xlink:title="BalanceSheetLineItems"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_Liabilities" xlink:label="Liabilities" xlink:title="Liabilities"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_Assets" xlink:label="Assets" xlink:title="Assets"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_DeferredInflowsOfResources" xlink:label="DeferredInflowsOfResources" xlink:title="DeferredInflowsOfResources"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis" xlink:title="NameOfProgramOrFunctionAxis"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain" xlink:title="NameOfProgramOrFunctionDomain"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_BalanceSheetGovernmentFundsTable" xlink:label="BalanceSheetGovernmentFundsTable" xlink:title="BalanceSheetGovernmentFundsTable"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_BalanceSheetLineItems" xlink:label="BalanceSheetLineItems" xlink:title="BalanceSheetLineItems"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_Liabilities" xlink:label="Liabilities" xlink:title="Liabilities"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_Assets" xlink:label="Assets" xlink:title="Assets"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_DeferredInflowsOfResources" xlink:label="DeferredInflowsOfResources" xlink:title="DeferredInflowsOfResources"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="BalanceSheetGovernmentFundsTable" xlink:to="NameOfProgramOrFunctionAxis" xlink:title="definition: BalanceSheetGovernmentFundsTable to NameOfProgramOrFunctionAxis" order="8.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="BalanceSheetLineItems" xlink:to="Liabilities" xlink:title="definition: BalanceSheetLineItems to Liabilities" order="8.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="PermanentFundPrincipalMember" xlink:title="definition: NameOfProgramOrFunctionDomain to PermanentFundPrincipalMember" order="4.0"/>
@@ -65,7 +65,7 @@
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_HigherEducationMember" xlink:label="HigherEducationMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_TransportationMember" xlink:label="TransportationMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_LoanProgramsMember" xlink:label="LoanProgramsMember"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_ClassificationOfNetPositionRestrictedDomain" xlink:label="ClassificationOfNetPositionRestrictedDomain" xlink:title="ClassificationOfNetPositionRestrictedDomain"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_ClassificationOfNetPositionRestrictedDomain" xlink:label="ClassificationOfNetPositionRestrictedDomain" xlink:title="ClassificationOfNetPositionRestrictedDomain"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ClassificationOfNetPositionRestrictedDomain" xlink:to="TransportationMember" xlink:title="definition: ClassificationOfNetPositionRestrictedDomain to TransportationMember" order="9.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ClassificationOfNetPositionRestrictedDomain" xlink:to="PublicEducationMember" xlink:title="definition: ClassificationOfNetPositionRestrictedDomain to PublicEducationMember" order="7.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ClassificationOfNetPositionRestrictedDomain" xlink:to="HigherEducationMember" xlink:title="definition: ClassificationOfNetPositionRestrictedDomain to HigherEducationMember" order="8.0"/>
@@ -73,8 +73,8 @@
   </link:definitionLink>
 
   <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.us/slg/cafr/statementOfActivitiesGovernmentWideGeneralRevenues">
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_GainOnSaleOfCapitalAssetsMember" xlink:label="GainOnSaleOfCapitalAssetsMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_StateFundingForComponentUnitsMember" xlink:label="StateFundingForComponentUnitsMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_StateFundingForCollegesAndUniversitiesMember" xlink:label="StateFundingForCollegesAndUniversitiesMember"/>
@@ -86,10 +86,10 @@
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_CorpIncTaxEducationMember" xlink:label="CorpIncTaxEducationMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_NetPositionBeginningAsAdjusted" xlink:label="NetPositionBeginningAsAdjusted"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_CapitalContributions" xlink:label="CapitalContributions"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_StatementOfActivitiesTable" xlink:label="StatementOfActivitiesTable" xlink:title="StatementOfActivitiesTable"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_GeneralRevenuesAbstract" xlink:label="GeneralRevenuesAbstract" xlink:title="GeneralRevenuesAbstract"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_InvestmentIncome" xlink:label="InvestmentIncome"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NetPositionRollForward" xlink:label="NetPositionRollForward" xlink:title="NetPositionRollForward"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_StatementOfActivitiesTable" xlink:label="StatementOfActivitiesTable" xlink:title="StatementOfActivitiesTable"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_GeneralRevenuesAbstract" xlink:label="GeneralRevenuesAbstract" xlink:title="GeneralRevenuesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_InvestmentIncome" xlink:label="InvestmentIncome"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NetPositionRollForward" xlink:label="NetPositionRollForward" xlink:title="NetPositionRollForward"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="IndIncTaxEducationMember" xlink:title="definition: NameOfProgramOrFunctionDomain to IndIncTaxEducationMember" order="8.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="CorpIncTaxEducationMember" xlink:title="definition: NameOfProgramOrFunctionDomain to CorpIncTaxEducationMember" order="9.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GeneralRevenuesAbstract" xlink:to="CapitalContributions" xlink:title="definition: GeneralRevenuesAbstract to CapitalContributions" order="4.0"/>
@@ -107,14 +107,14 @@
   </link:definitionLink>
   
   <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideAssetsAndDeferredOutOutflows">
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_StatementOfNetPositionTable" xlink:label="StatementOfNetPositionTable" xlink:title="StatementOfNetPositionTable"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_StatementOfNetPositionTable" xlink:label="StatementOfNetPositionTable" xlink:title="StatementOfNetPositionTable"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionAxis" xlink:label="NameOfProgramOrFunctionAxis"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_PledgedLoansMember" xlink:label="PledgedLoansMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_NotesLoansMortgagesPledgesMember" xlink:label="NotesLoansMortgagesPledgesMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_CapitalLeasePaymentsMember" xlink:label="CapitalLeasePaymentsMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_TaxMember" xlink:label="TaxMember"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_AssetsAbstract" xlink:label="AssetsAbstract" xlink:title="AssetsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_AssetsAbstract" xlink:label="AssetsAbstract" xlink:title="AssetsAbstract"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_LandAndOtherDepreciableAssets" xlink:label="LandAndOtherDepreciableAssets"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_Infrastructure" xlink:label="Infrastructure"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_ConstructionInProgress" xlink:label="ConstructionInProgress"/>
@@ -132,7 +132,7 @@
   </link:definitionLink>
  
  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.us/slg/cafr/statementOfNetPositionGovernmentWideLiabilitiesAndDeferredInflows">
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_LiabilitiesAbstract" xlink:label="LiabilitiesAbstract" xlink:title="LiabilitiesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_LiabilitiesAbstract" xlink:label="LiabilitiesAbstract" xlink:title="LiabilitiesAbstract"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_SecuritiesLending" xlink:label="SecuritiesLending"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_Deposits" xlink:label="Deposits"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LiabilitiesAbstract" xlink:to="SecuritiesLending" xlink:title="definition: LiabilitiesAbstract to SecuritiesLending" order="8.0"/>
@@ -140,8 +140,8 @@
   </link:definitionLink>
   
   <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.us/slg/cafr/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds">
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_FundBalanceRollForward" xlink:label="FundBalanceRollForward" xlink:title="FundBalanceRollForward"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_PriorPeriodAdjustments" xlink:label="PriorPeriodAdjustments" xlink:title="PriorPeriodAdjustments"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_FundBalanceRollForward" xlink:label="FundBalanceRollForward" xlink:title="FundBalanceRollForward"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_PriorPeriodAdjustments" xlink:label="PriorPeriodAdjustments" xlink:title="PriorPeriodAdjustments"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_FundBalancesBeginningAsAdjusted" xlink:label="FundBalancesBeginningAsAdjusted" xlink:title="FundBalancesBeginningAsAdjusted"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="FundBalanceRollForward" xlink:to="PriorPeriodAdjustments" xlink:title="definition: FundBalanceRollForward to PriorPeriodAdjustments" order="3.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="FundBalanceRollForward" xlink:to="FundBalancesBeginningAsAdjusted" xlink:title="definition: FundBalanceRollForward to FundBalancesBeginningAsAdjusted" order="4.0"/>
@@ -164,8 +164,8 @@
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_HealthAndEnvironmentalQualityMember" xlink:label="HealthAndEnvironmentalQualityMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_HigherEducationMember" xlink:label="HigherEducationMember"/>
     <link:loc xlink:type="locator" xlink:href="ut-20190124.xsd#ut_EmploymentAndFamilyServicesMember" xlink:label="EmploymentAndFamilyServicesMember"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NaturalResourcesMember" xlink:label="NaturalResourcesMember" xlink:title="NaturalResourcesMember"/>
-    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain" xlink:title="NameOfProgramOrFunctionDomain"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NaturalResourcesMember" xlink:label="NaturalResourcesMember" xlink:title="NaturalResourcesMember"/>
+    <link:loc xlink:type="locator" xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd#cafr_NameOfProgramOrFunctionDomain" xlink:label="NameOfProgramOrFunctionDomain" xlink:title="NameOfProgramOrFunctionDomain"/>
    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="LiquorRetailSalesMember" xlink:title="definition: NameOfProgramOrFunctionDomain to LiquorRetailSalesMember" order="10.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="EmploymentAndFamilyServicesMember" xlink:title="definition: NameOfProgramOrFunctionDomain to EmploymentAndFamilyServicesMember" order="24.0"/>
     <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="NameOfProgramOrFunctionDomain" xlink:to="HighwaysAndStreetsMember" xlink:title="definition: NameOfProgramOrFunctionDomain to HighwaysAndStreetsMember" order="9.0"/>
