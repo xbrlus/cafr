@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR03 - Balance sheet for Governmental funds -->
+
+
+
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:gen="http://xbrl.org/2008/generic" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:CAFR03-role="https://xbrl.us/2019/cafr03-role" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="https://xbrl.us/2019/cafr03-role">
+ <xsd:annotation>
+   <xsd:appinfo>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table001-NonDimensional" id="CAFR03-Table001-NonDimensional">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table001-NonDimensional</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+
+
+
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table002" id="CAFR03-Table002">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table002</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table003" id="CAFR03-Table003">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table003</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table004" id="CAFR03-Table004">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table004</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+
+
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table005" id="CAFR03-Table005">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table005</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+
+
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table006" id="CAFR03-Table006">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table006</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table007" id="CAFR03-Table007">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table007</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table008" id="CAFR03-Table008">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table008</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table009" id="CAFR03-Table009">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table009</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr03-role/CAFR03-Table010" id="CAFR03-Table010">
+<link:definition>CAFR03-Governmental funds-Balance sheet-Table010</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+ </xsd:appinfo>
+</xsd:annotation>
+</xsd:schema>
+

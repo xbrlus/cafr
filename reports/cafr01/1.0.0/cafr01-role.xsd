@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR01-Statement of net position -->
+<xsd:schema targetNamespace="https://xbrl.us/2019/cafr01-role" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:CAFR01-role="https://xbrl.us/2019/cafr01-role" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table001-NonDimensional" id="CAFR01-Table001-NonDimensional">
+        <link:definition>CAFR01-Statement of net position-Table001-NonDimensional</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table002" id="CAFR01-Table002">
+        <link:definition>CAFR01-Statement of net position-Table002</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table003" id="CAFR01-Table003">
+        <link:definition>CAFR01-Statement of net position-Table003</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table004" id="CAFR01-Table004">
+        <link:definition>CAFR01-Statement of net position-Table004</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table005" id="CAFR01-Table005">
+        <link:definition>CAFR01-Statement of net position-Table005</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table006" id="CAFR01-Table006">
+        <link:definition>CAFR01-Statement of net position-Table006</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table007" id="CAFR01-Table007">
+        <link:definition>CAFR01-Statement of net position-Table007</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table008" id="CAFR01-Table008">
+        <link:definition>CAFR01-Statement of net position-Table008</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table009" id="CAFR01-Table009">
+        <link:definition>CAFR01-Statement of net position-Table009</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table010" id="CAFR01-Table010">
+        <link:definition>CAFR01-Statement of net position-Table010</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table011" id="CAFR01-Table011">
+        <link:definition>CAFR01-Statement of net position-Table011</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+	  
+	  
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table012" id="CAFR01-Table012">
+        <link:definition>CAFR01-Statement of net position-Table012</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table013" id="CAFR01-Table013">
+        <link:definition>CAFR01-Statement of net position-Table013</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+	  
+	  
+
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table014" id="CAFR01-Table014">
+        <link:definition>CAFR01-Statement of net position-Table014</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table015" id="CAFR01-Table015">
+        <link:definition>CAFR01-Statement of net position-Table015</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+	  
+	  
+
+<link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table016" id="CAFR01-Table016">
+<link:definition>CAFR01-Statement of net position-Table016</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table017" id="CAFR01-Table017">
+<link:definition>CAFR01-Statement of net position-Table017</link:definition>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+
+	  
+	  
+	  
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

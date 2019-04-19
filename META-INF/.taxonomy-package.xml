@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Taxonomy package| Details of taxonomy and its entry points -->
+
+<tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+<tp:identifier>https://xbrl.us</tp:identifier>
+<tp:name lang="en">US Department of Financial Services</tp:name>
+<tp:description lang="en">US Department of Financial Services XBRL Taxonomy for Comprehensive Annual Financial Report (CAFR) </tp:description>
+<tp:version>2.0</tp:version>
+<tp:publisher>US Department of Financial Services</tp:publisher>
+<tp:publisherURL>https://xbrl.us</tp:publisherURL>
+<tp:entryPoints>
+<tp:entryPoint>
+<tp:name lang="en">Filing information</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="reports/filinginfo/1.0.0/filinginfo-entry.xsd"/>
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name lang="en">CAFR01 - Statement of net position</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="reports/cafr01/1.0.0/cafr01-entry.xsd"/>
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name lang="en">CAFR02-Statement of activities</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="reports/cafr02/1.0.0/cafr02-entry.xsd"/>
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name lang="en">CAFR03-Governmental funds-Balance sheet</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="reports/cafr03/1.0.0/cafr03-entry.xsd"/>
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name lang="en">CAFR04-Governmental funds-Statement of revenues, expenditures and changes in fund balance</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="reports/cafr04/1.0.0/cafr04-entry.xsd"/>
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name lang="en">Full entry point (This entry point will activate all returns)</tp:name>
+<tp:version>1.0.0</tp:version>
+<tp:entryPointDocument href="us-cafr_full-entry.xsd"/>
+</tp:entryPoint>
+</tp:entryPoints>
+</tp:taxonomyPackage>

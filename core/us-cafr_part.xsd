@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Typed dimension concepts and its details file  -->
+<xsd:schema targetNamespace="https://xbrl.us/2019/us-cafr_part" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="NameOfNetPositionRestrictedDomain" id="us-cafr_part_NameOfNetPositionRestrictedDomain">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="NameOfFundBalancesNonSpendableDomain" id="us-cafr_part_NameOfFundBalancesNonSpendableDomain">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="NameOfFundBalancesRestrictedDomain" id="us-cafr_part_NameOfFundBalancesRestrictedDomain">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="NameOfFundBalancesCommittedDomain" id="us-cafr_part_NameOfFundBalancesCommittedDomain">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element name="NameOfFundBalancesAssignedDomain" id="us-cafr_part_NameOfFundBalancesAssignedDomain">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+  </xsd:element>
+</xsd:schema>
