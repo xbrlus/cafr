@@ -1,0 +1,1177 @@
+{
+ "instance": {
+  "va-t-ashl-20170630.xhtml": {
+   "axisCustom": 1,
+   "axisStandard": 7,
+   "contextCount": 32,
+   "dts": {
+    "definitionLink": {
+     "local": [
+      "va-t-ashl-20170630_def.xml"
+     ]
+    },
+    "inline": {
+     "local": [
+      "va-t-ashl-20170630.xhtml"
+     ]
+    },
+    "labelLink": {
+     "local": [
+      "va-t-ashl-20170630_lab.xml"
+     ]
+    },
+    "linkbase": {
+     "local": [
+      "va-t-ashl-20170630_cal.xml"
+     ]
+    },
+    "presentationLink": {
+     "local": [
+      "va-t-ashl-20170630_pre.xml"
+     ]
+    },
+    "schema": {
+     "local": [
+      "va-t-ashl-20170630.xsd"
+     ],
+     "remote": [
+      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
+      "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
+      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
+      "http://www.xbrl.org/2006/ref-2006-02-27.xsd",
+      "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
+      "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
+      "http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/dev/core/us-cafr_concept.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/dev/core/us-cafr_part.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/dev/core/us-cafr_type.xsd"
+     ]
+    }
+   },
+   "elementCount": 133,
+   "entityCount": 1,
+   "hidden": {
+    "https://xbrl.us/2019/us-cafr_concept": 19,
+    "total": 19
+   },
+   "keyCustom": 20,
+   "keyStandard": 97,
+   "memberCustom": 5,
+   "memberStandard": 13,
+   "nsprefix": "va-t-ashl",
+   "nsuri": "http://www.town.ashland.va.us/20170630",
+   "report": {
+    "R9999": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "va-t-ashl-20170630.xhtml",
+      "contextRef": "Asof_30June2017_TotalGovernmentFundsMember_CommittedMember_CapitalProjectMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:FundBalances",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "true",
+     "longName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
+     "shortName": "Uncategorized Items - va-t-ashl-20170630.xhtml",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    }
+   },
+   "segmentCount": 18,
+   "tag": {
+    "us-cafr_AccruedPayrollAndBenefitsAndRelatedLiabilities": {
+     "auth_ref": [],
+     "localname": "AccruedPayrollAndBenefitsAndRelatedLiabilities",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_AccumulatedDepreciationAndAmortization": {
+     "auth_ref": [],
+     "localname": "AccumulatedDepreciationAndAmortization",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_AdjustmentsForTransfersInForOtherFinancing": {
+     "auth_ref": [],
+     "localname": "AdjustmentsForTransfersInForOtherFinancing",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_AdjustmentsForTransfersOutForOtherFinancing": {
+     "auth_ref": [],
+     "localname": "AdjustmentsForTransfersOutForOtherFinancing",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_Assets": {
+     "auth_ref": [],
+     "localname": "Assets",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_AssetsAbstract": {
+     "auth_ref": [],
+     "localname": "AssetsAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_AssetsAndDeferredOutflowsOfResourcesAbstract": {
+     "auth_ref": [],
+     "localname": "AssetsAndDeferredOutflowsOfResourcesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_AuditOpinion": {
+     "auth_ref": [],
+     "localname": "AuditOpinion",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "AuditOpinion"
+    },
+    "us-cafr_AuditStatus": {
+     "auth_ref": [],
+     "localname": "AuditStatus",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "AuditStatus"
+    },
+    "us-cafr_AverageNumberOfUtilityCustomers": {
+     "auth_ref": [],
+     "localname": "AverageNumberOfUtilityCustomers",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "decimalItemType"
+    },
+    "us-cafr_BalanceTypeAxis": {
+     "auth_ref": [],
+     "localname": "BalanceTypeAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_CapitalProjectsFund01Member": {
+     "auth_ref": [],
+     "localname": "CapitalProjectsFund01Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_CashAndCashEquivalents": {
+     "auth_ref": [],
+     "localname": "CashAndCashEquivalents",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ChangesInFundBalances": {
+     "auth_ref": [],
+     "localname": "ChangesInFundBalances",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ChangesInNetPosition": {
+     "auth_ref": [],
+     "localname": "ChangesInNetPosition",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_CommittedMember": {
+     "auth_ref": [],
+     "localname": "CommittedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_CompensatedAbsences": {
+     "auth_ref": [],
+     "localname": "CompensatedAbsences",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ComponentUnitAxis": {
+     "auth_ref": [],
+     "localname": "ComponentUnitAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_ComponentUnitMember": {
+     "auth_ref": [],
+     "localname": "ComponentUnitMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_ConstructionInProgressDepreciable": {
+     "auth_ref": [],
+     "localname": "ConstructionInProgressDepreciable",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DateOfAuditOpinion": {
+     "auth_ref": [],
+     "localname": "DateOfAuditOpinion",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "dateItemType"
+    },
+    "us-cafr_DateOfTransmittal": {
+     "auth_ref": [],
+     "localname": "DateOfTransmittal",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "dateItemType"
+    },
+    "us-cafr_DeferredInflowsFromPension": {
+     "auth_ref": [],
+     "localname": "DeferredInflowsFromPension",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DeferredInflowsFromTaxes": {
+     "auth_ref": [],
+     "localname": "DeferredInflowsFromTaxes",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DeferredInflowsOfResources": {
+     "auth_ref": [],
+     "localname": "DeferredInflowsOfResources",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DeferredInflowsOfResourcesAbstract": {
+     "auth_ref": [],
+     "localname": "DeferredInflowsOfResourcesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_DeferredOutflowsForPensions": {
+     "auth_ref": [],
+     "localname": "DeferredOutflowsForPensions",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DeferredOutflowsOfResourcesAbstract": {
+     "auth_ref": [],
+     "localname": "DeferredOutflowsOfResourcesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_DisclosureOfBalanceSheetForGovernmentalFundsTextBlock": {
+     "auth_ref": [],
+     "localname": "DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "textBlockItemType"
+    },
+    "us-cafr_DisclosureOfStatementOfActivitiesTextBlock": {
+     "auth_ref": [],
+     "localname": "DisclosureOfStatementOfActivitiesTextBlock",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "textBlockItemType"
+    },
+    "us-cafr_DisclosureOfStatementOfNetPositionTextBlock": {
+     "auth_ref": [],
+     "localname": "DisclosureOfStatementOfNetPositionTextBlock",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "textBlockItemType"
+    },
+    "us-cafr_DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock": {
+     "auth_ref": [],
+     "localname": "DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "textBlockItemType"
+    },
+    "us-cafr_DueFromOtherGovernmentEntities": {
+     "auth_ref": [],
+     "localname": "DueFromOtherGovernmentEntities",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DueInMoreThanOneYearMember": {
+     "auth_ref": [],
+     "localname": "DueInMoreThanOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_DueToOtherGovernmentEntities": {
+     "auth_ref": [],
+     "localname": "DueToOtherGovernmentEntities",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_DueWithinOneYearMember": {
+     "auth_ref": [],
+     "localname": "DueWithinOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_EmployerIdentificationNumber": {
+     "auth_ref": [],
+     "localname": "EmployerIdentificationNumber",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_ExcessDeficitOfRevenuesOverExpenditures": {
+     "auth_ref": [],
+     "localname": "ExcessDeficitOfRevenuesOverExpenditures",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_Expenditures": {
+     "auth_ref": [],
+     "localname": "Expenditures",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpendituresAbstract": {
+     "auth_ref": [],
+     "localname": "ExpendituresAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_ExpendituresForCapitalOutlay": {
+     "auth_ref": [],
+     "localname": "ExpendituresForCapitalOutlay",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpendituresForCommunityDevelopment": {
+     "auth_ref": [],
+     "localname": "ExpendituresForCommunityDevelopment",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpendituresForGeneralGovernmentLegislativeAndExecutive": {
+     "auth_ref": [],
+     "localname": "ExpendituresForGeneralGovernmentLegislativeAndExecutive",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpendituresForPublicSafety": {
+     "auth_ref": [],
+     "localname": "ExpendituresForPublicSafety",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpendituresForPublicWorks": {
+     "auth_ref": [],
+     "localname": "ExpendituresForPublicWorks",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_Expenses": {
+     "auth_ref": [],
+     "localname": "Expenses",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpensesAbstract": {
+     "auth_ref": [],
+     "localname": "ExpensesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_ExpensesForCommunityDevelopment": {
+     "auth_ref": [],
+     "localname": "ExpensesForCommunityDevelopment",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpensesForGeneralGovernmentLegislativeAndExecutive": {
+     "auth_ref": [],
+     "localname": "ExpensesForGeneralGovernmentLegislativeAndExecutive",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpensesForPublicSafety": {
+     "auth_ref": [],
+     "localname": "ExpensesForPublicSafety",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ExpensesForPublicWorks": {
+     "auth_ref": [],
+     "localname": "ExpensesForPublicWorks",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_FiscalStartDate": {
+     "auth_ref": [],
+     "localname": "FiscalStartDate",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "dateItemType"
+    },
+    "us-cafr_FundBalances": {
+     "auth_ref": [],
+     "localname": "FundBalances",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_GeneralFundMember": {
+     "auth_ref": [],
+     "localname": "GeneralFundMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_GeneralRevenues": {
+     "auth_ref": [],
+     "localname": "GeneralRevenues",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_GeneralRevenuesAbstract": {
+     "auth_ref": [],
+     "localname": "GeneralRevenuesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_GovernmentalActivitiesMember": {
+     "auth_ref": [],
+     "localname": "GovernmentalActivitiesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_GovernmentalFundsBalanceSheetAbstract": {
+     "auth_ref": [],
+     "localname": "GovernmentalFundsBalanceSheetAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract": {
+     "auth_ref": [],
+     "localname": "GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_GrossMember": {
+     "auth_ref": [],
+     "localname": "GrossMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_InsideMillage": {
+     "auth_ref": [],
+     "localname": "InsideMillage",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "percentItemType"
+    },
+    "us-cafr_InvestmentInCapitalAssets": {
+     "auth_ref": [],
+     "localname": "InvestmentInCapitalAssets",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_Land": {
+     "auth_ref": [],
+     "localname": "Land",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_LegalEntityIdentifier": {
+     "auth_ref": [],
+     "localname": "LegalEntityIdentifier",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_Liabilities": {
+     "auth_ref": [],
+     "localname": "Liabilities",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalances": {
+     "auth_ref": [],
+     "localname": "LiabilitiesAndDeferredInflowsOfResourcesAndFundBalances",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesAbstract": {
+     "auth_ref": [],
+     "localname": "LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_LiabilitiesAndDeferredInflowsOfResourcesAndNetPositionAbstract": {
+     "auth_ref": [],
+     "localname": "LiabilitiesAndDeferredInflowsOfResourcesAndNetPositionAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFund": {
+     "auth_ref": [],
+     "localname": "NameOfFund",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesCommittedAxis": {
+     "auth_ref": [],
+     "localname": "NameOfFundBalancesCommittedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfGovernment": {
+     "auth_ref": [],
+     "localname": "NameOfGovernment",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NetMember": {
+     "auth_ref": [],
+     "localname": "NetMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_NetPosition": {
+     "auth_ref": [],
+     "localname": "NetPosition",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_OrderOfMagnitude": {
+     "auth_ref": [],
+     "localname": "OrderOfMagnitude",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "OrderOfMagnitude"
+    },
+    "us-cafr_OtherFinancingSourcesUses": {
+     "auth_ref": [],
+     "localname": "OtherFinancingSourcesUses",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_OtherFinancingSourcesUsesAbstract": {
+     "auth_ref": [],
+     "localname": "OtherFinancingSourcesUsesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_OtherGeneralRevenues": {
+     "auth_ref": [],
+     "localname": "OtherGeneralRevenues",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_OtherReceivables": {
+     "auth_ref": [],
+     "localname": "OtherReceivables",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_OtherRevenues": {
+     "auth_ref": [],
+     "localname": "OtherRevenues",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_OutsideMillage": {
+     "auth_ref": [],
+     "localname": "OutsideMillage",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "percentItemType"
+    },
+    "us-cafr_PensionLiability": {
+     "auth_ref": [],
+     "localname": "PensionLiability",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_PlantAndEquipment": {
+     "auth_ref": [],
+     "localname": "PlantAndEquipment",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_PrepaidOtherPostEmploymentBenefitsPlan": {
+     "auth_ref": [],
+     "localname": "PrepaidOtherPostEmploymentBenefitsPlan",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_PropertyTaxValuation": {
+     "auth_ref": [],
+     "localname": "PropertyTaxValuation",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_PropertyTaxesReceivable": {
+     "auth_ref": [],
+     "localname": "PropertyTaxesReceivable",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_ReportingCurrency": {
+     "auth_ref": [],
+     "localname": "ReportingCurrency",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "ReportingCurrency"
+    },
+    "us-cafr_ReportingFrequency": {
+     "auth_ref": [],
+     "localname": "ReportingFrequency",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "ReportingFrequency"
+    },
+    "us-cafr_ResidualTermToMaturityAxis": {
+     "auth_ref": [],
+     "localname": "ResidualTermToMaturityAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_RevenueFromCapitalGrantsAndContributionsAndInterest": {
+     "auth_ref": [],
+     "localname": "RevenueFromCapitalGrantsAndContributionsAndInterest",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromChargesForServicesAndSales": {
+     "auth_ref": [],
+     "localname": "RevenueFromChargesForServicesAndSales",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromContributions": {
+     "auth_ref": [],
+     "localname": "RevenueFromContributions",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromFinesAndForfeitures": {
+     "auth_ref": [],
+     "localname": "RevenueFromFinesAndForfeitures",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromInterGovernmentalTransactions": {
+     "auth_ref": [],
+     "localname": "RevenueFromInterGovernmentalTransactions",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromLicensesAndPermits": {
+     "auth_ref": [],
+     "localname": "RevenueFromLicensesAndPermits",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromOperatingGrantsAndContributionsAndInterest": {
+     "auth_ref": [],
+     "localname": "RevenueFromOperatingGrantsAndContributionsAndInterest",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromOtherTaxes": {
+     "auth_ref": [],
+     "localname": "RevenueFromOtherTaxes",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenueFromPropertyTaxes": {
+     "auth_ref": [],
+     "localname": "RevenueFromPropertyTaxes",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_Revenues": {
+     "auth_ref": [],
+     "localname": "Revenues",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_RevenuesAbstract": {
+     "auth_ref": [],
+     "localname": "RevenuesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_StatementOfActivitiesAbstract": {
+     "auth_ref": [],
+     "localname": "StatementOfActivitiesAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_StatementOfNetPositionAbstract": {
+     "auth_ref": [],
+     "localname": "StatementOfNetPositionAbstract",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_TotalAnnualFinalAppropriationsForAllFunds": {
+     "auth_ref": [],
+     "localname": "TotalAnnualFinalAppropriationsForAllFunds",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_TotalGovernmentFundsMember": {
+     "auth_ref": [],
+     "localname": "TotalGovernmentFundsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_TotalPropertyTaxRate": {
+     "auth_ref": [],
+     "localname": "TotalPropertyTaxRate",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "percentItemType"
+    },
+    "us-cafr_TypeOfActivitiesAxis": {
+     "auth_ref": [],
+     "localname": "TypeOfActivitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_TypeOfGovernment": {
+     "auth_ref": [],
+     "localname": "TypeOfGovernment",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "TypeOfGovernment"
+    },
+    "us-cafr_TypeOfGovernmentalFundsAxis": {
+     "auth_ref": [],
+     "localname": "TypeOfGovernmentalFundsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_TypeOfRestrictionAxis": {
+     "auth_ref": [],
+     "localname": "TypeOfRestrictionAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_UnassignedMember": {
+     "auth_ref": [],
+     "localname": "UnassignedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_UnearnedRevenue": {
+     "auth_ref": [],
+     "localname": "UnearnedRevenue",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_UnitIdentificationNumber": {
+     "auth_ref": [],
+     "localname": "UnitIdentificationNumber",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_UnrestrictedMember": {
+     "auth_ref": [],
+     "localname": "UnrestrictedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_XBRLTaxonomyVersion": {
+     "auth_ref": [],
+     "localname": "XBRLTaxonomyVersion",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "TaxonomyVersion"
+    },
+    "va-t-ashl_AccountsAndDepositsPayable": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "AccountsAndDepositsPayable",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_BuildingsAndImprovements": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "localname": "BuildingsAndImprovements",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_CommunityDevelopmentMember": {
+     "auth_ref": [],
+     "localname": "CommunityDevelopmentMember",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "domainItemType"
+    },
+    "va-t-ashl_ExpenditureForParksRecreationAndCultural": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "ExpenditureForParksRecreationAndCultural",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_ExpensesForParksRecreationAndCultural": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "localname": "ExpensesForParksRecreationAndCultural",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_GeneralGovernmentAdministrationMember": {
+     "auth_ref": [],
+     "localname": "GeneralGovernmentAdministrationMember",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "domainItemType"
+    },
+    "va-t-ashl_Infrastructure": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "localname": "Infrastructure",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_NameOfProgramOrFunctionAxis": {
+     "auth_ref": [],
+     "localname": "NameOfProgramOrFunctionAxis",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "stringItemType"
+    },
+    "va-t-ashl_NetExpenseRevenue": {
+     "auth_ref": [],
+     "localname": "NetExpenseRevenue",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_ParksAndRecreationMember": {
+     "auth_ref": [],
+     "localname": "ParksAndRecreationMember",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "domainItemType"
+    },
+    "va-t-ashl_PerformanceBondPayable": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "PerformanceBondPayable",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows",
+      "http://www.town.ashland.va.us/role/balanceSheetGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_PublicSafetyMember": {
+     "auth_ref": [],
+     "localname": "PublicSafetyMember",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "domainItemType"
+    },
+    "va-t-ashl_PublicWorksMember": {
+     "auth_ref": [],
+     "localname": "PublicWorksMember",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "xbrltype": "domainItemType"
+    },
+    "va-t-ashl_RevenueFromBusinessLicensesTax": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromBusinessLicensesTax",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_RevenueFromLocalSalesAndUse": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromLocalSalesAndUse",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_RevenueFromMealsTax": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromMealsTax",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_RevenueFromRecoveredCosts": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromRecoveredCosts",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_RevenueFromTransientOccupancy": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromTransientOccupancy",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_RevenueFromUseOfMoneyAndProperty": {
+     "auth_ref": [],
+     "crdr": "credit",
+     "localname": "RevenueFromUseOfMoneyAndProperty",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfActivitiesGovernmentWideProgramGeneralRevenuesAndExpenses",
+      "http://www.town.ashland.va.us/role/statementOfRevenuesExpendituresAndChangesInFundBalanceGovernmentalFunds"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "va-t-ashl_Software": {
+     "auth_ref": [],
+     "crdr": "debit",
+     "localname": "Software",
+     "nsuri": "http://www.town.ashland.va.us/20170630",
+     "presentation": [
+      "http://www.town.ashland.va.us/role/StatementOfNetPositionGovernmentWideAssetsLaibilitiesAndDeferredInflowsOutflows"
+     ],
+     "xbrltype": "monetaryItemType"
+    }
+   },
+   "unitCount": 2
+  }
+ },
+ "std_ref": {},
+ "version": "2.1"
+}
