@@ -39,7 +39,7 @@
   <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
   <xs:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
   <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
-  <xs:import namespace="https://xbrl.us/2019/us-cafr_concept" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC2/us-cafr_full-entry.xsd"/>
+  <xs:import namespace="https://xbrl.us/2019/us-cafr_concept" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/dev/core/us-cafr_concept.xsd"/>
   <xs:element name="BuildingsAndImprovements" id="va-t-ashl_BuildingsAndImprovements" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
   <xs:element name="Infrastructure" id="va-t-ashl_Infrastructure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
   <xs:element name="Software" id="va-t-ashl_Software" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
