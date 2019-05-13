@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR04 - Governmental funds - Statement of revenues, expenditures and changes in fund balance -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:formula="http://xbrl.org/2008/formula" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:ef="http://xbrl.org/2008/filter/entity" xmlns:instance="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-satisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-satisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-parameter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-parameter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-formula" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-formula"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-precondition"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <generic:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_01" xlink:title="cafr04_Fund_Bal_End_01" id="cafr04_Fund_Bal_End_01" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_01" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_01" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_01">In CAFR04, in General fund column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_01"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_01" xlink:title="Var_01" id="Var_01" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="Var_01" xlink:title="cafr04_Fund_Bal_End_01_Var_01" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_01_conceptName_1" xlink:title="Var_01_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_conceptName_1" xlink:title="Var_01_Var_01_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_01_explicitDimension_2" xlink:title="Var_01_explicitDimension_2" id="Var_01_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GeneralFundMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_explicitDimension_2" xlink:title="Var_01_Var_01_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_01_explicitDimension_3" xlink:title="Var_01_explicitDimension_3" id="Var_01_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_explicitDimension_3" xlink:title="Var_01_Var_01_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_01_instantDuration_4" xlink:title="Var_01_instantDuration_4" id="Var_01_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_instantDuration_4" xlink:title="Var_01_Var_01_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_02" xlink:title="Var_02" id="Var_02" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="Var_02" xlink:title="cafr04_Fund_Bal_End_01_Var_02" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_02_conceptName_1" xlink:title="Var_02_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_conceptName_1" xlink:title="Var_02_Var_02_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_02_explicitDimension_2" xlink:title="Var_02_explicitDimension_2" id="Var_02_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GeneralFundMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_explicitDimension_2" xlink:title="Var_02_Var_02_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_02_explicitDimension_3" xlink:title="Var_02_explicitDimension_3" id="Var_02_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_explicitDimension_3" xlink:title="Var_02_Var_02_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_02_instantDuration_4" xlink:title="Var_02_instantDuration_4" id="Var_02_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_instantDuration_4" xlink:title="Var_02_Var_02_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_03" xlink:title="Var_03" id="Var_03" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="Var_03" xlink:title="cafr04_Fund_Bal_End_01_Var_03" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_03_conceptName_1" xlink:title="Var_03_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_conceptName_1" xlink:title="Var_03_Var_03_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_03_explicitDimension_2" xlink:title="Var_03_explicitDimension_2" id="Var_03_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GeneralFundMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_explicitDimension_2" xlink:title="Var_03_Var_03_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_03_explicitDimension_3" xlink:title="Var_03_explicitDimension_3" id="Var_03_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_explicitDimension_3" xlink:title="Var_03_Var_03_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_04" xlink:title="Var_04" id="Var_04" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="Var_04" xlink:title="cafr04_Fund_Bal_End_01_Var_04" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_04_conceptName_1" xlink:title="Var_04_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_conceptName_1" xlink:title="Var_04_Var_04_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_04_explicitDimension_2" xlink:title="Var_04_explicitDimension_2" id="Var_04_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GeneralFundMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_explicitDimension_2" xlink:title="Var_04_Var_04_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_04_instantDuration_3" xlink:title="Var_04_instantDuration_3" id="Var_04_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_instantDuration_3" xlink:title="Var_04_Var_04_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_05" xlink:title="Var_05" id="Var_05" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_01" xlink:to="Var_05" xlink:title="cafr04_Fund_Bal_End_01_Var_05" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_05_conceptName_1" xlink:title="Var_05_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_05" xlink:to="Var_05_conceptName_1" xlink:title="Var_05_Var_05_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_05_explicitDimension_2" xlink:title="Var_05_explicitDimension_2" id="Var_05_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GeneralFundMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_05" xlink:to="Var_05_explicitDimension_2" xlink:title="Var_05_Var_05_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_05_instantDuration_3" xlink:title="Var_05_instantDuration_3" id="Var_05_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_05" xlink:to="Var_05_instantDuration_3" xlink:title="Var_05_Var_05_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_02" xlink:title="cafr04_Fund_Bal_End_02" id="cafr04_Fund_Bal_End_02" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_02" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_02" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_02">In CAFR04, in Special revenue fund 01 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_02"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_11" xlink:title="Var_11" id="Var_11" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="Var_11" xlink:title="cafr04_Fund_Bal_End_02_Var_11" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_11_conceptName_1" xlink:title="Var_11_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_11" xlink:to="Var_11_conceptName_1" xlink:title="Var_11_Var_11_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_11_explicitDimension_2" xlink:title="Var_11_explicitDimension_2" id="Var_11_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_11" xlink:to="Var_11_explicitDimension_2" xlink:title="Var_11_Var_11_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_11_explicitDimension_3" xlink:title="Var_11_explicitDimension_3" id="Var_11_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_11" xlink:to="Var_11_explicitDimension_3" xlink:title="Var_11_Var_11_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_11_instantDuration_4" xlink:title="Var_11_instantDuration_4" id="Var_11_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_11" xlink:to="Var_11_instantDuration_4" xlink:title="Var_11_Var_11_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_12" xlink:title="Var_12" id="Var_12" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="Var_12" xlink:title="cafr04_Fund_Bal_End_02_Var_12" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_12_conceptName_1" xlink:title="Var_12_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_12" xlink:to="Var_12_conceptName_1" xlink:title="Var_12_Var_12_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_12_explicitDimension_2" xlink:title="Var_12_explicitDimension_2" id="Var_12_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_12" xlink:to="Var_12_explicitDimension_2" xlink:title="Var_12_Var_12_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_12_explicitDimension_3" xlink:title="Var_12_explicitDimension_3" id="Var_12_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_12" xlink:to="Var_12_explicitDimension_3" xlink:title="Var_12_Var_12_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_12_instantDuration_4" xlink:title="Var_12_instantDuration_4" id="Var_12_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_12" xlink:to="Var_12_instantDuration_4" xlink:title="Var_12_Var_12_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_13" xlink:title="Var_13" id="Var_13" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="Var_13" xlink:title="cafr04_Fund_Bal_End_02_Var_13" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_13_conceptName_1" xlink:title="Var_13_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_13" xlink:to="Var_13_conceptName_1" xlink:title="Var_13_Var_13_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_13_explicitDimension_2" xlink:title="Var_13_explicitDimension_2" id="Var_13_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_13" xlink:to="Var_13_explicitDimension_2" xlink:title="Var_13_Var_13_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_13_explicitDimension_3" xlink:title="Var_13_explicitDimension_3" id="Var_13_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_13" xlink:to="Var_13_explicitDimension_3" xlink:title="Var_13_Var_13_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_14" xlink:title="Var_14" id="Var_14" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="Var_14" xlink:title="cafr04_Fund_Bal_End_02_Var_14" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_14_conceptName_1" xlink:title="Var_14_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_14" xlink:to="Var_14_conceptName_1" xlink:title="Var_14_Var_14_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_14_explicitDimension_2" xlink:title="Var_14_explicitDimension_2" id="Var_14_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_14" xlink:to="Var_14_explicitDimension_2" xlink:title="Var_14_Var_14_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_14_instantDuration_3" xlink:title="Var_14_instantDuration_3" id="Var_14_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_14" xlink:to="Var_14_instantDuration_3" xlink:title="Var_14_Var_14_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_15" xlink:title="Var_15" id="Var_15" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_02" xlink:to="Var_15" xlink:title="cafr04_Fund_Bal_End_02_Var_15" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_15_conceptName_1" xlink:title="Var_15_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_15" xlink:to="Var_15_conceptName_1" xlink:title="Var_15_Var_15_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_15_explicitDimension_2" xlink:title="Var_15_explicitDimension_2" id="Var_15_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_15" xlink:to="Var_15_explicitDimension_2" xlink:title="Var_15_Var_15_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_15_instantDuration_3" xlink:title="Var_15_instantDuration_3" id="Var_15_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_15" xlink:to="Var_15_instantDuration_3" xlink:title="Var_15_Var_15_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_03" xlink:title="cafr04_Fund_Bal_End_03" id="cafr04_Fund_Bal_End_03" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_03" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_03" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_03">In CAFR04, in Special revenue fund 02 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_03"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_21" xlink:title="Var_21" id="Var_21" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="Var_21" xlink:title="cafr04_Fund_Bal_End_03_Var_21" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_21_conceptName_1" xlink:title="Var_21_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_21" xlink:to="Var_21_conceptName_1" xlink:title="Var_21_Var_21_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_21_explicitDimension_2" xlink:title="Var_21_explicitDimension_2" id="Var_21_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_21" xlink:to="Var_21_explicitDimension_2" xlink:title="Var_21_Var_21_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_21_explicitDimension_3" xlink:title="Var_21_explicitDimension_3" id="Var_21_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_21" xlink:to="Var_21_explicitDimension_3" xlink:title="Var_21_Var_21_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_21_instantDuration_4" xlink:title="Var_21_instantDuration_4" id="Var_21_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_21" xlink:to="Var_21_instantDuration_4" xlink:title="Var_21_Var_21_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_22" xlink:title="Var_22" id="Var_22" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="Var_22" xlink:title="cafr04_Fund_Bal_End_03_Var_22" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_22_conceptName_1" xlink:title="Var_22_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_conceptName_1" xlink:title="Var_22_Var_22_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_22_explicitDimension_2" xlink:title="Var_22_explicitDimension_2" id="Var_22_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_explicitDimension_2" xlink:title="Var_22_Var_22_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_22_explicitDimension_3" xlink:title="Var_22_explicitDimension_3" id="Var_22_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_explicitDimension_3" xlink:title="Var_22_Var_22_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_22_instantDuration_4" xlink:title="Var_22_instantDuration_4" id="Var_22_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_instantDuration_4" xlink:title="Var_22_Var_22_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_23" xlink:title="Var_23" id="Var_23" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="Var_23" xlink:title="cafr04_Fund_Bal_End_03_Var_23" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_23_conceptName_1" xlink:title="Var_23_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_23" xlink:to="Var_23_conceptName_1" xlink:title="Var_23_Var_23_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_23_explicitDimension_2" xlink:title="Var_23_explicitDimension_2" id="Var_23_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_23" xlink:to="Var_23_explicitDimension_2" xlink:title="Var_23_Var_23_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_23_explicitDimension_3" xlink:title="Var_23_explicitDimension_3" id="Var_23_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_23" xlink:to="Var_23_explicitDimension_3" xlink:title="Var_23_Var_23_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_24" xlink:title="Var_24" id="Var_24" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="Var_24" xlink:title="cafr04_Fund_Bal_End_03_Var_24" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_24_conceptName_1" xlink:title="Var_24_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_24" xlink:to="Var_24_conceptName_1" xlink:title="Var_24_Var_24_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_24_explicitDimension_2" xlink:title="Var_24_explicitDimension_2" id="Var_24_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_24" xlink:to="Var_24_explicitDimension_2" xlink:title="Var_24_Var_24_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_24_instantDuration_3" xlink:title="Var_24_instantDuration_3" id="Var_24_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_24" xlink:to="Var_24_instantDuration_3" xlink:title="Var_24_Var_24_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_25" xlink:title="Var_25" id="Var_25" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_03" xlink:to="Var_25" xlink:title="cafr04_Fund_Bal_End_03_Var_25" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_25_conceptName_1" xlink:title="Var_25_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_25" xlink:to="Var_25_conceptName_1" xlink:title="Var_25_Var_25_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_25_explicitDimension_2" xlink:title="Var_25_explicitDimension_2" id="Var_25_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_25" xlink:to="Var_25_explicitDimension_2" xlink:title="Var_25_Var_25_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_25_instantDuration_3" xlink:title="Var_25_instantDuration_3" id="Var_25_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_25" xlink:to="Var_25_instantDuration_3" xlink:title="Var_25_Var_25_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_04" xlink:title="cafr04_Fund_Bal_End_04" id="cafr04_Fund_Bal_End_04" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_04" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_04" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_04">In CAFR04, in Special revenue fund 03 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_04"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_31" xlink:title="Var_31" id="Var_31" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="Var_31" xlink:title="cafr04_Fund_Bal_End_04_Var_31" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_31_conceptName_1" xlink:title="Var_31_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_conceptName_1" xlink:title="Var_31_Var_31_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_31_explicitDimension_2" xlink:title="Var_31_explicitDimension_2" id="Var_31_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_explicitDimension_2" xlink:title="Var_31_Var_31_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_31_explicitDimension_3" xlink:title="Var_31_explicitDimension_3" id="Var_31_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_explicitDimension_3" xlink:title="Var_31_Var_31_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_31_instantDuration_4" xlink:title="Var_31_instantDuration_4" id="Var_31_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_31" xlink:to="Var_31_instantDuration_4" xlink:title="Var_31_Var_31_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_32" xlink:title="Var_32" id="Var_32" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="Var_32" xlink:title="cafr04_Fund_Bal_End_04_Var_32" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_32_conceptName_1" xlink:title="Var_32_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_conceptName_1" xlink:title="Var_32_Var_32_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_32_explicitDimension_2" xlink:title="Var_32_explicitDimension_2" id="Var_32_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_explicitDimension_2" xlink:title="Var_32_Var_32_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_32_explicitDimension_3" xlink:title="Var_32_explicitDimension_3" id="Var_32_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_explicitDimension_3" xlink:title="Var_32_Var_32_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_32_instantDuration_4" xlink:title="Var_32_instantDuration_4" id="Var_32_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_32" xlink:to="Var_32_instantDuration_4" xlink:title="Var_32_Var_32_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_33" xlink:title="Var_33" id="Var_33" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="Var_33" xlink:title="cafr04_Fund_Bal_End_04_Var_33" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_33_conceptName_1" xlink:title="Var_33_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_33" xlink:to="Var_33_conceptName_1" xlink:title="Var_33_Var_33_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_33_explicitDimension_2" xlink:title="Var_33_explicitDimension_2" id="Var_33_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_33" xlink:to="Var_33_explicitDimension_2" xlink:title="Var_33_Var_33_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_33_explicitDimension_3" xlink:title="Var_33_explicitDimension_3" id="Var_33_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_33" xlink:to="Var_33_explicitDimension_3" xlink:title="Var_33_Var_33_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_34" xlink:title="Var_34" id="Var_34" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="Var_34" xlink:title="cafr04_Fund_Bal_End_04_Var_34" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_34_conceptName_1" xlink:title="Var_34_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_34" xlink:to="Var_34_conceptName_1" xlink:title="Var_34_Var_34_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_34_explicitDimension_2" xlink:title="Var_34_explicitDimension_2" id="Var_34_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_34" xlink:to="Var_34_explicitDimension_2" xlink:title="Var_34_Var_34_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_34_instantDuration_3" xlink:title="Var_34_instantDuration_3" id="Var_34_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_34" xlink:to="Var_34_instantDuration_3" xlink:title="Var_34_Var_34_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_35" xlink:title="Var_35" id="Var_35" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_04" xlink:to="Var_35" xlink:title="cafr04_Fund_Bal_End_04_Var_35" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_35_conceptName_1" xlink:title="Var_35_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_35" xlink:to="Var_35_conceptName_1" xlink:title="Var_35_Var_35_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_35_explicitDimension_2" xlink:title="Var_35_explicitDimension_2" id="Var_35_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_35" xlink:to="Var_35_explicitDimension_2" xlink:title="Var_35_Var_35_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_35_instantDuration_3" xlink:title="Var_35_instantDuration_3" id="Var_35_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_35" xlink:to="Var_35_instantDuration_3" xlink:title="Var_35_Var_35_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_05" xlink:title="cafr04_Fund_Bal_End_05" id="cafr04_Fund_Bal_End_05" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_05" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_05" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_05">In CAFR04, in Capital projects fund 01 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_05"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_41" xlink:title="Var_41" id="Var_41" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="Var_41" xlink:title="cafr04_Fund_Bal_End_05_Var_41" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_41_conceptName_1" xlink:title="Var_41_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_41" xlink:to="Var_41_conceptName_1" xlink:title="Var_41_Var_41_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_41_explicitDimension_2" xlink:title="Var_41_explicitDimension_2" id="Var_41_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_41" xlink:to="Var_41_explicitDimension_2" xlink:title="Var_41_Var_41_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_41_explicitDimension_3" xlink:title="Var_41_explicitDimension_3" id="Var_41_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_41" xlink:to="Var_41_explicitDimension_3" xlink:title="Var_41_Var_41_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_41_instantDuration_4" xlink:title="Var_41_instantDuration_4" id="Var_41_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_41" xlink:to="Var_41_instantDuration_4" xlink:title="Var_41_Var_41_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_42" xlink:title="Var_42" id="Var_42" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="Var_42" xlink:title="cafr04_Fund_Bal_End_05_Var_42" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_42_conceptName_1" xlink:title="Var_42_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_conceptName_1" xlink:title="Var_42_Var_42_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_42_explicitDimension_2" xlink:title="Var_42_explicitDimension_2" id="Var_42_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_explicitDimension_2" xlink:title="Var_42_Var_42_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_42_explicitDimension_3" xlink:title="Var_42_explicitDimension_3" id="Var_42_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_explicitDimension_3" xlink:title="Var_42_Var_42_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_42_instantDuration_4" xlink:title="Var_42_instantDuration_4" id="Var_42_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_instantDuration_4" xlink:title="Var_42_Var_42_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_43" xlink:title="Var_43" id="Var_43" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="Var_43" xlink:title="cafr04_Fund_Bal_End_05_Var_43" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_43_conceptName_1" xlink:title="Var_43_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_43" xlink:to="Var_43_conceptName_1" xlink:title="Var_43_Var_43_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_43_explicitDimension_2" xlink:title="Var_43_explicitDimension_2" id="Var_43_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_43" xlink:to="Var_43_explicitDimension_2" xlink:title="Var_43_Var_43_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_43_explicitDimension_3" xlink:title="Var_43_explicitDimension_3" id="Var_43_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_43" xlink:to="Var_43_explicitDimension_3" xlink:title="Var_43_Var_43_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_44" xlink:title="Var_44" id="Var_44" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="Var_44" xlink:title="cafr04_Fund_Bal_End_05_Var_44" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_44_conceptName_1" xlink:title="Var_44_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_44" xlink:to="Var_44_conceptName_1" xlink:title="Var_44_Var_44_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_44_explicitDimension_2" xlink:title="Var_44_explicitDimension_2" id="Var_44_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_44" xlink:to="Var_44_explicitDimension_2" xlink:title="Var_44_Var_44_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_44_instantDuration_3" xlink:title="Var_44_instantDuration_3" id="Var_44_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_44" xlink:to="Var_44_instantDuration_3" xlink:title="Var_44_Var_44_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_45" xlink:title="Var_45" id="Var_45" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_05" xlink:to="Var_45" xlink:title="cafr04_Fund_Bal_End_05_Var_45" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_45_conceptName_1" xlink:title="Var_45_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_45" xlink:to="Var_45_conceptName_1" xlink:title="Var_45_Var_45_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_45_explicitDimension_2" xlink:title="Var_45_explicitDimension_2" id="Var_45_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_45" xlink:to="Var_45_explicitDimension_2" xlink:title="Var_45_Var_45_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_45_instantDuration_3" xlink:title="Var_45_instantDuration_3" id="Var_45_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_45" xlink:to="Var_45_instantDuration_3" xlink:title="Var_45_Var_45_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_06" xlink:title="cafr04_Fund_Bal_End_06" id="cafr04_Fund_Bal_End_06" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_06" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_06" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_06">In CAFR04, in Capital projects fund 02 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_06"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_51" xlink:title="Var_51" id="Var_51" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="Var_51" xlink:title="cafr04_Fund_Bal_End_06_Var_51" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_51_conceptName_1" xlink:title="Var_51_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_51" xlink:to="Var_51_conceptName_1" xlink:title="Var_51_Var_51_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_51_explicitDimension_2" xlink:title="Var_51_explicitDimension_2" id="Var_51_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_51" xlink:to="Var_51_explicitDimension_2" xlink:title="Var_51_Var_51_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_51_explicitDimension_3" xlink:title="Var_51_explicitDimension_3" id="Var_51_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_51" xlink:to="Var_51_explicitDimension_3" xlink:title="Var_51_Var_51_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_51_instantDuration_4" xlink:title="Var_51_instantDuration_4" id="Var_51_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_51" xlink:to="Var_51_instantDuration_4" xlink:title="Var_51_Var_51_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_52" xlink:title="Var_52" id="Var_52" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="Var_52" xlink:title="cafr04_Fund_Bal_End_06_Var_52" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_52_conceptName_1" xlink:title="Var_52_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_52" xlink:to="Var_52_conceptName_1" xlink:title="Var_52_Var_52_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_52_explicitDimension_2" xlink:title="Var_52_explicitDimension_2" id="Var_52_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_52" xlink:to="Var_52_explicitDimension_2" xlink:title="Var_52_Var_52_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_52_explicitDimension_3" xlink:title="Var_52_explicitDimension_3" id="Var_52_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_52" xlink:to="Var_52_explicitDimension_3" xlink:title="Var_52_Var_52_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_52_instantDuration_4" xlink:title="Var_52_instantDuration_4" id="Var_52_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_52" xlink:to="Var_52_instantDuration_4" xlink:title="Var_52_Var_52_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_53" xlink:title="Var_53" id="Var_53" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="Var_53" xlink:title="cafr04_Fund_Bal_End_06_Var_53" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_53_conceptName_1" xlink:title="Var_53_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_53" xlink:to="Var_53_conceptName_1" xlink:title="Var_53_Var_53_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_53_explicitDimension_2" xlink:title="Var_53_explicitDimension_2" id="Var_53_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_53" xlink:to="Var_53_explicitDimension_2" xlink:title="Var_53_Var_53_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_53_explicitDimension_3" xlink:title="Var_53_explicitDimension_3" id="Var_53_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_53" xlink:to="Var_53_explicitDimension_3" xlink:title="Var_53_Var_53_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_54" xlink:title="Var_54" id="Var_54" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="Var_54" xlink:title="cafr04_Fund_Bal_End_06_Var_54" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_54_conceptName_1" xlink:title="Var_54_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_54" xlink:to="Var_54_conceptName_1" xlink:title="Var_54_Var_54_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_54_explicitDimension_2" xlink:title="Var_54_explicitDimension_2" id="Var_54_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_54" xlink:to="Var_54_explicitDimension_2" xlink:title="Var_54_Var_54_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_54_instantDuration_3" xlink:title="Var_54_instantDuration_3" id="Var_54_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_54" xlink:to="Var_54_instantDuration_3" xlink:title="Var_54_Var_54_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_55" xlink:title="Var_55" id="Var_55" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_06" xlink:to="Var_55" xlink:title="cafr04_Fund_Bal_End_06_Var_55" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_55_conceptName_1" xlink:title="Var_55_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_55" xlink:to="Var_55_conceptName_1" xlink:title="Var_55_Var_55_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_55_explicitDimension_2" xlink:title="Var_55_explicitDimension_2" id="Var_55_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_55" xlink:to="Var_55_explicitDimension_2" xlink:title="Var_55_Var_55_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_55_instantDuration_3" xlink:title="Var_55_instantDuration_3" id="Var_55_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_55" xlink:to="Var_55_instantDuration_3" xlink:title="Var_55_Var_55_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_07" xlink:title="cafr04_Fund_Bal_End_07" id="cafr04_Fund_Bal_End_07" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_07" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_07" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_07">In CAFR04, in Capital projects fund 03 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_07"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_61" xlink:title="Var_61" id="Var_61" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="Var_61" xlink:title="cafr04_Fund_Bal_End_07_Var_61" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_61_conceptName_1" xlink:title="Var_61_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_conceptName_1" xlink:title="Var_61_Var_61_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_61_explicitDimension_2" xlink:title="Var_61_explicitDimension_2" id="Var_61_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_explicitDimension_2" xlink:title="Var_61_Var_61_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_61_explicitDimension_3" xlink:title="Var_61_explicitDimension_3" id="Var_61_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_explicitDimension_3" xlink:title="Var_61_Var_61_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_61_instantDuration_4" xlink:title="Var_61_instantDuration_4" id="Var_61_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_instantDuration_4" xlink:title="Var_61_Var_61_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_62" xlink:title="Var_62" id="Var_62" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="Var_62" xlink:title="cafr04_Fund_Bal_End_07_Var_62" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_62_conceptName_1" xlink:title="Var_62_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_conceptName_1" xlink:title="Var_62_Var_62_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_62_explicitDimension_2" xlink:title="Var_62_explicitDimension_2" id="Var_62_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_explicitDimension_2" xlink:title="Var_62_Var_62_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_62_explicitDimension_3" xlink:title="Var_62_explicitDimension_3" id="Var_62_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_explicitDimension_3" xlink:title="Var_62_Var_62_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_62_instantDuration_4" xlink:title="Var_62_instantDuration_4" id="Var_62_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_instantDuration_4" xlink:title="Var_62_Var_62_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_63" xlink:title="Var_63" id="Var_63" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="Var_63" xlink:title="cafr04_Fund_Bal_End_07_Var_63" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_63_conceptName_1" xlink:title="Var_63_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_conceptName_1" xlink:title="Var_63_Var_63_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_63_explicitDimension_2" xlink:title="Var_63_explicitDimension_2" id="Var_63_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_explicitDimension_2" xlink:title="Var_63_Var_63_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_63_explicitDimension_3" xlink:title="Var_63_explicitDimension_3" id="Var_63_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_explicitDimension_3" xlink:title="Var_63_Var_63_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_64" xlink:title="Var_64" id="Var_64" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="Var_64" xlink:title="cafr04_Fund_Bal_End_07_Var_64" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_64_conceptName_1" xlink:title="Var_64_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_conceptName_1" xlink:title="Var_64_Var_64_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_64_explicitDimension_2" xlink:title="Var_64_explicitDimension_2" id="Var_64_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_explicitDimension_2" xlink:title="Var_64_Var_64_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_64_instantDuration_3" xlink:title="Var_64_instantDuration_3" id="Var_64_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_instantDuration_3" xlink:title="Var_64_Var_64_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_65" xlink:title="Var_65" id="Var_65" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_07" xlink:to="Var_65" xlink:title="cafr04_Fund_Bal_End_07_Var_65" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_65_conceptName_1" xlink:title="Var_65_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_65" xlink:to="Var_65_conceptName_1" xlink:title="Var_65_Var_65_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_65_explicitDimension_2" xlink:title="Var_65_explicitDimension_2" id="Var_65_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_65" xlink:to="Var_65_explicitDimension_2" xlink:title="Var_65_Var_65_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_65_instantDuration_3" xlink:title="Var_65_instantDuration_3" id="Var_65_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_65" xlink:to="Var_65_instantDuration_3" xlink:title="Var_65_Var_65_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_08" xlink:title="cafr04_Fund_Bal_End_08" id="cafr04_Fund_Bal_End_08" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_08" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_08" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_08">In CAFR04, in Debt service fund  01 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_08"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_71" xlink:title="Var_71" id="Var_71" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="Var_71" xlink:title="cafr04_Fund_Bal_End_08_Var_71" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_71_conceptName_1" xlink:title="Var_71_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_71" xlink:to="Var_71_conceptName_1" xlink:title="Var_71_Var_71_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_71_explicitDimension_2" xlink:title="Var_71_explicitDimension_2" id="Var_71_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_71" xlink:to="Var_71_explicitDimension_2" xlink:title="Var_71_Var_71_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_71_explicitDimension_3" xlink:title="Var_71_explicitDimension_3" id="Var_71_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_71" xlink:to="Var_71_explicitDimension_3" xlink:title="Var_71_Var_71_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_71_instantDuration_4" xlink:title="Var_71_instantDuration_4" id="Var_71_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_71" xlink:to="Var_71_instantDuration_4" xlink:title="Var_71_Var_71_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_72" xlink:title="Var_72" id="Var_72" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="Var_72" xlink:title="cafr04_Fund_Bal_End_08_Var_72" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_72_conceptName_1" xlink:title="Var_72_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_72" xlink:to="Var_72_conceptName_1" xlink:title="Var_72_Var_72_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_72_explicitDimension_2" xlink:title="Var_72_explicitDimension_2" id="Var_72_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_72" xlink:to="Var_72_explicitDimension_2" xlink:title="Var_72_Var_72_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_72_explicitDimension_3" xlink:title="Var_72_explicitDimension_3" id="Var_72_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_72" xlink:to="Var_72_explicitDimension_3" xlink:title="Var_72_Var_72_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_72_instantDuration_4" xlink:title="Var_72_instantDuration_4" id="Var_72_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_72" xlink:to="Var_72_instantDuration_4" xlink:title="Var_72_Var_72_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_73" xlink:title="Var_73" id="Var_73" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="Var_73" xlink:title="cafr04_Fund_Bal_End_08_Var_73" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_73_conceptName_1" xlink:title="Var_73_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_73" xlink:to="Var_73_conceptName_1" xlink:title="Var_73_Var_73_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_73_explicitDimension_2" xlink:title="Var_73_explicitDimension_2" id="Var_73_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_73" xlink:to="Var_73_explicitDimension_2" xlink:title="Var_73_Var_73_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_73_explicitDimension_3" xlink:title="Var_73_explicitDimension_3" id="Var_73_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_73" xlink:to="Var_73_explicitDimension_3" xlink:title="Var_73_Var_73_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_74" xlink:title="Var_74" id="Var_74" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="Var_74" xlink:title="cafr04_Fund_Bal_End_08_Var_74" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_74_conceptName_1" xlink:title="Var_74_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_74" xlink:to="Var_74_conceptName_1" xlink:title="Var_74_Var_74_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_74_explicitDimension_2" xlink:title="Var_74_explicitDimension_2" id="Var_74_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_74" xlink:to="Var_74_explicitDimension_2" xlink:title="Var_74_Var_74_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_74_instantDuration_3" xlink:title="Var_74_instantDuration_3" id="Var_74_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_74" xlink:to="Var_74_instantDuration_3" xlink:title="Var_74_Var_74_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_75" xlink:title="Var_75" id="Var_75" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_08" xlink:to="Var_75" xlink:title="cafr04_Fund_Bal_End_08_Var_75" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_75_conceptName_1" xlink:title="Var_75_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_75" xlink:to="Var_75_conceptName_1" xlink:title="Var_75_Var_75_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_75_explicitDimension_2" xlink:title="Var_75_explicitDimension_2" id="Var_75_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_75" xlink:to="Var_75_explicitDimension_2" xlink:title="Var_75_Var_75_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_75_instantDuration_3" xlink:title="Var_75_instantDuration_3" id="Var_75_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_75" xlink:to="Var_75_instantDuration_3" xlink:title="Var_75_Var_75_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_09" xlink:title="cafr04_Fund_Bal_End_09" id="cafr04_Fund_Bal_End_09" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_09" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_09" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_09">In CAFR04, in Debt service fund  02 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_09"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_81" xlink:title="Var_81" id="Var_81" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="Var_81" xlink:title="cafr04_Fund_Bal_End_09_Var_81" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_81_conceptName_1" xlink:title="Var_81_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_81" xlink:to="Var_81_conceptName_1" xlink:title="Var_81_Var_81_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_81_explicitDimension_2" xlink:title="Var_81_explicitDimension_2" id="Var_81_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_81" xlink:to="Var_81_explicitDimension_2" xlink:title="Var_81_Var_81_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_81_explicitDimension_3" xlink:title="Var_81_explicitDimension_3" id="Var_81_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_81" xlink:to="Var_81_explicitDimension_3" xlink:title="Var_81_Var_81_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_81_instantDuration_4" xlink:title="Var_81_instantDuration_4" id="Var_81_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_81" xlink:to="Var_81_instantDuration_4" xlink:title="Var_81_Var_81_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_82" xlink:title="Var_82" id="Var_82" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="Var_82" xlink:title="cafr04_Fund_Bal_End_09_Var_82" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_82_conceptName_1" xlink:title="Var_82_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_conceptName_1" xlink:title="Var_82_Var_82_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_82_explicitDimension_2" xlink:title="Var_82_explicitDimension_2" id="Var_82_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_explicitDimension_2" xlink:title="Var_82_Var_82_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_82_explicitDimension_3" xlink:title="Var_82_explicitDimension_3" id="Var_82_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_explicitDimension_3" xlink:title="Var_82_Var_82_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_82_instantDuration_4" xlink:title="Var_82_instantDuration_4" id="Var_82_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_instantDuration_4" xlink:title="Var_82_Var_82_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_83" xlink:title="Var_83" id="Var_83" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="Var_83" xlink:title="cafr04_Fund_Bal_End_09_Var_83" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_83_conceptName_1" xlink:title="Var_83_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_83" xlink:to="Var_83_conceptName_1" xlink:title="Var_83_Var_83_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_83_explicitDimension_2" xlink:title="Var_83_explicitDimension_2" id="Var_83_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_83" xlink:to="Var_83_explicitDimension_2" xlink:title="Var_83_Var_83_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_83_explicitDimension_3" xlink:title="Var_83_explicitDimension_3" id="Var_83_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_83" xlink:to="Var_83_explicitDimension_3" xlink:title="Var_83_Var_83_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_84" xlink:title="Var_84" id="Var_84" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="Var_84" xlink:title="cafr04_Fund_Bal_End_09_Var_84" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_84_conceptName_1" xlink:title="Var_84_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_84" xlink:to="Var_84_conceptName_1" xlink:title="Var_84_Var_84_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_84_explicitDimension_2" xlink:title="Var_84_explicitDimension_2" id="Var_84_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_84" xlink:to="Var_84_explicitDimension_2" xlink:title="Var_84_Var_84_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_84_instantDuration_3" xlink:title="Var_84_instantDuration_3" id="Var_84_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_84" xlink:to="Var_84_instantDuration_3" xlink:title="Var_84_Var_84_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_85" xlink:title="Var_85" id="Var_85" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_09" xlink:to="Var_85" xlink:title="cafr04_Fund_Bal_End_09_Var_85" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_85_conceptName_1" xlink:title="Var_85_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_85" xlink:to="Var_85_conceptName_1" xlink:title="Var_85_Var_85_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_85_explicitDimension_2" xlink:title="Var_85_explicitDimension_2" id="Var_85_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_85" xlink:to="Var_85_explicitDimension_2" xlink:title="Var_85_Var_85_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_85_instantDuration_3" xlink:title="Var_85_instantDuration_3" id="Var_85_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_85" xlink:to="Var_85_instantDuration_3" xlink:title="Var_85_Var_85_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_10" xlink:title="cafr04_Fund_Bal_End_10" id="cafr04_Fund_Bal_End_10" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_10" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_10" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_10">In CAFR04, in Debt service fund  03 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_10"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_91" xlink:title="Var_91" id="Var_91" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="Var_91" xlink:title="cafr04_Fund_Bal_End_10_Var_91" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_91_conceptName_1" xlink:title="Var_91_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_conceptName_1" xlink:title="Var_91_Var_91_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_91_explicitDimension_2" xlink:title="Var_91_explicitDimension_2" id="Var_91_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_explicitDimension_2" xlink:title="Var_91_Var_91_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_91_explicitDimension_3" xlink:title="Var_91_explicitDimension_3" id="Var_91_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_explicitDimension_3" xlink:title="Var_91_Var_91_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_91_instantDuration_4" xlink:title="Var_91_instantDuration_4" id="Var_91_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_91" xlink:to="Var_91_instantDuration_4" xlink:title="Var_91_Var_91_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_92" xlink:title="Var_92" id="Var_92" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="Var_92" xlink:title="cafr04_Fund_Bal_End_10_Var_92" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_92_conceptName_1" xlink:title="Var_92_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_conceptName_1" xlink:title="Var_92_Var_92_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_92_explicitDimension_2" xlink:title="Var_92_explicitDimension_2" id="Var_92_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_explicitDimension_2" xlink:title="Var_92_Var_92_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_92_explicitDimension_3" xlink:title="Var_92_explicitDimension_3" id="Var_92_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_explicitDimension_3" xlink:title="Var_92_Var_92_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_92_instantDuration_4" xlink:title="Var_92_instantDuration_4" id="Var_92_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_92" xlink:to="Var_92_instantDuration_4" xlink:title="Var_92_Var_92_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_93" xlink:title="Var_93" id="Var_93" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="Var_93" xlink:title="cafr04_Fund_Bal_End_10_Var_93" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_93_conceptName_1" xlink:title="Var_93_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_93" xlink:to="Var_93_conceptName_1" xlink:title="Var_93_Var_93_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_93_explicitDimension_2" xlink:title="Var_93_explicitDimension_2" id="Var_93_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_93" xlink:to="Var_93_explicitDimension_2" xlink:title="Var_93_Var_93_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_93_explicitDimension_3" xlink:title="Var_93_explicitDimension_3" id="Var_93_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_93" xlink:to="Var_93_explicitDimension_3" xlink:title="Var_93_Var_93_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_94" xlink:title="Var_94" id="Var_94" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="Var_94" xlink:title="cafr04_Fund_Bal_End_10_Var_94" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_94_conceptName_1" xlink:title="Var_94_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_94" xlink:to="Var_94_conceptName_1" xlink:title="Var_94_Var_94_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_94_explicitDimension_2" xlink:title="Var_94_explicitDimension_2" id="Var_94_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_94" xlink:to="Var_94_explicitDimension_2" xlink:title="Var_94_Var_94_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_94_instantDuration_3" xlink:title="Var_94_instantDuration_3" id="Var_94_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_94" xlink:to="Var_94_instantDuration_3" xlink:title="Var_94_Var_94_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_95" xlink:title="Var_95" id="Var_95" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_10" xlink:to="Var_95" xlink:title="cafr04_Fund_Bal_End_10_Var_95" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_95_conceptName_1" xlink:title="Var_95_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_95" xlink:to="Var_95_conceptName_1" xlink:title="Var_95_Var_95_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_95_explicitDimension_2" xlink:title="Var_95_explicitDimension_2" id="Var_95_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_95" xlink:to="Var_95_explicitDimension_2" xlink:title="Var_95_Var_95_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_95_instantDuration_3" xlink:title="Var_95_instantDuration_3" id="Var_95_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_95" xlink:to="Var_95_instantDuration_3" xlink:title="Var_95_Var_95_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_11" xlink:title="cafr04_Fund_Bal_End_11" id="cafr04_Fund_Bal_End_11" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_11" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_11" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_11">In CAFR04, in Other fund  01 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_11"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_101" xlink:title="Var_101" id="Var_101" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="Var_101" xlink:title="cafr04_Fund_Bal_End_11_Var_101" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_101_conceptName_1" xlink:title="Var_101_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_conceptName_1" xlink:title="Var_101_Var_101_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_101_explicitDimension_2" xlink:title="Var_101_explicitDimension_2" id="Var_101_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_explicitDimension_2" xlink:title="Var_101_Var_101_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_101_explicitDimension_3" xlink:title="Var_101_explicitDimension_3" id="Var_101_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_explicitDimension_3" xlink:title="Var_101_Var_101_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_101_instantDuration_4" xlink:title="Var_101_instantDuration_4" id="Var_101_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_instantDuration_4" xlink:title="Var_101_Var_101_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_102" xlink:title="Var_102" id="Var_102" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="Var_102" xlink:title="cafr04_Fund_Bal_End_11_Var_102" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_102_conceptName_1" xlink:title="Var_102_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_conceptName_1" xlink:title="Var_102_Var_102_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_102_explicitDimension_2" xlink:title="Var_102_explicitDimension_2" id="Var_102_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_2" xlink:title="Var_102_Var_102_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_102_explicitDimension_3" xlink:title="Var_102_explicitDimension_3" id="Var_102_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_3" xlink:title="Var_102_Var_102_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_102_instantDuration_4" xlink:title="Var_102_instantDuration_4" id="Var_102_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_instantDuration_4" xlink:title="Var_102_Var_102_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_103" xlink:title="Var_103" id="Var_103" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="Var_103" xlink:title="cafr04_Fund_Bal_End_11_Var_103" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_103_conceptName_1" xlink:title="Var_103_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_conceptName_1" xlink:title="Var_103_Var_103_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_103_explicitDimension_2" xlink:title="Var_103_explicitDimension_2" id="Var_103_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_explicitDimension_2" xlink:title="Var_103_Var_103_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_103_explicitDimension_3" xlink:title="Var_103_explicitDimension_3" id="Var_103_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_explicitDimension_3" xlink:title="Var_103_Var_103_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_104" xlink:title="Var_104" id="Var_104" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="Var_104" xlink:title="cafr04_Fund_Bal_End_11_Var_104" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_104_conceptName_1" xlink:title="Var_104_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_conceptName_1" xlink:title="Var_104_Var_104_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_104_explicitDimension_2" xlink:title="Var_104_explicitDimension_2" id="Var_104_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_explicitDimension_2" xlink:title="Var_104_Var_104_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_104_instantDuration_3" xlink:title="Var_104_instantDuration_3" id="Var_104_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_instantDuration_3" xlink:title="Var_104_Var_104_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_105" xlink:title="Var_105" id="Var_105" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_11" xlink:to="Var_105" xlink:title="cafr04_Fund_Bal_End_11_Var_105" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_105_conceptName_1" xlink:title="Var_105_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_105" xlink:to="Var_105_conceptName_1" xlink:title="Var_105_Var_105_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_105_explicitDimension_2" xlink:title="Var_105_explicitDimension_2" id="Var_105_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund01Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_105" xlink:to="Var_105_explicitDimension_2" xlink:title="Var_105_Var_105_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_105_instantDuration_3" xlink:title="Var_105_instantDuration_3" id="Var_105_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_105" xlink:to="Var_105_instantDuration_3" xlink:title="Var_105_Var_105_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_12" xlink:title="cafr04_Fund_Bal_End_12" id="cafr04_Fund_Bal_End_12" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_12" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_12" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_12">In CAFR04, in Other fund  02 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_12"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_111" xlink:title="Var_111" id="Var_111" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="Var_111" xlink:title="cafr04_Fund_Bal_End_12_Var_111" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_111_conceptName_1" xlink:title="Var_111_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_111" xlink:to="Var_111_conceptName_1" xlink:title="Var_111_Var_111_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_111_explicitDimension_2" xlink:title="Var_111_explicitDimension_2" id="Var_111_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_111" xlink:to="Var_111_explicitDimension_2" xlink:title="Var_111_Var_111_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_111_explicitDimension_3" xlink:title="Var_111_explicitDimension_3" id="Var_111_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_111" xlink:to="Var_111_explicitDimension_3" xlink:title="Var_111_Var_111_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_111_instantDuration_4" xlink:title="Var_111_instantDuration_4" id="Var_111_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_111" xlink:to="Var_111_instantDuration_4" xlink:title="Var_111_Var_111_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_112" xlink:title="Var_112" id="Var_112" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="Var_112" xlink:title="cafr04_Fund_Bal_End_12_Var_112" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_112_conceptName_1" xlink:title="Var_112_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_112" xlink:to="Var_112_conceptName_1" xlink:title="Var_112_Var_112_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_112_explicitDimension_2" xlink:title="Var_112_explicitDimension_2" id="Var_112_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_112" xlink:to="Var_112_explicitDimension_2" xlink:title="Var_112_Var_112_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_112_explicitDimension_3" xlink:title="Var_112_explicitDimension_3" id="Var_112_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_112" xlink:to="Var_112_explicitDimension_3" xlink:title="Var_112_Var_112_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_112_instantDuration_4" xlink:title="Var_112_instantDuration_4" id="Var_112_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_112" xlink:to="Var_112_instantDuration_4" xlink:title="Var_112_Var_112_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_113" xlink:title="Var_113" id="Var_113" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="Var_113" xlink:title="cafr04_Fund_Bal_End_12_Var_113" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_113_conceptName_1" xlink:title="Var_113_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_113" xlink:to="Var_113_conceptName_1" xlink:title="Var_113_Var_113_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_113_explicitDimension_2" xlink:title="Var_113_explicitDimension_2" id="Var_113_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_113" xlink:to="Var_113_explicitDimension_2" xlink:title="Var_113_Var_113_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_113_explicitDimension_3" xlink:title="Var_113_explicitDimension_3" id="Var_113_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_113" xlink:to="Var_113_explicitDimension_3" xlink:title="Var_113_Var_113_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_114" xlink:title="Var_114" id="Var_114" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="Var_114" xlink:title="cafr04_Fund_Bal_End_12_Var_114" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_114_conceptName_1" xlink:title="Var_114_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_114" xlink:to="Var_114_conceptName_1" xlink:title="Var_114_Var_114_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_114_explicitDimension_2" xlink:title="Var_114_explicitDimension_2" id="Var_114_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_114" xlink:to="Var_114_explicitDimension_2" xlink:title="Var_114_Var_114_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_114_instantDuration_3" xlink:title="Var_114_instantDuration_3" id="Var_114_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_114" xlink:to="Var_114_instantDuration_3" xlink:title="Var_114_Var_114_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_115" xlink:title="Var_115" id="Var_115" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_12" xlink:to="Var_115" xlink:title="cafr04_Fund_Bal_End_12_Var_115" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_115_conceptName_1" xlink:title="Var_115_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_115" xlink:to="Var_115_conceptName_1" xlink:title="Var_115_Var_115_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_115_explicitDimension_2" xlink:title="Var_115_explicitDimension_2" id="Var_115_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund02Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_115" xlink:to="Var_115_explicitDimension_2" xlink:title="Var_115_Var_115_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_115_instantDuration_3" xlink:title="Var_115_instantDuration_3" id="Var_115_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_115" xlink:to="Var_115_instantDuration_3" xlink:title="Var_115_Var_115_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_13" xlink:title="cafr04_Fund_Bal_End_13" id="cafr04_Fund_Bal_End_13" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_13" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_13" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_13">In CAFR04, in Other fund  03 column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_13"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_121" xlink:title="Var_121" id="Var_121" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="Var_121" xlink:title="cafr04_Fund_Bal_End_13_Var_121" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_121_conceptName_1" xlink:title="Var_121_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_121" xlink:to="Var_121_conceptName_1" xlink:title="Var_121_Var_121_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_121_explicitDimension_2" xlink:title="Var_121_explicitDimension_2" id="Var_121_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_121" xlink:to="Var_121_explicitDimension_2" xlink:title="Var_121_Var_121_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_121_explicitDimension_3" xlink:title="Var_121_explicitDimension_3" id="Var_121_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_121" xlink:to="Var_121_explicitDimension_3" xlink:title="Var_121_Var_121_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_121_instantDuration_4" xlink:title="Var_121_instantDuration_4" id="Var_121_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_121" xlink:to="Var_121_instantDuration_4" xlink:title="Var_121_Var_121_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_122" xlink:title="Var_122" id="Var_122" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="Var_122" xlink:title="cafr04_Fund_Bal_End_13_Var_122" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_122_conceptName_1" xlink:title="Var_122_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_conceptName_1" xlink:title="Var_122_Var_122_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_122_explicitDimension_2" xlink:title="Var_122_explicitDimension_2" id="Var_122_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_explicitDimension_2" xlink:title="Var_122_Var_122_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_122_explicitDimension_3" xlink:title="Var_122_explicitDimension_3" id="Var_122_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_explicitDimension_3" xlink:title="Var_122_Var_122_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_122_instantDuration_4" xlink:title="Var_122_instantDuration_4" id="Var_122_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_instantDuration_4" xlink:title="Var_122_Var_122_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_123" xlink:title="Var_123" id="Var_123" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="Var_123" xlink:title="cafr04_Fund_Bal_End_13_Var_123" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_123_conceptName_1" xlink:title="Var_123_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_123" xlink:to="Var_123_conceptName_1" xlink:title="Var_123_Var_123_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_123_explicitDimension_2" xlink:title="Var_123_explicitDimension_2" id="Var_123_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_123" xlink:to="Var_123_explicitDimension_2" xlink:title="Var_123_Var_123_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_123_explicitDimension_3" xlink:title="Var_123_explicitDimension_3" id="Var_123_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_123" xlink:to="Var_123_explicitDimension_3" xlink:title="Var_123_Var_123_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_124" xlink:title="Var_124" id="Var_124" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="Var_124" xlink:title="cafr04_Fund_Bal_End_13_Var_124" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_124_conceptName_1" xlink:title="Var_124_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_124" xlink:to="Var_124_conceptName_1" xlink:title="Var_124_Var_124_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_124_explicitDimension_2" xlink:title="Var_124_explicitDimension_2" id="Var_124_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_124" xlink:to="Var_124_explicitDimension_2" xlink:title="Var_124_Var_124_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_124_instantDuration_3" xlink:title="Var_124_instantDuration_3" id="Var_124_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_124" xlink:to="Var_124_instantDuration_3" xlink:title="Var_124_Var_124_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_125" xlink:title="Var_125" id="Var_125" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_13" xlink:to="Var_125" xlink:title="cafr04_Fund_Bal_End_13_Var_125" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_125_conceptName_1" xlink:title="Var_125_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_125" xlink:to="Var_125_conceptName_1" xlink:title="Var_125_Var_125_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_125_explicitDimension_2" xlink:title="Var_125_explicitDimension_2" id="Var_125_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:OtherFund03Member</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_125" xlink:to="Var_125_explicitDimension_2" xlink:title="Var_125_Var_125_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_125_instantDuration_3" xlink:title="Var_125_instantDuration_3" id="Var_125_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_125" xlink:to="Var_125_instantDuration_3" xlink:title="Var_125_Var_125_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_14" xlink:title="cafr04_Fund_Bal_End_14" id="cafr04_Fund_Bal_End_14" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_14" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_14" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_14">In CAFR04, in Aggregate non-major funds column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_14"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_131" xlink:title="Var_131" id="Var_131" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="Var_131" xlink:title="cafr04_Fund_Bal_End_14_Var_131" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_131_conceptName_1" xlink:title="Var_131_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_131" xlink:to="Var_131_conceptName_1" xlink:title="Var_131_Var_131_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_131_explicitDimension_2" xlink:title="Var_131_explicitDimension_2" id="Var_131_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_131" xlink:to="Var_131_explicitDimension_2" xlink:title="Var_131_Var_131_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_131_explicitDimension_3" xlink:title="Var_131_explicitDimension_3" id="Var_131_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_131" xlink:to="Var_131_explicitDimension_3" xlink:title="Var_131_Var_131_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_131_instantDuration_4" xlink:title="Var_131_instantDuration_4" id="Var_131_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_131" xlink:to="Var_131_instantDuration_4" xlink:title="Var_131_Var_131_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_132" xlink:title="Var_132" id="Var_132" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="Var_132" xlink:title="cafr04_Fund_Bal_End_14_Var_132" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_132_conceptName_1" xlink:title="Var_132_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_132" xlink:to="Var_132_conceptName_1" xlink:title="Var_132_Var_132_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_132_explicitDimension_2" xlink:title="Var_132_explicitDimension_2" id="Var_132_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_132" xlink:to="Var_132_explicitDimension_2" xlink:title="Var_132_Var_132_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_132_explicitDimension_3" xlink:title="Var_132_explicitDimension_3" id="Var_132_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_132" xlink:to="Var_132_explicitDimension_3" xlink:title="Var_132_Var_132_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_132_instantDuration_4" xlink:title="Var_132_instantDuration_4" id="Var_132_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_132" xlink:to="Var_132_instantDuration_4" xlink:title="Var_132_Var_132_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_133" xlink:title="Var_133" id="Var_133" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="Var_133" xlink:title="cafr04_Fund_Bal_End_14_Var_133" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_133_conceptName_1" xlink:title="Var_133_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_133" xlink:to="Var_133_conceptName_1" xlink:title="Var_133_Var_133_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_133_explicitDimension_2" xlink:title="Var_133_explicitDimension_2" id="Var_133_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_133" xlink:to="Var_133_explicitDimension_2" xlink:title="Var_133_Var_133_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_133_explicitDimension_3" xlink:title="Var_133_explicitDimension_3" id="Var_133_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_133" xlink:to="Var_133_explicitDimension_3" xlink:title="Var_133_Var_133_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_134" xlink:title="Var_134" id="Var_134" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="Var_134" xlink:title="cafr04_Fund_Bal_End_14_Var_134" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_134_conceptName_1" xlink:title="Var_134_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_134" xlink:to="Var_134_conceptName_1" xlink:title="Var_134_Var_134_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_134_explicitDimension_2" xlink:title="Var_134_explicitDimension_2" id="Var_134_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_134" xlink:to="Var_134_explicitDimension_2" xlink:title="Var_134_Var_134_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_134_instantDuration_3" xlink:title="Var_134_instantDuration_3" id="Var_134_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_134" xlink:to="Var_134_instantDuration_3" xlink:title="Var_134_Var_134_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_135" xlink:title="Var_135" id="Var_135" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_14" xlink:to="Var_135" xlink:title="cafr04_Fund_Bal_End_14_Var_135" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_135_conceptName_1" xlink:title="Var_135_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_135" xlink:to="Var_135_conceptName_1" xlink:title="Var_135_Var_135_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_135_explicitDimension_2" xlink:title="Var_135_explicitDimension_2" id="Var_135_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_135" xlink:to="Var_135_explicitDimension_2" xlink:title="Var_135_Var_135_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_135_instantDuration_3" xlink:title="Var_135_instantDuration_3" id="Var_135_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_135" xlink:to="Var_135_instantDuration_3" xlink:title="Var_135_Var_135_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Fund_Bal_End_15" xlink:title="cafr04_Fund_Bal_End_15" id="cafr04_Fund_Bal_End_15" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4 + $V5)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Fund_Bal_End_15" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Fund_Bal_End_15" xml:lang="en" id="ErrorMessage_cafr04_Fund_Bal_End_15">In CAFR04, in Total government funds column, Fund balances at end of period MUST be equal to the summation of its components</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="ErrorMessage_cafr04_Fund_Bal_End_15"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_141" xlink:title="Var_141" id="Var_141" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="Var_141" xlink:title="cafr04_Fund_Bal_End_15_Var_141" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_141_conceptName_1" xlink:title="Var_141_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_141" xlink:to="Var_141_conceptName_1" xlink:title="Var_141_Var_141_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_141_explicitDimension_2" xlink:title="Var_141_explicitDimension_2" id="Var_141_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_141" xlink:to="Var_141_explicitDimension_2" xlink:title="Var_141_Var_141_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_141_explicitDimension_3" xlink:title="Var_141_explicitDimension_3" id="Var_141_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_141" xlink:to="Var_141_explicitDimension_3" xlink:title="Var_141_Var_141_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_141_instantDuration_4" xlink:title="Var_141_instantDuration_4" id="Var_141_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_141" xlink:to="Var_141_instantDuration_4" xlink:title="Var_141_Var_141_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_142" xlink:title="Var_142" id="Var_142" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="Var_142" xlink:title="cafr04_Fund_Bal_End_15_Var_142" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_142_conceptName_1" xlink:title="Var_142_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:FundBalancesAtBeginningOfPeriodAfterAdjustments</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_conceptName_1" xlink:title="Var_142_Var_142_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_142_explicitDimension_2" xlink:title="Var_142_explicitDimension_2" id="Var_142_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_explicitDimension_2" xlink:title="Var_142_Var_142_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_142_explicitDimension_3" xlink:title="Var_142_explicitDimension_3" id="Var_142_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_explicitDimension_3" xlink:title="Var_142_Var_142_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_142_instantDuration_4" xlink:title="Var_142_instantDuration_4" id="Var_142_instantDuration_4" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_instantDuration_4" xlink:title="Var_142_Var_142_instantDuration_4" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_143" xlink:title="Var_143" id="Var_143" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="Var_143" xlink:title="cafr04_Fund_Bal_End_15_Var_143" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_143_conceptName_1" xlink:title="Var_143_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_143" xlink:to="Var_143_conceptName_1" xlink:title="Var_143_Var_143_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_143_explicitDimension_2" xlink:title="Var_143_explicitDimension_2" id="Var_143_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_143" xlink:to="Var_143_explicitDimension_2" xlink:title="Var_143_Var_143_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_143_explicitDimension_3" xlink:title="Var_143_explicitDimension_3" id="Var_143_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_143" xlink:to="Var_143_explicitDimension_3" xlink:title="Var_143_Var_143_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_144" xlink:title="Var_144" id="Var_144" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="Var_144" xlink:title="cafr04_Fund_Bal_End_15_Var_144" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_144_conceptName_1" xlink:title="Var_144_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForDecreaseIncreaseInAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_144" xlink:to="Var_144_conceptName_1" xlink:title="Var_144_Var_144_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_144_explicitDimension_2" xlink:title="Var_144_explicitDimension_2" id="Var_144_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_144" xlink:to="Var_144_explicitDimension_2" xlink:title="Var_144_Var_144_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_144_instantDuration_3" xlink:title="Var_144_instantDuration_3" id="Var_144_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_144" xlink:to="Var_144_instantDuration_3" xlink:title="Var_144_Var_144_instantDuration_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_145" xlink:title="Var_145" id="Var_145" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Fund_Bal_End_15" xlink:to="Var_145" xlink:title="cafr04_Fund_Bal_End_15_Var_145" order="5.0" name="V5"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_145_conceptName_1" xlink:title="Var_145_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_145" xlink:to="Var_145_conceptName_1" xlink:title="Var_145_Var_145_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_145_explicitDimension_2" xlink:title="Var_145_explicitDimension_2" id="Var_145_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_145" xlink:to="Var_145_explicitDimension_2" xlink:title="Var_145_Var_145_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <pf:instantDuration xlink:type="resource" xlink:label="Var_145_instantDuration_3" xlink:title="Var_145_instantDuration_3" id="Var_145_instantDuration_3" variable="V3" boundary="end"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_145" xlink:to="Var_145_instantDuration_3" xlink:title="Var_145_Var_145_instantDuration_3" order="3.0" cover="true" complement="false"/>
+  </generic:link>
+</link:linkbase>

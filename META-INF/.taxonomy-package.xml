@@ -8,7 +8,7 @@
 <tp:identifier>https://xbrl.us</tp:identifier>
 <tp:name lang="en">US Department of Financial Services</tp:name>
 <tp:description lang="en">US Department of Financial Services XBRL Taxonomy for Comprehensive Annual Financial Report (CAFR) </tp:description>
-<tp:version>2.0</tp:version>
+<tp:version>3.0</tp:version>
 <tp:publisher>US Department of Financial Services</tp:publisher>
 <tp:publisherURL>https://xbrl.us</tp:publisherURL>
 <tp:entryPoints>

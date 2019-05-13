@@ -3,7 +3,7 @@
 <!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
 <!--Copyrights reserved for XBRL US -->
 <!--Statement | CAFR04 - Governmental funds - Statement of revenues, expenditures and changes in fund balance -->
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ef="http://xbrl.org/2008/filter/entity" xmlns:instance="http://www.xbrl.org/2003/instance">
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:instance="http://www.xbrl.org/2003/instance" xmlns:ef="http://xbrl.org/2008/filter/entity">
   <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
   <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
@@ -18,12 +18,12 @@
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
   <generic:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_01" xlink:title="cafr04_Change_Fund_SubTotal_01" id="cafr04_Change_Fund_SubTotal_01" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_01" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_01" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_01">In CAFR04, in General fund column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_01" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_01"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_01" xlink:title="cafr04_Chg_Fund_Bal_01" id="cafr04_Chg_Fund_Bal_01" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_01" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_01" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_01">In CAFR04, in General fund column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_01" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_01"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_01" xlink:title="Var_01" id="Var_01" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_01" xlink:to="Var_01" xlink:title="cafr04_Change_Fund_SubTotal_01_Var_01" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_01_conceptName_1" xlink:title="Var_01_conceptName_1" id="Var_01_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_01" xlink:to="Var_01" xlink:title="cafr04_Chg_Fund_Bal_01_Var_01" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_01_conceptName_1" xlink:title="Var_01_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -48,10 +48,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_01" xlink:to="Var_01_explicitDimension_3" xlink:title="Var_01_Var_01_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_02" xlink:title="Var_02" id="Var_02" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_01" xlink:to="Var_02" xlink:title="cafr04_Change_Fund_SubTotal_01_Var_02" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_02_conceptName_1" xlink:title="Var_02_conceptName_1" id="Var_02_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_01" xlink:to="Var_02" xlink:title="cafr04_Chg_Fund_Bal_01_Var_02" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_02_conceptName_1" xlink:title="Var_02_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_conceptName_1" xlink:title="Var_02_Var_02_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -64,9 +64,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_explicitDimension_2" xlink:title="Var_02_Var_02_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_02_explicitDimension_3" xlink:title="Var_02_explicitDimension_3" id="Var_02_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_02" xlink:to="Var_02_explicitDimension_3" xlink:title="Var_02_Var_02_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_03" xlink:title="Var_03" id="Var_03" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_01" xlink:to="Var_03" xlink:title="cafr04_Change_Fund_SubTotal_01_Var_03" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_03_conceptName_1" xlink:title="Var_03_conceptName_1" id="Var_03_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_01" xlink:to="Var_03" xlink:title="cafr04_Chg_Fund_Bal_01_Var_03" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_03_conceptName_1" xlink:title="Var_03_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -81,29 +90,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_03" xlink:to="Var_03_explicitDimension_2" xlink:title="Var_03_Var_03_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_04" xlink:title="Var_04" id="Var_04" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_01" xlink:to="Var_04" xlink:title="cafr04_Change_Fund_SubTotal_01_Var_04" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_04_conceptName_1" xlink:title="Var_04_conceptName_1" id="Var_04_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_conceptName_1" xlink:title="Var_04_Var_04_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_04_explicitDimension_2" xlink:title="Var_04_explicitDimension_2" id="Var_04_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:GeneralFundMember</df:qname>
-      </df:member>
-</df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_04" xlink:to="Var_04_explicitDimension_2" xlink:title="Var_04_Var_04_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_02" xlink:title="cafr04_Change_Fund_SubTotal_02" id="cafr04_Change_Fund_SubTotal_02" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_02" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_02" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_02">In CAFR04, in Special revenue fund 01 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_02" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_02"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_02" xlink:title="cafr04_Chg_Fund_Bal_02" id="cafr04_Chg_Fund_Bal_02" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_02" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_02" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_02">In CAFR04, in Special revenue fund 01 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_02" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_02"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_21" xlink:title="Var_21" id="Var_21" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_02" xlink:to="Var_21" xlink:title="cafr04_Change_Fund_SubTotal_02_Var_21" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_21_conceptName_1" xlink:title="Var_21_conceptName_1" id="Var_21_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_02" xlink:to="Var_21" xlink:title="cafr04_Chg_Fund_Bal_02_Var_21" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_21_conceptName_1" xlink:title="Var_21_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -128,10 +120,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_21" xlink:to="Var_21_explicitDimension_3" xlink:title="Var_21_Var_21_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_22" xlink:title="Var_22" id="Var_22" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_02" xlink:to="Var_22" xlink:title="cafr04_Change_Fund_SubTotal_02_Var_22" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_22_conceptName_1" xlink:title="Var_22_conceptName_1" id="Var_22_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_02" xlink:to="Var_22" xlink:title="cafr04_Chg_Fund_Bal_02_Var_22" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_22_conceptName_1" xlink:title="Var_22_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_conceptName_1" xlink:title="Var_22_Var_22_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -144,9 +136,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_explicitDimension_2" xlink:title="Var_22_Var_22_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_22_explicitDimension_3" xlink:title="Var_22_explicitDimension_3" id="Var_22_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_22" xlink:to="Var_22_explicitDimension_3" xlink:title="Var_22_Var_22_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_23" xlink:title="Var_23" id="Var_23" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_02" xlink:to="Var_23" xlink:title="cafr04_Change_Fund_SubTotal_02_Var_23" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_23_conceptName_1" xlink:title="Var_23_conceptName_1" id="Var_23_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_02" xlink:to="Var_23" xlink:title="cafr04_Chg_Fund_Bal_02_Var_23" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_23_conceptName_1" xlink:title="Var_23_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -161,30 +162,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_23" xlink:to="Var_23_explicitDimension_2" xlink:title="Var_23_Var_23_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_24" xlink:title="Var_24" id="Var_24" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_02" xlink:to="Var_24" xlink:title="cafr04_Change_Fund_SubTotal_02_Var_24" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_24_conceptName_1" xlink:title="Var_24_conceptName_1" id="Var_24_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_24" xlink:to="Var_24_conceptName_1" xlink:title="Var_24_Var_24_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_24_explicitDimension_2" xlink:title="Var_24_explicitDimension_2" id="Var_24_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:SpecialRevenueFund01Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_24" xlink:to="Var_24_explicitDimension_2" xlink:title="Var_24_Var_24_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_03" xlink:title="cafr04_Change_Fund_SubTotal_03" id="cafr04_Change_Fund_SubTotal_03" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_03" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_03" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_03">In CAFR04, in Special revenue fund 02 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_03" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_03"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_03" xlink:title="cafr04_Chg_Fund_Bal_03" id="cafr04_Chg_Fund_Bal_03" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_03" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_03" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_03">In CAFR04, in Special revenue fund 02 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_03" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_03"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_41" xlink:title="Var_41" id="Var_41" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_03" xlink:to="Var_41" xlink:title="cafr04_Change_Fund_SubTotal_03_Var_41" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_41_conceptName_1" xlink:title="Var_41_conceptName_1" id="Var_41_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_03" xlink:to="Var_41" xlink:title="cafr04_Chg_Fund_Bal_03_Var_41" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_41_conceptName_1" xlink:title="Var_41_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -209,10 +192,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_41" xlink:to="Var_41_explicitDimension_3" xlink:title="Var_41_Var_41_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_42" xlink:title="Var_42" id="Var_42" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_03" xlink:to="Var_42" xlink:title="cafr04_Change_Fund_SubTotal_03_Var_42" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_42_conceptName_1" xlink:title="Var_42_conceptName_1" id="Var_42_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_03" xlink:to="Var_42" xlink:title="cafr04_Chg_Fund_Bal_03_Var_42" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_42_conceptName_1" xlink:title="Var_42_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_conceptName_1" xlink:title="Var_42_Var_42_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -225,9 +208,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_explicitDimension_2" xlink:title="Var_42_Var_42_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_42_explicitDimension_3" xlink:title="Var_42_explicitDimension_3" id="Var_42_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_42" xlink:to="Var_42_explicitDimension_3" xlink:title="Var_42_Var_42_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_43" xlink:title="Var_43" id="Var_43" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_03" xlink:to="Var_43" xlink:title="cafr04_Change_Fund_SubTotal_03_Var_43" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_43_conceptName_1" xlink:title="Var_43_conceptName_1" id="Var_43_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_03" xlink:to="Var_43" xlink:title="cafr04_Chg_Fund_Bal_03_Var_43" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_43_conceptName_1" xlink:title="Var_43_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -242,30 +234,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_43" xlink:to="Var_43_explicitDimension_2" xlink:title="Var_43_Var_43_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_44" xlink:title="Var_44" id="Var_44" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_03" xlink:to="Var_44" xlink:title="cafr04_Change_Fund_SubTotal_03_Var_44" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_44_conceptName_1" xlink:title="Var_44_conceptName_1" id="Var_44_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_44" xlink:to="Var_44_conceptName_1" xlink:title="Var_44_Var_44_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_44_explicitDimension_2" xlink:title="Var_44_explicitDimension_2" id="Var_44_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_44" xlink:to="Var_44_explicitDimension_2" xlink:title="Var_44_Var_44_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_04" xlink:title="cafr04_Change_Fund_SubTotal_04" id="cafr04_Change_Fund_SubTotal_04" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_04" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_04" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_04">In CAFR04, in Special revenue fund 03 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_04" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_04"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_04" xlink:title="cafr04_Chg_Fund_Bal_04" id="cafr04_Chg_Fund_Bal_04" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_04" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_04" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_04">In CAFR04, in Special revenue fund 03 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_04" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_04"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_61" xlink:title="Var_61" id="Var_61" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_04" xlink:to="Var_61" xlink:title="cafr04_Change_Fund_SubTotal_04_Var_61" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_61_conceptName_1" xlink:title="Var_61_conceptName_1" id="Var_61_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_04" xlink:to="Var_61" xlink:title="cafr04_Chg_Fund_Bal_04_Var_61" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_61_conceptName_1" xlink:title="Var_61_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -290,10 +264,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_61" xlink:to="Var_61_explicitDimension_3" xlink:title="Var_61_Var_61_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_62" xlink:title="Var_62" id="Var_62" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_04" xlink:to="Var_62" xlink:title="cafr04_Change_Fund_SubTotal_04_Var_62" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_62_conceptName_1" xlink:title="Var_62_conceptName_1" id="Var_62_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_04" xlink:to="Var_62" xlink:title="cafr04_Chg_Fund_Bal_04_Var_62" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_62_conceptName_1" xlink:title="Var_62_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_conceptName_1" xlink:title="Var_62_Var_62_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -306,9 +280,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_explicitDimension_2" xlink:title="Var_62_Var_62_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_62_explicitDimension_3" xlink:title="Var_62_explicitDimension_3" id="Var_62_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_62" xlink:to="Var_62_explicitDimension_3" xlink:title="Var_62_Var_62_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_63" xlink:title="Var_63" id="Var_63" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_04" xlink:to="Var_63" xlink:title="cafr04_Change_Fund_SubTotal_04_Var_63" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_63_conceptName_1" xlink:title="Var_63_conceptName_1" id="Var_63_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_04" xlink:to="Var_63" xlink:title="cafr04_Chg_Fund_Bal_04_Var_63" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_63_conceptName_1" xlink:title="Var_63_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -323,30 +306,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_63" xlink:to="Var_63_explicitDimension_2" xlink:title="Var_63_Var_63_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_64" xlink:title="Var_64" id="Var_64" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_04" xlink:to="Var_64" xlink:title="cafr04_Change_Fund_SubTotal_04_Var_64" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_64_conceptName_1" xlink:title="Var_64_conceptName_1" id="Var_64_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_conceptName_1" xlink:title="Var_64_Var_64_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_64_explicitDimension_2" xlink:title="Var_64_explicitDimension_2" id="Var_64_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:SpecialRevenueFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_64" xlink:to="Var_64_explicitDimension_2" xlink:title="Var_64_Var_64_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_05" xlink:title="cafr04_Change_Fund_SubTotal_05" id="cafr04_Change_Fund_SubTotal_05" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_05" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_05" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_05">In CAFR04, in Capital projects fund 01 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_05" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_05"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_05" xlink:title="cafr04_Chg_Fund_Bal_05" id="cafr04_Chg_Fund_Bal_05" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_05" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_05" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_05">In CAFR04, in Capital projects fund 01 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_05" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_05"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_81" xlink:title="Var_81" id="Var_81" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_05" xlink:to="Var_81" xlink:title="cafr04_Change_Fund_SubTotal_05_Var_81" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_81_conceptName_1" xlink:title="Var_81_conceptName_1" id="Var_81_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_05" xlink:to="Var_81" xlink:title="cafr04_Chg_Fund_Bal_05_Var_81" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_81_conceptName_1" xlink:title="Var_81_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -371,10 +336,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_81" xlink:to="Var_81_explicitDimension_3" xlink:title="Var_81_Var_81_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_82" xlink:title="Var_82" id="Var_82" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_05" xlink:to="Var_82" xlink:title="cafr04_Change_Fund_SubTotal_05_Var_82" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_82_conceptName_1" xlink:title="Var_82_conceptName_1" id="Var_82_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_05" xlink:to="Var_82" xlink:title="cafr04_Chg_Fund_Bal_05_Var_82" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_82_conceptName_1" xlink:title="Var_82_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_conceptName_1" xlink:title="Var_82_Var_82_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -387,9 +352,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_explicitDimension_2" xlink:title="Var_82_Var_82_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_82_explicitDimension_3" xlink:title="Var_82_explicitDimension_3" id="Var_82_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_82" xlink:to="Var_82_explicitDimension_3" xlink:title="Var_82_Var_82_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_83" xlink:title="Var_83" id="Var_83" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_05" xlink:to="Var_83" xlink:title="cafr04_Change_Fund_SubTotal_05_Var_83" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_83_conceptName_1" xlink:title="Var_83_conceptName_1" id="Var_83_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_05" xlink:to="Var_83" xlink:title="cafr04_Chg_Fund_Bal_05_Var_83" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_83_conceptName_1" xlink:title="Var_83_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -404,30 +378,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_83" xlink:to="Var_83_explicitDimension_2" xlink:title="Var_83_Var_83_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_84" xlink:title="Var_84" id="Var_84" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_05" xlink:to="Var_84" xlink:title="cafr04_Change_Fund_SubTotal_05_Var_84" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_84_conceptName_1" xlink:title="Var_84_conceptName_1" id="Var_84_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_84" xlink:to="Var_84_conceptName_1" xlink:title="Var_84_Var_84_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_84_explicitDimension_2" xlink:title="Var_84_explicitDimension_2" id="Var_84_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:CapitalProjectsFund01Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_84" xlink:to="Var_84_explicitDimension_2" xlink:title="Var_84_Var_84_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_06" xlink:title="cafr04_Change_Fund_SubTotal_06" id="cafr04_Change_Fund_SubTotal_06" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_06" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_06" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_06">In CAFR04, in Capital projects fund 02 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_06" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_06"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_06" xlink:title="cafr04_Chg_Fund_Bal_06" id="cafr04_Chg_Fund_Bal_06" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_06" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_06" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_06">In CAFR04, in Capital projects fund 02 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_06" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_06"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_101" xlink:title="Var_101" id="Var_101" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_06" xlink:to="Var_101" xlink:title="cafr04_Change_Fund_SubTotal_06_Var_101" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_101_conceptName_1" xlink:title="Var_101_conceptName_1" id="Var_101_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_06" xlink:to="Var_101" xlink:title="cafr04_Chg_Fund_Bal_06_Var_101" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_101_conceptName_1" xlink:title="Var_101_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -452,10 +408,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_explicitDimension_3" xlink:title="Var_101_Var_101_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_102" xlink:title="Var_102" id="Var_102" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_06" xlink:to="Var_102" xlink:title="cafr04_Change_Fund_SubTotal_06_Var_102" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_102_conceptName_1" xlink:title="Var_102_conceptName_1" id="Var_102_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_06" xlink:to="Var_102" xlink:title="cafr04_Chg_Fund_Bal_06_Var_102" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_102_conceptName_1" xlink:title="Var_102_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_conceptName_1" xlink:title="Var_102_Var_102_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -468,9 +424,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_2" xlink:title="Var_102_Var_102_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_102_explicitDimension_3" xlink:title="Var_102_explicitDimension_3" id="Var_102_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_3" xlink:title="Var_102_Var_102_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_103" xlink:title="Var_103" id="Var_103" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_06" xlink:to="Var_103" xlink:title="cafr04_Change_Fund_SubTotal_06_Var_103" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_103_conceptName_1" xlink:title="Var_103_conceptName_1" id="Var_103_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_06" xlink:to="Var_103" xlink:title="cafr04_Chg_Fund_Bal_06_Var_103" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_103_conceptName_1" xlink:title="Var_103_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -485,30 +450,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_explicitDimension_2" xlink:title="Var_103_Var_103_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_104" xlink:title="Var_104" id="Var_104" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_06" xlink:to="Var_104" xlink:title="cafr04_Change_Fund_SubTotal_06_Var_104" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_104_conceptName_1" xlink:title="Var_104_conceptName_1" id="Var_104_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_conceptName_1" xlink:title="Var_104_Var_104_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_104_explicitDimension_2" xlink:title="Var_104_explicitDimension_2" id="Var_104_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_explicitDimension_2" xlink:title="Var_104_Var_104_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_07" xlink:title="cafr04_Change_Fund_SubTotal_07" id="cafr04_Change_Fund_SubTotal_07" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_07" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_07" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_07">In CAFR04, in Capital projects fund 03 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_07" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_07"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_07" xlink:title="cafr04_Chg_Fund_Bal_07" id="cafr04_Chg_Fund_Bal_07" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_07" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_07" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_07">In CAFR04, in Capital projects fund 03 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_07" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_07"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_121" xlink:title="Var_121" id="Var_121" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_07" xlink:to="Var_121" xlink:title="cafr04_Change_Fund_SubTotal_07_Var_121" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_121_conceptName_1" xlink:title="Var_121_conceptName_1" id="Var_121_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_07" xlink:to="Var_121" xlink:title="cafr04_Chg_Fund_Bal_07_Var_121" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_121_conceptName_1" xlink:title="Var_121_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -533,10 +480,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_121" xlink:to="Var_121_explicitDimension_3" xlink:title="Var_121_Var_121_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_122" xlink:title="Var_122" id="Var_122" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_07" xlink:to="Var_122" xlink:title="cafr04_Change_Fund_SubTotal_07_Var_122" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_122_conceptName_1" xlink:title="Var_122_conceptName_1" id="Var_122_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_07" xlink:to="Var_122" xlink:title="cafr04_Chg_Fund_Bal_07_Var_122" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_122_conceptName_1" xlink:title="Var_122_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_conceptName_1" xlink:title="Var_122_Var_122_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -549,9 +496,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_explicitDimension_2" xlink:title="Var_122_Var_122_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_122_explicitDimension_3" xlink:title="Var_122_explicitDimension_3" id="Var_122_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_122" xlink:to="Var_122_explicitDimension_3" xlink:title="Var_122_Var_122_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_123" xlink:title="Var_123" id="Var_123" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_07" xlink:to="Var_123" xlink:title="cafr04_Change_Fund_SubTotal_07_Var_123" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_123_conceptName_1" xlink:title="Var_123_conceptName_1" id="Var_123_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_07" xlink:to="Var_123" xlink:title="cafr04_Chg_Fund_Bal_07_Var_123" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_123_conceptName_1" xlink:title="Var_123_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -566,30 +522,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_123" xlink:to="Var_123_explicitDimension_2" xlink:title="Var_123_Var_123_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_124" xlink:title="Var_124" id="Var_124" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_07" xlink:to="Var_124" xlink:title="cafr04_Change_Fund_SubTotal_07_Var_124" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_124_conceptName_1" xlink:title="Var_124_conceptName_1" id="Var_124_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_124" xlink:to="Var_124_conceptName_1" xlink:title="Var_124_Var_124_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_124_explicitDimension_2" xlink:title="Var_124_explicitDimension_2" id="Var_124_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:CapitalProjectsFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_124" xlink:to="Var_124_explicitDimension_2" xlink:title="Var_124_Var_124_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_08" xlink:title="cafr04_Change_Fund_SubTotal_08" id="cafr04_Change_Fund_SubTotal_08" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_08" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_08" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_08">In CAFR04, in Debt service fund 01 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_08" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_08"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_08" xlink:title="cafr04_Chg_Fund_Bal_08" id="cafr04_Chg_Fund_Bal_08" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_08" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_08" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_08">In CAFR04, in Debt service fund 01 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_08" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_08"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_141" xlink:title="Var_141" id="Var_141" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_08" xlink:to="Var_141" xlink:title="cafr04_Change_Fund_SubTotal_08_Var_141" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_141_conceptName_1" xlink:title="Var_141_conceptName_1" id="Var_141_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_08" xlink:to="Var_141" xlink:title="cafr04_Chg_Fund_Bal_08_Var_141" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_141_conceptName_1" xlink:title="Var_141_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -614,10 +552,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_141" xlink:to="Var_141_explicitDimension_3" xlink:title="Var_141_Var_141_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_142" xlink:title="Var_142" id="Var_142" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_08" xlink:to="Var_142" xlink:title="cafr04_Change_Fund_SubTotal_08_Var_142" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_142_conceptName_1" xlink:title="Var_142_conceptName_1" id="Var_142_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_08" xlink:to="Var_142" xlink:title="cafr04_Chg_Fund_Bal_08_Var_142" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_142_conceptName_1" xlink:title="Var_142_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_conceptName_1" xlink:title="Var_142_Var_142_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -630,9 +568,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_explicitDimension_2" xlink:title="Var_142_Var_142_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_142_explicitDimension_3" xlink:title="Var_142_explicitDimension_3" id="Var_142_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_142" xlink:to="Var_142_explicitDimension_3" xlink:title="Var_142_Var_142_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_143" xlink:title="Var_143" id="Var_143" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_08" xlink:to="Var_143" xlink:title="cafr04_Change_Fund_SubTotal_08_Var_143" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_143_conceptName_1" xlink:title="Var_143_conceptName_1" id="Var_143_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_08" xlink:to="Var_143" xlink:title="cafr04_Chg_Fund_Bal_08_Var_143" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_143_conceptName_1" xlink:title="Var_143_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -647,30 +594,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_143" xlink:to="Var_143_explicitDimension_2" xlink:title="Var_143_Var_143_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_144" xlink:title="Var_144" id="Var_144" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_08" xlink:to="Var_144" xlink:title="cafr04_Change_Fund_SubTotal_08_Var_144" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_144_conceptName_1" xlink:title="Var_144_conceptName_1" id="Var_144_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_144" xlink:to="Var_144_conceptName_1" xlink:title="Var_144_Var_144_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_144_explicitDimension_2" xlink:title="Var_144_explicitDimension_2" id="Var_144_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:DebtServiceFund01Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_144" xlink:to="Var_144_explicitDimension_2" xlink:title="Var_144_Var_144_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_09" xlink:title="cafr04_Change_Fund_SubTotal_09" id="cafr04_Change_Fund_SubTotal_09" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_09" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_09" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_09">In CAFR04, in Debt service fund 02 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_09" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_09"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_09" xlink:title="cafr04_Chg_Fund_Bal_09" id="cafr04_Chg_Fund_Bal_09" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_09" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_09" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_09">In CAFR04, in Debt service fund 02 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_09" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_09"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_161" xlink:title="Var_161" id="Var_161" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_09" xlink:to="Var_161" xlink:title="cafr04_Change_Fund_SubTotal_09_Var_161" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_161_conceptName_1" xlink:title="Var_161_conceptName_1" id="Var_161_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_09" xlink:to="Var_161" xlink:title="cafr04_Chg_Fund_Bal_09_Var_161" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_161_conceptName_1" xlink:title="Var_161_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -695,10 +624,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_161" xlink:to="Var_161_explicitDimension_3" xlink:title="Var_161_Var_161_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_162" xlink:title="Var_162" id="Var_162" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_09" xlink:to="Var_162" xlink:title="cafr04_Change_Fund_SubTotal_09_Var_162" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_162_conceptName_1" xlink:title="Var_162_conceptName_1" id="Var_162_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_09" xlink:to="Var_162" xlink:title="cafr04_Chg_Fund_Bal_09_Var_162" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_162_conceptName_1" xlink:title="Var_162_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_162" xlink:to="Var_162_conceptName_1" xlink:title="Var_162_Var_162_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -711,9 +640,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_162" xlink:to="Var_162_explicitDimension_2" xlink:title="Var_162_Var_162_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_162_explicitDimension_3" xlink:title="Var_162_explicitDimension_3" id="Var_162_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_162" xlink:to="Var_162_explicitDimension_3" xlink:title="Var_162_Var_162_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_163" xlink:title="Var_163" id="Var_163" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_09" xlink:to="Var_163" xlink:title="cafr04_Change_Fund_SubTotal_09_Var_163" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_163_conceptName_1" xlink:title="Var_163_conceptName_1" id="Var_163_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_09" xlink:to="Var_163" xlink:title="cafr04_Chg_Fund_Bal_09_Var_163" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_163_conceptName_1" xlink:title="Var_163_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -728,30 +666,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_163" xlink:to="Var_163_explicitDimension_2" xlink:title="Var_163_Var_163_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_164" xlink:title="Var_164" id="Var_164" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_09" xlink:to="Var_164" xlink:title="cafr04_Change_Fund_SubTotal_09_Var_164" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_164_conceptName_1" xlink:title="Var_164_conceptName_1" id="Var_164_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_164" xlink:to="Var_164_conceptName_1" xlink:title="Var_164_Var_164_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_164_explicitDimension_2" xlink:title="Var_164_explicitDimension_2" id="Var_164_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_164" xlink:to="Var_164_explicitDimension_2" xlink:title="Var_164_Var_164_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_10" xlink:title="cafr04_Change_Fund_SubTotal_10" id="cafr04_Change_Fund_SubTotal_10" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_10" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_10" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_10">In CAFR04, in Debt service fund 03 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_10" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_10"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_10" xlink:title="cafr04_Chg_Fund_Bal_10" id="cafr04_Chg_Fund_Bal_10" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_10" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_10" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_10">In CAFR04, in Debt service fund 03 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_10" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_10"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_181" xlink:title="Var_181" id="Var_181" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_10" xlink:to="Var_181" xlink:title="cafr04_Change_Fund_SubTotal_10_Var_181" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_181_conceptName_1" xlink:title="Var_181_conceptName_1" id="Var_181_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_10" xlink:to="Var_181" xlink:title="cafr04_Chg_Fund_Bal_10_Var_181" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_181_conceptName_1" xlink:title="Var_181_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -776,10 +696,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_181" xlink:to="Var_181_explicitDimension_3" xlink:title="Var_181_Var_181_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_182" xlink:title="Var_182" id="Var_182" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_10" xlink:to="Var_182" xlink:title="cafr04_Change_Fund_SubTotal_10_Var_182" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_182_conceptName_1" xlink:title="Var_182_conceptName_1" id="Var_182_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_10" xlink:to="Var_182" xlink:title="cafr04_Chg_Fund_Bal_10_Var_182" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_182_conceptName_1" xlink:title="Var_182_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_182" xlink:to="Var_182_conceptName_1" xlink:title="Var_182_Var_182_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -792,9 +712,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_182" xlink:to="Var_182_explicitDimension_2" xlink:title="Var_182_Var_182_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_182_explicitDimension_3" xlink:title="Var_182_explicitDimension_3" id="Var_182_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_182" xlink:to="Var_182_explicitDimension_3" xlink:title="Var_182_Var_182_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_183" xlink:title="Var_183" id="Var_183" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_10" xlink:to="Var_183" xlink:title="cafr04_Change_Fund_SubTotal_10_Var_183" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_183_conceptName_1" xlink:title="Var_183_conceptName_1" id="Var_183_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_10" xlink:to="Var_183" xlink:title="cafr04_Chg_Fund_Bal_10_Var_183" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_183_conceptName_1" xlink:title="Var_183_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -809,30 +738,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_183" xlink:to="Var_183_explicitDimension_2" xlink:title="Var_183_Var_183_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_184" xlink:title="Var_184" id="Var_184" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_10" xlink:to="Var_184" xlink:title="cafr04_Change_Fund_SubTotal_10_Var_184" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_184_conceptName_1" xlink:title="Var_184_conceptName_1" id="Var_184_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_184" xlink:to="Var_184_conceptName_1" xlink:title="Var_184_Var_184_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_184_explicitDimension_2" xlink:title="Var_184_explicitDimension_2" id="Var_184_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:DebtServiceFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_184" xlink:to="Var_184_explicitDimension_2" xlink:title="Var_184_Var_184_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_11" xlink:title="cafr04_Change_Fund_SubTotal_11" id="cafr04_Change_Fund_SubTotal_11" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_11" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_11" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_11">In CAFR04, in Other fund 01 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_11" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_11"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_11" xlink:title="cafr04_Chg_Fund_Bal_11" id="cafr04_Chg_Fund_Bal_11" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_11" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_11" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_11">In CAFR04, in Other fund 01 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_11" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_11"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_201" xlink:title="Var_201" id="Var_201" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_11" xlink:to="Var_201" xlink:title="cafr04_Change_Fund_SubTotal_11_Var_201" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_201_conceptName_1" xlink:title="Var_201_conceptName_1" id="Var_201_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_11" xlink:to="Var_201" xlink:title="cafr04_Chg_Fund_Bal_11_Var_201" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_201_conceptName_1" xlink:title="Var_201_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -857,10 +768,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_3" xlink:title="Var_201_Var_201_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_202" xlink:title="Var_202" id="Var_202" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_11" xlink:to="Var_202" xlink:title="cafr04_Change_Fund_SubTotal_11_Var_202" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_202_conceptName_1" xlink:title="Var_202_conceptName_1" id="Var_202_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_11" xlink:to="Var_202" xlink:title="cafr04_Chg_Fund_Bal_11_Var_202" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_202_conceptName_1" xlink:title="Var_202_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_conceptName_1" xlink:title="Var_202_Var_202_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -873,9 +784,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_2" xlink:title="Var_202_Var_202_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_3" xlink:title="Var_202_explicitDimension_3" id="Var_202_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_3" xlink:title="Var_202_Var_202_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_203" xlink:title="Var_203" id="Var_203" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_11" xlink:to="Var_203" xlink:title="cafr04_Change_Fund_SubTotal_11_Var_203" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_203_conceptName_1" xlink:title="Var_203_conceptName_1" id="Var_203_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_11" xlink:to="Var_203" xlink:title="cafr04_Chg_Fund_Bal_11_Var_203" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_203_conceptName_1" xlink:title="Var_203_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -890,30 +810,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_2" xlink:title="Var_203_Var_203_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_204" xlink:title="Var_204" id="Var_204" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_11" xlink:to="Var_204" xlink:title="cafr04_Change_Fund_SubTotal_11_Var_204" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_204_conceptName_1" xlink:title="Var_204_conceptName_1" id="Var_204_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_204" xlink:to="Var_204_conceptName_1" xlink:title="Var_204_Var_204_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_204_explicitDimension_2" xlink:title="Var_204_explicitDimension_2" id="Var_204_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:OtherFund01Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_204" xlink:to="Var_204_explicitDimension_2" xlink:title="Var_204_Var_204_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_12" xlink:title="cafr04_Change_Fund_SubTotal_12" id="cafr04_Change_Fund_SubTotal_12" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_12" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_12" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_12">In CAFR04, in Other fund 02 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_12" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_12"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_12" xlink:title="cafr04_Chg_Fund_Bal_12" id="cafr04_Chg_Fund_Bal_12" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_12" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_12" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_12">In CAFR04, in Other fund 02 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_12" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_12"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_221" xlink:title="Var_221" id="Var_221" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_12" xlink:to="Var_221" xlink:title="cafr04_Change_Fund_SubTotal_12_Var_221" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_221_conceptName_1" xlink:title="Var_221_conceptName_1" id="Var_221_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_12" xlink:to="Var_221" xlink:title="cafr04_Chg_Fund_Bal_12_Var_221" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_221_conceptName_1" xlink:title="Var_221_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -938,10 +840,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_221" xlink:to="Var_221_explicitDimension_3" xlink:title="Var_221_Var_221_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_222" xlink:title="Var_222" id="Var_222" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_12" xlink:to="Var_222" xlink:title="cafr04_Change_Fund_SubTotal_12_Var_222" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_222_conceptName_1" xlink:title="Var_222_conceptName_1" id="Var_222_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_12" xlink:to="Var_222" xlink:title="cafr04_Chg_Fund_Bal_12_Var_222" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_222_conceptName_1" xlink:title="Var_222_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_222" xlink:to="Var_222_conceptName_1" xlink:title="Var_222_Var_222_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -954,9 +856,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_222" xlink:to="Var_222_explicitDimension_2" xlink:title="Var_222_Var_222_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_222_explicitDimension_3" xlink:title="Var_222_explicitDimension_3" id="Var_222_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_222" xlink:to="Var_222_explicitDimension_3" xlink:title="Var_222_Var_222_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_223" xlink:title="Var_223" id="Var_223" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_12" xlink:to="Var_223" xlink:title="cafr04_Change_Fund_SubTotal_12_Var_223" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_223_conceptName_1" xlink:title="Var_223_conceptName_1" id="Var_223_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_12" xlink:to="Var_223" xlink:title="cafr04_Chg_Fund_Bal_12_Var_223" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_223_conceptName_1" xlink:title="Var_223_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -971,30 +882,12 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_223" xlink:to="Var_223_explicitDimension_2" xlink:title="Var_223_Var_223_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_224" xlink:title="Var_224" id="Var_224" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_12" xlink:to="Var_224" xlink:title="cafr04_Change_Fund_SubTotal_12_Var_224" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_224_conceptName_1" xlink:title="Var_224_conceptName_1" id="Var_224_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_224" xlink:to="Var_224_conceptName_1" xlink:title="Var_224_Var_224_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_224_explicitDimension_2" xlink:title="Var_224_explicitDimension_2" id="Var_224_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:OtherFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_224" xlink:to="Var_224_explicitDimension_2" xlink:title="Var_224_Var_224_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_13" xlink:title="cafr04_Change_Fund_SubTotal_13" id="cafr04_Change_Fund_SubTotal_13" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_13" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_13" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_13">In CAFR04, in Other fund 03 column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_13" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_13"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_13" xlink:title="cafr04_Chg_Fund_Bal_13" id="cafr04_Chg_Fund_Bal_13" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_13" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_13" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_13">In CAFR04, in Other fund 03 column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_13" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_13"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_241" xlink:title="Var_241" id="Var_241" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_13" xlink:to="Var_241" xlink:title="cafr04_Change_Fund_SubTotal_13_Var_241" order="1.0" name="V1"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_241_conceptName_1" xlink:title="Var_241_conceptName_1" id="Var_241_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_13" xlink:to="Var_241" xlink:title="cafr04_Chg_Fund_Bal_13_Var_241" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_241_conceptName_1" xlink:title="Var_241_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
@@ -1019,10 +912,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_241" xlink:to="Var_241_explicitDimension_3" xlink:title="Var_241_Var_241_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_242" xlink:title="Var_242" id="Var_242" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_13" xlink:to="Var_242" xlink:title="cafr04_Change_Fund_SubTotal_13_Var_242" order="2.0" name="V2"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_242_conceptName_1" xlink:title="Var_242_conceptName_1" id="Var_242_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_13" xlink:to="Var_242" xlink:title="cafr04_Chg_Fund_Bal_13_Var_242" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_242_conceptName_1" xlink:title="Var_242_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_242" xlink:to="Var_242_conceptName_1" xlink:title="Var_242_Var_242_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -1035,9 +928,18 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_242" xlink:to="Var_242_explicitDimension_2" xlink:title="Var_242_Var_242_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_242_explicitDimension_3" xlink:title="Var_242_explicitDimension_3" id="Var_242_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_242" xlink:to="Var_242_explicitDimension_3" xlink:title="Var_242_Var_242_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_243" xlink:title="Var_243" id="Var_243" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_13" xlink:to="Var_243" xlink:title="cafr04_Change_Fund_SubTotal_13_Var_243" order="3.0" name="V3"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_243_conceptName_1" xlink:title="Var_243_conceptName_1" id="Var_243_conceptName_1">
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_13" xlink:to="Var_243" xlink:title="cafr04_Chg_Fund_Bal_13_Var_243" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_243_conceptName_1" xlink:title="Var_243_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
       </cf:concept>
@@ -1052,29 +954,11 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_243" xlink:to="Var_243_explicitDimension_2" xlink:title="Var_243_Var_243_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_244" xlink:title="Var_244" id="Var_244" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_13" xlink:to="Var_244" xlink:title="cafr04_Change_Fund_SubTotal_13_Var_244" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_244_conceptName_1" xlink:title="Var_244_conceptName_1" id="Var_244_conceptName_1">
-      <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
-      </cf:concept>
-    </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_244" xlink:to="Var_244_conceptName_1" xlink:title="Var_244_Var_244_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_244_explicitDimension_2" xlink:title="Var_244_explicitDimension_2" id="Var_244_explicitDimension_2">
-      <df:dimension>
-        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
-      </df:dimension>
-	   <df:member>
-        <df:qname>us-cafr:OtherFund03Member</df:qname>
-      </df:member>
-	  
-    </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_244" xlink:to="Var_244_explicitDimension_2" xlink:title="Var_244_Var_244_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Change_Fund_SubTotal_14" xlink:title="cafr04_Change_Fund_SubTotal_14" id="cafr04_Change_Fund_SubTotal_14" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
-    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Change_Fund_SubTotal_14" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Change_Fund_SubTotal_14" xml:lang="en" id="ErrorMessage_cafr04_Change_Fund_SubTotal_14">In CAFR04, in Total government funds column, Changes in fund balances MUST be equal to Excess (deficit) of revenues over expenditures + Total other financing sources (uses) + Total adjustments to revenues</msg:message>
-    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Change_Fund_SubTotal_14" xlink:to="ErrorMessage_cafr04_Change_Fund_SubTotal_14"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_14" xlink:title="cafr04_Chg_Fund_Bal_14" id="cafr04_Chg_Fund_Bal_14" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_14" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_14" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_14">In CAFR04, in Total government funds column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_14" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_14"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_261" xlink:title="Var_261" id="Var_261" bindAsSequence="false"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_14" xlink:to="Var_261" xlink:title="cafr04_Change_Fund_SubTotal_14_Var_261" order="1.0" name="V1"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_14" xlink:to="Var_261" xlink:title="cafr04_Chg_Fund_Bal_14_Var_261" order="1.0" name="V1"/>
     <cf:conceptName xlink:type="resource" xlink:label="Var_261_conceptName_1" xlink:title="Var_261_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
@@ -1100,10 +984,10 @@
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_261" xlink:to="Var_261_explicitDimension_3" xlink:title="Var_261_Var_261_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_262" xlink:title="Var_262" id="Var_262" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_14" xlink:to="Var_262" xlink:title="cafr04_Change_Fund_SubTotal_14_Var_262" order="2.0" name="V2"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_14" xlink:to="Var_262" xlink:title="cafr04_Chg_Fund_Bal_14_Var_262" order="2.0" name="V2"/>
     <cf:conceptName xlink:type="resource" xlink:label="Var_262_conceptName_1" xlink:title="Var_262_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:ExcessDeficitOfRevenuesOverExpenditures</cf:qname>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
       </cf:concept>
     </cf:conceptName>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_262" xlink:to="Var_262_conceptName_1" xlink:title="Var_262_Var_262_conceptName_1" order="1.0" cover="true" complement="false"/>
@@ -1116,8 +1000,17 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_262" xlink:to="Var_262_explicitDimension_2" xlink:title="Var_262_Var_262_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_262_explicitDimension_3" xlink:title="Var_262_explicitDimension_3" id="Var_262_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_262" xlink:to="Var_262_explicitDimension_3" xlink:title="Var_262_Var_262_explicitDimension_3" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="Var_263" xlink:title="Var_263" id="Var_263" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_14" xlink:to="Var_263" xlink:title="cafr04_Change_Fund_SubTotal_14_Var_263" order="3.0" name="V3"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_14" xlink:to="Var_263" xlink:title="cafr04_Chg_Fund_Bal_14_Var_263" order="3.0" name="V3"/>
     <cf:conceptName xlink:type="resource" xlink:label="Var_263_conceptName_1" xlink:title="Var_263_conceptName_1">
       <cf:concept>
         <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
@@ -1133,22 +1026,77 @@
       </df:member>
     </df:explicitDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_263" xlink:to="Var_263_explicitDimension_2" xlink:title="Var_263_Var_263_explicitDimension_2" order="2.0" cover="true" complement="false"/>
-    <variable:factVariable xlink:type="resource" xlink:label="Var_264" xlink:title="Var_264" id="Var_264" bindAsSequence="false" fallbackValue="0"/>
-    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Change_Fund_SubTotal_14" xlink:to="Var_264" xlink:title="cafr04_Change_Fund_SubTotal_14_Var_264" order="4.0" name="V4"/>
-    <cf:conceptName xlink:type="resource" xlink:label="Var_264_conceptName_1" xlink:title="Var_264_conceptName_1">
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr04_Chg_Fund_Bal_15" xlink:title="cafr04_Chg_Fund_Bal_15" id="cafr04_Chg_Fund_Bal_15" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr04_Chg_Fund_Bal_15" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr04_Chg_Fund_Bal_15" xml:lang="en" id="ErrorMessage_cafr04_Chg_Fund_Bal_15">In CAFR04, in Aggregate non-major funds column, Changes in fund balances MUST be equal to Excess (deficiency) of revenues over (under) expenditures  + Total other financing sources (uses)</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr04_Chg_Fund_Bal_15" xlink:to="ErrorMessage_cafr04_Chg_Fund_Bal_15"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_271" xlink:title="Var_271" id="Var_271" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_15" xlink:to="Var_271" xlink:title="cafr04_Chg_Fund_Bal_15_Var_271" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_271_conceptName_1" xlink:title="Var_271_conceptName_1">
       <cf:concept>
-        <cf:qname>us-cafr:AdjustmentsToRevenues</cf:qname>
+        <cf:qname>us-cafr:ChangesInFundBalances</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_264" xlink:to="Var_264_conceptName_1" xlink:title="Var_264_Var_264_conceptName_1" order="1.0" cover="true" complement="false"/>
-    <df:explicitDimension xlink:type="resource" xlink:label="Var_264_explicitDimension_2" xlink:title="Var_264_explicitDimension_2" id="Var_264_explicitDimension_2">
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_271" xlink:to="Var_271_conceptName_1" xlink:title="Var_271_Var_271_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_271_explicitDimension_2" xlink:title="Var_271_explicitDimension_2" id="Var_271_explicitDimension_2">
       <df:dimension>
         <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
       </df:dimension>
       <df:member>
-        <df:qname>us-cafr:TotalGovernmentFundsMember</df:qname>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
       </df:member>
     </df:explicitDimension>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_264" xlink:to="Var_264_explicitDimension_2" xlink:title="Var_264_Var_264_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_271" xlink:to="Var_271_explicitDimension_2" xlink:title="Var_271_Var_271_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_271_explicitDimension_3" xlink:title="Var_271_explicitDimension_3" id="Var_271_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_271" xlink:to="Var_271_explicitDimension_3" xlink:title="Var_271_Var_271_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_272" xlink:title="Var_272" id="Var_272" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_15" xlink:to="Var_272" xlink:title="cafr04_Chg_Fund_Bal_15_Var_272" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_272_conceptName_1" xlink:title="Var_272_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:ExcessDeficiencyOfRevenuesOverUnderExpenditures</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_272" xlink:to="Var_272_conceptName_1" xlink:title="Var_272_Var_272_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_272_explicitDimension_2" xlink:title="Var_272_explicitDimension_2" id="Var_272_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_272" xlink:to="Var_272_explicitDimension_2" xlink:title="Var_272_Var_272_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_272_explicitDimension_3" xlink:title="Var_272_explicitDimension_3" id="Var_272_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_272" xlink:to="Var_272_explicitDimension_3" xlink:title="Var_272_Var_272_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_273" xlink:title="Var_273" id="Var_273" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr04_Chg_Fund_Bal_15" xlink:to="Var_273" xlink:title="cafr04_Chg_Fund_Bal_15_Var_273" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_273_conceptName_1" xlink:title="Var_273_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:OtherFinancingSourcesUses</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_273" xlink:to="Var_273_conceptName_1" xlink:title="Var_273_Var_273_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_273_explicitDimension_2" xlink:title="Var_273_explicitDimension_2" id="Var_273_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfGovernmentalFundsAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:AggregateNonMajorFundsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_273" xlink:to="Var_273_explicitDimension_2" xlink:title="Var_273_Var_273_explicitDimension_2" order="2.0" cover="true" complement="false"/>
   </generic:link>
 </link:linkbase>

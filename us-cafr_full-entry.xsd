@@ -3,13 +3,8 @@
 <!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
 <!--Copyrights reserved for XBRL US -->
 <!-- Main entry point for all statements-->
-<xsd:schema targetNamespace="https://xbrl.us/2019/us-cafr_full-entry" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr-full-entry="https://xbrl.us/2019/us-cafr_full-entry" xmlns:filinginfo-entry="https://xbrl.us/2019/filinginfo-entry" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-cafr_core-entry="https://xbrl.us/2019/us-cafr_core-entry" xmlns:cafr02-entry="https://xbrl.us/2019/cafr02-entry" xmlns:cafr04-entry="https://xbrl.us/2019/cafr04-entry" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:cafr01-entry="https://xbrl.us/2019/cafr01-entry" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:cafr03-entry="https://xbrl.us/2019/cafr03-entry" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <xsd:annotation>
-    <xsd:appinfo>
-      <link:linkbaseRef xlink:type="simple" xlink:href="formula/cafr01_cafr02-formula-prim-gov-total.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
-      <link:linkbaseRef xlink:type="simple" xlink:href="formula/cafr03_cafr04-formula-gov-fund-total.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
-    </xsd:appinfo>
-  </xsd:annotation>
+<xsd:schema targetNamespace="https://xbrl.us/2019/us-cafr_full-entry" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr_full-entry="https://xbrl.us/2019/us-cafr_full-entry" xmlns:filinginfo-entry="https://xbrl.us/2019/filinginfo-entry" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-cafr_core-entry="https://xbrl.us/2019/us-cafr_core-entry" xmlns:cafr02-entry="https://xbrl.us/2019/cafr02-entry" xmlns:cafr04-entry="https://xbrl.us/2019/cafr04-entry" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:cafr01-entry="https://xbrl.us/2019/cafr01-entry" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:cafr03-entry="https://xbrl.us/2019/cafr03-entry" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
   <xsd:import namespace="https://xbrl.us/2019/filinginfo-entry" schemaLocation="reports/filinginfo/1.0.0/filinginfo-entry.xsd"/>
   <xsd:import namespace="https://xbrl.us/2019/cafr01-entry" schemaLocation="reports/cafr01/1.0.0/cafr01-entry.xsd"/>

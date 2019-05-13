@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR02-Statement of activities -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:instance="http://www.xbrl.org/2003/instance" xmlns:ef="http://xbrl.org/2008/filter/entity">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-satisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-satisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-parameter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-parameter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-formula" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-formula"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-precondition"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <generic:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+  
+  
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_cafr02_Prm_Govt_01" xlink:title="cafr01_cafr02_Prm_Govt_01" id="cafr01_cafr02_Prm_Govt_01" test="(round ($V3 * 100) div 100) = (round (($V1 + $V2)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="cafr_01_ErrorMessage" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="cafr_01_ErrorMessage" xml:lang="en" id="cafr_01_ErrorMessage">In CAFR01 and CAFR02, Total primary government activities = Governmental activities + Business-type activities</msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_cafr02_Prm_Govt_01" xlink:to="cafr_01_ErrorMessage"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_201" xlink:title="Var_201" id="Var_201" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_cafr02_Prm_Govt_01" xlink:to="Var_201" xlink:title="cafr01_cafr02_Prm_Govt_01_Var_201" order="1.0" name="V1"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_201_explicitDimension_1" xlink:title="Var_201_explicitDimension_1" id="Var_201_explicitDimension_1">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_1" xlink:title="Var_201_Var_201_explicitDimension_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_201_explicitDimension_3" xlink:title="Var_201_explicitDimension_3" id="Var_201_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_3" xlink:title="Var_201_Var_201_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_201_explicitDimension_4" xlink:title="Var_201_explicitDimension_4" id="Var_201_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_4" xlink:title="Var_201_Var_201_explicitDimension_4" order="4.0" cover="true" complement="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_202" xlink:title="Var_202" id="Var_202" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_cafr02_Prm_Govt_01" xlink:to="Var_202" xlink:title="cafr01_cafr02_Prm_Govt_01_Var_202" order="2.0" name="V2"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_1" xlink:title="Var_202_explicitDimension_1" id="Var_202_explicitDimension_1">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_1" xlink:title="Var_202_Var_202_explicitDimension_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_3" xlink:title="Var_202_explicitDimension_3" id="Var_202_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_3" xlink:title="Var_202_Var_202_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_4" xlink:title="Var_202_explicitDimension_4" id="Var_202_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_4" xlink:title="Var_202_Var_202_explicitDimension_4" order="4.0" cover="true" complement="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_203" xlink:title="Var_203" id="Var_203" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_cafr02_Prm_Govt_01" xlink:to="Var_203" xlink:title="cafr01_cafr02_Prm_Govt_01_Var_203" order="3.0" name="V3"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_203_explicitDimension_1" xlink:title="Var_203_explicitDimension_1" id="Var_203_explicitDimension_1">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_1" xlink:title="Var_203_Var_203_explicitDimension_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_203_explicitDimension_3" xlink:title="Var_203_explicitDimension_3" id="Var_203_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_3" xlink:title="Var_203_Var_203_explicitDimension_3" order="3.0" cover="true" complement="true"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_203_explicitDimension_4" xlink:title="Var_203_explicitDimension_4" id="Var_203_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_4" xlink:title="Var_203_Var_203_explicitDimension_4" order="4.0" cover="true" complement="true"/>
+  </generic:link>
+</link:linkbase>
