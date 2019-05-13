@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
+<!--Copyrights reserved for XBRL US -->
+<!--Statement | CAFR01-Statement of net position -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/period http://www.xbrl.org/2008/period-filter.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/tuple http://www.xbrl.org/2008/tuple-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/unit http://www.xbrl.org/2008/unit-filter.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:generic="http://xbrl.org/2008/generic" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:non-num="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:v="http://xbrl.org/2008/formula/conformance/variable" xmlns:c="http://xbrl.org/formula/conformance/example" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uf="http://xbrl.org/2008/filter/unit" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:tf="http://xbrl.org/2008/filter/tuple" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:label="http://xbrl.org/2008/label" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:instance="http://www.xbrl.org/2003/instance" xmlns:ef="http://xbrl.org/2008/filter/entity">
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-satisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-satisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-parameter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-parameter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/consistency-assertion-formula" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/consistency-assertion.xsd#consistency-assertion-formula"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-precondition"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <generic:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Asset_01" xlink:title="cafr01_Asset_01" id="cafr01_Asset_01" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Asset_01" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Asset_01" xml:lang="en" id="ErrorMessage_cafr01_Asset_01">In CAFR01, In Governmental activities column, Total assets MUST be equal to the summation of its components </msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Asset_01" xlink:to="ErrorMessage_cafr01_Asset_01"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_101" xlink:title="Var_101" id="Var_101" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_01" xlink:to="Var_101" xlink:title="cafr01_Asset_01_Var_101" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_101_conceptName_1" xlink:title="Var_101_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_conceptName_1" xlink:title="Var_101_Var_101_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_101_explicitDimension_2" xlink:title="Var_101_explicitDimension_2" id="Var_101_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_explicitDimension_2" xlink:title="Var_101_Var_101_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_101_explicitDimension_3" xlink:title="Var_101_explicitDimension_3" id="Var_101_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_101" xlink:to="Var_101_explicitDimension_3" xlink:title="Var_101_Var_101_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_102" xlink:title="Var_102" id="Var_102" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_01" xlink:to="Var_102" xlink:title="cafr01_Asset_01_Var_102" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_102_conceptName_1" xlink:title="Var_102_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:CurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_conceptName_1" xlink:title="Var_102_Var_102_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_102_explicitDimension_2" xlink:title="Var_102_explicitDimension_2" id="Var_102_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_2" xlink:title="Var_102_Var_102_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_102_explicitDimension_3" xlink:title="Var_102_explicitDimension_3" id="Var_102_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_102" xlink:to="Var_102_explicitDimension_3" xlink:title="Var_102_Var_102_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_103" xlink:title="Var_103" id="Var_103" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_01" xlink:to="Var_103" xlink:title="cafr01_Asset_01_Var_103" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_103_conceptName_1" xlink:title="Var_103_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:NonCurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_conceptName_1" xlink:title="Var_103_Var_103_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_103_explicitDimension_2" xlink:title="Var_103_explicitDimension_2" id="Var_103_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_explicitDimension_2" xlink:title="Var_103_Var_103_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_103_explicitDimension_3" xlink:title="Var_103_explicitDimension_3" id="Var_103_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_103" xlink:to="Var_103_explicitDimension_3" xlink:title="Var_103_Var_103_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_104" xlink:title="Var_104" id="Var_104" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_01" xlink:to="Var_104" xlink:title="cafr01_Asset_01_Var_104" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_104_conceptName_1" xlink:title="Var_104_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_conceptName_1" xlink:title="Var_104_Var_104_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_104_explicitDimension_2" xlink:title="Var_104_explicitDimension_2" id="Var_104_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:GovernmentalActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_explicitDimension_2" xlink:title="Var_104_Var_104_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_104_explicitDimension_4" xlink:title="Var_104_explicitDimension_4" id="Var_104_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:RestrictedMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_104" xlink:to="Var_104_explicitDimension_4" xlink:title="Var_104_Var_104_explicitDimension_4" order="4.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Asset_02" xlink:title="cafr01_Asset_02" id="cafr01_Asset_02" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Asset_02" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Asset_02" xml:lang="en" id="ErrorMessage_cafr01_Asset_02">In CAFR01, In Business-type activities column, Total assets MUST be equal to the summation of its components </msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Asset_02" xlink:to="ErrorMessage_cafr01_Asset_02"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_201" xlink:title="Var_201" id="Var_201" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_02" xlink:to="Var_201" xlink:title="cafr01_Asset_02_Var_201" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_201_conceptName_1" xlink:title="Var_201_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_conceptName_1" xlink:title="Var_201_Var_201_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_201_explicitDimension_2" xlink:title="Var_201_explicitDimension_2" id="Var_201_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_2" xlink:title="Var_201_Var_201_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_201_explicitDimension_3" xlink:title="Var_201_explicitDimension_3" id="Var_201_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_201" xlink:to="Var_201_explicitDimension_3" xlink:title="Var_201_Var_201_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_202" xlink:title="Var_202" id="Var_202" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_02" xlink:to="Var_202" xlink:title="cafr01_Asset_02_Var_202" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_202_conceptName_1" xlink:title="Var_202_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:CurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_conceptName_1" xlink:title="Var_202_Var_202_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_2" xlink:title="Var_202_explicitDimension_2" id="Var_202_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_2" xlink:title="Var_202_Var_202_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_202_explicitDimension_3" xlink:title="Var_202_explicitDimension_3" id="Var_202_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_202" xlink:to="Var_202_explicitDimension_3" xlink:title="Var_202_Var_202_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_203" xlink:title="Var_203" id="Var_203" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_02" xlink:to="Var_203" xlink:title="cafr01_Asset_02_Var_203" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_203_conceptName_1" xlink:title="Var_203_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:NonCurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_conceptName_1" xlink:title="Var_203_Var_203_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_203_explicitDimension_2" xlink:title="Var_203_explicitDimension_2" id="Var_203_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_2" xlink:title="Var_203_Var_203_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_203_explicitDimension_3" xlink:title="Var_203_explicitDimension_3" id="Var_203_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_203" xlink:to="Var_203_explicitDimension_3" xlink:title="Var_203_Var_203_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_204" xlink:title="Var_204" id="Var_204" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_02" xlink:to="Var_204" xlink:title="cafr01_Asset_02_Var_204" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_204_conceptName_1" xlink:title="Var_204_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_204" xlink:to="Var_204_conceptName_1" xlink:title="Var_204_Var_204_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_204_explicitDimension_2" xlink:title="Var_204_explicitDimension_2" id="Var_204_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:BusinessTypeActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_204" xlink:to="Var_204_explicitDimension_2" xlink:title="Var_204_Var_204_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_204_explicitDimension_4" xlink:title="Var_204_explicitDimension_4" id="Var_204_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:RestrictedMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_204" xlink:to="Var_204_explicitDimension_4" xlink:title="Var_204_Var_204_explicitDimension_4" order="4.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Asset_03" xlink:title="cafr01_Asset_03" id="cafr01_Asset_03" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Asset_03" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Asset_03" xml:lang="en" id="ErrorMessage_cafr01_Asset_03">In CAFR01, In Primary government activities column, Total assets MUST be equal to the summation of its components </msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Asset_03" xlink:to="ErrorMessage_cafr01_Asset_03"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_301" xlink:title="Var_301" id="Var_301" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_03" xlink:to="Var_301" xlink:title="cafr01_Asset_03_Var_301" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_301_conceptName_1" xlink:title="Var_301_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_301" xlink:to="Var_301_conceptName_1" xlink:title="Var_301_Var_301_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_301_explicitDimension_2" xlink:title="Var_301_explicitDimension_2" id="Var_301_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_301" xlink:to="Var_301_explicitDimension_2" xlink:title="Var_301_Var_301_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_301_explicitDimension_3" xlink:title="Var_301_explicitDimension_3" id="Var_301_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_301" xlink:to="Var_301_explicitDimension_3" xlink:title="Var_301_Var_301_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_302" xlink:title="Var_302" id="Var_302" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_03" xlink:to="Var_302" xlink:title="cafr01_Asset_03_Var_302" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_302_conceptName_1" xlink:title="Var_302_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:CurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_302" xlink:to="Var_302_conceptName_1" xlink:title="Var_302_Var_302_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_302_explicitDimension_2" xlink:title="Var_302_explicitDimension_2" id="Var_302_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_302" xlink:to="Var_302_explicitDimension_2" xlink:title="Var_302_Var_302_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_302_explicitDimension_3" xlink:title="Var_302_explicitDimension_3" id="Var_302_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_302" xlink:to="Var_302_explicitDimension_3" xlink:title="Var_302_Var_302_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_303" xlink:title="Var_303" id="Var_303" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_03" xlink:to="Var_303" xlink:title="cafr01_Asset_03_Var_303" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_303_conceptName_1" xlink:title="Var_303_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:NonCurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_303" xlink:to="Var_303_conceptName_1" xlink:title="Var_303_Var_303_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_303_explicitDimension_2" xlink:title="Var_303_explicitDimension_2" id="Var_303_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_303" xlink:to="Var_303_explicitDimension_2" xlink:title="Var_303_Var_303_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_303_explicitDimension_3" xlink:title="Var_303_explicitDimension_3" id="Var_303_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_303" xlink:to="Var_303_explicitDimension_3" xlink:title="Var_303_Var_303_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_304" xlink:title="Var_304" id="Var_304" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_03" xlink:to="Var_304" xlink:title="cafr01_Asset_03_Var_304" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_304_conceptName_1" xlink:title="Var_304_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_304" xlink:to="Var_304_conceptName_1" xlink:title="Var_304_Var_304_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_304_explicitDimension_2" xlink:title="Var_304_explicitDimension_2" id="Var_304_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfActivitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:PrimaryGovernmentActivitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_304" xlink:to="Var_304_explicitDimension_2" xlink:title="Var_304_Var_304_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_304_explicitDimension_4" xlink:title="Var_304_explicitDimension_4" id="Var_304_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:RestrictedMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_304" xlink:to="Var_304_explicitDimension_4" xlink:title="Var_304_Var_304_explicitDimension_4" order="4.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="cafr01_Asset_04" xlink:title="cafr01_Asset_04" id="cafr01_Asset_04" test="(round ($V1 * 100) div 100) = (round (($V2 + $V3 + $V4)*100) div 100)" aspectModel="dimensional" implicitFiltering="true"/>
+    <msg:message xlink:type="resource" xlink:label="ErrorMessage_cafr01_Asset_04" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="ErrorMessage_cafr01_Asset_04" xml:lang="en" id="ErrorMessage_cafr01_Asset_04">In CAFR01, In Component unit column, Total assets MUST be equal to the summation of its components </msg:message>
+    <generic:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="cafr01_Asset_04" xlink:to="ErrorMessage_cafr01_Asset_04"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_401" xlink:title="Var_401" id="Var_401" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_04" xlink:to="Var_401" xlink:title="cafr01_Asset_04_Var_401" order="1.0" name="V1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_401_conceptName_1" xlink:title="Var_401_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_401" xlink:to="Var_401_conceptName_1" xlink:title="Var_401_Var_401_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_401_explicitDimension_2" xlink:title="Var_401_explicitDimension_2" id="Var_401_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_401" xlink:to="Var_401_explicitDimension_2" xlink:title="Var_401_Var_401_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_401_explicitDimension_3" xlink:title="Var_401_explicitDimension_3" id="Var_401_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_401" xlink:to="Var_401_explicitDimension_3" xlink:title="Var_401_Var_401_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_402" xlink:title="Var_402" id="Var_402" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_04" xlink:to="Var_402" xlink:title="cafr01_Asset_04_Var_402" order="2.0" name="V2"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_402_conceptName_1" xlink:title="Var_402_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:CurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_402" xlink:to="Var_402_conceptName_1" xlink:title="Var_402_Var_402_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_402_explicitDimension_2" xlink:title="Var_402_explicitDimension_2" id="Var_402_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_402" xlink:to="Var_402_explicitDimension_2" xlink:title="Var_402_Var_402_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_402_explicitDimension_3" xlink:title="Var_402_explicitDimension_3" id="Var_402_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_402" xlink:to="Var_402_explicitDimension_3" xlink:title="Var_402_Var_402_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_403" xlink:title="Var_403" id="Var_403" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_04" xlink:to="Var_403" xlink:title="cafr01_Asset_04_Var_403" order="3.0" name="V3"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_403_conceptName_1" xlink:title="Var_403_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:NonCurrentAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_403" xlink:to="Var_403_conceptName_1" xlink:title="Var_403_Var_403_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_403_explicitDimension_2" xlink:title="Var_403_explicitDimension_2" id="Var_403_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_403" xlink:to="Var_403_explicitDimension_2" xlink:title="Var_403_Var_403_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_403_explicitDimension_3" xlink:title="Var_403_explicitDimension_3" id="Var_403_explicitDimension_3">
+      <df:dimension>
+        <df:qname>us-cafr:BalanceTypeAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:NetMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_403" xlink:to="Var_403_explicitDimension_3" xlink:title="Var_403_Var_403_explicitDimension_3" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="Var_404" xlink:title="Var_404" id="Var_404" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="cafr01_Asset_04" xlink:to="Var_404" xlink:title="cafr01_Asset_04_Var_404" order="4.0" name="V4"/>
+    <cf:conceptName xlink:type="resource" xlink:label="Var_404_conceptName_1" xlink:title="Var_404_conceptName_1">
+      <cf:concept>
+        <cf:qname>us-cafr:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_404" xlink:to="Var_404_conceptName_1" xlink:title="Var_404_Var_404_conceptName_1" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_404_explicitDimension_2" xlink:title="Var_404_explicitDimension_2" id="Var_404_explicitDimension_2">
+      <df:dimension>
+        <df:qname>us-cafr:ComponentUnitAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:ComponentUnitMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_404" xlink:to="Var_404_explicitDimension_2" xlink:title="Var_404_Var_404_explicitDimension_2" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="Var_404_explicitDimension_4" xlink:title="Var_404_explicitDimension_4" id="Var_404_explicitDimension_4">
+      <df:dimension>
+        <df:qname>us-cafr:TypeOfRestrictionAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>us-cafr:RestrictedMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="Var_404" xlink:to="Var_404_explicitDimension_4" xlink:title="Var_404_Var_404_explicitDimension_4" order="4.0" cover="true" complement="false"/>
+  </generic:link>
+</link:linkbase>

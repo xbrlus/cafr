@@ -67,7 +67,7 @@
   <xsd:complexType name="TaxonomyVersion">
     <xsd:simpleContent>
       <xsd:restriction base="xbrli:stringItemType">
-        <xsd:enumeration value="US CAFR XBRL Taxonomy v.0.2.0"/>
+        <xsd:enumeration value="US CAFR XBRL Taxonomy v.0.3.0"/>
       </xsd:restriction>
     </xsd:simpleContent>
   </xsd:complexType>

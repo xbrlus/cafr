@@ -5,29 +5,137 @@
 <!--Typed dimension concepts and its details file  -->
 <xsd:schema targetNamespace="https://xbrl.us/2019/us-cafr_part" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
-  <xsd:element name="NameOfNetPositionRestrictedDomain" id="us-cafr_part_NameOfNetPositionRestrictedDomain">
-    <xsd:simpleType>
-      <xsd:restriction base="xsd:string"/>
-    </xsd:simpleType>
-  </xsd:element>
-  <xsd:element name="NameOfFundBalancesNonSpendableDomain" id="us-cafr_part_NameOfFundBalancesNonSpendableDomain">
-    <xsd:simpleType>
-      <xsd:restriction base="xsd:string"/>
-    </xsd:simpleType>
-  </xsd:element>
-  <xsd:element name="NameOfFundBalancesRestrictedDomain" id="us-cafr_part_NameOfFundBalancesRestrictedDomain">
-    <xsd:simpleType>
-      <xsd:restriction base="xsd:string"/>
-    </xsd:simpleType>
-  </xsd:element>
-  <xsd:element name="NameOfFundBalancesCommittedDomain" id="us-cafr_part_NameOfFundBalancesCommittedDomain">
-    <xsd:simpleType>
-      <xsd:restriction base="xsd:string"/>
-    </xsd:simpleType>
-  </xsd:element>
-  <xsd:element name="NameOfFundBalancesAssignedDomain" id="us-cafr_part_NameOfFundBalancesAssignedDomain">
-    <xsd:simpleType>
-      <xsd:restriction base="xsd:string"/>
-    </xsd:simpleType>
-  </xsd:element>
+  
+  
+
+<xsd:element name="NameOfOtherCurrentAssetsDomain" id="us-cafr-part_NameOfOtherCurrentAssetsDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfCapitalAssetsNonDepreciableDomain" id="us-cafr-part_NameOfCapitalAssetsNonDepreciableDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain" id="us-cafr-part_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfMiscellaneousNonCurrentAssetsDomain" id="us-cafr-part_NameOfMiscellaneousNonCurrentAssetsDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfRestrictedAssetsDomain" id="us-cafr-part_NameOfRestrictedAssetsDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfDeferredOutflowsOfResourcesDomain" id="us-cafr-part_NameOfDeferredOutflowsOfResourcesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherCurrentLiabilitiesDomain" id="us-cafr-part_NameOfOtherCurrentLiabilitiesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfNonCurrentLiabilitiesDueWithinOneYearDomain" id="us-cafr-part_NameOfNonCurrentLiabilitiesDueWithinOneYearDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfNonCurrentLiabilitiesDueInMoreThanOneYearDomain" id="us-cafr-part_NameOfNonCurrentLiabilitiesDueInMoreThanOneYearDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherNonCurrentLiabilitiesDomain" id="us-cafr-part_NameOfOtherNonCurrentLiabilitiesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfPayableFromRestrictedAssetsDomain" id="us-cafr-part_NameOfPayableFromRestrictedAssetsDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfDeferredInflowsOfResourcesDomain" id="us-cafr-part_NameOfDeferredInflowsOfResourcesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfNetPositionRestrictedDomain" id="us-cafr-part_NameOfNetPositionRestrictedDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherProgramRevenuesDomain" id="us-cafr-part_NameOfOtherProgramRevenuesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherGeneralRevenuesDomain" id="us-cafr-part_NameOfOtherGeneralRevenuesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesDomain" id="us-cafr-part_NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherExpensesDomain" id="us-cafr-part_NameOfOtherExpensesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherAssetsDomain" id="us-cafr-part_NameOfOtherAssetsDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherLiabilitiesDomain" id="us-cafr-part_NameOfOtherLiabilitiesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfFundBalancesNonSpendableDomain" id="us-cafr-part_NameOfFundBalancesNonSpendableDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfFundBalancesRestrictedDomain" id="us-cafr-part_NameOfFundBalancesRestrictedDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfFundBalancesCommittedDomain" id="us-cafr-part_NameOfFundBalancesCommittedDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfFundBalancesAssignedDomain" id="us-cafr-part_NameOfFundBalancesAssignedDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherRevenuesDomain" id="us-cafr-part_NameOfOtherRevenuesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherExpendituresDomain" id="us-cafr-part_NameOfOtherExpendituresDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NameOfOtherFinancingSourcesUsesDomain" id="us-cafr-part_NameOfOtherFinancingSourcesUsesDomain">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string" />
+</xsd:simpleType>
+</xsd:element>
 </xsd:schema>
