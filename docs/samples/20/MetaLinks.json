@@ -2,7 +2,7 @@
  "instance": {
   "losangeles-california-20180630.xhtml": {
    "axisCustom": 0,
-   "axisStandard": 0,
+   "axisStandard": 22,
    "contextCount": 167,
    "dts": {
     "definitionLink": {
@@ -163,21 +163,68 @@
      ]
     }
    },
-   "elementCount": 352,
+   "elementCount": 391,
    "entityCount": 1,
    "hidden": {
-    "total": 0
+    "https://xbrl.us/2019/us-cafr_concept": 109,
+    "total": 109
    },
    "keyCustom": 0,
-   "keyStandard": 319,
+   "keyStandard": 341,
    "memberCustom": 0,
-   "memberStandard": 0,
-   "report": {},
-   "segmentCount": 0,
+   "memberStandard": 18,
+   "report": {
+    "R1": {
+     "firstAnchor": null,
+     "groupType": "",
+     "isDefault": "true",
+     "longName": "FILINGINFO-Table001-NonDimensional",
+     "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R9999": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "losangeles-california-20180630.xhtml",
+      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain_1",
+      "decimals": "-3",
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "Uncategorized Items - losangeles-california-20180630.xhtml",
+     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
+     "shortName": "Uncategorized Items - losangeles-california-20180630.xhtml",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    }
+   },
+   "segmentCount": 34,
    "tag": {
     "us-cafr_AccountsPayable": {
      "auth_ref": [
-      "r33"
+      "r47"
      ],
      "lang": {
       "en": {
@@ -277,7 +324,7 @@
     },
     "us-cafr_AdjustmentsForTransferOfRevenuesWithinActivities": {
      "auth_ref": [
-      "r25"
+      "r39"
      ],
      "lang": {
       "en": {
@@ -352,7 +399,7 @@
     },
     "us-cafr_AdjustmentsInFundBalancesForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r26"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -371,7 +418,7 @@
     },
     "us-cafr_AdjustmentsInNetPositionForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r26"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -445,6 +492,23 @@
       "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional"
      ],
      "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_AggregateNonMajorFundsMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the aggregate of non-major funds",
+        "label": "Aggregate non-major funds [member]",
+        "terseLabel": "Aggregate non-major funds"
+       }
+      }
+     },
+     "localname": "AggregateNonMajorFundsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_AmountHeldForOthers": {
      "auth_ref": [
@@ -546,9 +610,26 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_AssignedMember": {
+     "auth_ref": [
+      "r29"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the type of restriction namely assigned for a special purpose. Amounts that are constrained by the government\u2019s intent to be used for specific purposes, but are neither restricted nor committed, should be reported as assigned fund balance, except for stabilization arrangements.. Intent should be expressed by (a) the governing body itself or (b) a body (a budget or finance committee, for example) or official to which the governing body has delegated the authority to assign amounts to be used for specific purposes.",
+        "label": "Assigned [member]",
+        "terseLabel": "Assigned"
+       }
+      }
+     },
+     "localname": "AssignedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_AuditOpinion": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -567,7 +648,7 @@
     },
     "us-cafr_AuditStatus": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -586,7 +667,7 @@
     },
     "us-cafr_AverageNumberOfUtilityCustomers": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -602,6 +683,23 @@
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
      "xbrltype": "decimalItemType"
+    },
+    "us-cafr_BalanceTypeAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The associated information can be reported as gross, that is without any deductions or net of various deductions.",
+        "label": "Balance type [axis]",
+        "terseLabel": "Balance type"
+       }
+      }
+     },
+     "localname": "BalanceTypeAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
     },
     "us-cafr_BondsAndInterestPayable": {
      "auth_ref": [
@@ -660,9 +758,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_BusinessTypeActivitiesMember": {
+     "auth_ref": [
+      "r5"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects business-type activities.\n1. Its one of two classes of activities reported in the government-wide financial statements. Business-type activities are financed in whole or in part by fees charged to external parties for goods or services. These activities usually are reported in enterprise funds.\n2. Activities of the government which resemble private-sector business activities not only because they provide the same services as private-sector businesses but also because there is an exchange relationship between the provider and the consumer: The consumer is charged for services rendered. Some bear a further resemblance to private-sector business activities because they are self-sufficient and operate as separate, legally constituted organizations. Others more closely resemble governmental-type activities because they are regularly subsidized by taxes or are operated as departments within a government.",
+        "label": "Business-type activities [member]",
+        "terseLabel": "Business-type activities"
+       }
+      }
+     },
+     "localname": "BusinessTypeActivitiesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_CapitalAssets": {
      "auth_ref": [
-      "r10"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -682,7 +797,7 @@
     },
     "us-cafr_CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization": {
      "auth_ref": [
-      "r10"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -701,7 +816,7 @@
     },
     "us-cafr_CapitalAssetsNonDepreciable": {
      "auth_ref": [
-      "r10"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -740,7 +855,7 @@
     },
     "us-cafr_CashAndCashEquivalentsOthers": {
      "auth_ref": [
-      "r28"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -760,7 +875,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents": {
      "auth_ref": [
-      "r28"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -780,7 +895,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTreasurer": {
      "auth_ref": [
-      "r28"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -800,7 +915,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTrustee": {
      "auth_ref": [
-      "r28"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -880,7 +995,7 @@
     },
     "us-cafr_ChangesInNetPosition": {
      "auth_ref": [
-      "r24"
+      "r38"
      ],
      "lang": {
       "en": {
@@ -937,6 +1052,23 @@
       "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional"
      ],
      "xbrltype": "monetaryItemType"
+    },
+    "us-cafr_CommittedMember": {
+     "auth_ref": [
+      "r28"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the type of restriction namely committed for a special purpose.\tAmounts that can only be used for specific purposes pursuant to constraints imposed by formal action of the government\u2019s highest level of decision-making authority should be reported as committed fund balance. Those committed amounts cannot be used for any other purpose unless the government removes or changes the specified use by taking the same type of action (for example, legislation, resolution, ordinance) it employed to previously commit those amounts. The authorization specifying the purposes for which amounts can be used should have the consent of both the legislative and executive branches of the government, if applicable. Committed fund balance also should incorporate contractual obligations to the extent that existing resources in the fund have been specifically committed for use in satisfying those contractual requirements.",
+        "label": "Committed [member]",
+        "terseLabel": "Committed"
+       }
+      }
+     },
+     "localname": "CommittedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_CompensatedAbsencesPayable": {
      "auth_ref": [
@@ -1074,7 +1206,7 @@
     },
     "us-cafr_CurrentLiabilities": {
      "auth_ref": [
-      "r12"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -1112,7 +1244,7 @@
     },
     "us-cafr_DateOfAuditOpinion": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -1131,7 +1263,7 @@
     },
     "us-cafr_DateOfTransmittal": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -1147,6 +1279,23 @@
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
      "xbrltype": "dateItemType"
+    },
+    "us-cafr_DebtServiceFund01Member": {
+     "auth_ref": [
+      "r13"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the debt service fund 01. Debt service funds are used to account for and report financial resources that are restricted, committed, or assigned to expenditure for principal and interest. Debt service funds should be used to report resources if legally mandated. Financial resources that are being accumulated for principal and interest maturing in future years also should be reported in debt service funds. The debt service transactions of a special assessment issue for which the government is not obligated in any manner should be reported in an agency fund.",
+        "label": "Debt service fund 01 [member]",
+        "terseLabel": "Debt service fund 01"
+       }
+      }
+     },
+     "localname": "DebtServiceFund01Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_DebtServicingOfInterestAndFiscalCharges": {
      "auth_ref": [
@@ -1442,7 +1591,7 @@
     },
     "us-cafr_DisclosureOfStatementOfActivitiesTextBlock": {
      "auth_ref": [
-      "r21"
+      "r35"
      ],
      "lang": {
       "en": {
@@ -1502,7 +1651,7 @@
     },
     "us-cafr_DocumentTitle": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -1655,6 +1804,23 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_DueInMoreThanOneYearMember": {
+     "auth_ref": [
+      "r20"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the time interval which commences after 1 year from the relevant reporting end date and continues into the future. It is the amount of obligation due after one year or beyond the normal operating cycle, if longer.",
+        "label": "Due in more than one year [member]",
+        "terseLabel": "Due in more than one year"
+       }
+      }
+     },
+     "localname": "DueInMoreThanOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_DueToComponentUnit": {
      "auth_ref": [
       "r0"
@@ -1791,9 +1957,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_DueWithinOneYearMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the time interval from the relevant reporting end date up to and including 1 year after that date. It is the amount of obligation due within one year.",
+        "label": "Due within one year [member]",
+        "terseLabel": "Due within one year"
+       }
+      }
+     },
+     "localname": "DueWithinOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_EmployerIdentificationNumber": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -1832,7 +2015,7 @@
     },
     "us-cafr_Expenditures": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -1870,7 +2053,7 @@
     },
     "us-cafr_ExpendituresForAirportServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -1889,7 +2072,7 @@
     },
     "us-cafr_ExpendituresForCapitalOutlay": {
      "auth_ref": [
-      "r43"
+      "r57"
      ],
      "lang": {
       "en": {
@@ -1908,7 +2091,7 @@
     },
     "us-cafr_ExpendituresForCommunityDevelopmentServices": {
      "auth_ref": [
-      "r41"
+      "r55"
      ],
      "lang": {
       "en": {
@@ -1927,7 +2110,7 @@
     },
     "us-cafr_ExpendituresForConservationRecreationParksAndCulturalServices": {
      "auth_ref": [
-      "r38"
+      "r52"
      ],
      "lang": {
       "en": {
@@ -1946,7 +2129,7 @@
     },
     "us-cafr_ExpendituresForConservationServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -1965,7 +2148,7 @@
     },
     "us-cafr_ExpendituresForContingencyServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -1984,7 +2167,7 @@
     },
     "us-cafr_ExpendituresForConventionCentreServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2003,7 +2186,7 @@
     },
     "us-cafr_ExpendituresForEconomicDevelopmentServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2022,7 +2205,7 @@
     },
     "us-cafr_ExpendituresForEducationServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2041,7 +2224,7 @@
     },
     "us-cafr_ExpendituresForElectricityAndPowerServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2060,7 +2243,7 @@
     },
     "us-cafr_ExpendituresForGarageServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2079,7 +2262,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesAdministration": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2098,7 +2281,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesJudicial": {
      "auth_ref": [
-      "r39"
+      "r53"
      ],
      "lang": {
       "en": {
@@ -2117,7 +2300,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesLegislativeAndExecutive": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2136,7 +2319,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesOthers": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2155,7 +2338,7 @@
     },
     "us-cafr_ExpendituresForHarbourServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2174,7 +2357,7 @@
     },
     "us-cafr_ExpendituresForInterGovernmentalActivities": {
      "auth_ref": [
-      "r42"
+      "r56"
      ],
      "lang": {
       "en": {
@@ -2193,7 +2376,7 @@
     },
     "us-cafr_ExpendituresForJailStoresCommissaryServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2212,7 +2395,7 @@
     },
     "us-cafr_ExpendituresForOtherDevelopmentServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2231,7 +2414,7 @@
     },
     "us-cafr_ExpendituresForOtherPublicServices": {
      "auth_ref": [
-      "r40"
+      "r54"
      ],
      "lang": {
       "en": {
@@ -2250,7 +2433,7 @@
     },
     "us-cafr_ExpendituresForPublicAssistanceServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2269,7 +2452,7 @@
     },
     "us-cafr_ExpendituresForPublicHealthAndSanitationServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2288,7 +2471,7 @@
     },
     "us-cafr_ExpendituresForPublicSafetyServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2307,7 +2490,7 @@
     },
     "us-cafr_ExpendituresForPublicSchoolsServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2326,7 +2509,7 @@
     },
     "us-cafr_ExpendituresForPublicWaysAndFacilitiesServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2345,7 +2528,7 @@
     },
     "us-cafr_ExpendituresForPublicWorksServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2364,7 +2547,7 @@
     },
     "us-cafr_ExpendituresForSanitarySewerServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2383,7 +2566,7 @@
     },
     "us-cafr_ExpendituresForSecurityOfPersonsAndPropertyServices": {
      "auth_ref": [
-      "r37"
+      "r51"
      ],
      "lang": {
       "en": {
@@ -2402,7 +2585,7 @@
     },
     "us-cafr_ExpendituresForStormSewerServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2421,7 +2604,7 @@
     },
     "us-cafr_ExpendituresForTransportationServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2440,7 +2623,7 @@
     },
     "us-cafr_ExpendituresForWaterSupplyServices": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -3044,7 +3227,7 @@
     },
     "us-cafr_FiscalEndDate": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -3063,7 +3246,7 @@
     },
     "us-cafr_FiscalStartDate": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -3082,7 +3265,7 @@
     },
     "us-cafr_FundBalances": {
      "auth_ref": [
-      "r19"
+      "r31"
      ],
      "lang": {
       "en": {
@@ -3180,9 +3363,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_GeneralFundMember": {
+     "auth_ref": [
+      "r11"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the general fund. The general fund should be used to account for and report all financial resources not accounted for and reported in another fund.\tGeneral fund accounts for and reports all financial resources not accounted for and reported in another fund.",
+        "label": "General fund [member]",
+        "terseLabel": "General fund"
+       }
+      }
+     },
+     "localname": "GeneralFundMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_GeneralRevenues": {
      "auth_ref": [
-      "r23"
+      "r37"
      ],
      "lang": {
       "en": {
@@ -3217,6 +3417,23 @@
       "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional"
      ],
      "xbrltype": "stringItemType"
+    },
+    "us-cafr_GovernmentalActivitiesMember": {
+     "auth_ref": [
+      "r33"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects governmental activities. Governmental activities generally are financed through taxes, intergovernmental revenues, and other non-exchange revenues. These activities are usually reported in governmental funds and internal service funds.",
+        "label": "Governmental activities [member]",
+        "terseLabel": "Governmental activities"
+       }
+      }
+     },
+     "localname": "GovernmentalActivitiesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_GovernmentalFundsBalanceSheetAbstract": {
      "auth_ref": [],
@@ -3367,7 +3584,7 @@
     },
     "us-cafr_InsideMillage": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -3386,7 +3603,7 @@
     },
     "us-cafr_InterFundsBalancesPayable": {
      "auth_ref": [
-      "r14"
+      "r19"
      ],
      "lang": {
       "en": {
@@ -3405,7 +3622,7 @@
     },
     "us-cafr_InterFundsBalancesReceivable": {
      "auth_ref": [
-      "r14"
+      "r19"
      ],
      "lang": {
       "en": {
@@ -3504,7 +3721,7 @@
     },
     "us-cafr_Inventories": {
      "auth_ref": [
-      "r9"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3523,7 +3740,7 @@
     },
     "us-cafr_InventoriesCurrent": {
      "auth_ref": [
-      "r9"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3542,7 +3759,7 @@
     },
     "us-cafr_InventoriesNonCurrent": {
      "auth_ref": [
-      "r9"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3561,7 +3778,7 @@
     },
     "us-cafr_InvestmentInCapitalAssets": {
      "auth_ref": [
-      "r17"
+      "r23"
      ],
      "lang": {
       "en": {
@@ -3600,7 +3817,7 @@
     },
     "us-cafr_InvestmentsInAssociates": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -3619,7 +3836,7 @@
     },
     "us-cafr_InvestmentsInJointVentures": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -3638,7 +3855,7 @@
     },
     "us-cafr_InvestmentsInSubsidiaries": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -3657,7 +3874,7 @@
     },
     "us-cafr_InvestmentsWithFiscalAgents": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -3677,7 +3894,7 @@
     },
     "us-cafr_InvestmentsWithStateTreasury": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -3737,7 +3954,7 @@
     },
     "us-cafr_LegalEntityIdentifier": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -3756,7 +3973,7 @@
     },
     "us-cafr_Liabilities": {
      "auth_ref": [
-      "r20"
+      "r34"
      ],
      "lang": {
       "en": {
@@ -4008,7 +4225,7 @@
     },
     "us-cafr_NameOfAuditFirm": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -4023,6 +4240,74 @@
      "presentation": [
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of capital assets, depreciable (net of accumulated depreciation and amortization)",
+        "label": "Name of capital assets, depreciable (net of accumulated depreciation and amortization) [axis]",
+        "terseLabel": "Name of capital assets, depreciable (net of accumulated depreciation and amortization)"
+       }
+      }
+     },
+     "localname": "NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfCapitalAssetsNonDepreciableAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of capital assets, non-depreciable",
+        "label": "Name of capital assets, non-depreciable [axis]",
+        "terseLabel": "Name of capital assets, non-depreciable"
+       }
+      }
+     },
+     "localname": "NameOfCapitalAssetsNonDepreciableAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfDeferredInflowsOfResourcesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of deferred inflows of resources",
+        "label": "Name of deferred inflows of resources [axis]",
+        "terseLabel": "Name of deferred inflows of resources"
+       }
+      }
+     },
+     "localname": "NameOfDeferredInflowsOfResourcesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfDeferredOutflowsOfResourcesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of deferred outflows of resources",
+        "label": "Name of deferred outflows of resources [axis]",
+        "terseLabel": "Name of deferred outflows of resources"
+       }
+      }
+     },
+     "localname": "NameOfDeferredOutflowsOfResourcesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
     "us-cafr_NameOfFund": {
@@ -4045,9 +4330,77 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfFundBalancesAssignedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances assigned",
+        "label": "Name of fund balances assigned [axis]",
+        "terseLabel": "Name of fund balances assigned"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesAssignedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesCommittedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances committed",
+        "label": "Name of fund balances committed [axis]",
+        "terseLabel": "Name of fund balances committed"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesCommittedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesNonSpendableAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances non-spendable",
+        "label": "Name of fund balances non-spendable [axis]",
+        "terseLabel": "Name of fund balances non-spendable"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesNonSpendableAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesRestrictedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances restricted",
+        "label": "Name of fund balances restricted [axis]",
+        "terseLabel": "Name of fund balances restricted"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesRestrictedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfGovernment": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -4064,9 +4417,162 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfMiscellaneousNonCurrentAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of miscellaneous non-current assets and the reporting entity does not separately disclose in the same statement or note.",
+        "label": "Name of miscellaneous non-current assets [axis]",
+        "terseLabel": "Name of miscellaneous non-current assets"
+       }
+      }
+     },
+     "localname": "NameOfMiscellaneousNonCurrentAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfNetPositionRestrictedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of net position restricted",
+        "label": "Name of net position restricted [axis]",
+        "terseLabel": "Name of net position restricted"
+       }
+      }
+     },
+     "localname": "NameOfNetPositionRestrictedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfNonCurrentLiabilitiesDueInMoreThanOneYearAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of non-current liabilities due in more than one year",
+        "label": "Name of non-current liabilities due in more than one year [axis]",
+        "terseLabel": "Name of non-current liabilities due in more than one year"
+       }
+      }
+     },
+     "localname": "NameOfNonCurrentLiabilitiesDueInMoreThanOneYearAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfNonCurrentLiabilitiesDueWithinOneYearAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of non-current liabilities due within one year",
+        "label": "Name of non-current liabilities due within one year [axis]",
+        "terseLabel": "Name of non-current liabilities due within one year"
+       }
+      }
+     },
+     "localname": "NameOfNonCurrentLiabilitiesDueWithinOneYearAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other assets",
+        "label": "Name of other assets [axis]",
+        "terseLabel": "Name of other assets"
+       }
+      }
+     },
+     "localname": "NameOfOtherAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherCurrentAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other current assets",
+        "label": "Name of other current assets [axis]",
+        "terseLabel": "Name of other current assets"
+       }
+      }
+     },
+     "localname": "NameOfOtherCurrentAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherCurrentLiabilitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other current liabilities",
+        "label": "Name of other current liabilities [axis]",
+        "terseLabel": "Name of other current liabilities"
+       }
+      }
+     },
+     "localname": "NameOfOtherCurrentLiabilitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherLiabilitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other liabilities",
+        "label": "Name of other liabilities [axis]",
+        "terseLabel": "Name of other liabilities"
+       }
+      }
+     },
+     "localname": "NameOfOtherLiabilitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfRestrictedAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of restricted assets",
+        "label": "Name of restricted assets [axis]",
+        "terseLabel": "Name of restricted assets"
+       }
+      }
+     },
+     "localname": "NameOfRestrictedAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfState": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -4101,9 +4607,26 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NetMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the net amount, after accounting for all relevant deductions.",
+        "label": "Net [member]",
+        "terseLabel": "Net"
+       }
+      }
+     },
+     "localname": "NetMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_NetPosition": {
      "auth_ref": [
-      "r18"
+      "r25"
      ],
      "lang": {
       "en": {
@@ -4258,6 +4781,23 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NonSpendableMember": {
+     "auth_ref": [
+      "r27"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the type of restriction namely non-spendable.\tNon-spendable are amounts that cannot be spent because they are either (a) not in spendable form or (b) legally or contractually required to be maintained intact.",
+        "label": "Non-spendable [member]",
+        "terseLabel": "Non-spendable"
+       }
+      }
+     },
+     "localname": "NonSpendableMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_NotesPayable": {
      "auth_ref": [
       "r0"
@@ -4300,7 +4840,7 @@
     },
     "us-cafr_OrderOfMagnitude": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -4319,7 +4859,7 @@
     },
     "us-cafr_OtherAssets": {
      "auth_ref": [
-      "r30"
+      "r44"
      ],
      "lang": {
       "en": {
@@ -4357,7 +4897,7 @@
     },
     "us-cafr_OtherCurrentInvestments": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -4395,7 +4935,7 @@
     },
     "us-cafr_OtherExpenditures": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -4489,7 +5029,7 @@
     },
     "us-cafr_OtherInvestments": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -4508,7 +5048,7 @@
     },
     "us-cafr_OtherLiabilities": {
      "auth_ref": [
-      "r12"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -4565,7 +5105,7 @@
     },
     "us-cafr_OtherNonCurrentInvestments": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -4584,7 +5124,7 @@
     },
     "us-cafr_OtherNonCurrentLiabilities": {
      "auth_ref": [
-      "r12"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -4603,7 +5143,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanAssets": {
      "auth_ref": [
-      "r31"
+      "r45"
      ],
      "lang": {
       "en": {
@@ -4660,7 +5200,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanLiability": {
      "auth_ref": [
-      "r7"
+      "r8"
      ],
      "lang": {
       "en": {
@@ -4698,7 +5238,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanLiabilityNonCurrent": {
      "auth_ref": [
-      "r6"
+      "r7"
      ],
      "lang": {
       "en": {
@@ -4717,7 +5257,7 @@
     },
     "us-cafr_OtherPrepaidAssets": {
      "auth_ref": [
-      "r27"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -4776,7 +5316,7 @@
     },
     "us-cafr_OtherRevenues": {
      "auth_ref": [
-      "r13"
+      "r18"
      ],
      "lang": {
       "en": {
@@ -4815,7 +5355,7 @@
     },
     "us-cafr_OutsideMillage": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -4952,7 +5492,7 @@
     },
     "us-cafr_PensionAsset": {
      "auth_ref": [
-      "r5"
+      "r6"
      ],
      "lang": {
       "en": {
@@ -4972,7 +5512,7 @@
     },
     "us-cafr_PensionLiability": {
      "auth_ref": [
-      "r5"
+      "r6"
      ],
      "lang": {
       "en": {
@@ -5069,7 +5609,7 @@
     },
     "us-cafr_PooledInvestments": {
      "auth_ref": [
-      "r11"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -5089,7 +5629,7 @@
     },
     "us-cafr_PrepaidDeposits": {
      "auth_ref": [
-      "r27"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -5109,7 +5649,7 @@
     },
     "us-cafr_PrepaidExpenses": {
      "auth_ref": [
-      "r27"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -5129,7 +5669,7 @@
     },
     "us-cafr_PrepaidOtherPostEmploymentBenefitsPlan": {
      "auth_ref": [
-      "r27"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -5147,9 +5687,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_PrimaryGovernmentActivitiesMember": {
+     "auth_ref": [
+      "r32"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects primary government activities.\t1. A primary government is any state government or general purpose local government (municipality or county) as well as a special-purpose government (for example, a school district or a park district).\t2. The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria: a. It has a separately elected governing body. b. It is legally separate c. It is fiscally independent 3. A primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, Entities, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government.",
+        "label": "Primary government activities [member]",
+        "terseLabel": "Primary government activities"
+       }
+      }
+     },
+     "localname": "PrimaryGovernmentActivitiesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_ProgramRevenues": {
      "auth_ref": [
-      "r16"
+      "r22"
      ],
      "lang": {
       "en": {
@@ -5242,7 +5799,7 @@
     },
     "us-cafr_PropertyTaxValuation": {
      "auth_ref": [
-      "r34"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -5261,7 +5818,7 @@
     },
     "us-cafr_PropertyTaxesReceivable": {
      "auth_ref": [
-      "r34"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -5492,7 +6049,7 @@
     },
     "us-cafr_ReportingCurrency": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -5511,7 +6068,7 @@
     },
     "us-cafr_ReportingFrequency": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -5527,6 +6084,23 @@
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
      "xbrltype": "ReportingCurrency"
+    },
+    "us-cafr_ResidualTermToMaturityAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information is categorized according to the remaining term to maturity of the asset or liability that gave rise to it. This is the time interval between the reporting date and the maturity date.",
+        "label": "Residual term to maturity [axis]",
+        "terseLabel": "Residual term to maturity"
+       }
+      }
+     },
+     "localname": "ResidualTermToMaturityAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
     },
     "us-cafr_RestrictedAssetsAbstract": {
      "auth_ref": [],
@@ -5545,6 +6119,23 @@
       "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional"
      ],
      "xbrltype": "stringItemType"
+    },
+    "us-cafr_RestrictedMember": {
+     "auth_ref": [
+      "r24"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the restricted nature of the concept. Restricted means subject to conditions.\tAmounts restricted when constraints placed on the use of resources are either:\ta. Externally imposed by creditors (such as through debt covenants), grantor's, contributors, or laws or regulations of other governments; or\tb. Imposed by law through constitutional provisions or enabling legislation.",
+        "label": "Restricted [member]",
+        "terseLabel": "Restricted"
+       }
+      }
+     },
+     "localname": "RestrictedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_RetainagePayable": {
      "auth_ref": [
@@ -5587,7 +6178,7 @@
     },
     "us-cafr_RevenueFromBusinessLicenseTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -5607,7 +6198,7 @@
     },
     "us-cafr_RevenueFromChargesForServicesAndSales": {
      "auth_ref": [
-      "r22"
+      "r36"
      ],
      "lang": {
       "en": {
@@ -5721,7 +6312,7 @@
     },
     "us-cafr_RevenueFromDocumentsTransferTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -5798,7 +6389,7 @@
     },
     "us-cafr_RevenueFromFinesAndForfeituresAndPenalties": {
      "auth_ref": [
-      "r49"
+      "r63"
      ],
      "lang": {
       "en": {
@@ -5818,7 +6409,7 @@
     },
     "us-cafr_RevenueFromFranchiseIncomeTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -5972,7 +6563,7 @@
     },
     "us-cafr_RevenueFromHotelAndMotelTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -5992,7 +6583,7 @@
     },
     "us-cafr_RevenueFromIncomeTax": {
      "auth_ref": [
-      "r46"
+      "r60"
      ],
      "lang": {
       "en": {
@@ -6012,7 +6603,7 @@
     },
     "us-cafr_RevenueFromInterGovernmentalActivities": {
      "auth_ref": [
-      "r15"
+      "r21"
      ],
      "lang": {
       "en": {
@@ -6032,7 +6623,7 @@
     },
     "us-cafr_RevenueFromInvestmentIncome": {
      "auth_ref": [
-      "r8"
+      "r9"
      ],
      "lang": {
       "en": {
@@ -6071,7 +6662,7 @@
     },
     "us-cafr_RevenueFromLicensesAndPermitsAndFranchiseFees": {
      "auth_ref": [
-      "r45"
+      "r59"
      ],
      "lang": {
       "en": {
@@ -6091,7 +6682,7 @@
     },
     "us-cafr_RevenueFromMealsTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6149,7 +6740,7 @@
     },
     "us-cafr_RevenueFromOtherTaxes": {
      "auth_ref": [
-      "r47"
+      "r61"
      ],
      "lang": {
       "en": {
@@ -6169,7 +6760,7 @@
     },
     "us-cafr_RevenueFromParkingOccupancyTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6189,7 +6780,7 @@
     },
     "us-cafr_RevenueFromPropertyTax": {
      "auth_ref": [
-      "r35"
+      "r49"
      ],
      "lang": {
       "en": {
@@ -6209,7 +6800,7 @@
     },
     "us-cafr_RevenueFromPropertyTransferTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6363,7 +6954,7 @@
     },
     "us-cafr_RevenueFromSalesAndUseTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6383,7 +6974,7 @@
     },
     "us-cafr_RevenueFromSalesTax": {
      "auth_ref": [
-      "r44"
+      "r58"
      ],
      "lang": {
       "en": {
@@ -6480,7 +7071,7 @@
     },
     "us-cafr_RevenueFromSpecialAssessments": {
      "auth_ref": [
-      "r48"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -6519,7 +7110,7 @@
     },
     "us-cafr_RevenueFromTransferStampsTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6539,7 +7130,7 @@
     },
     "us-cafr_RevenueFromTransientOccupancyTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6578,7 +7169,7 @@
     },
     "us-cafr_RevenueFromUsageOfUtilitiesTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6618,7 +7209,7 @@
     },
     "us-cafr_RevenueFromVehiclesTax": {
      "auth_ref": [
-      "r36"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -6677,7 +7268,7 @@
     },
     "us-cafr_Revenues": {
      "auth_ref": [
-      "r29"
+      "r43"
      ],
      "lang": {
       "en": {
@@ -6717,7 +7308,7 @@
     },
     "us-cafr_SalesTaxReceivable": {
      "auth_ref": [
-      "r44"
+      "r58"
      ],
      "lang": {
       "en": {
@@ -6795,6 +7386,23 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_SpecialRevenueFund01Member": {
+     "auth_ref": [
+      "r12"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the special revenue fund 01.\ta) Special revenue fund are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects.\tb) Special revenue funds are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects. The term proceeds of specific revenue sources establishes that one or more specific restricted or committed revenues should be the foundation for a special revenue fund. Those specific restricted or committed revenues may be initially received in another fund and subsequently distributed to a special revenue fund. Those amounts should not be recognized as revenue in the fund initially receiving them; however, those inflows should be recognized as revenue in the special revenue fund in which they will be expended in accordance with specified purposes. The restricted or committed proceeds of specific revenue sources should be expected to continue to comprise a substantial portion of the inflows reported in the fund. Other resources (investment earnings and transfers from other funds, for example) also may be reported in the fund if those resources are restricted, committed, or assigned to the specified purpose of the fund.\tc) A stabilization arrangement would satisfy the criteria to be reported as a separate special revenue fund only if the resources derive from a specific restricted or committed revenue source. Governments should discontinue reporting a special revenue fund, and instead report the fund\u2019s remaining resources in the general fund, if the government no longer expects that a substantial portion of the inflows will derive from restricted or committed revenue sources. Resources restricted to expenditure for purposes normally financed from the general fund may be accounted for through the general fund provided that applicable legal requirements can be appropriately satisfied; and use of special revenue funds is not required unless they are legally mandated. The general fund of a blended component unit should be reported as a special revenue fund.\td) Special revenue funds should not be used to account for resources held in trust for individuals, private organizations, or other governments. Governments should disclose in the notes to the financial statements the purpose for each major special revenue fund\u2014identifying which revenues and other resources are reported in each of those funds.",
+        "label": "Special revenue fund 01 [member]",
+        "terseLabel": "Special revenue fund 01"
+       }
+      }
+     },
+     "localname": "SpecialRevenueFund01Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_StatementOfActivitiesAbstract": {
      "auth_ref": [],
      "lang": {
@@ -6847,7 +7455,7 @@
     },
     "us-cafr_TotalAnnualFinalAppropriationsForAllFunds": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -6864,9 +7472,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_TotalGovernmentFundsMember": {
+     "auth_ref": [
+      "r10"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the total government funds. Governmental fund reporting focuses primarily on the sources, uses, and balances of current financial resources and often has a budgetary orientation. The governmental fund category includes the general fund, special revenue funds, capital projects funds, debt service funds, and permanent funds. Governmental funds are, in essence, accounting segregations of financial resources. Expendable assets are assigned to the various governmental funds according to the purposes for which they may or must be used; current liabilities are assigned to the fund from which they are to be paid; and the difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as \"Fund Balance.\"",
+        "label": "Total government funds [member]",
+        "terseLabel": "Total government funds"
+       }
+      }
+     },
+     "localname": "TotalGovernmentFundsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_TotalPropertyTaxRate": {
      "auth_ref": [
-      "r34"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6883,9 +7508,26 @@
      ],
      "xbrltype": "percentItemType"
     },
+    "us-cafr_TypeOfActivitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information is categorized according to the Governmental activities or Business type activities or Primary Governmental activities.",
+        "label": "Type of activities [axis]",
+        "terseLabel": "Type of activities"
+       }
+      }
+     },
+     "localname": "TypeOfActivitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_TypeOfGovernment": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -6902,9 +7544,60 @@
      ],
      "xbrltype": "TypeOfGovernment"
     },
+    "us-cafr_TypeOfGovernmentalFundsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information is categorized according to the type of governmental funds and its covers General funds, Special revenue funds, Capital projects funds, Debt service funds and Other miscellaneous funds.",
+        "label": "Type of governmental funds [axis]",
+        "terseLabel": "Type of governmental funds"
+       }
+      }
+     },
+     "localname": "TypeOfGovernmentalFundsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_TypeOfRestrictionAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information can be reported as restricted or unrestricted or spendable or non-spendable or committed or uncommitted or assigned or unassigned. Restricted means subject to conditions and unrestricted means not subject to any conditions.",
+        "label": "Type of restricton [axis]",
+        "terseLabel": "Type of restricton"
+       }
+      }
+     },
+     "localname": "TypeOfRestrictionAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_UnassignedMember": {
+     "auth_ref": [
+      "r30"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the type of restriction namely not assigned for a special purpose.\tUnassigned fund balance is the residual classification for the general fund. This classification represents fund balance that has not been assigned to other funds and that has not been restricted, committed, or assigned to specific purposes within the general fund. The general fund should be the only fund that reports a positive unassigned fund balance amount. In other governmental funds, if expenditures incurred for specific purposes exceeded the amounts restricted, committed, or assigned to those purposes, it may be necessary to report a negative unassigned fund balance.",
+        "label": "Unassigned [member]",
+        "terseLabel": "Unassigned"
+       }
+      }
+     },
+     "localname": "UnassignedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_UnearnedRevenue": {
      "auth_ref": [
-      "r32"
+      "r46"
      ],
      "lang": {
       "en": {
@@ -6924,7 +7617,7 @@
     },
     "us-cafr_UnitIdentificationNumber": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -6941,9 +7634,26 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_UnrestrictedMember": {
+     "auth_ref": [
+      "r26"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the unrestricted nature of the concept. Unrestricted means not subject to any conditions.\tThe unrestricted component of net position is the net amount of the assets, deferred outflows of resources, liabilities, and deferred inflows of resources that are not included in the determination of net investment in capital assets or the restricted components of net position.",
+        "label": "Unrestricted [member]",
+        "terseLabel": "Unrestricted"
+       }
+      }
+     },
+     "localname": "UnrestrictedMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_XBRLTaxonomyVersion": {
      "auth_ref": [
-      "r50"
+      "r64"
      ],
      "lang": {
       "en": {
@@ -6973,43 +7683,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r10": {
-   "Note": "Section 1400 and Paragraph 103",
+   "Note": "Section 1300 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r11": {
-   "Note": "Section 150 and Paragraph 103",
+   "Note": "Section 1300 and Paragraph 104",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r12": {
-   "Note": "Section 1500 and Paragraph 106",
+   "Note": "Section 1300 and Paragraph 105",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r13": {
-   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
+   "Note": "Section 1300 and Paragraph 107",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r14": {
-   "Note": "Section 1800 and Paragraph 102",
+   "Note": "Section 140 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r15": {
-   "Note": "Section 1800 and Paragraph 136",
+   "Note": "Section 1400 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r16": {
-   "Note": "Section 1800 and Paragraph 142",
+   "Note": "Section 150 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r17": {
-   "Note": "Section 1800 and Paragraph 156 and Chapter I",
+   "Note": "Section 1500 and Paragraph 106",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r18": {
-   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
+   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r19": {
-   "Note": "Section 1800 and Paragraph 183",
+   "Note": "Section 1800 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r2": {
@@ -7017,43 +7727,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r20": {
-   "Note": "Section 2200 and Paragraph 116",
+   "Note": "Section 1800 and Paragraph 115 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r21": {
-   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
+   "Note": "Section 1800 and Paragraph 136",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r22": {
-   "Note": "Section 2200 and Paragraph 137",
+   "Note": "Section 1800 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r23": {
-   "Note": "Section 2200 and Paragraph 140",
+   "Note": "Section 1800 and Paragraph 156 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r24": {
-   "Note": "Section 2200 and Paragraph 142",
+   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r25": {
-   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
+   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r26": {
-   "Note": "Section 2250 and Paragraph 124",
+   "Note": "Section 1800 and Paragraph 162 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r27": {
-   "Note": "Section 2300 and Paragraph fn1",
+   "Note": "Section 1800 and Paragraph 166 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r28": {
-   "Note": "Section 2450 and Paragraph fn2",
+   "Note": "Section 1800 and Paragraph 170 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r29": {
-   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
+   "Note": "Section 1800 and Paragraph 173 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r3": {
@@ -7061,109 +7771,165 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r30": {
-   "Note": "Section CS4 and Paragraph 8-16",
+   "Note": "Section 1800 and Paragraph 177 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r31": {
-   "Note": "Section P50 and Footnote 7 and 13",
+   "Note": "Section 1800 and Paragraph 183",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r32": {
-   "Note": "Glossary - Unearned revenue",
-   "Publisher": "EGAAFR"
+   "Note": "Section 2100 and Paragraph 112-113",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r33": {
-   "Note": "Section - Accounts payable",
-   "Publisher": "EGAAFR"
+   "Note": "Section 2200 and Paragraph 113",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r34": {
-   "Note": "COG, Glossary",
-   "Publisher": "US Census Bureau"
+   "Note": "Section 2200 and Paragraph 116",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r35": {
-   "Note": "Section COG, Glossary- Property Taxes and Paragraph",
-   "Publisher": "US Census Bureau"
+   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r36": {
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2200 and Paragraph 137",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r37": {
-   "Note": "Page 10 and 11 and  Part III, 8.D. and 8.K.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2200 and Paragraph 140",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r38": {
-   "Note": "Page 10 and Page 14 and Part III, 8.E. and 9.F.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2200 and Paragraph 142",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r39": {
-   "Note": "Page 11 and Part III, 8.L.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r4": {
    "Note": "CS4, Appendix B and Paragraph 34",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r40": {
-   "Note": "Page 11 and Part III, 8.P.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2250 and Paragraph 124",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r41": {
-   "Note": "Page 11 and Part III, 8.R.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2300 and Paragraph fn1",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r42": {
-   "Note": "Page 12 and Part III, 8.Z.",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2450 and Paragraph fn2",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r43": {
-   "Note": "Page 13 and Part III",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r44": {
-   "Note": "Page 3 and Part II, B",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section CS4 and Paragraph 8-16",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r45": {
-   "Note": "Page 4 and Part II, C",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section P50 and Footnote 7 and 13",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r46": {
-   "Note": "Page 4 and Part II, D",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Glossary - Unearned revenue",
+   "Publisher": "EGAAFR"
   },
   "r47": {
-   "Note": "Page 4 and Part II, E",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section - Accounts payable",
+   "Publisher": "EGAAFR"
   },
   "r48": {
-   "Note": "Page 8 and Part II, 5.C",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "COG, Glossary",
+   "Publisher": "US Census Bureau"
   },
   "r49": {
-   "Note": "Page 9 and Part II, 5.F",
-   "Publisher": "US Census Bureau: F28"
+   "Note": "Section COG, Glossary- Property Taxes and Paragraph",
+   "Publisher": "US Census Bureau"
   },
   "r5": {
-   "Note": "Page 20",
+   "Note": "GASB Concepts Statements, Paragraph 43 and Appendix B",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r50": {
-   "Publisher": "US-CAFR, Filing information"
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r51": {
+   "Note": "Page 10 and 11 and  Part III, 8.D. and 8.K.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r52": {
+   "Note": "Page 10 and Page 14 and Part III, 8.E. and 9.F.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r53": {
+   "Note": "Page 11 and Part III, 8.L.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r54": {
+   "Note": "Page 11 and Part III, 8.P.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r55": {
+   "Note": "Page 11 and Part III, 8.R.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r56": {
+   "Note": "Page 12 and Part III, 8.Z.",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r57": {
+   "Note": "Page 13 and Part III",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r58": {
+   "Note": "Page 3 and Part II, B",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r59": {
+   "Note": "Page 4 and Part II, C",
+   "Publisher": "US Census Bureau: F28"
   },
   "r6": {
+   "Note": "Page 20",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
+  },
+  "r60": {
+   "Note": "Page 4 and Part II, D",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r61": {
+   "Note": "Page 4 and Part II, E",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r62": {
+   "Note": "Page 8 and Part II, 5.C",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r63": {
+   "Note": "Page 9 and Part II, 5.F",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r64": {
+   "Publisher": "US-CAFR, Filing information"
+  },
+  "r7": {
    "Note": "Page 50 and Footnote 7 and 13",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
-  "r7": {
+  "r8": {
    "Note": "Page 50 and Footnote 7, Footnote 13",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
-  "r8": {
-   "Note": "Page 9 and Part II, 5.E",
-   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
-  },
   "r9": {
-   "Note": "Section 140 and Paragraph 102",
+   "Note": "Page 9 and Part II, 5.E",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   }
  },
