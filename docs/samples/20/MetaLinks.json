@@ -202,11 +202,11 @@
        "html"
       ],
       "baseRef": "losangeles-california-20180630.xhtml",
-      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain_1",
+      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_NameOfDeferredOutflowsOfResourcesDomain_1",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization",
+      "name": "us-cafr:DeferredOutflowsOfResources",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
