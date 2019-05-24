@@ -1,9 +1,9 @@
 {
  "instance": {
-  "losangeles-california-20180630.xhtml": {
+  "Los_Angeles-20180630.xhtml": {
    "axisCustom": 0,
-   "axisStandard": 22,
-   "contextCount": 167,
+   "axisStandard": 27,
+   "contextCount": 241,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -16,7 +16,7 @@
     },
     "inline": {
      "local": [
-      "losangeles-california-20180630.xhtml"
+      "Los_Angeles-20180630.xhtml"
      ]
     },
     "labelLink": {
@@ -163,16 +163,16 @@
      ]
     }
    },
-   "elementCount": 391,
+   "elementCount": 399,
    "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 109,
-    "total": 109
+    "https://xbrl.us/2019/us-cafr_concept": 175,
+    "total": 175
    },
    "keyCustom": 0,
-   "keyStandard": 341,
+   "keyStandard": 346,
    "memberCustom": 0,
-   "memberStandard": 18,
+   "memberStandard": 21,
    "report": {
     "R1": {
      "firstAnchor": null,
@@ -197,30 +197,29 @@
        "div",
        "div",
        "div",
-       "div",
        "body",
        "html"
       ],
-      "baseRef": "losangeles-california-20180630.xhtml",
-      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_NameOfDeferredOutflowsOfResourcesDomain_1",
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630_BusinessTypeActivitiesMember",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:DeferredOutflowsOfResources",
+      "name": "us-cafr:ExpensesForConventionCentreServices",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - losangeles-california-20180630.xhtml",
+     "longName": "Uncategorized Items - Los_Angeles-20180630.xhtml",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - losangeles-california-20180630.xhtml",
+     "shortName": "Uncategorized Items - Los_Angeles-20180630.xhtml",
      "subGroupType": "",
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 34,
+   "segmentCount": 41,
    "tag": {
     "us-cafr_AccountsPayable": {
      "auth_ref": [
@@ -4223,6 +4222,23 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of adjustments for transfer of revenues within activities",
+        "label": "Name of adjustments for transfer of revenues within activities [axis]",
+        "terseLabel": "Name of adjustments for transfer of revenues within activities"
+       }
+      }
+     },
+     "localname": "NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfAuditFirm": {
      "auth_ref": [
       "r64"
@@ -4536,6 +4552,40 @@
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfOtherFinancingSourcesUsesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other financing sources (uses)",
+        "label": "Name of other financing sources (uses) [axis]",
+        "terseLabel": "Name of other financing sources (uses)"
+       }
+      }
+     },
+     "localname": "NameOfOtherFinancingSourcesUsesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherGeneralRevenuesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other general revenues",
+        "label": "Name of other general revenues [axis]",
+        "terseLabel": "Name of other general revenues"
+       }
+      }
+     },
+     "localname": "NameOfOtherGeneralRevenuesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfOtherLiabilitiesAxis": {
      "auth_ref": [
       "r0"
@@ -4550,6 +4600,23 @@
       }
      },
      "localname": "NameOfOtherLiabilitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherRevenuesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other revenues",
+        "label": "Name of other revenues [axis]",
+        "terseLabel": "Name of other revenues"
+       }
+      }
+     },
+     "localname": "NameOfOtherRevenuesAxis",
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
@@ -5761,6 +5828,23 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_ProgramRevenuesFromCapitalGrantsAndContributionsMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the program revenues from capital grants and contributions.\nRevenue from capital grants and contributions are program-specific grants and contributions (operating and capital) include revenues arising from mandatory and voluntary non-exchange transactions with other governments, organizations, or individuals that are restricted for use in a particular program.",
+        "label": "Program revenues from capital grants and contributions [member]",
+        "terseLabel": "Program revenues from capital grants and contributions"
+       }
+      }
+     },
+     "localname": "ProgramRevenuesFromCapitalGrantsAndContributionsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_ProgramRevenuesFromChargesForServicesAndSalesAbstract": {
      "auth_ref": [],
      "lang": {
@@ -5779,6 +5863,23 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_ProgramRevenuesFromChargesForServicesAndSalesMember": {
+     "auth_ref": [
+      "r36"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the program revenues from charges for services and sales",
+        "label": "Program revenues from charges for services and sales [member]",
+        "terseLabel": "Program revenues from charges for services and sales"
+       }
+      }
+     },
+     "localname": "ProgramRevenuesFromChargesForServicesAndSalesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_ProgramRevenuesFromOperatingGrantsAndContributionsAbstract": {
      "auth_ref": [],
      "lang": {
@@ -5796,6 +5897,23 @@
       "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional"
      ],
      "xbrltype": "stringItemType"
+    },
+    "us-cafr_ProgramRevenuesFromOperatingGrantsAndContributionsMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the program revenues from operating grants and contributions",
+        "label": "Program revenues from operating grants and contributions [member]",
+        "terseLabel": "Program revenues from operating grants and contributions"
+       }
+      }
+     },
+     "localname": "ProgramRevenuesFromOperatingGrantsAndContributionsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_PropertyTaxValuation": {
      "auth_ref": [
@@ -7558,6 +7676,23 @@
       }
      },
      "localname": "TypeOfGovernmentalFundsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_TypeOfProgramRevenuesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information is categorised according to program revenues namely program revenues from charges for services and sales and program revenues from operating grants and contributions and program revenues from capital grants and contributions.",
+        "label": "Type of program revenues [axis]",
+        "terseLabel": "Type of program revenues"
+       }
+      }
+     },
+     "localname": "TypeOfProgramRevenuesAxis",
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
