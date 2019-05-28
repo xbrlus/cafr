@@ -1,0 +1,1037 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Open Source RECEiX Version 2019-05-25 -->
+<html xml:lang="en" 
+   xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ix="http://www.xbrl.org/2013/inlineXBRL"
+   xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+   xmlns:link="http://www.xbrl.org/2003/linkbase"
+   xmlns:negated="http://www.xbrl.org/2009/role/negated"
+   xmlns:net="http://www.xbrl.org/2009/role/net"
+   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+   xmlns:num="http://www.xbrl.org/dtr/type/numeric"
+   xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+   xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+   xmlns:xbrli="http://www.xbrl.org/2003/instance"
+   xmlns:xl="http://www.xbrl.org/2003/XLink"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+   xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" 
+   xmlns:us-cafr="https://xbrl.us/2019/us-cafr_concept"
+   xmlns:us-cafr_part="https://xbrl.us/2019/us-cafr_part">
+<head>
+   <title>iXBRL file</title>
+<!--   <script type="text/javascript" src="http://www.xbrl.org/ixbrl-samples/es6-shim.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js" ></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js" ></script>
+   <script type="text/javascript" src="http://www.xbrl.org/ixbrl-samples/ixbrl-inspector.js"></script>
+-->
+   <style type="text/css">
+      td,tr,p,h1,h2,h3{ font-family:times new roman,sans-serif;font-size:16px; color:#000000; background-color:#FFFFFF;
+      border-width:thin; vertical-align:middle; text-align:left; border-left-color:black; border-right-color:black; border-top-color:black; border-bottom-color:black;}
+      td{ border-left-style:none; border-right-style:none; border-top-style:none; border-bottom-style:none;}
+      table{ padding-right:17em;}
+   </style>
+</head>
+<body>
+<!--Sheet[COVER]-->
+<table style="  width:971.25px;margin:0pt auto; border:0px;border-spacing:0px;">
+<tr style=" border:0px;height:0px;">
+ <td style="width:26.77%;border:0px;height:0px;"></td><!--Col[1]-->
+ <td style="width:1.54%;border:0px;height:0px;"></td><!--Col[2]-->
+ <td style="width:23.17%;border:0px;height:0px;"></td><!--Col[3]-->
+ <td style="width:1.54%;border:0px;height:0px;"></td><!--Col[4]-->
+ <td style="width:24.32%;border:0px;height:0px;"></td><!--Col[5]-->
+ <td style="width:1.54%;border:0px;height:0px;"></td><!--Col[6]-->
+ <td style="width:21.11%;border:0px;height:0px;"></td><!--Col[7]-->
+</tr>
+<tr style="height:50.4px;"><!--Row[1]-->
+ <td id="_COVER_A1" colspan="7" rowspan="1" style="font-family:verdana;font-size:32px;text-align:center;width:100%;border-left-style:solid;border-left-width:medium;border-top-style:solid;border-top-width:medium;border-right-style:solid;border-right-width:medium;border-bottom-style:solid;border-bottom-width:medium;">COVER PAGE</td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[4]-->
+ <td colspan="7"><br /></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[5]-->
+ <td colspan="4" style="font-family:verdana;font-size:14.67px;width:53.02%;">Entity</td>
+ <td id="_COVER_E5" colspan="3" rowspan="9" style="vertical-align:middle;width:46.98%;">
+<img style=" display:block; margin-left:auto; margin-right:auto; width:188.75px;" alt="image COVER_E5"
+ src="data:image/gif;base64,
+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" />
+</td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[6]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Document Title</td>
+ <td id="_COVER_C6" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:DocumentTitle" contextRef="_ctx1" id="COVER_C6" escape="false">CAFR</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[7]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Name of Government</td>
+ <td id="_COVER_C7" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:NameOfGovernment" contextRef="_ctx1" id="COVER_C7" escape="false">City of Los Angeles</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[8]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Fiscal start date</td>
+ <td id="_COVER_C8" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:FiscalStartDate" contextRef="_ctx1" id="COVER_C8" format="ixt:DATEMONTHDAYYEAREN">July 1, 2017</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[9]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Fiscal end date</td>
+ <td id="_COVER_C9" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:FiscalEndDate" contextRef="_ctx1" id="COVER_C9" format="ixt:DATEMONTHDAYYEAREN">June 30, 2018</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[10]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Name of State</td>
+ <td id="_COVER_C10" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:NameOfState" contextRef="_ctx1" id="COVER_C10" escape="false">California</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[11]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:28.31%;">Census Bureau GID</td>
+ <td id="_COVER_C11" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:normal;width:24.71%;"><ix:nonNumeric name="us-cafr:LegalEntityIdentifier" contextRef="_ctx1" id="COVER_C11" escape="false">5201902700000</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[12]-->
+ <td colspan="4"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[13]-->
+ <td colspan="4" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:bold;width:53.02%;">Audit Letter</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[14]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:28.31%;">Date of Audit Opinion</td>
+ <td id="_COVER_C14" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:24.71%;"><ix:nonNumeric name="us-cafr:DateOfAuditOpinion" contextRef="_ctx1" id="COVER_C14" format="ixt:DATEMONTHDAYYEAREN">January 31, 2019</ix:nonNumeric></td>
+ <td colspan="3" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;font-weight:bold;width:46.98%;">Letter of Transmittal</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[15]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:28.31%;">Name of Audit Firm</td>
+ <td id="_COVER_C15" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:24.71%;"><ix:nonNumeric name="us-cafr:NameOfAuditFirm" contextRef="_ctx1" id="COVER_C15" escape="false">MGO LLP</ix:nonNumeric></td>
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:25.87%;">Type of Government</td>
+ <td id="_COVER_G15" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:21.11%;"><ix:nonNumeric name="us-cafr:TypeOfGovernment" contextRef="_ctx1" id="COVER_G15" escape="false">City</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[16]-->
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:28.31%;">Audit Opinion</td>
+ <td id="_COVER_C16" colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:24.71%;"><ix:nonNumeric name="us-cafr:AuditOpinion" contextRef="_ctx1" id="COVER_C16" escape="false">Unmodified</ix:nonNumeric></td>
+ <td colspan="2" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:25.87%;">Date of Transmittal</td>
+ <td id="_COVER_G16" style="font-family:verdana;font-size:14.67px;vertical-align:bottom;width:21.11%;"><ix:nonNumeric name="us-cafr:DateOfTransmittal" contextRef="_ctx1" id="COVER_G16" format="ixt:DATEMONTHDAYYEAREN">January 31, 2019</ix:nonNumeric></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[17]-->
+ <td colspan="7"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[18]-->
+ <td colspan="7" style="font-family:verdana;color:#0000FF;font-size:14.67px;vertical-align:bottom;font-weight:bold;text-decoration:underline;width:100%;"><a href="#_NETPOSITION_A1">Statement of Net Position</a></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[19]-->
+ <td colspan="7"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[20]-->
+ <td colspan="7"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[21]-->
+ <td colspan="7" style="font-family:arial;color:#0000FF;font-size:14.67px;vertical-align:bottom;font-weight:bold;text-decoration:underline;width:100%;"><a href="https://lacontroller.org/wp-content/uploads/2019/02/FY18_CAFR_Final_1.31.19_v3.pdf">Click here for the paper-based Comprehensive Annual Financial Report (CAFR)</a></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[22]-->
+ <td colspan="7" style="font-family:arial;color:#0000FF;font-size:14.67px;vertical-align:bottom;font-weight:bold;text-decoration:underline;width:100%;"><a href="https://lacontroller.org/wp-content/uploads/2019/03/FY2017_CAFR.pdf">Click here for prior year Comprehensive Annual Financial Report (CAFR)</a></td>
+</tr>
+</table>
+<!--Sheet[NETPOSITION]--><hr />
+<table style="  width:1097.5px;margin:0pt auto; border:0px;border-spacing:0px;">
+<tr style=" border:0px;height:0px;">
+ <td style="width:46.01%;border:0px;height:0px;"></td><!--Col[1]-->
+ <td style="width:15.83%;border:0px;height:0px;"></td><!--Col[2]-->
+ <td style="width:2.96%;border:0px;height:0px;"></td><!--Col[3]-->
+ <td style="width:16.63%;border:0px;height:0px;"></td><!--Col[4]-->
+ <td style="width:2.96%;border:0px;height:0px;"></td><!--Col[5]-->
+ <td style="width:15.6%;border:0px;height:0px;"></td><!--Col[6]-->
+</tr>
+<tr style="height:32px;"><!--Row[1]-->
+ <td id="_NETPOSITION_A1" colspan="4" style="font-family:verdana;color:#221E20;font-size:21.33px;text-align:center;vertical-align:bottom;font-weight:bold;width:81.44%;border-top-style:solid;"><ix:nonNumeric name="us-cafr:NameOfGovernment" contextRef="_ctx1" id="NETPOSITION_A1" escape="false">City of Los Angeles</ix:nonNumeric></td>
+ <td colspan="2" style="border-top-style:solid;"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[2]-->
+ <td colspan="4" style="font-family:verdana;color:#221E20;text-align:center;vertical-align:bottom;width:81.44%;">Statement of Net Position</td>
+ <td colspan="2"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[3]-->
+ <td colspan="4" style="font-family:verdana;color:#221E20;text-align:center;vertical-align:bottom;width:81.44%;"><ix:nonNumeric name="us-cafr:FiscalEndDate" contextRef="_ctx1" id="" format="ixt:DATEMONTHDAYYEAREN">June 30, 2018</ix:nonNumeric></td>
+ <td colspan="2"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[4]-->
+ <td colspan="4" style="font-family:verdana;font-size:10.67px;text-align:center;vertical-align:bottom;width:81.44%;border-bottom-style:solid;">(amounts expressed in thousands)</td>
+ <td colspan="2" style="border-bottom-style:solid;"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[5]-->
+ <td colspan="6"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[6]-->
+ <td colspan="6"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[7]-->
+ <td colspan="6"><br /></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[8]-->
+ <td><br /></td>
+ <td style="font-size:14.67px;text-align:center;vertical-align:bottom;width:15.83%;">Governmental</td>
+ <td><br /></td>
+ <td style="font-size:14.67px;text-align:center;vertical-align:bottom;width:16.63%;">Business-type</td>
+ <td colspan="2"><br /></td>
+</tr>
+<tr style="height:16.8px; font-weight:bold;"><!--Row[9]-->
+ <td><br /></td>
+ <td style="font-size:14.67px;text-align:center;vertical-align:bottom;width:15.83%;border-bottom-style:solid;">Activities</td>
+ <td><br /></td>
+ <td style="font-size:14.67px;text-align:center;vertical-align:bottom;width:16.63%;border-bottom-style:solid;">Activities</td>
+ <td><br /></td>
+ <td style="font-size:14.67px;text-align:center;vertical-align:bottom;width:15.6%;border-bottom-style:solid;">Total</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[10]-->
+ <td style="font-weight:bold;width:46.01%;">ASSETS</td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[11]-->
+ <td style="width:46.01%;">Cash and Pooled Investments</td>
+ <td id="_NETPOSITION_B11" style="text-align:right;width:15.83%;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<ix:nonFraction name="us-cafr:PooledCashAndInvestments" contextRef="_ctx2" id="NETPOSITION_B11" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">4,461,832</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D11" style="text-align:right;width:16.63%;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<ix:nonFraction name="us-cafr:PooledCashAndInvestments" contextRef="_ctx9" id="NETPOSITION_D11" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,828,126</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F11" style="text-align:right;width:15.6%;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<ix:nonFraction name="us-cafr:PooledCashAndInvestments" contextRef="_ctx16" id="NETPOSITION_F11" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">7,289,958</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[12]-->
+ <td style="width:46.01%;">Other Investments</td>
+ <td id="_NETPOSITION_B12" style="text-align:right;width:15.83%;"><br /></td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D12" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:OtherCurrentInvestments" contextRef="_ctx9" id="NETPOSITION_D12" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,167</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F12" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:OtherCurrentInvestments" contextRef="_ctx16" id="NETPOSITION_F12" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,167</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[13]-->
+ <td style="width:46.01%;">Receivables, Net</td>
+ <td id="_NETPOSITION_B13" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:AccountsReceivable" contextRef="_ctx2" id="NETPOSITION_B13" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,435,222</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D13" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:AccountsReceivable" contextRef="_ctx9" id="NETPOSITION_D13" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">1,621,758</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F13" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:AccountsReceivable" contextRef="_ctx16" id="NETPOSITION_F13" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">4,056,980</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[14]-->
+ <td style="width:46.01%;">Due from Fiduciary Funds</td>
+ <td id="_NETPOSITION_B14" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:DueFromFiduciaryFunds" contextRef="_ctx2" id="NETPOSITION_B14" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">185</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D14" style="text-align:right;width:16.63%;"><br /></td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F14" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:DueFromFiduciaryFunds" contextRef="_ctx16" id="NETPOSITION_F14" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">185</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[15]-->
+ <td style="width:46.01%;">Inventories</td>
+ <td id="_NETPOSITION_B15" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:InventoriesCurrent" contextRef="_ctx2" id="NETPOSITION_B15" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">33,004</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D15" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:InventoriesCurrent" contextRef="_ctx9" id="NETPOSITION_D15" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">223,801</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F15" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:InventoriesCurrent" contextRef="_ctx16" id="NETPOSITION_F15" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">256,805</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[16]-->
+ <td style="width:46.01%;">Prepaid Items and Other Assets</td>
+ <td id="_NETPOSITION_B16" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:OtherCurrentAssets" contextRef="_ctx3" id="NETPOSITION_B16" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">8,838</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D16" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:OtherCurrentAssets" contextRef="_ctx10" id="NETPOSITION_D16" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">748,934</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F16" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:OtherCurrentAssets" contextRef="_ctx17" id="NETPOSITION_F16" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">757,772</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[17]-->
+ <td style="width:46.01%;">Restricted Assets</td>
+ <td id="_NETPOSITION_B17" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx4" id="NETPOSITION_B17" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">20,354</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D17" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx11" id="NETPOSITION_D17" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">4,055,397</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F17" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx18" id="NETPOSITION_F17" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">4,075,751</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[18]-->
+ <td style="width:46.01%;">Investment in Joint Ventures</td>
+ <td id="_NETPOSITION_B18" style="text-align:right;width:15.83%;"><br /></td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D18" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:InvestmentsInJointVentures" contextRef="_ctx9" id="NETPOSITION_D18" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">5,733</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F18" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:InvestmentsInJointVentures" contextRef="_ctx16" id="NETPOSITION_F18" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">5,733</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[19]-->
+ <td style="width:46.01%;">Properties Held for Housing Development</td>
+ <td id="_NETPOSITION_B19" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:MiscellaneousNonCurrentAssets" contextRef="_ctx5" id="NETPOSITION_B19" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">111,808</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D19" style="text-align:right;width:16.63%;"><br /></td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F19" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:MiscellaneousNonCurrentAssets" contextRef="_ctx19" id="NETPOSITION_F19" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">111,808</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[20]-->
+ <td style="width:46.01%;">Regulatory Assets</td>
+ <td id="_NETPOSITION_B20" style="text-align:right;width:15.83%;"><br /></td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D20" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:RegulatoryAssetsNonCurrent" contextRef="_ctx9" id="NETPOSITION_D20" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,435,793</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F20" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:RegulatoryAssetsNonCurrent" contextRef="_ctx16" id="NETPOSITION_F20" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,435,793</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[21]-->
+ <td colspan="6" style="width:100%;">Capital Assets</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[22]-->
+ <td style="width:46.01%;">Not Depreciated / Amortized</td>
+ <td id="_NETPOSITION_B22" style="text-align:right;width:15.83%;"><ix:nonFraction name="us-cafr:CapitalAssetsNonDepreciable" contextRef="_ctx6" id="NETPOSITION_B22" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">2,241,866</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D22" style="text-align:right;width:16.63%;"><ix:nonFraction name="us-cafr:CapitalAssetsNonDepreciable" contextRef="_ctx13" id="NETPOSITION_D22" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">7,520,491</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F22" style="text-align:right;width:15.6%;"><ix:nonFraction name="us-cafr:CapitalAssetsNonDepreciable" contextRef="_ctx20" id="NETPOSITION_F22" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">9,762,357</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[23]-->
+ <td style="width:46.01%;">Depreciated / Amortized, Net</td>
+ <td id="_NETPOSITION_B23" style="text-align:right;width:15.83%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" contextRef="_ctx7" id="NETPOSITION_B23" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">5,650,964</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D23" style="text-align:right;width:16.63%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" contextRef="_ctx14" id="NETPOSITION_D23" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">30,382,116</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F23" style="text-align:right;width:15.6%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization" contextRef="_ctx21" id="NETPOSITION_F23" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">36,033,080</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[24]-->
+ <td style="font-weight:bold;width:46.01%;">TOTAL ASSETS</td>
+ <td id="_NETPOSITION_B24" style="text-align:right;width:15.83%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx8" id="NETPOSITION_B24" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">14,964,073</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_D24" style="text-align:right;width:16.63%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx15" id="NETPOSITION_D24" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">49,824,316</ix:nonFraction>&#160;</td>
+ <td><br /></td>
+ <td id="_NETPOSITION_F24" style="text-align:right;width:15.6%;border-bottom-style:solid;"><ix:nonFraction name="us-cafr:Assets" contextRef="_ctx22" id="NETPOSITION_F24" unitRef="ISO4217_USD" decimals = "-3" format="ixt:numdotdecimal" scale="3">64,788,389</ix:nonFraction>&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[25]-->
+ <td style="font-weight:bold;width:46.01%;">DEFERRED OUTFLOWS OF RESOURCES</td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[26]-->
+ <td style="width:46.01%;">Deferred Outflows from Debt Refunding</td>
+ <td style="text-align:right;width:15.83%;">59,959&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">199,901&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">259,860&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[27]-->
+ <td style="width:46.01%;">Deferred Outflows from Derivative Instruments</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">39,461&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">39,461&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[28]-->
+ <td style="width:46.01%;">Deferred Outflows from Pensions</td>
+ <td style="text-align:right;width:15.83%;">1,885,644&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">1,214,867&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">3,100,511&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[29]-->
+ <td style="width:46.01%;">Deferred Outflows from OPEB</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">387,977&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">129,475&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">517,452&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[30]-->
+ <td style="font-weight:bold;width:46.01%;">TOTAL DEFERRED OUTFLOWS OF RESOURCES</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">2,333,580&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">1,583,704&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">3,917,284&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[31]-->
+ <td style="font-weight:bold;width:46.01%;">LIABILITIES</td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[32]-->
+ <td style="width:46.01%;">Accounts Payable and Accrued Expenses</td>
+ <td style="text-align:right;width:15.83%;">504,147&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">974,533&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">1,478,680&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[33]-->
+ <td style="width:46.01%;">Obligations Under Securities Lending Transactions</td>
+ <td style="text-align:right;width:15.83%;">87,525&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">74,700&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">162,225&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[34]-->
+ <td style="width:46.01%;">Accrued Interest Payable</td>
+ <td style="text-align:right;width:15.83%;">26,303&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">370,027&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">396,330&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[35]-->
+ <td style="width:46.01%;">Internal Balances</td>
+ <td style="text-align:right;width:15.83%;">59,114&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">(59,114)</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">--&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[36]-->
+ <td style="width:46.01%;">Unearned Revenue</td>
+ <td style="text-align:right;width:15.83%;">35,364&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">35,364&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[37]-->
+ <td style="width:46.01%;">Deposits and Advances</td>
+ <td style="text-align:right;width:15.83%;">34,877&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">208,125&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">243,002&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[38]-->
+ <td style="width:46.01%;">Other Liabilities</td>
+ <td style="text-align:right;width:15.83%;">147,075&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">43,071&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">190,146&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[39]-->
+ <td style="width:46.01%;">Advances from Fiduciary Funds</td>
+ <td style="text-align:right;width:15.83%;">20,618&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">20,618&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[40]-->
+ <td style="width:46.01%;">Derivative Instrument Liabilities</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">39,459&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">39,459&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[41]-->
+ <td colspan="6" style="width:100%;">Long-term Liabilities</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[42]-->
+ <td style="width:46.01%;">Net Pension Liability</td>
+ <td style="text-align:right;width:15.83%;">6,161,051&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">2,277,146&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">8,438,197&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[43]-->
+ <td style="width:46.01%;">Net OPEB Liability</td>
+ <td style="text-align:right;width:15.83%;">2,157,104&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">656,809&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">2,813,913&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[44]-->
+ <td colspan="6" style="width:100%;">Other Long-term Obligations</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[45]-->
+ <td style="width:46.01%;">Due Within One Year</td>
+ <td style="text-align:right;width:15.83%;">836,091&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">970,627&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">1,806,718&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[46]-->
+ <td style="width:46.01%;">Due In More Than One Year</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">5,313,417&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">25,221,146&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">30,534,563&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[47]-->
+ <td style="font-weight:bold;width:46.01%;">TOTAL LIABILITIES</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">15,382,686&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">30,776,529&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">46,159,215&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[48]-->
+ <td style="font-weight:bold;width:46.01%;">DEFERRED INFLOWS OF RESOURCES</td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[49]-->
+ <td style="width:46.01%;">Deferred Inflows from Business Activities</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">103,720&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">103,720&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[50]-->
+ <td style="width:46.01%;">Deferred Inflows from Debt Refunding</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">27,768&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">27,768&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[51]-->
+ <td style="width:46.01%;">Deferred Inflows from Pensions</td>
+ <td style="text-align:right;width:15.83%;">1,381,064&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">583,040&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">1,964,104&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[52]-->
+ <td style="width:46.01%;">Deferred Inflows from OPEB</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">170,305&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">202,552&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">372,857&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[53]-->
+ <td style="font-weight:bold;width:46.01%;">TOTAL DEFERRED INFLOWS OF RESOURCES</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">1,551,369&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">917,080&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">2,468,449&#160;</td>
+</tr>
+<tr style="height:20.8px;"><!--Row[54]-->
+ <td style="font-weight:bold;width:46.01%;">NET POSITION</td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[55]-->
+ <td style="width:46.01%;">Net Investment in Capital Assets</td>
+ <td style="text-align:right;width:15.83%;">5,699,812&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">14,032,397&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">19,732,209&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[56]-->
+ <td colspan="6" style="width:100%;">Restricted for:</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[57]-->
+ <td style="width:46.01%;">Capital Projects</td>
+ <td style="text-align:right;width:15.83%;">90,884&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">90,884&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[58]-->
+ <td style="width:46.01%;">Debt Service</td>
+ <td style="text-align:right;width:15.83%;">208,037&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">797,375&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">1,005,412&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[59]-->
+ <td style="width:46.01%;">Public Safety</td>
+ <td style="text-align:right;width:15.83%;">159,452&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">159,452&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[60]-->
+ <td style="width:46.01%;">Public Works and Sanitation</td>
+ <td style="text-align:right;width:15.83%;">60,530&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">60,530&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[61]-->
+ <td style="width:46.01%;">Transportation Programs</td>
+ <td style="text-align:right;width:15.83%;">507,761&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">507,761&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[62]-->
+ <td style="width:46.01%;">Culture and Recreation Activities</td>
+ <td style="text-align:right;width:15.83%;">372,708&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">372,708&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[63]-->
+ <td style="width:46.01%;">Community Development and Housing</td>
+ <td style="text-align:right;width:15.83%;">1,286,684&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">1,286,684&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[64]-->
+ <td style="width:46.01%;">Passenger/Customer Facility Charges</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">672,951&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">672,951&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[65]-->
+ <td style="width:46.01%;">Other Purposes</td>
+ <td style="text-align:right;width:15.83%;">--&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;">531,566&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;">531,566&#160;</td>
+</tr>
+<tr style="height:16.8px;"><!--Row[66]-->
+ <td style="width:46.01%;">Unrestricted (Deficit)</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;">(8,022,270)</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;">3,680,122&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;">(4,342,148)</td>
+</tr>
+<tr style="height:32px;"><!--Row[67]-->
+ <td style="font-weight:bold;width:46.01%;">TOTAL NET POSITION</td>
+ <td style="text-align:right;width:15.83%;border-bottom-style:solid;border-bottom-width:thick;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;363,598&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:16.63%;border-bottom-style:solid;border-bottom-width:thick;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;19,714,411&#160;</td>
+ <td><br /></td>
+ <td style="text-align:right;width:15.6%;border-bottom-style:solid;border-bottom-width:thick;">$&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;20,078,009&#160;</td>
+</tr>
+<tr style="height:17.6px;"><!--Row[68]-->
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+ <td><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[69]-->
+ <td colspan="6"><br /></td>
+</tr>
+<tr style="height:16.8px;"><!--Row[70]-->
+ <td colspan="3" style="font-family:arial;color:#0000FF;font-size:13.33px;vertical-align:bottom;font-style:italic;text-decoration:underline;width:64.81%;"><a href="#_COVER_A1">Return to Cover</a></td>
+ <td colspan="3" style="font-family:verdana;font-size:13.33px;vertical-align:bottom;width:35.19%;">Page 35</td>
+</tr>
+</table>
+ <div style="display:none">
+ <ix:header>
+ <ix:references>
+      <link:schemaRef xlink:type="simple" 
+         xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC3/us-cafr_full-entry.xsd" />
+ </ix:references>
+ <ix:resources>
+   <xbrli:unit id="ISO4217_USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+   </xbrli:unit>
+   <xbrli:context id="_ctx1">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier></xbrli:entity>
+      <xbrli:period><xbrli:startDate>2017-07-01</xbrli:startDate><xbrli:endDate>2018-06-30</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx2">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx3">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfOtherCurrentAssetsAxis">
+               <us-cafr_part:NameOfOtherCurrentAssetsDomain>1</us-cafr_part:NameOfOtherCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx4">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfRestrictionAxis">us-cafr:RestrictedMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfRestrictedAssetsAxis">
+               <us-cafr_part:NameOfRestrictedAssetsDomain>1</us-cafr_part:NameOfRestrictedAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx5">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfMiscellaneousNonCurrentAssetsAxis">
+               <us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>1</us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx6">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsNonDepreciableAxis">
+               <us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>1</us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx7">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis">
+               <us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>1</us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx8">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:GovernmentalActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:BalanceTypeAxis">us-cafr:NetMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx9">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx10">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfOtherCurrentAssetsAxis">
+               <us-cafr_part:NameOfOtherCurrentAssetsDomain>1</us-cafr_part:NameOfOtherCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx11">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfRestrictionAxis">us-cafr:RestrictedMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfRestrictedAssetsAxis">
+               <us-cafr_part:NameOfRestrictedAssetsDomain>1</us-cafr_part:NameOfRestrictedAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx12">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfMiscellaneousNonCurrentAssetsAxis">
+               <us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>1</us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx13">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsNonDepreciableAxis">
+               <us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>1</us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx14">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis">
+               <us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>1</us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx15">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:BusinessTypeActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:BalanceTypeAxis">us-cafr:NetMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx16">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx17">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfOtherCurrentAssetsAxis">
+               <us-cafr_part:NameOfOtherCurrentAssetsDomain>1</us-cafr_part:NameOfOtherCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx18">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfRestrictionAxis">us-cafr:RestrictedMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfRestrictedAssetsAxis">
+               <us-cafr_part:NameOfRestrictedAssetsDomain>1</us-cafr_part:NameOfRestrictedAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx19">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfMiscellaneousNonCurrentAssetsAxis">
+               <us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>1</us-cafr_part:NameOfMiscellaneousNonCurrentAssetsDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx20">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsNonDepreciableAxis">
+               <us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>1</us-cafr_part:NameOfCapitalAssetsNonDepreciableDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx21">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:typedMember dimension="us-cafr:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis">
+               <us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>1</us-cafr_part:NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationDomain>
+            </xbrldi:typedMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx22">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/2019/us-cafr_schema">City of Los Angeles</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="us-cafr:TypeOfActivitiesAxis">us-cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="us-cafr:BalanceTypeAxis">us-cafr:NetMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+ </ix:resources>
+ </ix:header>
+ </div>
+</body>
+</html>
