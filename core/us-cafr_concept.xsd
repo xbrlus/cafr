@@ -17,7 +17,7 @@
   <xsd:element name="TypeOfGovernment" id="us-cafr_TypeOfGovernment" type="us-cafr-type:TypeOfGovernment" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ReportingCurrency" id="us-cafr_ReportingCurrency" type="us-cafr-type:ReportingCurrency" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="OrderOfMagnitude" id="us-cafr_OrderOfMagnitude" type="us-cafr-type:OrderOfMagnitude" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ReportingFrequency" id="us-cafr_ReportingFrequency" type="us-cafr-type:ReportingCurrency" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="ReportingFrequency" id="us-cafr_ReportingFrequency" type="us-cafr-type:ReportingFrequency" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FiscalStartDate" id="us-cafr_FiscalStartDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="FiscalEndDate" id="us-cafr_FiscalEndDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="NameOfAuditFirm" id="us-cafr_NameOfAuditFirm" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
@@ -327,8 +327,10 @@
   <xsd:element name="FundBalancesAtBeginningOfPeriodBeforeAdjustments" id="us-cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="AdjustmentsInFundBalancesForRestatementsErrorsAndAccountingPolicy" id="us-cafr_AdjustmentsInFundBalancesForRestatementsErrorsAndAccountingPolicy" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
   <xsd:element name="FundBalancesAtBeginningOfPeriodAfterAdjustments" id="us-cafr_FundBalancesAtBeginningOfPeriodAfterAdjustments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
-  <xsd:element name="AdjustmentsInFundBalancesForDecreaseIncreaseInAssets" id="us-cafr_AdjustmentsInFundBalancesForDecreaseIncreaseInAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
-  <xsd:element name="AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities" id="us-cafr_AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+  
+  <xsd:element name="AdjustmentsInFundBalancesForDecreaseIncreaseInAssets" id="us-cafr_AdjustmentsInFundBalancesForDecreaseIncreaseInAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities" id="us-cafr_AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+  
   <xsd:element name="BalanceTypeDomain" id="us-cafr_BalanceTypeDomain" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="TypeOfActivitiesDomain" id="us-cafr_TypeOfActivitiesDomain" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="TypeOfProgramRevenuesDomain" id="us-cafr_TypeOfProgramRevenuesDomain" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
