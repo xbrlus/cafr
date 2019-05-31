@@ -160,7 +160,7 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC3/reports/cafr04/1.0.0/cafr04-role.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC3/reports/filinginfo/1.0.0/filinginfo-entry.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC3/reports/filinginfo/1.0.0/filinginfo-role.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC3/us-cafr_full-entry.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/us-cafr_full-entry.xsd"
      ]
     }
    },
