@@ -170,7 +170,7 @@
     "total": 0
    },
    "keyCustom": 0,
-   "keyStandard": 328,
+   "keyStandard": 319,
    "memberCustom": 0,
    "memberStandard": 6,
    "report": {
@@ -230,11 +230,11 @@
        "html"
       ],
       "baseRef": "Los_Angeles-2010630-AssetsOnly.html",
-      "contextRef": "_ctx8",
+      "contextRef": "_ctx2",
       "decimals": "-3",
       "first": true,
       "lang": "en",
-      "name": "us-cafr:Assets",
+      "name": "us-cafr:PooledCashAndInvestments",
       "reportCount": 1,
       "unitRef": "ISO4217_USD",
       "xsiNil": "false"
@@ -352,7 +352,7 @@
     },
     "us-cafr_AdjustmentsForTransferOfRevenuesWithinActivities": {
      "auth_ref": [
-      "r29"
+      "r30"
      ],
      "lang": {
       "en": {
@@ -427,7 +427,7 @@
     },
     "us-cafr_AdjustmentsInFundBalancesForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r30"
+      "r31"
      ],
      "lang": {
       "en": {
@@ -446,12 +446,12 @@
     },
     "us-cafr_AdjustmentsInNetPositionForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r30"
+      "r31"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of adjustments in net position for restatements (errors and accounting policy). 1. Prior period adjustments are amounts reflected as adjustments of the opening balance of net position. 2. Net position represents the difference between all other elements in a statement of financial position",
+        "documentation": "Report as at the relevant date, the monetary value, of adjustments in net position for restatements (errors and accounting policy). \nAmounts reflected as adjustments to the opening balance of net position.",
         "label": "Adjustments in net position for restatements (errors and accounting policy)"
        }
       }
@@ -754,12 +754,12 @@
     },
     "us-cafr_BusinessTypeActivitiesMember": {
      "auth_ref": [
-      "r5"
+      "r7"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "The reported information reflects business-type activities.\n1. Its one of two classes of activities reported in the government-wide financial statements. Business-type activities are financed in whole or in part by fees charged to external parties for goods or services. These activities usually are reported in enterprise funds.\n2. Activities of the government which resemble private-sector business activities not only because they provide the same services as private-sector businesses but also because there is an exchange relationship between the provider and the consumer: The consumer is charged for services rendered. Some bear a further resemblance to private-sector business activities because they are self-sufficient and operate as separate, legally constituted organizations. Others more closely resemble governmental-type activities because they are regularly subsidized by taxes or are operated as departments within a government.",
+        "documentation": "The reported information reflects business-type activities. Its one of two classes of activities reported in the government-wide financial statements. Business-type activities are financed in whole or in part by fees charged to external parties for goods or services. These activities usually are reported in enterprise funds.",
         "label": "Business-type activities [member]",
         "terseLabel": "Business-type activities"
        }
@@ -771,12 +771,12 @@
     },
     "us-cafr_CapitalAssets": {
      "auth_ref": [
-      "r11"
+      "r13"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of capital assets.\n1. The term capital assets includes land, improvements to land, easements, buildings, building improvements, vehicles, machinery, equipment, works of art and historical treasures, infrastructure, and all other tangible or intangible assets that are used in operations\n2. That have initial useful lives extending beyond a single reporting period.\n3. Infrastructure assets are long-lived capital assets that normally are stationary in nature and normally can be preserved for a significantly greater number of years than most capital assets. Examples of infrastructure assets include roads, bridges, tunnels, drainage systems, water and sewer systems, dams, and lighting systems. Buildings, except those that are an ancillary part of a network of infrastructure assets, should not be considered infrastructure assets for purposes of this section.\nThe term capital assets also includes intangible asset\nIntangible asset [GASB 25] possesses all of the following characteristics:\na. Lack of physical substance. An asset may be contained in or on an item with physical substance, for example, a compact disc in the case of computer software. An asset also may be closely associated with another item that has physical substance, for example, the underlying land in the case of a right-of-way easement. These modes of containment and associated items should not be considered when determining whether or not an asset lacks physical substance.\nb. Non-financial nature. In the context of this section, an asset with a non-financial nature is one that is not in a monetary form similar to cash and investment securities, and it represents neither a claim or right to assets in a monetary form similar to receivables, nor a prepayment for goods or services.\nc. Initial useful life extending beyond a single reporting period.",
+        "documentation": "Report as at the relevant date, the monetary value, of capital assets.\nCapital assets is the amount after accumulated depreciation and amortization of physical assets such as land, improvements to land, easements, buildings, building improvements, vehicles, machinery, equipment, works of art and historical treasures, infrastructure, construction in progress, and all other tangible or intangible assets that have been or will be used in operations and that have initial useful lives extending beyond a single reporting period. Infrastructure assets are long-lived capital assets that normally are stationary in nature and normally can be preserved for a significantly greater number of years than most capital assets.",
         "label": "Capital assets",
         "totalLabel": "Net capital assets"
        }
@@ -791,12 +791,12 @@
     },
     "us-cafr_CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization": {
      "auth_ref": [
-      "r11"
+      "r13"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of capital assets, which are classified as depreciable.\tIts the amount after accumulated depreciation and amortization of physical assets such as land, improvements to land, easements, buildings, building improvements, vehicles, machinery, equipment, works of art and historical treasures, infrastructure, construction in progress, and all other tangible or intangible assets that have been or will be used in operations and that have initial useful lives extending beyond a single reporting period. Infrastructure assets are long-lived capital assets that normally are stationary in nature and normally can be preserved for a significantly greater number of years than most capital assets.\nCapital assets also includes intangible asset. Intangible asset [GASB 25] possesses all of the following characteristics:\na. Lack of physical substance. An asset may be contained in or on an item with physical substance, for example, a compact disc in the case of computer software. An asset also may be closely associated with another item that has physical substance, for example, the underlying land in the case of a right-of-way easement. These modes of containment and associated items should not be considered when determining whether or not an asset lacks physical substance.\nb. Non-financial nature. In the context of this section, an asset with a non-financial nature is one that is not in a monetary form similar to cash and investment securities, and it represents neither a claim or right to assets in a monetary form similar to receivables, nor a prepayment for goods or services.\nc. Initial useful life extending beyond a single reporting period.",
+        "documentation": "Report as at the relevant date, the monetary value, of capital assets, which are classified as depreciable.",
         "label": "Capital assets, depreciable (net of accumulated depreciation and amortization)"
        }
       }
@@ -810,12 +810,12 @@
     },
     "us-cafr_CapitalAssetsNonDepreciable": {
      "auth_ref": [
-      "r11"
+      "r13"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of capital assets, which are classified as non-depreciable\nIts the amount of physical assets such as land, improvements to land, easements, buildings, building improvements, vehicles, machinery, equipment, works of art and historical treasures, infrastructure, construction in progress, and all other tangible or intangible assets that have been or will be used in operations and that have initial useful lives extending beyond a single reporting period. Infrastructure assets are long-lived capital assets that normally are stationary in nature and normally can be preserved for a significantly greater number of years than most capital assets.\nCapital assets also includes intangible asset. Intangible asset [GASB 25] possesses all of the following characteristics:\na. Lack of physical substance. An asset may be contained in or on an item with physical substance, for example, a compact disc in the case of computer software. An asset also may be closely associated with another item that has physical substance, for example, the underlying land in the case of a right-of-way easement. These modes of containment and associated items should not be considered when determining whether or not an asset lacks physical substance.\nb. Non-financial nature. In the context of this section, an asset with a non-financial nature is one that is not in a monetary form similar to cash and investment securities, and it represents neither a claim or right to assets in a monetary form similar to receivables, nor a prepayment for goods or services.\nc. Initial useful life extending beyond a single reporting period.",
+        "documentation": "Report as at the relevant date, the monetary value, of capital assets, which are classified as non-depreciable.",
         "label": "Capital assets, non-depreciable"
        }
       }
@@ -849,7 +849,7 @@
     },
     "us-cafr_CashAndCashEquivalentsOthers": {
      "auth_ref": [
-      "r32"
+      "r33"
      ],
      "lang": {
       "en": {
@@ -869,7 +869,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents": {
      "auth_ref": [
-      "r32"
+      "r33"
      ],
      "lang": {
       "en": {
@@ -889,7 +889,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTreasurer": {
      "auth_ref": [
-      "r32"
+      "r33"
      ],
      "lang": {
       "en": {
@@ -909,7 +909,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTrustee": {
      "auth_ref": [
-      "r32"
+      "r33"
      ],
      "lang": {
       "en": {
@@ -989,12 +989,12 @@
     },
     "us-cafr_ChangesInNetPosition": {
      "auth_ref": [
-      "r28"
+      "r29"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of changes in net position.\n1. Sources of financing the net cost of the government\u2019s programs should be reported at the bottom of the statement of activities to arrive at the all-inclusive change in net position for the period. Changes in net position is the difference (reconciliation) in net position between the beginning and end of the reporting period.\n2. Net position represents the difference between all other elements in a statement of financial position",
+        "documentation": "Report for the relevant period, the monetary value, of changes in net position.\nIt is the difference in net position between the beginning and end of the reporting period.",
         "label": "Changes in net position",
         "totalLabel": "Changes in net position"
        }
@@ -1183,7 +1183,7 @@
     },
     "us-cafr_CurrentLiabilities": {
      "auth_ref": [
-      "r13"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -1551,12 +1551,12 @@
     },
     "us-cafr_DisclosureOfStatementOfActivitiesTextBlock": {
      "auth_ref": [
-      "r25"
+      "r26"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Disclosure of statement of activities in text form.\nThe operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions. Net (expense) revenue is sometimes referred to as the \"net cost\" of a function or program and represents the total expenses of the function or program less its program revenues\u2014that is, charges or fees and fines that derive directly from the function or program and grants and contributions that are restricted to the function or program. An objective of using the net (expense) revenue format is to report the relative financial burden of each of the reporting government's functions on its taxpayers. This format identifies the extent to which each function of the government draws from the general revenues of the government or is self-financing through fees and intergovernmental aid. This notion of burden on the reporting government's taxpayers is important in determining what is program or general revenue. General revenues, contributions to term and permanent endowments, contributions to permanent fund principal, special and extraordinary items, and transfers should be reported separately after the total net expenses of the government's functions, ultimately arriving at the \"change in net position\" for the period. At a minimum, the statement of activities should present: a. Activities accounted for in governmental funds by function to coincide with the level of detail required in the governmental fund statement of revenues, expenditures, and changes in fund balances b. Activities accounted for in enterprise funds by different identifiable activities.",
+        "documentation": "Disclosure of statement of activities in text form.\nThe operations of the reporting government should be presented in a format that reports the net (expense) revenue of its individual functions.",
         "label": "Disclosure of statement of activities [text block]",
         "terseLabel": "Disclosure of statement of activities"
        }
@@ -1576,7 +1576,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Disclosure of statement of net position and it should be in text form.\nNet position represents the difference between all other elements in a statement of financial position",
+        "documentation": "Disclosure of statement of net position and it should be in text form.\nNet position represents the difference between all other elements in a statement of financial position and should be displayed in three components namely net investment in capital assets, restricted (distinguishing between major categories of restrictions), and unrestricted.",
         "label": "Disclosure of statement of net position [text block]",
         "terseLabel": "Disclosure of statement of net position"
        }
@@ -2573,7 +2573,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of expenses.\nExpenses represents decrease in financial resources. An entity's outflows or expiration of assets or the incurrence of liabilities during a period from providing or producing goods, rendering services, or carrying out other activities.",
+        "documentation": "Report for the relevant period, the monetary value, of expenses.\nAn entity's outflows or expiration of assets or the incurrence of liabilities during a period from providing or producing goods, rendering services, or carrying out other activities.",
         "label": "Expenses",
         "totalLabel": "Total expenses"
        }
@@ -2972,7 +2972,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of expenses for public safety services",
+        "documentation": "Report for the relevant period, the monetary value, of expenses for public safety services.",
         "label": "Expenses for public safety services"
        }
       }
@@ -3191,7 +3191,7 @@
     },
     "us-cafr_FundBalances": {
      "auth_ref": [
-      "r21"
+      "r22"
      ],
      "lang": {
       "en": {
@@ -3291,12 +3291,12 @@
     },
     "us-cafr_GeneralRevenues": {
      "auth_ref": [
-      "r27"
+      "r28"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of other general revenues and the reporting entity does not separately disclose in the same statement or note.\nOther general revenues are revenues obtained from sources other than taxes, charges for services, grants and contributions. This category includes earnings on investments.",
+        "documentation": "Report for the relevant period, the monetary value, of general revenues.\nAll revenues are general revenues unless they are required to be reported as program revenues.",
         "label": "General revenues",
         "totalLabel": "Total general revenues"
        }
@@ -3329,7 +3329,7 @@
     },
     "us-cafr_GovernmentalActivitiesMember": {
      "auth_ref": [
-      "r23"
+      "r24"
      ],
      "lang": {
       "en": {
@@ -3512,7 +3512,7 @@
     },
     "us-cafr_InterFundsBalancesPayable": {
      "auth_ref": [
-      "r15"
+      "r6"
      ],
      "lang": {
       "en": {
@@ -3531,7 +3531,7 @@
     },
     "us-cafr_InterFundsBalancesReceivable": {
      "auth_ref": [
-      "r15"
+      "r6"
      ],
      "lang": {
       "en": {
@@ -3595,7 +3595,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of internal balances payable.\nInternal balances are the net residual amounts due between governmental and business-type activities in the government-wide statement of net assets.",
+        "documentation": "Report as at the relevant date, the monetary value, of internal balances payable.\nInternal balances are the net residual amounts due between governmental and business-type activities.",
         "label": "Internal balances payable"
        }
       }
@@ -3630,12 +3630,12 @@
     },
     "us-cafr_Inventories": {
      "auth_ref": [
-      "r10"
+      "r12"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of inventories.\nThese are materials or supplies or goods held for resale rather than for use in operations.\nInventories are amount of tangible personal property that (a) are held for sale in the ordinary course of operations, (b) are in process of production for such sale, or (c) are to be currently consumed in the production of goods or services to be available for sale. Operating materials and supplies (for example, property held for installation or use in the provision of services) of certain business-type activities usually are treated as inventory.",
+        "documentation": "Report as at the relevant date, the monetary value, of inventories.\nThese are materials and supplies on hand for future consumption or goods held for resale rather than for use in operations.",
         "label": "Inventories"
        }
       }
@@ -3649,12 +3649,12 @@
     },
     "us-cafr_InventoriesCurrent": {
      "auth_ref": [
-      "r10"
+      "r12"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of inventories which is classified as current.\nThese are materials or supplies or goods held for resale rather than for use in operations.\nInventories are amount of tangible personal property that (a) are held for sale in the ordinary course of operations, (b) are in process of production for such sale, or (c) are to be currently consumed in the production of goods or services to be available for sale. Operating materials and supplies (for example, property held for installation or use in the provision of services) of certain business-type activities usually are treated as inventory.",
+        "documentation": "Report as at the relevant date, the monetary value, of inventories which is classified as current.\nThese are materials and supplies on hand for future consumption or goods held for resale rather than for use in operations.",
         "label": "Inventories, current"
        }
       }
@@ -3668,12 +3668,12 @@
     },
     "us-cafr_InventoriesNonCurrent": {
      "auth_ref": [
-      "r10"
+      "r12"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of inventories, non-current.\nThese are materials or supplies or goods held for resale rather than for use in operations.\nInventories are amount of tangible personal property that (a) are held for sale in the ordinary course of operations, (b) are in process of production for such sale, or (c) are to be currently consumed in the production of goods or services to be available for sale. Operating materials and supplies (for example, property held for installation or use in the provision of services) of certain business-type activities usually are treated as inventory.",
+        "documentation": "Report as at the relevant date, the monetary value, of inventories which is classified as non-current.\nThese are materials and supplies on hand for future consumption or goods held for resale rather than for use in operations.",
         "label": "Inventories, non-current"
        }
       }
@@ -3687,12 +3687,12 @@
     },
     "us-cafr_InvestmentInCapitalAssets": {
      "auth_ref": [
-      "r18"
+      "r19"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of investment in capital assets.\tAmount pertaining to capital assets, net of accumulated depreciation, reduced by the outstanding balances of bonds, mortgages, notes, or other borrowings that are attributable to the acquisition, construction, or improvement of those assets. Deferred outflows of resources and deferred inflows of resources that are attributable to the acquisition, construction, or improvement of those assets or related debt also should be included in this component of net position. If there are significant unspent related debt proceeds or deferred inflows of resources at the end of the reporting period, the portion of the debt or deferred inflow of resources attributable to the unspent amount should not be included in the calculation of net investment in capital assets. Instead, that portion of the debt or deferred inflow of resources should be included in the same net position component (restricted or unrestricted) as the unspent amount.",
+        "documentation": "Report as at the relevant date, the monetary value, of investment in capital assets. \tAmount pertaining to capital assets, net of accumulated depreciation, reduced by the outstanding balances of bonds, mortgages, notes, or other borrowings that are attributable to the acquisition, construction, or improvement of those assets. Deferred outflows of resources and deferred inflows of resources that are attributable to the acquisition, construction, or improvement of those assets or related debt also should be included in this component of net position. If there are significant unspent related debt proceeds or deferred inflows of resources at the end of the reporting period, the portion of the debt or deferred inflow of resources attributable to the unspent amount should not be included in the calculation of net investment in capital assets. Instead, that portion of the debt or deferred inflow of resources should be included in the same net position component (restricted or unrestricted) as the unspent amount.",
         "label": "Investment in capital assets"
        }
       }
@@ -3711,7 +3711,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of investment income receivable.\nInvestments amounts pertaining to a security or other asset that (a) a government holds primarily for the purpose of income or profit and (b) has a present service capacity based solely on its ability to generate cash or to be sold to generate cash.",
+        "documentation": "Report as at the relevant date, the monetary value, of investment income receivable. Investment income is the compensation for the use of financial resources over a period of time.",
         "label": "Investment income receivable"
        }
       }
@@ -3726,7 +3726,7 @@
     },
     "us-cafr_InvestmentsInAssociates": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3745,7 +3745,7 @@
     },
     "us-cafr_InvestmentsInJointVentures": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3764,7 +3764,7 @@
     },
     "us-cafr_InvestmentsInSubsidiaries": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3783,7 +3783,7 @@
     },
     "us-cafr_InvestmentsWithFiscalAgents": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3803,7 +3803,7 @@
     },
     "us-cafr_InvestmentsWithStateTreasury": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -3882,12 +3882,12 @@
     },
     "us-cafr_Liabilities": {
      "auth_ref": [
-      "r24"
+      "r25"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of liabilities.\nIt is the sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized. Liabilities are present obligations to sacrifice resources that the government has little or no discretion to avoid. Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity to transfer assets or provide services to other entities in the future.",
+        "documentation": "Report as at the relevant date, the monetary value, of liabilities.\nLiabilities are present obligations to sacrifice resources that the government has little or no discretion to avoid.",
         "label": "Liabilities",
         "totalLabel": "Total liabilities"
        }
@@ -4212,7 +4212,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report the name of the primary government (name of reporting entity). The financial reporting entity consists of the primary government and organizations for which the primary government is financially accountable. In addition, the primary government may determine through the exercise of management's professional judgment that the inclusion of an organization that does not meet the financial accountability criteria is necessary in order to prevent the reporting entity's financial statements from being misleading. In such circumstances, that organization should be included as a component unit. The nucleus of a financial reporting entity usually is a primary government. However, a governmental organization other than a primary government (such as a component unit, a joint venture, a jointly governed organization, or an other stand-alone government) serves as the nucleus for its own reporting entity when it issues separate financial reports. Although this section is written from the perspective of the primary government, its requirements apply to the separately issued basic financial statements of governmental component units, joint ventures, jointly governed organizations, and other stand-alone governments. These organizations should apply the provisions of this section as if they were a primary government.",
+        "documentation": "Report the name of the primary government (name of reporting entity).",
         "label": "Name of government"
        }
       }
@@ -4331,7 +4331,7 @@
     },
     "us-cafr_NetPosition": {
      "auth_ref": [
-      "r20"
+      "r21"
      ],
      "lang": {
       "en": {
@@ -4378,7 +4378,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of net position at beginning of period (after adjustments)",
+        "documentation": "Report as at the relevant date, the monetary value, of net position at beginning of period (after adjustments)\nAmounts reflected as the closing balance of net position.",
         "label": "Net position at beginning of period (after adjustments)",
         "totalLabel": "Net position at beginning of period (after adjustments)"
        }
@@ -4398,7 +4398,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of net position at beginning of period (before adjustments)",
+        "documentation": "Report as at the relevant date, the monetary value, of net position at beginning of period (before adjustments).\nAmounts reflected as the opening balance of net position.",
         "label": "Net position at beginning of period (before adjustments)"
        }
       }
@@ -4455,7 +4455,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of non-current liabilities.\nLiabilities are amount of obligations for items that have entered into the operating cycle incurred in the acquisition of materials and supplies to be used in providing services; collections received in advance of the performance of services.",
+        "documentation": "Report as at the relevant date, the monetary value, of non-current liabilities.\nLiabilities are present obligations to sacrifice resources that the government has little or no discretion to avoid.",
         "label": "Non-current liabilities",
         "totalLabel": "Total non-current liabilities"
        }
@@ -4547,12 +4547,12 @@
     },
     "us-cafr_OtherAssets": {
      "auth_ref": [
-      "r34"
+      "r5"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of other assets and the reporting entity does not separately disclose in the same statement or note.\tOther assets is the amount of all other resources with present service capacity that the government presently controls not accounted for in another element.",
+        "documentation": "Report as at the relevant date, the monetary value, of other assets and the reporting entity does not separately disclose in the same statement or note. Assets are resources with present service capacity that the government presently controls.",
         "label": "Other assets"
        }
       }
@@ -4585,7 +4585,7 @@
     },
     "us-cafr_OtherCurrentInvestments": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -4666,7 +4666,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of other financing sources (uses) and the reporting entity does not separately disclose in the same statement or note.\na) Includes proceeds from issue of refunding bonds, Refunding of long-term debt is the issuance of long-term obligations in exchange for, or to finance, the retirement of outstanding long term debt, generally to obtain more favorable interest rates.\nb) Includes adjustments for transfers in for other financing and the reporting entity does not separately disclose in the same statement or note. Inflows of assets (such as cash or goods) without equivalent flows of assets in return and without a requirement for repayment. This category includes payments in lieu of taxes that are not payments for, and are not reasonably equivalent in value to, services provided. It also includes the balance of inter-fund loans not expected to be repaid.\nc) It includes payments on redemption of refunding bonds\nd) Includes other inflows and other outflows classified from financing sources include a limited number of special transactions that are used to account for non-operating revenues or receipts . Included in this financial reporting category are operating transfers (inflow) and proceeds from debt transactions.",
+        "documentation": "Report for the relevant period, the monetary value, of other financing sources (uses) and the reporting entity does not separately disclose in the same statement or note.\nIt includes a limited number of special transactions that are used to account for non-operating revenues or receipts and expenditures or disbursements . Included in this financial reporting category are operating transfers (inflow) and proceeds from debt transactions.",
         "label": "Other financing sources (uses)"
        }
       }
@@ -4703,7 +4703,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of other general revenues and the reporting entity does not separately disclose in the same statement or note.",
+        "documentation": "Report for the relevant period, the monetary value, of other general revenues and the reporting entity does not separately disclose in the same statement or note.\nAll revenues are general revenues unless they are required to be reported as program revenues.",
         "label": "Other general revenues"
        }
       }
@@ -4717,12 +4717,12 @@
     },
     "us-cafr_OtherInvestments": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of other investments and the reporting entity does not separately disclose in the same statement or note.\nInvestments amounts pertaining to a security or other asset that (a) a government holds primarily for the purpose of income or profit and (b) has a present service capacity based solely on its ability to generate cash or to be sold to generate cash.",
+        "documentation": "Report as at the relevant date, the monetary value, of other investments and the reporting entity does not separately disclose in the same statement or note.\nInvestment income is the compensation for the use of financial resources over a period of time.",
         "label": "Other investments"
        }
       }
@@ -4736,12 +4736,12 @@
     },
     "us-cafr_OtherLiabilities": {
      "auth_ref": [
-      "r13"
+      "r15"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report the value, as at the relevant date, the monetary value, of other liabilities and the reporting entity does not separately disclose in the same statement or note.\nOther liabilities is the amount of obligations for items that have entered into the operating cycle incurred in the acquisition of materials and supplies to be used in providing services; collections received in advance of the performance of services. Liabilities are present obligations to sacrifice resources that the government has little or no discretion to avoid. Other liabilities are amounts not reported elsewhere in the financial statements.",
+        "documentation": "Report the value, as at the relevant date, the monetary value, of other liabilities and the reporting entity does not separately disclose in the same statement or note.\nLiabilities are present obligations to sacrifice resources that the government has little or no discretion to avoid. Other liabilities are amounts not reported elsewhere in the financial statements.",
         "label": "Other liabilities"
        }
       }
@@ -4793,7 +4793,7 @@
     },
     "us-cafr_OtherNonCurrentInvestments": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -4812,7 +4812,7 @@
     },
     "us-cafr_OtherNonCurrentLiabilities": {
      "auth_ref": [
-      "r13"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -4888,7 +4888,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanLiability": {
      "auth_ref": [
-      "r8"
+      "r10"
      ],
      "lang": {
       "en": {
@@ -4926,7 +4926,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanLiabilityNonCurrent": {
      "auth_ref": [
-      "r7"
+      "r9"
      ],
      "lang": {
       "en": {
@@ -4945,7 +4945,7 @@
     },
     "us-cafr_OtherPrepaidAssets": {
      "auth_ref": [
-      "r31"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -4970,7 +4970,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of other program revenues and the reporting entity does not separately disclose in the same statement or note.\nProgram revenues are amounts which are derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues. The statement of activities should separately report three categories 16 of program revenues: (a) charges for services, (b) program-specific operating grants and contributions, and (c) program-specific capital grants and contributions. For identifying the function to which a program revenue pertains, the determining factor for charges for services is which function generates 17 the revenue. For grants and contributions, the determining factor is the function to which the revenues are restricted.",
+        "documentation": "Report for the relevant period, the monetary value, of other program revenues and the reporting entity does not separately disclose in the same statement or note.\nProgram revenues are amounts derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues.",
         "label": "Other program revenues"
        }
       }
@@ -4989,7 +4989,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of other receivables and the reporting entity does not separately disclose in the same statement or note.\nIts the total amount due to the entity within one year of the balance sheet date (or one operating cycle, if longer) from outside sources, including trade accounts receivable, notes and loans receivable, as well as any other types of receivables, net of allowances established for the purpose of reducing such receivables to an amount that approximates their net realizable value.",
+        "documentation": "Report as at the relevant date, the monetary value, of other receivables and the reporting entity does not separately disclose in the same statement or note.\nIts the total due to the entity within one year of the balance sheet date (or one operating cycle, if longer) from outside sources, including trade accounts receivable, notes and loans receivable, as well as any other types of receivables, net of allowances established for the purpose of reducing such receivables to an amount that approximates their net realizable value.",
         "label": "Other receivables"
        }
       }
@@ -5004,7 +5004,7 @@
     },
     "us-cafr_OtherRevenues": {
      "auth_ref": [
-      "r14"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -5180,7 +5180,7 @@
     },
     "us-cafr_PensionAsset": {
      "auth_ref": [
-      "r6"
+      "r8"
      ],
      "lang": {
       "en": {
@@ -5200,7 +5200,7 @@
     },
     "us-cafr_PensionLiability": {
      "auth_ref": [
-      "r6"
+      "r8"
      ],
      "lang": {
       "en": {
@@ -5297,7 +5297,7 @@
     },
     "us-cafr_PooledInvestments": {
      "auth_ref": [
-      "r12"
+      "r14"
      ],
      "lang": {
       "en": {
@@ -5317,12 +5317,12 @@
     },
     "us-cafr_PrepaidDeposits": {
      "auth_ref": [
-      "r31"
+      "r32"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of prepaid deposits. Prepaid assets are future expenses that have been paid in advance. It is an asset resulting from the payment for goods or services to be received in the future.",
+        "documentation": "Report as at the relevant date, the monetary value, of prepaid deposits. It is an asset resulting from the payment for goods or services to be received in the future.",
         "label": "Prepaid deposits"
        }
       }
@@ -5337,12 +5337,12 @@
     },
     "us-cafr_PrepaidExpenses": {
      "auth_ref": [
-      "r31"
+      "r32"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of prepaid expenses. Prepaid assets are future expenses that have been paid in advance. It is an asset resulting from the payment for goods or services to be received in the future.",
+        "documentation": "Report as at the relevant date, the monetary value, of prepaid expenses. It is an asset resulting from the payment for goods or services to be received in the future.",
         "label": "Prepaid expenses"
        }
       }
@@ -5357,12 +5357,12 @@
     },
     "us-cafr_PrepaidOtherPostEmploymentBenefitsPlan": {
      "auth_ref": [
-      "r31"
+      "r32"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of prepaid other post-employment benefits plan. Prepaid assets are future expenses that have been paid in advance. It is an asset resulting from the payment for services to be received in the future.",
+        "documentation": "Report as at the relevant date, the monetary value, of prepaid other post-employment benefits plan. It is an asset resulting from the payment for services to be received in the future.",
         "label": "Prepaid other post-employment benefits plan [OPEB]"
        }
       }
@@ -5377,12 +5377,12 @@
     },
     "us-cafr_PrimaryGovernmentActivitiesMember": {
      "auth_ref": [
-      "r22"
+      "r23"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "The reported information reflects primary government activities.\t1. A primary government is any state government or general purpose local government (municipality or county) as well as a special-purpose government (for example, a school district or a park district).\t2. The foundation of a primary government is a separately elected governing body\u2014one that is elected by the citizens in a general, popular election. As the nucleus of the financial reporting entity, the primary government generally is the focal point for the users of the financial statements. Thus, it is important to define the primary government and determine what it comprises. A primary government is any state government or general purpose local government (municipality or county). A primary government is also a special-purpose government (for example, a school district or a park district) that meets all of the following criteria: a. It has a separately elected governing body. b. It is legally separate c. It is fiscally independent 3. A primary government consists of all the organizations that make up its legal entity. All funds, organizations, institutions, Entities, departments, and offices that are not legally separate are, for financial reporting purposes, part of a primary government. If an organization is part of a primary government, its financial data should be included with the financial data of the primary government.",
+        "documentation": "The reported information reflects primary government activities.  A primary government is any state government or general purpose local government (municipality, township or county) as well as a special-purpose government (for example, a school district or a park district).",
         "label": "Primary government activities [member]",
         "terseLabel": "Primary government activities"
        }
@@ -5394,12 +5394,12 @@
     },
     "us-cafr_ProgramRevenues": {
      "auth_ref": [
-      "r17"
+      "r18"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of program revenues.\nProgram revenues are amounts which are derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues. The statement of activities should separately report three categories 16 of program revenues: (a) charges for services, (b) program-specific operating grants and contributions, and (c) program-specific capital grants and contributions. For identifying the function to which a program revenue pertains, the determining factor for charges for services is which function generates 17 the revenue. For grants and contributions, the determining factor is the function to which the revenues are restricted.",
+        "documentation": "Report for the relevant period, the monetary value, of program revenues.\nProgram revenues are amounts which are derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues.",
         "label": "Program revenues",
         "totalLabel": "Total program revenues"
        }
@@ -5492,7 +5492,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report the property tax valuation.\tProperty taxes are taxes conditioned on ownership of property and measured by its value. Includes general property taxes related to property as a whole, real and personal, tangible or intangible, whether taxed at a single rate or at classified rates, and taxes on selected types of property, such as motor vehicles, or on certain or all intangibles. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
+        "documentation": "Report the property tax valuation. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
         "label": "Property tax valuation"
        }
       }
@@ -5511,7 +5511,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of property taxes receivable.\tProperty taxes are taxes conditioned on ownership of property and measured by its value. Includes general property taxes related to property as a whole, real and personal, tangible or intangible, whether taxed at a single rate or at classified rates, and taxes on selected types of property, such as motor vehicles, or on certain or all intangibles. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
+        "documentation": "Report as at the relevant date, the monetary value, of property taxes receivable. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
         "label": "Property taxes receivable"
        }
       }
@@ -5771,7 +5771,7 @@
      "presentation": [
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
-     "xbrltype": "ReportingCurrency"
+     "xbrltype": "ReportingFrequency"
     },
     "us-cafr_RestrictedAssetsAbstract": {
      "auth_ref": [],
@@ -5793,12 +5793,12 @@
     },
     "us-cafr_RestrictedMember": {
      "auth_ref": [
-      "r19"
+      "r20"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "The reported information reflects the restricted nature of the concept. Restricted means subject to conditions.\tAmounts restricted when constraints placed on the use of resources are either:\ta. Externally imposed by creditors (such as through debt covenants), grantor's, contributors, or laws or regulations of other governments; or\tb. Imposed by law through constitutional provisions or enabling legislation.",
+        "documentation": "The reported information reflects the restricted nature of the concept. Restricted means subject to conditions.",
         "label": "Restricted [member]",
         "terseLabel": "Restricted"
        }
@@ -5869,7 +5869,7 @@
     },
     "us-cafr_RevenueFromChargesForServicesAndSales": {
      "auth_ref": [
-      "r26"
+      "r27"
      ],
      "lang": {
       "en": {
@@ -6259,7 +6259,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenue from income tax. These are taxes which are derived from state income tax. These are taxes levied on the gross income of local individuals or on the net income of local corporations and businesses (after allowable deductions).",
+        "documentation": "Report for the relevant period, the monetary value, of revenue from income tax. These are taxes which are derived from state income tax.",
         "label": "Revenue from income tax"
        }
       }
@@ -6274,7 +6274,7 @@
     },
     "us-cafr_RevenueFromInterGovernmentalActivities": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -6294,12 +6294,12 @@
     },
     "us-cafr_RevenueFromInvestmentIncome": {
      "auth_ref": [
-      "r9"
+      "r11"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenue from investment income.\nInvestments amounts pertaining to a security or other asset that (a) a government holds primarily for the purpose of income or profit and (b) has a present service capacity based solely on its ability to generate cash or to be sold to generate cash.",
+        "documentation": "Report for the relevant period, the monetary value, of revenue from investment income. Investment income is the compensation for the use of financial resources over a period of time.",
         "label": "Revenue from investment income"
        }
       }
@@ -6456,7 +6456,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenue from property taxes.\nProperty taxes are taxes conditioned on ownership of property and measured by its value. Includes general property taxes related to property as a whole, real and personal, tangible or intangible, whether taxed at a single rate or at classified rates, and taxes on selected types of property, such as motor vehicles, or on certain or all intangibles. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
+        "documentation": "Report for the relevant period, the monetary value, of revenue from property taxes.\nProperty taxes are ad-valorem taxes levied on an assessed valuation of real property.",
         "label": "Revenue from property tax"
        }
       }
@@ -6650,7 +6650,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenue from sales tax. Sales tax is a tax imposed upon the sale or consumption of goods. Include taxes on goods and services, measured as a percent of sales or receipts, or as an amount per unit sold (e.g.. Gallon, package, etc.). Only taxes imposed by the government. Excludes shares of taxes imposed by another government.",
+        "documentation": "Report for the relevant period, the monetary value, of revenue from sales tax. Sales tax is a tax imposed upon the sale or consumption of goods.",
         "label": "Revenue from sales tax"
        }
       }
@@ -6845,7 +6845,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenue from usage of utilities tax",
+        "documentation": "Report for the relevant period, the monetary value, of revenue from usage of utilities tax. \nUtilities tax is levied in proportion to gross receipts on public or privately owned public utilities that provide electric, gas, water and/or telephone service.",
         "label": "Revenue from usage of utilities tax"
        }
       }
@@ -6939,12 +6939,12 @@
     },
     "us-cafr_Revenues": {
      "auth_ref": [
-      "r33"
+      "r34"
      ],
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report for the relevant period, the monetary value, of revenues.\nRevenues that are generated by a government itself, such as tax revenues and water and sewer charges. Investment income is also an own-source revenue. Intergovernmental aid and shared revenues are not own-source revenues. [GASBS 44 and 45] . Amount of revenue recognized from goods sold, services rendered, insurance premiums, or other activities that constitute an earning process. Includes, but is not limited to, investment and interest income before deduction of interest expense when recognized as a component of revenue, and sales and trading gain (loss).",
+        "documentation": "Report for the relevant period, the monetary value, of revenues.\nRevenues that are generated by a government itself, such as tax revenues and water and sewer charges. Investment income is also an own-source revenue. Intergovernmental aid and shared revenues are not own-source revenues.",
         "label": "Revenues",
         "totalLabel": "Total revenues"
        }
@@ -6984,7 +6984,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of sales tax receivable. Sales tax is a tax imposed upon the sale or consumption of goods. Include taxes on goods and services, measured as a percent of sales or receipts, or as an amount per unit sold (e.g.. Gallon, package, etc.). Only taxes imposed by the government. Excludes shares of taxes imposed by another government.",
+        "documentation": "Report as at the relevant date, the monetary value, of sales tax receivable. Sales tax is a tax imposed upon the sale or consumption of goods.",
         "label": "Sales tax receivable"
        }
       }
@@ -7133,7 +7133,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report the total property tax rate.\tProperty taxes are taxes conditioned on ownership of property and measured by its value. Includes general property taxes related to property as a whole, real and personal, tangible or intangible, whether taxed at a single rate or at classified rates, and taxes on selected types of property, such as motor vehicles, or on certain or all intangibles. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
+        "documentation": "Report the total property tax rate. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.",
         "label": "Total property tax rate"
        }
       }
@@ -7205,7 +7205,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Report as at the relevant date, the monetary value, of unearned revenue.\nUnearned revenue is the amount for which asset recognition criteria have been met, but revenue recognition criteria have not yet been met because such amounts have not yet been earned. Unearned revenue are certain revenues which involve advance payments (for example, parking permits, rents and miscellaneous fees) and these advance payments must be treated as a liability until they are earned.",
+        "documentation": "Report as at the relevant date, the monetary value, of unearned revenue.\nUnearned revenue is the amount for which asset recognition criteria have been met, but revenue recognition criteria have not yet been met because such amounts have not yet been earned.",
         "label": "Unearned revenue"
        }
       }
@@ -7269,43 +7269,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r10": {
-   "Note": "Section 140 and Paragraph 102",
+   "Note": "Page 50 and Footnote 7, Footnote 13",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r11": {
-   "Note": "Section 1400 and Paragraph 103",
+   "Note": "Page 9 and Part II, 5.E",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r12": {
-   "Note": "Section 150 and Paragraph 103",
+   "Note": "Section 140 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r13": {
-   "Note": "Section 1500 and Paragraph 106",
+   "Note": "Section 1400 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r14": {
-   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
+   "Note": "Section 150 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r15": {
-   "Note": "Section 1800 and Paragraph 102",
+   "Note": "Section 1500 and Paragraph 106",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r16": {
-   "Note": "Section 1800 and Paragraph 136",
+   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r17": {
-   "Note": "Section 1800 and Paragraph 142",
+   "Note": "Section 1800 and Paragraph 136",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r18": {
-   "Note": "Section 1800 and Paragraph 156 and Chapter I",
+   "Note": "Section 1800 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r19": {
-   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
+   "Note": "Section 1800 and Paragraph 156 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r2": {
@@ -7313,43 +7313,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r20": {
-   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
+   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r21": {
-   "Note": "Section 1800 and Paragraph 183",
+   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r22": {
-   "Note": "Section 2100 and Paragraph 112-113",
+   "Note": "Section 1800 and Paragraph 183",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r23": {
-   "Note": "Section 2200 and Paragraph 113",
+   "Note": "Section 2100 and Paragraph 112-113",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r24": {
-   "Note": "Section 2200 and Paragraph 116",
+   "Note": "Section 2200 and Paragraph 113",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r25": {
-   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
+   "Note": "Section 2200 and Paragraph 116",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r26": {
-   "Note": "Section 2200 and Paragraph 137",
+   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r27": {
-   "Note": "Section 2200 and Paragraph 140",
+   "Note": "Section 2200 and Paragraph 137",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r28": {
-   "Note": "Section 2200 and Paragraph 142",
+   "Note": "Section 2200 and Paragraph 140",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r29": {
-   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
+   "Note": "Section 2200 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r3": {
@@ -7357,23 +7357,23 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r30": {
-   "Note": "Section 2250 and Paragraph 124",
+   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r31": {
-   "Note": "Section 2300 and Paragraph fn1",
+   "Note": "Section 2250 and Paragraph 124",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r32": {
-   "Note": "Section 2450 and Paragraph fn2",
+   "Note": "Section 2300 and Paragraph fn1",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r33": {
-   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
+   "Note": "Section 2450 and Paragraph fn2",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r34": {
-   "Note": "Section CS4 and Paragraph 8-16",
+   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r35": {
@@ -7440,7 +7440,7 @@
    "Publisher": "US Census Bureau: F28"
   },
   "r5": {
-   "Note": "GASB Concepts Statements, Paragraph 43 and Appendix B",
+   "Note": "Chapter B and Section CS4 and Paragraph 8-16",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r50": {
@@ -7463,19 +7463,19 @@
    "Publisher": "US-CAFR, Filing information"
   },
   "r6": {
-   "Note": "Page 20",
+   "Note": "Chapter I and Section 1800 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r7": {
-   "Note": "Page 50 and Footnote 7 and 13",
+   "Note": "GASB Concepts Statements, Paragraph 43 and Appendix B",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r8": {
-   "Note": "Page 50 and Footnote 7, Footnote 13",
+   "Note": "Page 20",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r9": {
-   "Note": "Page 9 and Part II, 5.E",
+   "Note": "Page 50 and Footnote 7 and 13",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   }
  },
