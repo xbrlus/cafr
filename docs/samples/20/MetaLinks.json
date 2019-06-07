@@ -3,13 +3,14 @@
   "Los_Angeles-20180630.xhtml": {
    "axisCustom": 0,
    "axisStandard": 27,
-   "contextCount": 241,
+   "contextCount": 249,
    "dts": {
     "definitionLink": {
      "remote": [
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-definition.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-definition.xml"
      ]
     },
@@ -97,6 +98,7 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_expd-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_fin-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_rev-td.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-revenue.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-fiscal-date.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-mandatory.xml"
      ]
@@ -164,8 +166,8 @@
    "elementCount": 399,
    "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 175,
-    "total": 175
+    "https://xbrl.us/2019/us-cafr_concept": 176,
+    "total": 176
    },
    "keyCustom": 0,
    "keyStandard": 319,
@@ -173,9 +175,195 @@
    "memberStandard": 21,
    "report": {
     "R1": {
-     "firstAnchor": null,
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
      "groupType": "",
      "isDefault": "true",
+     "longName": "CAFR01-Statement of net position-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R2": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR02-Statement of activities-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R3": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR03-Governmental funds-Balance sheet-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R4": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance",
+     "role": "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Los_Angeles-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R5": {
+     "firstAnchor": null,
+     "groupType": "",
+     "isDefault": "false",
      "longName": "FILINGINFO-Table001-NonDimensional",
      "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
      "shortName": "",
@@ -193,18 +381,19 @@
        "tbody",
        "table",
        "div",
-       "div",
+       "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+       "span",
        "div",
        "div",
        "body",
        "html"
       ],
       "baseRef": "Los_Angeles-20180630.xhtml",
-      "contextRef": "I20180630_NetMember_GovernmentalActivitiesMember",
+      "contextRef": "I20180630_AggregateNonMajorFundsMember_NameOfOtherAssetsDomain_PropertiesHeldForHousingDevelopment",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:InvestmentInCapitalAssets",
+      "name": "us-cafr:OtherAssets",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"

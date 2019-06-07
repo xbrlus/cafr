@@ -3,7 +3,7 @@
   "San_Diego-20180630.xhtml": {
    "axisCustom": 0,
    "axisStandard": 27,
-   "contextCount": 276,
+   "contextCount": 281,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -92,9 +92,12 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-excess-deficit.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-expd.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-fb-end.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-fb-start.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-gov-fund-total.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-mandatory.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_expd-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_fin-td.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_rev-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-revenue.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-fiscal-date.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-mandatory.xml"
@@ -163,8 +166,8 @@
    "elementCount": 400,
    "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 159,
-    "total": 159
+    "https://xbrl.us/2019/us-cafr_concept": 160,
+    "total": 160
    },
    "keyCustom": 0,
    "keyStandard": 319,
@@ -172,9 +175,199 @@
    "memberStandard": 22,
    "report": {
     "R1": {
-     "firstAnchor": null,
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
      "groupType": "",
      "isDefault": "true",
+     "longName": "CAFR01-Statement of net position-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R2": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR02-Statement of activities-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R3": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR03-Governmental funds-Balance sheet-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R4": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance",
+     "role": "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "San_Diego-20180630.xhtml",
+      "contextRef": "D20180630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R5": {
+     "firstAnchor": null,
+     "groupType": "",
+     "isDefault": "false",
      "longName": "FILINGINFO-Table001-NonDimensional",
      "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
      "shortName": "",
@@ -194,16 +387,20 @@
        "div",
        "div",
        "div",
+       "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
+       "span",
+       "div",
+       "div",
        "div",
        "body",
        "html"
       ],
       "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "I20180630_BusinessTypeActivitiesMember_NameOfDeferredOutflowsOfResourcesDomain_4",
+      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_RestrictedMember_NameOfNetPositionRestrictedDomain_Grantors-HousingAssistance",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:DeferredOutflowsOfResources",
+      "name": "us-cafr:NetPosition",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
