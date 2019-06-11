@@ -361,11 +361,11 @@
        "html"
       ],
       "baseRef": "Mchenry-IL-20171130.htm",
-      "contextRef": "P12_01_2016To11_30_2017_PrimaryGovernmentActivitiesMemberuscafrTypeOfActivitiesAxis_ProgramRevenuesFromCapitalGrantsAndContributionsMemberuscafrTypeOfProgramRevenuesAxis",
+      "contextRef": "P12_01_2016To11_30_2017_BusinessTypeActivitiesMemberuscafrTypeOfActivitiesAxis_ProgramRevenuesFromOperatingGrantsAndContributionsMemberuscafrTypeOfProgramRevenuesAxis",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "us-cafr:ProgramRevenues",
+      "name": "us-cafr:RevenueFromPublicSafetyServices",
       "reportCount": 1,
       "unitRef": "Unit_USD",
       "xsiNil": "false"
