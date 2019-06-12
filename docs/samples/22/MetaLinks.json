@@ -175,195 +175,9 @@
    "memberStandard": 20,
    "report": {
     "R1": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "true",
-     "longName": "CAFR01-Statement of net position-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR02-Statement of activities-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R3": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR03-Governmental funds-Balance sheet-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R4": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance",
-     "role": "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "D20171231",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R5": {
      "firstAnchor": null,
      "groupType": "",
-     "isDefault": "false",
+     "isDefault": "true",
      "longName": "FILINGINFO-Table001-NonDimensional",
      "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
      "shortName": "",
@@ -382,20 +196,17 @@
        "table",
        "div",
        "div",
-       "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-       "span",
-       "div",
        "div",
        "div",
        "body",
        "html"
       ],
       "baseRef": "Columbus-20171231.xhtml",
-      "contextRef": "I20171231_BusinessTypeActivitiesMember",
+      "contextRef": "D20171231_NameOfOtherGeneralRevenuesDomain_Miscellaneous_PrimaryGovernmentActivitiesMember",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:InventoriesCurrent",
+      "name": "us-cafr:OtherGeneralRevenues",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
