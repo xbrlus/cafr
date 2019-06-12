@@ -175,199 +175,9 @@
    "memberStandard": 22,
    "report": {
     "R1": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "true",
-     "longName": "CAFR01-Statement of net position-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR02-Statement of activities-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R3": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR03-Governmental funds-Balance sheet-Table01-NonDimensional",
-     "role": "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R4": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance",
-     "role": "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "D20180630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R5": {
      "firstAnchor": null,
      "groupType": "",
-     "isDefault": "false",
+     "isDefault": "true",
      "longName": "FILINGINFO-Table001-NonDimensional",
      "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
      "shortName": "",
@@ -387,8 +197,6 @@
        "div",
        "div",
        "div",
-       "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
-       "span",
        "div",
        "div",
        "div",
@@ -396,11 +204,11 @@
        "html"
       ],
       "baseRef": "San_Diego-20180630.xhtml",
-      "contextRef": "I20180630_PrimaryGovernmentActivitiesMember_RestrictedMember_NameOfNetPositionRestrictedDomain_Grantors-HousingAssistance",
+      "contextRef": "I20180630_GeneralFundMember_RestrictedMember_NameOfFundBalancesRestrictedDomain_DefrayAdministrativeCostsOtherGeneralRestrictions",
       "decimals": "-3",
       "first": true,
       "lang": null,
-      "name": "us-cafr:NetPosition",
+      "name": "us-cafr:FundBalances",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
