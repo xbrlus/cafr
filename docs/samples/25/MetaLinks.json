@@ -1,6 +1,6 @@
 {
  "instance": {
-  "WillCountyIllinois-2017-12-01.htm": {
+  "WillCountyIllinois-2017-12-01.html": {
    "axisCustom": 0,
    "axisStandard": 0,
    "contextCount": 112,
@@ -16,7 +16,7 @@
     },
     "inline": {
      "local": [
-      "WillCountyIllinois-2017-12-01.htm"
+      "WillCountyIllinois-2017-12-01.html"
      ]
     },
     "labelLink": {
