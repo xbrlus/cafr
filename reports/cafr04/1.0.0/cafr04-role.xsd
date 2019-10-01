@@ -9,7 +9,7 @@
  <xsd:annotation>
    <xsd:appinfo>
 <link:roleType roleURI="https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional" id="CAFR04-Table01-NonDimensional">
-<link:definition>CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance</link:definition>
+<link:definition>4 - Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balance – Table01-NonDimensional </link:definition>
 <link:usedOn>link:presentationLink</link:usedOn>
 <link:usedOn>link:definitionLink</link:usedOn>
 </link:roleType>

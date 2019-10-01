@@ -7,7 +7,7 @@
 <xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:gen="http://xbrl.org/2008/generic" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:CAFR01-role="https://xbrl.us/2019/cafr01-role" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="https://xbrl.us/2019/cafr01-role">
  <xsd:annotation>
    <xsd:appinfo>
-<link:roleType roleURI="https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional" id="CAFR01-Table01-NonDimensional">
+<link:roleType roleURI="https://xbrl.us/2019/cafr01-role/1 - Statement of Net Position - Table01-NonDimensional" id="CAFR01-Table01-NonDimensional">
 <link:definition>CAFR01-Statement of net position-Table01-NonDimensional</link:definition>
 <link:usedOn>link:presentationLink</link:usedOn>
 <link:usedOn>link:definitionLink</link:usedOn>
