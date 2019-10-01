@@ -8,7 +8,7 @@
  <xsd:annotation>
    <xsd:appinfo>
 <link:roleType roleURI="https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional" id="CAFR02-Table01-NonDimensional">
-<link:definition>CAFR02-Statement of activities-Table01-NonDimensional</link:definition>
+<link:definition>2 - Statement of Activities- Table01-NonDimensional</link:definition>
 <link:usedOn>link:presentationLink</link:usedOn>
 <link:usedOn>link:definitionLink</link:usedOn>
 </link:roleType>
