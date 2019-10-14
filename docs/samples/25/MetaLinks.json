@@ -1,9 +1,9 @@
 {
  "instance": {
-  "WillCountyIllinois-2017-12-01.html": {
+  "County-of-Will-Illinois-20181130-Annual-Accounts.html": {
    "axisCustom": 0,
-   "axisStandard": 0,
-   "contextCount": 112,
+   "axisStandard": 26,
+   "contextCount": 218,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -16,7 +16,7 @@
     },
     "inline": {
      "local": [
-      "WillCountyIllinois-2017-12-01.html"
+      "County-of-Will-Illinois-20181130-Annual-Accounts.html"
      ]
     },
     "labelLink": {
@@ -163,22 +163,109 @@
      ]
     }
    },
-   "elementCount": 377,
-   "entityCount": 2,
+   "elementCount": 398,
+   "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 18,
-    "total": 18
+    "https://xbrl.us/2019/us-cafr_concept": 198,
+    "total": 198
    },
    "keyCustom": 0,
    "keyStandard": 319,
    "memberCustom": 0,
-   "memberStandard": 0,
-   "report": {},
-   "segmentCount": 23,
+   "memberStandard": 21,
+   "report": {
+    "R1": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "b",
+       "p",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.html",
+      "contextRef": "D20181130",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "true",
+     "longName": "FILINGINFO-Table001-NonDimensional",
+     "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "b",
+       "p",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.html",
+      "contextRef": "D20181130",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:NameOfGovernment",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R9999": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.html",
+      "contextRef": "D20181130_OtherFund03Member",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:RevenueFromPropertyTax",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.html",
+     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
+     "shortName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.html",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    }
+   },
+   "segmentCount": 39,
    "tag": {
     "us-cafr_AccountsPayable": {
      "auth_ref": [
-      "r42"
+      "r45"
      ],
      "lang": {
       "en": {
@@ -278,7 +365,7 @@
     },
     "us-cafr_AdjustmentsForTransferOfRevenuesWithinActivities": {
      "auth_ref": [
-      "r35"
+      "r38"
      ],
      "lang": {
       "en": {
@@ -353,7 +440,7 @@
     },
     "us-cafr_AdjustmentsInFundBalancesForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r36"
+      "r39"
      ],
      "lang": {
       "en": {
@@ -372,7 +459,7 @@
     },
     "us-cafr_AdjustmentsInNetPositionForRestatementsErrorsAndAccountingPolicy": {
      "auth_ref": [
-      "r36"
+      "r39"
      ],
      "lang": {
       "en": {
@@ -446,23 +533,6 @@
       "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional"
      ],
      "xbrltype": "monetaryItemType"
-    },
-    "us-cafr_AggregateNonMajorFundsMember": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The reported information reflects the aggregate of non-major funds",
-        "label": "Aggregate non-major funds [member]",
-        "terseLabel": "Aggregate non-major funds"
-       }
-      }
-     },
-     "localname": "AggregateNonMajorFundsMember",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "domainItemType"
     },
     "us-cafr_AmountHeldForOthers": {
      "auth_ref": [
@@ -566,7 +636,7 @@
     },
     "us-cafr_AssignedMember": {
      "auth_ref": [
-      "r25"
+      "r27"
      ],
      "lang": {
       "en": {
@@ -583,7 +653,7 @@
     },
     "us-cafr_AuditOpinion": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -602,7 +672,7 @@
     },
     "us-cafr_AuditStatus": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -621,7 +691,7 @@
     },
     "us-cafr_AverageNumberOfUtilityCustomers": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -792,7 +862,7 @@
     },
     "us-cafr_CashAndCashEquivalentsOthers": {
      "auth_ref": [
-      "r38"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -812,7 +882,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents": {
      "auth_ref": [
-      "r38"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -832,7 +902,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTreasurer": {
      "auth_ref": [
-      "r38"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -852,7 +922,7 @@
     },
     "us-cafr_CashAndCashEquivalentsWithTrustee": {
      "auth_ref": [
-      "r38"
+      "r41"
      ],
      "lang": {
       "en": {
@@ -932,7 +1002,7 @@
     },
     "us-cafr_ChangesInNetPosition": {
      "auth_ref": [
-      "r34"
+      "r37"
      ],
      "lang": {
       "en": {
@@ -992,7 +1062,7 @@
     },
     "us-cafr_CommittedMember": {
      "auth_ref": [
-      "r24"
+      "r26"
      ],
      "lang": {
       "en": {
@@ -1064,9 +1134,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_ComponentUnitAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the unit of component. It covers extraneous reporting.",
+        "label": "Component unit [axis]",
+        "terseLabel": "Component unit"
+       }
+      }
+     },
+     "localname": "ComponentUnitAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_ComponentUnitMember": {
      "auth_ref": [
-      "r28"
+      "r31"
      ],
      "lang": {
       "en": {
@@ -1198,7 +1285,7 @@
     },
     "us-cafr_DateOfAuditOpinion": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -1217,7 +1304,7 @@
     },
     "us-cafr_DateOfTransmittal": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -1528,7 +1615,7 @@
     },
     "us-cafr_DisclosureOfStatementOfActivitiesTextBlock": {
      "auth_ref": [
-      "r31"
+      "r34"
      ],
      "lang": {
       "en": {
@@ -1588,7 +1675,7 @@
     },
     "us-cafr_DocumentTitle": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -1741,6 +1828,23 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_DueInMoreThanOneYearMember": {
+     "auth_ref": [
+      "r18"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the time interval which commences after 1 year from the relevant reporting end date and continues into the future.",
+        "label": "Due in more than one year [member]",
+        "terseLabel": "Due in more than one year"
+       }
+      }
+     },
+     "localname": "DueInMoreThanOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_DueToComponentUnit": {
      "auth_ref": [
       "r0"
@@ -1877,9 +1981,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_DueWithinOneYearMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the time interval from the relevant reporting end date up to and including 1 year after that date.",
+        "label": "Due within one year [member]",
+        "terseLabel": "Due within one year"
+       }
+      }
+     },
+     "localname": "DueWithinOneYearMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_EmployerIdentificationNumber": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -1918,7 +2039,7 @@
     },
     "us-cafr_Expenditures": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -1956,7 +2077,7 @@
     },
     "us-cafr_ExpendituresForAirportServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -1975,7 +2096,7 @@
     },
     "us-cafr_ExpendituresForCapitalOutlay": {
      "auth_ref": [
-      "r52"
+      "r55"
      ],
      "lang": {
       "en": {
@@ -1994,7 +2115,7 @@
     },
     "us-cafr_ExpendituresForCommunityDevelopmentServices": {
      "auth_ref": [
-      "r50"
+      "r53"
      ],
      "lang": {
       "en": {
@@ -2013,7 +2134,7 @@
     },
     "us-cafr_ExpendituresForConservationRecreationParksAndCulturalServices": {
      "auth_ref": [
-      "r47"
+      "r50"
      ],
      "lang": {
       "en": {
@@ -2032,7 +2153,7 @@
     },
     "us-cafr_ExpendituresForConservationServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2051,7 +2172,7 @@
     },
     "us-cafr_ExpendituresForContingencyServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2070,7 +2191,7 @@
     },
     "us-cafr_ExpendituresForConventionCentreServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2089,7 +2210,7 @@
     },
     "us-cafr_ExpendituresForEconomicDevelopmentServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2108,7 +2229,7 @@
     },
     "us-cafr_ExpendituresForEducationServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2127,7 +2248,7 @@
     },
     "us-cafr_ExpendituresForElectricityAndPowerServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2146,7 +2267,7 @@
     },
     "us-cafr_ExpendituresForGarageServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2165,7 +2286,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesAdministration": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2184,7 +2305,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesJudicial": {
      "auth_ref": [
-      "r48"
+      "r51"
      ],
      "lang": {
       "en": {
@@ -2203,7 +2324,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesLegislativeAndExecutive": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2222,7 +2343,7 @@
     },
     "us-cafr_ExpendituresForGeneralGovernmentServicesOthers": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2241,7 +2362,7 @@
     },
     "us-cafr_ExpendituresForHarbourServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2260,7 +2381,7 @@
     },
     "us-cafr_ExpendituresForInterGovernmentalActivities": {
      "auth_ref": [
-      "r51"
+      "r54"
      ],
      "lang": {
       "en": {
@@ -2279,7 +2400,7 @@
     },
     "us-cafr_ExpendituresForJailStoresCommissaryServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2298,7 +2419,7 @@
     },
     "us-cafr_ExpendituresForOtherDevelopmentServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2317,7 +2438,7 @@
     },
     "us-cafr_ExpendituresForOtherPublicServices": {
      "auth_ref": [
-      "r49"
+      "r52"
      ],
      "lang": {
       "en": {
@@ -2336,7 +2457,7 @@
     },
     "us-cafr_ExpendituresForPublicAssistanceServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2355,7 +2476,7 @@
     },
     "us-cafr_ExpendituresForPublicHealthAndSanitationServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2374,7 +2495,7 @@
     },
     "us-cafr_ExpendituresForPublicSafetyServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2393,7 +2514,7 @@
     },
     "us-cafr_ExpendituresForPublicSchoolsServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2412,7 +2533,7 @@
     },
     "us-cafr_ExpendituresForPublicWaysAndFacilitiesServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2431,7 +2552,7 @@
     },
     "us-cafr_ExpendituresForPublicWorksServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2450,7 +2571,7 @@
     },
     "us-cafr_ExpendituresForSanitarySewerServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2469,7 +2590,7 @@
     },
     "us-cafr_ExpendituresForSecurityOfPersonsAndPropertyServices": {
      "auth_ref": [
-      "r46"
+      "r49"
      ],
      "lang": {
       "en": {
@@ -2488,7 +2609,7 @@
     },
     "us-cafr_ExpendituresForStormSewerServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2507,7 +2628,7 @@
     },
     "us-cafr_ExpendituresForTransportationServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -2526,7 +2647,7 @@
     },
     "us-cafr_ExpendituresForWaterSupplyServices": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -3130,7 +3251,7 @@
     },
     "us-cafr_FiscalEndDate": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -3149,7 +3270,7 @@
     },
     "us-cafr_FiscalStartDate": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -3168,7 +3289,7 @@
     },
     "us-cafr_FundBalances": {
      "auth_ref": [
-      "r27"
+      "r29"
      ],
      "lang": {
       "en": {
@@ -3285,7 +3406,7 @@
     },
     "us-cafr_GeneralRevenues": {
      "auth_ref": [
-      "r33"
+      "r36"
      ],
      "lang": {
       "en": {
@@ -3323,7 +3444,7 @@
     },
     "us-cafr_GovernmentalActivitiesMember": {
      "auth_ref": [
-      "r29"
+      "r32"
      ],
      "lang": {
       "en": {
@@ -3487,7 +3608,7 @@
     },
     "us-cafr_InsideMillage": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -3681,7 +3802,7 @@
     },
     "us-cafr_InvestmentInCapitalAssets": {
      "auth_ref": [
-      "r20"
+      "r21"
      ],
      "lang": {
       "en": {
@@ -3857,7 +3978,7 @@
     },
     "us-cafr_LegalEntityIdentifier": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -3876,7 +3997,7 @@
     },
     "us-cafr_Liabilities": {
      "auth_ref": [
-      "r30"
+      "r33"
      ],
      "lang": {
       "en": {
@@ -4128,7 +4249,7 @@
     },
     "us-cafr_NameOfAuditFirm": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -4143,6 +4264,40 @@
      "presentation": [
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of capital assets, depreciable (net of accumulated depreciation and amortization)",
+        "label": "Name of capital assets, depreciable (net of accumulated depreciation and amortization) [axis]",
+        "terseLabel": "Name of capital assets, depreciable (net of accumulated depreciation and amortization)"
+       }
+      }
+     },
+     "localname": "NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfCapitalAssetsNonDepreciableAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of capital assets, non-depreciable",
+        "label": "Name of capital assets, non-depreciable [axis]",
+        "terseLabel": "Name of capital assets, non-depreciable"
+       }
+      }
+     },
+     "localname": "NameOfCapitalAssetsNonDepreciableAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
     "us-cafr_NameOfDeferredInflowsOfResourcesAxis": {
@@ -4199,9 +4354,77 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfFundBalancesAssignedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances assigned",
+        "label": "Name of fund balances assigned [axis]",
+        "terseLabel": "Name of fund balances assigned"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesAssignedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesCommittedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances committed",
+        "label": "Name of fund balances committed [axis]",
+        "terseLabel": "Name of fund balances committed"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesCommittedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesNonSpendableAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances non-spendable",
+        "label": "Name of fund balances non-spendable [axis]",
+        "terseLabel": "Name of fund balances non-spendable"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesNonSpendableAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfFundBalancesRestrictedAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of fund balances restricted",
+        "label": "Name of fund balances restricted [axis]",
+        "terseLabel": "Name of fund balances restricted"
+       }
+      }
+     },
+     "localname": "NameOfFundBalancesRestrictedAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfGovernment": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -4235,6 +4458,23 @@
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfOtherAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other assets",
+        "label": "Name of other assets [axis]",
+        "terseLabel": "Name of other assets"
+       }
+      }
+     },
+     "localname": "NameOfOtherAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfOtherCurrentAssetsAxis": {
      "auth_ref": [
       "r0"
@@ -4249,6 +4489,40 @@
       }
      },
      "localname": "NameOfOtherCurrentAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherCurrentLiabilitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other current liabilities",
+        "label": "Name of other current liabilities [axis]",
+        "terseLabel": "Name of other current liabilities"
+       }
+      }
+     },
+     "localname": "NameOfOtherCurrentLiabilitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherExpensesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other expenses",
+        "label": "Name of other expenses [axis]",
+        "terseLabel": "Name of other expenses"
+       }
+      }
+     },
+     "localname": "NameOfOtherExpensesAxis",
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
@@ -4286,9 +4560,77 @@
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NameOfOtherLiabilitiesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other liabilities",
+        "label": "Name of other liabilities [axis]",
+        "terseLabel": "Name of other liabilities"
+       }
+      }
+     },
+     "localname": "NameOfOtherLiabilitiesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherProgramRevenuesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other program revenues",
+        "label": "Name of other program revenues [axis]",
+        "terseLabel": "Name of other program revenues"
+       }
+      }
+     },
+     "localname": "NameOfOtherProgramRevenuesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfOtherRevenuesAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of other revenues",
+        "label": "Name of other revenues [axis]",
+        "terseLabel": "Name of other revenues"
+       }
+      }
+     },
+     "localname": "NameOfOtherRevenuesAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
+    "us-cafr_NameOfRestrictedAssetsAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The concept is of typed dimension nature and reflects name of restricted assets",
+        "label": "Name of restricted assets [axis]",
+        "terseLabel": "Name of restricted assets"
+       }
+      }
+     },
+     "localname": "NameOfRestrictedAssetsAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
+    },
     "us-cafr_NameOfState": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -4342,7 +4684,7 @@
     },
     "us-cafr_NetPosition": {
      "auth_ref": [
-      "r22"
+      "r23"
      ],
      "lang": {
       "en": {
@@ -4497,6 +4839,23 @@
      ],
      "xbrltype": "stringItemType"
     },
+    "us-cafr_NonSpendableMember": {
+     "auth_ref": [
+      "r25"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the type of restriction namely non-spendable. \tNon-spendable are amounts that cannot be spent because they are either (a) not in spendable form or (b) legally or contractually required to be maintained intact.",
+        "label": "Non-spendable [member]",
+        "terseLabel": "Non-spendable"
+       }
+      }
+     },
+     "localname": "NonSpendableMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_NotesPayable": {
      "auth_ref": [
       "r0"
@@ -4539,7 +4898,7 @@
     },
     "us-cafr_OrderOfMagnitude": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -4634,7 +4993,7 @@
     },
     "us-cafr_OtherExpenditures": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -4706,6 +5065,57 @@
       "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional"
      ],
      "xbrltype": "stringItemType"
+    },
+    "us-cafr_OtherFund01Member": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the other fund 01",
+        "label": "Other fund 01 [member]",
+        "terseLabel": "Other fund 01"
+       }
+      }
+     },
+     "localname": "OtherFund01Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_OtherFund02Member": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the other fund 02",
+        "label": "Other fund 02 [member]",
+        "terseLabel": "Other fund 02"
+       }
+      }
+     },
+     "localname": "OtherFund02Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_OtherFund03Member": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the other fund 03",
+        "label": "Other fund 03 [member]",
+        "terseLabel": "Other fund 03"
+       }
+      }
+     },
+     "localname": "OtherFund03Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
     },
     "us-cafr_OtherGeneralRevenues": {
      "auth_ref": [
@@ -4842,7 +5252,7 @@
     },
     "us-cafr_OtherPostEmploymentBenefitsPlanAssets": {
      "auth_ref": [
-      "r40"
+      "r43"
      ],
      "lang": {
       "en": {
@@ -4956,7 +5366,7 @@
     },
     "us-cafr_OtherPrepaidAssets": {
      "auth_ref": [
-      "r37"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -5054,7 +5464,7 @@
     },
     "us-cafr_OutsideMillage": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -5328,7 +5738,7 @@
     },
     "us-cafr_PrepaidDeposits": {
      "auth_ref": [
-      "r37"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -5348,7 +5758,7 @@
     },
     "us-cafr_PrepaidExpenses": {
      "auth_ref": [
-      "r37"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -5368,7 +5778,7 @@
     },
     "us-cafr_PrepaidOtherPostEmploymentBenefitsPlan": {
      "auth_ref": [
-      "r37"
+      "r40"
      ],
      "lang": {
       "en": {
@@ -5386,9 +5796,26 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_PrimaryGovernmentActivitiesMember": {
+     "auth_ref": [
+      "r30"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects primary government activities.  A primary government is any state government or general purpose local government (municipality, township or county) as well as a special-purpose government (for example, a school district or a park district).",
+        "label": "Primary government activities [member]",
+        "terseLabel": "Primary government activities"
+       }
+      }
+     },
+     "localname": "PrimaryGovernmentActivitiesMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_ProgramRevenues": {
      "auth_ref": [
-      "r19"
+      "r20"
      ],
      "lang": {
       "en": {
@@ -5480,7 +5907,7 @@
     },
     "us-cafr_ProgramRevenuesFromChargesForServicesAndSalesMember": {
      "auth_ref": [
-      "r32"
+      "r35"
      ],
      "lang": {
       "en": {
@@ -5532,7 +5959,7 @@
     },
     "us-cafr_PropertyTaxValuation": {
      "auth_ref": [
-      "r43"
+      "r46"
      ],
      "lang": {
       "en": {
@@ -5551,7 +5978,7 @@
     },
     "us-cafr_PropertyTaxesReceivable": {
      "auth_ref": [
-      "r43"
+      "r46"
      ],
      "lang": {
       "en": {
@@ -5782,7 +6209,7 @@
     },
     "us-cafr_ReportingCurrency": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -5801,7 +6228,7 @@
     },
     "us-cafr_ReportingFrequency": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -5817,6 +6244,23 @@
       "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional"
      ],
      "xbrltype": "ReportingFrequency"
+    },
+    "us-cafr_ResidualTermToMaturityAxis": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information is categorized according to the remaining term to maturity of the asset or liability that gave rise to it. This is the time interval between the reporting date and the maturity date.",
+        "label": "Residual term to maturity [axis]",
+        "terseLabel": "Residual term to maturity"
+       }
+      }
+     },
+     "localname": "ResidualTermToMaturityAxis",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "stringItemType"
     },
     "us-cafr_RestrictedAssetsAbstract": {
      "auth_ref": [],
@@ -5838,7 +6282,7 @@
     },
     "us-cafr_RestrictedMember": {
      "auth_ref": [
-      "r21"
+      "r22"
      ],
      "lang": {
       "en": {
@@ -5894,7 +6338,7 @@
     },
     "us-cafr_RevenueFromBusinessLicenseTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -5914,7 +6358,7 @@
     },
     "us-cafr_RevenueFromChargesForServicesAndSales": {
      "auth_ref": [
-      "r32"
+      "r35"
      ],
      "lang": {
       "en": {
@@ -6028,7 +6472,7 @@
     },
     "us-cafr_RevenueFromDocumentsTransferTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6105,7 +6549,7 @@
     },
     "us-cafr_RevenueFromFinesAndForfeituresAndPenalties": {
      "auth_ref": [
-      "r58"
+      "r61"
      ],
      "lang": {
       "en": {
@@ -6125,7 +6569,7 @@
     },
     "us-cafr_RevenueFromFranchiseIncomeTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6279,7 +6723,7 @@
     },
     "us-cafr_RevenueFromHotelAndMotelTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6299,7 +6743,7 @@
     },
     "us-cafr_RevenueFromIncomeTax": {
      "auth_ref": [
-      "r55"
+      "r58"
      ],
      "lang": {
       "en": {
@@ -6319,7 +6763,7 @@
     },
     "us-cafr_RevenueFromInterGovernmentalActivities": {
      "auth_ref": [
-      "r18"
+      "r19"
      ],
      "lang": {
       "en": {
@@ -6378,7 +6822,7 @@
     },
     "us-cafr_RevenueFromLicensesAndPermitsAndFranchiseFees": {
      "auth_ref": [
-      "r54"
+      "r57"
      ],
      "lang": {
       "en": {
@@ -6398,7 +6842,7 @@
     },
     "us-cafr_RevenueFromMealsTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6456,7 +6900,7 @@
     },
     "us-cafr_RevenueFromOtherTaxes": {
      "auth_ref": [
-      "r56"
+      "r59"
      ],
      "lang": {
       "en": {
@@ -6476,7 +6920,7 @@
     },
     "us-cafr_RevenueFromParkingOccupancyTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6496,7 +6940,7 @@
     },
     "us-cafr_RevenueFromPropertyTax": {
      "auth_ref": [
-      "r44"
+      "r47"
      ],
      "lang": {
       "en": {
@@ -6516,7 +6960,7 @@
     },
     "us-cafr_RevenueFromPropertyTransferTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6670,7 +7114,7 @@
     },
     "us-cafr_RevenueFromSalesAndUseTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6690,7 +7134,7 @@
     },
     "us-cafr_RevenueFromSalesTax": {
      "auth_ref": [
-      "r53"
+      "r56"
      ],
      "lang": {
       "en": {
@@ -6787,7 +7231,7 @@
     },
     "us-cafr_RevenueFromSpecialAssessments": {
      "auth_ref": [
-      "r57"
+      "r60"
      ],
      "lang": {
       "en": {
@@ -6826,7 +7270,7 @@
     },
     "us-cafr_RevenueFromTransferStampsTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6846,7 +7290,7 @@
     },
     "us-cafr_RevenueFromTransientOccupancyTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6885,7 +7329,7 @@
     },
     "us-cafr_RevenueFromUsageOfUtilitiesTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6925,7 +7369,7 @@
     },
     "us-cafr_RevenueFromVehiclesTax": {
      "auth_ref": [
-      "r45"
+      "r48"
      ],
      "lang": {
       "en": {
@@ -6984,7 +7428,7 @@
     },
     "us-cafr_Revenues": {
      "auth_ref": [
-      "r39"
+      "r42"
      ],
      "lang": {
       "en": {
@@ -7024,7 +7468,7 @@
     },
     "us-cafr_SalesTaxReceivable": {
      "auth_ref": [
-      "r53"
+      "r56"
      ],
      "lang": {
       "en": {
@@ -7154,7 +7598,7 @@
     },
     "us-cafr_TotalAnnualFinalAppropriationsForAllFunds": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -7190,7 +7634,7 @@
     },
     "us-cafr_TotalPropertyTaxRate": {
      "auth_ref": [
-      "r43"
+      "r46"
      ],
      "lang": {
       "en": {
@@ -7226,7 +7670,7 @@
     },
     "us-cafr_TypeOfGovernment": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -7296,7 +7740,7 @@
     },
     "us-cafr_UnassignedMember": {
      "auth_ref": [
-      "r26"
+      "r28"
      ],
      "lang": {
       "en": {
@@ -7313,7 +7757,7 @@
     },
     "us-cafr_UnearnedRevenue": {
      "auth_ref": [
-      "r41"
+      "r44"
      ],
      "lang": {
       "en": {
@@ -7333,7 +7777,7 @@
     },
     "us-cafr_UnitIdentificationNumber": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -7352,7 +7796,7 @@
     },
     "us-cafr_UnrestrictedMember": {
      "auth_ref": [
-      "r23"
+      "r24"
      ],
      "lang": {
       "en": {
@@ -7369,7 +7813,7 @@
     },
     "us-cafr_XBRLTaxonomyVersion": {
      "auth_ref": [
-      "r59"
+      "r62"
      ],
      "lang": {
       "en": {
@@ -7387,7 +7831,7 @@
      "xbrltype": "TaxonomyVersion"
     }
    },
-   "unitCount": 1
+   "unitCount": 2
   }
  },
  "std_ref": {
@@ -7431,11 +7875,11 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r18": {
-   "Note": "Section 1800 and Paragraph 136",
+   "Note": "Section 1800 and Paragraph 115 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r19": {
-   "Note": "Section 1800 and Paragraph 142",
+   "Note": "Section 1800 and Paragraph 136",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r2": {
@@ -7443,43 +7887,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r20": {
-   "Note": "Section 1800 and Paragraph 156 and Chapter I",
+   "Note": "Section 1800 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r21": {
-   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
+   "Note": "Section 1800 and Paragraph 156 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r22": {
-   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
+   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r23": {
-   "Note": "Section 1800 and Paragraph 162 and Chapter I",
+   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r24": {
-   "Note": "Section 1800 and Paragraph 170 and Chapter I",
+   "Note": "Section 1800 and Paragraph 162 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r25": {
-   "Note": "Section 1800 and Paragraph 173 and Chapter I",
+   "Note": "Section 1800 and Paragraph 166 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r26": {
-   "Note": "Section 1800 and Paragraph 177 and Chapter I",
+   "Note": "Section 1800 and Paragraph 170 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r27": {
-   "Note": "Section 1800 and Paragraph 183",
+   "Note": "Section 1800 and Paragraph 173 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r28": {
-   "Note": "Section 2100 and Paragraph 505",
+   "Note": "Section 1800 and Paragraph 177 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r29": {
-   "Note": "Section 2200 and Paragraph 113",
+   "Note": "Section 1800 and Paragraph 183",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r3": {
@@ -7487,43 +7931,43 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r30": {
-   "Note": "Section 2200 and Paragraph 116",
+   "Note": "Section 2100 and Paragraph 112-113",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r31": {
-   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
+   "Note": "Section 2100 and Paragraph 505",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r32": {
-   "Note": "Section 2200 and Paragraph 137",
+   "Note": "Section 2200 and Paragraph 113",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r33": {
-   "Note": "Section 2200 and Paragraph 140",
+   "Note": "Section 2200 and Paragraph 116",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r34": {
-   "Note": "Section 2200 and Paragraph 142",
+   "Note": "Section 2200 and Paragraph 126-127 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r35": {
-   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
+   "Note": "Section 2200 and Paragraph 137",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r36": {
-   "Note": "Section 2250 and Paragraph 124",
+   "Note": "Section 2200 and Paragraph 140",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r37": {
-   "Note": "Section 2300 and Paragraph fn1",
+   "Note": "Section 2200 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r38": {
-   "Note": "Section 2450 and Paragraph fn2",
+   "Note": "Section 2200 and Paragraph 143 and 144 and 108",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r39": {
-   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
+   "Note": "Section 2250 and Paragraph 124",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r4": {
@@ -7531,42 +7975,42 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r40": {
-   "Note": "Section P50 and Footnote 7 and 13",
+   "Note": "Section 2300 and Paragraph fn1",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r41": {
+   "Note": "Section 2450 and Paragraph fn2",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
+  },
+  "r42": {
+   "Note": "Section 2800 and 1800 and Paragraph 508 and 130",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
+  },
+  "r43": {
+   "Note": "Section P50 and Footnote 7 and 13",
+   "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
+  },
+  "r44": {
    "Note": "Glossary - Unearned revenue",
    "Publisher": "EGAAFR"
   },
-  "r42": {
+  "r45": {
    "Note": "Section - Accounts payable",
    "Publisher": "EGAAFR"
   },
-  "r43": {
+  "r46": {
    "Note": "COG, Glossary",
    "Publisher": "US Census Bureau"
   },
-  "r44": {
+  "r47": {
    "Note": "Section COG, Glossary- Property Taxes and Paragraph",
    "Publisher": "US Census Bureau"
   },
-  "r45": {
-   "Publisher": "US Census Bureau: F28"
-  },
-  "r46": {
-   "Note": "Page 10 and 11 and  Part III, 8.D. and 8.K.",
-   "Publisher": "US Census Bureau: F28"
-  },
-  "r47": {
-   "Note": "Page 10 and Page 14 and Part III, 8.E. and 9.F.",
-   "Publisher": "US Census Bureau: F28"
-  },
   "r48": {
-   "Note": "Page 11 and Part III, 8.L.",
    "Publisher": "US Census Bureau: F28"
   },
   "r49": {
-   "Note": "Page 11 and Part III, 8.P.",
+   "Note": "Page 10 and 11 and  Part III, 8.D. and 8.K.",
    "Publisher": "US Census Bureau: F28"
   },
   "r5": {
@@ -7574,47 +8018,59 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r50": {
-   "Note": "Page 11 and Part III, 8.R.",
+   "Note": "Page 10 and Page 14 and Part III, 8.E. and 9.F.",
    "Publisher": "US Census Bureau: F28"
   },
   "r51": {
-   "Note": "Page 12 and Part III, 8.Z.",
+   "Note": "Page 11 and Part III, 8.L.",
    "Publisher": "US Census Bureau: F28"
   },
   "r52": {
-   "Note": "Page 13 and Part III",
+   "Note": "Page 11 and Part III, 8.P.",
    "Publisher": "US Census Bureau: F28"
   },
   "r53": {
-   "Note": "Page 3 and Part II, B",
+   "Note": "Page 11 and Part III, 8.R.",
    "Publisher": "US Census Bureau: F28"
   },
   "r54": {
-   "Note": "Page 4 and Part II, C",
+   "Note": "Page 12 and Part III, 8.Z.",
    "Publisher": "US Census Bureau: F28"
   },
   "r55": {
-   "Note": "Page 4 and Part II, D",
+   "Note": "Page 13 and Part III",
    "Publisher": "US Census Bureau: F28"
   },
   "r56": {
-   "Note": "Page 4 and Part II, E",
+   "Note": "Page 3 and Part II, B",
    "Publisher": "US Census Bureau: F28"
   },
   "r57": {
-   "Note": "Page 8 and Part II, 5.C",
+   "Note": "Page 4 and Part II, C",
    "Publisher": "US Census Bureau: F28"
   },
   "r58": {
-   "Note": "Page 9 and Part II, 5.F",
+   "Note": "Page 4 and Part II, D",
    "Publisher": "US Census Bureau: F28"
   },
   "r59": {
-   "Publisher": "US-CAFR, Filing information"
+   "Note": "Page 4 and Part II, E",
+   "Publisher": "US Census Bureau: F28"
   },
   "r6": {
    "Note": "Chapter I and Section 1800 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
+  },
+  "r60": {
+   "Note": "Page 8 and Part II, 5.C",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r61": {
+   "Note": "Page 9 and Part II, 5.F",
+   "Publisher": "US Census Bureau: F28"
+  },
+  "r62": {
+   "Publisher": "US-CAFR, Filing information"
   },
   "r7": {
    "Note": "Page 20",
