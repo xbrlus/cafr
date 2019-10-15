@@ -1,9 +1,9 @@
 {
  "instance": {
-  "County-of-Will-Illinois-20181130-Annual-Accounts.htm": {
+  "County-of-Will-Illinois-20171130-Annual-Accounts.htm": {
    "axisCustom": 0,
    "axisStandard": 25,
-   "contextCount": 215,
+   "contextCount": 218,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -16,7 +16,7 @@
     },
     "inline": {
      "local": [
-      "County-of-Will-Illinois-20181130-Annual-Accounts.htm"
+      "County-of-Will-Illinois-20171130-Annual-Accounts.htm"
      ]
     },
     "labelLink": {
@@ -186,8 +186,8 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "D20181130",
+      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
+      "contextRef": "D20171130",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -214,8 +214,8 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "D20181130",
+      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
+      "contextRef": "D20171130",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -242,21 +242,21 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "I20181130_GeneralFundMember",
+      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
+      "contextRef": "I20171130_GeneralFundMember_AssignedMember_NameOfFundBalancesAssignedDomain_Assigned",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "us-cafr:OtherTaxesReceivable",
+      "name": "us-cafr:FundBalances",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.htm",
+     "longName": "Uncategorized Items - County-of-Will-Illinois-20171130-Annual-Accounts.htm",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.htm",
+     "shortName": "Uncategorized Items - County-of-Will-Illinois-20171130-Annual-Accounts.htm",
      "subGroupType": "",
      "uniqueAnchor": null
     }
