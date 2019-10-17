@@ -243,11 +243,11 @@
        "html"
       ],
       "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "I20181130_GeneralFundMember",
+      "contextRef": "D20181130_GeneralFundMember",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "us-cafr:OtherTaxesReceivable",
+      "name": "us-cafr:ExpendituresForCapitalOutlay",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"

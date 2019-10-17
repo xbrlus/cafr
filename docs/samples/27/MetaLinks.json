@@ -1,9 +1,9 @@
 {
  "instance": {
-  "County-of-Will-Illinois-20171130-Annual-Accounts.htm": {
+  "County-of-Will-Illinois-20161130-Annual-Accounts.htm": {
    "axisCustom": 0,
    "axisStandard": 25,
-   "contextCount": 218,
+   "contextCount": 215,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -16,7 +16,7 @@
     },
     "inline": {
      "local": [
-      "County-of-Will-Illinois-20171130-Annual-Accounts.htm"
+      "County-of-Will-Illinois-20161130-Annual-Accounts.htm"
      ]
     },
     "labelLink": {
@@ -166,11 +166,11 @@
    "elementCount": 396,
    "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 197,
-    "total": 197
+    "https://xbrl.us/2019/us-cafr_concept": 195,
+    "total": 195
    },
    "keyCustom": 0,
-   "keyStandard": 109,
+   "keyStandard": 113,
    "memberCustom": 0,
    "memberStandard": 20,
    "report": {
@@ -186,8 +186,8 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
-      "contextRef": "D20171130",
+      "baseRef": "County-of-Will-Illinois-20161130-Annual-Accounts.htm",
+      "contextRef": "D20161130",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -214,8 +214,8 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
-      "contextRef": "D20171130",
+      "baseRef": "County-of-Will-Illinois-20161130-Annual-Accounts.htm",
+      "contextRef": "D20161130",
       "decimals": null,
       "first": true,
       "lang": null,
@@ -242,21 +242,21 @@
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20171130-Annual-Accounts.htm",
-      "contextRef": "D20171130_GovernmentalActivitiesMember_ProgramRevenuesFromCapitalGrantsAndContributionsMember",
+      "baseRef": "County-of-Will-Illinois-20161130-Annual-Accounts.htm",
+      "contextRef": "I20161130_RestrictedMember_ComponentUnitMember_NameOfNetPositionRestrictedDomain_ConstructionAndDevelopment",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "us-cafr:RevenueFromTransportationServices",
+      "name": "us-cafr:NetPosition",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - County-of-Will-Illinois-20171130-Annual-Accounts.htm",
+     "longName": "Uncategorized Items - County-of-Will-Illinois-20161130-Annual-Accounts.htm",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - County-of-Will-Illinois-20171130-Annual-Accounts.htm",
+     "shortName": "Uncategorized Items - County-of-Will-Illinois-20161130-Annual-Accounts.htm",
      "subGroupType": "",
      "uniqueAnchor": null
     }
