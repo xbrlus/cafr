@@ -1,59 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019-->
-<!--Copyrights reserved for XBRL US -->
-<!--Filing information -->
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
-  <link:roleRef roleURI="https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional" xlink:type="simple" xlink:href="filinginfo-role.xsd#FILINGINFO-Table001-NonDimensional"/>
-  <link:presentationLink xlink:type="extended" xlink:role="https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional">
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_FilingInformationAbstract" xlink:label="FilingInformationAbstract" xlink:title="FilingInformationAbstract"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_NameOfGovernment" xlink:label="NameOfGovernment" xlink:title="NameOfGovernment"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="NameOfGovernment" xlink:title="presentation: FilingInformationAbstract to NameOfGovernment" use="optional" order="1.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_UnitIdentificationNumber" xlink:label="UnitIdentificationNumber" xlink:title="UnitIdentificationNumber"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="UnitIdentificationNumber" xlink:title="presentation: FilingInformationAbstract to UnitIdentificationNumber" use="optional" order="2.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_LegalEntityIdentifier" xlink:label="LegalEntityIdentifier" xlink:title="LegalEntityIdentifier"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="LegalEntityIdentifier" xlink:title="presentation: FilingInformationAbstract to LegalEntityIdentifier" use="optional" order="3.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_EmployerIdentificationNumber" xlink:label="EmployerIdentificationNumber" xlink:title="EmployerIdentificationNumber"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="EmployerIdentificationNumber" xlink:title="presentation: FilingInformationAbstract to EmployerIdentificationNumber" use="optional" order="4.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_TypeOfGovernment" xlink:label="TypeOfGovernment" xlink:title="TypeOfGovernment"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="TypeOfGovernment" xlink:title="presentation: FilingInformationAbstract to TypeOfGovernment" use="optional" order="5.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_ReportingCurrency" xlink:label="ReportingCurrency" xlink:title="ReportingCurrency"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="ReportingCurrency" xlink:title="presentation: FilingInformationAbstract to ReportingCurrency" use="optional" order="6.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_OrderOfMagnitude" xlink:label="OrderOfMagnitude" xlink:title="OrderOfMagnitude"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="OrderOfMagnitude" xlink:title="presentation: FilingInformationAbstract to OrderOfMagnitude" use="optional" order="7.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_ReportingFrequency" xlink:label="ReportingFrequency" xlink:title="ReportingFrequency"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="ReportingFrequency" xlink:title="presentation: FilingInformationAbstract to ReportingFrequency" use="optional" order="8.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_FiscalStartDate" xlink:label="FiscalStartDate" xlink:title="FiscalStartDate"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="FiscalStartDate" xlink:title="presentation: FilingInformationAbstract to FiscalStartDate" use="optional" order="9.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_FiscalEndDate" xlink:label="FiscalEndDate" xlink:title="FiscalEndDate"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="FiscalEndDate" xlink:title="presentation: FilingInformationAbstract to FiscalEndDate" use="optional" order="10.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_NameOfAuditFirm" xlink:label="NameOfAuditFirm" xlink:title="NameOfAuditFirm"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="NameOfAuditFirm" xlink:title="presentation: FilingInformationAbstract to NameOfAuditFirm" use="optional" order="11.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_AuditStatus" xlink:label="AuditStatus" xlink:title="AuditStatus"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="AuditStatus" xlink:title="presentation: FilingInformationAbstract to AuditStatus" use="optional" order="12.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_AuditOpinion" xlink:label="AuditOpinion" xlink:title="AuditOpinion"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="AuditOpinion" xlink:title="presentation: FilingInformationAbstract to AuditOpinion" use="optional" order="13.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_DateOfAuditOpinion" xlink:label="DateOfAuditOpinion" xlink:title="DateOfAuditOpinion"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="DateOfAuditOpinion" xlink:title="presentation: FilingInformationAbstract to DateOfAuditOpinion" use="optional" order="14.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_NameOfState" xlink:label="NameOfState" xlink:title="NameOfState"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="NameOfState" xlink:title="presentation: FilingInformationAbstract to NameOfState" use="optional" order="15.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_DateOfTransmittal" xlink:label="DateOfTransmittal" xlink:title="DateOfTransmittal"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="DateOfTransmittal" xlink:title="presentation: FilingInformationAbstract to DateOfTransmittal" use="optional" order="16.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_DocumentTitle" xlink:label="DocumentTitle" xlink:title="DocumentTitle"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="DocumentTitle" xlink:title="presentation: FilingInformationAbstract to DocumentTitle" use="optional" order="17.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_TotalAnnualFinalAppropriationsForAllFunds" xlink:label="TotalAnnualFinalAppropriationsForAllFunds" xlink:title="TotalAnnualFinalAppropriationsForAllFunds"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="TotalAnnualFinalAppropriationsForAllFunds" xlink:title="presentation: FilingInformationAbstract to TotalAnnualFinalAppropriationsForAllFunds" use="optional" order="18.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_AverageNumberOfUtilityCustomers" xlink:label="AverageNumberOfUtilityCustomers" xlink:title="AverageNumberOfUtilityCustomers"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="AverageNumberOfUtilityCustomers" xlink:title="presentation: FilingInformationAbstract to AverageNumberOfUtilityCustomers" use="optional" order="19.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_InsideMillage" xlink:label="InsideMillage" xlink:title="InsideMillage"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="InsideMillage" xlink:title="presentation: FilingInformationAbstract to InsideMillage" use="optional" order="20.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_OutsideMillage" xlink:label="OutsideMillage" xlink:title="OutsideMillage"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="OutsideMillage" xlink:title="presentation: FilingInformationAbstract to OutsideMillage" use="optional" order="21.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_TotalPropertyTaxRate" xlink:label="TotalPropertyTaxRate" xlink:title="TotalPropertyTaxRate"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="TotalPropertyTaxRate" xlink:title="presentation: FilingInformationAbstract to TotalPropertyTaxRate" use="optional" order="22.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_PropertyTaxValuation" xlink:label="PropertyTaxValuation" xlink:title="PropertyTaxValuation"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="PropertyTaxValuation" xlink:title="presentation: FilingInformationAbstract to PropertyTaxValuation" use="optional" order="23.0"/>
-    <link:loc xlink:type="locator" xlink:href="../../../core/us-cafr_concept.xsd#us-cafr_XBRLTaxonomyVersion" xlink:label="XBRLTaxonomyVersion" xlink:title="XBRLTaxonomyVersion"/>
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FilingInformationAbstract" xlink:to="XBRLTaxonomyVersion" xlink:title="presentation: FilingInformationAbstract to XBRLTaxonomyVersion" use="optional" order="24.0"/>
-  </link:presentationLink>
-</link:linkbase>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020 - Generated by IRIS Noah Taxonomy Editor -->
+<!--  US Comprehensive Annual Financial Report (CAFR) XBRL Taxonomy 2019
+Copyrights reserved for XBRL US 
+Filing information -->
+<link:linkbase xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd " xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></link:linkbase>
