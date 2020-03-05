@@ -11,12 +11,11 @@ Copyrights reserved for XBRL US
   <xs:import namespace="http://xbrl.us/2020/Activities-entry" schemaLocation="reports/Activities/1.0.0/Activities-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/GovBalSheet-entry" schemaLocation="reports/GovBalSheet/1.0.0/GovBalSheet-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/GovIncStmt-entry" schemaLocation="reports/GovIncStmt/1.0.0/GovIncStmt-entry.xsd" />
-  <xs:import namespace="http://xbrl.us/2020/cafr_core-entry" schemaLocation="core/cafr_core-entry.xsd" />
-  <xs:import namespace="http://xbrl.us/2020/cafr_concept" schemaLocation="core/cafr_concept.xsd" />
   <xs:import namespace="http://xbrl.us/2020/PropNetPosition-entry" schemaLocation="PropNetPosition-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/PropIncStmt-entry" schemaLocation="PropIncStmt-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/PropCashFlow-entry" schemaLocation="PropCashFlow-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/Pension-entry" schemaLocation="Pension-entry.xsd" />
   <xs:import namespace="http://xbrl.us/2020/OPEB-entry" schemaLocation="OPEB-entry.xsd" />
+  <xs:import namespace="http://xbrl.us/sap/v0.1/2020-01-01/sap-all" schemaLocation="sap_all_2020-01-01_r01.xsd" />
   <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
 </xs:schema>

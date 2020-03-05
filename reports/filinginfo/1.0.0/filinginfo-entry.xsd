@@ -7,8 +7,6 @@ Filing information -->
   <xs:annotation>
     <xs:appinfo>
       <!-- Linkbase References -->
-      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="filinginfo-formula-fiscal-date.xml" xlink:type="simple" />
-      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="filinginfo-formula-mandatory.xml" xlink:type="simple" />
       <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="filinginfo-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
       <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="filinginfo-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
     </xs:appinfo>
