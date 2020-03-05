@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2017 Workiva-->
+<!--r:b0b5dcb5-040e-4d17-815e-74794235d692,g:6b6ac46b-6689-4b5f-a9e1-472ffbf32f95-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ga="http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:link="http://www.xbrl.org/2003/linkbase" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://sao.georgia.gov/comprehensive-annual-financial-reports/20190128">
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <xs:import namespace="http://www.xbrl.us/slg/cafr/2019-01-16" schemaLocation="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"/>
+  <xs:element id="ga_DebtIssuanceRefundingBondsPremiumMember" abstract="false" name="DebtIssuanceRefundingBondsPremiumMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_FundsHeldForOthersMember" abstract="true" name="FundsHeldForOthersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_AccruedInterestMember" abstract="true" name="AccruedInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtServiceOtherMember" abstract="false" name="DebtServiceOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_GuaranteedRevenueDebtCommonReserveFundMember" abstract="true" name="GuaranteedRevenueDebtCommonReserveFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_CapitalOutlayMember" abstract="false" name="CapitalOutlayMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_HigherEducationMember" abstract="true" name="HigherEducationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_ConservationMember" abstract="true" name="ConservationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtIssuanceRefundingBondsMember" abstract="false" name="DebtIssuanceRefundingBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtServiceInterestMember" abstract="false" name="DebtServiceInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_UnclaimedPropertyMember" abstract="false" name="UnclaimedPropertyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_StateHealthBenefitPlanMember" abstract="true" name="StateHealthBenefitPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_NursingHomeMember" abstract="true" name="NursingHomeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_HospitalMember" abstract="false" name="HospitalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_TransportationMember" abstract="true" name="TransportationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_HighwaysAndStreetsMember" abstract="true" name="HighwaysAndStreetsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_GeneralGovernmentMember" abstract="true" name="GeneralGovernmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_PublicSafetyMember" abstract="true" name="PublicSafetyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_BenefitsMember" abstract="true" name="BenefitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_HealthAndWelfareMember" abstract="false" name="HealthAndWelfareMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_LocalEducationAgenciesMember" abstract="true" name="LocalEducationAgenciesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_OtherBusinessTypeActivitiesMember" abstract="true" name="OtherBusinessTypeActivitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_LoanAndGrantProgramsMember" abstract="false" name="LoanAndGrantProgramsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtIssuanceGeneralObligationBondsMember" abstract="false" name="DebtIssuanceGeneralObligationBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_MotorFuelTaxFundsMember" abstract="true" name="MotorFuelTaxFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_OtherBenefitsMember" abstract="true" name="OtherBenefitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_UndistributedLocalGovernmentSalesTaxMember" abstract="false" name="UndistributedLocalGovernmentSalesTaxMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtServicePrincipalMember" abstract="false" name="DebtServicePrincipalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_EducationMember" abstract="true" name="EducationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_IntergovernmentalMember" abstract="false" name="IntergovernmentalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_ClaimsAndJudgmentsMember" abstract="true" name="ClaimsAndJudgmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtIssuanceGeneralObligationBondsPremiumMember" abstract="false" name="DebtIssuanceGeneralObligationBondsPremiumMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_PooledWithStateTreasurerMember" abstract="false" name="PooledWithStateTreasurerMember" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_CapitalLeasesMember" abstract="false" name="CapitalLeasesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_PooledInvestmentsWithStateTreasury" abstract="false" name="PooledInvestmentsWithStateTreasury" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ga_FederalMember" abstract="false" name="FederalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_PaymentToRefundedBondEscrowAgentMember" abstract="false" name="PaymentToRefundedBondEscrowAgentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_ContractsMember" abstract="true" name="ContractsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_DebtIssuanceOtherMember" abstract="false" name="DebtIssuanceOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_EconomicDevelopmentAndAssistanceMember" abstract="true" name="EconomicDevelopmentAndAssistanceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:element id="ga_LotteryMember" abstract="true" name="LotteryMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="nonnum:domainItemType"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ga-20190128_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ga-20190128_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ga-20190128_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ga-20190128_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="Coverdetails" roleURI="http://sao.georgia.gov/role/Coverdetails">
+        <link:definition>400401 - Cover (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Letteroftransmittaldetails" roleURI="http://sao.georgia.gov/role/Letteroftransmittaldetails">
+        <link:definition>400402 - Letter of transmittal (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Auditletterdetails" roleURI="http://sao.georgia.gov/role/Auditletterdetails">
+        <link:definition>400403 - Audit letter (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofnetpositionassetsdetails" roleURI="http://sao.georgia.gov/role/Statementofnetpositionassetsdetails">
+        <link:definition>400404 - Statement of net position, assets (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofnetpositionliabilitiesdetails" roleURI="http://sao.georgia.gov/role/Statementofnetpositionliabilitiesdetails">
+        <link:definition>400405 - Statement of net position, liabilities (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofnetpositionnetpositiondetails" roleURI="http://sao.georgia.gov/role/Statementofnetpositionnetpositiondetails">
+        <link:definition>400406 - Statement of net position, net position (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofactivitiesgeneralrevenuesdetails" roleURI="http://sao.georgia.gov/role/Statementofactivitiesgeneralrevenuesdetails">
+        <link:definition>400407 - Statement of activities, general revenues (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofactivitiesprogramrevenuesdetails" roleURI="http://sao.georgia.gov/role/Statementofactivitiesprogramrevenuesdetails">
+        <link:definition>400408 - Statement of activities, program revenues (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Balancesheetgovernmentalfundsdetails" roleURI="http://sao.georgia.gov/role/Balancesheetgovernmentalfundsdetails">
+        <link:definition>400409 - Balance sheet, governmental funds (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Statementofrevenuegovernmentalfundsdetails" roleURI="http://sao.georgia.gov/role/Statementofrevenuegovernmentalfundsdetails">
+        <link:definition>400410 - Statement of revenue, governmental funds (details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,36 +1,34 @@
 {
  "instance": {
-  "County-of-Will-Illinois-20181130-Annual-Accounts.htm": {
+  "Mchenry-IL-20171130.htm": {
    "axisCustom": 0,
-   "axisStandard": 25,
-   "contextCount": 215,
+   "axisStandard": 11,
+   "contextCount": 213,
    "dts": {
     "definitionLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-definition.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-definition.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-definition.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-definition.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-definition.xml"
      ]
     },
     "inline": {
      "local": [
-      "County-of-Will-Illinois-20181130-Annual-Accounts.htm"
+      "Mchenry-IL-20171130.htm"
      ]
     },
     "labelLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_label.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_doc.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_doc.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_label.xml"
      ]
     },
     "linkbase": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-fiscal-date.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-mandatory.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-asset.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-asset-def-total.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-asset.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-cad-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-cand-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-capital-asset.xml",
@@ -38,17 +36,17 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-cur-liab.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-dior-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-dofr-td.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-liab.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-liab-def-total.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-liab-np-end.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-liab.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-mandatory.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-mnca-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-nca.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-ncl.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-ncl1year-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-ncl2year-td.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-npr-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-np-total.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-npr-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-oca-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-ocl-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-formula-oncl-td.xml",
@@ -70,11 +68,11 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-pr-capital.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-pr-charges.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-pr-operating.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-revenue.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-prim-gov-total.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-formula-revenue.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-asset-eq-liab.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-assets.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-assets-outflow.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-assets.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-def-inflow-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-def-outflow-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-fba-td.xml",
@@ -82,9 +80,9 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-fbns-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-fbr-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-fund-total.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-liab.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-liab-inflow.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-liab-inflow-fund.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-liab-inflow.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-liab.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-mandatory.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-oth-asset-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-formula-oth-liab-td.xml",
@@ -95,21 +93,23 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-expd.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-fb-end.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-fb-start.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-gov-fund-total.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-mandatory.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_expd-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_fin-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-oth_rev-td.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-revenue.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-formula-gov-fund-total.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-fiscal-date.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-formula-mandatory.xml"
      ]
     },
     "presentationLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-presentation.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-presentation.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-presentation.xml",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-presentation.xml",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-presentation.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-presentation.xml",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-presentation.xml"
      ]
     },
     "referenceLink": {
@@ -119,32 +119,37 @@
     },
     "schema": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/us-cafr_full-entry.xsd",
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-entry.xsd",
-      "http://www.xbrl.org/2010/generic-message.xsd",
-      "http://www.xbrl.org/2008/generic-link.xsd",
-      "http://www.xbrl.org/2008/generic-label.xsd",
-      "http://www.xbrl.org/2010/validation-message.xsd",
-      "http://www.xbrl.org/2008/consistency-assertion.xsd",
-      "http://www.xbrl.org/2008/variable.xsd",
-      "http://www.xbrl.org/2008/validation.xsd",
+      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
+      "http://www.xbrl.org/2006/ref-2006-02-27.xsd",
       "http://www.xbrl.org/2008/boolean-filter.xsd",
       "http://www.xbrl.org/2008/concept-filter.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-role.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_concept.xsd",
-      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
-      "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
+      "http://www.xbrl.org/2008/consistency-assertion.xsd",
+      "http://www.xbrl.org/2008/dimension-filter.xsd",
+      "http://www.xbrl.org/2008/existence-assertion.xsd",
+      "http://www.xbrl.org/2008/formula.xsd",
+      "http://www.xbrl.org/2008/general-filter.xsd",
+      "http://www.xbrl.org/2008/generic-label.xsd",
+      "http://www.xbrl.org/2008/generic-link.xsd",
+      "http://www.xbrl.org/2008/match-filter.xsd",
+      "http://www.xbrl.org/2008/period-filter.xsd",
+      "http://www.xbrl.org/2008/tuple-filter.xsd",
+      "http://www.xbrl.org/2008/unit-filter.xsd",
+      "http://www.xbrl.org/2008/validation.xsd",
+      "http://www.xbrl.org/2008/value-assertion.xsd",
+      "http://www.xbrl.org/2008/variable.xsd",
+      "http://www.xbrl.org/2010/generic-message.xsd",
+      "http://www.xbrl.org/2010/validation-message.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
+      "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_concept.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_core-entry.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_part.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_type.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/core/us-cafr_core-entry.xsd",
-      "http://www.xbrl.org/2006/ref-2006-02-27.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-entry.xsd",
-      "http://www.xbrl.org/2008/dimension-filter.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr01/1.0.0/cafr01-role.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-entry.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr02/1.0.0/cafr02-role.xsd",
@@ -152,46 +157,35 @@
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr03/1.0.0/cafr03-role.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-entry.xsd",
       "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/cafr04/1.0.0/cafr04-role.xsd",
-      "http://www.xbrl.org/2008/formula.xsd",
-      "http://www.xbrl.org/2008/existence-assertion.xsd",
-      "http://www.xbrl.org/2008/value-assertion.xsd",
-      "http://www.xbrl.org/2008/period-filter.xsd",
-      "http://www.xbrl.org/2008/tuple-filter.xsd",
-      "http://www.xbrl.org/2008/general-filter.xsd",
-      "http://www.xbrl.org/2008/unit-filter.xsd",
-      "http://www.xbrl.org/2008/match-filter.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-entry.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/reports/filinginfo/1.0.0/filinginfo-role.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC4/us-cafr_full-entry.xsd"
      ]
     }
    },
-   "elementCount": 396,
+   "elementCount": 380,
    "entityCount": 1,
    "hidden": {
-    "https://xbrl.us/2019/us-cafr_concept": 197,
-    "total": 197
+    "https://xbrl.us/2019/us-cafr_concept": 6,
+    "total": 6
    },
    "keyCustom": 0,
-   "keyStandard": 109,
+   "keyStandard": 319,
    "memberCustom": 0,
-   "memberStandard": 20,
+   "memberStandard": 45,
    "report": {
     "R1": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "span",
-       "b",
-       "p",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "D20181130",
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
       "decimals": null,
       "first": true,
       "lang": null,
-      "name": "us-cafr:NameOfGovernment",
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
       "reportCount": 1,
       "unique": true,
       "unitRef": null,
@@ -199,69 +193,193 @@
      },
      "groupType": "",
      "isDefault": "true",
-     "longName": "FILINGINFO-Table001-NonDimensional",
-     "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
+     "longName": "CAFR01-Statement of net position-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr01-role/CAFR01-Table01-NonDimensional",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
-       "span",
-       "span",
-       "b",
-       "p",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "D20181130",
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
       "decimals": null,
       "first": true,
       "lang": null,
-      "name": "us-cafr:NameOfGovernment",
+      "name": "us-cafr:DisclosureOfStatementOfNetPositionTextBlock",
       "reportCount": 1,
       "unique": true,
       "unitRef": null,
       "xsiNil": "false"
      }
     },
-    "R9999": {
+    "R2": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
        "body",
        "html"
       ],
-      "baseRef": "County-of-Will-Illinois-20181130-Annual-Accounts.htm",
-      "contextRef": "D20181130_GeneralFundMember",
-      "decimals": "0",
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
       "first": true,
       "lang": null,
-      "name": "us-cafr:ExpendituresForCapitalOutlay",
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
       "reportCount": 1,
-      "unitRef": "USD",
+      "unique": true,
+      "unitRef": null,
       "xsiNil": "false"
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.htm",
+     "longName": "CAFR02-Statement of activities-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr02-role/CAFR02-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R3": {
+     "firstAnchor": {
+      "ancestors": [
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR03-Governmental funds-Balance sheet-Table01-NonDimensional",
+     "role": "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfBalanceSheetForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R4": {
+     "firstAnchor": {
+      "ancestors": [
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "CAFR04-Table01-NonDimensional-Governmental funds-Statement of revenues, expenditures and changes in fund balance",
+     "role": "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:DisclosureOfStatementOfRevenuesExpendituresAndChangesInFundBalanceForGovernmentalFundsTextBlock",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
+    },
+    "R5": {
+     "firstAnchor": null,
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "FILINGINFO-Table001-NonDimensional",
+     "role": "https://xbrl.us/2019/filinginfo-role/FILINGINFO-Table001-NonDimensional",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R9999": {
+     "firstAnchor": {
+      "ancestors": [
+       "div",
+       "div",
+       "div",
+       "td",
+       "tr",
+       "table",
+       "div",
+       "us-cafr:DisclosureOfStatementOfActivitiesTextBlock",
+       "body",
+       "html"
+      ],
+      "baseRef": "Mchenry-IL-20171130.htm",
+      "contextRef": "P12_01_2016To11_30_2017_BusinessTypeActivitiesMemberuscafrTypeOfActivitiesAxis_ProgramRevenuesFromOperatingGrantsAndContributionsMemberuscafrTypeOfProgramRevenuesAxis",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "us-cafr:RevenueFromPublicSafetyServices",
+      "reportCount": 1,
+      "unitRef": "Unit_USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "Uncategorized Items - Mchenry-IL-20171130.htm",
      "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
-     "shortName": "Uncategorized Items - County-of-Will-Illinois-20181130-Annual-Accounts.htm",
+     "shortName": "Uncategorized Items - Mchenry-IL-20171130.htm",
      "subGroupType": "",
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 38,
+   "segmentCount": 23,
    "tag": {
     "us-cafr_AccountsPayable": {
      "auth_ref": [
@@ -534,6 +652,23 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_AggregateNonMajorFundsMember": {
+     "auth_ref": [
+      "r0"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the aggregate of non-major funds",
+        "label": "Aggregate non-major funds [member]",
+        "terseLabel": "Aggregate non-major funds"
+       }
+      }
+     },
+     "localname": "AggregateNonMajorFundsMember",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_AmountHeldForOthers": {
      "auth_ref": [
       "r0"
@@ -801,7 +936,7 @@
     },
     "us-cafr_CapitalAssets": {
      "auth_ref": [
-      "r15"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -821,7 +956,7 @@
     },
     "us-cafr_CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization": {
      "auth_ref": [
-      "r15"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -840,7 +975,7 @@
     },
     "us-cafr_CapitalAssetsNonDepreciable": {
      "auth_ref": [
-      "r15"
+      "r16"
      ],
      "lang": {
       "en": {
@@ -1264,7 +1399,7 @@
     },
     "us-cafr_CurrentLiabilities": {
      "auth_ref": [
-      "r17"
+      "r18"
      ],
      "lang": {
       "en": {
@@ -3728,7 +3863,7 @@
     },
     "us-cafr_Inventories": {
      "auth_ref": [
-      "r14"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -3747,7 +3882,7 @@
     },
     "us-cafr_InventoriesCurrent": {
      "auth_ref": [
-      "r14"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -3766,7 +3901,7 @@
     },
     "us-cafr_InventoriesNonCurrent": {
      "auth_ref": [
-      "r14"
+      "r15"
      ],
      "lang": {
       "en": {
@@ -3785,7 +3920,7 @@
     },
     "us-cafr_InvestmentInCapitalAssets": {
      "auth_ref": [
-      "r21"
+      "r22"
      ],
      "lang": {
       "en": {
@@ -3824,7 +3959,7 @@
     },
     "us-cafr_InvestmentsInAssociates": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -3843,7 +3978,7 @@
     },
     "us-cafr_InvestmentsInJointVentures": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -3862,7 +3997,7 @@
     },
     "us-cafr_InvestmentsInSubsidiaries": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -3881,7 +4016,7 @@
     },
     "us-cafr_InvestmentsWithFiscalAgents": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -3901,7 +4036,7 @@
     },
     "us-cafr_InvestmentsWithStateTreasury": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -4249,23 +4384,6 @@
      ],
      "xbrltype": "stringItemType"
     },
-    "us-cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of capital assets, depreciable (net of accumulated depreciation and amortization)",
-        "label": "Name of capital assets, depreciable (net of accumulated depreciation and amortization) [axis]",
-        "terseLabel": "Name of capital assets, depreciable (net of accumulated depreciation and amortization)"
-       }
-      }
-     },
-     "localname": "NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
     "us-cafr_NameOfCapitalAssetsNonDepreciableAxis": {
      "auth_ref": [
       "r0"
@@ -4300,23 +4418,6 @@
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
-    "us-cafr_NameOfDeferredOutflowsOfResourcesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of deferred outflows of resources",
-        "label": "Name of deferred outflows of resources [axis]",
-        "terseLabel": "Name of deferred outflows of resources"
-       }
-      }
-     },
-     "localname": "NameOfDeferredOutflowsOfResourcesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
     "us-cafr_NameOfFund": {
      "auth_ref": [
       "r0"
@@ -4335,74 +4436,6 @@
       "https://xbrl.us/2019/cafr03-role/CAFR03-Table01-NonDimensional",
       "https://xbrl.us/2019/cafr04-role/CAFR04-Table01-NonDimensional"
      ],
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfFundBalancesAssignedAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of fund balances assigned",
-        "label": "Name of fund balances assigned [axis]",
-        "terseLabel": "Name of fund balances assigned"
-       }
-      }
-     },
-     "localname": "NameOfFundBalancesAssignedAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfFundBalancesCommittedAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of fund balances committed",
-        "label": "Name of fund balances committed [axis]",
-        "terseLabel": "Name of fund balances committed"
-       }
-      }
-     },
-     "localname": "NameOfFundBalancesCommittedAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfFundBalancesNonSpendableAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of fund balances non-spendable",
-        "label": "Name of fund balances non-spendable [axis]",
-        "terseLabel": "Name of fund balances non-spendable"
-       }
-      }
-     },
-     "localname": "NameOfFundBalancesNonSpendableAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfFundBalancesRestrictedAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of fund balances restricted",
-        "label": "Name of fund balances restricted [axis]",
-        "terseLabel": "Name of fund balances restricted"
-       }
-      }
-     },
-     "localname": "NameOfFundBalancesRestrictedAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
     "us-cafr_NameOfGovernment": {
@@ -4441,74 +4474,6 @@
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
-    "us-cafr_NameOfOtherAssetsAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other assets",
-        "label": "Name of other assets [axis]",
-        "terseLabel": "Name of other assets"
-       }
-      }
-     },
-     "localname": "NameOfOtherAssetsAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherCurrentAssetsAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other current assets",
-        "label": "Name of other current assets [axis]",
-        "terseLabel": "Name of other current assets"
-       }
-      }
-     },
-     "localname": "NameOfOtherCurrentAssetsAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherCurrentLiabilitiesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other current liabilities",
-        "label": "Name of other current liabilities [axis]",
-        "terseLabel": "Name of other current liabilities"
-       }
-      }
-     },
-     "localname": "NameOfOtherCurrentLiabilitiesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherExpensesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other expenses",
-        "label": "Name of other expenses [axis]",
-        "terseLabel": "Name of other expenses"
-       }
-      }
-     },
-     "localname": "NameOfOtherExpensesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
     "us-cafr_NameOfOtherFinancingSourcesUsesAxis": {
      "auth_ref": [
       "r0"
@@ -4523,91 +4488,6 @@
       }
      },
      "localname": "NameOfOtherFinancingSourcesUsesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherGeneralRevenuesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other general revenues",
-        "label": "Name of other general revenues [axis]",
-        "terseLabel": "Name of other general revenues"
-       }
-      }
-     },
-     "localname": "NameOfOtherGeneralRevenuesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherLiabilitiesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other liabilities",
-        "label": "Name of other liabilities [axis]",
-        "terseLabel": "Name of other liabilities"
-       }
-      }
-     },
-     "localname": "NameOfOtherLiabilitiesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherProgramRevenuesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other program revenues",
-        "label": "Name of other program revenues [axis]",
-        "terseLabel": "Name of other program revenues"
-       }
-      }
-     },
-     "localname": "NameOfOtherProgramRevenuesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfOtherRevenuesAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of other revenues",
-        "label": "Name of other revenues [axis]",
-        "terseLabel": "Name of other revenues"
-       }
-      }
-     },
-     "localname": "NameOfOtherRevenuesAxis",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "stringItemType"
-    },
-    "us-cafr_NameOfRestrictedAssetsAxis": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The concept is of typed dimension nature and reflects name of restricted assets",
-        "label": "Name of restricted assets [axis]",
-        "terseLabel": "Name of restricted assets"
-       }
-      }
-     },
-     "localname": "NameOfRestrictedAssetsAxis",
      "nsuri": "https://xbrl.us/2019/us-cafr_concept",
      "xbrltype": "stringItemType"
     },
@@ -4667,7 +4547,7 @@
     },
     "us-cafr_NetPosition": {
      "auth_ref": [
-      "r23"
+      "r24"
      ],
      "lang": {
       "en": {
@@ -4822,23 +4702,6 @@
      ],
      "xbrltype": "stringItemType"
     },
-    "us-cafr_NonSpendableMember": {
-     "auth_ref": [
-      "r25"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The reported information reflects the type of restriction namely non-spendable. \tNon-spendable are amounts that cannot be spent because they are either (a) not in spendable form or (b) legally or contractually required to be maintained intact.",
-        "label": "Non-spendable [member]",
-        "terseLabel": "Non-spendable"
-       }
-      }
-     },
-     "localname": "NonSpendableMember",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "domainItemType"
-    },
     "us-cafr_NotesPayable": {
      "auth_ref": [
       "r0"
@@ -4938,7 +4801,7 @@
     },
     "us-cafr_OtherCurrentInvestments": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -5049,57 +4912,6 @@
      ],
      "xbrltype": "stringItemType"
     },
-    "us-cafr_OtherFund01Member": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The reported information reflects the other fund 01",
-        "label": "Other fund 01 [member]",
-        "terseLabel": "Other fund 01"
-       }
-      }
-     },
-     "localname": "OtherFund01Member",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "domainItemType"
-    },
-    "us-cafr_OtherFund02Member": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The reported information reflects the other fund 02",
-        "label": "Other fund 02 [member]",
-        "terseLabel": "Other fund 02"
-       }
-      }
-     },
-     "localname": "OtherFund02Member",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "domainItemType"
-    },
-    "us-cafr_OtherFund03Member": {
-     "auth_ref": [
-      "r0"
-     ],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "The reported information reflects the other fund 03",
-        "label": "Other fund 03 [member]",
-        "terseLabel": "Other fund 03"
-       }
-      }
-     },
-     "localname": "OtherFund03Member",
-     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
-     "xbrltype": "domainItemType"
-    },
     "us-cafr_OtherGeneralRevenues": {
      "auth_ref": [
       "r0"
@@ -5121,7 +4933,7 @@
     },
     "us-cafr_OtherInvestments": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -5140,7 +4952,7 @@
     },
     "us-cafr_OtherLiabilities": {
      "auth_ref": [
-      "r17"
+      "r18"
      ],
      "lang": {
       "en": {
@@ -5197,7 +5009,7 @@
     },
     "us-cafr_OtherNonCurrentInvestments": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -5216,7 +5028,7 @@
     },
     "us-cafr_OtherNonCurrentLiabilities": {
      "auth_ref": [
-      "r17"
+      "r18"
      ],
      "lang": {
       "en": {
@@ -5408,7 +5220,7 @@
     },
     "us-cafr_OtherRevenues": {
      "auth_ref": [
-      "r18"
+      "r19"
      ],
      "lang": {
       "en": {
@@ -5701,7 +5513,7 @@
     },
     "us-cafr_PooledInvestments": {
      "auth_ref": [
-      "r16"
+      "r17"
      ],
      "lang": {
       "en": {
@@ -5798,7 +5610,7 @@
     },
     "us-cafr_ProgramRevenues": {
      "auth_ref": [
-      "r20"
+      "r21"
      ],
      "lang": {
       "en": {
@@ -6248,7 +6060,7 @@
     },
     "us-cafr_RestrictedMember": {
      "auth_ref": [
-      "r22"
+      "r23"
      ],
      "lang": {
       "en": {
@@ -6729,7 +6541,7 @@
     },
     "us-cafr_RevenueFromInterGovernmentalActivities": {
      "auth_ref": [
-      "r19"
+      "r20"
      ],
      "lang": {
       "en": {
@@ -7512,6 +7324,40 @@
      ],
      "xbrltype": "monetaryItemType"
     },
+    "us-cafr_SpecialRevenueFund01Member": {
+     "auth_ref": [
+      "r14"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the special revenue fund 01.\nSpecial revenue fund are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects.",
+        "label": "Special revenue fund 01 [member]",
+        "terseLabel": "Special revenue fund 01"
+       }
+      }
+     },
+     "localname": "SpecialRevenueFund01Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
+    "us-cafr_SpecialRevenueFund02Member": {
+     "auth_ref": [
+      "r14"
+     ],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "The reported information reflects the special revenue fund 02.\nSpecial revenue fund are used to account for and report the proceeds of specific revenue sources that are restricted or committed to expenditure for specified purposes other than debt service or capital projects.",
+        "label": "Special revenue fund 02 [member]",
+        "terseLabel": "Special revenue fund 02"
+       }
+      }
+     },
+     "localname": "SpecialRevenueFund02Member",
+     "nsuri": "https://xbrl.us/2019/us-cafr_concept",
+     "xbrltype": "domainItemType"
+    },
     "us-cafr_StatementOfActivitiesAbstract": {
      "auth_ref": [],
      "lang": {
@@ -7762,7 +7608,7 @@
     },
     "us-cafr_UnrestrictedMember": {
      "auth_ref": [
-      "r24"
+      "r25"
      ],
      "lang": {
       "en": {
@@ -7797,7 +7643,7 @@
      "xbrltype": "TaxonomyVersion"
     }
    },
-   "unitCount": 2
+   "unitCount": 1
   }
  },
  "std_ref": {
@@ -7825,27 +7671,27 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r14": {
-   "Note": "Section 140 and Paragraph 102",
+   "Note": "Section 1300 and Paragraph 105",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r15": {
-   "Note": "Section 1400 and Paragraph 103",
+   "Note": "Section 140 and Paragraph 102",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r16": {
-   "Note": "Section 150 and Paragraph 103",
+   "Note": "Section 1400 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r17": {
-   "Note": "Section 1500 and Paragraph 106",
+   "Note": "Section 150 and Paragraph 103",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r18": {
-   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
+   "Note": "Section 1500 and Paragraph 106",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r19": {
-   "Note": "Section 1800 and Paragraph 136",
+   "Note": "Section 1600, Page 9, F28 and Paragraph 110, 5.J",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r2": {
@@ -7853,27 +7699,27 @@
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r20": {
-   "Note": "Section 1800 and Paragraph 142",
+   "Note": "Section 1800 and Paragraph 136",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r21": {
-   "Note": "Section 1800 and Paragraph 156 and Chapter I",
+   "Note": "Section 1800 and Paragraph 142",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r22": {
-   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
+   "Note": "Section 1800 and Paragraph 156 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r23": {
-   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
+   "Note": "Section 1800 and Paragraph 157-161 and 168 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r24": {
-   "Note": "Section 1800 and Paragraph 162 and Chapter I",
+   "Note": "Section 1800 and Paragraph 157-161 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r25": {
-   "Note": "Section 1800 and Paragraph 166 and Chapter I",
+   "Note": "Section 1800 and Paragraph 162 and Chapter I",
    "Publisher": "Codification of Governmental Accounting and Financial Reporting Standards, GASB, 2017-2018"
   },
   "r26": {
