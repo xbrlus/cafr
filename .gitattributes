@@ -1,0 +1,4 @@
+# excluded from release
+
+.gitignore export-ignore
+.gitattributes export-ignore
