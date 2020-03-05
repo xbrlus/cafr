@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2017 Workiva-->
+<!--r:52d95921-2637-4173-8509-4f54fc385343,g:544998d0-b34a-4dda-a0b3-2b1812a15621-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Coverdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Coverdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Coverdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Letteroftransmittaldetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Letteroftransmittaldetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Letteroftransmittaldetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Auditletterdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Auditletterdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Auditletterdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Statementofnetpositionassetsdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Statementofnetpositionassetsdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Statementofnetpositionliabilitiesdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Statementofnetpositionliabilitiesdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Statementofnetpositionliabilitiesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/Statementofnetpositionnetpositiondetails" xlink:type="simple" xlink:href="oak-20190326.xsd#Statementofnetpositionnetpositiondetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/Statementofnetpositionnetpositiondetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#SofAgeneralrevenuesdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/SofAgeneralrevenuesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#SofAgovernmentwideprogramrevenuesandexpensesdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/SofAgovernmentwideprogramrevenuesandexpensesdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/BSdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#BSdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/BSdetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails" xlink:type="simple" xlink:href="oak-20190326.xsd#StmtofRevExpandChangesdetails"/>
+  <link:calculationLink xlink:role="http://www.oaklandca.gov/role/StmtofRevExpandChangesdetails" xlink:type="extended"/>
+</link:linkbase>

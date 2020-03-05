@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xml:lang="en"
+   xmlns:cafr="http://www.xbrl.us/slg/cafr/2019-01-16"
+   xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+   xmlns:ix="http://www.xbrl.org/2013/inlineXBRL"
+   xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+   xmlns:link="http://www.xbrl.org/2003/linkbase"
+   xmlns:negated="http://www.xbrl.org/2009/role/negated"
+   xmlns:net="http://www.xbrl.org/2009/role/net"
+   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+   xmlns:num="http://www.xbrl.org/dtr/type/numeric"
+   xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+   xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+   xmlns:xbrli="http://www.xbrl.org/2003/instance"
+   xmlns:xl="http://www.xbrl.org/2003/XLink"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   >
+   <!--xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Orinda 2018</title>
+<!--<script type='text/javascript' src='http://govwiki.info/xbrl/Images/joffe.js'> </script>
+<script type='text/javascript' src='https://www.blinkace.com/ixbrl-inspector/v2/es6-shim.js'> </script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.12.0.min.js'> </script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js'> </script>
+<script type='text/javascript' src='https://www.blinkace.com/ixbrl-inspector/v2/ixbrl-inspector.min.js'> </script>-->
+
+<style type="text/css">
+span.cls_006{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Times,serif;font-size:13.2px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_008{font-family:Times,serif;font-size:13.2px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:19.9px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:19.9px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_010{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:9.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:9.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_011{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Times,serif;font-size:8.6px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_004{font-family:Times,serif;font-size:8.6px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_005{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_012{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_013{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_014{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Times,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Times,serif;font-size:9.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Times,serif;font-size:9.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Times,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Times,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Times,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_018{font-family:Times,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+
+</style>
+<!--<script type="text/javascript" src="Extract_Orinda_2018_files/wz_jsgraphics.js"></script>-->
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:179.50px;top:89.52px" class="cls_006"><span class="cls_006"><ix:nonNumeric name="cafr:NameOfGovernment" contextRef="_ctx6p" id="HEADER_01">City  of  Orinda,  California</ix:nonNumeric></span></div>
+<div style="position:absolute;left:94.32px;top:118.32px" class="cls_006"><span class="cls_006">Comprehensive  Annual  Financial  Report</span></div>
+<div style="position:absolute;left:95.76px;top:147.12px" class="cls_006"><span class="cls_006">For  the  Fiscal  Year  Ended  <ix:nonNumeric name="cafr:FiscalEndDate" contextRef="_ctx6p" id="HEADER_02">June  30,  2018</ix:nonNumeric></span></div>
+<img style="position:absolute;left:27.76px;top:185.12px" src="Orinda_CAFR_2018_Cover_Photo.JPG" alt="" />
+<div style="position:absolute;left:136.56px;top:580.04px" class="cls_010"><span class="cls_010">Photo  Credit:  Jane  Bordalo  —  Adore  Orinda  Photo  Contest  2017,  "Orinda  Downtown  at  Dawn"</span></div>
+<div style="position:absolute;left:90.24px;top:691.52px" class="cls_008"><span class="cls_008">City  of  Orinda  —22  Orinda  Way,  Orinda  CA  94563  —  </span><A HREF="http://www.cityoforinda.org/">www.cityoforinda.org</A> </div>
+<div style="position:absolute;left:165.24px;top:750.52px" class="cls_008"><span class="cls_008"><b>Inline XBRL Sample - Not An Official Disclosure</b></span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:178.05px;top:388.88px" class="cls_009"><span class="cls_009">Basic  Financial  Statements</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:1604px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:256.65px;top:38.72px" class="cls_010"><span class="cls_010">CITY  OF  ORINDA</span></div>
+<div style="position:absolute;left:221.28px;top:71.12px" class="cls_010"><span class="cls_010">STATEMENT  OF  NET  POSITION</span></div>
+<div style="position:absolute;left:214.80px;top:89.84px" class="cls_010"><span class="cls_010">AND  STATEMENT  OF  ACTIVITIES</span></div>
+<div style="position:absolute;left:72.00px;top:122.96px" class="cls_010"><span class="cls_010">The  Statement  of  Net  Position  and  the  Statement  of  Activities  summarize  the  entire  City's  financial</span></div>
+<div style="position:absolute;left:72.00px;top:135.44px" class="cls_010"><span class="cls_010">activities  and  financial  position.   They  are  prepared  on  the  same  basis  as  is  used  by  most  businesses,</span></div>
+<div style="position:absolute;left:71.52px;top:148.16px" class="cls_010"><span class="cls_010">which  means  they  include  all  the  City's  assets  and  all  its  liabilities,  as  well  as  all  its  revenues  and</span></div>
+<div style="position:absolute;left:72.00px;top:160.88px" class="cls_010"><span class="cls_010">expenses.  This  is  known  as  the  full  accrual  basis—the  effect  of  all  the  City's  transactions  is  taken  into</span></div>
+<div style="position:absolute;left:71.76px;top:173.36px" class="cls_010"><span class="cls_010">account,  regardless  of  whether  or  when  cash  changes  hands,  but  all  material  internal  transactions  between</span></div>
+<div style="position:absolute;left:72.00px;top:186.08px" class="cls_010"><span class="cls_010">City  funds  have  been  eliminated.</span></div>
+<div style="position:absolute;left:71.76px;top:211.52px" class="cls_010"><span class="cls_010">The  Statement  of  Net  Position  reports  the  difference  between  the  City's  total  assets  and  the  City's  total</span></div>
+<div style="position:absolute;left:72.00px;top:224.24px" class="cls_010"><span class="cls_010">liabilities  and  deferred  inflows  of  resources,  including  all  the  City's  capital  assets  and  all  its  long-term</span></div>
+<div style="position:absolute;left:71.76px;top:236.72px" class="cls_010"><span class="cls_010">debt.   The  Statement  of  Net  Position  focuses  the  reader  on  the  composition  of  the  City's  net  assets,  by</span></div>
+<div style="position:absolute;left:71.76px;top:249.68px" class="cls_010"><span class="cls_010">subtracting  total  liabilities  from  total  assets.</span></div>
+<div style="position:absolute;left:71.76px;top:274.88px" class="cls_010"><span class="cls_010">The  Statement  of  Net  Position  summarizes  the  financial  position  of  all  the  City's  Governmental</span></div>
+<div style="position:absolute;left:71.52px;top:287.36px" class="cls_010"><span class="cls_010">Activities.</span></div>
+<div style="position:absolute;left:71.52px;top:313.04px" class="cls_010"><span class="cls_010">The  City's  Governmental  Activities  include  the  activities  of  its  General  Fund,  along  with  all  its  Special</span></div>
+<div style="position:absolute;left:71.28px;top:325.52px" class="cls_010"><span class="cls_010">Revenue,  Capital  Projects  and  Debt  Service  Funds.  Since  the  City's  Internal  Service  Funds  service  these</span></div>
+<div style="position:absolute;left:71.52px;top:338.24px" class="cls_010"><span class="cls_010">Funds  primarily,  their  activities  are  consolidated  with  Governmental  Activities,  after  eliminating  inter-</span></div>
+<div style="position:absolute;left:71.52px;top:350.96px" class="cls_010"><span class="cls_010">fund  transactions  and  balances.</span></div>
+<div style="position:absolute;left:71.52px;top:376.16px" class="cls_010"><span class="cls_010">The  Statement  of  Activities  reports  increases  and  decreases  in  the  City's  net  position.  It  is  also  prepared</span></div>
+<div style="position:absolute;left:71.52px;top:388.64px" class="cls_010"><span class="cls_010">on  the  full  accrual  basis,  which  means  it  includes  all  the  City's   revenues  and  all  its  expenses,  regardless  of</span></div>
+<div style="position:absolute;left:71.28px;top:401.36px" class="cls_010"><span class="cls_010">when  cash  changes  hands.   This  differs  from  the  "modified  accrual"  basis  used  in  the  Fund  financial</span></div>
+<div style="position:absolute;left:71.52px;top:414.08px" class="cls_010"><span class="cls_010">statements,  which  reflect  only  current  assets,  current  liabilities,  deferred  outflows/inflows  of  resources,</span></div>
+<div style="position:absolute;left:71.52px;top:426.80px" class="cls_010"><span class="cls_010">available  revenues  and  measurable  expenditures.</span></div>
+<div style="position:absolute;left:71.28px;top:452.00px" class="cls_010"><span class="cls_010">The  format  of  the  Statement  of  Activities  presents  the  City's  expenses  first,  listed  by  program.  Program</span></div>
+<div style="position:absolute;left:71.28px;top:464.72px" class="cls_010"><span class="cls_010">revenues—that  is,  revenues  which  are  generated  directly  by  these  programs—are  then  deducted  from</span></div>
+<div style="position:absolute;left:71.28px;top:477.44px" class="cls_010"><span class="cls_010">program  expenses  to  arrive  at  the  net  expense  of  each  governmental.   The  City's  general  revenues  are</span></div>
+<div style="position:absolute;left:71.04px;top:490.16px" class="cls_010"><span class="cls_010">then  listed  in  the  Governmental  Activities  as  appropriate,  and  the  Change  in  Net  Position  is  computed  and</span></div>
+<div style="position:absolute;left:71.28px;top:502.88px" class="cls_010"><span class="cls_010">reconciled  with  the  Statement  of  Net  Position.</span></div>
+<div style="position:absolute;left:302.51px;top:735.68px" class="cls_010"><span class="cls_010">17</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="Extract_Orinda_2018_files/background-04.jpg" width="612" height="792" alt="" /></div>
+<div style="position:absolute;left:263.17px;top:38.65px" class="cls_002"><span class="cls_002">CITY OF ORINDA</span></div>
+<div style="position:absolute;left:234.10px;top:49.78px" class="cls_002"><span class="cls_002">STATEMENT OF NET POSITION</span></div>
+<div style="position:absolute;left:270.73px;top:60.93px" class="cls_002"><span class="cls_002">JUNE 30, 2018</span></div>
+<div style="position:absolute;left:407.17px;top:78.80px" class="cls_003"><span class="cls_003">Governmental</span></div>
+<div style="position:absolute;left:414.00px;top:88.20px" class="cls_003"><span class="cls_003">Activities</span></div>
+<div style="position:absolute;left:134.08px;top:104.94px" class="cls_003"><span class="cls_003">ASSETS</span></div>
+<div style="position:absolute;left:134.53px;top:120.23px" class="cls_003"><span class="cls_003">Current Assets:</span></div>
+<div style="position:absolute;left:141.00px;top:129.63px" class="cls_003"><span class="cls_003">Cash, cash equivalents and investments (Note 3)</span></div>
+<div style="position:absolute;left:418.20px;top:129.81px" class="cls_003"><span class="cls_003">$18,364,632</span></div>
+<div style="position:absolute;left:140.78px;top:139.09px" class="cls_003"><span class="cls_003">Restricted cash (Note 3)</span></div>
+<div style="position:absolute;left:421.92px;top:139.17px" class="cls_003"><span class="cls_003">29,573,563</span></div>
+<div style="position:absolute;left:140.32px;top:148.31px" class="cls_003"><span class="cls_003">Accounts receivable (Note 4)</span></div>
+<div style="position:absolute;left:426.12px;top:148.56px" class="cls_003"><span class="cls_003">2,282,492</span></div>
+<div style="position:absolute;left:140.76px;top:157.68px" class="cls_003"><span class="cls_003">Interest receivable</span></div>
+<div style="position:absolute;left:436.20px;top:157.90px" class="cls_003"><span class="cls_003">91,905</span></div>
+<div style="position:absolute;left:141.04px;top:167.19px" class="cls_003"><span class="cls_003">Prepaid items and deposits</span></div>
+<div style="position:absolute;left:432.28px;top:167.26px" class="cls_003"><span class="cls_003">167,038</span></div>
+<div style="position:absolute;left:153.64px;top:183.16px" class="cls_003"><span class="cls_003">Total current assets</span></div>
+<div style="position:absolute;left:422.16px;top:183.26px" class="cls_011"><span class="cls_011">50,479,630</span></div>
+<div style="position:absolute;left:134.37px;top:200.07px" class="cls_003"><span class="cls_003">Noncurrent Assets:</span></div>
+<div style="position:absolute;left:141.13px;top:209.44px" class="cls_003"><span class="cls_003">Capital assets not being depreciated (Note 5):</span></div>
+<div style="position:absolute;left:147.58px;top:218.75px" class="cls_003"><span class="cls_003">Land</span></div>
+<div style="position:absolute;left:426.40px;top:218.85px" class="cls_003"><span class="cls_003">1,453,434</span></div>
+<div style="position:absolute;left:147.28px;top:228.15px" class="cls_003"><span class="cls_003">Parkland and improvements</span></div>
+<div style="position:absolute;left:426.40px;top:228.22px" class="cls_003"><span class="cls_003">1,295,205</span></div>
+<div style="position:absolute;left:147.35px;top:237.54px" class="cls_003"><span class="cls_003">Work in progress</span></div>
+<div style="position:absolute;left:422.44px;top:237.59px" class="cls_003"><span class="cls_003">14,224,101</span></div>
+<div style="position:absolute;left:141.37px;top:252.96px" class="cls_003"><span class="cls_003">Capital assets, net of accumulated depreciation (Note 5):</span></div>
+<div style="position:absolute;left:147.61px;top:262.29px" class="cls_003"><span class="cls_003">Buildings, grounds and improvements</span></div>
+<div style="position:absolute;left:422.56px;top:262.35px" class="cls_003"><span class="cls_003">16,896,230</span></div>
+<div style="position:absolute;left:147.66px;top:271.72px" class="cls_003"><span class="cls_003">Furniture and equipment</span></div>
+<div style="position:absolute;left:432.50px;top:271.76px" class="cls_003"><span class="cls_003">655,966</span></div>
+<div style="position:absolute;left:147.49px;top:281.04px" class="cls_003"><span class="cls_003">Infrastructure</span></div>
+<div style="position:absolute;left:422.52px;top:281.09px" class="cls_011"><span class="cls_011">45,101,347</span></div>
+<div style="position:absolute;left:154.12px;top:296.96px" class="cls_003"><span class="cls_003">Total noncurrent assets</span></div>
+<div style="position:absolute;left:422.71px;top:297.05px" class="cls_011"><span class="cls_011">79,626,283</span></div>
+<div style="position:absolute;left:160.48px;top:312.92px" class="cls_003"><span class="cls_003">Total assets</span></div>
+<div style="position:absolute;left:418.60px;top:313.08px" class="cls_011"><span class="cls_011">
+<ix:nonFraction name="cafr:Assets" contextRef="_ctx6g" id="NETPOSITION_C20" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">130,105,913</ix:nonFraction></span></div>
+<div style="position:absolute;left:134.98px;top:329.89px" class="cls_003"><span class="cls_003">LIABILlTIES</span></div>
+<div style="position:absolute;left:135.03px;top:345.19px" class="cls_003"><span class="cls_003">Current Liabilities:</span></div>
+<div style="position:absolute;left:141.37px;top:354.57px" class="cls_003"><span class="cls_003">Accounts payable and accrued liabilities (Note 6)</span></div>
+<div style="position:absolute;left:426.84px;top:354.59px" class="cls_003"><span class="cls_003">3,566,366</span></div>
+<div style="position:absolute;left:141.37px;top:363.96px" class="cls_003"><span class="cls_003">Interest payable</span></div>
+<div style="position:absolute;left:432.84px;top:363.99px" class="cls_003"><span class="cls_003">344,228</span></div>
+<div style="position:absolute;left:141.49px;top:373.32px" class="cls_003"><span class="cls_003">Unearned revenue</span></div>
+<div style="position:absolute;left:436.92px;top:373.36px" class="cls_003"><span class="cls_003">30,000</span></div>
+<div style="position:absolute;left:141.51px;top:382.64px" class="cls_003"><span class="cls_003">Current portion of long-term debt (Note 8)</span></div>
+<div style="position:absolute;left:426.88px;top:382.77px" class="cls_003"><span class="cls_003">1,812,421</span></div>
+<div style="position:absolute;left:141.51px;top:392.10px" class="cls_003"><span class="cls_003">Current portion of accrued compensated absences (Note 1)</span></div>
+<div style="position:absolute;left:436.92px;top:392.11px" class="cls_003"><span class="cls_003">50,316</span></div>
+<div style="position:absolute;left:141.76px;top:401.57px" class="cls_003"><span class="cls_003">Planning and engineering deposits</span></div>
+<div style="position:absolute;left:441.02px;top:401.61px" class="cls_003"><span class="cls_003">6,766</span></div>
+<div style="position:absolute;left:154.36px;top:417.47px" class="cls_003"><span class="cls_003">Total current liabilities</span></div>
+<div style="position:absolute;left:427.20px;top:417.49px" class="cls_004"><span class="cls_004">5 </span><span class="cls_003">810 097</span></div>
+<div style="position:absolute;left:135.09px;top:434.25px" class="cls_003"><span class="cls_003">Noncurrent Liabilities:</span></div>
+<div style="position:absolute;left:141.82px;top:443.76px" class="cls_003"><span class="cls_003">Long-term debt (Note 8):</span></div>
+<div style="position:absolute;left:148.21px;top:453.11px" class="cls_003"><span class="cls_003">COP payable, due in more than one year</span></div>
+<div style="position:absolute;left:427.01px;top:453.10px" class="cls_003"><span class="cls_003">7,231,144</span></div>
+<div style="position:absolute;left:148.21px;top:462.51px" class="cls_003"><span class="cls_003">GO Bonds, due in more than one year</span></div>
+<div style="position:absolute;left:422.79px;top:462.44px" class="cls_003"><span class="cls_003">44,169,952</span></div>
+<div style="position:absolute;left:141.82px;top:471.83px" class="cls_003"><span class="cls_003">Long-term portion of accrued compensated absences (Note 1)</span></div>
+<div style="position:absolute;left:433.08px;top:471.84px" class="cls_003"><span class="cls_003">201,265</span></div>
+<div style="position:absolute;left:141.57px;top:481.17px" class="cls_003"><span class="cls_003">Total OPEB liability (Note 11)</span></div>
+<div style="position:absolute;left:433.08px;top:481.17px" class="cls_003"><span class="cls_003">
+<ix:nonFraction name="cafr:NetOpebAssetLiability" contextRef="_ctx6g" id="NETPOSITION_C40" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">411,965</ix:nonFraction></span></div>
+<div style="position:absolute;left:154.72px;top:497.09px" class="cls_003"><span class="cls_003">Total noncurrent liabilities</span></div>
+<div style="position:absolute;left:423.24px;top:497.18px" class="cls_011"><span class="cls_011">52,014,326</span></div>
+<div style="position:absolute;left:160.96px;top:513.07px" class="cls_003"><span class="cls_003">Total liabilities</span></div>
+<div style="position:absolute;left:423.12px;top:513.20px" class="cls_011"><span class="cls_011">
+<ix:nonFraction name="cafr:Liabilities" contextRef="_ctx6g" id="NETPOSITION_C45" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">57,824,423</ix:nonFraction></span></div>
+<div style="position:absolute;left:135.65px;top:530.58px" class="cls_003"><span class="cls_003">DEFERRED INFLOW OF RESOURCES</span></div>
+<div style="position:absolute;left:135.74px;top:539.96px" class="cls_003"><span class="cls_003">Related to OPEB (Note 11)</span></div>
+<div style="position:absolute;left:437.32px;top:539.88px" class="cls_003"><span class="cls_003">16,738</span></div>
+<div style="position:absolute;left:135.45px;top:556.81px" class="cls_003"><span class="cls_003">NET POSITION (Note 9)</span></div>
+<div style="position:absolute;left:135.45px;top:572.10px" class="cls_003"><span class="cls_003">Net investment in capital assets</span></div>
+<div style="position:absolute;left:423.21px;top:572.21px" class="cls_003"><span class="cls_003">
+<ix:nonFraction name="cafr:NetInvestmentInCapitalAssets" contextRef="_ctx6g" id="NETPOSITION_C50" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">52,843,727</ix:nonFraction></span></div>
+<div style="position:absolute;left:135.45px;top:581.49px" class="cls_003"><span class="cls_003">Restricted for:</span></div>
+<div style="position:absolute;left:142.21px;top:591.00px" class="cls_003"><span class="cls_003">Capital projects</span></div>
+<div style="position:absolute;left:427.48px;top:590.97px" class="cls_003"><span class="cls_003">1,153,804</span></div>
+<div style="position:absolute;left:141.94px;top:600.37px" class="cls_003"><span class="cls_003">Special purpose projects</span></div>
+<div style="position:absolute;left:427.44px;top:600.35px" class="cls_003"><span class="cls_003">9,543,240</span></div>
+<div style="position:absolute;left:135.61px;top:609.73px" class="cls_003"><span class="cls_003">Unrestricted</span></div>
+<div style="position:absolute;left:427.54px;top:609.78px" class="cls_011"><span class="cls_011">
+<ix:nonFraction name="cafr:NetPositionUnrestricted" contextRef="_ctx6g" id="NETPOSITION_C55" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">8,723,981</ix:nonFraction></span></div>
+<div style="position:absolute;left:161.20px;top:625.58px" class="cls_003"><span class="cls_003">Total net position</span></div>
+<div style="position:absolute;left:419.64px;top:625.65px" class="cls_011"><span class="cls_011">
+<ix:nonFraction name="cafr:NetPosition" contextRef="_ctx6p" id="NETPOSITION_C60" unitRef="ISO4217_USD" decimals = "0" format="ixt:numdotdecimal">$72,264,752</ix:nonFraction></span></div>
+<div style="position:absolute;left:223.18px;top:645.78px" class="cls_003"><span class="cls_003">See accompanying notes to financial statements</span></div>
+<div style="position:absolute;left:304.21px;top:752.44px" class="cls_005"><span class="cls_005">19</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:3208px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:270.92px;top:41.92px" class="cls_007"><span class="cls_007">CITY  OF  ORINDA</span></div>
+<div style="position:absolute;left:250.56px;top:53.68px" class="cls_007"><span class="cls_007">STATEMENT  OF  ACTIVITIES</span></div>
+<div style="position:absolute;left:233.28px;top:65.20px" class="cls_007"><span class="cls_007">FOR  THE  YEAR  ENDED  JUNE  30,  2018</span></div>
+<div style="position:absolute;left:478.45px;top:88.00px" class="cls_007"><span class="cls_007">Net  Revenue  (Expense)</span></div>
+<div style="position:absolute;left:513.12px;top:99.28px" class="cls_007"><span class="cls_007">and</span></div>
+<div style="position:absolute;left:335.52px;top:110.56px" class="cls_007"><span class="cls_007">Program  Revenues</span></div>
+<div style="position:absolute;left:479.04px;top:110.56px" class="cls_012"><span class="cls_012">Changes  in  Net  Position</span></div>
+<div style="position:absolute;left:334.56px;top:121.84px" class="cls_007"><span class="cls_007">Operating</span></div>
+<div style="position:absolute;left:416.16px;top:121.84px" class="cls_007"><span class="cls_007">Capital</span></div>
+<div style="position:absolute;left:271.44px;top:133.12px" class="cls_007"><span class="cls_007">Charges  for</span></div>
+<div style="position:absolute;left:331.92px;top:133.12px" class="cls_007"><span class="cls_007">Grants  and</span></div>
+<div style="position:absolute;left:410.40px;top:133.12px" class="cls_007"><span class="cls_007">Grants  and</span></div>
+<div style="position:absolute;left:494.64px;top:133.12px" class="cls_007"><span class="cls_007">Governmental</span></div>
+<div style="position:absolute;left:84.48px;top:144.40px" class="cls_007"><span class="cls_007">Functions/Programs</span></div>
+<div style="position:absolute;left:208.56px;top:144.40px" class="cls_007"><span class="cls_007">Expenses</span></div>
+<div style="position:absolute;left:276.48px;top:144.64px" class="cls_007"><span class="cls_007">Services</span></div>
+<div style="position:absolute;left:328.32px;top:144.40px" class="cls_007"><span class="cls_007">Contributions</span></div>
+<div style="position:absolute;left:405.60px;top:144.64px" class="cls_007"><span class="cls_007">Contributions</span></div>
+<div style="position:absolute;left:502.56px;top:144.64px" class="cls_007"><span class="cls_007">Activities</span></div>
+<div style="position:absolute;left:51.60px;top:166.96px" class="cls_013"><span class="cls_013">Governmental  Activities:</span></div>
+<div style="position:absolute;left:57.84px;top:189.52px" class="cls_007"><span class="cls_007">General  government</span></div>
+<div style="position:absolute;left:214.35px;top:189.52px" class="cls_007"><span class="cls_007">$2,336,578</span></div>
+<div style="position:absolute;left:513.45px;top:189.52px" class="cls_007"><span class="cls_007">($2,336,578)</span></div>
+<div style="position:absolute;left:57.36px;top:200.80px" class="cls_007"><span class="cls_007">Police  services</span></div>
+<div style="position:absolute;left:218.17px;top:200.80px" class="cls_007"><span class="cls_007">4,175,273</span></div>
+<div style="position:absolute;left:282.01px;top:200.80px" class="cls_007"><span class="cls_007">$160,729</span></div>
+<div style="position:absolute;left:517.52px;top:200.80px" class="cls_007"><span class="cls_007">(4,014,544)</span></div>
+<div style="position:absolute;left:57.36px;top:212.08px" class="cls_007"><span class="cls_007">Public  works  and  engineering</span></div>
+<div style="position:absolute;left:218.44px;top:212.32px" class="cls_007"><span class="cls_007">3,946,827</span></div>
+<div style="position:absolute;left:280.89px;top:212.32px" class="cls_007"><span class="cls_007">1,662,106</span></div>
+<div style="position:absolute;left:341.55px;top:212.08px" class="cls_007"><span class="cls_007">$902,369</span></div>
+<div style="position:absolute;left:436.36px;top:212.08px" class="cls_007"><span class="cls_007">$756,620</span></div>
+<div style="position:absolute;left:524.00px;top:212.08px" class="cls_007"><span class="cls_007">(625,732)</span></div>
+<div style="position:absolute;left:57.36px;top:223.36px" class="cls_007"><span class="cls_007">Parks,  recreation  and  library</span></div>
+<div style="position:absolute;left:218.44px;top:223.60px" class="cls_007"><span class="cls_007">3,997,130</span></div>
+<div style="position:absolute;left:280.12px;top:223.60px" class="cls_007"><span class="cls_007">3,262,864</span></div>
+<div style="position:absolute;left:524.01px;top:223.60px" class="cls_007"><span class="cls_007">(734,266)</span></div>
+<div style="position:absolute;left:57.36px;top:234.64px" class="cls_007"><span class="cls_007">Planning</span></div>
+<div style="position:absolute;left:225.17px;top:234.88px" class="cls_007"><span class="cls_007">879,871</span></div>
+<div style="position:absolute;left:280.88px;top:234.88px" class="cls_007"><span class="cls_007">1,237,921</span></div>
+<div style="position:absolute;left:526.35px;top:234.88px" class="cls_007"><span class="cls_007">358,050</span></div>
+<div style="position:absolute;left:57.60px;top:246.16px" class="cls_007"><span class="cls_007">Interest  on  bonds  payable</span></div>
+<div style="position:absolute;left:219.21px;top:246.16px" class="cls_007"><span class="cls_007">1,559,887</span></div>
+<div style="position:absolute;left:517.52px;top:246.16px" class="cls_007"><span class="cls_007">(1,559,887)</span></div>
+<div style="position:absolute;left:63.60px;top:268.24px" class="cls_007"><span class="cls_007">Total  primary  government</span></div>
+<div style="position:absolute;left:210.26px;top:268.48px" class="cls_007"><span class="cls_007">$16,895,566</span></div>
+<div style="position:absolute;left:276.27px;top:268.48px" class="cls_007"><span class="cls_007">$6,323,620</span></div>
+<div style="position:absolute;left:341.80px;top:268.24px" class="cls_007"><span class="cls_007">$902,369</span></div>
+<div style="position:absolute;left:436.36px;top:268.48px" class="cls_007"><span class="cls_007">$756,620</span></div>
+<div style="position:absolute;left:517.53px;top:268.48px" class="cls_007"><span class="cls_007">(8,912,957)</span></div>
+<div style="position:absolute;left:262.08px;top:315.04px" class="cls_007"><span class="cls_007">Property  taxes</span></div>
+<div style="position:absolute;left:520.11px;top:315.04px" class="cls_007"><span class="cls_007">8,633,632</span></div>
+<div style="position:absolute;left:262.56px;top:326.08px" class="cls_007"><span class="cls_007">Sales  taxes</span></div>
+<div style="position:absolute;left:519.85px;top:326.32px" class="cls_007"><span class="cls_007">2,281,872</span></div>
+<div style="position:absolute;left:262.08px;top:337.60px" class="cls_007"><span class="cls_007">Franchise  taxes</span></div>
+<div style="position:absolute;left:520.64px;top:337.60px" class="cls_007"><span class="cls_007">1,139,414</span></div>
+<div style="position:absolute;left:262.32px;top:348.88px" class="cls_007"><span class="cls_007">Transfer  tax</span></div>
+<div style="position:absolute;left:526.36px;top:348.88px" class="cls_007"><span class="cls_007">316,381</span></div>
+<div style="position:absolute;left:262.32px;top:360.16px" class="cls_007"><span class="cls_007">Transient  Occupancy  Tax</span></div>
+<div style="position:absolute;left:530.43px;top:360.16px" class="cls_007"><span class="cls_007">58,658</span></div>
+<div style="position:absolute;left:262.08px;top:371.44px" class="cls_007"><span class="cls_007">Interest  income</span></div>
+<div style="position:absolute;left:526.11px;top:371.44px" class="cls_007"><span class="cls_007">561,504</span></div>
+<div style="position:absolute;left:262.08px;top:382.72px" class="cls_007"><span class="cls_007">Miscellaneous</span></div>
+<div style="position:absolute;left:519.61px;top:382.72px" class="cls_007"><span class="cls_007">2,403,087</span></div>
+<div style="position:absolute;left:262.08px;top:407.44px" class="cls_007"><span class="cls_007">Total  general  revenues</span></div>
+<div style="position:absolute;left:519.44px;top:407.20px" class="cls_007"><span class="cls_007">15,394,548</span></div>
+<div style="position:absolute;left:262.32px;top:430.24px" class="cls_007"><span class="cls_007">Change  in  net  position</span></div>
+<div style="position:absolute;left:519.86px;top:430.24px" class="cls_007"><span class="cls_007">6,481,591</span></div>
+<div style="position:absolute;left:261.84px;top:452.80px" class="cls_007"><span class="cls_007">Net  position  -  beginning,  as  adjusted,  (Note  9B)</span></div>
+<div style="position:absolute;left:515.79px;top:452.80px" class="cls_007"><span class="cls_007">65,783,161</span></div>
+<div style="position:absolute;left:261.60px;top:475.12px" class="cls_007"><span class="cls_007">Net  position  -  ending</span></div>
+<div style="position:absolute;left:511.22px;top:475.12px" class="cls_007"><span class="cls_007">$72,264,752</span></div>
+<div style="position:absolute;left:226.08px;top:495.52px" class="cls_007"><span class="cls_007">See  accompanying  notes  to  financial  statements</span></div>
+<div style="position:absolute;left:299.52px;top:738.32px" class="cls_010"><span class="cls_010">20</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:4010px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:218.55px;top:73.76px" class="cls_014"><span class="cls_014">FUND  FINANCIAL  STATEMENTS</span></div>
+<div style="position:absolute;left:73.68px;top:100.88px" class="cls_010"><span class="cls_010">Major  funds  are  defined  generally  as  having  significant  activities  or  balances  in  the  current  year.</span></div>
+<div style="position:absolute;left:238.08px;top:128.48px" class="cls_014"><span class="cls_014">GOVERNMENTAL  FUNDS</span></div>
+<div style="position:absolute;left:73.68px;top:155.60px" class="cls_010"><span class="cls_010">The  funds  described  below  were  determined  to  be  Major  Funds  by  the  City  for  fiscal  year  2018.</span></div>
+<div style="position:absolute;left:73.68px;top:168.32px" class="cls_010"><span class="cls_010">Individual  other  governmental  funds  may  be  found  in  the  Supplemental  Section.</span></div>
+<div style="position:absolute;left:73.68px;top:193.76px" class="cls_014"><span class="cls_014">GENERAL  FUND</span></div>
+<div style="position:absolute;left:73.68px;top:218.72px" class="cls_010"><span class="cls_010">The  General  Fund  is  the  City's  primary  operating  fund.  It  accounts  for  all  financial  resources  of  the  general</span></div>
+<div style="position:absolute;left:73.68px;top:231.68px" class="cls_010"><span class="cls_010">government,  except  those  required  to  be  accounted  for  in  another  fund.</span></div>
+<div style="position:absolute;left:73.92px;top:257.12px" class="cls_014"><span class="cls_014">CITY  CAPITAL  PROJECTS  FUND</span></div>
+<div style="position:absolute;left:73.44px;top:282.08px" class="cls_014"><span class="cls_014">This  </span><span class="cls_010">fund  accounts  for  transfers  from  the  General  Fund  and  expenditures  related  to  infrastructure</span></div>
+<div style="position:absolute;left:73.68px;top:294.80px" class="cls_010"><span class="cls_010">improvements.  In  Fiscal  Year  2017-18  the  fund  also  accounted  for  a  joint  paving  project  funded  by  the</span></div>
+<div style="position:absolute;left:73.44px;top:307.76px" class="cls_010"><span class="cls_010">Town  of  Moraga.</span></div>
+<div style="position:absolute;left:73.92px;top:332.96px" class="cls_014"><span class="cls_014">COMMUNITY  FACILITIES  MAINTENANCE  FUND</span></div>
+<div style="position:absolute;left:73.68px;top:358.16px" class="cls_014"><span class="cls_014">This  </span><span class="cls_010">fund  accounts  for  investment  earnings  and  the  costs  associated  with  the  operations  and  maintenance  of</span></div>
+<div style="position:absolute;left:73.20px;top:371.12px" class="cls_010"><span class="cls_010">the  Wilder  Community  Facilities.</span></div>
+<div style="position:absolute;left:73.92px;top:396.32px" class="cls_014"><span class="cls_014">CCTA  (CONTRA  COSTA  TRANSPORTATION  AUTHORITY)  FUND</span></div>
+<div style="position:absolute;left:73.68px;top:421.52px" class="cls_014"><span class="cls_014">This  </span><span class="cls_010">fund  accounts  for  the  voter  approved  transportation  sales  tax  used  for  voter  approved  transportation</span></div>
+<div style="position:absolute;left:73.44px;top:434.00px" class="cls_010"><span class="cls_010">programs  and  projects  as  administered  by  the  Contra  Costa  Transportation  Authority.</span></div>
+<div style="position:absolute;left:73.44px;top:459.68px" class="cls_014"><span class="cls_014">ROAD  BONDS  2014  CAPITAL  PROJECTS  FUND</span></div>
+<div style="position:absolute;left:73.68px;top:484.64px" class="cls_010"><span class="cls_010">This  fund  accounts  for  costs  associated  with  repair,  restoration  and  upgrade  of  the  City's  roads  and  drains</span></div>
+<div style="position:absolute;left:73.68px;top:497.84px" class="cls_010"><span class="cls_010">funded  by  the  2014  General  Obligation  Bonds.</span></div>
+<div style="position:absolute;left:73.68px;top:523.04px" class="cls_014"><span class="cls_014">ROAD  BONDS  2016  CAPITAL  PROJECTS  FUND</span></div>
+<div style="position:absolute;left:73.68px;top:548.24px" class="cls_010"><span class="cls_010">This  fund  accounts  for  costs  associates  with  repair,  restoration  and  upgrade  of  the  City's  roads  and  drains</span></div>
+<div style="position:absolute;left:73.68px;top:561.20px" class="cls_010"><span class="cls_010">funded  by  the  2016  General  Obligation  Bonds.</span></div>
+<div style="position:absolute;left:298.55px;top:739.04px" class="cls_010"><span class="cls_010">21</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:254.53px;top:42.88px" class="cls_015"><span class="cls_015">CITY  OF  ORINDA</span></div>
+<div style="position:absolute;left:234.24px;top:57.04px" class="cls_015"><span class="cls_015">GOVERNMENTAL  FUNDS</span></div>
+<div style="position:absolute;left:255.12px;top:70.96px" class="cls_015"><span class="cls_015">BALANCE  SHEET</span></div>
+<div style="position:absolute;left:265.20px;top:84.88px" class="cls_015"><span class="cls_015">JUNE  30,  2018</span></div>
+<div style="position:absolute;left:402.77px;top:120.64px" class="cls_015"><span class="cls_015">Major  Funds</span></div>
+<div style="position:absolute;left:420.96px;top:144.40px" class="cls_015"><span class="cls_015">City</span></div>
+<div style="position:absolute;left:414.96px;top:155.92px" class="cls_015"><span class="cls_015">Capital</span></div>
+<div style="position:absolute;left:482.40px;top:156.16px" class="cls_015"><span class="cls_015">Community</span></div>
+<div style="position:absolute;left:336.48px;top:167.44px" class="cls_015"><span class="cls_015">General</span></div>
+<div style="position:absolute;left:413.52px;top:167.68px" class="cls_015"><span class="cls_015">Projects</span></div>
+<div style="position:absolute;left:487.68px;top:167.68px" class="cls_015"><span class="cls_015">Facilities</span></div>
+<div style="position:absolute;left:343.20px;top:179.44px" class="cls_015"><span class="cls_015">Fund</span></div>
+<div style="position:absolute;left:419.04px;top:179.68px" class="cls_015"><span class="cls_015">Fund</span></div>
+<div style="position:absolute;left:480.00px;top:179.68px" class="cls_015"><span class="cls_015">Maintenance</span></div>
+<div style="position:absolute;left:166.32px;top:202.00px" class="cls_015"><span class="cls_015">ASSETS</span></div>
+<div style="position:absolute;left:56.16px;top:225.76px" class="cls_015"><span class="cls_015">Cash,  cash  equivalents  and  investments  (Note  3)</span></div>
+<div style="position:absolute;left:339.13px;top:226.48px" class="cls_015"><span class="cls_015">$9,508,346</span></div>
+<div style="position:absolute;left:418.91px;top:226.48px" class="cls_015"><span class="cls_015">1,608,854</span></div>
+<div style="position:absolute;left:491.06px;top:226.48px" class="cls_015"><span class="cls_015">$1,521,922</span></div>
+<div style="position:absolute;left:56.40px;top:237.52px" class="cls_015"><span class="cls_015">Restricted  cash  (Note  3)</span></div>
+<div style="position:absolute;left:56.16px;top:249.04px" class="cls_015"><span class="cls_015">Accounts  receivable  (Note  4)</span></div>
+<div style="position:absolute;left:345.46px;top:249.76px" class="cls_015"><span class="cls_015">1,471,634</span></div>
+<div style="position:absolute;left:429.71px;top:250.00px" class="cls_015"><span class="cls_015">155,487</span></div>
+<div style="position:absolute;left:56.40px;top:260.80px" class="cls_015"><span class="cls_015">Interest  receivable</span></div>
+<div style="position:absolute;left:356.87px;top:261.52px" class="cls_015"><span class="cls_015">62,557</span></div>
+<div style="position:absolute;left:514.94px;top:261.52px" class="cls_015"><span class="cls_015">1,218</span></div>
+<div style="position:absolute;left:56.40px;top:272.56px" class="cls_015"><span class="cls_015">Prepaid  items  and  deposits</span></div>
+<div style="position:absolute;left:356.38px;top:273.28px" class="cls_015"><span class="cls_015">49,122</span></div>
+<div style="position:absolute;left:56.64px;top:284.56px" class="cls_015"><span class="cls_015">Due  from  other  funds</span></div>
+<div style="position:absolute;left:352.66px;top:285.04px" class="cls_015"><span class="cls_015">189,641</span></div>
+<div style="position:absolute;left:80.64px;top:307.84px" class="cls_015"><span class="cls_015">Total  assets</span></div>
+<div style="position:absolute;left:334.33px;top:308.56px" class="cls_015"><span class="cls_015">$11,281,300</span></div>
+<div style="position:absolute;left:419.17px;top:308.56px" class="cls_015"><span class="cls_015">1,764,341</span></div>
+<div style="position:absolute;left:491.05px;top:308.56px" class="cls_015"><span class="cls_015">$1,523,140</span></div>
+<div style="position:absolute;left:101.76px;top:344.56px" class="cls_015"><span class="cls_015">LIABILITIES  AND  FUND  BALANCES</span></div>
+<div style="position:absolute;left:55.92px;top:368.08px" class="cls_015"><span class="cls_015">Accounts  payable  and  accrued  liabilities  (Note  6)</span></div>
+<div style="position:absolute;left:338.87px;top:368.80px" class="cls_015"><span class="cls_015">$2,030,602</span></div>
+<div style="position:absolute;left:425.05px;top:368.80px" class="cls_015"><span class="cls_015">$41,835</span></div>
+<div style="position:absolute;left:55.92px;top:379.84px" class="cls_015"><span class="cls_015">Other  current  liabilities</span></div>
+<div style="position:absolute;left:351.35px;top:380.56px" class="cls_015"><span class="cls_015">247,624</span></div>
+<div style="position:absolute;left:56.16px;top:391.60px" class="cls_015"><span class="cls_015">Unearned  revenue</span></div>
+<div style="position:absolute;left:356.66px;top:392.32px" class="cls_015"><span class="cls_015">30,000</span></div>
+<div style="position:absolute;left:56.40px;top:403.60px" class="cls_015"><span class="cls_015">Due  to  other  funds</span></div>
+<div style="position:absolute;left:56.16px;top:415.12px" class="cls_015"><span class="cls_015">Planning  and  engineering  deposits</span></div>
+<div style="position:absolute;left:361.45px;top:415.84px" class="cls_015"><span class="cls_015">6,766</span></div>
+<div style="position:absolute;left:80.40px;top:438.88px" class="cls_015"><span class="cls_015">Total  Liabilities</span></div>
+<div style="position:absolute;left:343.91px;top:439.60px" class="cls_015"><span class="cls_015">2,314,992</span></div>
+<div style="position:absolute;left:429.83px;top:439.60px" class="cls_015"><span class="cls_015">41,835</span></div>
+<div style="position:absolute;left:56.16px;top:474.16px" class="cls_015"><span class="cls_015">Fund  balances  (Note  9):</span></div>
+<div style="position:absolute;left:63.84px;top:485.68px" class="cls_015"><span class="cls_015">Nonspendable</span></div>
+<div style="position:absolute;left:356.39px;top:486.40px" class="cls_015"><span class="cls_015">49,122</span></div>
+<div style="position:absolute;left:64.32px;top:497.44px" class="cls_015"><span class="cls_015">Restricted</span></div>
+<div style="position:absolute;left:425.29px;top:498.40px" class="cls_015"><span class="cls_015">949,259</span></div>
+<div style="position:absolute;left:491.06px;top:498.40px" class="cls_015"><span class="cls_015">$1,523,140</span></div>
+<div style="position:absolute;left:64.08px;top:509.20px" class="cls_015"><span class="cls_015">Assigned</span></div>
+<div style="position:absolute;left:345.23px;top:509.92px" class="cls_015"><span class="cls_015">1,895,656</span></div>
+<div style="position:absolute;left:64.08px;top:520.96px" class="cls_015"><span class="cls_015">Committed</span></div>
+<div style="position:absolute;left:344.18px;top:521.68px" class="cls_015"><span class="cls_015">5,586,807</span></div>
+<div style="position:absolute;left:425.05px;top:521.68px" class="cls_015"><span class="cls_015">773,247</span></div>
+<div style="position:absolute;left:64.08px;top:532.72px" class="cls_015"><span class="cls_015">Unassigned</span></div>
+<div style="position:absolute;left:345.23px;top:533.20px" class="cls_015"><span class="cls_015">1,434,723</span></div>
+<div style="position:absolute;left:80.16px;top:556.24px" class="cls_015"><span class="cls_015">Total  fund  balances</span></div>
+<div style="position:absolute;left:344.18px;top:556.96px" class="cls_015"><span class="cls_015">8,966,308</span></div>
+<div style="position:absolute;left:418.67px;top:556.96px" class="cls_015"><span class="cls_015">1,722,506</span></div>
+<div style="position:absolute;left:496.66px;top:556.96px" class="cls_015"><span class="cls_015">1,523,140</span></div>
+<div style="position:absolute;left:80.16px;top:579.76px" class="cls_015"><span class="cls_015">Total  liabilities  and  fund  balance</span></div>
+<div style="position:absolute;left:334.09px;top:580.24px" class="cls_015"><span class="cls_015">$11,281,300</span></div>
+<div style="position:absolute;left:418.66px;top:580.24px" class="cls_015"><span class="cls_015">1,764,341</span></div>
+<div style="position:absolute;left:490.81px;top:580.24px" class="cls_015"><span class="cls_015">$1,523,140</span></div>
+<div style="position:absolute;left:204.72px;top:628.72px" class="cls_015"><span class="cls_015">See  accompanying  notes  to  financial  statements</span></div>
+<div style="position:absolute;left:298.08px;top:739.12px" class="cls_015"><span class="cls_015">22</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:5614px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:139.51px;top:120.88px" class="cls_015"><span class="cls_015">Major  Funds</span></div>
+<div style="position:absolute;left:305.65px;top:156.16px" class="cls_015"><span class="cls_015">Other</span></div>
+<div style="position:absolute;left:126.15px;top:168.16px" class="cls_015"><span class="cls_015">Road  Bonds</span></div>
+<div style="position:absolute;left:207.99px;top:168.16px" class="cls_015"><span class="cls_015">Road  Bonds</span></div>
+<div style="position:absolute;left:289.92px;top:168.16px" class="cls_015"><span class="cls_015">Governmental</span></div>
+<div style="position:absolute;left:70.80px;top:179.68px" class="cls_015"><span class="cls_015">CCTA</span></div>
+<div style="position:absolute;left:141.12px;top:179.68px" class="cls_015"><span class="cls_015">2014</span></div>
+<div style="position:absolute;left:222.96px;top:179.68px" class="cls_015"><span class="cls_015">2016</span></div>
+<div style="position:absolute;left:306.00px;top:179.68px" class="cls_015"><span class="cls_015">Funds</span></div>
+<div style="position:absolute;left:391.60px;top:179.68px" class="cls_015"><span class="cls_015">Total</span></div>
+<div style="position:absolute;left:72.72px;top:227.20px" class="cls_015"><span class="cls_015">$57,193</span></div>
+<div style="position:absolute;left:306.97px;top:226.72px" class="cls_015"><span class="cls_015">$4,890,823</span></div>
+<div style="position:absolute;left:388.81px;top:226.72px" class="cls_015"><span class="cls_015">$17,587,138</span></div>
+<div style="position:absolute;left:137.53px;top:238.72px" class="cls_015"><span class="cls_015">$4,181,413</span></div>
+<div style="position:absolute;left:218.18px;top:238.48px" class="cls_015"><span class="cls_015">$22,249,548</span></div>
+<div style="position:absolute;left:312.96px;top:238.72px" class="cls_015"><span class="cls_015">3,142,602</span></div>
+<div style="position:absolute;left:394.56px;top:238.48px" class="cls_015"><span class="cls_015">29,573,563</span></div>
+<div style="position:absolute;left:156.00px;top:250.48px" class="cls_015"><span class="cls_015">96,690</span></div>
+<div style="position:absolute;left:320.64px;top:250.24px" class="cls_015"><span class="cls_015">558,681</span></div>
+<div style="position:absolute;left:399.60px;top:250.24px" class="cls_015"><span class="cls_015">2,282,492</span></div>
+<div style="position:absolute;left:95.04px;top:262.24px" class="cls_015"><span class="cls_015">44</span></div>
+<div style="position:absolute;left:161.28px;top:262.24px" class="cls_015"><span class="cls_015">3,283</span></div>
+<div style="position:absolute;left:242.64px;top:262.00px" class="cls_015"><span class="cls_015">17,559</span></div>
+<div style="position:absolute;left:330.48px;top:262.00px" class="cls_015"><span class="cls_015">6,139</span></div>
+<div style="position:absolute;left:412.56px;top:262.00px" class="cls_015"><span class="cls_015">90,800</span></div>
+<div style="position:absolute;left:253.68px;top:274.00px" class="cls_015"><span class="cls_015">227</span></div>
+<div style="position:absolute;left:321.60px;top:273.76px" class="cls_015"><span class="cls_015">109,167</span></div>
+<div style="position:absolute;left:408.48px;top:273.76px" class="cls_015"><span class="cls_015">158,516</span></div>
+<div style="position:absolute;left:408.48px;top:285.52px" class="cls_015"><span class="cls_015">189,641</span></div>
+<div style="position:absolute;left:72.72px;top:308.80px" class="cls_015"><span class="cls_015">$57,237</span></div>
+<div style="position:absolute;left:137.51px;top:308.80px" class="cls_015"><span class="cls_015">$4,281,386</span></div>
+<div style="position:absolute;left:218.17px;top:308.80px" class="cls_015"><span class="cls_015">$22,267,334</span></div>
+<div style="position:absolute;left:307.21px;top:308.80px" class="cls_015"><span class="cls_015">$8,707,412</span></div>
+<div style="position:absolute;left:389.05px;top:308.56px" class="cls_015"><span class="cls_015">$49,882,150</span></div>
+<div style="position:absolute;left:77.76px;top:369.52px" class="cls_015"><span class="cls_015">$5,103</span></div>
+<div style="position:absolute;left:145.21px;top:369.28px" class="cls_015"><span class="cls_015">$904,853</span></div>
+<div style="position:absolute;left:230.65px;top:369.28px" class="cls_015"><span class="cls_015">$119,878</span></div>
+<div style="position:absolute;left:314.65px;top:369.28px" class="cls_015"><span class="cls_015">$207,029</span></div>
+<div style="position:absolute;left:393.85px;top:369.04px" class="cls_015"><span class="cls_015">$3,309,300</span></div>
+<div style="position:absolute;left:246.24px;top:381.04px" class="cls_015"><span class="cls_015">4,506</span></div>
+<div style="position:absolute;left:407.28px;top:381.04px" class="cls_015"><span class="cls_015">252,130</span></div>
+<div style="position:absolute;left:412.56px;top:392.80px" class="cls_015"><span class="cls_015">30,000</span></div>
+<div style="position:absolute;left:321.84px;top:404.32px" class="cls_015"><span class="cls_015">189,641</span></div>
+<div style="position:absolute;left:408.72px;top:404.32px" class="cls_015"><span class="cls_015">189,641</span></div>
+<div style="position:absolute;left:417.60px;top:416.08px" class="cls_015"><span class="cls_015">6,766</span></div>
+<div style="position:absolute;left:83.04px;top:439.60px" class="cls_015"><span class="cls_015">5,103</span></div>
+<div style="position:absolute;left:150.23px;top:439.60px" class="cls_015"><span class="cls_015">904,853</span></div>
+<div style="position:absolute;left:237.26px;top:439.60px" class="cls_015"><span class="cls_015">124,384</span></div>
+<div style="position:absolute;left:319.95px;top:439.60px" class="cls_015"><span class="cls_015">396,670</span></div>
+<div style="position:absolute;left:399.40px;top:439.36px" class="cls_015"><span class="cls_015">3,787,837</span></div>
+<div style="position:absolute;left:321.01px;top:486.88px" class="cls_015"><span class="cls_015">109,123</span></div>
+<div style="position:absolute;left:407.86px;top:486.64px" class="cls_015"><span class="cls_015">158,245</span></div>
+<div style="position:absolute;left:78.00px;top:499.12px" class="cls_015"><span class="cls_015">52,134</span></div>
+<div style="position:absolute;left:142.83px;top:498.88px" class="cls_015"><span class="cls_015">3,376,533</span></div>
+<div style="position:absolute;left:223.21px;top:498.88px" class="cls_015"><span class="cls_015">22,142,950</span></div>
+<div style="position:absolute;left:313.68px;top:498.64px" class="cls_015"><span class="cls_015">8,005,701</span></div>
+<div style="position:absolute;left:395.28px;top:498.64px" class="cls_015"><span class="cls_015">36,049,717</span></div>
+<div style="position:absolute;left:401.28px;top:510.40px" class="cls_015"><span class="cls_015">1,895,656</span></div>
+<div style="position:absolute;left:322.08px;top:522.40px" class="cls_015"><span class="cls_015">195,918</span></div>
+<div style="position:absolute;left:400.32px;top:522.16px" class="cls_015"><span class="cls_015">6,555,972</span></div>
+<div style="position:absolute;left:401.52px;top:533.92px" class="cls_015"><span class="cls_015">1,434,723</span></div>
+<div style="position:absolute;left:78.24px;top:557.68px" class="cls_015"><span class="cls_015">52,134</span></div>
+<div style="position:absolute;left:143.07px;top:557.68px" class="cls_015"><span class="cls_015">3,376,533</span></div>
+<div style="position:absolute;left:223.45px;top:557.68px" class="cls_015"><span class="cls_015">22,142,950</span></div>
+<div style="position:absolute;left:312.99px;top:557.44px" class="cls_015"><span class="cls_015">8,310,742</span></div>
+<div style="position:absolute;left:394.31px;top:557.44px" class="cls_015"><span class="cls_015">46,094,313</span></div>
+<div style="position:absolute;left:73.20px;top:581.20px" class="cls_015"><span class="cls_015">$57,237</span></div>
+<div style="position:absolute;left:137.99px;top:580.96px" class="cls_015"><span class="cls_015">$4,281,386</span></div>
+<div style="position:absolute;left:218.65px;top:580.72px" class="cls_015"><span class="cls_015">$22,267,334</span></div>
+<div style="position:absolute;left:307.69px;top:580.72px" class="cls_015"><span class="cls_015">$8,707,412</span></div>
+<div style="position:absolute;left:389.53px;top:580.48px" class="cls_015"><span class="cls_015">$49,882,150</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:6416px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:260.99px;top:45.12px" class="cls_016"><span class="cls_016">CITY  OF  OR1NDA</span></div>
+<div style="position:absolute;left:258.96px;top:59.52px" class="cls_016"><span class="cls_016">Reconciliation  of  the</span></div>
+<div style="position:absolute;left:192.72px;top:73.20px" class="cls_016"><span class="cls_016">GOVERNMENTAL  FUNDS  -  BALANCE  SHEET</span></div>
+<div style="position:absolute;left:286.80px;top:87.36px" class="cls_016"><span class="cls_016">with  the</span></div>
+<div style="position:absolute;left:227.04px;top:101.28px" class="cls_016"><span class="cls_016">STATEMENT  OF  NET  POSITION</span></div>
+<div style="position:absolute;left:271.44px;top:115.44px" class="cls_016"><span class="cls_016">JUNE  30,  2018</span></div>
+<div style="position:absolute;left:55.68px;top:154.56px" class="cls_016"><span class="cls_016">Fund  balances  of  governmental  funds</span></div>
+<div style="position:absolute;left:500.16px;top:154.32px" class="cls_016"><span class="cls_016">$46,094,313</span></div>
+<div style="position:absolute;left:55.68px;top:181.68px" class="cls_016"><span class="cls_016">Amounts  reported  for  governmental  activities  in  the  statement  of</span></div>
+<div style="position:absolute;left:60.48px;top:194.88px" class="cls_016"><span class="cls_016">net  position  are  different  because:</span></div>
+<div style="position:absolute;left:60.72px;top:222.00px" class="cls_016"><span class="cls_016">CAPITAL  ASSETS</span></div>
+<div style="position:absolute;left:65.52px;top:235.44px" class="cls_016"><span class="cls_016">Capital  assets  have  not  been  included  in  as  fmancial  resources  in</span></div>
+<div style="position:absolute;left:70.32px;top:248.88px" class="cls_016"><span class="cls_016">governmental  fund  activity:</span></div>
+<div style="position:absolute;left:74.88px;top:276.00px" class="cls_016"><span class="cls_016">Capital  assets,  non  depreciable</span></div>
+<div style="position:absolute;left:505.03px;top:275.76px" class="cls_016"><span class="cls_016">16,972,740</span></div>
+<div style="position:absolute;left:74.88px;top:289.20px" class="cls_016"><span class="cls_016">Capital  assets,  depreciated,  net</span></div>
+<div style="position:absolute;left:505.20px;top:289.20px" class="cls_016"><span class="cls_016">62,098,445</span></div>
+<div style="position:absolute;left:60.24px;top:316.32px" class="cls_016"><span class="cls_016">LONG-TERM  ASSETS,  DEFERRED  INFLOW  AND  LIABILITIES</span></div>
+<div style="position:absolute;left:65.28px;top:329.76px" class="cls_016"><span class="cls_016">The  assets  and  liabilities  below  are  not  due  and  payable  in  the  current  period  and  therefore</span></div>
+<div style="position:absolute;left:70.32px;top:343.20px" class="cls_016"><span class="cls_016">are  not  reported  in  the  Funds:</span></div>
+<div style="position:absolute;left:74.40px;top:370.32px" class="cls_016"><span class="cls_016">Bonds  payable</span></div>
+<div style="position:absolute;left:501.60px;top:369.84px" class="cls_016"><span class="cls_016">(53,213,517)</span></div>
+<div style="position:absolute;left:74.64px;top:383.52px" class="cls_016"><span class="cls_016">Compensated  absences</span></div>
+<div style="position:absolute;left:514.08px;top:383.52px" class="cls_016"><span class="cls_016">(251,581)</span></div>
+<div style="position:absolute;left:74.64px;top:397.20px" class="cls_016"><span class="cls_016">Interest  payable</span></div>
+<div style="position:absolute;left:514.08px;top:396.72px" class="cls_016"><span class="cls_016">(344,228)</span></div>
+<div style="position:absolute;left:74.16px;top:410.64px" class="cls_016"><span class="cls_016">Net  OPEB  liability  and  related  deferred  inflow  of  resources</span></div>
+<div style="position:absolute;left:514.32px;top:410.40px" class="cls_016"><span class="cls_016">(428,703)</span></div>
+<div style="position:absolute;left:65.04px;top:437.52px" class="cls_016"><span class="cls_016">Internal  service  funds  are  used  by  management  to  charge  the  costs</span></div>
+<div style="position:absolute;left:70.08px;top:450.96px" class="cls_016"><span class="cls_016">of  certain  activities,  such  as  equipment  management,  to  individual</span></div>
+<div style="position:absolute;left:69.84px;top:464.40px" class="cls_016"><span class="cls_016">funds.  The  assets  and  liabilities  of  the  internal  service  funds  must</span></div>
+<div style="position:absolute;left:69.36px;top:477.84px" class="cls_016"><span class="cls_016">be  added  to  the  statement  of  net  position.</span></div>
+<div style="position:absolute;left:509.83px;top:477.60px" class="cls_016"><span class="cls_016">1,337,283</span></div>
+<div style="position:absolute;left:59.76px;top:504.48px" class="cls_016"><span class="cls_016">Net  position  of  governmental  activities</span></div>
+<div style="position:absolute;left:503.52px;top:502.56px" class="cls_016"><span class="cls_016">$72,264,752</span></div>
+<div style="position:absolute;left:211.20px;top:532.80px" class="cls_016"><span class="cls_016">See  accompanying  notes  to  financial  statements</span></div>
+<div style="position:absolute;left:299.52px;top:752.88px" class="cls_016"><span class="cls_016">24</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:7218px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:264.65px;top:39.52px" class="cls_007"><span class="cls_007">CITY  OF  ORINDA</span></div>
+<div style="position:absolute;left:132.00px;top:50.80px" class="cls_007"><span class="cls_007">STATEMENT  OF  REVENUES,  EXPENDITURES  AND  CHANGES  IN  FUND  BALANCES</span></div>
+<div style="position:absolute;left:248.64px;top:62.80px" class="cls_007"><span class="cls_007">GOVERNMENTAL  FUNDS</span></div>
+<div style="position:absolute;left:224.40px;top:74.08px" class="cls_007"><span class="cls_007">FOR  THE  YEAR  ENDED  JUNE  30,  2018</span></div>
+<div style="position:absolute;left:395.14px;top:93.04px" class="cls_007"><span class="cls_007">Major  Funds</span></div>
+<div style="position:absolute;left:409.16px;top:102.88px" class="cls_007"><span class="cls_007">City</span></div>
+<div style="position:absolute;left:405.60px;top:112.72px" class="cls_007"><span class="cls_007">Capital</span></div>
+<div style="position:absolute;left:490.28px;top:112.48px" class="cls_007"><span class="cls_007">Community</span></div>
+<div style="position:absolute;left:311.52px;top:122.32px" class="cls_007"><span class="cls_007">General</span></div>
+<div style="position:absolute;left:404.16px;top:122.08px" class="cls_007"><span class="cls_007">Projects</span></div>
+<div style="position:absolute;left:495.84px;top:122.08px" class="cls_007"><span class="cls_007">Facilities</span></div>
+<div style="position:absolute;left:315.60px;top:131.92px" class="cls_007"><span class="cls_007">Fund</span></div>
+<div style="position:absolute;left:408.96px;top:131.68px" class="cls_007"><span class="cls_007">Fund</span></div>
+<div style="position:absolute;left:489.84px;top:131.68px" class="cls_007"><span class="cls_007">Maintenance</span></div>
+<div style="position:absolute;left:50.64px;top:146.32px" class="cls_007"><span class="cls_007">Revenues</span></div>
+<div style="position:absolute;left:57.60px;top:155.92px" class="cls_007"><span class="cls_007">Taxes</span></div>
+<div style="position:absolute;left:64.32px;top:165.52px" class="cls_007"><span class="cls_007">Property  tax  and  assessments</span></div>
+<div style="position:absolute;left:325.24px;top:165.28px" class="cls_007"><span class="cls_007">$6,932,608</span></div>
+<div style="position:absolute;left:64.80px;top:175.12px" class="cls_007"><span class="cls_007">Sales  tax</span></div>
+<div style="position:absolute;left:329.06px;top:174.88px" class="cls_007"><span class="cls_007">2,281,872</span></div>
+<div style="position:absolute;left:64.32px;top:184.72px" class="cls_007"><span class="cls_007">Franchise  tax</span></div>
+<div style="position:absolute;left:329.85px;top:184.48px" class="cls_007"><span class="cls_007">1,139,414</span></div>
+<div style="position:absolute;left:64.32px;top:194.32px" class="cls_007"><span class="cls_007">Transient  Occupancy  Tax</span></div>
+<div style="position:absolute;left:339.67px;top:194.08px" class="cls_007"><span class="cls_007">58,658</span></div>
+<div style="position:absolute;left:64.32px;top:203.92px" class="cls_007"><span class="cls_007">Property  transfer  tax</span></div>
+<div style="position:absolute;left:335.32px;top:203.68px" class="cls_007"><span class="cls_007">316,381</span></div>
+<div style="position:absolute;left:57.84px;top:213.52px" class="cls_007"><span class="cls_007">Use  of  money  and  properties</span></div>
+<div style="position:absolute;left:337.06px;top:213.52px" class="cls_007"><span class="cls_007">(53,338)</span></div>
+<div style="position:absolute;left:522.28px;top:213.04px" class="cls_007"><span class="cls_007">$10,164</span></div>
+<div style="position:absolute;left:57.84px;top:223.36px" class="cls_007"><span class="cls_007">Recreation  fees</span></div>
+<div style="position:absolute;left:64.56px;top:232.96px" class="cls_007"><span class="cls_007">Recreation  class  fees</span></div>
+<div style="position:absolute;left:330.08px;top:232.72px" class="cls_007"><span class="cls_007">1,623,004</span></div>
+<div style="position:absolute;left:64.56px;top:242.56px" class="cls_007"><span class="cls_007">OYA  sports  fees</span></div>
+<div style="position:absolute;left:335.30px;top:242.32px" class="cls_007"><span class="cls_007">251,534</span></div>
+<div style="position:absolute;left:65.04px;top:252.16px" class="cls_007"><span class="cls_007">Sports  fields  rentals</span></div>
+<div style="position:absolute;left:335.81px;top:251.92px" class="cls_007"><span class="cls_007">516,063</span></div>
+<div style="position:absolute;left:64.80px;top:261.76px" class="cls_007"><span class="cls_007">Other</span></div>
+<div style="position:absolute;left:336.33px;top:261.52px" class="cls_007"><span class="cls_007">193,518</span></div>
+<div style="position:absolute;left:58.32px;top:271.36px" class="cls_007"><span class="cls_007">Service  fees</span></div>
+<div style="position:absolute;left:64.80px;top:280.96px" class="cls_007"><span class="cls_007">Vehicle  fees  and  parking  fines</span></div>
+<div style="position:absolute;left:336.33px;top:280.72px" class="cls_007"><span class="cls_007">110,859</span></div>
+<div style="position:absolute;left:64.56px;top:290.56px" class="cls_007"><span class="cls_007">NPDES</span></div>
+<div style="position:absolute;left:64.80px;top:300.16px" class="cls_007"><span class="cls_007">Building  inspection</span></div>
+<div style="position:absolute;left:336.04px;top:299.92px" class="cls_007"><span class="cls_007">707,448</span></div>
+<div style="position:absolute;left:64.80px;top:309.76px" class="cls_007"><span class="cls_007">Planning</span></div>
+<div style="position:absolute;left:336.31px;top:309.52px" class="cls_007"><span class="cls_007">530,473</span></div>
+<div style="position:absolute;left:64.80px;top:319.36px" class="cls_007"><span class="cls_007">Public  works  and  engineering</span></div>
+<div style="position:absolute;left:336.57px;top:319.12px" class="cls_007"><span class="cls_007">131,434</span></div>
+<div style="position:absolute;left:64.80px;top:328.96px" class="cls_007"><span class="cls_007">Police</span></div>
+<div style="position:absolute;left:339.87px;top:328.72px" class="cls_007"><span class="cls_007">21,313</span></div>
+<div style="position:absolute;left:58.56px;top:338.56px" class="cls_007"><span class="cls_007">Other  agencies</span></div>
+<div style="position:absolute;left:65.04px;top:348.16px" class="cls_007"><span class="cls_007">Federal</span></div>
+<div style="position:absolute;left:425.57px;top:347.92px" class="cls_007"><span class="cls_007">$460,393</span></div>
+<div style="position:absolute;left:65.52px;top:357.76px" class="cls_007"><span class="cls_007">State  and  local</span></div>
+<div style="position:absolute;left:430.17px;top:357.52px" class="cls_007"><span class="cls_007">126,607</span></div>
+<div style="position:absolute;left:65.04px;top:367.60px" class="cls_007"><span class="cls_007">Gasoline  taxes</span></div>
+<div style="position:absolute;left:65.04px;top:376.96px" class="cls_007"><span class="cls_007">Homeowners  tax  reimbursement</span></div>
+<div style="position:absolute;left:340.13px;top:376.96px" class="cls_007"><span class="cls_007">32,800</span></div>
+<div style="position:absolute;left:65.28px;top:386.80px" class="cls_007"><span class="cls_007">CCTA  return  to  source</span></div>
+<div style="position:absolute;left:58.56px;top:396.40px" class="cls_007"><span class="cls_007">Development  impact  fees</span></div>
+<div style="position:absolute;left:58.80px;top:406.00px" class="cls_007"><span class="cls_007">Miscellaneous</span></div>
+<div style="position:absolute;left:337.05px;top:405.76px" class="cls_007"><span class="cls_007">104,267</span></div>
+<div style="position:absolute;left:424.17px;top:405.76px" class="cls_007"><span class="cls_007">1,244,861</span></div>
+<div style="position:absolute;left:65.28px;top:420.16px" class="cls_007"><span class="cls_007">Total  Revenues</span></div>
+<div style="position:absolute;left:322.11px;top:419.92px" class="cls_007"><span class="cls_007">$14,898,308</span></div>
+<div style="position:absolute;left:424.17px;top:419.68px" class="cls_007"><span class="cls_007">1,831,861</span></div>
+<div style="position:absolute;left:527.61px;top:419.68px" class="cls_007"><span class="cls_007">10,164</span></div>
+<div style="position:absolute;left:52.08px;top:434.32px" class="cls_007"><span class="cls_007">Expenditures</span></div>
+<div style="position:absolute;left:59.04px;top:443.20px" class="cls_007"><span class="cls_007">Current:</span></div>
+<div style="position:absolute;left:65.76px;top:453.04px" class="cls_007"><span class="cls_007">City  management</span></div>
+<div style="position:absolute;left:336.26px;top:452.80px" class="cls_007"><span class="cls_007">469,856</span></div>
+<div style="position:absolute;left:65.52px;top:462.64px" class="cls_007"><span class="cls_007">City  attorney</span></div>
+<div style="position:absolute;left:336.28px;top:462.40px" class="cls_007"><span class="cls_007">349,182</span></div>
+<div style="position:absolute;left:65.52px;top:472.24px" class="cls_007"><span class="cls_007">City  clerk</span></div>
+<div style="position:absolute;left:336.26px;top:472.00px" class="cls_007"><span class="cls_007">259,615</span></div>
+<div style="position:absolute;left:65.52px;top:481.36px" class="cls_007"><span class="cls_007">Administrative  services</span></div>
+<div style="position:absolute;left:337.03px;top:481.60px" class="cls_007"><span class="cls_007">831,529</span></div>
+<div style="position:absolute;left:65.52px;top:491.44px" class="cls_007"><span class="cls_007">Parks  and  recreation</span></div>
+<div style="position:absolute;left:330.51px;top:491.20px" class="cls_007"><span class="cls_007">2,901,696</span></div>
+<div style="position:absolute;left:65.52px;top:501.04px" class="cls_007"><span class="cls_007">Public  works  and  engineering</span></div>
+<div style="position:absolute;left:331.29px;top:500.80px" class="cls_007"><span class="cls_007">1,518,182</span></div>
+<div style="position:absolute;left:65.52px;top:510.64px" class="cls_007"><span class="cls_007">Police  services</span></div>
+<div style="position:absolute;left:330.53px;top:510.40px" class="cls_007"><span class="cls_007">3,967,177</span></div>
+<div style="position:absolute;left:65.76px;top:520.24px" class="cls_007"><span class="cls_007">Planning</span></div>
+<div style="position:absolute;left:336.76px;top:520.00px" class="cls_007"><span class="cls_007">909,978</span></div>
+<div style="position:absolute;left:65.76px;top:529.84px" class="cls_007"><span class="cls_007">Capital  improvements</span></div>
+<div style="position:absolute;left:430.65px;top:529.60px" class="cls_007"><span class="cls_007">183,480</span></div>
+<div style="position:absolute;left:65.76px;top:539.44px" class="cls_007"><span class="cls_007">Lighting  and  landscaping  district</span></div>
+<div style="position:absolute;left:65.76px;top:549.04px" class="cls_007"><span class="cls_007">Library  operations</span></div>
+<div style="position:absolute;left:340.60px;top:548.80px" class="cls_007"><span class="cls_007">39,971</span></div>
+<div style="position:absolute;left:52.56px;top:558.64px" class="cls_007"><span class="cls_007">Capital  outlay</span></div>
+<div style="position:absolute;left:341.08px;top:558.40px" class="cls_007"><span class="cls_007">78,288</span></div>
+<div style="position:absolute;left:430.39px;top:558.40px" class="cls_007"><span class="cls_007">596,610</span></div>
+<div style="position:absolute;left:59.28px;top:568.48px" class="cls_007"><span class="cls_007">Debt  Service:</span></div>
+<div style="position:absolute;left:66.00px;top:577.84px" class="cls_007"><span class="cls_007">Interest  and  fiscal  charges</span></div>
+<div style="position:absolute;left:337.01px;top:577.84px" class="cls_007"><span class="cls_007">306,193</span></div>
+<div style="position:absolute;left:66.00px;top:587.68px" class="cls_007"><span class="cls_007">Principal</span></div>
+<div style="position:absolute;left:337.01px;top:587.20px" class="cls_007"><span class="cls_007">300,000</span></div>
+<div style="position:absolute;left:72.72px;top:601.84px" class="cls_007"><span class="cls_007">Total  Expenditures</span></div>
+<div style="position:absolute;left:327.70px;top:601.60px" class="cls_007"><span class="cls_007">11,931,667</span></div>
+<div style="position:absolute;left:430.36px;top:601.60px" class="cls_007"><span class="cls_007">780,090</span></div>
+<div style="position:absolute;left:52.80px;top:616.00px" class="cls_007"><span class="cls_007">Excess  (deficiency)  of  revenues  over  expenditures</span></div>
+<div style="position:absolute;left:330.74px;top:615.76px" class="cls_007"><span class="cls_007">2,966,641</span></div>
+<div style="position:absolute;left:424.89px;top:615.76px" class="cls_007"><span class="cls_007">1,051,771</span></div>
+<div style="position:absolute;left:528.58px;top:615.52px" class="cls_007"><span class="cls_007">10,164</span></div>
+<div style="position:absolute;left:53.04px;top:630.16px" class="cls_007"><span class="cls_007">Other  financing  sources  (uses):</span></div>
+<div style="position:absolute;left:59.52px;top:639.76px" class="cls_007"><span class="cls_007">Transfers  in  (Note  7)</span></div>
+<div style="position:absolute;left:337.75px;top:639.52px" class="cls_007"><span class="cls_007">850,000</span></div>
+<div style="position:absolute;left:425.13px;top:639.52px" class="cls_007"><span class="cls_007">1,750,000</span></div>
+<div style="position:absolute;left:59.52px;top:649.36px" class="cls_007"><span class="cls_007">Transfers  out  (Note  7)</span></div>
+<div style="position:absolute;left:328.41px;top:649.12px" class="cls_007"><span class="cls_007">(1,788,948)</span></div>
+<div style="position:absolute;left:427.78px;top:649.12px" class="cls_007"><span class="cls_007">(350,000)</span></div>
+<div style="position:absolute;left:66.24px;top:663.52px" class="cls_007"><span class="cls_007">Total  other  financing  sources  (uses)</span></div>
+<div style="position:absolute;left:334.65px;top:663.52px" class="cls_007"><span class="cls_007">(938,948)</span></div>
+<div style="position:absolute;left:425.13px;top:663.28px" class="cls_007"><span class="cls_007">1,400,000</span></div>
+<div style="position:absolute;left:66.00px;top:680.08px" class="cls_007"><span class="cls_007">Net  changes  in  fund  balance</span></div>
+<div style="position:absolute;left:331.23px;top:680.08px" class="cls_007"><span class="cls_007">2,027,693</span></div>
+<div style="position:absolute;left:424.35px;top:679.84px" class="cls_007"><span class="cls_007">2,451,771</span></div>
+<div style="position:absolute;left:528.81px;top:679.84px" class="cls_007"><span class="cls_007">10,164</span></div>
+<div style="position:absolute;left:53.04px;top:696.64px" class="cls_007"><span class="cls_007">Fund  balance  -  beginning  of  year</span></div>
+<div style="position:absolute;left:331.48px;top:696.40px" class="cls_007"><span class="cls_007">6,938,615</span></div>
+<div style="position:absolute;left:428.02px;top:696.40px" class="cls_007"><span class="cls_007">(729,265)</span></div>
+<div style="position:absolute;left:518.49px;top:696.16px" class="cls_007"><span class="cls_007">1,512,976</span></div>
+<div style="position:absolute;left:53.04px;top:710.56px" class="cls_007"><span class="cls_007">Fund  balance  -  end  of  year</span></div>
+<div style="position:absolute;left:327.65px;top:710.32px" class="cls_007"><span class="cls_007">$8,966,308</span></div>
+<div style="position:absolute;left:420.76px;top:710.32px" class="cls_007"><span class="cls_007">$1,722,506</span></div>
+<div style="position:absolute;left:514.12px;top:710.32px" class="cls_007"><span class="cls_007">$1,523,140</span></div>
+<div style="position:absolute;left:228.00px;top:724.72px" class="cls_007"><span class="cls_007">See  accompanying  notes  to  financial  statements</span></div>
+<div style="position:absolute;left:301.20px;top:753.20px" class="cls_010"><span class="cls_010">26</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:8020px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:152.99px;top:94.32px" class="cls_017"><span class="cls_017">Major  Funds</span></div>
+<div style="position:absolute;left:320.55px;top:113.76px" class="cls_017"><span class="cls_017">Nonmajor</span></div>
+<div style="position:absolute;left:415.20px;top:113.76px" class="cls_017"><span class="cls_017">Total</span></div>
+<div style="position:absolute;left:155.04px;top:123.12px" class="cls_017"><span class="cls_017">Road  Bonds</span></div>
+<div style="position:absolute;left:236.64px;top:123.12px" class="cls_017"><span class="cls_017">Road  Bonds</span></div>
+<div style="position:absolute;left:315.60px;top:123.36px" class="cls_017"><span class="cls_017">Governmental</span></div>
+<div style="position:absolute;left:400.80px;top:123.36px" class="cls_017"><span class="cls_017">Governmental</span></div>
+<div style="position:absolute;left:82.32px;top:132.96px" class="cls_017"><span class="cls_017">CCTA</span></div>
+<div style="position:absolute;left:166.56px;top:132.72px" class="cls_017"><span class="cls_017">2014</span></div>
+<div style="position:absolute;left:248.40px;top:132.96px" class="cls_017"><span class="cls_017">2016</span></div>
+<div style="position:absolute;left:328.32px;top:132.96px" class="cls_017"><span class="cls_017">Funds</span></div>
+<div style="position:absolute;left:413.76px;top:132.96px" class="cls_017"><span class="cls_017">Funds</span></div>
+<div style="position:absolute;left:335.28px;top:166.32px" class="cls_017"><span class="cls_017">$2,435,458</span></div>
+<div style="position:absolute;left:419.80px;top:166.32px" class="cls_017"><span class="cls_017">$9,368,066</span></div>
+<div style="position:absolute;left:424.56px;top:175.92px" class="cls_017"><span class="cls_017">2,281,872</span></div>
+<div style="position:absolute;left:425.28px;top:185.52px" class="cls_017"><span class="cls_017">1,139,414</span></div>
+<div style="position:absolute;left:435.12px;top:195.12px" class="cls_017"><span class="cls_017">58,658</span></div>
+<div style="position:absolute;left:430.80px;top:204.96px" class="cls_017"><span class="cls_017">316,381</span></div>
+<div style="position:absolute;left:104.64px;top:214.56px" class="cls_017"><span class="cls_017">$1,326</span></div>
+<div style="position:absolute;left:177.17px;top:214.56px" class="cls_017"><span class="cls_017">$113,647</span></div>
+<div style="position:absolute;left:258.76px;top:214.56px" class="cls_017"><span class="cls_017">$434,819</span></div>
+<div style="position:absolute;left:348.02px;top:214.32px" class="cls_017"><span class="cls_017">47,008</span></div>
+<div style="position:absolute;left:430.13px;top:214.56px" class="cls_017"><span class="cls_017">553,626</span></div>
+<div style="position:absolute;left:425.52px;top:233.76px" class="cls_017"><span class="cls_017">1,623,004</span></div>
+<div style="position:absolute;left:430.80px;top:243.36px" class="cls_017"><span class="cls_017">251,534</span></div>
+<div style="position:absolute;left:431.28px;top:252.96px" class="cls_017"><span class="cls_017">516,063</span></div>
+<div style="position:absolute;left:431.76px;top:262.56px" class="cls_017"><span class="cls_017">193,518</span></div>
+<div style="position:absolute;left:431.76px;top:281.76px" class="cls_017"><span class="cls_017">110,859</span></div>
+<div style="position:absolute;left:345.36px;top:291.36px" class="cls_017"><span class="cls_017">354,538</span></div>
+<div style="position:absolute;left:430.12px;top:291.36px" class="cls_017"><span class="cls_017">354,538</span></div>
+<div style="position:absolute;left:431.28px;top:300.96px" class="cls_017"><span class="cls_017">707,448</span></div>
+<div style="position:absolute;left:431.52px;top:310.56px" class="cls_017"><span class="cls_017">530,473</span></div>
+<div style="position:absolute;left:432.00px;top:320.16px" class="cls_017"><span class="cls_017">131,434</span></div>
+<div style="position:absolute;left:346.32px;top:329.76px" class="cls_017"><span class="cls_017">139,416</span></div>
+<div style="position:absolute;left:431.14px;top:329.76px" class="cls_017"><span class="cls_017">160,729</span></div>
+<div style="position:absolute;left:431.28px;top:349.20px" class="cls_017"><span class="cls_017">460,393</span></div>
+<div style="position:absolute;left:345.84px;top:358.56px" class="cls_017"><span class="cls_017">664,903</span></div>
+<div style="position:absolute;left:430.59px;top:358.56px" class="cls_017"><span class="cls_017">791,510</span></div>
+<div style="position:absolute;left:345.60px;top:368.16px" class="cls_017"><span class="cls_017">461,358</span></div>
+<div style="position:absolute;left:430.35px;top:368.40px" class="cls_017"><span class="cls_017">461,358</span></div>
+<div style="position:absolute;left:435.36px;top:378.00px" class="cls_017"><span class="cls_017">32,800</span></div>
+<div style="position:absolute;left:100.80px;top:387.60px" class="cls_017"><span class="cls_017">263,427</span></div>
+<div style="position:absolute;left:430.34px;top:387.60px" class="cls_017"><span class="cls_017">263,427</span></div>
+<div style="position:absolute;left:345.84px;top:397.20px" class="cls_017"><span class="cls_017">659,087</span></div>
+<div style="position:absolute;left:430.60px;top:397.20px" class="cls_017"><span class="cls_017">659,087</span></div>
+<div style="position:absolute;left:182.40px;top:406.80px" class="cls_017"><span class="cls_017">256,967</span></div>
+<div style="position:absolute;left:345.16px;top:406.80px" class="cls_017"><span class="cls_017">796,992</span></div>
+<div style="position:absolute;left:424.35px;top:406.80px" class="cls_017"><span class="cls_017">2,403,087</span></div>
+<div style="position:absolute;left:101.04px;top:420.96px" class="cls_017"><span class="cls_017">264,753</span></div>
+<div style="position:absolute;left:181.48px;top:420.96px" class="cls_017"><span class="cls_017">370,614</span></div>
+<div style="position:absolute;left:263.07px;top:420.96px" class="cls_017"><span class="cls_017">434,819</span></div>
+<div style="position:absolute;left:339.17px;top:420.96px" class="cls_017"><span class="cls_017">5,558,760</span></div>
+<div style="position:absolute;left:420.26px;top:420.96px" class="cls_017"><span class="cls_017">23,369,279</span></div>
+<div style="position:absolute;left:431.52px;top:453.84px" class="cls_017"><span class="cls_017">469,856</span></div>
+<div style="position:absolute;left:431.52px;top:463.44px" class="cls_017"><span class="cls_017">349,182</span></div>
+<div style="position:absolute;left:431.52px;top:473.04px" class="cls_017"><span class="cls_017">259,615</span></div>
+<div style="position:absolute;left:432.00px;top:482.64px" class="cls_017"><span class="cls_017">831,529</span></div>
+<div style="position:absolute;left:106.08px;top:492.24px" class="cls_017"><span class="cls_017">10,215</span></div>
+<div style="position:absolute;left:349.25px;top:492.24px" class="cls_017"><span class="cls_017">35,900</span></div>
+<div style="position:absolute;left:424.59px;top:492.24px" class="cls_017"><span class="cls_017">2,947,811</span></div>
+<div style="position:absolute;left:191.28px;top:501.84px" class="cls_017"><span class="cls_017">5,033</span></div>
+<div style="position:absolute;left:264.09px;top:501.84px" class="cls_017"><span class="cls_017">157,400</span></div>
+<div style="position:absolute;left:345.16px;top:501.84px" class="cls_017"><span class="cls_017">380,541</span></div>
+<div style="position:absolute;left:424.58px;top:501.84px" class="cls_017"><span class="cls_017">2,061,156</span></div>
+<div style="position:absolute;left:346.08px;top:511.44px" class="cls_017"><span class="cls_017">229,648</span></div>
+<div style="position:absolute;left:424.58px;top:511.44px" class="cls_017"><span class="cls_017">4,196,825</span></div>
+<div style="position:absolute;left:354.96px;top:521.04px" class="cls_017"><span class="cls_017">1,183</span></div>
+<div style="position:absolute;left:431.08px;top:521.04px" class="cls_017"><span class="cls_017">911,161</span></div>
+<div style="position:absolute;left:432.72px;top:530.64px" class="cls_017"><span class="cls_017">183,480</span></div>
+<div style="position:absolute;left:346.32px;top:540.24px" class="cls_017"><span class="cls_017">331,063</span></div>
+<div style="position:absolute;left:431.09px;top:540.48px" class="cls_017"><span class="cls_017">331,063</span></div>
+<div style="position:absolute;left:346.08px;top:549.84px" class="cls_017"><span class="cls_017">400,376</span></div>
+<div style="position:absolute;left:430.83px;top:549.84px" class="cls_017"><span class="cls_017">440,347</span></div>
+<div style="position:absolute;left:101.28px;top:559.44px" class="cls_017"><span class="cls_017">480,130</span></div>
+<div style="position:absolute;left:175.96px;top:559.44px" class="cls_017"><span class="cls_017">7,140,866</span></div>
+<div style="position:absolute;left:257.31px;top:559.44px" class="cls_017"><span class="cls_017">2,340,929</span></div>
+<div style="position:absolute;left:339.15px;top:559.44px" class="cls_017"><span class="cls_017">2,835,655</span></div>
+<div style="position:absolute;left:421.53px;top:559.44px" class="cls_017"><span class="cls_017">13,472,478</span></div>
+<div style="position:absolute;left:341.04px;top:578.88px" class="cls_017"><span class="cls_017">1,421,078</span></div>
+<div style="position:absolute;left:425.61px;top:578.88px" class="cls_017"><span class="cls_017">1,727,271</span></div>
+<div style="position:absolute;left:346.32px;top:588.48px" class="cls_017"><span class="cls_017">920,000</span></div>
+<div style="position:absolute;left:425.85px;top:588.48px" class="cls_017"><span class="cls_017">1,220,000</span></div>
+<div style="position:absolute;left:101.52px;top:602.64px" class="cls_017"><span class="cls_017">490,345</span></div>
+<div style="position:absolute;left:176.20px;top:602.64px" class="cls_017"><span class="cls_017">7,145,899</span></div>
+<div style="position:absolute;left:257.55px;top:602.64px" class="cls_017"><span class="cls_017">2,498,329</span></div>
+<div style="position:absolute;left:339.64px;top:602.64px" class="cls_017"><span class="cls_017">6,555,444</span></div>
+<div style="position:absolute;left:420.74px;top:602.64px" class="cls_017"><span class="cls_017">29,401,774</span></div>
+<div style="position:absolute;left:98.88px;top:617.04px" class="cls_017"><span class="cls_017">(225,592)</span></div>
+<div style="position:absolute;left:173.62px;top:616.80px" class="cls_017"><span class="cls_017">(6,775,285)</span></div>
+<div style="position:absolute;left:255.22px;top:616.80px" class="cls_017"><span class="cls_017">(2,063,510)</span></div>
+<div style="position:absolute;left:343.06px;top:616.80px" class="cls_017"><span class="cls_017">(996,684)</span></div>
+<div style="position:absolute;left:422.49px;top:616.80px" class="cls_017"><span class="cls_017">(6,032,495)</span></div>
+<div style="position:absolute;left:346.32px;top:640.56px" class="cls_017"><span class="cls_017">270,343</span></div>
+<div style="position:absolute;left:425.07px;top:640.80px" class="cls_017"><span class="cls_017">2,870,343</span></div>
+<div style="position:absolute;left:343.92px;top:650.16px" class="cls_017"><span class="cls_017">(500,000)</span></div>
+<div style="position:absolute;left:422.49px;top:650.40px" class="cls_017"><span class="cls_017">(2,638,948)</span></div>
+<div style="position:absolute;left:343.92px;top:664.56px" class="cls_017"><span class="cls_017">(229,657)</span></div>
+<div style="position:absolute;left:431.31px;top:664.56px" class="cls_017"><span class="cls_017">231,395</span></div>
+<div style="position:absolute;left:99.12px;top:681.12px" class="cls_017"><span class="cls_017">(225,592)</span></div>
+<div style="position:absolute;left:173.61px;top:681.12px" class="cls_017"><span class="cls_017">(6,775,285)</span></div>
+<div style="position:absolute;left:255.46px;top:680.88px" class="cls_017"><span class="cls_017">(2,063,510)</span></div>
+<div style="position:absolute;left:337.30px;top:680.88px" class="cls_017"><span class="cls_017">(1,226,341)</span></div>
+<div style="position:absolute;left:422.74px;top:681.12px" class="cls_017"><span class="cls_017">(5,801,100)</span></div>
+<div style="position:absolute;left:101.76px;top:697.44px" class="cls_017"><span class="cls_017">277,726</span></div>
+<div style="position:absolute;left:173.14px;top:697.44px" class="cls_017"><span class="cls_017">10,151,818</span></div>
+<div style="position:absolute;left:253.71px;top:697.44px" class="cls_017"><span class="cls_017">24,206,460</span></div>
+<div style="position:absolute;left:339.88px;top:697.44px" class="cls_017"><span class="cls_017">9,537,083</span></div>
+<div style="position:absolute;left:421.49px;top:697.44px" class="cls_017"><span class="cls_017">51,895,413</span></div>
+<div style="position:absolute;left:102.00px;top:711.36px" class="cls_018"><span class="cls_018">$52,134</span></div>
+<div style="position:absolute;left:172.60px;top:711.60px" class="cls_017"><span class="cls_017">$3,376,533</span></div>
+<div style="position:absolute;left:250.12px;top:711.36px" class="cls_017"><span class="cls_017">$22,142,950</span></div>
+<div style="position:absolute;left:336.29px;top:711.36px" class="cls_017"><span class="cls_017">$8,310,742</span></div>
+<div style="position:absolute;left:417.65px;top:711.36px" class="cls_017"><span class="cls_017">$46,094,313</span></div>
+<div style="position:absolute;left:298.56px;top:754.64px" class="cls_010"><span class="cls_010">27</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8822px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:261.71px;top:42.96px" class="cls_016"><span class="cls_016">CITY  OF  ORINDA</span></div>
+<div style="position:absolute;left:259.68px;top:56.88px" class="cls_016"><span class="cls_016">Reconciliation  of  the</span></div>
+<div style="position:absolute;left:130.08px;top:70.80px" class="cls_016"><span class="cls_016">NET  CHANGE  IN  FUND  BALANCES  -  TOTAL  GOVERNMENTAL  FUNDS</span></div>
+<div style="position:absolute;left:288.00px;top:84.96px" class="cls_016"><span class="cls_016">with  the</span></div>
+<div style="position:absolute;left:234.24px;top:99.12px" class="cls_016"><span class="cls_016">STATEMENT  OF  ACTIVITIES</span></div>
+<div style="position:absolute;left:212.16px;top:113.04px" class="cls_016"><span class="cls_016">FOR  THE  YEAR  ENDED  JUNE  30,  2018</span></div>
+<div style="position:absolute;left:52.08px;top:166.56px" class="cls_016"><span class="cls_016">Changes  in  fund  balances  of  governmental  funds</span></div>
+<div style="position:absolute;left:507.12px;top:167.04px" class="cls_016"><span class="cls_016">($5,801,100)</span></div>
+<div style="position:absolute;left:51.60px;top:193.44px" class="cls_016"><span class="cls_016">Amounts  reported  for  governmental  activities  in  the  statement  of</span></div>
+<div style="position:absolute;left:63.60px;top:207.12px" class="cls_016"><span class="cls_016">activities  are  different  because:</span></div>
+<div style="position:absolute;left:63.36px;top:234.00px" class="cls_016"><span class="cls_016">CAPITAL  ASSETS  TRANSACTIONS</span></div>
+<div style="position:absolute;left:63.36px;top:253.20px" class="cls_016"><span class="cls_016">When  capital  assets  that  are  to  be  used  in  governmental  activities  are  purchased</span></div>
+<div style="position:absolute;left:74.88px;top:266.88px" class="cls_016"><span class="cls_016">or  constructed,  the  resources  expended  for  those  assets  are  reported  as</span></div>
+<div style="position:absolute;left:74.88px;top:280.32px" class="cls_016"><span class="cls_016">expenditures  in  governmental  funds.  However,  in  the  statement  of  activities,</span></div>
+<div style="position:absolute;left:74.16px;top:293.76px" class="cls_016"><span class="cls_016">the  cost  of  those  assets  is  allocated  over  their  estimated  useful  lives  and  reported</span></div>
+<div style="position:absolute;left:74.88px;top:307.20px" class="cls_016"><span class="cls_016">as  depreciation  expense.  As  a  result,  fund  balance  decreases  by  the  amount  of</span></div>
+<div style="position:absolute;left:74.40px;top:320.64px" class="cls_016"><span class="cls_016">financial  resources  expenses,  whereas  net  position  decrease  by  the  amount  of</span></div>
+<div style="position:absolute;left:74.64px;top:334.08px" class="cls_016"><span class="cls_016">depreciation  expense  charged  for  the  year.</span></div>
+<div style="position:absolute;left:86.16px;top:361.20px" class="cls_016"><span class="cls_016">Capital  asset  additions</span></div>
+<div style="position:absolute;left:513.19px;top:361.44px" class="cls_016"><span class="cls_016">13,410,450</span></div>
+<div style="position:absolute;left:85.68px;top:374.64px" class="cls_016"><span class="cls_016">Depreciation  expense</span></div>
+<div style="position:absolute;left:511.68px;top:374.88px" class="cls_016"><span class="cls_016">(2,304,439)</span></div>
+<div style="position:absolute;left:62.64px;top:401.52px" class="cls_016"><span class="cls_016">LONG-TERM  DEBT  PROCEEDS  AND  PAYMENTS</span></div>
+<div style="position:absolute;left:62.64px;top:420.72px" class="cls_016"><span class="cls_016">Bond  proceeds  provide  current  fmancial  resources  to  governmental  funds,  but</span></div>
+<div style="position:absolute;left:74.40px;top:434.16px" class="cls_016"><span class="cls_016">issuing  debt  increases  long-term  liabilities  in  the  Statement  of  Net  Position.</span></div>
+<div style="position:absolute;left:74.16px;top:447.60px" class="cls_016"><span class="cls_016">Repayment  of  bond  principal  is  an  expenditure  in  the  governmental  funds,  but</span></div>
+<div style="position:absolute;left:73.68px;top:461.04px" class="cls_016"><span class="cls_016">the  repayment  reduces  long-term  liabilities  in  the  statement  of  net  position.</span></div>
+<div style="position:absolute;left:85.20px;top:487.92px" class="cls_016"><span class="cls_016">Repayment  of  debt  principal</span></div>
+<div style="position:absolute;left:515.76px;top:488.16px" class="cls_016"><span class="cls_016">1,220,000</span></div>
+<div style="position:absolute;left:85.20px;top:501.60px" class="cls_016"><span class="cls_016">Amortization  of  bond  premium</span></div>
+<div style="position:absolute;left:522.96px;top:501.84px" class="cls_016"><span class="cls_016">167,384</span></div>
+<div style="position:absolute;left:62.40px;top:528.48px" class="cls_016"><span class="cls_016">ACCRUAL  OF  NON-CURRENT  ITEMS</span></div>
+<div style="position:absolute;left:62.40px;top:547.68px" class="cls_016"><span class="cls_016">The  amounts  below  included  in  the  Statement  of  Activities  do  not  provide  or</span></div>
+<div style="position:absolute;left:73.44px;top:561.36px" class="cls_016"><span class="cls_016">require  the  use  of  current  financial  resources  and  therefore  are  not  reported  as</span></div>
+<div style="position:absolute;left:73.44px;top:575.04px" class="cls_016"><span class="cls_016">revenue  of  expenditures  in  govenunental  funds  (net  change).</span></div>
+<div style="position:absolute;left:85.20px;top:601.92px" class="cls_016"><span class="cls_016">Compensated  absences</span></div>
+<div style="position:absolute;left:523.44px;top:602.16px" class="cls_016"><span class="cls_016">(18,012)</span></div>
+<div style="position:absolute;left:85.20px;top:615.36px" class="cls_016"><span class="cls_016">Total  OPEB  Liabilities  and  related  deferred  inflow  of  resources</span></div>
+<div style="position:absolute;left:523.44px;top:615.60px" class="cls_016"><span class="cls_016">(50,783)</span></div>
+<div style="position:absolute;left:61.92px;top:642.48px" class="cls_016"><span class="cls_016">Internal  service  funds  are  used  by  management  to  charge  the  costs  of  certain</span></div>
+<div style="position:absolute;left:73.68px;top:655.92px" class="cls_016"><span class="cls_016">activities,  such  as  equipment  management,  to  individual  funds.  The  net</span></div>
+<div style="position:absolute;left:73.20px;top:669.36px" class="cls_016"><span class="cls_016">revenues  (expenses)  of  the  internal  services  funds  is  reported  with</span></div>
+<div style="position:absolute;left:73.44px;top:683.04px" class="cls_016"><span class="cls_016">governmental  activities.</span></div>
+<div style="position:absolute;left:517.49px;top:683.28px" class="cls_016"><span class="cls_016">(141,909)</span></div>
+<div style="position:absolute;left:50.64px;top:709.68px" class="cls_016"><span class="cls_016">Changes  in  net  position  of  governmental  activities</span></div>
+<div style="position:absolute;left:509.28px;top:709.92px" class="cls_016"><span class="cls_016">$6,481,591</span></div>
+<div style="position:absolute;left:210.96px;top:738.24px" class="cls_016"><span class="cls_016">See  accompanying  notes  to  financial  statements</span></div>
+<div style="position:absolute;left:296.88px;top:752.40px" class="cls_016"><span class="cls_016">28</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-305px;top:9624px;width:611px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:225.08px;top:72.72px" class="cls_019"><span class="cls_019">MAJOR  PROPRIETARY  FUNDS</span></div>
+<div style="position:absolute;left:73.92px;top:100.08px" class="cls_019"><span class="cls_019">PROPRIETARY  FUNDS</span></div>
+<div style="position:absolute;left:74.40px;top:125.52px" class="cls_019"><span class="cls_019">Proprietary  funds  recognize  operating  revenues  and  expenses  separately  from  nonoperating  items.  The</span></div>
+<div style="position:absolute;left:74.40px;top:138.24px" class="cls_019"><span class="cls_019">internal  service  funds  are  the  City's  only  proprietary  funds,  and  include  charges  to  the  City's  other  funds</span></div>
+<div style="position:absolute;left:74.16px;top:150.72px" class="cls_019"><span class="cls_019">for  services  as  operating  revenue.  Operating  expenses  include  items  such  as  depreciation  on  capital  assets,</span></div>
+<div style="position:absolute;left:74.16px;top:163.44px" class="cls_019"><span class="cls_019">administrative  expenses,  and  insurance  as  operating  expenses.  All  other  revenues  and  expenses  not</span></div>
+<div style="position:absolute;left:74.16px;top:176.16px" class="cls_019"><span class="cls_019">meeting  these  definitions  are  reported  as  nonoperating  items.</span></div>
+<div style="position:absolute;left:303.60px;top:738.24px" class="cls_019"><span class="cls_019">29</span></div>
+</div>
+
+<div style="display:none">
+ <ix:header>
+ <ix:references>
+      <link:schemaRef xlink:type="simple"  xlink:href="https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC1/cafr_2019-01-16.xsd"></link:schemaRef>
+ </ix:references>
+ <ix:resources>
+   <xbrli:unit id="ISO4217_USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+   </xbrli:unit>
+   
+   <xbrli:context id="_ctx1">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier></xbrli:entity>
+      <xbrli:period><xbrli:startDate>2017-07-01</xbrli:startDate><xbrli:endDate>2018-06-30</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   
+   <xbrli:context id="_ctx2">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier></xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   
+   <xbrli:context id="_ctx3g">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:LiquidityAxis">cafr:CurrentMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   
+   <xbrli:context id="_ctx3">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:LiquidityAxis">cafr:CurrentMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   
+   <xbrli:context id="_ctx4">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:LiquidityAxis">cafr:CurrentMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfDueToDueFromAxis">cafr:OtherGovernmentMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   
+    <xbrli:context id="_ctx5g">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:LiquidityAxis">cafr:NoncurrentMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+
+    <xbrli:context id="_ctx6g">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+  
+   <xbrli:context id="_ctx7">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:startDate>2017-07-01</xbrli:startDate><xbrli:endDate>2018-06-30</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx8">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:AccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2017-07-01</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx9">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx10">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:startDate>2017-07-01</xbrli:startDate><xbrli:endDate>2018-06-30</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx11">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2018-06-30</xbrli:instant></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx12">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GovernmentalFundsMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:startDate>2017-07-01</xbrli:startDate><xbrli:endDate>2018-06-30</xbrli:endDate></xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="_ctx13">
+      <xbrli:entity><xbrli:identifier scheme="https://xbrl.us/slg/cafr">05200740100000</xbrli:identifier>
+         <xbrli:segment>
+            <xbrldi:explicitMember dimension="cafr:FinancialReportingEntityAxis">cafr:PrimaryGovernmentActivitiesMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:BasisOfAccountingAxis">cafr:ModifiedAccrualBasisOfAccountingMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ActivityTypeAxis">cafr:GovernmentalTypeActivityMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:ClassificationOfFundTypeAxis">cafr:GeneralFundMember</xbrldi:explicitMember>
+            <xbrldi:explicitMember dimension="cafr:MagnitudeAxis">cafr:MajorMember</xbrldi:explicitMember>
+         </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period><xbrli:instant>2017-07-01</xbrli:instant></xbrli:period>
+   </xbrli:context>
+ </ix:resources>
+ </ix:header>
+ </div>
+
+</body>
+</html>
