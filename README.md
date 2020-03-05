@@ -1,7 +1,7 @@
 # Comprehensive Annual Financial Reporting Taxonomy (CAFR)
 ## Demonstration Release
 
-This Demonstration Release illustrates how data standards can be created and used in the municipal marketplace. The standards were developed by the [XBRL US State and Local Government Disclosure Modernization Working Group](https://xbrl.us/cafr) as a pilot to test the premise that standards can improve efficiencies by automating the process of creating, collecting, and analyzing government data. The Working Group [solicited feedback during a 60-day public review period ending March 18, 2019](https://xbrl.us/cafr-demo), and received comments related to:
+This Demonstration Release illustrates how data standards can be created and used in the municipal marketplace. The standards were developed by the [XBRL US Standard Government Reporting Working Group](https://xbrl.us/sgr-working-group) as a pilot to test the premise that standards can improve efficiencies by automating the process of creating, collecting, and analyzing government data. During the last public review, the Working Group [solicited feedback during a 60-day period ending March 18, 2019](https://xbrl.us/cafr-demo), and received comments related to:
 
 -  **Definitions and references for the elements.** Are the definitions accurate? Are references appropriate? Should revisions or modifications be made?
 -  **Coverage.** Are elements missing from these statements?
