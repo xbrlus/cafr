@@ -2,8 +2,8 @@
  "instance": {
   "College-of-DuPage-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
-   "axisStandard": 2,
-   "contextCount": 10,
+   "axisStandard": 1,
+   "contextCount": 4,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -107,151 +107,25 @@
    "hidden": {
     "http://xbrl.sec.gov/dei/2019-01-31": 1,
     "http://xbrl.us/2020/cafr_concept": 2,
-    "http://xbrl.us/sap/v0.1/2020-01-01/sap": 16,
-    "total": 19
+    "http://xbrl.us/sap/v0.1/2020-01-01/sap": 7,
+    "total": 10
    },
    "keyCustom": 0,
-   "keyStandard": 140,
+   "keyStandard": 135,
    "memberCustom": 0,
-   "memberStandard": 2,
+   "memberStandard": 1,
    "report": {
     "R1": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_FederalProgramNameDomain_FederalDirectStudentLoans20172018AndPrior",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "sap:FederalProgramTotalAwardsExpended",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
+     "firstAnchor": null,
      "groupType": "",
      "isDefault": "true",
-     "longName": "100 - Schedule Of Expenditures of Federal Awards",
-     "role": "http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_FederalProgramNameDomain_FederalDirectStudentLoans20172018AndPrior",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "sap:FederalProgramTotalAwardsExpended",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
-    },
-    "R10": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "cafr:OPEBPlanName",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "[900000] OPEB Table 01",
-     "role": "http://xbrl.us/2020/OPEB-role/OPEB-Table01",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630",
-      "decimals": null,
-      "first": true,
-      "lang": null,
-      "name": "cafr:OPEBPlanName",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": null,
-      "xsiNil": "false"
-     }
-    },
-    "R2": {
-     "firstAnchor": null,
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "200 - Schedule of Findings and Questioned Costs",
-     "role": "http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R3": {
-     "firstAnchor": null,
-     "groupType": "",
-     "isDefault": "false",
      "longName": "300 - General Information",
      "role": "http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R6": {
+    "R4": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -309,7 +183,7 @@
       "xsiNil": "false"
      }
     },
-    "R7": {
+    "R5": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -367,7 +241,7 @@
       "xsiNil": "false"
      }
     },
-    "R8": {
+    "R6": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -425,7 +299,7 @@
       "xsiNil": "false"
      }
     },
-    "R9": {
+    "R7": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -482,9 +356,67 @@
       "unitRef": null,
       "xsiNil": "false"
      }
+    },
+    "R8": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
+      "contextRef": "D20190630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:OPEBPlanName",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "[900000] OPEB Table 01",
+     "role": "http://xbrl.us/2020/OPEB-role/OPEB-Table01",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
+      "contextRef": "D20190630",
+      "decimals": null,
+      "first": true,
+      "lang": null,
+      "name": "cafr:OPEBPlanName",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": null,
+      "xsiNil": "false"
+     }
     }
    },
-   "segmentCount": 2,
+   "segmentCount": 1,
    "tag": {
     "PropNetPosition-entry_ProprietaryFundRevenuesExpendituresChangesInFundBalancesAbstract": {
      "auth_ref": [],
