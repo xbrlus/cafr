@@ -10,14 +10,14 @@
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleOfExpendituresOfFederalAwardsAbstract" xlink:label="loc_sap_ScheduleOfExpendituresOfFederalAwardsAbstract" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleOfExpendituresOfFederalAwardsTable" xlink:label="loc_sap_ScheduleOfExpendituresOfFederalAwardsTable" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsAbstract" xlink:to="loc_sap_ScheduleOfExpendituresOfFederalAwardsTable" order="1.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis" xlink:label="loc_sap_FederalProgramNameAxis" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsTable" xlink:to="loc_sap_FederalProgramNameAxis" order="1.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramIdentifierAxis" xlink:label="loc_sap_FederalProgramIdentifierAxis" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsTable" xlink:to="loc_sap_FederalProgramIdentifierAxis" order="1.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:label="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsTable" xlink:to="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" order="2.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalAwardingAgency" xlink:label="loc_sap_FederalAwardingAgency" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:to="loc_sap_FederalAwardingAgency" order="1.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterName" xlink:label="loc_sap_ClusterName" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:to="loc_sap_ClusterName" order="2.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalAwardingAgencyEnumerated" xlink:label="loc_sap_FederalAwardingAgencyEnumerated" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:to="loc_sap_FederalAwardingAgencyEnumerated" order="1.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterNameEnumerated" xlink:label="loc_sap_ClusterNameEnumerated" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:to="loc_sap_ClusterNameEnumerated" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_CFDANumber" xlink:label="loc_sap_CFDANumber" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfExpendituresOfFederalAwardsLineItems" xlink:to="loc_sap_CFDANumber" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_AdditionalAwardIdentification" xlink:label="loc_sap_AdditionalAwardIdentification" />
@@ -71,16 +71,16 @@
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleofFindingsandQuestionedCostsAbstract" xlink:label="loc_sap_ScheduleofFindingsandQuestionedCostsAbstract" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleOfFindingsAndQuestionedCostsTable" xlink:label="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsAbstract" xlink:to="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" order="1.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramNameAxis" xlink:label="loc_sap_FederalProgramNameAxis" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" xlink:to="loc_sap_FederalProgramNameAxis" order="1.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalProgramIdentifierAxis" xlink:label="loc_sap_FederalProgramIdentifierAxis" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" xlink:to="loc_sap_FederalProgramIdentifierAxis" order="1.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_AuditFindingsReferenceNumberAxis" xlink:label="loc_sap_AuditFindingsReferenceNumberAxis" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" xlink:to="loc_sap_AuditFindingsReferenceNumberAxis" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:label="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleOfFindingsAndQuestionedCostsTable" xlink:to="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" order="3.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalAwardingAgency" xlink:label="loc_sap_FederalAwardingAgency" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:to="loc_sap_FederalAwardingAgency" order="1.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterName" xlink:label="loc_sap_ClusterName" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:to="loc_sap_ClusterName" order="2.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_FederalAwardingAgencyEnumerated" xlink:label="loc_sap_FederalAwardingAgencyEnumerated" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:to="loc_sap_FederalAwardingAgencyEnumerated" order="1.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_ClusterNameEnumerated" xlink:label="loc_sap_ClusterNameEnumerated" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:to="loc_sap_ClusterNameEnumerated" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_MajorProgramandAuditFindingsAbstract" xlink:label="loc_sap_MajorProgramandAuditFindingsAbstract" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_sap_ScheduleofFindingsandQuestionedCostsLineItems" xlink:to="loc_sap_MajorProgramandAuditFindingsAbstract" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="sap_2020-01-01_r01.xsd#sap_MajorProgram" xlink:label="loc_sap_MajorProgram" />
