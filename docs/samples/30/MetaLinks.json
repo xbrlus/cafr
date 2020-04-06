@@ -306,11 +306,11 @@
        "html"
       ],
       "baseRef": "Joliet-Junior-College-20180630-Annual-Accounts.htm",
-      "contextRef": "I20180630_BusinessTypeActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Restricted_Cash_and_Cash_Equivalents_Noncurrent_NameOfBusinessTypeActivityDomain_Primary_Institution",
+      "contextRef": "I20180630_GovernmentalActivitiesMember_NameOfOtherRestrictedComponentsOfNetPositionDomain_Net_Position_Restricted_for_Nonexpendablescholarships_NameOfBusinessTypeActivityDomain_Component_Unit_Foundation",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:OtherNoncurrentAssets",
+      "name": "cafr:OtherRestrictedComponentsOfNetPosition",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
