@@ -8,20 +8,20 @@ Statement | CAFR04 - Governmental funds - Statement of revenues, expenditures an
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="GovBalSheet-Table02" roleURI="http://xbrl.us/2020/GovIncStmt-role/GovIncStmt-Table02">
-        <link:definition>[400000] GovIncStmt-Table02-Governmental Funds-Statement of Revenues, Expenditures and Changes in Fund Balance</link:definition>
+        <link:definition>[400000] GovIncStmt-Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balance</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
       <link:roleType id="GovBalSheet-Table05" roleURI="http://xbrl.us/2020/GovIncStmt-role/GovIncStmt-Table05">
-        <link:definition>[400100] GovIncStmt-Table05-Governmental Funds-Statement of Revenues, Expenditures and Changes in Fund Balance</link:definition>
+        <link:definition>[400100] GovIncStmt-Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balance - Table 05</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
       </link:roleType>
       <link:roleType id="GovBalSheet-Table07" roleURI="http://xbrl.us/2020/GovIncStmt-role/GovIncStmt-Table07">
-        <link:definition>[400200] GovIncStmt-Table07-Governmental Funds-Statement of Revenues, Expenditures and Changes in Fund Balance</link:definition>
+        <link:definition>[400200] GovIncStmt-Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balance - Table 07</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
       </link:roleType>
       <link:roleType id="GovBalSheet-Table08" roleURI="http://xbrl.us/2020/GovIncStmt-role/GovIncStmt-Table08">
-        <link:definition>[400300] GovIncStmt-Table08-Governmental Funds-Statement of Revenues, Expenditures and Changes in Fund Balance</link:definition>
+        <link:definition>[400300] GovIncStmt-Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balance - Table 08</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
       </link:roleType>
     </xs:appinfo>

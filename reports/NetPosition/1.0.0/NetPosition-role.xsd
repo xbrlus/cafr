@@ -8,7 +8,7 @@ Statement | CAFR01-Statement of net position -->
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="NetPosition-Table02" roleURI="http://xbrl.us/2020/NetPosition-role/NetPosition-Table02">
-        <link:definition>[100000] NetPosition-Statement of Net Position - Table02</link:definition>
+        <link:definition>[100000] NetPosition-Statement of Net Position</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>

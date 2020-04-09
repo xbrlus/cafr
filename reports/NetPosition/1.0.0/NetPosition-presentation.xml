@@ -139,12 +139,12 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_RegulatoryAssetsCurrent" order="56.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DerivativeInstrumentsAssetsCurrent" xlink:label="loc_cafr_DerivativeInstrumentsAssetsCurrent" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_DerivativeInstrumentsAssetsCurrent" order="57.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherCurrentAssets" xlink:label="loc_cafr_OtherCurrentAssets" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_OtherCurrentAssets" order="58.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CurrentAssets" xlink:label="loc_cafr_CurrentAssets" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_CurrentAssets" order="59.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_RestrictedAssets" xlink:label="loc_cafr_RestrictedAssets" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_RestrictedAssets" order="60.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_RestrictedAssets" order="58.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherCurrentAssets" xlink:label="loc_cafr_OtherCurrentAssets" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_OtherCurrentAssets" order="59.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CurrentAssets" xlink:label="loc_cafr_CurrentAssets" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract" xlink:to="loc_cafr_CurrentAssets" order="60.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssetsAbstract" xlink:label="loc_cafr_NonCurrentAssetsAbstract" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_AssetsAbstract" xlink:to="loc_cafr_NonCurrentAssetsAbstract" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CapitalAssetsNonDepreciableAndNonAmortizable" xlink:label="loc_cafr_CapitalAssetsNonDepreciableAndNonAmortizable" />
@@ -171,10 +171,6 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_NetPensionAsset" order="11.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetOPEBAsset" xlink:label="loc_cafr_NetOPEBAsset" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_NetOPEBAsset" order="12.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentAssets" xlink:label="loc_cafr_OtherNoncurrentAssets" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_OtherNoncurrentAssets" order="13.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssets" xlink:label="loc_cafr_NonCurrentAssets" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_NonCurrentAssets" order="14.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_AssetsHeldForResale" xlink:label="loc_cafr_AssetsHeldForResale" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_AssetsHeldForResale" order="15.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_IntangibleAssets" xlink:label="loc_cafr_IntangibleAssets" />
@@ -191,6 +187,10 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_Trademarks" order="21.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_WaterRights" xlink:label="loc_cafr_WaterRights" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_WaterRights" order="22.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentAssets" xlink:label="loc_cafr_OtherNoncurrentAssets" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_OtherNoncurrentAssets" order="22.1" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssets" xlink:label="loc_cafr_NonCurrentAssets" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract" xlink:to="loc_cafr_NonCurrentAssets" order="22.2" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_Assets" xlink:label="loc_cafr_Assets" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_AssetsAbstract" xlink:to="loc_cafr_Assets" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DeferredOutflowsOfResourcesAbstract" xlink:label="loc_cafr_DeferredOutflowsOfResourcesAbstract" />
@@ -314,33 +314,37 @@
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentLiabilitiesAbstract" xlink:label="loc_cafr_NonCurrentLiabilitiesAbstract" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_LiabilitiesAbstract" xlink:to="loc_cafr_NonCurrentLiabilitiesAbstract" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_BondPayableNoncurrent" xlink:label="loc_cafr_BondPayableNoncurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_BondPayableNoncurrent" order="10.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_BondPayableNoncurrent" order="1.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_RegulatoryLiabilityNonCurrent" xlink:label="loc_cafr_RegulatoryLiabilityNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_RegulatoryLiabilityNonCurrent" order="20.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_RegulatoryLiabilityNonCurrent" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DerivativeInstrumentsLiabilityNonCurrent" xlink:label="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent" order="30.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_ProvisionsNonCurrent" xlink:label="loc_cafr_ProvisionsNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_ProvisionsNonCurrent" order="40.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_ProvisionsNonCurrent" order="4.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_PerformanceBondsPayableNonCurrent" xlink:label="loc_cafr_PerformanceBondsPayableNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_PerformanceBondsPayableNonCurrent" order="50.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_PerformanceBondsPayableNonCurrent" order="5.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CompensatedAbsencesPayableNonCurrent" xlink:label="loc_cafr_CompensatedAbsencesPayableNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_CompensatedAbsencesPayableNonCurrent" order="60.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_CompensatedAbsencesPayableNonCurrent" order="6.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_BondsAndInterestPayableNonCurrent" xlink:label="loc_cafr_BondsAndInterestPayableNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_BondsAndInterestPayableNonCurrent" order="70.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_BondsAndInterestPayableNonCurrent" order="7.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_LoanGuaranteeLiabilities" xlink:label="loc_cafr_LoanGuaranteeLiabilities" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_LoanGuaranteeLiabilities" order="8.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_EnvironmentalAndDisposalLiabilities" xlink:label="loc_cafr_EnvironmentalAndDisposalLiabilities" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_EnvironmentalAndDisposalLiabilities" order="9.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_LongTermLiabilitiesNonCurrent" xlink:label="loc_cafr_LongTermLiabilitiesNonCurrent" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_LongTermLiabilitiesNonCurrent" order="80.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_LongTermLiabilitiesNonCurrent" order="10.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NoncurrentLiabilitiesDueWithinOneYear" xlink:label="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear" order="90.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear" order="11.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NoncurrentLiabilitiesDueinMorethanOneYear" xlink:label="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear" order="100.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear" order="12.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetPensionLiability" xlink:label="loc_cafr_NetPensionLiability" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NetPensionLiability" order="110.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NetPensionLiability" order="13.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetOPEBLiability" xlink:label="loc_cafr_NetOPEBLiability" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NetOPEBLiability" order="120.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NetOPEBLiability" order="14.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentLiabilities" xlink:label="loc_cafr_OtherNoncurrentLiabilities" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_OtherNoncurrentLiabilities" order="130.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_OtherNoncurrentLiabilities" order="15.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentLiabilities" xlink:label="loc_cafr_NonCurrentLiabilities" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NonCurrentLiabilities" order="140.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract" xlink:to="loc_cafr_NonCurrentLiabilities" order="16.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_Liabilities" xlink:label="loc_cafr_Liabilities" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_LiabilitiesAbstract" xlink:to="loc_cafr_Liabilities" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_PayableFromRestrictedAssets" xlink:label="loc_cafr_PayableFromRestrictedAssets" />
@@ -521,12 +525,12 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_RegulatoryAssetsCurrent_1" order="56.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DerivativeInstrumentsAssetsCurrent" xlink:label="loc_cafr_DerivativeInstrumentsAssetsCurrent_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_DerivativeInstrumentsAssetsCurrent_1" order="57.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_RestrictedAssets" xlink:label="loc_cafr_RestrictedAssets_1" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_RestrictedAssets_1" order="57.1" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherCurrentAssets" xlink:label="loc_cafr_OtherCurrentAssets_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_OtherCurrentAssets_1" order="58.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CurrentAssets" xlink:label="loc_cafr_CurrentAssets_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_CurrentAssets_1" order="59.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_RestrictedAssets" xlink:label="loc_cafr_RestrictedAssets_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_CurrentAssetsAbstract_1" xlink:to="loc_cafr_RestrictedAssets_1" order="60.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssetsAbstract" xlink:label="loc_cafr_NonCurrentAssetsAbstract_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_AssetsAbstract_1" xlink:to="loc_cafr_NonCurrentAssetsAbstract_1" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CapitalAssetsNonDepreciableAndNonAmortizable" xlink:label="loc_cafr_CapitalAssetsNonDepreciableAndNonAmortizable_1" />
@@ -553,10 +557,6 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_NetPensionAsset_1" order="11.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetOPEBAsset" xlink:label="loc_cafr_NetOPEBAsset_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_NetOPEBAsset_1" order="12.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentAssets" xlink:label="loc_cafr_OtherNoncurrentAssets_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_OtherNoncurrentAssets_1" order="13.0" use="optional" />
-    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssets" xlink:label="loc_cafr_NonCurrentAssets_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_NonCurrentAssets_1" order="14.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_AssetsHeldForResale" xlink:label="loc_cafr_AssetsHeldForResale_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_AssetsHeldForResale_1" order="15.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_IntangibleAssets" xlink:label="loc_cafr_IntangibleAssets_1" />
@@ -573,6 +573,10 @@
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_Trademarks_1" order="21.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_WaterRights" xlink:label="loc_cafr_WaterRights_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_WaterRights_1" order="22.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentAssets" xlink:label="loc_cafr_OtherNoncurrentAssets_1" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_OtherNoncurrentAssets_1" order="22.1" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentAssets" xlink:label="loc_cafr_NonCurrentAssets_1" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentAssetsAbstract_1" xlink:to="loc_cafr_NonCurrentAssets_1" order="22.2" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_Assets" xlink:label="loc_cafr_Assets_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_AssetsAbstract_1" xlink:to="loc_cafr_Assets_1" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DeferredOutflowsOfResourcesAbstract" xlink:label="loc_cafr_DeferredOutflowsOfResourcesAbstract_1" />
@@ -696,33 +700,37 @@
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentLiabilitiesAbstract" xlink:label="loc_cafr_NonCurrentLiabilitiesAbstract_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_LiabilitiesAbstract_1" xlink:to="loc_cafr_NonCurrentLiabilitiesAbstract_1" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_BondPayableNoncurrent" xlink:label="loc_cafr_BondPayableNoncurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_BondPayableNoncurrent_1" order="10.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_BondPayableNoncurrent_1" order="1.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_RegulatoryLiabilityNonCurrent" xlink:label="loc_cafr_RegulatoryLiabilityNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_RegulatoryLiabilityNonCurrent_1" order="20.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_RegulatoryLiabilityNonCurrent_1" order="2.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_DerivativeInstrumentsLiabilityNonCurrent" xlink:label="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent_1" order="30.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_DerivativeInstrumentsLiabilityNonCurrent_1" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_ProvisionsNonCurrent" xlink:label="loc_cafr_ProvisionsNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_ProvisionsNonCurrent_1" order="40.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_ProvisionsNonCurrent_1" order="4.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_PerformanceBondsPayableNonCurrent" xlink:label="loc_cafr_PerformanceBondsPayableNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_PerformanceBondsPayableNonCurrent_1" order="50.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_PerformanceBondsPayableNonCurrent_1" order="5.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_CompensatedAbsencesPayableNonCurrent" xlink:label="loc_cafr_CompensatedAbsencesPayableNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_CompensatedAbsencesPayableNonCurrent_1" order="60.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_CompensatedAbsencesPayableNonCurrent_1" order="6.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_BondsAndInterestPayableNonCurrent" xlink:label="loc_cafr_BondsAndInterestPayableNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_BondsAndInterestPayableNonCurrent_1" order="70.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_BondsAndInterestPayableNonCurrent_1" order="7.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_LoanGuaranteeLiabilities" xlink:label="loc_cafr_LoanGuaranteeLiabilities_1" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_LoanGuaranteeLiabilities_1" order="8.0" use="optional" />
+    <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_EnvironmentalAndDisposalLiabilities" xlink:label="loc_cafr_EnvironmentalAndDisposalLiabilities_1" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_EnvironmentalAndDisposalLiabilities_1" order="9.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_LongTermLiabilitiesNonCurrent" xlink:label="loc_cafr_LongTermLiabilitiesNonCurrent_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_LongTermLiabilitiesNonCurrent_1" order="80.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_LongTermLiabilitiesNonCurrent_1" order="10.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NoncurrentLiabilitiesDueWithinOneYear" xlink:label="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear_1" order="90.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NoncurrentLiabilitiesDueWithinOneYear_1" order="11.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NoncurrentLiabilitiesDueinMorethanOneYear" xlink:label="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear_1" order="100.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NoncurrentLiabilitiesDueinMorethanOneYear_1" order="12.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetPensionLiability" xlink:label="loc_cafr_NetPensionLiability_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NetPensionLiability_1" order="110.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NetPensionLiability_1" order="13.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NetOPEBLiability" xlink:label="loc_cafr_NetOPEBLiability_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NetOPEBLiability_1" order="120.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NetOPEBLiability_1" order="14.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_OtherNoncurrentLiabilities" xlink:label="loc_cafr_OtherNoncurrentLiabilities_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_OtherNoncurrentLiabilities_1" order="130.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_OtherNoncurrentLiabilities_1" order="15.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_NonCurrentLiabilities" xlink:label="loc_cafr_NonCurrentLiabilities_1" />
-    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NonCurrentLiabilities_1" order="140.0" use="optional" />
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_NonCurrentLiabilitiesAbstract_1" xlink:to="loc_cafr_NonCurrentLiabilities_1" order="16.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_Liabilities" xlink:label="loc_cafr_Liabilities_1" />
     <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_cafr_LiabilitiesAbstract_1" xlink:to="loc_cafr_Liabilities_1" order="3.0" use="optional" />
     <link:loc xlink:type="locator" xlink:href="../../../core/cafr_concept.xsd#cafr_PayableFromRestrictedAssets" xlink:label="loc_cafr_PayableFromRestrictedAssets_1" />

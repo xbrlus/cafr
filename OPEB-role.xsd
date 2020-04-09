@@ -5,7 +5,7 @@
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="OPEB-Table01" roleURI="http://xbrl.us/2020/OPEB-role/OPEB-Table01">
-        <link:definition>[900000] OPEB Table 01</link:definition>
+        <link:definition>[850000] Footnote - OPEB</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>

@@ -5,7 +5,7 @@
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="PropCashFlow-Table01" roleURI="http://xbrl.us/2020/PropCashFlow-role/PropCashFlow-Table01">
-        <link:definition>[700000] PropCashFlow-Proprietary Fund Statement of Cash Flows-Table01</link:definition>
+        <link:definition>[700000] PropCashFlow-Proprietary Fund Statement of Cash Flows</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>

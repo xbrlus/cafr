@@ -177,8 +177,8 @@ Concepts and its details file  -->
       <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</ref:Publisher>
       <ref:Note>Page 50, Footnote 7 and 13.</ref:Note>
     </link:reference>
-    <link:loc xlink:type="locator" xlink:href="cafr_concept.xsd#cafr_CorporatePersonalPropertyReplacementTax" xlink:label="loc_cafr_CorporatePersonalPropertyReplacementTax" />
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_cafr_CorporatePersonalPropertyReplacementTax" xlink:to="reference_28" />
+    <link:loc xlink:type="locator" xlink:href="cafr_concept.xsd#cafr_PersonalPropertyReplacementTax" xlink:label="loc_cafr_PersonalPropertyReplacementTax" />
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_cafr_PersonalPropertyReplacementTax" xlink:to="reference_28" />
     <link:reference xlink:type="resource" xlink:label="reference_28" xlink:role="http://www.xbrl.org/2003/role/reference">
       <ref:Publisher>adapted from ICCB</ref:Publisher>
     </link:reference>
@@ -1591,8 +1591,8 @@ Concepts and its details file  -->
       <ref:Publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</ref:Publisher>
       <ref:Note>Section 1400 and Paragraph 103</ref:Note>
     </link:reference>
-    <link:loc xlink:type="locator" xlink:href="cafr_concept.xsd#cafr_ExpendituresForGeneralInstitutional" xlink:label="loc_cafr_ExpendituresForGeneralInstitutional" />
-    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_cafr_ExpendituresForGeneralInstitutional" xlink:to="reference_169" />
+    <link:loc xlink:type="locator" xlink:href="cafr_concept.xsd#cafr_ExpendituresForInstitutionalSupport" xlink:label="loc_cafr_ExpendituresForInstitutionalSupport" />
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_cafr_ExpendituresForInstitutionalSupport" xlink:to="reference_169" />
     <link:reference xlink:type="resource" xlink:label="reference_169" xlink:role="http://www.xbrl.org/2003/role/reference">
       <ref:Publisher>ICCB</ref:Publisher>
       <ref:Note> 00-8060-00000-00 8060</ref:Note>

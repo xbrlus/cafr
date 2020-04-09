@@ -9,18 +9,38 @@
       <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sap_all_2020-01-01_r01_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
       <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sap_all_2020-01-01_r01_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
       <!-- Extended link roles -->
-      <link:roleType id="roleType_ExpendituresFederalAwards" roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/ExpendituresFederalAwards">
-        <link:definition>100 - Schedule Of Expenditures of Federal Awards</link:definition>
+      <link:roleType id="ScheduleFederalAwardsAndFindings" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/ScheduleFederalAwardsAndFindings">
+        <link:definition>[900000] Single Audit - Schedule Of Federal Awards, Findings and Questioned Costs</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
-      <link:roleType id="roleType_FindingsAndQuestionedCosts" roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/FindingsAndQuestionedCosts">
-        <link:definition>200 - Schedule of Findings and Questioned Costs</link:definition>
+      <link:roleType id="ClusterTotalsTable" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/ClusterTotalsTable">
+        <link:definition>[900100] Single Audit - Schedule - Cluster Totals Table</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
-      <link:roleType id="roleType_GeneralInformation" roleURI="http://xbrl.us/contractor/v0.1/2019-09-01/roles/GeneralInformation">
-        <link:definition>300 - General Information</link:definition>
+      <link:roleType id="FederalAwardingAgencyTotalsTable" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/FederalAwardingAgencyTotalsTable">
+        <link:definition>[900200] Single Audit - Schedule - Federal Awarding Agency Totals Table</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FederalSubprogramTable" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/FederalSubprogramTable">
+        <link:definition>[900300] Single Audit - Schedule - Federal Subprogram Table</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InformationAboutFindingsAndQuestionedCosts" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/InformationAboutFindingsAndQuestionedCosts">
+        <link:definition>[910000] Single Audit - Information from Schedule of Findings and Questioned Costs</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NotesScheduleExpendituresFederalAwards" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/NotesScheduleExpendituresFederalAwards">
+        <link:definition>[920000] Single Audit - Notes to the Schedule of Expenditures of Federal Awards</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GeneralInformation" roleURI="http://xbrl.us/sap/v0.1/2020-01-01/sap-all/GeneralInformation">
+        <link:definition>[930000] Single Audit - General Information</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>

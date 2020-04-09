@@ -8,7 +8,7 @@ Statement | CAFR02-Statement of activities -->
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="Activities-Table02" roleURI="http://xbrl.us/2020/Activities-role/Activities-Table02">
-        <link:definition>[200000] Activities-Statement of Activities-Table02</link:definition>
+        <link:definition>[200000] Activities-Statement of Activities</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>

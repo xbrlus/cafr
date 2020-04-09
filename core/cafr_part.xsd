@@ -150,4 +150,10 @@ Typed dimension concepts and its details file  -->
   <xs:element abstract="false" id="cafr_part_NameOfOtherOperatingExpenseDomain" name="NameOfOtherOperatingExpenseDomain" nillable="true" />
   <xs:element abstract="false" id="cafr_part_NameOfOtherOperatingRevenueDomain" name="NameOfOtherOperatingRevenueDomain" nillable="true" />
   <xs:element abstract="false" id="cafr_part_NameOfOtherNonoperatingGainLossDomain" name="NameOfOtherNonoperatingGainLossDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_NameOfOtherCashFlowFromOperatingActivitiesDomain" name="NameOfOtherCashFlowFromOperatingActivitiesDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_NameOfCashFlowFromNonCapitalFinancingActivitiesDomain" name="NameOfCashFlowFromNonCapitalFinancingActivitiesDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_NameOfCashFlowFromCapitalAndRelatedFinancingActivitiesDomain" name="NameOfCashFlowFromCapitalAndRelatedFinancingActivitiesDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_NameOfCashFlowFromInvestingActivitiesDomain" name="NameOfCashFlowFromInvestingActivitiesDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_NameOfCashFlowFromOtherOperatingActivitiesDomain" name="NameOfCashFlowFromOtherOperatingActivitiesDomain" nillable="true" />
+  <xs:element abstract="false" id="cafr_part_SubprogramIdentifierDomain" name="SubprogramIdentifierDomain" nillable="true" />
 </xs:schema>

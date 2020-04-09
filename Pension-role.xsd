@@ -5,7 +5,7 @@
     <xs:appinfo>
       <!-- Extended link roles -->
       <link:roleType id="Pension-Table01" roleURI="http://xbrl.us/2020/Pension-role/Pension-Table01">
-        <link:definition>[800000] Pension Table 01</link:definition>
+        <link:definition>[800000] Footnote - Pension</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
