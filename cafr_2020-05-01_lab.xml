@@ -5730,22 +5730,22 @@
           xlink:type="resource"
           xml:lang="en">Expenses, net.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
-          xlink:label="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
+          xlink:label="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
-          xlink:to="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
+          xlink:from="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
+          xlink:to="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
+          xlink:label="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
           xml:lang="en">Statement of Activities, General Revenues and Changes in Net Position [Table]</label>
         <label
-          xlink:label="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
+          xlink:label="label_cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Information about the Statement of Activities, General Revenues and Changes in Net Position.</label>
@@ -12885,42 +12885,42 @@
           xlink:type="resource"
           xml:lang="en">Used as an identifier for the name of other cash flows from investing activities.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_EmployeeRetirementAndPensionPlansAbstract"
-          xlink:label="cafr_EmployeeRetirementAndPensionPlansAbstract"
+          xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlansAbstract"
+          xlink:label="cafr_PensionPlansAbstract"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_EmployeeRetirementAndPensionPlansAbstract"
-          xlink:to="label_cafr_EmployeeRetirementAndPensionPlansAbstract"
+          xlink:from="cafr_PensionPlansAbstract"
+          xlink:to="label_cafr_PensionPlansAbstract"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansAbstract"
+          xlink:label="label_cafr_PensionPlansAbstract"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Employee Retirement And Pension Plans [Abstract]</label>
+          xml:lang="en">Pension Plans [Abstract]</label>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansAbstract"
+          xlink:label="label_cafr_PensionPlansAbstract"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Information about Employee Retirement And Pension Plans.</label>
+          xml:lang="en">Information about pension plans.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_EmployeeRetirementAndPensionPlansTable"
-          xlink:label="cafr_EmployeeRetirementAndPensionPlansTable"
+          xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlansTable"
+          xlink:label="cafr_PensionPlansTable"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_EmployeeRetirementAndPensionPlansTable"
-          xlink:to="label_cafr_EmployeeRetirementAndPensionPlansTable"
+          xlink:from="cafr_PensionPlansTable"
+          xlink:to="label_cafr_PensionPlansTable"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansTable"
+          xlink:label="label_cafr_PensionPlansTable"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Employee Retirement And Pension Plans [Table]</label>
+          xml:lang="en">Pension Plans [Table]</label>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansTable"
+          xlink:label="label_cafr_PensionPlansTable"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Table used to capture information about the Employee Retirement And Pension Plans.</label>
@@ -12945,25 +12945,25 @@
           xlink:type="resource"
           xml:lang="en">Used for identifiers for Pension Plans.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_EmployeeRetirementAndPensionPlansLineitems"
-          xlink:label="cafr_EmployeeRetirementAndPensionPlansLineitems"
+          xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlansLineItems"
+          xlink:label="cafr_PensionPlansLineItems"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_EmployeeRetirementAndPensionPlansLineitems"
-          xlink:to="label_cafr_EmployeeRetirementAndPensionPlansLineitems"
+          xlink:from="cafr_PensionPlansLineItems"
+          xlink:to="label_cafr_PensionPlansLineItems"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansLineitems"
+          xlink:label="label_cafr_PensionPlansLineItems"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Details Of Employee Retirement And Pension Plans [Line Items]</label>
+          xml:lang="en">Pension Plans [Line Items]</label>
         <label
-          xlink:label="label_cafr_EmployeeRetirementAndPensionPlansLineitems"
+          xlink:label="label_cafr_PensionPlansLineItems"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Used to collect information about Employee Retirement And Pension Plans.</label>
+          xml:lang="en">Used to collect information about Pension Plans.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlanName"
           xlink:label="cafr_PensionPlanName"
@@ -13843,7 +13843,7 @@
           xlink:label="label_cafr_PensionPlanEmployerContributions"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Changes in Net Pension Liability due to Contributions from the Employer</label>
+          xml:lang="en">Changes in Net Pension Liability due to contributions from the employer</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlanMemberContributions"
           xlink:label="cafr_PensionPlanMemberContributions"
@@ -15225,26 +15225,6 @@
           xlink:type="resource"
           xml:lang="en">Auditee Contact Email.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_SecondaryAuditorUsed"
-          xlink:label="cafr_SecondaryAuditorUsed"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_SecondaryAuditorUsed"
-          xlink:to="label_cafr_SecondaryAuditorUsed"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_SecondaryAuditorUsed"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">Secondary Auditor Used</label>
-        <label
-          xlink:label="label_cafr_SecondaryAuditorUsed"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">Indicates whether multiple auditors contributed to the audit. If there is, report value of TRUE; if there is not, FALSE.</label>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PrimaryAuditorInformationAbstract"
           xlink:label="cafr_PrimaryAuditorInformationAbstract"
           xlink:type="locator"/>
@@ -15444,6 +15424,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Primary auditor contact email.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_SecondaryAuditorUsed"
+          xlink:label="cafr_SecondaryAuditorUsed"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_SecondaryAuditorUsed"
+          xlink:to="label_cafr_SecondaryAuditorUsed"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_SecondaryAuditorUsed"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Secondary Auditor Used</label>
+        <label
+          xlink:label="label_cafr_SecondaryAuditorUsed"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Indicates whether multiple auditors contributed to the audit. If there is, report value of TRUE; if there is not, FALSE.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_SecondaryAuditorInformationAbstract"
           xlink:label="cafr_SecondaryAuditorInformationAbstract"
@@ -16184,6 +16184,106 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Audit findings reference number. The required format is the four-digit year, a hyphen and a three-digit number (e.g., 2019-001, 2019-002).</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditFindingAbstract"
+          xlink:label="cafr_AuditFindingAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditFindingAbstract"
+          xlink:to="label_cafr_AuditFindingAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditFindingAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Finding [Abstract]</label>
+        <label
+          xlink:label="label_cafr_AuditFindingAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about audit findings.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditFindingTable"
+          xlink:label="cafr_AuditFindingTable"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditFindingTable"
+          xlink:to="label_cafr_AuditFindingTable"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditFindingTable"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Finding [Table]</label>
+        <label
+          xlink:label="label_cafr_AuditFindingTable"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Table used to capture information about audit findings.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditFindingIdentifierAxis"
+          xlink:label="cafr_AuditFindingIdentifierAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditFindingIdentifierAxis"
+          xlink:to="label_cafr_AuditFindingIdentifierAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditFindingIdentifierAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Finding Identifier [Axis]</label>
+        <label
+          xlink:label="label_cafr_AuditFindingIdentifierAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to identify an audit finding associated with a federal program.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditFindingLineItems"
+          xlink:label="cafr_AuditFindingLineItems"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditFindingLineItems"
+          xlink:to="label_cafr_AuditFindingLineItems"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditFindingLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Finding [Line Items]</label>
+        <label
+          xlink:label="label_cafr_AuditFindingLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to collect information about audit findings on the Schedule of Findings and Questioned Costs.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FederalProgramIdentifierEnumerated"
+          xlink:label="cafr_FederalProgramIdentifierEnumerated"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FederalProgramIdentifierEnumerated"
+          xlink:to="label_cafr_FederalProgramIdentifierEnumerated"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FederalProgramIdentifierEnumerated"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Federal Program Identifier [Enumerated]</label>
+        <label
+          xlink:label="label_cafr_FederalProgramIdentifierEnumerated"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Enumerated list of program identifers which corresponds to the FederalProgramIdentifierAxis. Use this concept with the AuditFindingIdentifierTable to link the audit finding to a Federal Program. Use this concept when with the FederalSubprogramIdentifierTable to link a subprogram to a primary Federal program.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ComplianceRequirementTypesAbstract"
           xlink:label="cafr_ComplianceRequirementTypesAbstract"

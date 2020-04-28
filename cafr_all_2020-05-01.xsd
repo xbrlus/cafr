@@ -195,6 +195,7 @@
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues">
                 <link:definition>200100 - Statement of Activities, General Revenues and Changes in Net Position</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherProgramUsingRevenues"
@@ -327,6 +328,7 @@
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherRevenues">
                 <link:definition>400100 - Governmental Funds Statement of Revenues - Other Revenues</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundRevenuessOtherExpenditures"
@@ -641,6 +643,7 @@
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension">
                 <link:definition>800000 - Pension Footnote</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_OPEB"
@@ -656,43 +659,50 @@
                 <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_SingleAuditSchedule"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule">
-                <link:definition>901000 - Single Audit Schedule of Federal Awards, Findings and Questioned Costs</link:definition>
+              id="roleType_SingleAuditScheduleExpenditures"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures">
+                <link:definition>901000 - Single Audit Schedule of Expenditures of Federal Awards and Major Programs</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SingleAuditScheduleFindings"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings">
+                <link:definition>902000 - Single Audit Schedule of Findings and Questioned Costs</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SingleAuditClusterTotals"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditClusterTotals">
-                <link:definition>902000 - Single Audit Schedule Cluster Totals</link:definition>
+                <link:definition>903000 - Single Audit Schedule Cluster Totals</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SingleAuditFederalAgencyTotals"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals">
-                <link:definition>903000 - Single Audit Schedule Federal Awarding Agency Totals</link:definition>
+                <link:definition>904000 - Single Audit Schedule Federal Awarding Agency Totals</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SingleAuditSubprogram"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram">
-                <link:definition>904000 - Single Audit Schedule Subprogram Identifier</link:definition>
+                <link:definition>905000 - Single Audit Schedule Subprogram Identifier</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SingleAuditSEFANotes"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSEFANotes">
-                <link:definition>905000 - Single Audit Notes to the SEFA</link:definition>
+                <link:definition>906000 - Single Audit Notes to the SEFA</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SingleAuditAuditInformation"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditAuditInformation">
-                <link:definition>906000 - Single Audit Information from Schedule of Findings and Questioned Costs</link:definition>
+                <link:definition>907000 - Single Audit Information from Schedule of Findings and Questioned Costs</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:linkbaseRef

@@ -160,18 +160,18 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
-      id="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
-      name="ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract"
-      nillable="true"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
       id="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionLineItems"
       name="ActivitiesGeneralRevenuesAndChangesInNetPositionLineItems"
       nillable="true"
       substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
+      name="ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
+      nillable="true"
+      substitutionGroup="xbrldt:hypercubeItem"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
@@ -198,12 +198,11 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
       id="cafr_AdditionalNotes"
       name="AdditionalNotes"
       nillable="true"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
+      substitutionGroup="xbrli:item"
+      type="nonnum:textBlockItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_AdjustmentsForTransferOfRevenuesWithinActivities"
@@ -358,10 +357,47 @@
       type="nonnum:textBlockItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="cafr_AuditFindingAbstract"
+      name="AuditFindingAbstract"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_AuditFindingIdentifierAxis"
+      name="AuditFindingIdentifierAxis"
+      nillable="true"
+      substitutionGroup="xbrldt:dimensionItem"
+      type="xbrli:stringItemType"
+      xbrldt:typedDomainRef="#cafr_AuditFindingIdentifierDomain"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="cafr_AuditFindingIdentifierDomain"
+      name="AuditFindingIdentifierDomain"
+      type="xs:token"/>
+    <xs:element
+      abstract="true"
+      id="cafr_AuditFindingLineItems"
+      name="AuditFindingLineItems"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="cafr_AuditFindingReferenceNumber"
       name="AuditFindingReferenceNumber"
       nillable="true"
       substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_AuditFindingTable"
+      name="AuditFindingTable"
+      nillable="true"
+      substitutionGroup="xbrldt:hypercubeItem"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
@@ -2096,30 +2132,6 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
-      id="cafr_EmployeeRetirementAndPensionPlansAbstract"
-      name="EmployeeRetirementAndPensionPlansAbstract"
-      nillable="true"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_EmployeeRetirementAndPensionPlansLineitems"
-      name="EmployeeRetirementAndPensionPlansLineitems"
-      nillable="true"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_EmployeeRetirementAndPensionPlansTable"
-      name="EmployeeRetirementAndPensionPlansTable"
-      nillable="true"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
       id="cafr_EmploymentServiceClusterMember"
       name="EmploymentServiceClusterMember"
       nillable="true"
@@ -2746,11 +2758,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
       id="cafr_FederalAgencyPriorAuditFindings"
       name="FederalAgencyPriorAuditFindings"
       nillable="true"
-      substitutionGroup="xbrldt:dimensionItem"
+      substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
@@ -2852,6 +2863,14 @@
       id="cafr_FederalProgramIdentifierDomain"
       name="FederalProgramIdentifierDomain"
       type="xs:token"/>
+    <xs:element
+      abstract="true"
+      id="cafr_FederalProgramIdentifierEnumerated"
+      name="FederalProgramIdentifierEnumerated"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="cafr-types:federalProgramIdentifierItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_FederalProgramName"
       name="FederalProgramName"
@@ -5729,11 +5748,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
       id="cafr_PensionPlanMortalityRateTableYear"
       name="PensionPlanMortalityRateTableYear"
       nillable="true"
-      substitutionGroup="xbrldt:dimensionItem"
+      substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
@@ -5804,6 +5822,30 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="cafr-types:planTypeItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_PensionPlansAbstract"
+      name="PensionPlansAbstract"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_PensionPlansLineItems"
+      name="PensionPlansLineItems"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_PensionPlansTable"
+      name="PensionPlansTable"
+      nillable="true"
+      substitutionGroup="xbrldt:hypercubeItem"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_PensionServiceCost"
@@ -6977,12 +7019,11 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
       id="cafr_SignificantAccountingPolicy"
       name="SignificantAccountingPolicy"
       nillable="true"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
+      substitutionGroup="xbrli:item"
+      type="nonnum:textBlockItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
