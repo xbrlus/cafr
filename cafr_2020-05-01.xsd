@@ -741,19 +741,26 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_CapitalAssetsNonDepreciable"
-      name="CapitalAssetsNonDepreciable"
-      nillable="true"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
       id="cafr_CapitalAssetsNonDepreciableAndNonAmortizable"
       name="CapitalAssetsNonDepreciableAndNonAmortizable"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:balance="debit"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_CapitalAssetsNotBeingDepreciated"
+      name="CapitalAssetsNotBeingDepreciated"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_CapitalAssetsNotBeingDepreciatedNet"
+      name="CapitalAssetsNotBeingDepreciatedNet"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="cafr_CashAndCashEquivalents"
@@ -3107,7 +3114,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_GainLossOnSaleOfCapitalAssets"
       name="GainLossOnSaleOfCapitalAssets"
@@ -3197,7 +3204,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_GovernmentPrintingOffice40Member"
@@ -3407,7 +3414,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_InternalBalanceReceivable"
       name="InternalBalanceReceivable"
@@ -3472,7 +3479,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_InventoriesCurrent"
       name="InventoriesCurrent"
@@ -3500,7 +3507,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_InvestmentsCurrent"
       name="InvestmentsCurrent"
@@ -3558,7 +3565,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_LeasesPayable"
       name="LeasesPayable"
@@ -3646,14 +3653,14 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_LongTermLiabilities"
       name="LongTermLiabilities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_LongTermLiabilitiesCurrent"
       name="LongTermLiabilitiesCurrent"
@@ -3674,7 +3681,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_LowRiskAuditee"
       name="LowRiskAuditee"
@@ -4614,7 +4621,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_NoncurrentLiabilitiesDueWithinOneYear"
       name="NoncurrentLiabilitiesDueWithinOneYear"
@@ -4673,7 +4680,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_NotesToTheSEFAAbstract"
@@ -5036,7 +5043,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OperatingExpense"
       name="OperatingExpense"
@@ -5101,21 +5108,21 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherAccruedLiabilities"
       name="OtherAccruedLiabilities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherAssets"
       name="OtherAssets"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherAuditFindings"
       name="OtherAuditFindings"
@@ -5129,35 +5136,35 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherCashFlowsFromCapitalAndRelatedFinancingActivities"
       name="OtherCashFlowsFromCapitalAndRelatedFinancingActivities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherCashFlowsFromInvestingActivities"
       name="OtherCashFlowsFromInvestingActivities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherCashFlowsFromNonCapitalFinancingActivities"
       name="OtherCashFlowsFromNonCapitalFinancingActivities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherCashFlowsFromOperatingActivities"
       name="OtherCashFlowsFromOperatingActivities"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_OtherClusterMember"
@@ -5200,21 +5207,21 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherDeferredInflowsOfResources"
       name="OtherDeferredInflowsOfResources"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherDeferredOutflowsOfResources"
       name="OtherDeferredOutflowsOfResources"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherExpenditures"
       name="OtherExpenditures"
@@ -5349,21 +5356,21 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherRestrictedComponentsOfNetPosition"
       name="OtherRestrictedComponentsOfNetPosition"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherRestrictedCurrentAssets"
       name="OtherRestrictedCurrentAssets"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherRevenues"
       name="OtherRevenues"
@@ -5384,7 +5391,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OutstandingLoanBalance"
       name="OutstandingLoanBalance"
@@ -6315,7 +6322,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_RestrictedNetPosition"
       name="RestrictedNetPosition"
@@ -6329,28 +6336,28 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_RestrictedNetPositionForDebtService"
       name="RestrictedNetPositionForDebtService"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_RestrictedNetPositionForUnspentGrantProceeds"
       name="RestrictedNetPositionForUnspentGrantProceeds"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_RestrictedNetPositionForWorkingCash"
       name="RestrictedNetPositionForWorkingCash"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_RetainagePayable"
       name="RetainagePayable"
@@ -7010,14 +7017,14 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_SelfInsuranceLiabilitiesNetOfCurrentPortion"
       name="SelfInsuranceLiabilitiesNetOfCurrentPortion"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_SignificantAccountingPolicy"
       name="SignificantAccountingPolicy"
@@ -7136,7 +7143,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_StatementOfActivitiesAbstract"
@@ -7246,14 +7253,14 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_TenantSecurityDepositsPayableFromRestictedAssets"
       name="TenantSecurityDepositsPayableFromRestictedAssets"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_TennesseeValleyAuthority62Member"
@@ -7356,7 +7363,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       abstract="true"
       id="cafr_TypeOfActivitiesAxis"
@@ -7426,7 +7433,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_UnearnedRevenue"
       name="UnearnedRevenue"
@@ -7440,14 +7447,14 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_UnearnedTuitionAndFeeRevenues"
       name="UnearnedTuitionAndFeeRevenues"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_UniformGuidanceAuditType"
       name="UniformGuidanceAuditType"
@@ -7477,7 +7484,7 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_UnrestrictedNetPosition"
       name="UnrestrictedNetPosition"

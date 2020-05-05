@@ -130,7 +130,7 @@
             <link:roleType
               id="roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit">
-                <link:definition>101400 - Net Position - Capital Assets Nondepreciable Component Unit</link:definition>
+                <link:definition>101400 - Net Position - Capital Assets Not Being Depreciated Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
@@ -144,7 +144,7 @@
             <link:roleType
               id="roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit">
-                <link:definition>101500 - Net Position - Capital Assets Depreciable Component Unit</link:definition>
+                <link:definition>101500 - Net Position - Capital Assets Being Depreciated Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>

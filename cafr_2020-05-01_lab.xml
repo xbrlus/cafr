@@ -3970,25 +3970,25 @@
           xlink:type="resource"
           xml:lang="en">Used as an identifier for the name of capital assets, non-depreciable.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNonDepreciable"
-          xlink:label="cafr_CapitalAssetsNonDepreciable"
+          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:label="cafr_CapitalAssetsNotBeingDepreciated"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_CapitalAssetsNonDepreciable"
-          xlink:to="label_cafr_CapitalAssetsNonDepreciable"
+          xlink:from="cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:to="label_cafr_CapitalAssetsNotBeingDepreciated"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_CapitalAssetsNonDepreciable"
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Capital Assets, Non Depreciable</label>
+          xml:lang="en">Capital Assets, Not Being Depreciated</label>
         <label
-          xlink:label="label_cafr_CapitalAssetsNonDepreciable"
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Capital assets, classified as non-depreciable.</label>
+          xml:lang="en">Capital assets, classified as not being depreciated.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis"
           xlink:label="cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis"
@@ -9464,6 +9464,11 @@
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
           xml:lang="en">Cash With Escrow Agent</label>
+        <label
+          xlink:label="label_cafr_CashWithEscrowAgent"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Amount of cash with escrow agent.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CashAndInvestmentsInSegregatedAccounts"
           xlink:label="cafr_CashAndInvestmentsInSegregatedAccounts"
@@ -9604,6 +9609,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Amount before accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business and not intended for resale.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:label="cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:to="label_cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Capital Assets, Not Being Depreciated, Net</label>
+        <label
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciatedNet"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net capital assets, classified as not being depreciated.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsBeingDepreciatedNet"
           xlink:label="cafr_CapitalAssetsBeingDepreciatedNet"
@@ -15725,6 +15750,26 @@
           xlink:type="resource"
           xml:lang="en">Used to collect information on the Schedule of Expenditures of Federal Awards. To associate a line item concept with a specific cluster and federal awarding agency, use with a context including the FederalAwardingAgencyEnumerated and ClusterNameEnumerated elements.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FederalAwardingAgencyEnumerated"
+          xlink:label="cafr_FederalAwardingAgencyEnumerated"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FederalAwardingAgencyEnumerated"
+          xlink:to="label_cafr_FederalAwardingAgencyEnumerated"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FederalAwardingAgencyEnumerated"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Federal Awarding Agency [Enumerated]</label>
+        <label
+          xlink:label="label_cafr_FederalAwardingAgencyEnumerated"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Name of the Federal Awarding Agency, select from an enumerated list of existing Federal Awarding Agencies. Use in the context along with the concept ClusterNameEnumerated to define a cluster/agency combination that can be associated with line items about a specific federal program, such as Federal Program Name or CFDA number.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CFDANumber"
           xlink:label="cafr_CFDANumber"
           xlink:type="locator"/>
@@ -19164,26 +19209,6 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Used to represent information about federal programs that are split into subprograms which may have separate contract numbers.</label>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_FederalAwardingAgencyEnumerated"
-          xlink:label="cafr_FederalAwardingAgencyEnumerated"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_FederalAwardingAgencyEnumerated"
-          xlink:to="label_cafr_FederalAwardingAgencyEnumerated"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_FederalAwardingAgencyEnumerated"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">Federal Awarding Agency [Enumerated]</label>
-        <label
-          xlink:label="label_cafr_FederalAwardingAgencyEnumerated"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">Name of the Federal Awarding Agency, select from an enumerated list of existing Federal Awarding Agencies. Use in the context along with the concept ClusterNameEnumerated to define a cluster/agency combination that can be associated with line items about a specific federal program, such as Federal Program Name or CFDA number.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NotesToTheSEFAAbstract"
           xlink:label="cafr_NotesToTheSEFAAbstract"
