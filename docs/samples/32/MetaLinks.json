@@ -2,12 +2,12 @@
  "instance": {
   "Oakton-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
-   "axisStandard": 9,
-   "contextCount": 26,
+   "axisStandard": 10,
+   "contextCount": 34,
    "dts": {
     "definitionLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_all_2020-05-01_def.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01_def.xml"
      ]
     },
     "inline": {
@@ -17,41 +17,41 @@
     },
     "labelLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_2020-05-01_lab.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01_lab.xml"
      ]
     },
     "linkbase": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_all_2020-05-01_cal.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01_cal.xml"
      ]
     },
     "presentationLink": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_all_2020-05-01_pre.xml"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01_pre.xml"
      ]
     },
     "schema": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_all_2020-05-01.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01.xsd",
       "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr_2020-05-01.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01.xsd",
       "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
       "http://www.xbrl.org/2005/xbrldt-2005.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/v1.0RC5/cafr-types-2020-05-01.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-types-2020-05-01.xsd"
      ]
     }
    },
-   "elementCount": 984,
+   "elementCount": 990,
    "entityCount": 1,
    "hidden": {
     "total": 0
    },
    "keyCustom": 0,
-   "keyStandard": 96,
+   "keyStandard": 93,
    "memberCustom": 0,
    "memberStandard": 2,
    "report": {
@@ -64,6 +64,7 @@
        "tr",
        "tbody",
        "table",
+       "div",
        "div",
        "div",
        "div",
@@ -88,7 +89,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R13": {
+    "R12": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -122,7 +123,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R15": {
+    "R14": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -131,6 +132,7 @@
        "tr",
        "tbody",
        "table",
+       "div",
        "div",
        "div",
        "div",
@@ -164,11 +166,12 @@
        "div",
        "div",
        "div",
+       "div",
        "body",
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember",
       "decimals": "0",
       "lang": null,
       "name": "cafr:Investments",
@@ -178,7 +181,7 @@
       "xsiNil": "false"
      }
     },
-    "R16": {
+    "R15": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -187,6 +190,7 @@
        "tr",
        "tbody",
        "table",
+       "div",
        "div",
        "div",
        "div",
@@ -211,7 +215,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R17": {
+    "R16": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -223,11 +227,12 @@
        "div",
        "div",
        "div",
+       "div",
        "body",
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherDeferredOutflowsOfResourcesDomain_OPEB_Plan_-_College_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember_NameOfOtherDeferredOutflowsOfResourcesDomain_OPEB_plan_-_College",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -254,11 +259,12 @@
        "div",
        "div",
        "div",
+       "div",
        "body",
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherDeferredOutflowsOfResourcesDomain_OPEB_Plan_-_College_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember_NameOfOtherDeferredOutflowsOfResourcesDomain_OPEB_plan_-_College",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -269,7 +275,7 @@
       "xsiNil": "false"
      }
     },
-    "R18": {
+    "R17": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -303,7 +309,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R19": {
+    "R18": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -349,6 +355,7 @@
        "div",
        "div",
        "div",
+       "div",
        "body",
        "html"
       ],
@@ -387,67 +394,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherDeferredInflowsOfResourcesDomain_State_CIP_plan_BusinessTypeActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:OtherDeferredInflowsOfResources",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "501000 - Proprietary Funds Net Position - Type of Activities Other Deferred Inflows",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredInflows",
-     "shortName": "Type of Activities Other Deferred Inflows",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherDeferredInflowsOfResourcesDomain_State_CIP_plan_BusinessTypeActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:OtherDeferredInflowsOfResources",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
-    },
-    "R21": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherRestrictedComponentsOfNetPositionDomain_Net_Position_Restricted_for_Specific_Purposes_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember_NameOfOtherRestrictedComponentsOfNetPositionDomain_Specific_purposes",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -479,7 +426,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherRestrictedComponentsOfNetPositionDomain_Net_Position_Restricted_for_Specific_Purposes_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember_NameOfOtherRestrictedComponentsOfNetPositionDomain_Specific_purposes",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -490,7 +437,127 @@
       "xsiNil": "false"
      }
     },
+    "R21": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20190630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:PropertyTaxAllowances",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "501200 - Proprietary Funds Net Position - Business Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness",
+     "shortName": "Business Activities",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20190630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:PropertyTaxAllowances",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
     "R22": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_State_CIP_plan",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherDeferredInflowsOfResources",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "502200 - Proprietary Funds Net Position - Business Activities Other Deferred Inflows",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredInflows",
+     "shortName": "Business Activities Other Deferred Inflows",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20190630_NameOfOtherDeferredInflowsOfResourcesDomain_State_CIP_plan",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherDeferredInflowsOfResources",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R23": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -550,7 +617,7 @@
       "xsiNil": "false"
      }
     },
-    "R23": {
+    "R24": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -584,7 +651,127 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R24": {
+    "R25": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "D20180630_NameOfOtherNonoperatingRevenuesExpensesDomain_Interest_expense_and_fiscal_charges_BusinessTypeActivitiesMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherNonoperatingRevenuesExpenses",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "603000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Nonoperating Gains Losses",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses",
+     "shortName": "Type of Activities Other Nonoperating Gains Losses",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "D20180630_NameOfOtherNonoperatingRevenuesExpensesDomain_Interest_expense_and_fiscal_charges_BusinessTypeActivitiesMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherNonoperatingRevenuesExpenses",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R26": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "D20180630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:ScholarshipAllowances",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "604000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness",
+     "shortName": "Business Activities",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "D20180630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:ScholarshipAllowances",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R27": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -644,7 +831,7 @@
       "xsiNil": "false"
      }
     },
-    "R25": {
+    "R28": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -661,7 +848,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -692,7 +879,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprise_charges_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_NameOfOtherCashFlowsFromOperatingActivitiesDomain_Auxiliary_enterprise_charges_BusinessTypeActivitiesMember",
       "decimals": "0",
       "lang": null,
       "name": "cafr:OtherCashFlowsFromOperatingActivities",
@@ -702,10 +889,11 @@
       "xsiNil": "false"
      }
     },
-    "R26": {
+    "R29": {
      "firstAnchor": {
       "ancestors": [
        "span",
+       "p",
        "td",
        "tr",
        "tbody",
@@ -718,7 +906,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20180630_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Debt_certificate_proceeds_BusinessTypeActivitiesMember",
+      "contextRef": "I20180630_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Debt_certificate_proceeds_BusinessTypeActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -737,6 +925,7 @@
      "uniqueAnchor": {
       "ancestors": [
        "span",
+       "p",
        "td",
        "tr",
        "tbody",
@@ -749,7 +938,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "D20180630_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Debt_certificate_proceeds_BusinessTypeActivitiesMember",
+      "contextRef": "I20180630_NameOfOtherCashFlowsFromCapitalAndRelatedFinancingActivitiesDomain_Debt_certificate_proceeds_BusinessTypeActivitiesMember",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -772,6 +961,7 @@
        "div",
        "div",
        "div",
+       "div",
        "body",
        "html"
       ],
@@ -790,6 +980,100 @@
      "longName": "100600 - Net Position - Other Deferred Outflows",
      "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflows",
      "shortName": "Other Deferred Outflows",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R30": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20180630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:CashProvidedByTuitionAndFees",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "705000 - Proprietary Funds Cash Flows - Business Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusiness",
+     "shortName": "Business Activities",
+     "subGroupType": "",
+     "uniqueAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20180630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:CashProvidedByTuitionAndFees",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
+    },
+    "R31": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "p",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Oakton-20190630-Annual-Accounts.htm",
+      "contextRef": "I20180630",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherCashFlowsFromOperatingActivities",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "706000 - Proprietary Funds Cash Flows - Business Activities Other Operating Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessOperating",
+     "shortName": "Business Activities Other Operating Activities",
      "subGroupType": "",
      "uniqueAnchor": null
     },
@@ -861,7 +1145,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R6": {
+    "R9999": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -878,7 +1162,7 @@
        "html"
       ],
       "baseRef": "Oakton-20190630-Annual-Accounts.htm",
-      "contextRef": "I20190630_BusinessTypeActivitiesMember",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember_NameOfOtherDeferredInflowsOfResourcesDomain_State_CIP_plan",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -889,14 +1173,14 @@
      },
      "groupType": "",
      "isDefault": "false",
-     "longName": "101000 - Net Position - Other Deferred Inflows",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows",
-     "shortName": "Other Deferred Inflows",
+     "longName": "Uncategorized Items - Oakton-20190630-Annual-Accounts.htm",
+     "role": "http://xbrl.sec.gov/role/uncategorizedFacts",
+     "shortName": "Uncategorized Items - Oakton-20190630-Annual-Accounts.htm",
      "subGroupType": "",
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 9,
+   "segmentCount": 10,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [],
@@ -1202,23 +1486,6 @@
      ],
      "xbrltype": "stringItemType"
     },
-    "cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "Information about the Statement of Activities, General Revenues and Changes in Net Position.",
-        "label": "Statement of Activities, General Revenues and Changes in Net Position [Table]"
-       }
-      }
-     },
-     "localname": "ActivitiesGeneralRevenuesAndChangesInNetPositionAbstract",
-     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
-     "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues"
-     ],
-     "xbrltype": "stringItemType"
-    },
     "cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionLineItems": {
      "auth_ref": [],
      "lang": {
@@ -1234,6 +1501,23 @@
      "presentation": [
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about the Statement of Activities, General Revenues and Changes in Net Position.",
+        "label": "Statement of Activities, General Revenues and Changes in Net Position [Table]"
+       }
+      }
+     },
+     "localname": "ActivitiesGeneralRevenuesAndChangesInNetPositionTable",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues"
      ],
      "xbrltype": "stringItemType"
     },
@@ -1268,7 +1552,7 @@
      "localname": "AdditionalAwardIdentification",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -1285,7 +1569,7 @@
      "localname": "AdditionalClusterInformationAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -1304,7 +1588,7 @@
      "presentation": [
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "textBlockItemType"
     },
     "cafr_AdjustmentsForTransferOfRevenuesWithinActivities": {
      "auth_ref": [],
@@ -1515,7 +1799,7 @@
      "presentation": [
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditClusterTotals",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals",
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule",
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram"
      ],
      "xbrltype": "monetaryItemType"
@@ -1684,9 +1968,57 @@
      "localname": "AuditCorrectiveActionPlan",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "textBlockItemType"
+    },
+    "cafr_AuditFindingAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about audit findings.",
+        "label": "Audit Finding [Abstract]"
+       }
+      }
+     },
+     "localname": "AuditFindingAbstract",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "xbrltype": "stringItemType"
+    },
+    "cafr_AuditFindingIdentifierAxis": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to identify an audit finding associated with a federal program.",
+        "label": "Audit Finding Identifier [Axis]"
+       }
+      }
+     },
+     "localname": "AuditFindingIdentifierAxis",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "cafr_AuditFindingLineItems": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to collect information about audit findings on the Schedule of Findings and Questioned Costs.",
+        "label": "Audit Finding [Line Items]"
+       }
+      }
+     },
+     "localname": "AuditFindingLineItems",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
+     ],
+     "xbrltype": "stringItemType"
     },
     "cafr_AuditFindingReferenceNumber": {
      "auth_ref": [],
@@ -1701,7 +2033,24 @@
      "localname": "AuditFindingReferenceNumber",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "cafr_AuditFindingTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Table used to capture information about audit findings.",
+        "label": "Audit Finding [Table]"
+       }
+      }
+     },
+     "localname": "AuditFindingTable",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -1718,7 +2067,7 @@
      "localname": "AuditFindingText",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "textBlockItemType"
     },
@@ -2177,7 +2526,7 @@
      "localname": "AwardPassedThroughToSubrecipients",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -2485,7 +2834,7 @@
      "localname": "CFDANumber",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -2565,26 +2914,6 @@
      ],
      "xbrltype": "monetaryItemType"
     },
-    "cafr_CapitalAssetsNonDepreciable": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "Capital assets, classified as non-depreciable.",
-        "label": "Capital Assets, Non Depreciable"
-       }
-      }
-     },
-     "localname": "CapitalAssetsNonDepreciable",
-     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
-     "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable",
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit",
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities",
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness"
-     ],
-     "xbrltype": "monetaryItemType"
-    },
     "cafr_CapitalAssetsNonDepreciableAndNonAmortizable": {
      "auth_ref": [],
      "crdr": "debit",
@@ -2601,6 +2930,43 @@
      "presentation": [
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "cafr_CapitalAssetsNotBeingDepreciated": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Capital assets, classified as not being depreciated.",
+        "label": "Capital Assets, Not Being Depreciated"
+       }
+      }
+     },
+     "localname": "CapitalAssetsNotBeingDepreciated",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable",
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit",
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities",
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness"
+     ],
+     "xbrltype": "monetaryItemType"
+    },
+    "cafr_CapitalAssetsNotBeingDepreciatedNet": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Net capital assets, classified as not being depreciated.",
+        "label": "Capital Assets, Not Being Depreciated, Net"
+       }
+      }
+     },
+     "localname": "CapitalAssetsNotBeingDepreciatedNet",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -3286,6 +3652,7 @@
      "lang": {
       "en": {
        "role": {
+        "documentation": "Amount of cash with escrow agent.",
         "label": "Cash With Escrow Agent"
        }
       }
@@ -3563,7 +3930,7 @@
      "localname": "ClusterNameEnumerated",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "clusterItemType"
     },
@@ -3736,7 +4103,7 @@
      "localname": "ComplianceAuditFindingsAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -3753,7 +4120,7 @@
      "localname": "ComplianceAuditFindingsModifiedOpinion",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3770,7 +4137,7 @@
      "localname": "ComplianceAuditFindingsOtherOpinion",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3787,7 +4154,7 @@
      "localname": "ComplianceRequirementActivitiesAllowedOrUnallowed",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3804,7 +4171,7 @@
      "localname": "ComplianceRequirementAllowableCostsPrinciples",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3821,7 +4188,7 @@
      "localname": "ComplianceRequirementCashManagement",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3838,7 +4205,7 @@
      "localname": "ComplianceRequirementEligibility",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3855,7 +4222,7 @@
      "localname": "ComplianceRequirementEquipmentAndRealPropertyManagement",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3872,7 +4239,7 @@
      "localname": "ComplianceRequirementMatchingLevelOfEffortEarmarking",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3889,7 +4256,7 @@
      "localname": "ComplianceRequirementOther",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3906,7 +4273,7 @@
      "localname": "ComplianceRequirementPeriodOfPerformanceOfFederalFunds",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3923,7 +4290,7 @@
      "localname": "ComplianceRequirementProcurementSuspensionDisbarment",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3940,7 +4307,7 @@
      "localname": "ComplianceRequirementProgramIncome",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3957,7 +4324,7 @@
      "localname": "ComplianceRequirementReporting",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3974,7 +4341,7 @@
      "localname": "ComplianceRequirementReserved",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -3991,7 +4358,7 @@
      "localname": "ComplianceRequirementSpecialTestsAndProvisions",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -4008,7 +4375,7 @@
      "localname": "ComplianceRequirementSubrecipientMonitoring",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -4025,7 +4392,7 @@
      "localname": "ComplianceRequirementTypesAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -5669,7 +6036,7 @@
      "localname": "DirectAward",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -6076,54 +6443,6 @@
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
      ],
      "xbrltype": "domainItemType"
-    },
-    "cafr_EmployeeRetirementAndPensionPlansAbstract": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "Information about Employee Retirement And Pension Plans.",
-        "label": "Employee Retirement And Pension Plans [Abstract]"
-       }
-      }
-     },
-     "localname": "EmployeeRetirementAndPensionPlansAbstract",
-     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
-     "xbrltype": "stringItemType"
-    },
-    "cafr_EmployeeRetirementAndPensionPlansLineitems": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "Used to collect information about Employee Retirement And Pension Plans.",
-        "label": "Details Of Employee Retirement And Pension Plans [Line Items]"
-       }
-      }
-     },
-     "localname": "EmployeeRetirementAndPensionPlansLineitems",
-     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
-     "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
-     ],
-     "xbrltype": "stringItemType"
-    },
-    "cafr_EmployeeRetirementAndPensionPlansTable": {
-     "auth_ref": [],
-     "lang": {
-      "en": {
-       "role": {
-        "documentation": "Table used to capture information about the Employee Retirement And Pension Plans.",
-        "label": "Employee Retirement And Pension Plans [Table]"
-       }
-      }
-     },
-     "localname": "EmployeeRetirementAndPensionPlansTable",
-     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
-     "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
-     ],
-     "xbrltype": "stringItemType"
     },
     "cafr_EmploymentServiceClusterMember": {
      "auth_ref": [],
@@ -7724,7 +8043,7 @@
      "localname": "FederalAwardSourceAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -7775,6 +8094,7 @@
      "localname": "FederalAwardingAgencyEnumerated",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram"
      ],
      "xbrltype": "federalAwardingAgencyItemType"
@@ -7857,7 +8177,7 @@
      "localname": "FederalLoanOrLoanGuarantee",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -7908,9 +8228,27 @@
      "localname": "FederalProgramIdentifierAxis",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
+    },
+    "cafr_FederalProgramIdentifierEnumerated": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Enumerated list of program identifers which corresponds to the FederalProgramIdentifierAxis. Use this concept with the AuditFindingIdentifierTable to link the audit finding to a Federal Program. Use this concept when with the FederalSubprogramIdentifierTable to link a subprogram to a primary Federal program.",
+        "label": "Federal Program Identifier [Enumerated]"
+       }
+      }
+     },
+     "localname": "FederalProgramIdentifierEnumerated",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings",
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram"
+     ],
+     "xbrltype": "federalProgramIdentifierItemType"
     },
     "cafr_FederalProgramName": {
      "auth_ref": [],
@@ -7925,7 +8263,7 @@
      "localname": "FederalProgramName",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -9246,7 +9584,7 @@
      "localname": "InternalControlAuditFindingsAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -9263,7 +9601,7 @@
      "localname": "InternalControlAuditFindingsMaterialWeakness",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -9280,7 +9618,7 @@
      "localname": "InternalControlAuditFindingsSignificantDeficiency",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -9742,7 +10080,7 @@
      "localname": "LoanProgramAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -9907,7 +10245,7 @@
      "localname": "MajorProgram",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -9924,7 +10262,7 @@
      "localname": "MajorProgramandAuditFindingsAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -11819,7 +12157,7 @@
      "localname": "NumberofAuditFindings",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "integerItemType"
     },
@@ -12827,7 +13165,7 @@
      "localname": "OtherAuditFindings",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -12961,7 +13299,7 @@
      "localname": "OtherClusterName",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -13560,7 +13898,7 @@
      "localname": "OutstandingLoanBalance",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -13594,7 +13932,7 @@
      "localname": "PassThroughAmount",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "monetaryItemType"
     },
@@ -13611,7 +13949,7 @@
      "localname": "PassThroughSourceEntityIdentifier",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -13628,7 +13966,7 @@
      "localname": "PassThroughSourceEntityName",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -13645,7 +13983,7 @@
      "localname": "PassedThroughAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -14333,7 +14671,7 @@
      "lang": {
       "en": {
        "role": {
-        "documentation": "Changes in Net Pension Liability due to Contributions from the Employer",
+        "documentation": "Changes in Net Pension Liability due to contributions from the employer",
         "label": "Pension Plan Employer Contributions"
        }
       }
@@ -14599,6 +14937,54 @@
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
      ],
      "xbrltype": "planTypeItemType"
+    },
+    "cafr_PensionPlansAbstract": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Information about pension plans.",
+        "label": "Pension Plans [Abstract]"
+       }
+      }
+     },
+     "localname": "PensionPlansAbstract",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "xbrltype": "stringItemType"
+    },
+    "cafr_PensionPlansLineItems": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Used to collect information about Pension Plans.",
+        "label": "Pension Plans [Line Items]"
+       }
+      }
+     },
+     "localname": "PensionPlansLineItems",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
+     ],
+     "xbrltype": "stringItemType"
+    },
+    "cafr_PensionPlansTable": {
+     "auth_ref": [],
+     "lang": {
+      "en": {
+       "role": {
+        "documentation": "Table used to capture information about the Employee Retirement And Pension Plans.",
+        "label": "Pension Plans [Table]"
+       }
+      }
+     },
+     "localname": "PensionPlansTable",
+     "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
+     "presentation": [
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
+     ],
+     "xbrltype": "stringItemType"
     },
     "cafr_PensionServiceCost": {
      "auth_ref": [],
@@ -15458,7 +15844,7 @@
      "localname": "QuestionedCosts",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -15712,7 +16098,7 @@
      "localname": "RepeatFindingAuditReferenceNumber",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -15729,7 +16115,7 @@
      "localname": "RepeatFindingFromPriorYear",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "booleanItemType"
     },
@@ -17275,7 +17661,7 @@
      "localname": "ScheduleOfFederalAwardsAndQuestionedCostsLineItems",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -17292,7 +17678,7 @@
      "localname": "ScheduleOfFederalAwardsAndQuestionedCostsTable",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -17658,7 +18044,7 @@
      "presentation": [
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
      ],
-     "xbrltype": "stringItemType"
+     "xbrltype": "textBlockItemType"
     },
     "cafr_SmallBusinessAdministration59Member": {
      "auth_ref": [],
@@ -17863,7 +18249,7 @@
      "localname": "StateClusterName",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "stringItemType"
     },
@@ -18010,7 +18396,6 @@
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForPrograms",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit",
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpenses",
       "http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpensesComponentUnit",
@@ -18633,7 +19018,7 @@
      "localname": "TypeOfAuditFindingAbstract",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
      ],
      "xbrltype": "stringItemType"
     },
@@ -18694,7 +19079,7 @@
      "localname": "TypeofAuditReport",
      "nsuri": "http://xbrl.us/cafr/v0.3/2020-05-01/cafr",
      "presentation": [
-      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSchedule"
+      "http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
      ],
      "xbrltype": "auditReportItemType"
     },
