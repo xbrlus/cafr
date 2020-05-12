@@ -3,7 +3,7 @@
   "College-of-DuPage-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
    "axisStandard": 1,
-   "contextCount": 3,
+   "contextCount": 5,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -58,13 +58,10 @@
     "R1": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -89,16 +86,13 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R13": {
+    "R14": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -123,16 +117,13 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R15": {
+    "R17": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -157,13 +148,10 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -181,16 +169,13 @@
       "xsiNil": "false"
      }
     },
-    "R16": {
+    "R18": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -215,16 +200,13 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R17": {
+    "R19": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -236,7 +218,7 @@
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:RevenueFromTuitionAndFees",
+      "name": "cafr:RevenueFromTuitionAndFeesNetOfAllowances",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
@@ -250,13 +232,10 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -268,23 +247,51 @@
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:RevenueFromTuitionAndFees",
+      "name": "cafr:RevenueFromTuitionAndFeesNetOfAllowances",
       "reportCount": 1,
       "unique": true,
       "unitRef": "USD",
       "xsiNil": "false"
      }
     },
-    "R18": {
+    "R2": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
        "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
+      "contextRef": "I20190630_BusinessTypeActivitiesMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherCurrentAssets",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "100100 - Net Position - Other Current Assets Table",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets",
+     "shortName": "Other Current Assets Table",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R20": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
        "div",
        "div",
        "div",
@@ -309,11 +316,9 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R19": {
+    "R21": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
@@ -343,8 +348,6 @@
      "subGroupType": "",
      "uniqueAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
@@ -367,50 +370,13 @@
       "xsiNil": "false"
      }
     },
-    "R2": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "p",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "I20190630_BusinessTypeActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:OtherCurrentAssets",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "100100 - Net Position - Other Current Assets Table",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets",
-     "shortName": "Other Current Assets Table",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
     "R3": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -438,13 +404,10 @@
     "R4": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -472,13 +435,10 @@
     "R5": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
@@ -506,13 +466,10 @@
     "R6": {
      "firstAnchor": {
       "ancestors": [
-       "span",
-       "p",
        "td",
        "tr",
        "tbody",
        "table",
-       "div",
        "div",
        "div",
        "div",
