@@ -100,13 +100,6 @@
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit">
-                <link:definition>101200 - Net Position - Other Noncurrent Liabilities Component Unit</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
               id="roleType_NetPositionComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit">
                 <link:definition>101200 - Statement of Net Position, Component Unit</link:definition>
@@ -121,13 +114,6 @@
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_NetPositionPayableRestrictedAssetsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssetsComponentUnit">
-                <link:definition>101300 - Net Position - Payable from Restricted Assets Component Unit</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
               id="roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit">
                 <link:definition>101400 - Net Position - Capital Assets Not Being Depreciated Component Unit</link:definition>
@@ -135,23 +121,9 @@
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_NetPositionOtherDeferredInflowsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit">
-                <link:definition>101400 - Net Position - Other Deferred Inflows Component Unit</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
               id="roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit">
                 <link:definition>101500 - Net Position - Capital Assets Being Depreciated Component Unit</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
-              id="roleType_NetPositionNetRestrictedComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit">
-                <link:definition>101500 - Net Position - Net Position Restricted Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
@@ -180,6 +152,34 @@
               id="roleType_NetPositionOtherCurrentLiabilitiesComponentUnit"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit">
                 <link:definition>101900 - Net Position - Other Current Liabilities Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit">
+                <link:definition>102000 - Net Position - Other Noncurrent Liabilities Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionPayableRestrictedAssetsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssetsComponentUnit">
+                <link:definition>102100 - Net Position - Payable from Restricted Assets Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherDeferredInflowsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit">
+                <link:definition>102200 - Net Position - Other Deferred Inflows Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionNetRestrictedComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit">
+                <link:definition>102300 - Net Position - Net Position Restricted Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>

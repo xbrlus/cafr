@@ -7,400 +7,400 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredInflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherDeferredInflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredOutflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssetsComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentAssetsComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesInvesting"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesInvesting"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredOutflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherDeferredOutflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfers"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesAdjustmentsForTransfers"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_Pension"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenues"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherGeneralRevenues"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusinessNonoperatingGainsLosses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflowsComponentUnit"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredOutflowsComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditGeneralInformation"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCurrentLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingExpenses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesOperatingExpenses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpenses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherExpenses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCapitalAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCapitalAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedNetPosition"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherRestrictedNetPosition"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessNonCapitalFinancing"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessNonCapitalFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsRevenuesExpenditures"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsRevenuesExpenditures"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenues"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherProgramUsingRevenues"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesNonCapitalFinancing"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesNonCapitalFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditSEFANotes"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredOutflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceDeferredOutflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusiness"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusiness"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssetsComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherRestrictedAssetsComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionNetRestrictedComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceOtherLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsDepreciable"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessOperating"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessOperating"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditFederalAgencyTotals"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenuesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherGeneralRevenuesComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesGeneralRevenues"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPosition"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessInvesting"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessInvesting"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/OPEB"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_OPEB"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesAdjustmentsForTransfersComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceDeferredInflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCurrentLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentLiabilitiesComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherProgramUsingRevenuesComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesOperatingRevenues"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredInflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherDeferredInflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceOtherAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherNoncurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherFinancingSourcesUses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundRevenuessOtherFinancingSourcesUses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingExpenses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusinessOperatingExpenses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherRestrictedCurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesCapitalFinancing"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesCapitalFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCapitalAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCapitalAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherRevenues"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundRevenuessOtherRevenues"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredOutflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherDeferredOutflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditSubprogram"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestricted"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionNetRestricted"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentLiabilities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesOperating"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpensesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherExpensesComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsNondepreciable"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredInflows"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditScheduleExpenditures"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusiness"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditScheduleFindings"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalancePayableFromRestrictedAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalancePayableFromRestrictedAssets"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssets"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherRestrictedAssets"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssetsComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentAssetsComponentUnit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessCapitalFinancing"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessCapitalFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionPayableRestrictedAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivities"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusiness"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalance"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentAssets"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentLiabilities"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherExpenditures"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundRevenuessOtherExpenditures"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentLiabilities"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditAuditInformation"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditAuditInformation"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentAssets"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredInflowsComponentUnit"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivities"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingRevenues"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusinessOperatingRevenues"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesGeneralRevenuesComponentUnit"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherNoncurrentAssets"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditClusterTotals"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsDepreciable"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceRestrictedAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceRestrictedAssets"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForPrograms"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesExpensesAndRevenuesForPrograms"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets"
-      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherRestrictedCurrentAssets"
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssetsComponentUnit"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionPayableRestrictedAssetsComponentUnit"
       xlink:type="simple"/>
     <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentLiabilities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCapitalAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCapitalAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredOutflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherDeferredOutflows"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedNetPosition"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherRestrictedNetPosition"
       xlink:type="simple"/>
     <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusinessNonoperatingGainsLosses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditGeneralInformation"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesInvesting"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesInvesting"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_Pension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpenses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherExpenses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionNetRestrictedComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities"
       xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherNoncurrentLiabilities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessInvesting"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessInvesting"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenuesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherGeneralRevenuesComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditClusterTotals"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssetsComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentAssetsComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpensesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherExpensesComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenues"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherProgramUsingRevenues"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusiness"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherNoncurrentAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionPayableRestrictedAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherProgramUsingRevenuesComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesCapitalFinancing"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesCapitalFinancing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCurrentLiabilities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditAuditInformation"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditAuditInformation"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssetsComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentAssetsComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredOutflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherDeferredOutflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredOutflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceDeferredOutflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesOperating"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusiness"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusiness"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPosition"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherRevenues"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundRevenuessOtherRevenues"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherRestrictedCurrentAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCurrentLiabilities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesAdjustmentsForTransfersComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredInflowsComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSubprogram"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditSubprogram"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestricted"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionNetRestricted"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalance"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusiness"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherRestrictedCurrentAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceOtherAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessNonCapitalFinancing"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessNonCapitalFinancing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesGeneralRevenues"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentLiabilitiesComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForPrograms"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesExpensesAndRevenuesForPrograms"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredInflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherDeferredInflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceDeferredInflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesNonCapitalFinancing"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashActivitiesNonCapitalFinancing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenues"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesOtherGeneralRevenues"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingExpenses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesOperatingExpenses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditScheduleFindings"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditFederalAgencyTotals"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsRevenuesExpenditures"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsRevenuesExpenditures"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditScheduleExpenditures"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalancePayableFromRestrictedAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalancePayableFromRestrictedAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredInflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingExpenses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesBusinessOperatingExpenses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherFinancingSourcesUses"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundRevenuessOtherFinancingSourcesUses"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedNetPosition"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherRestrictedNetPosition"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFRevenuesExpensesActivitiesOperatingRevenues"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/OPEB"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_OPEB"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_SingleAuditSEFANotes"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessOperating"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessOperating"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherDeferredOutflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionCapitalAssetsNondepreciable"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssetsComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherRestrictedAssetsComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfers"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesAdjustmentsForTransfers"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherLiabilities"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceOtherLiabilities"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessCapitalFinancing"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFCashBusinessCapitalFinancing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredInflows"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherDeferredInflows"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceRestrictedAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_GovFundsBalanceRestrictedAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_ActivitiesGeneralRevenuesComponentUnit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCapitalAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_PFNetPositionActivitiesOtherCapitalAssets"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets"
+      xlink:href="cafr_all_2020-05-01.xsd#roleType_NetPositionOtherCurrentAssets"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition"
@@ -990,11 +990,21 @@
           xlink:to="cafr_InterestReceivableAllowances"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_UncollectibleReceivableAllowances"
+          xlink:label="cafr_UncollectibleReceivableAllowances"
+          xlink:type="locator"/>
+        <presentationArc
+          order="49"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_CurrentAssetsAbstract"
+          xlink:to="cafr_UncollectibleReceivableAllowances"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccumulatedDepreciationandAmortization"
           xlink:label="cafr_AccumulatedDepreciationandAmortization"
           xlink:type="locator"/>
         <presentationArc
-          order="49"
+          order="50"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_AccumulatedDepreciationandAmortization"
@@ -1004,7 +1014,7 @@
           xlink:label="cafr_AccumulatedDepreciation"
           xlink:type="locator"/>
         <presentationArc
-          order="50"
+          order="51"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_AccumulatedDepreciation"
@@ -1014,7 +1024,7 @@
           xlink:label="cafr_InventoriesCurrent"
           xlink:type="locator"/>
         <presentationArc
-          order="51"
+          order="52"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_InventoriesCurrent"
@@ -1024,7 +1034,7 @@
           xlink:label="cafr_PrepaidExpenses"
           xlink:type="locator"/>
         <presentationArc
-          order="52"
+          order="53"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_PrepaidExpenses"
@@ -1034,7 +1044,7 @@
           xlink:label="cafr_PrepaidDeposits"
           xlink:type="locator"/>
         <presentationArc
-          order="53"
+          order="54"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_PrepaidDeposits"
@@ -1044,7 +1054,7 @@
           xlink:label="cafr_PrepaidOPEB"
           xlink:type="locator"/>
         <presentationArc
-          order="54"
+          order="55"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_PrepaidOPEB"
@@ -1054,7 +1064,7 @@
           xlink:label="cafr_OtherPrepaidAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="55"
+          order="56"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_OtherPrepaidAssets"
@@ -1064,7 +1074,7 @@
           xlink:label="cafr_SecuritiesLendingCollateralAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="56"
+          order="57"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_SecuritiesLendingCollateralAssets"
@@ -1074,7 +1084,7 @@
           xlink:label="cafr_RegulatoryAssetsCurrent"
           xlink:type="locator"/>
         <presentationArc
-          order="57"
+          order="58"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_RegulatoryAssetsCurrent"
@@ -1084,7 +1094,7 @@
           xlink:label="cafr_DerivativeInstrumentsAssetsCurrent"
           xlink:type="locator"/>
         <presentationArc
-          order="58"
+          order="59"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_DerivativeInstrumentsAssetsCurrent"
@@ -1094,7 +1104,7 @@
           xlink:label="cafr_OtherCurrentAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="59"
+          order="60"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_OtherCurrentAssets"
@@ -1104,7 +1114,7 @@
           xlink:label="cafr_CurrentAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="60"
+          order="61"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_CurrentAssets"
@@ -1114,7 +1124,7 @@
           xlink:label="cafr_RestrictedAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="61"
+          order="62"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_CurrentAssetsAbstract"
           xlink:to="cafr_RestrictedAssets"
@@ -6702,6 +6712,16 @@
           xlink:to="cafr_RevenueUsedForOtherPrograms"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenues"
+          xlink:label="cafr_ProgramRevenues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="31"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_ActivitiesRevenuesForProgramsFunctionsAbstract"
+          xlink:to="cafr_ProgramRevenues"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:label="cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:type="locator"/>
@@ -7390,41 +7410,11 @@
           xlink:to="cafr_RevenueFromGrantsAndEntitlementsForSpecificPrograms"
           xlink:type="arc"/>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenuesNet"
-          xlink:label="cafr_ProgramRevenuesNet"
-          xlink:type="locator"/>
-        <presentationArc
-          order="27"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
-          xlink:to="cafr_ProgramRevenuesNet"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_GeneralRevenuesNet"
-          xlink:label="cafr_GeneralRevenuesNet"
-          xlink:type="locator"/>
-        <presentationArc
-          order="28"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
-          xlink:to="cafr_GeneralRevenuesNet"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RevenuesNet"
-          xlink:label="cafr_RevenuesNet"
-          xlink:type="locator"/>
-        <presentationArc
-          order="29"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
-          xlink:to="cafr_RevenuesNet"
-          xlink:type="arc"/>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GainLossOnSaleOfCapitalAssets"
           xlink:label="cafr_GainLossOnSaleOfCapitalAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="30"
+          order="27"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_GainLossOnSaleOfCapitalAssets"
@@ -7434,7 +7424,7 @@
           xlink:label="cafr_ChangesInFairValueOfInvestments"
           xlink:type="locator"/>
         <presentationArc
-          order="31"
+          order="28"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_ChangesInFairValueOfInvestments"
@@ -7444,7 +7434,7 @@
           xlink:label="cafr_ContributionsFromPrimaryGovernment"
           xlink:type="locator"/>
         <presentationArc
-          order="32"
+          order="29"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_ContributionsFromPrimaryGovernment"
@@ -7454,7 +7444,7 @@
           xlink:label="cafr_RecoveryOfCostIncurred"
           xlink:type="locator"/>
         <presentationArc
-          order="33"
+          order="30"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_RecoveryOfCostIncurred"
@@ -7464,17 +7454,37 @@
           xlink:label="cafr_EarningsOnEndowmentsAndPermanentFundInvestments"
           xlink:type="locator"/>
         <presentationArc
-          order="34"
+          order="31"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_EarningsOnEndowmentsAndPermanentFundInvestments"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GeneralRevenuesNet"
+          xlink:label="cafr_GeneralRevenuesNet"
+          xlink:type="locator"/>
+        <presentationArc
+          order="32"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
+          xlink:to="cafr_GeneralRevenuesNet"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenuesNet"
+          xlink:label="cafr_RevenuesNet"
+          xlink:type="locator"/>
+        <presentationArc
+          order="33"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
+          xlink:to="cafr_RevenuesNet"
           xlink:type="arc"/>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherGeneralRevenues"
           xlink:label="cafr_OtherGeneralRevenues"
           xlink:type="locator"/>
         <presentationArc
-          order="35"
+          order="34"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_OtherGeneralRevenues"
@@ -7484,7 +7494,7 @@
           xlink:label="cafr_AdjustmentsForTransferOfRevenuesWithinActivities"
           xlink:type="locator"/>
         <presentationArc
-          order="36"
+          order="35"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_ActivitiesGeneralRevenuesAbstract"
           xlink:to="cafr_AdjustmentsForTransferOfRevenuesWithinActivities"
@@ -11714,14 +11724,14 @@
           xlink:to="cafr_OtherRevenues"
           xlink:type="arc"/>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenues"
-          xlink:label="cafr_ProgramRevenues"
+          xlink:href="cafr_2020-05-01.xsd#cafr_Revenues"
+          xlink:label="cafr_Revenues"
           xlink:type="locator"/>
         <presentationArc
           order="35"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_RevenuesAbstract"
-          xlink:to="cafr_ProgramRevenues"
+          xlink:to="cafr_Revenues"
           xlink:type="arc"/>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresAbstract"
@@ -12084,6 +12094,26 @@
           xlink:to="cafr_OtherExpenditures"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_Expenditures"
+          xlink:label="cafr_Expenditures"
+          xlink:type="locator"/>
+        <presentationArc
+          order="36"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_ExpendituresAbstract"
+          xlink:to="cafr_Expenditures"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:label="cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:type="locator"/>
+        <presentationArc
+          order="37"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_ExpendituresAbstract"
+          xlink:to="cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherFinancingSourcesUsesAbstract"
           xlink:label="cafr_OtherFinancingSourcesUsesAbstract"
           xlink:type="locator"/>
@@ -12144,11 +12174,21 @@
           xlink:to="cafr_AdjustmentsInFundBalancesForIncreaseDecreaseInLiabilities"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetChangeInFundBalance"
+          xlink:label="cafr_NetChangeInFundBalance"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_OtherFinancingSourcesUsesAbstract"
+          xlink:to="cafr_NetChangeInFundBalance"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_FundBalances"
           xlink:label="cafr_FundBalances"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_OtherFinancingSourcesUsesAbstract"
           xlink:to="cafr_FundBalances"
@@ -12866,11 +12906,21 @@
           xlink:to="cafr_OnSiteImprovements"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_Subsidies"
+          xlink:label="cafr_Subsidies"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="cafr_NonCurrentAssetsAbstract"
+          xlink:to="cafr_Subsidies"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_Buildings"
           xlink:label="cafr_Buildings"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_Buildings"
@@ -12880,7 +12930,7 @@
           xlink:label="cafr_FurnitureAndEquipment"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_FurnitureAndEquipment"
@@ -12890,7 +12940,7 @@
           xlink:label="cafr_ConstructionInProgress"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_ConstructionInProgress"
@@ -12900,7 +12950,7 @@
           xlink:label="cafr_CapitalAssetsNotBeingDepreciated"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_CapitalAssetsNotBeingDepreciated"
@@ -12910,7 +12960,7 @@
           xlink:label="cafr_CapitalAssetsBeingDepreciated"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_CapitalAssetsBeingDepreciated"
@@ -12920,7 +12970,7 @@
           xlink:label="cafr_CapitalAssetsNotBeingDepreciatedNet"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_CapitalAssetsNotBeingDepreciatedNet"
@@ -12930,7 +12980,7 @@
           xlink:label="cafr_CapitalAssetsBeingDepreciatedNet"
           xlink:type="locator"/>
         <presentationArc
-          order="9"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_CapitalAssetsBeingDepreciatedNet"
@@ -12940,7 +12990,7 @@
           xlink:label="cafr_AccumulatedDepreciation"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_AccumulatedDepreciation"
@@ -12950,7 +13000,7 @@
           xlink:label="cafr_OtherCapitalAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_OtherCapitalAssets"
@@ -12960,7 +13010,7 @@
           xlink:label="cafr_CapitalAssets"
           xlink:type="locator"/>
         <presentationArc
-          order="12"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_CapitalAssets"
@@ -12970,7 +13020,7 @@
           xlink:label="cafr_InventoriesNonCurrent"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_InventoriesNonCurrent"
@@ -12980,7 +13030,7 @@
           xlink:label="cafr_LongTermInvestments"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_LongTermInvestments"
@@ -12990,7 +13040,7 @@
           xlink:label="cafr_NetPensionAsset"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="16"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_NetPensionAsset"
@@ -13000,7 +13050,7 @@
           xlink:label="cafr_NetOPEBAsset"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_NetOPEBAsset"
@@ -13010,7 +13060,7 @@
           xlink:label="cafr_OtherNoncurrentAssetsAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="18"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="cafr_NonCurrentAssetsAbstract"
           xlink:to="cafr_OtherNoncurrentAssetsAbstract"

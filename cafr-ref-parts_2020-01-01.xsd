@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cafr-part="http://www.cafr.us/parts" targetNamespace="http://www.cafr.us/parts" 
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation> This schem defines reference roles and parts </xs:documentation>
+		<xs:appinfo> </xs:appinfo>
+	</xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+	<xs:element name="publisher" type="xs:token" substitutionGroup="link:part" id="publisher">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">publisher</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="note" type="xs:token" substitutionGroup="link:part" id="note">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">note</xs:documentation>
+		</xs:annotation>
+	</xs:element>				
+</xs:schema>

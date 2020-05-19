@@ -1170,6 +1170,26 @@
           xlink:type="resource"
           xml:lang="en">The portion of interest receivable estimated not to be collectible.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_UncollectibleReceivableAllowances"
+          xlink:label="cafr_UncollectibleReceivableAllowances"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_UncollectibleReceivableAllowances"
+          xlink:to="label_cafr_UncollectibleReceivableAllowances"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_UncollectibleReceivableAllowances"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Allowance for Uncollectible Receivables</label>
+        <label
+          xlink:label="label_cafr_UncollectibleReceivableAllowances"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The portion of receivables estimated not to be collectible.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccumulatedDepreciationandAmortization"
           xlink:label="cafr_AccumulatedDepreciationandAmortization"
           xlink:type="locator"/>
@@ -5050,6 +5070,26 @@
           xlink:type="resource"
           xml:lang="en">Revenue used for other programs, not elsewhere classified. Can be used with the typed dimension, Name of Other Program Revenues [Axis] which is used to represent a speicific type of other program which is not available in the taxonomy. If no axis is used, this element represents the total revenues used for other programs not elsewhere classified.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenues"
+          xlink:label="cafr_ProgramRevenues"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProgramRevenues"
+          xlink:to="label_cafr_ProgramRevenues"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProgramRevenues"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Program Revenues</label>
+        <label
+          xlink:label="label_cafr_ProgramRevenues"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Program revenues which are amounts which are derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:label="cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:type="locator"/>
@@ -6310,66 +6350,6 @@
           xlink:type="resource"
           xml:lang="en">Revenue from grants and entitlements for specific programs.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenuesNet"
-          xlink:label="cafr_ProgramRevenuesNet"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ProgramRevenuesNet"
-          xlink:to="label_cafr_ProgramRevenuesNet"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_ProgramRevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">Program Revenues, Net</label>
-        <label
-          xlink:label="label_cafr_ProgramRevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">Program revenues, net.</label>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_GeneralRevenuesNet"
-          xlink:label="cafr_GeneralRevenuesNet"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_GeneralRevenuesNet"
-          xlink:to="label_cafr_GeneralRevenuesNet"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_GeneralRevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">General Revenues, Net</label>
-        <label
-          xlink:label="label_cafr_GeneralRevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">General revenues, net.</label>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RevenuesNet"
-          xlink:label="cafr_RevenuesNet"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_RevenuesNet"
-          xlink:to="label_cafr_RevenuesNet"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_RevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">Revenues, Net</label>
-        <label
-          xlink:label="label_cafr_RevenuesNet"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">Revenues, net.</label>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GainLossOnSaleOfCapitalAssets"
           xlink:label="cafr_GainLossOnSaleOfCapitalAssets"
           xlink:type="locator"/>
@@ -6469,6 +6449,46 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Earnings on endowments and permanent fund investments.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GeneralRevenuesNet"
+          xlink:label="cafr_GeneralRevenuesNet"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GeneralRevenuesNet"
+          xlink:to="label_cafr_GeneralRevenuesNet"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GeneralRevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">General Revenues, Net</label>
+        <label
+          xlink:label="label_cafr_GeneralRevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">General revenues, net.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenuesNet"
+          xlink:label="cafr_RevenuesNet"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_RevenuesNet"
+          xlink:to="label_cafr_RevenuesNet"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_RevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Revenues, Net</label>
+        <label
+          xlink:label="label_cafr_RevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Revenues, net.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherGeneralRevenues"
           xlink:label="cafr_OtherGeneralRevenues"
@@ -6749,6 +6769,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Information about the Statement of Activities, General Revenues from Programs, Component Unit.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenuesNet"
+          xlink:label="cafr_ProgramRevenuesNet"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProgramRevenuesNet"
+          xlink:to="label_cafr_ProgramRevenuesNet"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProgramRevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Program Revenues, Net</label>
+        <label
+          xlink:label="label_cafr_ProgramRevenuesNet"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Program revenues, net.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsBalanceSheetAbstract"
           xlink:label="cafr_GovernmentalFundsBalanceSheetAbstract"
@@ -8130,25 +8170,25 @@
           xlink:type="resource"
           xml:lang="en">Other revenues which the reporting entity does not separately disclose in the same statement or note.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ProgramRevenues"
-          xlink:label="cafr_ProgramRevenues"
+          xlink:href="cafr_2020-05-01.xsd#cafr_Revenues"
+          xlink:label="cafr_Revenues"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ProgramRevenues"
-          xlink:to="label_cafr_ProgramRevenues"
+          xlink:from="cafr_Revenues"
+          xlink:to="label_cafr_Revenues"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_ProgramRevenues"
+          xlink:label="label_cafr_Revenues"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Program Revenues</label>
+          xml:lang="en">Revenues</label>
         <label
-          xlink:label="label_cafr_ProgramRevenues"
+          xlink:label="label_cafr_Revenues"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Program revenues which are amounts which are derived directly from the program itself or from parties outside the reporting government's taxpayers or citizenry, as a whole; they reduce the net cost of the function to be financed from the government's general revenues.</label>
+          xml:lang="en">Revenues that are generated by a government itself, such as tax revenues and water and sewer charges. Investment income is also an own-source revenue. Intergovernmental aid and shared revenues are not own-source revenues.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresAbstract"
           xlink:label="cafr_ExpendituresAbstract"
@@ -8810,6 +8850,46 @@
           xlink:type="resource"
           xml:lang="en">Other expenditures which the reporting entity does not separately disclose in the same statement or note.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_Expenditures"
+          xlink:label="cafr_Expenditures"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_Expenditures"
+          xlink:to="label_cafr_Expenditures"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_Expenditures"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures</label>
+        <label
+          xlink:label="label_cafr_Expenditures"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:label="cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:to="label_cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Excess (Deficiency) of Revenues Over (Under) Expenditures</label>
+        <label
+          xlink:label="label_cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Excess (deficiency) of revenues over (under) expenditures.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherFinancingSourcesUsesAbstract"
           xlink:label="cafr_OtherFinancingSourcesUsesAbstract"
           xlink:type="locator"/>
@@ -8929,6 +9009,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Adjustments in fund balances to account for increase (decrease) in liabilities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetChangeInFundBalance"
+          xlink:label="cafr_NetChangeInFundBalance"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetChangeInFundBalance"
+          xlink:to="label_cafr_NetChangeInFundBalance"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetChangeInFundBalance"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Change in Fund Balance</label>
+        <label
+          xlink:label="label_cafr_NetChangeInFundBalance"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Amount of net change in fund balance.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherRevenuesGovIncTable"
           xlink:label="cafr_NameOfOtherRevenuesGovIncTable"
@@ -9529,6 +9629,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Amount before accumulated deprecation and depletion of additions or improvements to real estate held for productive use. Examples include, but are not limited to, walkways, driveways, fences, and parking lots.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_Subsidies"
+          xlink:label="cafr_Subsidies"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_Subsidies"
+          xlink:to="label_cafr_Subsidies"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_Subsidies"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Subsidies</label>
+        <label
+          xlink:label="label_cafr_Subsidies"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Amount of subsidies.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_Buildings"
           xlink:label="cafr_Buildings"
