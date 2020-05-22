@@ -2,8 +2,8 @@
  "instance": {
   "College-of-DuPage-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
-   "axisStandard": 1,
-   "contextCount": 5,
+   "axisStandard": 2,
+   "contextCount": 6,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -53,7 +53,7 @@
    "keyCustom": 0,
    "keyStandard": 109,
    "memberCustom": 0,
-   "memberStandard": 1,
+   "memberStandard": 2,
    "report": {
     "R1": {
      "firstAnchor": {
@@ -314,7 +314,28 @@
      "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues",
      "shortName": "Type of Activities Other Operating Revenues",
      "subGroupType": "",
-     "uniqueAnchor": null
+     "uniqueAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
+      "contextRef": "D20180630_BusinessTypeActivitiesMember_NameOfOtherOperatingRevenueDomain_Chargeback_revenue",
+      "decimals": "0",
+      "lang": null,
+      "name": "cafr:OtherOperatingRevenue",
+      "reportCount": 1,
+      "unique": true,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     }
     },
     "R21": {
      "firstAnchor": {
@@ -495,7 +516,7 @@
      "uniqueAnchor": null
     }
    },
-   "segmentCount": 1,
+   "segmentCount": 2,
    "tag": {
     "cafr_AccountsPayable": {
      "auth_ref": [],
