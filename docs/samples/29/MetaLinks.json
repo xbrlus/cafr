@@ -3,7 +3,7 @@
   "College-of-DuPage-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
    "axisStandard": 2,
-   "contextCount": 10,
+   "contextCount": 8,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -32,16 +32,16 @@
     },
     "schema": {
      "remote": [
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01.xsd",
+      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01.xsd",
-      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
-      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-types-2020-05-01.xsd"
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-types-2020-05-01.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01.xsd"
      ]
     }
    },
@@ -51,7 +51,7 @@
     "total": 0
    },
    "keyCustom": 0,
-   "keyStandard": 111,
+   "keyStandard": 704,
    "memberCustom": 0,
    "memberStandard": 2,
    "report": {
