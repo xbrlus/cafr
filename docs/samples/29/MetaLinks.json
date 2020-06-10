@@ -3,7 +3,7 @@
   "College-of-DuPage-20190630-Annual-Accounts.htm": {
    "axisCustom": 0,
    "axisStandard": 2,
-   "contextCount": 8,
+   "contextCount": 6,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -32,16 +32,16 @@
     },
     "schema": {
      "remote": [
-      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01.xsd",
       "http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xl-2003-12-31.xsd",
       "http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
-      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01.xsd",
+      "http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
       "http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd",
       "http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-types-2020-05-01.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_2020-05-01.xsd",
-      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr_all_2020-05-01.xsd"
+      "http://www.xbrl.org/2005/xbrldt-2005.xsd",
+      "https://raw.githubusercontent.com/xbrlus/cafr/master/cafr-types-2020-05-01.xsd"
      ]
     }
    },
@@ -51,7 +51,7 @@
     "total": 0
    },
    "keyCustom": 0,
-   "keyStandard": 704,
+   "keyStandard": 112,
    "memberCustom": 0,
    "memberStandard": 2,
    "report": {
@@ -371,60 +371,6 @@
      "uniqueAnchor": null
     },
     "R22": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:ScholarshipAllowances",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "604000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness",
-     "shortName": "Business Activities",
-     "subGroupType": "",
-     "uniqueAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "College-of-DuPage-20190630-Annual-Accounts.htm",
-      "contextRef": "D20190630",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:ScholarshipAllowances",
-      "reportCount": 1,
-      "unique": true,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     }
-    },
-    "R23": {
      "firstAnchor": {
       "ancestors": [
        "td",
