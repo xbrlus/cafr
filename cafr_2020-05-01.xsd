@@ -542,7 +542,7 @@
       name="BadDebtExpense"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="instant"/>
+      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_BondAndInterestPayableMatured"
       name="BondAndInterestPayableMatured"
