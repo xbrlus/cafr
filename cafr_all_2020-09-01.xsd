@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Initial CAFR taxonomy-->
+<xs:schema
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  targetNamespace="http://xbrl.us/cafr/v0.3/2020-09-01/cafr-all"
+  xmlns:cafr="http://xbrl.us/cafr/v0.3/2020-09-01/cafr"
+  xmlns:cafr-all="http://xbrl.us/cafr/v0.3/2020-09-01/cafr-all"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+  xmlns:sap="http://xbrl.us/sap/v0.3/2020-09-01/sap"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>This schema contains core elements for the CAFR taxonomy and is a comprehensive list of all roles.</xs:documentation>
+        <xs:appinfo/>
+    </xs:annotation>
+    <xs:import
+      namespace="http://www.xbrl.org/2003/instance"
+      schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import
+      namespace="http://xbrl.org/2005/xbrldt"
+      schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xs:import
+      namespace="http://xbrl.us/cafr/v0.3/2020-09-01/cafr"
+      schemaLocation="cafr_2020-09-01.xsd"/>
+    <xs:import
+      namespace="http://xbrl.us/sap/v0.3/2020-09-01/sap"
+      schemaLocation="sap_2020-09-01.xsd"/>
+</xs:schema>

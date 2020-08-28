@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2019 XBRL US Inc.
+
+-->
+
+<!-- Schema for numeric types -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:cafr-types="http://xbrl-us/cafr-types/2020-01-01"  xmlns:xbrli="http://www.xbrl.org/2003/instance"  xmlns:xlink="http://www.w3.org/1999/xlink"  attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault=""  targetNamespace="http://xbrl.us/cafr-types/2020-01-01">
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="fundTypeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Special Revenue"/>
+        <xs:enumeration value="Capital Project"/>
+        <xs:enumeration value="Debt Service"/>
+        <xs:enumeration value="Permanent"/>
+        <xs:enumeration value="Other"/>
+        <xs:enumeration value="General Revenue"/>
+        <xs:enumeration value="Aggregate Nonmajor"/>
+      </restriction> 
+    </simpleContent>
+   </complexType>
+    <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="typeOfGovernmentItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="State"/>
+        <xs:enumeration value="County"/>
+        <xs:enumeration value="City"/>
+        <xs:enumeration value="Town"/>      
+        <xs:enumeration value="Village"/>
+        <xs:enumeration value="School district"/>
+        <xs:enumeration value="Special district"/>
+        <xs:enumeration value="Other general purpose government"/>
+      </restriction> 
+    </simpleContent>
+   </complexType>
+    <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="pensionPlanStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Open"/>
+        <xs:enumeration value="Closed"/>
+      </restriction> 
+    </simpleContent>
+    </complexType>
+     <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="oPEBPlanStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Open"/>
+        <xs:enumeration value="Closed"/>
+      </restriction> 
+    </simpleContent>
+    </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="oPEBPlanItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="single"/>
+        <xs:enumeration value="multi-employer agency"/>
+        <xs:enumeration value="multi-employer cost sharing"/>
+        </restriction> 
+    </simpleContent>
+  </complexType>
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="planTypeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="single"/>
+        <xs:enumeration value="agency multi-employer"/>
+        <xs:enumeration value="cost sharing multi-employer"/>
+        </restriction> 
+    </simpleContent>
+  </complexType>
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="pensionPlanCategoryItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="defined benefit"/>
+        <xs:enumeration value="defined contribution"/>
+        </restriction> 
+    </simpleContent>
+  </complexType>
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="participatingEmployeeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fire"/>
+        <xs:enumeration value="Public Safety"/>
+        <xs:enumeration value="Police"/>
+        <xs:enumeration value="Teachers"/>
+        <xs:enumeration value="Elected Official"/>
+        <xs:enumeration value="Judges"/>
+        <xs:enumeration value="Mixed"/>
+        <xs:enumeration value="Other"/>
+      </restriction> 
+    </simpleContent>
+  </complexType>
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="oPEBParticipantItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fire"/>
+        <xs:enumeration value="Public Safety"/>
+        <xs:enumeration value="Police"/>
+        <xs:enumeration value="Teachers"/>
+        <xs:enumeration value="Elected Official"/>
+        <xs:enumeration value="Other"/>
+        </restriction>
+    </simpleContent> 
+  </complexType>
+  </xs:schema>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Initial CAFR taxonomy-->
+<!--Sample taxonomy to represent CAFR statements.-->
 <linkbase
   xmlns="http://www.xbrl.org/2003/linkbase"
   xmlns:xbrli="http://www.xbrl.org/2003/instance"
