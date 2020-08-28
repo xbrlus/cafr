@@ -3,8 +3,8 @@
 <xs:schema
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
-  targetNamespace="http://xbrl.us/cafr/v0.3/2020-09-01/cafr"
-  xmlns:cafr="http://xbrl.us/cafr/v0.3/2020-09-01/cafr"
+  targetNamespace="http://xbrl.us/cafr/v0.3/2020-05-01/cafr"
+  xmlns:cafr="http://xbrl.us/cafr/v0.3/2020-05-01/cafr"
   xmlns:cafr-part="http://www.cafr.us/parts"
   xmlns:cafr-ref-roles="http://www.cafr.us/roles/reference"
   xmlns:cafr-types="http://xbrl.us/cafr-types/2020-01-01"
@@ -20,718 +20,718 @@
         <xs:appinfo>
             <link:roleType
               id="roleType_NetPosition"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPosition">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition">
                 <link:definition>100000 - Statement of Net Position</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherCurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherCurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets">
                 <link:definition>100100 - Net Position - Other Current Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionCapitalAssetsNondepreciable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionCapitalAssetsNondepreciable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable">
                 <link:definition>100200 - Net Position - Capital Assets Nondepreciable (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionCapitalAssetsDepreciable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionCapitalAssetsDepreciable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciable">
                 <link:definition>100300 - Net Position - Capital Assets Depreciable (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherNoncurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherNoncurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssets">
                 <link:definition>100400 - Net Position - Other Noncurrent Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherRestrictedAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherRestrictedAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssets">
                 <link:definition>100500 - Net Position - Other Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherDeferredOutflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherDeferredOutflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflows">
                 <link:definition>100600 - Net Position - Other Deferred Outflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherCurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherCurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilities">
                 <link:definition>100700 - Net Position - Other Current Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherNoncurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherNoncurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilities">
                 <link:definition>100800 - Net Position - Other Noncurrent Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionPayableRestrictedAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionPayableRestrictedAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssets">
                 <link:definition>100900 - Net Position - Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherDeferredInflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherDeferredInflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows">
                 <link:definition>101000 - Net Position - Other Deferred Inflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionNetRestricted"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionNetRestricted">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestricted">
                 <link:definition>101100 - Net Position - Net Position Restricted (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit">
                 <link:definition>101200 - Statement of Net Position, Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherCurrentAssetsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherCurrentAssetsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssetsComponentUnit">
                 <link:definition>101300 - Net Position - Other Current Assets Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit">
                 <link:definition>101400 - Net Position - Capital Assets Not Being Depreciated Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit">
                 <link:definition>101500 - Net Position - Capital Assets Being Depreciated Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherNoncurrentAssetsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherNoncurrentAssetsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssetsComponentUnit">
                 <link:definition>101600 - Net Position - Other Noncurrent Assets Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherRestrictedAssetsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherRestrictedAssetsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssetsComponentUnit">
                 <link:definition>101700 - Net Position - Other Restricted Assets Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherDeferredOutflowsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherDeferredOutflowsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflowsComponentUnit">
                 <link:definition>101800 - Net Position - Other Deferred Outflows Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherCurrentLiabilitiesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit">
                 <link:definition>101900 - Net Position - Other Current Liabilities Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit">
                 <link:definition>102000 - Net Position - Other Noncurrent Liabilities Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionPayableRestrictedAssetsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionPayableRestrictedAssetsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssetsComponentUnit">
                 <link:definition>102100 - Net Position - Payable from Restricted Assets Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionOtherDeferredInflowsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionOtherDeferredInflowsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit">
                 <link:definition>102200 - Net Position - Other Deferred Inflows Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_NetPositionNetRestrictedComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/NetPositionNetRestrictedComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit">
                 <link:definition>102300 - Net Position - Net Position Restricted Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesExpensesAndRevenuesForPrograms"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesExpensesAndRevenuesForPrograms">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForPrograms">
                 <link:definition>200000 - Statement of Activities, Expenses and Revenues for Programs</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesGeneralRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesGeneralRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues">
                 <link:definition>200100 - Statement of Activities, General Revenues and Changes in Net Position</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherProgramUsingRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherProgramUsingRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenues">
                 <link:definition>200200 - Statement of Activities - Other Program Using Revenues (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherGeneralRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherGeneralRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenues">
                 <link:definition>200300 - Statement of Activities - Other General Revenues (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesAdjustmentsForTransfers"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesAdjustmentsForTransfers">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfers">
                 <link:definition>200400 - Statement of Activities - Adjustments for Transfers (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherExpenses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherExpenses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpenses">
                 <link:definition>200500 - Statement of Activities - Other Expenses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit">
                 <link:definition>200600 - Statement of Activities, Expenses and Revenues for Programs, Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesGeneralRevenuesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesGeneralRevenuesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit">
                 <link:definition>200700 - Statement of Activities, General Revenues and Changes in Net Position, Component Unit</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherProgramUsingRevenuesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit">
                 <link:definition>200800 - Statement of Activities - Other Program Using Revenues - Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherGeneralRevenuesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherGeneralRevenuesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenuesComponentUnit">
                 <link:definition>200900 - Statement of Activities - Other General Revenues - Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesAdjustmentsForTransfersComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit">
                 <link:definition>201000 - Statement of Activities - Adjustments for Transfer - Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_ActivitiesOtherExpensesComponentUnit"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/ActivitiesOtherExpensesComponentUnit">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpensesComponentUnit">
                 <link:definition>201100 - Statement of Activities - Other Expenses - Component Unit (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalance"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalance">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalance">
                 <link:definition>300000 - Governmental Funds Balance Sheet</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalanceRestrictedAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalanceRestrictedAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceRestrictedAssets">
                 <link:definition>300100 - Governmental Balance Sheet - Restricted Assets  (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalanceOtherAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalanceOtherAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherAssets">
                 <link:definition>300200 - Governmental Balance - Other Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalanceDeferredOutflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalanceDeferredOutflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredOutflows">
                 <link:definition>300300 - Governmental Balance Sheet - Deferred Outflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalancePayableFromRestrictedAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalancePayableFromRestrictedAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalancePayableFromRestrictedAssets">
                 <link:definition>300400 - Governmental Balance Sheet - Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalanceOtherLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalanceOtherLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherLiabilities">
                 <link:definition>300500 - Governmental Balance Sheet - Other Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsBalanceDeferredInflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsBalanceDeferredInflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows">
                 <link:definition>307000 - Governmental Funds Balance Sheet Totals (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundsRevenuesExpenditures"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundsRevenuesExpenditures">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsRevenuesExpenditures">
                 <link:definition>400000 - Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balances</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundRevenuessOtherRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundRevenuessOtherRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherRevenues">
                 <link:definition>400100 - Governmental Funds Statement of Revenues - Other Revenues (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundRevenuessOtherExpenditures"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundRevenuessOtherExpenditures">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherExpenditures">
                 <link:definition>400200 - Governmental Funds Statement of Revenues - Other Expenditures (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundRevenuessOtherFinancingSourcesUses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundRevenuessOtherFinancingSourcesUses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherFinancingSourcesUses">
                 <link:definition>400300 - Governmental Statement of Revenues - Other Financing Sources Uses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_GovFundRevenuessExpendituresTotals"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/GovFundRevenuessExpendituresTotals">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessExpendituresTotals">
                 <link:definition>404000 - Governmental Funds Statement of Revenues, Expenditures Totals (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities">
                 <link:definition>500000 - Proprietary Funds Net Position - Type of Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets">
                 <link:definition>500100 - Proprietary Funds Net Position - Type of Activities Other Unrestricted Current Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherRestrictedCurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets">
                 <link:definition>500200 - Proprietary Funds Net Position - Type of Activities Other Restricted Current Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherCapitalAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherCapitalAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCapitalAssets">
                 <link:definition>500300 - Proprietary Funds Net Position - Type of Activities Other Capital Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherNoncurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherNoncurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentAssets">
                 <link:definition>500400 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherDeferredOutflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherDeferredOutflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredOutflows">
                 <link:definition>500500 - Proprietary Funds Net Position - Type of Activities Other Deferred Outflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherCurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherCurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilities">
                 <link:definition>500600 - Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable">
                 <link:definition>500700 - Proprietary Funds Net Position - Type of Activities Other Current Liabilities Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherNoncurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities">
                 <link:definition>500800 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable">
                 <link:definition>500900 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherDeferredInflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherDeferredInflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredInflows">
                 <link:definition>501000 - Proprietary Funds Net Position - Type of Activities Other Deferred Inflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionActivitiesOtherRestrictedNetPosition"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionActivitiesOtherRestrictedNetPosition">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedNetPosition">
                 <link:definition>501100 - Proprietary Funds Net Position - Type of Activities Other Restricted Components of Net Position (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusiness"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusiness">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness">
                 <link:definition>501200 - Proprietary Funds Net Position - Business Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets">
                 <link:definition>501300 - Proprietary Funds Net Position - Business Activities Other Unrestricted Current Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherRestrictedCurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets">
                 <link:definition>501400 - Proprietary Funds Net Position - Business Activities Other Restricted Current Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherCapitalAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherCapitalAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCapitalAssets">
                 <link:definition>501500 - Proprietary Funds Net Position - Business Activities Other Capital Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherNoncurrentAssets"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherNoncurrentAssets">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentAssets">
                 <link:definition>501600 - Proprietary Funds Net Position - Business Activities Other Noncurrent Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherDeferredOutflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherDeferredOutflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredOutflows">
                 <link:definition>501700 - Proprietary Funds Net Position - Business Activities Other Deferred Outflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherCurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherCurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilities">
                 <link:definition>501800 - Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable">
                 <link:definition>501900 - Proprietary Funds Net Position - Business Activities Other Current Liabilities Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherNoncurrentLiabilities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilities">
                 <link:definition>502000 - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable">
                 <link:definition>502100 - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherDeferredInflows"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherDeferredInflows">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredInflows">
                 <link:definition>502200 - Proprietary Funds Net Position - Business Activities Other Deferred Inflows (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFNetPositionBusinessOtherRestrictedNetPosition"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFNetPositionBusinessOtherRestrictedNetPosition">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedNetPosition">
                 <link:definition>502300 - Proprietary Funds Net Position - Business Activities Other Restricted Components of Net Position (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesActivities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesActivities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivities">
                 <link:definition>600000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesActivitiesOperatingRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues">
                 <link:definition>601000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Operating Revenues (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesActivitiesOperatingExpenses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesActivitiesOperatingExpenses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingExpenses">
                 <link:definition>602000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Operating Expenses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses">
                 <link:definition>603000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Nonoperating Gains Losses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesBusiness"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesBusiness">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness">
                 <link:definition>604000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesBusinessOperatingRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesBusinessOperatingRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingRevenues">
                 <link:definition>605000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Operating Revenues (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesBusinessOperatingExpenses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesBusinessOperatingExpenses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingExpenses">
                 <link:definition>606000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Operating Expenses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFRevenuesExpensesBusinessNonoperatingGainsLosses"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses">
                 <link:definition>607000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Nonoperating Gains Losses (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashActivities"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashActivities">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivities">
                 <link:definition>700000 - Proprietary Funds Cash Flows - Type of Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashActivitiesOperating"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashActivitiesOperating">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating">
                 <link:definition>701000 - Proprietary Funds Cash Flows - Type of Activities Other Operating Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashActivitiesNonCapitalFinancing"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashActivitiesNonCapitalFinancing">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesNonCapitalFinancing">
                 <link:definition>702000 - Proprietary Funds Cash Flows - Type of Activities Other Non Capital Financing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashActivitiesCapitalFinancing"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashActivitiesCapitalFinancing">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesCapitalFinancing">
                 <link:definition>703000 - Proprietary Funds Cash Flows - Type of Activities Other Capital Financing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashActivitiesInvesting"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashActivitiesInvesting">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesInvesting">
                 <link:definition>704000 - Proprietary Funds Cash Flows - Type of Activities Other Investing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashBusiness"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashBusiness">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusiness">
                 <link:definition>705000 - Proprietary Funds Cash Flows - Business Activities</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashBusinessOperating"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashBusinessOperating">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessOperating">
                 <link:definition>706000 - Proprietary Funds Cash Flows - Business Activities Other Operating Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashBusinessNonCapitalFinancing"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashBusinessNonCapitalFinancing">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessNonCapitalFinancing">
                 <link:definition>707000 - Proprietary Funds Cash Flows - Business Activities Other Non Capital Financing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashBusinessCapitalFinancing"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashBusinessCapitalFinancing">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessCapitalFinancing">
                 <link:definition>708000 - Proprietary Funds Cash Flows - Business Activities Other Capital Financing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_PFCashBusinessInvesting"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/PFCashBusinessInvesting">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessInvesting">
                 <link:definition>709000 - Proprietary Funds Cash Flows - Business Activities Other Investing Activities (Details)</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_Pension"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/Pension">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension">
                 <link:definition>800000 - Pension Footnote</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_OPEB"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/OPEB">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/OPEB">
                 <link:definition>801000 - OPEB Footnote</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaNetPosition"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaNetPosition">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaNetPosition">
                 <link:definition>806000 - California Statement of Net Position</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaActivitiesExpensesAndRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaActivitiesExpensesAndRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaActivitiesExpensesAndRevenues">
                 <link:definition>807000 - California Statement of Activities, Expenses and Revenues for Programs</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaActivitiesGeneralRevenues"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaActivitiesGeneralRevenues">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaActivitiesGeneralRevenues">
                 <link:definition>808000 - California Statement of Activities, General Revenues and Changes in Net Position</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaGovBalanceSheet "
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaGovBalanceSheet ">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovBalanceSheet ">
                 <link:definition>809000 - California Governmental Funds Balance Sheet</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaGovStatementofRevenuesExpenditures"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaGovStatementofRevenuesExpenditures">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovStatementofRevenuesExpenditures">
                 <link:definition>810000 - California Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balances</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaPensionFootnote"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaPensionFootnote">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaPensionFootnote">
                 <link:definition>820000 - California Pension Footnote</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_CaliforniaOPEBFootnote"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-09-01/roles/CaliforniaOPEBFootnote">
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaOPEBFootnote">
                 <link:definition>830000 - California OPEB Footnote</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="cafr_2020-09-01_lab.xml"
+              xlink:href="cafr_2020-05-01_lab.xml"
               xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"
               xlink:type="simple"/>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="cafr_2020-09-01r01_ref.xml"
+              xlink:href="cafr_2020-05-01r01_ref.xml"
               xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef"
               xlink:type="simple"/>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="cafr_all_2020-09-01_pre.xml"
+              xlink:href="cafr_all_2020-05-01_pre.xml"
               xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
               xlink:type="simple"/>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="cafr_all_2020-09-01_def.xml"
+              xlink:href="cafr_all_2020-05-01_def.xml"
               xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
               xlink:type="simple"/>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="cafr_all_2020-09-01_cal.xml"
+              xlink:href="cafr_all_2020-05-01_cal.xml"
               xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef"
               xlink:type="simple"/>
         </xs:appinfo>
@@ -756,7 +756,7 @@
       schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
     <xs:import
       namespace="http://xbrl.us/cafr-types/2020-01-01"
-      schemaLocation="cafr-types-2020-09-01.xsd"/>
+      schemaLocation="cafr-types-2020-05-01.xsd"/>
     <xs:element
       id="cafr_AccountsPayable"
       name="AccountsPayable"

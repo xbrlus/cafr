@@ -7,54 +7,54 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralInformation"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditGeneralInformation"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSubprogram"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditSubprogram"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditFederalAgencyTotals"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditFederalAgencyTotals"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditFederalAgencyTotals"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditClusterTotals"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditClusterTotals"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralDUNSContinuationList"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralDUNSContinuationList"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditSEFANotes"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditSEFANotes"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditSEFANotes"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditSubprogram"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditSubprogram"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleFindings"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleFindingsAndQuestionedCosts"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditScheduleFindingsAndQuestionedCosts"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralEINContinuationList"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralEINContinuationList"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleFindings"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditScheduleFindings"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralInformation"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleExpenditures"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditScheduleExpenditures"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleExpenditures"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralEINContinuationList"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditGeneralEINContinuationList"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditClusterTotals"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralDUNSContinuationList"
-      xlink:href="sap_2020-09-01.xsd#roleType_SingleAuditGeneralDUNSContinuationList"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindingsAndQuestionedCosts"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleFindingsAndQuestionedCosts"
       xlink:type="simple"/>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralInformation"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GeneralInformationAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_GeneralInformationAbstract"
           xlink:label="sap_GeneralInformationAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FiscalPeriodAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FiscalPeriodAbstract"
           xlink:label="sap_FiscalPeriodAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -64,7 +64,7 @@
           xlink:to="sap_FiscalPeriodAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FiscalPeriodStartDate"
+          xlink:href="sap_2020-05-01.xsd#sap_FiscalPeriodStartDate"
           xlink:label="sap_FiscalPeriodStartDate"
           xlink:type="locator"/>
         <presentationArc
@@ -74,7 +74,7 @@
           xlink:to="sap_FiscalPeriodStartDate"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FiscalPeriodEndDate"
+          xlink:href="sap_2020-05-01.xsd#sap_FiscalPeriodEndDate"
           xlink:label="sap_FiscalPeriodEndDate"
           xlink:type="locator"/>
         <presentationArc
@@ -84,7 +84,7 @@
           xlink:to="sap_FiscalPeriodEndDate"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TypeOfAuditAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_TypeOfAuditAbstract"
           xlink:label="sap_TypeOfAuditAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -94,7 +94,7 @@
           xlink:to="sap_TypeOfAuditAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_UniformGuidanceAuditType"
+          xlink:href="sap_2020-05-01.xsd#sap_UniformGuidanceAuditType"
           xlink:label="sap_UniformGuidanceAuditType"
           xlink:type="locator"/>
         <presentationArc
@@ -104,7 +104,7 @@
           xlink:to="sap_UniformGuidanceAuditType"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditPeriodAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditPeriodAbstract"
           xlink:label="sap_AuditPeriodAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -114,7 +114,7 @@
           xlink:to="sap_AuditPeriodAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditPeriodCovered"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditPeriodCovered"
           xlink:label="sap_AuditPeriodCovered"
           xlink:type="locator"/>
         <presentationArc
@@ -124,7 +124,7 @@
           xlink:to="sap_AuditPeriodCovered"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityAuditPeriodCoveredQuantity"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityAuditPeriodCoveredQuantity"
           xlink:label="sap_GRMLegalEntityAuditPeriodCoveredQuantity"
           xlink:type="locator"/>
         <presentationArc
@@ -134,7 +134,7 @@
           xlink:to="sap_GRMLegalEntityAuditPeriodCoveredQuantity"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeIdentificationNumbersAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeIdentificationNumbersAbstract"
           xlink:label="sap_AuditeeIdentificationNumbersAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -144,7 +144,7 @@
           xlink:to="sap_AuditeeIdentificationNumbersAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEmployerIdentificationNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEmployerIdentificationNumber"
           xlink:label="sap_AuditeeEmployerIdentificationNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -154,7 +154,7 @@
           xlink:to="sap_AuditeeEmployerIdentificationNumber"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MultipleEmployerTaxIdentification"
+          xlink:href="sap_2020-05-01.xsd#sap_MultipleEmployerTaxIdentification"
           xlink:label="sap_MultipleEmployerTaxIdentification"
           xlink:type="locator"/>
         <presentationArc
@@ -164,7 +164,7 @@
           xlink:to="sap_MultipleEmployerTaxIdentification"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSNumber"
           xlink:label="sap_AuditeeDUNSNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -174,7 +174,7 @@
           xlink:to="sap_AuditeeDUNSNumber"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MultipleDUNSNumbers"
+          xlink:href="sap_2020-05-01.xsd#sap_MultipleDUNSNumbers"
           xlink:label="sap_MultipleDUNSNumbers"
           xlink:type="locator"/>
         <presentationArc
@@ -184,7 +184,7 @@
           xlink:to="sap_MultipleDUNSNumbers"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeInformationAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeInformationAbstract"
           xlink:label="sap_AuditeeInformationAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -194,7 +194,7 @@
           xlink:to="sap_AuditeeInformationAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeName"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeName"
           xlink:label="sap_AuditeeName"
           xlink:type="locator"/>
         <presentationArc
@@ -204,7 +204,7 @@
           xlink:to="sap_AuditeeName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeAddressStreetAddress"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeAddressStreetAddress"
           xlink:label="sap_AuditeeAddressStreetAddress"
           xlink:type="locator"/>
         <presentationArc
@@ -214,7 +214,7 @@
           xlink:to="sap_AuditeeAddressStreetAddress"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeAddressCity"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeAddressCity"
           xlink:label="sap_AuditeeAddressCity"
           xlink:type="locator"/>
         <presentationArc
@@ -224,7 +224,7 @@
           xlink:to="sap_AuditeeAddressCity"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeAddressState"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeAddressState"
           xlink:label="sap_AuditeeAddressState"
           xlink:type="locator"/>
         <presentationArc
@@ -234,7 +234,7 @@
           xlink:to="sap_AuditeeAddressState"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeAddressZipCode"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeAddressZipCode"
           xlink:label="sap_AuditeeAddressZipCode"
           xlink:type="locator"/>
         <presentationArc
@@ -244,7 +244,7 @@
           xlink:to="sap_AuditeeAddressZipCode"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeContactName"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeContactName"
           xlink:label="sap_AuditeeContactName"
           xlink:type="locator"/>
         <presentationArc
@@ -254,7 +254,7 @@
           xlink:to="sap_AuditeeContactName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeContactTitle"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeContactTitle"
           xlink:label="sap_AuditeeContactTitle"
           xlink:type="locator"/>
         <presentationArc
@@ -264,7 +264,7 @@
           xlink:to="sap_AuditeeContactTitle"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeContactPhone"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeContactPhone"
           xlink:label="sap_AuditeeContactPhone"
           xlink:type="locator"/>
         <presentationArc
@@ -274,7 +274,7 @@
           xlink:to="sap_AuditeeContactPhone"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeContactEmail"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeContactEmail"
           xlink:label="sap_AuditeeContactEmail"
           xlink:type="locator"/>
         <presentationArc
@@ -284,7 +284,7 @@
           xlink:to="sap_AuditeeContactEmail"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorInformationAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorInformationAbstract"
           xlink:label="sap_PrimaryAuditorInformationAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -294,7 +294,7 @@
           xlink:to="sap_PrimaryAuditorInformationAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorName"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorName"
           xlink:label="sap_PrimaryAuditorName"
           xlink:type="locator"/>
         <presentationArc
@@ -304,7 +304,7 @@
           xlink:to="sap_PrimaryAuditorName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorAddressStreetAddress"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorAddressStreetAddress"
           xlink:label="sap_PrimaryAuditorAddressStreetAddress"
           xlink:type="locator"/>
         <presentationArc
@@ -314,7 +314,7 @@
           xlink:to="sap_PrimaryAuditorAddressStreetAddress"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorAddressCity"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorAddressCity"
           xlink:label="sap_PrimaryAuditorAddressCity"
           xlink:type="locator"/>
         <presentationArc
@@ -324,7 +324,7 @@
           xlink:to="sap_PrimaryAuditorAddressCity"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorAddressState"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorAddressState"
           xlink:label="sap_PrimaryAuditorAddressState"
           xlink:type="locator"/>
         <presentationArc
@@ -334,7 +334,7 @@
           xlink:to="sap_PrimaryAuditorAddressState"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorAddressZipCode"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorAddressZipCode"
           xlink:label="sap_PrimaryAuditorAddressZipCode"
           xlink:type="locator"/>
         <presentationArc
@@ -344,7 +344,7 @@
           xlink:to="sap_PrimaryAuditorAddressZipCode"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorContactName"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorContactName"
           xlink:label="sap_PrimaryAuditorContactName"
           xlink:type="locator"/>
         <presentationArc
@@ -354,7 +354,7 @@
           xlink:to="sap_PrimaryAuditorContactName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorContactTitle"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorContactTitle"
           xlink:label="sap_PrimaryAuditorContactTitle"
           xlink:type="locator"/>
         <presentationArc
@@ -364,7 +364,7 @@
           xlink:to="sap_PrimaryAuditorContactTitle"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorContactPhone"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorContactPhone"
           xlink:label="sap_PrimaryAuditorContactPhone"
           xlink:type="locator"/>
         <presentationArc
@@ -374,7 +374,7 @@
           xlink:to="sap_PrimaryAuditorContactPhone"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PrimaryAuditorContactEmail"
+          xlink:href="sap_2020-05-01.xsd#sap_PrimaryAuditorContactEmail"
           xlink:label="sap_PrimaryAuditorContactEmail"
           xlink:type="locator"/>
         <presentationArc
@@ -384,7 +384,7 @@
           xlink:to="sap_PrimaryAuditorContactEmail"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorUsed"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorUsed"
           xlink:label="sap_SecondaryAuditorUsed"
           xlink:type="locator"/>
         <presentationArc
@@ -394,7 +394,7 @@
           xlink:to="sap_SecondaryAuditorUsed"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorInformationAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorInformationAbstract"
           xlink:label="sap_SecondaryAuditorInformationAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -404,7 +404,7 @@
           xlink:to="sap_SecondaryAuditorInformationAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorName"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorName"
           xlink:label="sap_SecondaryAuditorName"
           xlink:type="locator"/>
         <presentationArc
@@ -414,7 +414,7 @@
           xlink:to="sap_SecondaryAuditorName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorAddressStreetAddress"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorAddressStreetAddress"
           xlink:label="sap_SecondaryAuditorAddressStreetAddress"
           xlink:type="locator"/>
         <presentationArc
@@ -424,7 +424,7 @@
           xlink:to="sap_SecondaryAuditorAddressStreetAddress"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorAddressCity"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorAddressCity"
           xlink:label="sap_SecondaryAuditorAddressCity"
           xlink:type="locator"/>
         <presentationArc
@@ -434,7 +434,7 @@
           xlink:to="sap_SecondaryAuditorAddressCity"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorAddressState"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorAddressState"
           xlink:label="sap_SecondaryAuditorAddressState"
           xlink:type="locator"/>
         <presentationArc
@@ -444,7 +444,7 @@
           xlink:to="sap_SecondaryAuditorAddressState"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorAddressZipCode"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorAddressZipCode"
           xlink:label="sap_SecondaryAuditorAddressZipCode"
           xlink:type="locator"/>
         <presentationArc
@@ -454,7 +454,7 @@
           xlink:to="sap_SecondaryAuditorAddressZipCode"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorContactName"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorContactName"
           xlink:label="sap_SecondaryAuditorContactName"
           xlink:type="locator"/>
         <presentationArc
@@ -464,7 +464,7 @@
           xlink:to="sap_SecondaryAuditorContactName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorContactTitle"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorContactTitle"
           xlink:label="sap_SecondaryAuditorContactTitle"
           xlink:type="locator"/>
         <presentationArc
@@ -474,7 +474,7 @@
           xlink:to="sap_SecondaryAuditorContactTitle"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorContactPhone"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorContactPhone"
           xlink:label="sap_SecondaryAuditorContactPhone"
           xlink:type="locator"/>
         <presentationArc
@@ -484,7 +484,7 @@
           xlink:to="sap_SecondaryAuditorContactPhone"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecondaryAuditorContactEmail"
+          xlink:href="sap_2020-05-01.xsd#sap_SecondaryAuditorContactEmail"
           xlink:label="sap_SecondaryAuditorContactEmail"
           xlink:type="locator"/>
         <presentationArc
@@ -495,14 +495,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralDUNSContinuationList"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralDUNSContinuationList"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSContinuationListAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSContinuationListAbstract"
           xlink:label="sap_AuditeeDUNSContinuationListAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSContinuationListTable"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSContinuationListTable"
           xlink:label="sap_AuditeeDUNSContinuationListTable"
           xlink:type="locator"/>
         <presentationArc
@@ -512,7 +512,7 @@
           xlink:to="sap_AuditeeDUNSContinuationListTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSContinuationListAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSContinuationListAxis"
           xlink:label="sap_AuditeeDUNSContinuationListAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -522,7 +522,7 @@
           xlink:to="sap_AuditeeDUNSContinuationListAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSContinuationListLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSContinuationListLineItems"
           xlink:label="sap_AuditeeDUNSContinuationListLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -532,7 +532,7 @@
           xlink:to="sap_AuditeeDUNSContinuationListLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeDUNSNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeDUNSNumber"
           xlink:label="sap_AuditeeDUNSNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -543,14 +543,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditGeneralEINContinuationList"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralEINContinuationList"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEINContinuationListAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEINContinuationListAbstract"
           xlink:label="sap_AuditeeEINContinuationListAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEINContinuationListTable"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEINContinuationListTable"
           xlink:label="sap_AuditeeEINContinuationListTable"
           xlink:type="locator"/>
         <presentationArc
@@ -560,7 +560,7 @@
           xlink:to="sap_AuditeeEINContinuationListTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEINContinuationListAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEINContinuationListAxis"
           xlink:label="sap_AuditeeEINContinuationListAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -570,7 +570,7 @@
           xlink:to="sap_AuditeeEINContinuationListAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEINContinuationListLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEINContinuationListLineItems"
           xlink:label="sap_AuditeeEINContinuationListLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -580,7 +580,7 @@
           xlink:to="sap_AuditeeEINContinuationListLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeEmployerIdentificationNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeEmployerIdentificationNumber"
           xlink:label="sap_AuditeeEmployerIdentificationNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -591,14 +591,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleExpenditures"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsAbstract"
           xlink:label="sap_ScheduleOfFederalAwardsAndQuestionedCostsAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsTable"
+          xlink:href="sap_2020-05-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsTable"
           xlink:label="sap_ScheduleOfFederalAwardsAndQuestionedCostsTable"
           xlink:type="locator"/>
         <presentationArc
@@ -608,7 +608,7 @@
           xlink:to="sap_ScheduleOfFederalAwardsAndQuestionedCostsTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalProgramIdentifierAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalProgramIdentifierAxis"
           xlink:label="sap_FederalProgramIdentifierAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -618,7 +618,7 @@
           xlink:to="sap_FederalProgramIdentifierAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
           xlink:label="sap_ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -628,7 +628,7 @@
           xlink:to="sap_ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyEnumerated"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyEnumerated"
           xlink:label="sap_FederalAwardingAgencyEnumerated"
           xlink:type="locator"/>
         <presentationArc
@@ -638,7 +638,7 @@
           xlink:to="sap_FederalAwardingAgencyEnumerated"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CFDANumber"
+          xlink:href="sap_2020-05-01.xsd#sap_CFDANumber"
           xlink:label="sap_CFDANumber"
           xlink:type="locator"/>
         <presentationArc
@@ -648,7 +648,7 @@
           xlink:to="sap_CFDANumber"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AdditionalAwardIdentification"
+          xlink:href="sap_2020-05-01.xsd#sap_AdditionalAwardIdentification"
           xlink:label="sap_AdditionalAwardIdentification"
           xlink:type="locator"/>
         <presentationArc
@@ -658,7 +658,7 @@
           xlink:to="sap_AdditionalAwardIdentification"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CFDATitleName"
+          xlink:href="sap_2020-05-01.xsd#sap_CFDATitleName"
           xlink:label="sap_CFDATitleName"
           xlink:type="locator"/>
         <presentationArc
@@ -668,7 +668,7 @@
           xlink:to="sap_CFDATitleName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AmountExpended"
+          xlink:href="sap_2020-05-01.xsd#sap_AmountExpended"
           xlink:label="sap_AmountExpended"
           xlink:type="locator"/>
         <presentationArc
@@ -678,7 +678,7 @@
           xlink:to="sap_AmountExpended"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityAuditClusterName"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityAuditClusterName"
           xlink:label="sap_GRMLegalEntityAuditClusterName"
           xlink:type="locator"/>
         <presentationArc
@@ -688,7 +688,7 @@
           xlink:to="sap_GRMLegalEntityAuditClusterName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AdditionalClusterInformationAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AdditionalClusterInformationAbstract"
           xlink:label="sap_AdditionalClusterInformationAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -698,7 +698,7 @@
           xlink:to="sap_AdditionalClusterInformationAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_StateClusterName"
+          xlink:href="sap_2020-05-01.xsd#sap_StateClusterName"
           xlink:label="sap_StateClusterName"
           xlink:type="locator"/>
         <presentationArc
@@ -708,7 +708,7 @@
           xlink:to="sap_StateClusterName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OtherClusterName"
+          xlink:href="sap_2020-05-01.xsd#sap_OtherClusterName"
           xlink:label="sap_OtherClusterName"
           xlink:type="locator"/>
         <presentationArc
@@ -718,7 +718,7 @@
           xlink:to="sap_OtherClusterName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_LoanProgramAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_LoanProgramAbstract"
           xlink:label="sap_LoanProgramAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -728,7 +728,7 @@
           xlink:to="sap_LoanProgramAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalLoanOrLoanGuarantee"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalLoanOrLoanGuarantee"
           xlink:label="sap_FederalLoanOrLoanGuarantee"
           xlink:type="locator"/>
         <presentationArc
@@ -738,7 +738,7 @@
           xlink:to="sap_FederalLoanOrLoanGuarantee"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OutstandingLoanBalance"
+          xlink:href="sap_2020-05-01.xsd#sap_OutstandingLoanBalance"
           xlink:label="sap_OutstandingLoanBalance"
           xlink:type="locator"/>
         <presentationArc
@@ -748,7 +748,7 @@
           xlink:to="sap_OutstandingLoanBalance"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardSourceAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardSourceAbstract"
           xlink:label="sap_FederalAwardSourceAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -758,7 +758,7 @@
           xlink:to="sap_FederalAwardSourceAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DirectAward"
+          xlink:href="sap_2020-05-01.xsd#sap_DirectAward"
           xlink:label="sap_DirectAward"
           xlink:type="locator"/>
         <presentationArc
@@ -768,7 +768,7 @@
           xlink:to="sap_DirectAward"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PassThroughSourceEntityName"
+          xlink:href="sap_2020-05-01.xsd#sap_PassThroughSourceEntityName"
           xlink:label="sap_PassThroughSourceEntityName"
           xlink:type="locator"/>
         <presentationArc
@@ -778,7 +778,7 @@
           xlink:to="sap_PassThroughSourceEntityName"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PassThroughSourceEntityIdentifier"
+          xlink:href="sap_2020-05-01.xsd#sap_PassThroughSourceEntityIdentifier"
           xlink:label="sap_PassThroughSourceEntityIdentifier"
           xlink:type="locator"/>
         <presentationArc
@@ -788,7 +788,7 @@
           xlink:to="sap_PassThroughSourceEntityIdentifier"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PassedThroughAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_PassedThroughAbstract"
           xlink:label="sap_PassedThroughAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -798,7 +798,7 @@
           xlink:to="sap_PassedThroughAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AwardPassedThroughToSubrecipients"
+          xlink:href="sap_2020-05-01.xsd#sap_AwardPassedThroughToSubrecipients"
           xlink:label="sap_AwardPassedThroughToSubrecipients"
           xlink:type="locator"/>
         <presentationArc
@@ -808,7 +808,7 @@
           xlink:to="sap_AwardPassedThroughToSubrecipients"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PassThroughAmount"
+          xlink:href="sap_2020-05-01.xsd#sap_PassThroughAmount"
           xlink:label="sap_PassThroughAmount"
           xlink:type="locator"/>
         <presentationArc
@@ -818,7 +818,7 @@
           xlink:to="sap_PassThroughAmount"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MajorProgramandAuditFindingsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_MajorProgramandAuditFindingsAbstract"
           xlink:label="sap_MajorProgramandAuditFindingsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -828,7 +828,7 @@
           xlink:to="sap_MajorProgramandAuditFindingsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MajorProgram"
+          xlink:href="sap_2020-05-01.xsd#sap_MajorProgram"
           xlink:label="sap_MajorProgram"
           xlink:type="locator"/>
         <presentationArc
@@ -838,7 +838,7 @@
           xlink:to="sap_MajorProgram"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TypeofSingleAuditOpinion"
+          xlink:href="sap_2020-05-01.xsd#sap_TypeofSingleAuditOpinion"
           xlink:label="sap_TypeofSingleAuditOpinion"
           xlink:type="locator"/>
         <presentationArc
@@ -848,7 +848,7 @@
           xlink:to="sap_TypeofSingleAuditOpinion"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityAuditFindingsTotalQuantity"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityAuditFindingsTotalQuantity"
           xlink:label="sap_GRMLegalEntityAuditFindingsTotalQuantity"
           xlink:type="locator"/>
         <presentationArc
@@ -858,7 +858,7 @@
           xlink:to="sap_GRMLegalEntityAuditFindingsTotalQuantity"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingReferenceNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingReferenceNumber"
           xlink:label="sap_AuditFindingReferenceNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -869,14 +869,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleFindings"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingAbstract"
           xlink:label="sap_AuditFindingAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingTable"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingTable"
           xlink:label="sap_AuditFindingTable"
           xlink:type="locator"/>
         <presentationArc
@@ -886,7 +886,7 @@
           xlink:to="sap_AuditFindingTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingIdentifierAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingIdentifierAxis"
           xlink:label="sap_AuditFindingIdentifierAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -896,7 +896,7 @@
           xlink:to="sap_AuditFindingIdentifierAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingLineItems"
           xlink:label="sap_AuditFindingLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -906,7 +906,7 @@
           xlink:to="sap_AuditFindingLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalProgramIdentifierEnumerated"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalProgramIdentifierEnumerated"
           xlink:label="sap_FederalProgramIdentifierEnumerated"
           xlink:type="locator"/>
         <presentationArc
@@ -916,7 +916,7 @@
           xlink:to="sap_FederalProgramIdentifierEnumerated"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementTypesAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementTypesAbstract"
           xlink:label="sap_ComplianceRequirementTypesAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -926,7 +926,7 @@
           xlink:to="sap_ComplianceRequirementTypesAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementActivitiesAllowedOrUnallowed"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementActivitiesAllowedOrUnallowed"
           xlink:label="sap_ComplianceRequirementActivitiesAllowedOrUnallowed"
           xlink:type="locator"/>
         <presentationArc
@@ -936,7 +936,7 @@
           xlink:to="sap_ComplianceRequirementActivitiesAllowedOrUnallowed"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementAllowableCostsPrinciples"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementAllowableCostsPrinciples"
           xlink:label="sap_ComplianceRequirementAllowableCostsPrinciples"
           xlink:type="locator"/>
         <presentationArc
@@ -946,7 +946,7 @@
           xlink:to="sap_ComplianceRequirementAllowableCostsPrinciples"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementCashManagement"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementCashManagement"
           xlink:label="sap_ComplianceRequirementCashManagement"
           xlink:type="locator"/>
         <presentationArc
@@ -956,7 +956,7 @@
           xlink:to="sap_ComplianceRequirementCashManagement"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementEligibility"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementEligibility"
           xlink:label="sap_ComplianceRequirementEligibility"
           xlink:type="locator"/>
         <presentationArc
@@ -966,7 +966,7 @@
           xlink:to="sap_ComplianceRequirementEligibility"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementEquipmentAndRealPropertyManagement"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementEquipmentAndRealPropertyManagement"
           xlink:label="sap_ComplianceRequirementEquipmentAndRealPropertyManagement"
           xlink:type="locator"/>
         <presentationArc
@@ -976,7 +976,7 @@
           xlink:to="sap_ComplianceRequirementEquipmentAndRealPropertyManagement"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementMatchingLevelOfEffortEarmarking"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementMatchingLevelOfEffortEarmarking"
           xlink:label="sap_ComplianceRequirementMatchingLevelOfEffortEarmarking"
           xlink:type="locator"/>
         <presentationArc
@@ -986,7 +986,7 @@
           xlink:to="sap_ComplianceRequirementMatchingLevelOfEffortEarmarking"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
           xlink:label="sap_ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
           xlink:type="locator"/>
         <presentationArc
@@ -996,7 +996,7 @@
           xlink:to="sap_ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementProcurementSuspensionDisbarment"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementProcurementSuspensionDisbarment"
           xlink:label="sap_ComplianceRequirementProcurementSuspensionDisbarment"
           xlink:type="locator"/>
         <presentationArc
@@ -1006,7 +1006,7 @@
           xlink:to="sap_ComplianceRequirementProcurementSuspensionDisbarment"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementProgramIncome"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementProgramIncome"
           xlink:label="sap_ComplianceRequirementProgramIncome"
           xlink:type="locator"/>
         <presentationArc
@@ -1016,7 +1016,7 @@
           xlink:to="sap_ComplianceRequirementProgramIncome"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementReporting"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementReporting"
           xlink:label="sap_ComplianceRequirementReporting"
           xlink:type="locator"/>
         <presentationArc
@@ -1026,7 +1026,7 @@
           xlink:to="sap_ComplianceRequirementReporting"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementReserved"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementReserved"
           xlink:label="sap_ComplianceRequirementReserved"
           xlink:type="locator"/>
         <presentationArc
@@ -1036,7 +1036,7 @@
           xlink:to="sap_ComplianceRequirementReserved"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementSubrecipientMonitoring"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementSubrecipientMonitoring"
           xlink:label="sap_ComplianceRequirementSubrecipientMonitoring"
           xlink:type="locator"/>
         <presentationArc
@@ -1046,7 +1046,7 @@
           xlink:to="sap_ComplianceRequirementSubrecipientMonitoring"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementSpecialTestsAndProvisions"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementSpecialTestsAndProvisions"
           xlink:label="sap_ComplianceRequirementSpecialTestsAndProvisions"
           xlink:type="locator"/>
         <presentationArc
@@ -1056,7 +1056,7 @@
           xlink:to="sap_ComplianceRequirementSpecialTestsAndProvisions"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceRequirementOther"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceRequirementOther"
           xlink:label="sap_ComplianceRequirementOther"
           xlink:type="locator"/>
         <presentationArc
@@ -1066,7 +1066,7 @@
           xlink:to="sap_ComplianceRequirementOther"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TypeOfAuditFindingAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_TypeOfAuditFindingAbstract"
           xlink:label="sap_TypeOfAuditFindingAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -1076,7 +1076,7 @@
           xlink:to="sap_TypeOfAuditFindingAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceAuditFindingsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceAuditFindingsAbstract"
           xlink:label="sap_ComplianceAuditFindingsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -1086,7 +1086,7 @@
           xlink:to="sap_ComplianceAuditFindingsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceAuditFindingsModifiedOpinion"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceAuditFindingsModifiedOpinion"
           xlink:label="sap_ComplianceAuditFindingsModifiedOpinion"
           xlink:type="locator"/>
         <presentationArc
@@ -1096,7 +1096,7 @@
           xlink:to="sap_ComplianceAuditFindingsModifiedOpinion"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ComplianceAuditFindingsOtherOpinion"
+          xlink:href="sap_2020-05-01.xsd#sap_ComplianceAuditFindingsOtherOpinion"
           xlink:label="sap_ComplianceAuditFindingsOtherOpinion"
           xlink:type="locator"/>
         <presentationArc
@@ -1106,7 +1106,7 @@
           xlink:to="sap_ComplianceAuditFindingsOtherOpinion"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternalControlAuditFindingsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_InternalControlAuditFindingsAbstract"
           xlink:label="sap_InternalControlAuditFindingsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -1116,7 +1116,7 @@
           xlink:to="sap_InternalControlAuditFindingsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternalControlAuditFindingsMaterialWeakness"
+          xlink:href="sap_2020-05-01.xsd#sap_InternalControlAuditFindingsMaterialWeakness"
           xlink:label="sap_InternalControlAuditFindingsMaterialWeakness"
           xlink:type="locator"/>
         <presentationArc
@@ -1126,7 +1126,7 @@
           xlink:to="sap_InternalControlAuditFindingsMaterialWeakness"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternalControlAuditFindingsSignificantDeficiency"
+          xlink:href="sap_2020-05-01.xsd#sap_InternalControlAuditFindingsSignificantDeficiency"
           xlink:label="sap_InternalControlAuditFindingsSignificantDeficiency"
           xlink:type="locator"/>
         <presentationArc
@@ -1136,7 +1136,7 @@
           xlink:to="sap_InternalControlAuditFindingsSignificantDeficiency"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OtherAuditFindings"
+          xlink:href="sap_2020-05-01.xsd#sap_OtherAuditFindings"
           xlink:label="sap_OtherAuditFindings"
           xlink:type="locator"/>
         <presentationArc
@@ -1146,7 +1146,7 @@
           xlink:to="sap_OtherAuditFindings"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_QuestionedCosts"
+          xlink:href="sap_2020-05-01.xsd#sap_QuestionedCosts"
           xlink:label="sap_QuestionedCosts"
           xlink:type="locator"/>
         <presentationArc
@@ -1156,7 +1156,7 @@
           xlink:to="sap_QuestionedCosts"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_RepeatFindingFromPriorYear"
+          xlink:href="sap_2020-05-01.xsd#sap_RepeatFindingFromPriorYear"
           xlink:label="sap_RepeatFindingFromPriorYear"
           xlink:type="locator"/>
         <presentationArc
@@ -1166,7 +1166,7 @@
           xlink:to="sap_RepeatFindingFromPriorYear"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_RepeatFindingAuditReferenceNumber"
+          xlink:href="sap_2020-05-01.xsd#sap_RepeatFindingAuditReferenceNumber"
           xlink:label="sap_RepeatFindingAuditReferenceNumber"
           xlink:type="locator"/>
         <presentationArc
@@ -1176,7 +1176,7 @@
           xlink:to="sap_RepeatFindingAuditReferenceNumber"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_RepeatFindingAuditScheduleText"
+          xlink:href="sap_2020-05-01.xsd#sap_RepeatFindingAuditScheduleText"
           xlink:label="sap_RepeatFindingAuditScheduleText"
           xlink:type="locator"/>
         <presentationArc
@@ -1186,7 +1186,7 @@
           xlink:to="sap_RepeatFindingAuditScheduleText"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditFindingText"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditFindingText"
           xlink:label="sap_AuditFindingText"
           xlink:type="locator"/>
         <presentationArc
@@ -1196,7 +1196,7 @@
           xlink:to="sap_AuditFindingText"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityAuditCorrectiveActionText"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityAuditCorrectiveActionText"
           xlink:label="sap_GRMLegalEntityAuditCorrectiveActionText"
           xlink:type="locator"/>
         <presentationArc
@@ -1207,14 +1207,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditClusterTotals"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ClusterTotalsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_ClusterTotalsAbstract"
           xlink:label="sap_ClusterTotalsAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ClusterTotalsTable"
+          xlink:href="sap_2020-05-01.xsd#sap_ClusterTotalsTable"
           xlink:label="sap_ClusterTotalsTable"
           xlink:type="locator"/>
         <presentationArc
@@ -1224,7 +1224,7 @@
           xlink:to="sap_ClusterTotalsTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ClusterAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_ClusterAxis"
           xlink:label="sap_ClusterAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -1234,7 +1234,7 @@
           xlink:to="sap_ClusterAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ClusterDomain"
+          xlink:href="sap_2020-05-01.xsd#sap_ClusterDomain"
           xlink:label="sap_ClusterDomain"
           xlink:type="locator"/>
         <presentationArc
@@ -1244,7 +1244,7 @@
           xlink:to="sap_ClusterDomain"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AgingClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_AgingClusterMember"
           xlink:label="sap_AgingClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1254,7 +1254,7 @@
           xlink:to="sap_AgingClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CCDFClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CCDFClusterMember"
           xlink:label="sap_CCDFClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1264,7 +1264,7 @@
           xlink:to="sap_CCDFClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CDFIClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CDFIClusterMember"
           xlink:label="sap_CDFIClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1274,7 +1274,7 @@
           xlink:to="sap_CDFIClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
           xlink:label="sap_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1284,7 +1284,7 @@
           xlink:to="sap_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CDBGEntitlementGrantsClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CDBGEntitlementGrantsClusterMember"
           xlink:label="sap_CDBGEntitlementGrantsClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1294,7 +1294,7 @@
           xlink:to="sap_CDBGEntitlementGrantsClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ChildNutritionClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_ChildNutritionClusterMember"
           xlink:label="sap_ChildNutritionClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1304,7 +1304,7 @@
           xlink:to="sap_ChildNutritionClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_Cluster477Member"
+          xlink:href="sap_2020-05-01.xsd#sap_Cluster477Member"
           xlink:label="sap_Cluster477Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1314,7 +1314,7 @@
           xlink:to="sap_Cluster477Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CleanWaterStateRevolvingFundClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CleanWaterStateRevolvingFundClusterMember"
           xlink:label="sap_CleanWaterStateRevolvingFundClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1324,7 +1324,7 @@
           xlink:to="sap_CleanWaterStateRevolvingFundClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CommunityFacilitiesLoansAndGrantsClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_CommunityFacilitiesLoansAndGrantsClusterMember"
           xlink:label="sap_CommunityFacilitiesLoansAndGrantsClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1334,7 +1334,7 @@
           xlink:to="sap_CommunityFacilitiesLoansAndGrantsClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_EconomicDevelopmentClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_EconomicDevelopmentClusterMember"
           xlink:label="sap_EconomicDevelopmentClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1344,7 +1344,7 @@
           xlink:to="sap_EconomicDevelopmentClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_EmploymentServiceClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_EmploymentServiceClusterMember"
           xlink:label="sap_EmploymentServiceClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1354,7 +1354,7 @@
           xlink:to="sap_EmploymentServiceClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalTransitClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalTransitClusterMember"
           xlink:label="sap_FederalTransitClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1364,7 +1364,7 @@
           xlink:to="sap_FederalTransitClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FishAndWildlifeClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_FishAndWildlifeClusterMember"
           xlink:label="sap_FishAndWildlifeClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1374,7 +1374,7 @@
           xlink:to="sap_FishAndWildlifeClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FoodDistributionClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_FoodDistributionClusterMember"
           xlink:label="sap_FoodDistributionClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1384,7 +1384,7 @@
           xlink:to="sap_FoodDistributionClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ForeignFoodAndDonationClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_ForeignFoodAndDonationClusterMember"
           xlink:label="sap_ForeignFoodAndDonationClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1394,7 +1394,7 @@
           xlink:to="sap_ForeignFoodAndDonationClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ForestServiceSchoolsAndRoadsClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_ForestServiceSchoolsAndRoadsClusterMember"
           xlink:label="sap_ForestServiceSchoolsAndRoadsClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1404,7 +1404,7 @@
           xlink:to="sap_ForestServiceSchoolsAndRoadsClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FosterGrAndparentSeniorCompanionClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_FosterGrAndparentSeniorCompanionClusterMember"
           xlink:label="sap_FosterGrAndparentSeniorCompanionClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1414,7 +1414,7 @@
           xlink:to="sap_FosterGrAndparentSeniorCompanionClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HealthCenterProgramClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HealthCenterProgramClusterMember"
           xlink:label="sap_HealthCenterProgramClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1424,7 +1424,7 @@
           xlink:to="sap_HealthCenterProgramClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HighwayPlanningAndConstructionClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HighwayPlanningAndConstructionClusterMember"
           xlink:label="sap_HighwayPlanningAndConstructionClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1434,7 +1434,7 @@
           xlink:to="sap_HighwayPlanningAndConstructionClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HighwaySafetyClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HighwaySafetyClusterMember"
           xlink:label="sap_HighwaySafetyClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1444,7 +1444,7 @@
           xlink:to="sap_HighwaySafetyClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HopeVIClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HopeVIClusterMember"
           xlink:label="sap_HopeVIClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1454,7 +1454,7 @@
           xlink:to="sap_HopeVIClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HousingVoucherClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HousingVoucherClusterMember"
           xlink:label="sap_HousingVoucherClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1464,7 +1464,7 @@
           xlink:to="sap_HousingVoucherClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_HurricaneSAndyReliefClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_HurricaneSAndyReliefClusterMember"
           xlink:label="sap_HurricaneSAndyReliefClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1474,7 +1474,7 @@
           xlink:to="sap_HurricaneSAndyReliefClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
           xlink:label="sap_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1484,7 +1484,7 @@
           xlink:to="sap_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MedicaidClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_MedicaidClusterMember"
           xlink:label="sap_MedicaidClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1494,7 +1494,7 @@
           xlink:to="sap_MedicaidClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_Miscellaneous99Member"
+          xlink:href="sap_2020-05-01.xsd#sap_Miscellaneous99Member"
           xlink:label="sap_Miscellaneous99Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1504,7 +1504,7 @@
           xlink:to="sap_Miscellaneous99Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OtherClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_OtherClusterMember"
           xlink:label="sap_OtherClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1514,7 +1514,7 @@
           xlink:to="sap_OtherClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ResearchAndDevelopmentClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_ResearchAndDevelopmentClusterMember"
           xlink:label="sap_ResearchAndDevelopmentClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1524,7 +1524,7 @@
           xlink:to="sap_ResearchAndDevelopmentClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SchoolImprovementGrantsClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_SchoolImprovementGrantsClusterMember"
           xlink:label="sap_SchoolImprovementGrantsClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1534,7 +1534,7 @@
           xlink:to="sap_SchoolImprovementGrantsClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_Section8ProjectBasedClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_Section8ProjectBasedClusterMember"
           xlink:label="sap_Section8ProjectBasedClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1544,7 +1544,7 @@
           xlink:to="sap_Section8ProjectBasedClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SnapClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_SnapClusterMember"
           xlink:label="sap_SnapClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1554,7 +1554,7 @@
           xlink:to="sap_SnapClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SpecialEducationClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_SpecialEducationClusterMember"
           xlink:label="sap_SpecialEducationClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1564,7 +1564,7 @@
           xlink:to="sap_SpecialEducationClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_StateClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_StateClusterMember"
           xlink:label="sap_StateClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1574,7 +1574,7 @@
           xlink:to="sap_StateClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_StudentFinancialAssistanceClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_StudentFinancialAssistanceClusterMember"
           xlink:label="sap_StudentFinancialAssistanceClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1584,7 +1584,7 @@
           xlink:to="sap_StudentFinancialAssistanceClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TANFClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_TANFClusterMember"
           xlink:label="sap_TANFClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1594,7 +1594,7 @@
           xlink:to="sap_TANFClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TransitServicesProgramsClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_TransitServicesProgramsClusterMember"
           xlink:label="sap_TransitServicesProgramsClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1604,7 +1604,7 @@
           xlink:to="sap_TransitServicesProgramsClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TrioClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_TrioClusterMember"
           xlink:label="sap_TrioClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1614,7 +1614,7 @@
           xlink:to="sap_TrioClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_WIOAClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_WIOAClusterMember"
           xlink:label="sap_WIOAClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1624,7 +1624,7 @@
           xlink:to="sap_WIOAClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_WaterAndWasteProgramClusterMember"
+          xlink:href="sap_2020-05-01.xsd#sap_WaterAndWasteProgramClusterMember"
           xlink:label="sap_WaterAndWasteProgramClusterMember"
           xlink:type="locator"/>
         <presentationArc
@@ -1634,7 +1634,7 @@
           xlink:to="sap_WaterAndWasteProgramClusterMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ClusterLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_ClusterLineItems"
           xlink:label="sap_ClusterLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -1644,7 +1644,7 @@
           xlink:to="sap_ClusterLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AmountExpended"
+          xlink:href="sap_2020-05-01.xsd#sap_AmountExpended"
           xlink:label="sap_AmountExpended"
           xlink:type="locator"/>
         <presentationArc
@@ -1655,14 +1655,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditFederalAgencyTotals"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyTotalsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyTotalsAbstract"
           xlink:label="sap_FederalAwardingAgencyTotalsAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyTotalsTable"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyTotalsTable"
           xlink:label="sap_FederalAwardingAgencyTotalsTable"
           xlink:type="locator"/>
         <presentationArc
@@ -1672,7 +1672,7 @@
           xlink:to="sap_FederalAwardingAgencyTotalsTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyAxis"
           xlink:label="sap_FederalAwardingAgencyAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -1682,7 +1682,7 @@
           xlink:to="sap_FederalAwardingAgencyAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyDomain"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyDomain"
           xlink:label="sap_FederalAwardingAgencyDomain"
           xlink:type="locator"/>
         <presentationArc
@@ -1692,7 +1692,7 @@
           xlink:to="sap_FederalAwardingAgencyDomain"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AfricanDevelopmentFoundation01Member"
+          xlink:href="sap_2020-05-01.xsd#sap_AfricanDevelopmentFoundation01Member"
           xlink:label="sap_AfricanDevelopmentFoundation01Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1702,7 +1702,7 @@
           xlink:to="sap_AfricanDevelopmentFoundation01Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AppalachianRegionalCommission23Member"
+          xlink:href="sap_2020-05-01.xsd#sap_AppalachianRegionalCommission23Member"
           xlink:label="sap_AppalachianRegionalCommission23Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1712,7 +1712,7 @@
           xlink:to="sap_AppalachianRegionalCommission23Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ArchitecturalAndTransportationBarriersComplianceBoard88Member"
+          xlink:href="sap_2020-05-01.xsd#sap_ArchitecturalAndTransportationBarriersComplianceBoard88Member"
           xlink:label="sap_ArchitecturalAndTransportationBarriersComplianceBoard88Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1722,7 +1722,7 @@
           xlink:to="sap_ArchitecturalAndTransportationBarriersComplianceBoard88Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CentralIntelligenceAgency13Member"
+          xlink:href="sap_2020-05-01.xsd#sap_CentralIntelligenceAgency13Member"
           xlink:label="sap_CentralIntelligenceAgency13Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1732,7 +1732,7 @@
           xlink:to="sap_CentralIntelligenceAgency13Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CommissiononCivilRights29Member"
+          xlink:href="sap_2020-05-01.xsd#sap_CommissiononCivilRights29Member"
           xlink:label="sap_CommissiononCivilRights29Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1742,7 +1742,7 @@
           xlink:to="sap_CommissiononCivilRights29Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CommodityFuturesTradingCommission78Member"
+          xlink:href="sap_2020-05-01.xsd#sap_CommodityFuturesTradingCommission78Member"
           xlink:label="sap_CommodityFuturesTradingCommission78Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1752,7 +1752,7 @@
           xlink:to="sap_CommodityFuturesTradingCommission78Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ConsumerProductSafetyCommission87Member"
+          xlink:href="sap_2020-05-01.xsd#sap_ConsumerProductSafetyCommission87Member"
           xlink:label="sap_ConsumerProductSafetyCommission87Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1762,7 +1762,7 @@
           xlink:to="sap_ConsumerProductSafetyCommission87Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_CorporationForNationalandCommunityServices94Member"
+          xlink:href="sap_2020-05-01.xsd#sap_CorporationForNationalandCommunityServices94Member"
           xlink:label="sap_CorporationForNationalandCommunityServices94Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1772,7 +1772,7 @@
           xlink:to="sap_CorporationForNationalandCommunityServices94Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DeltaRegionalAuthority90Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DeltaRegionalAuthority90Member"
           xlink:label="sap_DeltaRegionalAuthority90Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1782,7 +1782,7 @@
           xlink:to="sap_DeltaRegionalAuthority90Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DenaliCommission90Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DenaliCommission90Member"
           xlink:label="sap_DenaliCommission90Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1792,7 +1792,7 @@
           xlink:to="sap_DenaliCommission90Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfAgriculture10Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfAgriculture10Member"
           xlink:label="sap_DepartmentOfAgriculture10Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1802,7 +1802,7 @@
           xlink:to="sap_DepartmentOfAgriculture10Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfCommerce11Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfCommerce11Member"
           xlink:label="sap_DepartmentOfCommerce11Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1812,7 +1812,7 @@
           xlink:to="sap_DepartmentOfCommerce11Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfDefense12Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfDefense12Member"
           xlink:label="sap_DepartmentOfDefense12Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1822,7 +1822,7 @@
           xlink:to="sap_DepartmentOfDefense12Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfEducation84Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfEducation84Member"
           xlink:label="sap_DepartmentOfEducation84Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1832,7 +1832,7 @@
           xlink:to="sap_DepartmentOfEducation84Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfEnergy81Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfEnergy81Member"
           xlink:label="sap_DepartmentOfEnergy81Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1842,7 +1842,7 @@
           xlink:to="sap_DepartmentOfEnergy81Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfHealthandHumanServices93Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfHealthandHumanServices93Member"
           xlink:label="sap_DepartmentOfHealthandHumanServices93Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1852,7 +1852,7 @@
           xlink:to="sap_DepartmentOfHealthandHumanServices93Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfHomelandSecurity97Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfHomelandSecurity97Member"
           xlink:label="sap_DepartmentOfHomelandSecurity97Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1862,7 +1862,7 @@
           xlink:to="sap_DepartmentOfHomelandSecurity97Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfHousingandUrbanDevelopment14Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfHousingandUrbanDevelopment14Member"
           xlink:label="sap_DepartmentOfHousingandUrbanDevelopment14Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1872,7 +1872,7 @@
           xlink:to="sap_DepartmentOfHousingandUrbanDevelopment14Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfJustice16Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfJustice16Member"
           xlink:label="sap_DepartmentOfJustice16Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1882,7 +1882,7 @@
           xlink:to="sap_DepartmentOfJustice16Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfLabor17Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfLabor17Member"
           xlink:label="sap_DepartmentOfLabor17Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1892,7 +1892,7 @@
           xlink:to="sap_DepartmentOfLabor17Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfState19Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfState19Member"
           xlink:label="sap_DepartmentOfState19Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1902,7 +1902,7 @@
           xlink:to="sap_DepartmentOfState19Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOftheInterior15Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOftheInterior15Member"
           xlink:label="sap_DepartmentOftheInterior15Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1912,7 +1912,7 @@
           xlink:to="sap_DepartmentOftheInterior15Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOftheTreasury21Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOftheTreasury21Member"
           xlink:label="sap_DepartmentOftheTreasury21Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1922,7 +1922,7 @@
           xlink:to="sap_DepartmentOftheTreasury21Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfTransportation20Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfTransportation20Member"
           xlink:label="sap_DepartmentOfTransportation20Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1932,7 +1932,7 @@
           xlink:to="sap_DepartmentOfTransportation20Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_DepartmentOfVeteransAffairs64Member"
+          xlink:href="sap_2020-05-01.xsd#sap_DepartmentOfVeteransAffairs64Member"
           xlink:label="sap_DepartmentOfVeteransAffairs64Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1942,7 +1942,7 @@
           xlink:to="sap_DepartmentOfVeteransAffairs64Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ElectionAssistanceCommission90Member"
+          xlink:href="sap_2020-05-01.xsd#sap_ElectionAssistanceCommission90Member"
           xlink:label="sap_ElectionAssistanceCommission90Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1952,7 +1952,7 @@
           xlink:to="sap_ElectionAssistanceCommission90Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_EnvironmentalProtectionAgency66Member"
+          xlink:href="sap_2020-05-01.xsd#sap_EnvironmentalProtectionAgency66Member"
           xlink:label="sap_EnvironmentalProtectionAgency66Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1962,7 +1962,7 @@
           xlink:to="sap_EnvironmentalProtectionAgency66Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_EqualEmploymentOpportunityCommission30Member"
+          xlink:href="sap_2020-05-01.xsd#sap_EqualEmploymentOpportunityCommission30Member"
           xlink:label="sap_EqualEmploymentOpportunityCommission30Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1972,7 +1972,7 @@
           xlink:to="sap_EqualEmploymentOpportunityCommission30Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalCommunicationsCommission32Member"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalCommunicationsCommission32Member"
           xlink:label="sap_FederalCommunicationsCommission32Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1982,7 +1982,7 @@
           xlink:to="sap_FederalCommunicationsCommission32Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalMaritimeCommission33Member"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalMaritimeCommission33Member"
           xlink:label="sap_FederalMaritimeCommission33Member"
           xlink:type="locator"/>
         <presentationArc
@@ -1992,7 +1992,7 @@
           xlink:to="sap_FederalMaritimeCommission33Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalMediationandConciliationService34Member"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalMediationandConciliationService34Member"
           xlink:label="sap_FederalMediationandConciliationService34Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2002,7 +2002,7 @@
           xlink:to="sap_FederalMediationandConciliationService34Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalReserveSystem18Member"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalReserveSystem18Member"
           xlink:label="sap_FederalReserveSystem18Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2012,7 +2012,7 @@
           xlink:to="sap_FederalReserveSystem18Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalTradeCommission36Member"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalTradeCommission36Member"
           xlink:label="sap_FederalTradeCommission36Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2022,7 +2022,7 @@
           xlink:to="sap_FederalTradeCommission36Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GeneralServicesAdministration39Member"
+          xlink:href="sap_2020-05-01.xsd#sap_GeneralServicesAdministration39Member"
           xlink:label="sap_GeneralServicesAdministration39Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2032,7 +2032,7 @@
           xlink:to="sap_GeneralServicesAdministration39Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GovernmentPrintingOffice40Member"
+          xlink:href="sap_2020-05-01.xsd#sap_GovernmentPrintingOffice40Member"
           xlink:label="sap_GovernmentPrintingOffice40Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2042,7 +2042,7 @@
           xlink:to="sap_GovernmentPrintingOffice40Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_Inter-AmericanFoundation04Member"
+          xlink:href="sap_2020-05-01.xsd#sap_Inter-AmericanFoundation04Member"
           xlink:label="sap_Inter-AmericanFoundation04Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2052,7 +2052,7 @@
           xlink:to="sap_Inter-AmericanFoundation04Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternationalTradeCommission61Member"
+          xlink:href="sap_2020-05-01.xsd#sap_InternationalTradeCommission61Member"
           xlink:label="sap_InternationalTradeCommission61Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2062,7 +2062,7 @@
           xlink:to="sap_InternationalTradeCommission61Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_JapanUSFriendshipCommission90Member"
+          xlink:href="sap_2020-05-01.xsd#sap_JapanUSFriendshipCommission90Member"
           xlink:label="sap_JapanUSFriendshipCommission90Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2072,7 +2072,7 @@
           xlink:to="sap_JapanUSFriendshipCommission90Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_LegalServicesCorporation09Member"
+          xlink:href="sap_2020-05-01.xsd#sap_LegalServicesCorporation09Member"
           xlink:label="sap_LegalServicesCorporation09Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2082,7 +2082,7 @@
           xlink:to="sap_LegalServicesCorporation09Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_LibraryOfCongress42Member"
+          xlink:href="sap_2020-05-01.xsd#sap_LibraryOfCongress42Member"
           xlink:label="sap_LibraryOfCongress42Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2092,7 +2092,7 @@
           xlink:to="sap_LibraryOfCongress42Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalAeronauticsAndSpaceAdministration43Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalAeronauticsAndSpaceAdministration43Member"
           xlink:label="sap_NationalAeronauticsAndSpaceAdministration43Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2102,7 +2102,7 @@
           xlink:to="sap_NationalAeronauticsAndSpaceAdministration43Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalArchivesAndRecordsAdministration89Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalArchivesAndRecordsAdministration89Member"
           xlink:label="sap_NationalArchivesAndRecordsAdministration89Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2112,7 +2112,7 @@
           xlink:to="sap_NationalArchivesAndRecordsAdministration89Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalCouncilonDisability92Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalCouncilonDisability92Member"
           xlink:label="sap_NationalCouncilonDisability92Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2122,7 +2122,7 @@
           xlink:to="sap_NationalCouncilonDisability92Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalCreditUnionAdministration44Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalCreditUnionAdministration44Member"
           xlink:label="sap_NationalCreditUnionAdministration44Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2132,7 +2132,7 @@
           xlink:to="sap_NationalCreditUnionAdministration44Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalFoundationontheArtsandtheHumanities45Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalFoundationontheArtsandtheHumanities45Member"
           xlink:label="sap_NationalFoundationontheArtsandtheHumanities45Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2142,7 +2142,7 @@
           xlink:to="sap_NationalFoundationontheArtsandtheHumanities45Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalGalleryOfArt68Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalGalleryOfArt68Member"
           xlink:label="sap_NationalGalleryOfArt68Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2152,7 +2152,7 @@
           xlink:to="sap_NationalGalleryOfArt68Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalLaborRelationsBoard46Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalLaborRelationsBoard46Member"
           xlink:label="sap_NationalLaborRelationsBoard46Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2162,7 +2162,7 @@
           xlink:to="sap_NationalLaborRelationsBoard46Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NationalScienceFoundation47Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NationalScienceFoundation47Member"
           xlink:label="sap_NationalScienceFoundation47Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2172,7 +2172,7 @@
           xlink:to="sap_NationalScienceFoundation47Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NuclearRegulatoryCommission77Member"
+          xlink:href="sap_2020-05-01.xsd#sap_NuclearRegulatoryCommission77Member"
           xlink:label="sap_NuclearRegulatoryCommission77Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2182,7 +2182,7 @@
           xlink:to="sap_NuclearRegulatoryCommission77Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OfficeOfPersonnelManagement27Member"
+          xlink:href="sap_2020-05-01.xsd#sap_OfficeOfPersonnelManagement27Member"
           xlink:label="sap_OfficeOfPersonnelManagement27Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2192,7 +2192,7 @@
           xlink:to="sap_OfficeOfPersonnelManagement27Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OfficeOfNationalDrugControlPolicy07Member"
+          xlink:href="sap_2020-05-01.xsd#sap_OfficeOfNationalDrugControlPolicy07Member"
           xlink:label="sap_OfficeOfNationalDrugControlPolicy07Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2202,7 +2202,7 @@
           xlink:to="sap_OfficeOfNationalDrugControlPolicy07Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OverseasPrivateInvestmentCorporation70Member"
+          xlink:href="sap_2020-05-01.xsd#sap_OverseasPrivateInvestmentCorporation70Member"
           xlink:label="sap_OverseasPrivateInvestmentCorporation70Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2212,7 +2212,7 @@
           xlink:to="sap_OverseasPrivateInvestmentCorporation70Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PeaceCorps08Member"
+          xlink:href="sap_2020-05-01.xsd#sap_PeaceCorps08Member"
           xlink:label="sap_PeaceCorps08Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2222,7 +2222,7 @@
           xlink:to="sap_PeaceCorps08Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_PensionBenefitGuarantyCorporation86Member"
+          xlink:href="sap_2020-05-01.xsd#sap_PensionBenefitGuarantyCorporation86Member"
           xlink:label="sap_PensionBenefitGuarantyCorporation86Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2232,7 +2232,7 @@
           xlink:to="sap_PensionBenefitGuarantyCorporation86Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_RailroadRetirementBoard57Member"
+          xlink:href="sap_2020-05-01.xsd#sap_RailroadRetirementBoard57Member"
           xlink:label="sap_RailroadRetirementBoard57Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2242,7 +2242,7 @@
           xlink:to="sap_RailroadRetirementBoard57Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_ScholarshipFoundations85Member"
+          xlink:href="sap_2020-05-01.xsd#sap_ScholarshipFoundations85Member"
           xlink:label="sap_ScholarshipFoundations85Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2252,7 +2252,7 @@
           xlink:to="sap_ScholarshipFoundations85Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SecuritiesandExchangeCommission58Member"
+          xlink:href="sap_2020-05-01.xsd#sap_SecuritiesandExchangeCommission58Member"
           xlink:label="sap_SecuritiesandExchangeCommission58Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2262,7 +2262,7 @@
           xlink:to="sap_SecuritiesandExchangeCommission58Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SmallBusinessAdministration59Member"
+          xlink:href="sap_2020-05-01.xsd#sap_SmallBusinessAdministration59Member"
           xlink:label="sap_SmallBusinessAdministration59Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2272,7 +2272,7 @@
           xlink:to="sap_SmallBusinessAdministration59Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SmithsonianInstitution60Member"
+          xlink:href="sap_2020-05-01.xsd#sap_SmithsonianInstitution60Member"
           xlink:label="sap_SmithsonianInstitution60Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2282,7 +2282,7 @@
           xlink:to="sap_SmithsonianInstitution60Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SocialSecurityAdministration96Member"
+          xlink:href="sap_2020-05-01.xsd#sap_SocialSecurityAdministration96Member"
           xlink:label="sap_SocialSecurityAdministration96Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2292,7 +2292,7 @@
           xlink:to="sap_SocialSecurityAdministration96Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_TennesseeValleyAuthority62Member"
+          xlink:href="sap_2020-05-01.xsd#sap_TennesseeValleyAuthority62Member"
           xlink:label="sap_TennesseeValleyAuthority62Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2302,7 +2302,7 @@
           xlink:to="sap_TennesseeValleyAuthority62Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_U.S.AgencyForInternationalDevelopment98Member"
+          xlink:href="sap_2020-05-01.xsd#sap_U.S.AgencyForInternationalDevelopment98Member"
           xlink:label="sap_U.S.AgencyForInternationalDevelopment98Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2312,7 +2312,7 @@
           xlink:to="sap_U.S.AgencyForInternationalDevelopment98Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_UnitedStatesInstituteOfPeace91Member"
+          xlink:href="sap_2020-05-01.xsd#sap_UnitedStatesInstituteOfPeace91Member"
           xlink:label="sap_UnitedStatesInstituteOfPeace91Member"
           xlink:type="locator"/>
         <presentationArc
@@ -2322,7 +2322,7 @@
           xlink:to="sap_UnitedStatesInstituteOfPeace91Member"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyTotalsLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyTotalsLineItems"
           xlink:label="sap_FederalAwardingAgencyTotalsLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -2332,7 +2332,7 @@
           xlink:to="sap_FederalAwardingAgencyTotalsLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AmountExpended"
+          xlink:href="sap_2020-05-01.xsd#sap_AmountExpended"
           xlink:label="sap_AmountExpended"
           xlink:type="locator"/>
         <presentationArc
@@ -2343,14 +2343,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditSubprogram"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSubprogram"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalSubprogramIdentifierAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalSubprogramIdentifierAbstract"
           xlink:label="sap_FederalSubprogramIdentifierAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalSubprogramIdentifierTable"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalSubprogramIdentifierTable"
           xlink:label="sap_FederalSubprogramIdentifierTable"
           xlink:type="locator"/>
         <presentationArc
@@ -2360,7 +2360,7 @@
           xlink:to="sap_FederalSubprogramIdentifierTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalSubprogramIdentifierAxis"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalSubprogramIdentifierAxis"
           xlink:label="sap_FederalSubprogramIdentifierAxis"
           xlink:type="locator"/>
         <presentationArc
@@ -2370,7 +2370,7 @@
           xlink:to="sap_FederalSubprogramIdentifierAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalSubprogramIdentifierLineItems"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalSubprogramIdentifierLineItems"
           xlink:label="sap_FederalSubprogramIdentifierLineItems"
           xlink:type="locator"/>
         <presentationArc
@@ -2380,7 +2380,7 @@
           xlink:to="sap_FederalSubprogramIdentifierLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AmountExpended"
+          xlink:href="sap_2020-05-01.xsd#sap_AmountExpended"
           xlink:label="sap_AmountExpended"
           xlink:type="locator"/>
         <presentationArc
@@ -2390,7 +2390,7 @@
           xlink:to="sap_AmountExpended"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalProgramIdentifierEnumerated"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalProgramIdentifierEnumerated"
           xlink:label="sap_FederalProgramIdentifierEnumerated"
           xlink:type="locator"/>
         <presentationArc
@@ -2400,7 +2400,7 @@
           xlink:to="sap_FederalProgramIdentifierEnumerated"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalAwardingAgencyEnumerated"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalAwardingAgencyEnumerated"
           xlink:label="sap_FederalAwardingAgencyEnumerated"
           xlink:type="locator"/>
         <presentationArc
@@ -2411,14 +2411,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditSEFANotes"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NotesToTheSEFAAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_NotesToTheSEFAAbstract"
           xlink:label="sap_NotesToTheSEFAAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SignificantAccountingPolicy"
+          xlink:href="sap_2020-05-01.xsd#sap_SignificantAccountingPolicy"
           xlink:label="sap_SignificantAccountingPolicy"
           xlink:type="locator"/>
         <presentationArc
@@ -2428,7 +2428,7 @@
           xlink:to="sap_SignificantAccountingPolicy"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditeeUsedDeMinimisCostRate"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditeeUsedDeMinimisCostRate"
           xlink:label="sap_AuditeeUsedDeMinimisCostRate"
           xlink:type="locator"/>
         <presentationArc
@@ -2438,7 +2438,7 @@
           xlink:to="sap_AuditeeUsedDeMinimisCostRate"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_NoteTitleAdditionalNotesToTheSEFA"
+          xlink:href="sap_2020-05-01.xsd#sap_NoteTitleAdditionalNotesToTheSEFA"
           xlink:label="sap_NoteTitleAdditionalNotesToTheSEFA"
           xlink:type="locator"/>
         <presentationArc
@@ -2448,7 +2448,7 @@
           xlink:to="sap_NoteTitleAdditionalNotesToTheSEFA"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AdditionalNotes"
+          xlink:href="sap_2020-05-01.xsd#sap_AdditionalNotes"
           xlink:label="sap_AdditionalNotes"
           xlink:type="locator"/>
         <presentationArc
@@ -2459,14 +2459,14 @@
           xlink:type="arc"/>
     </presentationLink>
     <presentationLink
-      xlink:role="http://xbrl.us/sap/v0.3/2020-09-01/roles/SingleAuditScheduleFindingsAndQuestionedCosts"
+      xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindingsAndQuestionedCosts"
       xlink:type="extended">
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InformationAboutFindingsandQuestionedCostsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_InformationAboutFindingsandQuestionedCostsAbstract"
           xlink:label="sap_InformationAboutFindingsandQuestionedCostsAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FinancialStatementsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FinancialStatementsAbstract"
           xlink:label="sap_FinancialStatementsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -2476,7 +2476,7 @@
           xlink:to="sap_FinancialStatementsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsAbstract"
           xlink:label="sap_AuditorOpinionFinancialStatementsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -2486,7 +2486,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsAdverse"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsAdverse"
           xlink:label="sap_AuditorOpinionFinancialStatementsAdverse"
           xlink:type="locator"/>
         <presentationArc
@@ -2496,7 +2496,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsAdverse"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsDisclaimer"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsDisclaimer"
           xlink:label="sap_AuditorOpinionFinancialStatementsDisclaimer"
           xlink:type="locator"/>
         <presentationArc
@@ -2506,7 +2506,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsDisclaimer"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsNotUSGAAP"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsNotUSGAAP"
           xlink:label="sap_AuditorOpinionFinancialStatementsNotUSGAAP"
           xlink:type="locator"/>
         <presentationArc
@@ -2516,7 +2516,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsNotUSGAAP"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsQualified"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsQualified"
           xlink:label="sap_AuditorOpinionFinancialStatementsQualified"
           xlink:type="locator"/>
         <presentationArc
@@ -2526,7 +2526,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsQualified"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorOpinionFinancialStatementsUnmodified"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorOpinionFinancialStatementsUnmodified"
           xlink:label="sap_AuditorOpinionFinancialStatementsUnmodified"
           xlink:type="locator"/>
         <presentationArc
@@ -2536,7 +2536,7 @@
           xlink:to="sap_AuditorOpinionFinancialStatementsUnmodified"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SpecialPurposeFrameworkAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_SpecialPurposeFrameworkAbstract"
           xlink:label="sap_SpecialPurposeFrameworkAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -2546,7 +2546,7 @@
           xlink:to="sap_SpecialPurposeFrameworkAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SpecialPurposeFramework"
+          xlink:href="sap_2020-05-01.xsd#sap_SpecialPurposeFramework"
           xlink:label="sap_SpecialPurposeFramework"
           xlink:type="locator"/>
         <presentationArc
@@ -2556,7 +2556,7 @@
           xlink:to="sap_SpecialPurposeFramework"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_SpecialPurposeFrameworkRequired"
+          xlink:href="sap_2020-05-01.xsd#sap_SpecialPurposeFrameworkRequired"
           xlink:label="sap_SpecialPurposeFrameworkRequired"
           xlink:type="locator"/>
         <presentationArc
@@ -2566,7 +2566,7 @@
           xlink:to="sap_SpecialPurposeFrameworkRequired"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OpinionSpecialPurposeFrameworkUnmodified"
+          xlink:href="sap_2020-05-01.xsd#sap_OpinionSpecialPurposeFrameworkUnmodified"
           xlink:label="sap_OpinionSpecialPurposeFrameworkUnmodified"
           xlink:type="locator"/>
         <presentationArc
@@ -2576,7 +2576,7 @@
           xlink:to="sap_OpinionSpecialPurposeFrameworkUnmodified"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OpinionSpecialPurposeFrameworkQualified"
+          xlink:href="sap_2020-05-01.xsd#sap_OpinionSpecialPurposeFrameworkQualified"
           xlink:label="sap_OpinionSpecialPurposeFrameworkQualified"
           xlink:type="locator"/>
         <presentationArc
@@ -2586,7 +2586,7 @@
           xlink:to="sap_OpinionSpecialPurposeFrameworkQualified"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OpinionSpecialPurposeFrameworkAdverse"
+          xlink:href="sap_2020-05-01.xsd#sap_OpinionSpecialPurposeFrameworkAdverse"
           xlink:label="sap_OpinionSpecialPurposeFrameworkAdverse"
           xlink:type="locator"/>
         <presentationArc
@@ -2596,7 +2596,7 @@
           xlink:to="sap_OpinionSpecialPurposeFrameworkAdverse"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OpinionSpecialPurposeFrameworkDisclaimer"
+          xlink:href="sap_2020-05-01.xsd#sap_OpinionSpecialPurposeFrameworkDisclaimer"
           xlink:label="sap_OpinionSpecialPurposeFrameworkDisclaimer"
           xlink:type="locator"/>
         <presentationArc
@@ -2606,7 +2606,7 @@
           xlink:to="sap_OpinionSpecialPurposeFrameworkDisclaimer"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GoingConcernFinancialStressParagraph"
+          xlink:href="sap_2020-05-01.xsd#sap_GoingConcernFinancialStressParagraph"
           xlink:label="sap_GoingConcernFinancialStressParagraph"
           xlink:type="locator"/>
         <presentationArc
@@ -2616,7 +2616,7 @@
           xlink:to="sap_GoingConcernFinancialStressParagraph"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternalControlSignificantDeficiency"
+          xlink:href="sap_2020-05-01.xsd#sap_InternalControlSignificantDeficiency"
           xlink:label="sap_InternalControlSignificantDeficiency"
           xlink:type="locator"/>
         <presentationArc
@@ -2626,7 +2626,7 @@
           xlink:to="sap_InternalControlSignificantDeficiency"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_InternalControlMaterialWeakness"
+          xlink:href="sap_2020-05-01.xsd#sap_InternalControlMaterialWeakness"
           xlink:label="sap_InternalControlMaterialWeakness"
           xlink:type="locator"/>
         <presentationArc
@@ -2636,7 +2636,7 @@
           xlink:to="sap_InternalControlMaterialWeakness"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_MaterialNoncompliance"
+          xlink:href="sap_2020-05-01.xsd#sap_MaterialNoncompliance"
           xlink:label="sap_MaterialNoncompliance"
           xlink:type="locator"/>
         <presentationArc
@@ -2646,7 +2646,7 @@
           xlink:to="sap_MaterialNoncompliance"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_OtherIssuesWritten"
+          xlink:href="sap_2020-05-01.xsd#sap_OtherIssuesWritten"
           xlink:label="sap_OtherIssuesWritten"
           xlink:type="locator"/>
         <presentationArc
@@ -2656,7 +2656,7 @@
           xlink:to="sap_OtherIssuesWritten"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_FederalProgramsAbstract"
+          xlink:href="sap_2020-05-01.xsd#sap_FederalProgramsAbstract"
           xlink:label="sap_FederalProgramsAbstract"
           xlink:type="locator"/>
         <presentationArc
@@ -2666,7 +2666,7 @@
           xlink:to="sap_FederalProgramsAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_AuditorStatementOnOtherUnits"
+          xlink:href="sap_2020-05-01.xsd#sap_AuditorStatementOnOtherUnits"
           xlink:label="sap_AuditorStatementOnOtherUnits"
           xlink:type="locator"/>
         <presentationArc
@@ -2676,7 +2676,7 @@
           xlink:to="sap_AuditorStatementOnOtherUnits"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GrantAwardProgramTypeATypeBThresholdAmount"
+          xlink:href="sap_2020-05-01.xsd#sap_GrantAwardProgramTypeATypeBThresholdAmount"
           xlink:label="sap_GrantAwardProgramTypeATypeBThresholdAmount"
           xlink:type="locator"/>
         <presentationArc
@@ -2686,7 +2686,7 @@
           xlink:to="sap_GrantAwardProgramTypeATypeBThresholdAmount"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityLowRiskIndicator"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityLowRiskIndicator"
           xlink:label="sap_GRMLegalEntityLowRiskIndicator"
           xlink:type="locator"/>
         <presentationArc
@@ -2696,7 +2696,7 @@
           xlink:to="sap_GRMLegalEntityLowRiskIndicator"
           xlink:type="arc"/>
         <loc
-          xlink:href="sap_2020-09-01.xsd#sap_GRMLegalEntityAuditPriorAuditFindingsIndicator"
+          xlink:href="sap_2020-05-01.xsd#sap_GRMLegalEntityAuditPriorAuditFindingsIndicator"
           xlink:label="sap_GRMLegalEntityAuditPriorAuditFindingsIndicator"
           xlink:type="locator"/>
         <presentationArc
