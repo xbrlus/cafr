@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Sample taxonomy to represent CAFR statements and the Single Audit Package.-->
+<!--Sample taxonomy to represent CAFR statements.-->
 <xs:schema
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
@@ -16,8 +16,699 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:annotation>
-        <xs:documentation>This schema contains core elements for the Assets Taxonomy and is a comprehensive list of all roles.</xs:documentation>
+        <xs:documentation>This schema contains core elements for theTaxonomy and is a comprehensive list of all roles.</xs:documentation>
         <xs:appinfo>
+            <link:roleType
+              id="roleType_NetPosition"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPosition">
+                <link:definition>100000 - Statement of Net Position</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherCurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssets">
+                <link:definition>100100 - Net Position - Other Current Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionCapitalAssetsNondepreciable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciable">
+                <link:definition>100200 - Net Position - Capital Assets Nondepreciable (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionCapitalAssetsDepreciable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciable">
+                <link:definition>100300 - Net Position - Capital Assets Depreciable (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherNoncurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssets">
+                <link:definition>100400 - Net Position - Other Noncurrent Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherRestrictedAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssets">
+                <link:definition>100500 - Net Position - Other Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherDeferredOutflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflows">
+                <link:definition>100600 - Net Position - Other Deferred Outflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherCurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilities">
+                <link:definition>100700 - Net Position - Other Current Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherNoncurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilities">
+                <link:definition>100800 - Net Position - Other Noncurrent Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionPayableRestrictedAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssets">
+                <link:definition>100900 - Net Position - Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherDeferredInflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows">
+                <link:definition>101000 - Net Position - Other Deferred Inflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionNetRestricted"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestricted">
+                <link:definition>101100 - Net Position - Net Position Restricted (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionComponentUnit">
+                <link:definition>101200 - Statement of Net Position, Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherCurrentAssetsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentAssetsComponentUnit">
+                <link:definition>101300 - Net Position - Other Current Assets Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionCapitalAssetsNondepreciableComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsNondepreciableComponentUnit">
+                <link:definition>101400 - Net Position - Capital Assets Not Being Depreciated Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionCapitalAssetsDepreciableComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionCapitalAssetsDepreciableComponentUnit">
+                <link:definition>101500 - Net Position - Capital Assets Being Depreciated Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherNoncurrentAssetsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentAssetsComponentUnit">
+                <link:definition>101600 - Net Position - Other Noncurrent Assets Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherRestrictedAssetsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherRestrictedAssetsComponentUnit">
+                <link:definition>101700 - Net Position - Other Restricted Assets Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherDeferredOutflowsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredOutflowsComponentUnit">
+                <link:definition>101800 - Net Position - Other Deferred Outflows Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherCurrentLiabilitiesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherCurrentLiabilitiesComponentUnit">
+                <link:definition>101900 - Net Position - Other Current Liabilities Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherNoncurrentLiabilitiesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherNoncurrentLiabilitiesComponentUnit">
+                <link:definition>102000 - Net Position - Other Noncurrent Liabilities Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionPayableRestrictedAssetsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionPayableRestrictedAssetsComponentUnit">
+                <link:definition>102100 - Net Position - Payable from Restricted Assets Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionOtherDeferredInflowsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflowsComponentUnit">
+                <link:definition>102200 - Net Position - Other Deferred Inflows Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NetPositionNetRestrictedComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionNetRestrictedComponentUnit">
+                <link:definition>102300 - Net Position - Net Position Restricted Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesExpensesAndRevenuesForPrograms"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForPrograms">
+                <link:definition>200000 - Statement of Activities, Expenses and Revenues for Programs</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesGeneralRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenues">
+                <link:definition>200100 - Statement of Activities, General Revenues and Changes in Net Position</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherProgramUsingRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenues">
+                <link:definition>200200 - Statement of Activities - Other Program Using Revenues (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherGeneralRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenues">
+                <link:definition>200300 - Statement of Activities - Other General Revenues (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesAdjustmentsForTransfers"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfers">
+                <link:definition>200400 - Statement of Activities - Adjustments for Transfers (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherExpenses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpenses">
+                <link:definition>200500 - Statement of Activities - Other Expenses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesExpensesAndRevenuesForProgramsComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesExpensesAndRevenuesForProgramsComponentUnit">
+                <link:definition>200600 - Statement of Activities, Expenses and Revenues for Programs, Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesGeneralRevenuesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesGeneralRevenuesComponentUnit">
+                <link:definition>200700 - Statement of Activities, General Revenues and Changes in Net Position, Component Unit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherProgramUsingRevenuesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherProgramUsingRevenuesComponentUnit">
+                <link:definition>200800 - Statement of Activities - Other Program Using Revenues - Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherGeneralRevenuesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherGeneralRevenuesComponentUnit">
+                <link:definition>200900 - Statement of Activities - Other General Revenues - Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesAdjustmentsForTransfersComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesAdjustmentsForTransfersComponentUnit">
+                <link:definition>201000 - Statement of Activities - Adjustments for Transfer - Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ActivitiesOtherExpensesComponentUnit"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/ActivitiesOtherExpensesComponentUnit">
+                <link:definition>201100 - Statement of Activities - Other Expenses - Component Unit (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalance"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalance">
+                <link:definition>300000 - Governmental Funds Balance Sheet</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalanceRestrictedAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceRestrictedAssets">
+                <link:definition>300100 - Governmental Balance Sheet - Restricted Assets  (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalanceOtherAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherAssets">
+                <link:definition>300200 - Governmental Balance - Other Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalanceDeferredOutflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredOutflows">
+                <link:definition>300300 - Governmental Balance Sheet - Deferred Outflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalancePayableFromRestrictedAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalancePayableFromRestrictedAssets">
+                <link:definition>300400 - Governmental Balance Sheet - Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalanceOtherLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceOtherLiabilities">
+                <link:definition>300500 - Governmental Balance Sheet - Other Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsBalanceDeferredInflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows">
+                <link:definition>307000 - Governmental Funds Balance Sheet Totals (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundsRevenuesExpenditures"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsRevenuesExpenditures">
+                <link:definition>400000 - Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balances</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundRevenuessOtherRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherRevenues">
+                <link:definition>400100 - Governmental Funds Statement of Revenues - Other Revenues (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundRevenuessOtherExpenditures"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherExpenditures">
+                <link:definition>400200 - Governmental Funds Statement of Revenues - Other Expenditures (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundRevenuessOtherFinancingSourcesUses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessOtherFinancingSourcesUses">
+                <link:definition>400300 - Governmental Statement of Revenues - Other Financing Sources Uses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_GovFundRevenuessExpendituresTotals"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundRevenuessExpendituresTotals">
+                <link:definition>404000 - Governmental Funds Statement of Revenues, Expenditures Totals (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities">
+                <link:definition>500000 - Proprietary Funds Net Position - Type of Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherUnrestrictedCurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherUnrestrictedCurrentAssets">
+                <link:definition>500100 - Proprietary Funds Net Position - Type of Activities Other Unrestricted Current Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherRestrictedCurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedCurrentAssets">
+                <link:definition>500200 - Proprietary Funds Net Position - Type of Activities Other Restricted Current Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherCapitalAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCapitalAssets">
+                <link:definition>500300 - Proprietary Funds Net Position - Type of Activities Other Capital Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherNoncurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentAssets">
+                <link:definition>500400 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherDeferredOutflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredOutflows">
+                <link:definition>500500 - Proprietary Funds Net Position - Type of Activities Other Deferred Outflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherCurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilities">
+                <link:definition>500600 - Proprietary Funds Net Position - Type of Activities Other Current Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherCurrentLiabilitiesPayable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherCurrentLiabilitiesPayable">
+                <link:definition>500700 - Proprietary Funds Net Position - Type of Activities Other Current Liabilities Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherNoncurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilities">
+                <link:definition>500800 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherNoncurrentLiabilitiesPayable">
+                <link:definition>500900 - Proprietary Funds Net Position - Type of Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherDeferredInflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherDeferredInflows">
+                <link:definition>501000 - Proprietary Funds Net Position - Type of Activities Other Deferred Inflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionActivitiesOtherRestrictedNetPosition"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivitiesOtherRestrictedNetPosition">
+                <link:definition>501100 - Proprietary Funds Net Position - Type of Activities Other Restricted Components of Net Position (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusiness"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness">
+                <link:definition>501200 - Proprietary Funds Net Position - Business Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherUnrestrictedCurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherUnrestrictedCurrentAssets">
+                <link:definition>501300 - Proprietary Funds Net Position - Business Activities Other Unrestricted Current Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherRestrictedCurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedCurrentAssets">
+                <link:definition>501400 - Proprietary Funds Net Position - Business Activities Other Restricted Current Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherCapitalAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCapitalAssets">
+                <link:definition>501500 - Proprietary Funds Net Position - Business Activities Other Capital Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherNoncurrentAssets"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentAssets">
+                <link:definition>501600 - Proprietary Funds Net Position - Business Activities Other Noncurrent Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherDeferredOutflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredOutflows">
+                <link:definition>501700 - Proprietary Funds Net Position - Business Activities Other Deferred Outflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherCurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilities">
+                <link:definition>501800 - Proprietary Funds Net Position - Business Activities Other Current Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherCurrentLiabilitiesPayable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherCurrentLiabilitiesPayable">
+                <link:definition>501900 - Proprietary Funds Net Position - Business Activities Other Current Liabilities Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherNoncurrentLiabilities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilities">
+                <link:definition>502000 - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentLiabilitiesPayable">
+                <link:definition>502100 - Proprietary Funds Net Position - Business Activities Other Noncurrent Liabilities Payable from Restricted Assets (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherDeferredInflows"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherDeferredInflows">
+                <link:definition>502200 - Proprietary Funds Net Position - Business Activities Other Deferred Inflows (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFNetPositionBusinessOtherRestrictedNetPosition"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherRestrictedNetPosition">
+                <link:definition>502300 - Proprietary Funds Net Position - Business Activities Other Restricted Components of Net Position (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesActivities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivities">
+                <link:definition>600000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesActivitiesOperatingRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingRevenues">
+                <link:definition>601000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Operating Revenues (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesActivitiesOperatingExpenses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesOperatingExpenses">
+                <link:definition>602000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Operating Expenses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesActivitiesNonoperatingGainsLosses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesActivitiesNonoperatingGainsLosses">
+                <link:definition>603000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Type of Activities Other Nonoperating Gains Losses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesBusiness"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusiness">
+                <link:definition>604000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesBusinessOperatingRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingRevenues">
+                <link:definition>605000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Operating Revenues (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesBusinessOperatingExpenses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessOperatingExpenses">
+                <link:definition>606000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Operating Expenses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFRevenuesExpensesBusinessNonoperatingGainsLosses"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFRevenuesExpensesBusinessNonoperatingGainsLosses">
+                <link:definition>607000 - Proprietary Funds Revenues Expenses and Change in Fund Net Position - Business Activities Other Nonoperating Gains Losses (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashActivities"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivities">
+                <link:definition>700000 - Proprietary Funds Cash Flows - Type of Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashActivitiesOperating"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating">
+                <link:definition>701000 - Proprietary Funds Cash Flows - Type of Activities Other Operating Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashActivitiesNonCapitalFinancing"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesNonCapitalFinancing">
+                <link:definition>702000 - Proprietary Funds Cash Flows - Type of Activities Other Non Capital Financing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashActivitiesCapitalFinancing"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesCapitalFinancing">
+                <link:definition>703000 - Proprietary Funds Cash Flows - Type of Activities Other Capital Financing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashActivitiesInvesting"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesInvesting">
+                <link:definition>704000 - Proprietary Funds Cash Flows - Type of Activities Other Investing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashBusiness"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusiness">
+                <link:definition>705000 - Proprietary Funds Cash Flows - Business Activities</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashBusinessOperating"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessOperating">
+                <link:definition>706000 - Proprietary Funds Cash Flows - Business Activities Other Operating Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashBusinessNonCapitalFinancing"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessNonCapitalFinancing">
+                <link:definition>707000 - Proprietary Funds Cash Flows - Business Activities Other Non Capital Financing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashBusinessCapitalFinancing"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessCapitalFinancing">
+                <link:definition>708000 - Proprietary Funds Cash Flows - Business Activities Other Capital Financing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PFCashBusinessInvesting"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashBusinessInvesting">
+                <link:definition>709000 - Proprietary Funds Cash Flows - Business Activities Other Investing Activities (Details)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Pension"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension">
+                <link:definition>800000 - Pension Footnote</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OPEB"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/OPEB">
+                <link:definition>801000 - OPEB Footnote</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaNetPosition"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaNetPosition">
+                <link:definition>806000 - California Statement of Net Position</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaActivitiesExpensesAndRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaActivitiesExpensesAndRevenues">
+                <link:definition>807000 - California Statement of Activities, Expenses and Revenues for Programs</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaActivitiesGeneralRevenues"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaActivitiesGeneralRevenues">
+                <link:definition>808000 - California Statement of Activities, General Revenues and Changes in Net Position</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaGovBalanceSheet "
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovBalanceSheet ">
+                <link:definition>809000 - California Governmental Funds Balance Sheet</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaGovStatementofRevenuesExpenditures"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovStatementofRevenuesExpenditures">
+                <link:definition>810000 - California Governmental Funds Statement of Revenues, Expenditures and Changes in Fund Balances</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaPensionFootnote"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaPensionFootnote">
+                <link:definition>820000 - California Pension Footnote</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CaliforniaOPEBFootnote"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaOPEBFootnote">
+                <link:definition>830000 - California OPEB Footnote</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
               xlink:href="cafr_2020-05-01_lab.xml"
@@ -27,6 +718,21 @@
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
               xlink:href="cafr_2020-05-01r01_ref.xml"
               xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="cafr_all_2020-05-01_pre.xml"
+              xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="cafr_all_2020-05-01_def.xml"
+              xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="cafr_all_2020-05-01_cal.xml"
+              xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef"
               xlink:type="simple"/>
         </xs:appinfo>
     </xs:annotation>
@@ -107,6 +813,13 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_AccumulatedAmortization"
+      name="AccumulatedAmortization"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:balance="credit"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_AccumulatedDepreciation"
       name="AccumulatedDepreciation"
       substitutionGroup="xbrli:item"
@@ -164,36 +877,10 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
-      id="cafr_ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
-      name="ActivitiesGeneralRevenuesAndChangesInNetPositionTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
       id="cafr_ActivitiesRevenuesForProgramsFunctionsAbstract"
       name="ActivitiesRevenuesForProgramsFunctionsAbstract"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AdditionalAwardIdentification"
-      name="AdditionalAwardIdentification"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AdditionalClusterInformationAbstract"
-      name="AdditionalClusterInformationAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AdditionalNotes"
-      name="AdditionalNotes"
-      substitutionGroup="xbrli:item"
-      type="nonnum:textBlockItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_AdjustmentsForTransferOfRevenuesWithinActivities"
@@ -244,28 +931,14 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_AfricanDevelopmentFoundation01Member"
-      name="AfricanDevelopmentFoundation01Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AgingClusterMember"
-      name="AgingClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_AllowanceForDoubtfulAccounts"
       name="AllowanceForDoubtfulAccounts"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_AmountExpended"
-      name="AmountExpended"
+      id="cafr_AmortizationExpense"
+      name="AmortizationExpense"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
@@ -275,20 +948,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AppalachianRegionalCommission23Member"
-      name="AppalachianRegionalCommission23Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ArchitecturalAndTransportationBarriersComplianceBoard88Member"
-      name="ArchitecturalAndTransportationBarriersComplianceBoard88Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_AssessmentsReceivable"
       name="AssessmentsReceivable"
@@ -320,223 +979,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_AuditCorrectiveActionPlan"
-      name="AuditCorrectiveActionPlan"
-      substitutionGroup="xbrli:item"
-      type="nonnum:textBlockItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditFindingAbstract"
-      name="AuditFindingAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditFindingIdentifierAxis"
-      name="AuditFindingIdentifierAxis"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
-      xbrldt:typedDomainRef="#cafr_AuditFindingIdentifierDomain"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditFindingIdentifierDomain"
-      name="AuditFindingIdentifierDomain"
-      type="xs:token"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditFindingLineItems"
-      name="AuditFindingLineItems"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditFindingReferenceNumber"
-      name="AuditFindingReferenceNumber"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditFindingTable"
-      name="AuditFindingTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditFindingText"
-      name="AuditFindingText"
-      substitutionGroup="xbrli:item"
-      type="nonnum:textBlockItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditPeriodAbstract"
-      name="AuditPeriodAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditPeriodCovered"
-      name="AuditPeriodCovered"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:auditPeriodCoveredItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditPeriodCoveredMonths"
-      name="AuditPeriodCoveredMonths"
-      substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeAddressCity"
-      name="AuditeeAddressCity"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeAddressState"
-      name="AuditeeAddressState"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeAddressStreetAddress"
-      name="AuditeeAddressStreetAddress"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeAddressZipCode"
-      name="AuditeeAddressZipCode"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeContactEmail"
-      name="AuditeeContactEmail"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeContactName"
-      name="AuditeeContactName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeContactPhone"
-      name="AuditeeContactPhone"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeContactTitle"
-      name="AuditeeContactTitle"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeDUNSContinuationList"
-      name="AuditeeDUNSContinuationList"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeDUNSNumber"
-      name="AuditeeDUNSNumber"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeEINContinuationList"
-      name="AuditeeEINContinuationList"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeEmployeeIdentificationNumber"
-      name="AuditeeEmployeeIdentificationNumber"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditeeIdentificationNumbersAbstract"
-      name="AuditeeIdentificationNumbersAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditeeInformationAbstract"
-      name="AuditeeInformationAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeName"
-      name="AuditeeName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditeeUsedDeMinimisCostRate"
-      name="AuditeeUsedDeMinimisCostRate"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_AuditorOpinionFinancialsAbstract"
-      name="AuditorOpinionFinancialsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorOpinionFinancialsAdverse"
-      name="AuditorOpinionFinancialsAdverse"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorOpinionFinancialsDisclaimer"
-      name="AuditorOpinionFinancialsDisclaimer"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorOpinionFinancialsNotUSGAAP"
-      name="AuditorOpinionFinancialsNotUSGAAP"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorOpinionFinancialsQualified"
-      name="AuditorOpinionFinancialsQualified"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorOpinionFinancialsUnmodified"
-      name="AuditorOpinionFinancialsUnmodified"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AuditorStatementOnOtherUnits"
-      name="AuditorStatementOnOtherUnits"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_AwardPassedThroughToSubrecipients"
-      name="AwardPassedThroughToSubrecipients"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_BadDebtExpense"
       name="BadDebtExpense"
@@ -599,40 +1041,6 @@
       name="BusinessTypeActivitiesMember"
       substitutionGroup="xbrli:item"
       type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CCDFClusterMember"
-      name="CCDFClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
-      name="CDBGDisasterRecoverGrantsPublLNo1132ClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CDBGEntitlementGrantsClusterMember"
-      name="CDBGEntitlementGrantsClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CDFIClusterMember"
-      name="CDFIClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_CFDANumber"
-      name="CFDANumber"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_CapitalAssets"
@@ -773,6 +1181,12 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="cafr_CashFromInterfundActivity"
+      name="CashFromInterfundActivity"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_CashFromOperatingActivities"
       name="CashFromOperatingActivities"
       substitutionGroup="xbrli:item"
@@ -851,8 +1265,20 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_CashReceivedFromCapitalContributions"
+      name="CashReceivedFromCapitalContributions"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_CashReceivedFromCustomers"
       name="CashReceivedFromCustomers"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_CashReceivedFromTapFees"
+      name="CashReceivedFromTapFees"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
@@ -911,13 +1337,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_CentralIntelligenceAgency13Member"
-      name="CentralIntelligenceAgency13Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_ChangesInFairValueOfInvestments"
       name="ChangesInFairValueOfInvestments"
       substitutionGroup="xbrli:item"
@@ -948,13 +1367,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_ChildNutritionClusterMember"
-      name="ChildNutritionClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_ClaimsAndJudgmentsPayable"
       name="ClaimsAndJudgmentsPayable"
       substitutionGroup="xbrli:item"
@@ -966,82 +1378,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CleanWaterStateRevolvingFundClusterMember"
-      name="CleanWaterStateRevolvingFundClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_Cluster477Member"
-      name="Cluster477Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ClusterAxis"
-      name="ClusterAxis"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ClusterDomain"
-      name="ClusterDomain"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ClusterLineItems"
-      name="ClusterLineItems"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ClusterNameEnumerated"
-      name="ClusterNameEnumerated"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:clusterItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ClusterTotalsAbstract"
-      name="ClusterTotalsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ClusterTotalsTable"
-      name="ClusterTotalsTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CommissiononCivilRights29Member"
-      name="CommissiononCivilRights29Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CommodityFuturesTradingCommission78Member"
-      name="CommodityFuturesTradingCommission78Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CommunityFacilitiesLoansAndGrantsClusterMember"
-      name="CommunityFacilitiesLoansAndGrantsClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_CompensatedAbsencesPayable"
       name="CompensatedAbsencesPayable"
@@ -1066,116 +1402,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ComplianceAuditFindingsAbstract"
-      name="ComplianceAuditFindingsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceAuditFindingsModifiedOpinion"
-      name="ComplianceAuditFindingsModifiedOpinion"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceAuditFindingsOtherOpinion"
-      name="ComplianceAuditFindingsOtherOpinion"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementActivitiesAllowedOrUnallowed"
-      name="ComplianceRequirementActivitiesAllowedOrUnallowed"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementAllowableCostsPrinciples"
-      name="ComplianceRequirementAllowableCostsPrinciples"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementCashManagement"
-      name="ComplianceRequirementCashManagement"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementEligibility"
-      name="ComplianceRequirementEligibility"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementEquipmentAndRealPropertyManagement"
-      name="ComplianceRequirementEquipmentAndRealPropertyManagement"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementMatchingLevelOfEffortEarmarking"
-      name="ComplianceRequirementMatchingLevelOfEffortEarmarking"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementOther"
-      name="ComplianceRequirementOther"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
-      name="ComplianceRequirementPeriodOfPerformanceOfFederalFunds"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementProcurementSuspensionDisbarment"
-      name="ComplianceRequirementProcurementSuspensionDisbarment"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementProgramIncome"
-      name="ComplianceRequirementProgramIncome"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementReporting"
-      name="ComplianceRequirementReporting"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementReserved"
-      name="ComplianceRequirementReserved"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementSpecialTestsAndProvisions"
-      name="ComplianceRequirementSpecialTestsAndProvisions"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ComplianceRequirementSubrecipientMonitoring"
-      name="ComplianceRequirementSubrecipientMonitoring"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ComplianceRequirementTypesAbstract"
-      name="ComplianceRequirementTypesAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
       id="cafr_ComponentUnitDiscretelyPresentedAxis"
@@ -1210,13 +1436,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_ConsumerProductSafetyCommission87Member"
-      name="ConsumerProductSafetyCommission87Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_ContributionsCapital"
       name="ContributionsCapital"
       substitutionGroup="xbrli:item"
@@ -1240,13 +1459,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_CorporationForNationalandCommunityServices94Member"
-      name="CorporationForNationalandCommunityServices94Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_CostOfIssueOfBondsAndSecurities"
       name="CostOfIssueOfBondsAndSecurities"
@@ -1554,125 +1766,6 @@
       xbrli:balance="debit"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_DeltaRegionalAuthority90Member"
-      name="DeltaRegionalAuthority90Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DenaliCommission90Member"
-      name="DenaliCommission90Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfAgriculture10Member"
-      name="DepartmentOfAgriculture10Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfCommerce11Member"
-      name="DepartmentOfCommerce11Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfDefense12Member"
-      name="DepartmentOfDefense12Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfEducation84Member"
-      name="DepartmentOfEducation84Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfEnergy81Member"
-      name="DepartmentOfEnergy81Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfHealthandHumanServices93Member"
-      name="DepartmentOfHealthandHumanServices93Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfHomelandSecurity97Member"
-      name="DepartmentOfHomelandSecurity97Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfHousingandUrbanDevelopment14Member"
-      name="DepartmentOfHousingandUrbanDevelopment14Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfJustice16Member"
-      name="DepartmentOfJustice16Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfLabor17Member"
-      name="DepartmentOfLabor17Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfState19Member"
-      name="DepartmentOfState19Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfTransportation20Member"
-      name="DepartmentOfTransportation20Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOfVeteransAffairs64Member"
-      name="DepartmentOfVeteransAffairs64Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOftheInterior15Member"
-      name="DepartmentOftheInterior15Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_DepartmentOftheTreasury21Member"
-      name="DepartmentOftheTreasury21Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_DepositsHeldInCustodyForOthers"
       name="DepositsHeldInCustodyForOthers"
       substitutionGroup="xbrli:item"
@@ -1726,12 +1819,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_DirectAward"
-      name="DirectAward"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_DueFromComponentUnit"
       name="DueFromComponentUnit"
@@ -1853,46 +1940,11 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_EconomicDevelopmentClusterMember"
-      name="EconomicDevelopmentClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ElectionAssistanceCommission90Member"
-      name="ElectionAssistanceCommission90Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_EmploymentServiceClusterMember"
-      name="EmploymentServiceClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_EnvironmentalAndDisposalLiabilities"
       name="EnvironmentalAndDisposalLiabilities"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_EnvironmentalProtectionAgency66Member"
-      name="EnvironmentalProtectionAgency66Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_EqualEmploymentOpportunityCommission30Member"
-      name="EqualEmploymentOpportunityCommission30Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_ExcessDeficiencyOfRevenuesOverUnderExpenditures"
       name="ExcessDeficiencyOfRevenuesOverUnderExpenditures"
@@ -2237,6 +2289,12 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="cafr_Expenses"
+      name="Expenses"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="cafr_ExpensesForAirportsServices"
       name="ExpensesForAirportsServices"
       substitutionGroup="xbrli:item"
@@ -2405,184 +2463,11 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="cafr_ExpensesNet"
-      name="ExpensesNet"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_FamilySelfSuffciencyEscrows"
       name="FamilySelfSuffciencyEscrows"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_FederalAgencyPriorAuditFindings"
-      name="FederalAgencyPriorAuditFindings"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardSourceAbstract"
-      name="FederalAwardSourceAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardingAgencyAxis"
-      name="FederalAwardingAgencyAxis"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardingAgencyDomain"
-      name="FederalAwardingAgencyDomain"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FederalAwardingAgencyEnumerated"
-      name="FederalAwardingAgencyEnumerated"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:federalAwardingAgencyItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardingAgencyTotalsAbstract"
-      name="FederalAwardingAgencyTotalsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardingAgencyTotalsLineItems"
-      name="FederalAwardingAgencyTotalsLineItems"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalAwardingAgencyTotalsTable"
-      name="FederalAwardingAgencyTotalsTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalCommunicationsCommission32Member"
-      name="FederalCommunicationsCommission32Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FederalLoanOrLoanGuarantee"
-      name="FederalLoanOrLoanGuarantee"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalMaritimeCommission33Member"
-      name="FederalMaritimeCommission33Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalMediationandConciliationService34Member"
-      name="FederalMediationandConciliationService34Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalProgramIdentifierAxis"
-      name="FederalProgramIdentifierAxis"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
-      xbrldt:typedDomainRef="#cafr_FederalProgramIdentifierDomain"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FederalProgramIdentifierDomain"
-      name="FederalProgramIdentifierDomain"
-      type="xs:token"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalProgramIdentifierEnumerated"
-      name="FederalProgramIdentifierEnumerated"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:federalProgramIdentifierItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FederalProgramName"
-      name="FederalProgramName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalProgramsAbstract"
-      name="FederalProgramsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalReserveSystem18Member"
-      name="FederalReserveSystem18Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalSubprogramIdentifierAbstract"
-      name="FederalSubprogramIdentifierAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalSubprogramIdentifierAxis"
-      name="FederalSubprogramIdentifierAxis"
-      substitutionGroup="xbrldt:dimensionItem"
-      type="xbrli:stringItemType"
-      xbrldt:typedDomainRef="#cafr_FederalSubprogramIdentifierDomain"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FederalSubprogramIdentifierDomain"
-      name="FederalSubprogramIdentifierDomain"
-      type="xs:token"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalSubprogramIdentifierLineItems"
-      name="FederalSubprogramIdentifierLineItems"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalSubprogramIdentifierTable"
-      name="FederalSubprogramIdentifierTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalTradeCommission36Member"
-      name="FederalTradeCommission36Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FederalTransitClusterMember"
-      name="FederalTransitClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_FeesFromSalesAndService"
       name="FeesFromSalesAndService"
@@ -2590,65 +2475,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_FinancialStatementsAbstract"
-      name="FinancialStatementsAbstract"
+      id="cafr_FundBalanceAssigned"
+      name="FundBalanceAssigned"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FiscalPeriodAbstract"
-      name="FiscalPeriodAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FiscalPeriodEndDate"
-      name="FiscalPeriodEndDate"
-      substitutionGroup="xbrli:item"
-      type="xbrli:dateItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FiscalPeriodStartDate"
-      name="FiscalPeriodStartDate"
-      substitutionGroup="xbrli:item"
-      type="xbrli:dateItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FishAndWildlifeClusterMember"
-      name="FishAndWildlifeClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FoodDistributionClusterMember"
-      name="FoodDistributionClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ForeignFoodAndDonationClusterMember"
-      name="ForeignFoodAndDonationClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ForestServiceSchoolsAndRoadsClusterMember"
-      name="ForestServiceSchoolsAndRoadsClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_FosterGrAndparentSeniorCompanionClusterMember"
-      name="FosterGrAndparentSeniorCompanionClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
+      type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_FundBalanceCommitted"
@@ -2686,12 +2516,6 @@
       name="FundBalancesAbstract"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-      name="FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -2736,11 +2560,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_GeneralInformationAbstract"
-      name="GeneralInformationAbstract"
+      id="cafr_GeneralRevenues"
+      name="GeneralRevenues"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_GeneralRevenuesNet"
@@ -2749,23 +2572,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_GeneralServicesAdministration39Member"
-      name="GeneralServicesAdministration39Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_Gifts"
       name="Gifts"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_GoingConcernParagraph"
-      name="GoingConcernParagraph"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -2801,13 +2611,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_GovernmentPrintingOffice40Member"
-      name="GovernmentPrintingOffice40Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
       id="cafr_GovernmentalActivitiesMember"
@@ -2866,48 +2669,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_HealthCenterProgramClusterMember"
-      name="HealthCenterProgramClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_HighwayPlanningAndConstructionClusterMember"
-      name="HighwayPlanningAndConstructionClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_HighwaySafetyClusterMember"
-      name="HighwaySafetyClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_HopeVIClusterMember"
-      name="HopeVIClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_HousingVoucherClusterMember"
-      name="HousingVoucherClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_HurricaneSAndyReliefClusterMember"
-      name="HurricaneSAndyReliefClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_IncomeLossBeforeCapitalContributions"
       name="IncomeLossBeforeCapitalContributions"
       substitutionGroup="xbrli:item"
@@ -2920,25 +2681,11 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_InformationAboutFindingsandQuestionedCostsAbstract"
-      name="InformationAboutFindingsandQuestionedCostsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_IntangibleAssets"
       name="IntangibleAssets"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_Inter-AmericanFoundation04Member"
-      name="Inter-AmericanFoundation04Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_InterFundsBalancesPayable"
       name="InterFundsBalancesPayable"
@@ -2995,44 +2742,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_InternalControlAuditFindingsAbstract"
-      name="InternalControlAuditFindingsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_InternalControlAuditFindingsMaterialWeakness"
-      name="InternalControlAuditFindingsMaterialWeakness"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_InternalControlAuditFindingsSignificantDeficiency"
-      name="InternalControlAuditFindingsSignificantDeficiency"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_InternalControlMaterialWeakness"
-      name="InternalControlMaterialWeakness"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_InternalControlSignificantDeficiency"
-      name="InternalControlSignificantDeficiency"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_InternationalTradeCommission61Member"
-      name="InternationalTradeCommission61Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_Inventories"
       name="Inventories"
@@ -3101,13 +2810,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_JapanUSFriendshipCommission90Member"
-      name="JapanUSFriendshipCommission90Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_Land"
       name="Land"
       substitutionGroup="xbrli:item"
@@ -3125,13 +2827,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_LegalServicesCorporation09Member"
-      name="LegalServicesCorporation09Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_Liabilities"
       name="Liabilities"
@@ -3152,25 +2847,11 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_LibraryOfCongress42Member"
-      name="LibraryOfCongress42Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_LoanGuaranteeLiabilities"
       name="LoanGuaranteeLiabilities"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_LoanProgramAbstract"
-      name="LoanProgramAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_LoansPayable"
       name="LoansPayable"
@@ -3208,69 +2889,17 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_LongTermLiabilitiesNoncurrent"
+      name="LongTermLiabilitiesNoncurrent"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_LongTermNotesReceivable"
       name="LongTermNotesReceivable"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_LowRiskAuditee"
-      name="LowRiskAuditee"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_MajorProgram"
-      name="MajorProgram"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_MajorProgramandAuditFindingsAbstract"
-      name="MajorProgramandAuditFindingsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
-      name="MaterialInfantAndEarlyChildhoodHomeVisitingClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_MaterialNoncompliance"
-      name="MaterialNoncompliance"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_MedicaidClusterMember"
-      name="MedicaidClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_Miscellaneous99Member"
-      name="Miscellaneous99Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_MultipleDUNSNumbers"
-      name="MultipleDUNSNumbers"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_MultipleEntityTaxIdentification"
-      name="MultipleEntityTaxIdentification"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
       id="cafr_NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesAxis"
@@ -3849,62 +3478,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_NationalAeronauticsAndSpaceAdministration43Member"
-      name="NationalAeronauticsAndSpaceAdministration43Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalArchivesAndRecordsAdministration89Member"
-      name="NationalArchivesAndRecordsAdministration89Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalCouncilonDisability92Member"
-      name="NationalCouncilonDisability92Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalCreditUnionAdministration44Member"
-      name="NationalCreditUnionAdministration44Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalFoundationontheArtsandtheHumanities45Member"
-      name="NationalFoundationontheArtsandtheHumanities45Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalGalleryOfArt68Member"
-      name="NationalGalleryOfArt68Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalLaborRelationsBoard46Member"
-      name="NationalLaborRelationsBoard46Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NationalScienceFoundation47Member"
-      name="NationalScienceFoundation47Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_NetAssets"
       name="NetAssets"
       substitutionGroup="xbrli:item"
@@ -3943,6 +3516,12 @@
     <xs:element
       id="cafr_NetChangeInFundBalance"
       name="NetChangeInFundBalance"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="cafr_NetExpenseRevenue"
+      name="NetExpenseRevenue"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
@@ -4019,12 +3598,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-      name="NetPositionAtBeginningOfPeriodBeforeAdjustments"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_NetTransfers"
       name="NetTransfers"
       substitutionGroup="xbrli:item"
@@ -4063,6 +3636,18 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_NoncurrentAssets"
+      name="NoncurrentAssets"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_NoncurrentLiabilities"
+      name="NoncurrentLiabilities"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_NoncurrentLiabilitiesDueWithinOneYear"
       name="NoncurrentLiabilitiesDueWithinOneYear"
       substitutionGroup="xbrli:item"
@@ -4090,12 +3675,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="cafr_NoteTitleAdditionalNotesToTheSEFA"
-      name="NoteTitleAdditionalNotesToTheSEFA"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_NotesPayable"
       name="NotesPayable"
       substitutionGroup="xbrli:item"
@@ -4113,26 +3692,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NotesToTheSEFAAbstract"
-      name="NotesToTheSEFAAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_NuclearRegulatoryCommission77Member"
-      name="NuclearRegulatoryCommission77Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_NumberofAuditFindings"
-      name="NumberofAuditFindings"
-      substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
       id="cafr_OPEBAbstract"
@@ -4375,8 +3934,8 @@
       type="xbrli:integerItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="cafr_OPEBPlanTotalOPEBLiability"
-      name="OPEBPlanTotalOPEBLiability"
+      id="cafr_OPEBPlanTotalLiability"
+      name="OPEBPlanTotalLiability"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
@@ -4405,20 +3964,6 @@
       name="OPEBServiceCost"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_OfficeOfNationalDrugControlPolicy07Member"
-      name="OfficeOfNationalDrugControlPolicy07Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_OfficeOfPersonnelManagement27Member"
-      name="OfficeOfPersonnelManagement27Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_OnSiteImprovements"
@@ -4453,30 +3998,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="cafr_OpinionSpecialPurposeFrameworkAdverse"
-      name="OpinionSpecialPurposeFrameworkAdverse"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_OpinionSpecialPurposeFrameworkDisclaimer"
-      name="OpinionSpecialPurposeFrameworkDisclaimer"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_OpinionSpecialPurposeFrameworkQualified"
-      name="OpinionSpecialPurposeFrameworkQualified"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_OpinionSpecialPurposeFrameworkUnmodified"
-      name="OpinionSpecialPurposeFrameworkUnmodified"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_OtherAccountsReceivable"
       name="OtherAccountsReceivable"
       substitutionGroup="xbrli:item"
@@ -4494,12 +4015,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_OtherAuditFindings"
-      name="OtherAuditFindings"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_OtherCapitalAssets"
       name="OtherCapitalAssets"
@@ -4530,19 +4045,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_OtherClusterMember"
-      name="OtherClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_OtherClusterName"
-      name="OtherClusterName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_OtherCurrentAssets"
       name="OtherCurrentAssets"
@@ -4615,12 +4117,6 @@
       name="OtherInvestments"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_OtherIssuesWritten"
-      name="OtherIssuesWritten"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_OtherLiabilities"
@@ -4726,44 +4222,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_OutstandingLoanBalance"
-      name="OutstandingLoanBalance"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_OverseasPrivateInvestmentCorporation70Member"
-      name="OverseasPrivateInvestmentCorporation70Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PassThroughAmount"
-      name="PassThroughAmount"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PassThroughSourceEntityIdentifier"
-      name="PassThroughSourceEntityIdentifier"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PassThroughSourceEntityName"
-      name="PassThroughSourceEntityName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_PassedThroughAbstract"
-      name="PassedThroughAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_Patents"
       name="Patents"
       substitutionGroup="xbrli:item"
@@ -4800,13 +4258,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_PeaceCorps08Member"
-      name="PeaceCorps08Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_PenaltiesPayable"
       name="PenaltiesPayable"
@@ -4878,13 +4329,6 @@
       name="PensionAssumedSalaryGrowth"
       substitutionGroup="xbrli:item"
       type="num:percentItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_PensionBenefitGuarantyCorporation86Member"
-      name="PensionBenefitGuarantyCorporation86Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_PensionBenefitPayments"
@@ -5091,6 +4535,12 @@
       type="xbrli:integerItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_PensionPlanTotalLiability"
+      name="PensionPlanTotalLiability"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="cafr_PensionPlanTotalPlanMembership"
       name="PensionPlanTotalPlanMembership"
       substitutionGroup="xbrli:item"
@@ -5184,74 +4634,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_PrimaryAuditorAddressCity"
-      name="PrimaryAuditorAddressCity"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorAddressState"
-      name="PrimaryAuditorAddressState"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorAddressStreetAddress"
-      name="PrimaryAuditorAddressStreetAddress"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorAddressZipCode"
-      name="PrimaryAuditorAddressZipCode"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorContactEmail"
-      name="PrimaryAuditorContactEmail"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorContactName"
-      name="PrimaryAuditorContactName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorContactPhone"
-      name="PrimaryAuditorContactPhone"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorContactTitle"
-      name="PrimaryAuditorContactTitle"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_PrimaryAuditorInformationAbstract"
-      name="PrimaryAuditorInformationAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_PrimaryAuditorName"
-      name="PrimaryAuditorName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_PrimaryGovernmentActivitiesMember"
-      name="PrimaryGovernmentActivitiesMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_ProgramRevenues"
       name="ProgramRevenues"
       substitutionGroup="xbrli:item"
@@ -5277,12 +4659,6 @@
       name="ProgramRevenuesFromOperatingGrantsAndContributionsMember"
       substitutionGroup="xbrli:item"
       type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ProgramRevenuesNet"
-      name="ProgramRevenuesNet"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_PropertyTaxAllowances"
@@ -5392,19 +4768,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_QuestionedCosts"
-      name="QuestionedCosts"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_RailroadRetirementBoard57Member"
-      name="RailroadRetirementBoard57Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_Receivables"
       name="Receivables"
       substitutionGroup="xbrli:item"
@@ -5479,25 +4842,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_RepeatFindingAuditReferenceNumber"
-      name="RepeatFindingAuditReferenceNumber"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_RepeatFindingFromPriorYear"
-      name="RepeatFindingFromPriorYear"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ResearchAndDevelopmentClusterMember"
-      name="ResearchAndDevelopmentClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_RestrictedAssets"
       name="RestrictedAssets"
       substitutionGroup="xbrli:item"
@@ -5513,12 +4857,6 @@
     <xs:element
       id="cafr_RestrictedCash"
       name="RestrictedCash"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
-      id="cafr_RestrictedFundBalance"
-      name="RestrictedFundBalance"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
@@ -5579,6 +4917,12 @@
     <xs:element
       id="cafr_RevenueFromChargesForServicesAndSales"
       name="RevenueFromChargesForServicesAndSales"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="cafr_RevenueFromChargesForUtilities"
+      name="RevenueFromChargesForUtilities"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
@@ -5691,6 +5035,12 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="cafr_RevenueFromSaleOfFuel"
+      name="RevenueFromSaleOfFuel"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="cafr_RevenueFromSalesAndUseTax"
       name="RevenueFromSalesAndUseTax"
       substitutionGroup="xbrli:item"
@@ -5717,6 +5067,12 @@
     <xs:element
       id="cafr_RevenueFromSpecialAssessments"
       name="RevenueFromSpecialAssessments"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="cafr_RevenueFromSubsidies"
+      name="RevenueFromSubsidies"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
@@ -5992,119 +5348,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_ScheduleOfFederalAwardsAndQuestionedCostsAbstract"
-      name="ScheduleOfFederalAwardsAndQuestionedCostsAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
-      name="ScheduleOfFederalAwardsAndQuestionedCostsLineItems"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ScheduleOfFederalAwardsAndQuestionedCostsTable"
-      name="ScheduleOfFederalAwardsAndQuestionedCostsTable"
-      substitutionGroup="xbrldt:hypercubeItem"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_ScholarshipAllowances"
       name="ScholarshipAllowances"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_ScholarshipFoundations85Member"
-      name="ScholarshipFoundations85Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SchoolImprovementGrantsClusterMember"
-      name="SchoolImprovementGrantsClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorAddressCity"
-      name="SecondaryAuditorAddressCity"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorAddressState"
-      name="SecondaryAuditorAddressState"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorAddressStreetAddress"
-      name="SecondaryAuditorAddressStreetAddress"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorAddressZipCode"
-      name="SecondaryAuditorAddressZipCode"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorContactEmail"
-      name="SecondaryAuditorContactEmail"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorContactName"
-      name="SecondaryAuditorContactName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorContactPhone"
-      name="SecondaryAuditorContactPhone"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorContactTitle"
-      name="SecondaryAuditorContactTitle"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SecondaryAuditorInformationAbstract"
-      name="SecondaryAuditorInformationAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorName"
-      name="SecondaryAuditorName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SecondaryAuditorUsed"
-      name="SecondaryAuditorUsed"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_Section8ProjectBasedClusterMember"
-      name="Section8ProjectBasedClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_SecuritiesLendingCollateralAssets"
@@ -6119,13 +5366,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_SecuritiesandExchangeCommission58Member"
-      name="SecuritiesandExchangeCommission58Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_SelfInsuranceLiabilitiesCurrentPortion"
       name="SelfInsuranceLiabilitiesCurrentPortion"
       substitutionGroup="xbrli:item"
@@ -6138,38 +5378,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_SignificantAccountingPolicy"
-      name="SignificantAccountingPolicy"
+      id="cafr_SpecialAndExtraordinaryItems"
+      name="SpecialAndExtraordinaryItems"
       substitutionGroup="xbrli:item"
-      type="nonnum:textBlockItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SmallBusinessAdministration59Member"
-      name="SmallBusinessAdministration59Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SmithsonianInstitution60Member"
-      name="SmithsonianInstitution60Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SnapClusterMember"
-      name="SnapClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SocialSecurityAdministration96Member"
-      name="SocialSecurityAdministration96Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
+      type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_SpecialAssessmentTaxesReceivable"
@@ -6178,49 +5390,10 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      abstract="true"
-      id="cafr_SpecialEducationClusterMember"
-      name="SpecialEducationClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SpecialPurposeFramework"
-      name="SpecialPurposeFramework"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:specialPurposeFrameworkItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_SpecialPurposeFrameworkAbstract"
-      name="SpecialPurposeFrameworkAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_SpecialPurposeFrameworkRequired"
-      name="SpecialPurposeFrameworkRequired"
-      substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_StateAppropriations"
       name="StateAppropriations"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_StateClusterMember"
-      name="StateClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_StateClusterName"
-      name="StateClusterName"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_StateOPEBContribution"
@@ -6251,6 +5424,13 @@
       abstract="true"
       id="cafr_StatementOfActivitiesExpensesAndRevenuesComponentUnitAbstract"
       name="StatementOfActivitiesExpensesAndRevenuesComponentUnitAbstract"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="cafr_StatementOfActivitiesGeneralRevenuesAbstract"
+      name="StatementOfActivitiesGeneralRevenuesAbstract"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
@@ -6311,25 +5491,11 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_StudentFinancialAssistanceClusterMember"
-      name="StudentFinancialAssistanceClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_Subsidies"
       name="Subsidies"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_TANFClusterMember"
-      name="TANFClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_TaxesPayable"
       name="TaxesPayable"
@@ -6348,19 +5514,6 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_TennesseeValleyAuthority62Member"
-      name="TennesseeValleyAuthority62Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_ThresholdForPrograms"
-      name="ThresholdForPrograms"
-      substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_TimberRights"
       name="TimberRights"
@@ -6405,20 +5558,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="cafr_TransitServicesProgramsClusterMember"
-      name="TransitServicesProgramsClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_TrioClusterMember"
-      name="TrioClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="cafr_TuitionAndFeesAllowances"
       name="TuitionAndFeesAllowances"
       substitutionGroup="xbrli:item"
@@ -6453,20 +5592,6 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
-      id="cafr_TypeOfAuditAbstract"
-      name="TypeOfAuditAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_TypeOfAuditFindingAbstract"
-      name="TypeOfAuditFindingAbstract"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
       id="cafr_TypeOfProgramRevenuesAxis"
       name="TypeOfProgramRevenuesAxis"
       substitutionGroup="xbrldt:dimensionItem"
@@ -6476,19 +5601,6 @@
       abstract="true"
       id="cafr_TypeOfProgramRevenuesDomain"
       name="TypeOfProgramRevenuesDomain"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="cafr_TypeofAuditReport"
-      name="TypeofAuditReport"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:auditReportItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_U.S.AgencyForInternationalDevelopment98Member"
-      name="U.S.AgencyForInternationalDevelopment98Member"
       substitutionGroup="xbrli:item"
       type="nonnum:domainItemType"
       xbrli:periodType="duration"/>
@@ -6524,19 +5636,6 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="cafr_UniformGuidanceAuditType"
-      name="UniformGuidanceAuditType"
-      substitutionGroup="xbrli:item"
-      type="cafr-types:uniformAuditGuidanceItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_UnitedStatesInstituteOfPeace91Member"
-      name="UnitedStatesInstituteOfPeace91Member"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       abstract="true"
       id="cafr_UnrestrictedAssetsAbstract"
       name="UnrestrictedAssetsAbstract"
@@ -6556,20 +5655,6 @@
       type="xbrli:monetaryItemType"
       xbrli:balance="credit"
       xbrli:periodType="instant"/>
-    <xs:element
-      abstract="true"
-      id="cafr_WIOAClusterMember"
-      name="WIOAClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      abstract="true"
-      id="cafr_WaterAndWasteProgramClusterMember"
-      name="WaterAndWasteProgramClusterMember"
-      substitutionGroup="xbrli:item"
-      type="nonnum:domainItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_WaterRights"
       name="WaterRights"

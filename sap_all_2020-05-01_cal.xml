@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Sample taxonomy to represent CAFR statements.-->
+<!--Sample taxonomy to represent Single Audit Package.-->
 <linkbase
   xmlns="http://www.xbrl.org/2003/linkbase"
   xmlns:xbrli="http://www.xbrl.org/2003/instance"

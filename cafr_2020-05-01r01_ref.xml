@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Sample taxonomy to represent CAFR statements and the Single Audit Package.-->
+<!--Sample taxonomy to represent CAFR statements.-->
 <linkbase
   xmlns="http://www.xbrl.org/2003/linkbase"
   xmlns:cafr-part="http://www.cafr.us/parts"
@@ -16,57 +16,6 @@
       xlink:role="http://www.xbrl.org/2003/role/link"
       xlink:type="extended">
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionAbstract"
-          xlink:label="cafr_StatementOfNetPositionAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_StatementOfNetPositionAbstract"
-          xlink:to="label_cafr_StatementOfNetPositionAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_StatementOfNetPositionAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionTypeOfActivitiesAbstract"
-          xlink:label="cafr_StatementOfNetPositionTypeOfActivitiesAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_StatementOfNetPositionTypeOfActivitiesAbstract"
-          xlink:to="label_cafr_StatementOfNetPositionTypeOfActivitiesAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_StatementOfNetPositionTypeOfActivitiesAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionTable"
-          xlink:label="cafr_StatementOfNetPositionTable"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_StatementOfNetPositionTable"
-          xlink:to="label_cafr_StatementOfNetPositionTable"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_StatementOfNetPositionTable"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_TypeOfActivitiesAxis"
           xlink:label="cafr_TypeOfActivitiesAxis"
           xlink:type="locator"/>
@@ -81,7 +30,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_TypeOfActivitiesDomain"
@@ -98,7 +46,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalActivitiesMember"
@@ -135,74 +82,6 @@
             <cafr-part:note>GASB Concepts Statements, Paragraph 43 and Appendix B</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_PrimaryGovernmentActivitiesMember"
-          xlink:label="cafr_PrimaryGovernmentActivitiesMember"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_PrimaryGovernmentActivitiesMember"
-          xlink:to="label_cafr_PrimaryGovernmentActivitiesMember"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_PrimaryGovernmentActivitiesMember"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section 2100 and Paragraph 112-113</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionLineItems"
-          xlink:label="cafr_StatementOfNetPositionLineItems"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_StatementOfNetPositionLineItems"
-          xlink:to="label_cafr_StatementOfNetPositionLineItems"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_StatementOfNetPositionLineItems"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_AssetsAbstract"
-          xlink:label="cafr_AssetsAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_AssetsAbstract"
-          xlink:to="label_cafr_AssetsAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_AssetsAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_CurrentAssetsAbstract"
-          xlink:label="cafr_CurrentAssetsAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_CurrentAssetsAbstract"
-          xlink:to="label_cafr_CurrentAssetsAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_CurrentAssetsAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CashAndCashEquivalents"
           xlink:label="cafr_CashAndCashEquivalents"
           xlink:type="locator"/>
@@ -218,23 +97,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Government Finance Officers Association - Governmental Accounting, Auditing, and Financial Reporting</cafr-part:publisher>
             <cafr-part:note>GAAFR 101.</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RestrictedCash"
-          xlink:label="cafr_RestrictedCash"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_RestrictedCash"
-          xlink:to="label_cafr_RestrictedCash"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_RestrictedCash"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CashAndCashEquivalentsWithFiscalAndEscrowAndOtherAgents"
@@ -319,7 +181,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CashAndInvestments"
@@ -336,7 +197,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InvestmentsCurrent"
@@ -370,7 +230,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InvestmentsWithStateTreasury"
@@ -455,7 +314,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PropertyTaxesReceivable"
@@ -489,7 +347,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_SalesTaxReceivable"
@@ -523,7 +380,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherTaxesReceivable"
@@ -540,7 +396,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GrantsReceivable"
@@ -557,7 +412,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LeasesReceivable"
@@ -574,7 +428,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccountsReceivable"
@@ -591,7 +444,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InterGovernmentalReceivable"
@@ -608,7 +460,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InternalBalanceReceivable"
@@ -642,7 +493,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NotesReceivable"
@@ -659,7 +509,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LoansReceivable"
@@ -676,7 +525,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PenaltiesReceivable"
@@ -693,7 +541,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ClaimsAndJudgmentsReceivable"
@@ -710,7 +557,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InvestmentIncomeReceivable"
@@ -727,7 +573,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ReceivablesFromContracts"
@@ -744,58 +589,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ReceivablesNetOfAllowanceWhereApplicable"
-          xlink:label="cafr_ReceivablesNetOfAllowanceWhereApplicable"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ReceivablesNetOfAllowanceWhereApplicable"
-          xlink:to="label_cafr_ReceivablesNetOfAllowanceWhereApplicable"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_ReceivablesNetOfAllowanceWhereApplicable"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_InterestReceivable"
-          xlink:label="cafr_InterestReceivable"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_InterestReceivable"
-          xlink:to="label_cafr_InterestReceivable"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_InterestReceivable"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_TuitionAndFeesReceivable"
-          xlink:label="cafr_TuitionAndFeesReceivable"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_TuitionAndFeesReceivable"
-          xlink:to="label_cafr_TuitionAndFeesReceivable"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_TuitionAndFeesReceivable"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherReceivables"
@@ -812,7 +605,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromPrimaryGovernmentEntities"
@@ -829,7 +621,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromComponentUnit"
@@ -846,7 +637,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromOtherGovernmentEntities"
@@ -863,7 +653,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromFiduciaryFunds"
@@ -880,7 +669,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromEntitiesFunds"
@@ -897,7 +685,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromOtherFunds"
@@ -914,7 +701,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueFromOthers"
@@ -931,7 +717,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_Receivables"
@@ -1000,40 +785,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Government Finance Officers Association - Governmental Accounting, Auditing, and Financial Reporting</cafr-part:publisher>
             <cafr-part:note>Adapted from GAAFR 105.1 &amp; 107.1.</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_UncollectibleReceivableAllowances"
-          xlink:label="cafr_UncollectibleReceivableAllowances"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_UncollectibleReceivableAllowances"
-          xlink:to="label_cafr_UncollectibleReceivableAllowances"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_UncollectibleReceivableAllowances"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_AccumulatedDepreciationandAmortization"
-          xlink:label="cafr_AccumulatedDepreciationandAmortization"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_AccumulatedDepreciationandAmortization"
-          xlink:to="label_cafr_AccumulatedDepreciationandAmortization"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_AccumulatedDepreciationandAmortization"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccumulatedDepreciation"
@@ -1152,7 +903,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_RegulatoryAssetsCurrent"
@@ -1169,7 +919,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DerivativeInstrumentsAssetsCurrent"
@@ -1186,7 +935,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherCurrentAssets"
@@ -1238,23 +986,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>Cod. 2200 Par. 180. Can be used with the typed dimension NameOfRestrictedAssets which can be used to represent a specific type of Restricted Assets which is not represented in the taxonomy. If no axis is used, this element represents the total of Restricted Assets.</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NonCurrentAssetsAbstract"
-          xlink:label="cafr_NonCurrentAssetsAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NonCurrentAssetsAbstract"
-          xlink:to="label_cafr_NonCurrentAssetsAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NonCurrentAssetsAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNonDepreciableAndNonAmortizable"
@@ -1390,7 +1121,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DerivativeInstrumentsAssetsNonCurrent"
@@ -1407,7 +1137,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssets"
@@ -1444,23 +1173,6 @@
             <cafr-part:note>Statement No. 45.</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NetOPEBAsset"
-          xlink:label="cafr_NetOPEBAsset"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetOPEBAsset"
-          xlink:to="label_cafr_NetOPEBAsset"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetOPEBAsset"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherNoncurrentAssets"
           xlink:label="cafr_OtherNoncurrentAssets"
           xlink:type="locator"/>
@@ -1492,24 +1204,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_AssetsHeldForResale"
-          xlink:label="cafr_AssetsHeldForResale"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_AssetsHeldForResale"
-          xlink:to="label_cafr_AssetsHeldForResale"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_AssetsHeldForResale"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_IntangibleAssets"
@@ -1546,91 +1240,6 @@
             <cafr-part:note>Statement No. 51, Accounting and Financial Reporting for Intangible Assets</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_Easements"
-          xlink:label="cafr_Easements"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_Easements"
-          xlink:to="label_cafr_Easements"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_Easements"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_Patents"
-          xlink:label="cafr_Patents"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_Patents"
-          xlink:to="label_cafr_Patents"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_Patents"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_TimberRights"
-          xlink:label="cafr_TimberRights"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_TimberRights"
-          xlink:to="label_cafr_TimberRights"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_TimberRights"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_Trademarks"
-          xlink:label="cafr_Trademarks"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_Trademarks"
-          xlink:to="label_cafr_Trademarks"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_Trademarks"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_WaterRights"
-          xlink:label="cafr_WaterRights"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_WaterRights"
-          xlink:to="label_cafr_WaterRights"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_WaterRights"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_Assets"
           xlink:label="cafr_Assets"
           xlink:type="locator"/>
@@ -1646,57 +1255,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>Appendix B-GASB Concepts Statement 4, Paragraphs 8 through 16.</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesAbstract"
-          xlink:label="cafr_DeferredOutflowsOfResourcesAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredOutflowsOfResourcesAbstract"
-          xlink:to="label_cafr_DeferredOutflowsOfResourcesAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredOutflowsOfResourcesAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesDebt"
-          xlink:label="cafr_DeferredOutflowsOfResourcesDebt"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredOutflowsOfResourcesDebt"
-          xlink:to="label_cafr_DeferredOutflowsOfResourcesDebt"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredOutflowsOfResourcesDebt"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesOPEB"
-          xlink:label="cafr_DeferredOutflowsOfResourcesOPEB"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredOutflowsOfResourcesOPEB"
-          xlink:to="label_cafr_DeferredOutflowsOfResourcesOPEB"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredOutflowsOfResourcesOPEB"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesOPEBChangesInAssumptions"
@@ -1782,40 +1340,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>GARS IV.P52.162.h.3</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesOther"
-          xlink:label="cafr_DeferredOutflowsOfResourcesOther"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredOutflowsOfResourcesOther"
-          xlink:to="label_cafr_DeferredOutflowsOfResourcesOther"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredOutflowsOfResourcesOther"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesPension"
-          xlink:label="cafr_DeferredOutflowsOfResourcesPension"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredOutflowsOfResourcesPension"
-          xlink:to="label_cafr_DeferredOutflowsOfResourcesPension"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredOutflowsOfResourcesPension"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredOutflowsOfResourcesPensionChangesInAssumptions"
@@ -1934,41 +1458,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_LiabilitiesAbstract"
-          xlink:label="cafr_LiabilitiesAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_LiabilitiesAbstract"
-          xlink:to="label_cafr_LiabilitiesAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_LiabilitiesAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_CurrentLiabilitiesAbstract"
-          xlink:label="cafr_CurrentLiabilitiesAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_CurrentLiabilitiesAbstract"
-          xlink:to="label_cafr_CurrentLiabilitiesAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_CurrentLiabilitiesAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_RegulatoryLiabilityCurrent"
@@ -1985,41 +1474,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_AccruedTuitionAndFees"
-          xlink:label="cafr_AccruedTuitionAndFees"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_AccruedTuitionAndFees"
-          xlink:to="label_cafr_AccruedTuitionAndFees"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_AccruedTuitionAndFees"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_BondInterestPayable"
-          xlink:label="cafr_BondInterestPayable"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_BondInterestPayable"
-          xlink:to="label_cafr_BondInterestPayable"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_BondInterestPayable"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_BondsPayableCurrent"
@@ -2053,7 +1507,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccruedInterestPayable"
@@ -2070,7 +1523,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccruedExpensesPayable"
@@ -2087,7 +1539,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InterGovernmentalPayable"
@@ -2104,7 +1555,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_InternalBalancesPayable"
@@ -2138,7 +1588,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AccountsPayable"
@@ -2172,7 +1621,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GrantsPayable"
@@ -2189,7 +1637,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_TaxesPayable"
@@ -2206,7 +1653,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PenaltiesPayable"
@@ -2223,7 +1669,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DepositsHeldforOthers"
@@ -2240,7 +1685,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NotesPayable"
@@ -2257,7 +1701,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LoansPayable"
@@ -2274,7 +1717,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ClaimsAndJudgmentsPayable"
@@ -2291,7 +1733,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PayablesForContracts"
@@ -2308,7 +1749,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PayablesForOthers"
@@ -2325,7 +1765,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToPrimaryGovernmentEntities"
@@ -2342,7 +1781,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToComponentUnit"
@@ -2359,7 +1797,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToOtherGovernmentEntities"
@@ -2376,7 +1813,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToFiduciaryFunds"
@@ -2393,7 +1829,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AmountHeldForOthers"
@@ -2410,7 +1845,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToEntitiesFunds"
@@ -2427,7 +1861,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToOtherFunds"
@@ -2444,7 +1877,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DueToOthers"
@@ -2461,7 +1893,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_RetainagePayable"
@@ -2478,7 +1909,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_UnearnedRevenue"
@@ -2512,7 +1942,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LongTermLiabilitiesCurrent"
@@ -2529,7 +1958,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DerivativeInstrumentsLiabilityCurrent"
@@ -2546,7 +1974,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ProvisionsCurrent"
@@ -2563,7 +1990,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PerformanceBondsPayableCurrent"
@@ -2580,7 +2006,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableCurrent"
@@ -2597,7 +2022,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_BondsAndInterestPayableCurrent"
@@ -2614,7 +2038,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherCurrentLiabilities"
@@ -2651,23 +2074,6 @@
             <cafr-part:note>Cod. 2200 Par. 181</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NonCurrentLiabilitiesAbstract"
-          xlink:label="cafr_NonCurrentLiabilitiesAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NonCurrentLiabilitiesAbstract"
-          xlink:to="label_cafr_NonCurrentLiabilitiesAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NonCurrentLiabilitiesAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_BondPayableNoncurrent"
           xlink:label="cafr_BondPayableNoncurrent"
           xlink:type="locator"/>
@@ -2699,7 +2105,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DerivativeInstrumentsLiabilityNonCurrent"
@@ -2716,7 +2121,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ProvisionsNonCurrent"
@@ -2733,7 +2137,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PerformanceBondsPayableNonCurrent"
@@ -2750,7 +2153,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableNonCurrent"
@@ -2767,7 +2169,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_BondsAndInterestPayableNonCurrent"
@@ -2784,41 +2185,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_EnvironmentalAndDisposalLiabilities"
-          xlink:label="cafr_EnvironmentalAndDisposalLiabilities"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_EnvironmentalAndDisposalLiabilities"
-          xlink:to="label_cafr_EnvironmentalAndDisposalLiabilities"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_EnvironmentalAndDisposalLiabilities"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_LoanGuaranteeLiabilities"
-          xlink:label="cafr_LoanGuaranteeLiabilities"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_LoanGuaranteeLiabilities"
-          xlink:to="label_cafr_LoanGuaranteeLiabilities"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_LoanGuaranteeLiabilities"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LongTermLiabilitiesNonCurrent"
@@ -2835,41 +2201,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NoncurrentLiabilitiesDueWithinOneYear"
-          xlink:label="cafr_NoncurrentLiabilitiesDueWithinOneYear"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NoncurrentLiabilitiesDueWithinOneYear"
-          xlink:to="label_cafr_NoncurrentLiabilitiesDueWithinOneYear"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NoncurrentLiabilitiesDueWithinOneYear"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
-          xlink:label="cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
-          xlink:to="label_cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NetPensionLiability"
@@ -2887,23 +2218,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>Statement No. 45.</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NetOPEBLiability"
-          xlink:label="cafr_NetOPEBLiability"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetOPEBLiability"
-          xlink:to="label_cafr_NetOPEBLiability"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetOPEBLiability"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherNoncurrentLiabilities"
@@ -2937,24 +2251,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_Liabilities"
-          xlink:label="cafr_Liabilities"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_Liabilities"
-          xlink:to="label_cafr_Liabilities"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_Liabilities"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section 2200 and Paragraph 116</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PayableFromRestrictedAssets"
@@ -2974,21 +2270,21 @@
             <cafr-part:note>Can be used with the typed dimension NameOfPayableFromRestrictedAssetsAxis to represent other types of payables from restricted assets. If not used, represents sum of payable from restricted assets.</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesAbstract"
-          xlink:label="cafr_DeferredInflowsOfResourcesAbstract"
+          xlink:href="cafr_2020-05-01.xsd#cafr_Liabilities"
+          xlink:label="cafr_Liabilities"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesAbstract"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesAbstract"
+          xlink:from="cafr_Liabilities"
+          xlink:to="label_cafr_Liabilities"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesAbstract"
+          xlink:label="label_cafr_Liabilities"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section 2200 and Paragraph 116</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesPensionChangesInAssumptions"
@@ -3006,40 +2302,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>COD.IV.P20.132</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesDebt"
-          xlink:label="cafr_DeferredInflowsOfResourcesDebt"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesDebt"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesDebt"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesDebt"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesOPEB"
-          xlink:label="cafr_DeferredInflowsOfResourcesOPEB"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesOPEB"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesOPEB"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesOPEB"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesOPEBChangesInAssumptions"
@@ -3127,40 +2389,6 @@
             <cafr-part:note>GARS IV.P52.162.h.3</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesOther"
-          xlink:label="cafr_DeferredInflowsOfResourcesOther"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesOther"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesOther"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesOther"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesPension"
-          xlink:label="cafr_DeferredInflowsOfResourcesPension"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesPension"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesPension"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesPension"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesPensionContributionsMadeAfterMeasurementDate"
           xlink:label="cafr_DeferredInflowsOfResourcesPensionContributionsMadeAfterMeasurementDate"
           xlink:type="locator"/>
@@ -3229,23 +2457,6 @@
             <cafr-part:note>GARS IV.P22.136.h.3</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResourcesUnavailablePropertyTaxRevenue"
-          xlink:label="cafr_DeferredInflowsOfResourcesUnavailablePropertyTaxRevenue"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_DeferredInflowsOfResourcesUnavailablePropertyTaxRevenue"
-          xlink:to="label_cafr_DeferredInflowsOfResourcesUnavailablePropertyTaxRevenue"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_DeferredInflowsOfResourcesUnavailablePropertyTaxRevenue"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_DeferredInflowsOfResources"
           xlink:label="cafr_DeferredInflowsOfResources"
           xlink:type="locator"/>
@@ -3277,41 +2488,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NetPositionAbstract"
-          xlink:label="cafr_NetPositionAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetPositionAbstract"
-          xlink:to="label_cafr_NetPositionAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetPositionAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NetInvestmentInCapitalAssets"
-          xlink:label="cafr_NetInvestmentInCapitalAssets"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetInvestmentInCapitalAssets"
-          xlink:to="label_cafr_NetInvestmentInCapitalAssets"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetInvestmentInCapitalAssets"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_UnrestrictedNetPosition"
@@ -3379,7 +2555,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfCapitalAssetsNonDepreciableAxis"
@@ -3396,24 +2571,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:label="cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:to="label_cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis"
@@ -3430,24 +2587,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherNoncurrentAssetsAxis"
-          xlink:label="cafr_NameOfOtherNoncurrentAssetsAxis"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NameOfOtherNoncurrentAssetsAxis"
-          xlink:to="label_cafr_NameOfOtherNoncurrentAssetsAxis"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NameOfOtherNoncurrentAssetsAxis"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfRestrictedAssetsAxis"
@@ -3464,7 +2603,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfDeferredOutflowsOfResourcesAxis"
@@ -3481,7 +2619,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherCurrentLiabilitiesAxis"
@@ -3498,7 +2635,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherNoncurrentLiabilitiesAxis"
@@ -3515,7 +2651,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfPayableFromRestrictedAssetsAxis"
@@ -3532,7 +2667,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfDeferredInflowsOfResourcesAxis"
@@ -3549,7 +2683,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfNetPositionRestrictedAxis"
@@ -3566,58 +2699,6 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionComponentUnitAbstract"
-          xlink:label="cafr_StatementOfNetPositionComponentUnitAbstract"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_StatementOfNetPositionComponentUnitAbstract"
-          xlink:to="label_cafr_StatementOfNetPositionComponentUnitAbstract"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_StatementOfNetPositionComponentUnitAbstract"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ComponentUnitDiscretelyPresentedAxis"
-          xlink:label="cafr_ComponentUnitDiscretelyPresentedAxis"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ComponentUnitDiscretelyPresentedAxis"
-          xlink:to="label_cafr_ComponentUnitDiscretelyPresentedAxis"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_ComponentUnitDiscretelyPresentedAxis"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ComponentUnitDiscretelyPresentedDomain"
-          xlink:label="cafr_ComponentUnitDiscretelyPresentedDomain"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ComponentUnitDiscretelyPresentedDomain"
-          xlink:to="label_cafr_ComponentUnitDiscretelyPresentedDomain"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_ComponentUnitDiscretelyPresentedDomain"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>0</cafr-part:publisher>
-            <cafr-part:note>0</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ComponentUnitDiscretelyPresentedMember"
@@ -4714,6 +3795,22 @@
             <cafr-part:note>Can be used with the typed dimension, NameOfOtherExpensesAxis which can be used to represent a specific type of other expenses which is not represented in the taxonomy. If no axis is used, this element represents the total of other expenses not represented by other line items.</cafr-part:note>
         </reference>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_Expenses"
+          xlink:label="cafr_Expenses"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_Expenses"
+          xlink:to="label_cafr_Expenses"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_Expenses"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_RevenueFromPropertyTax"
           xlink:label="cafr_RevenueFromPropertyTax"
           xlink:type="locator"/>
@@ -5221,22 +4318,6 @@
             <cafr-part:note>Section 2200 and Paragraph 143 and 144 and 108. Can be used with the typed dimension NameOfAdjustmentsForTransferOfRevenuesWithinActivitiesAxis which can be used to represent a specific type of Adjustment for Transfer of Revenues Within Activities which is not represented in the taxonomy. If no axis is used, this element represents the total of Adjustment for Transfer of Revenues Within Activities not represented by other line items.</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-          xlink:label="cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-          xlink:to="label_cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_NetPositionAtBeginningOfPeriodBeforeAdjustments"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_AdjustmentsInNetPositionForRestatementsErrorsAndAccountingPolicy"
           xlink:label="cafr_AdjustmentsInNetPositionForRestatementsErrorsAndAccountingPolicy"
           xlink:type="locator"/>
@@ -5349,6 +4430,23 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RestrictedInvestments"
+          xlink:label="cafr_RestrictedInvestments"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_RestrictedInvestments"
+          xlink:to="label_cafr_RestrictedInvestments"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_RestrictedInvestments"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US GAAP TAXONOMY</cafr-part:publisher>
+            <cafr-part:note>US GAAP Taxonomy (no FASB Reference)</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherInvestments"
@@ -6379,6 +5477,40 @@
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
         </reference>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TransfersOutForFinancingSources"
+          xlink:label="cafr_TransfersOutForFinancingSources"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_TransfersOutForFinancingSources"
+          xlink:to="label_cafr_TransfersOutForFinancingSources"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_TransfersOutForFinancingSources"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section 1800 Paragraph 102(b)</cafr-part:note>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TransfersInToFinancingSources"
+          xlink:label="cafr_TransfersInToFinancingSources"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_TransfersInToFinancingSources"
+          xlink:to="label_cafr_TransfersInToFinancingSources"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_TransfersInToFinancingSources"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section 1800 Paragraph 102(b)</cafr-part:note>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherFinancingSourcesUses"
           xlink:label="cafr_OtherFinancingSourcesUses"
           xlink:type="locator"/>
@@ -6390,22 +5522,6 @@
           xlink:type="arc"/>
         <reference
           xlink:label="label_cafr_OtherFinancingSourcesUses"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-          xlink:label="cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-          xlink:to="label_cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_FundBalancesAtBeginningOfPeriodBeforeAdjustments"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
@@ -6642,23 +5758,6 @@
           xlink:type="resource">
             <cafr-part:publisher>FASB</cafr-part:publisher>
             <cafr-part:note>FASB 825/10/50/28/(f).</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RestrictedInvestments"
-          xlink:label="cafr_RestrictedInvestments"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_RestrictedInvestments"
-          xlink:to="label_cafr_RestrictedInvestments"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_RestrictedInvestments"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>US GAAP TAXONOMY</cafr-part:publisher>
-            <cafr-part:note>US GAAP Taxonomy (no FASB Reference)</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherRestrictedAssets"
@@ -7722,40 +6821,6 @@
             <cafr-part:note>1800.144</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_TransfersInToFinancingSources"
-          xlink:label="cafr_TransfersInToFinancingSources"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_TransfersInToFinancingSources"
-          xlink:to="label_cafr_TransfersInToFinancingSources"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_TransfersInToFinancingSources"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section 1800 Paragraph 102(b)</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_TransfersOutForFinancingSources"
-          xlink:label="cafr_TransfersOutForFinancingSources"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_TransfersOutForFinancingSources"
-          xlink:to="label_cafr_TransfersOutForFinancingSources"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_TransfersOutForFinancingSources"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section 1800 Paragraph 102(b)</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_TransfersAndContributions"
           xlink:label="cafr_TransfersAndContributions"
           xlink:type="locator"/>
@@ -8550,6 +7615,105 @@
             <cafr-part:note>Section P20 Paragraph 144b(8)</cafr-part:note>
         </reference>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NoncurrentAssets"
+          xlink:label="cafr_NoncurrentAssets"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NoncurrentAssets"
+          xlink:to="label_cafr_NoncurrentAssets"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NoncurrentAssets"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_LongTermLiabilitiesNoncurrent"
+          xlink:label="cafr_LongTermLiabilitiesNoncurrent"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_LongTermLiabilitiesNoncurrent"
+          xlink:to="label_cafr_LongTermLiabilitiesNoncurrent"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_LongTermLiabilitiesNoncurrent"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NoncurrentLiabilities"
+          xlink:label="cafr_NoncurrentLiabilities"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NoncurrentLiabilities"
+          xlink:to="label_cafr_NoncurrentLiabilities"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NoncurrentLiabilities"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GeneralRevenues"
+          xlink:label="cafr_GeneralRevenues"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_GeneralRevenues"
+          xlink:to="label_cafr_GeneralRevenues"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_GeneralRevenues"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section 2200 and Paragraph 140.</cafr-part:note>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OPEBPlanTotalLiability"
+          xlink:label="cafr_OPEBPlanTotalLiability"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_OPEBPlanTotalLiability"
+          xlink:to="label_cafr_OPEBPlanTotalLiability"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_OPEBPlanTotalLiability"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section P50 Paragraph 555</cafr-part:note>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OPEBActuariallyDeterminedContribution"
+          xlink:label="cafr_OPEBActuariallyDeterminedContribution"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_OPEBActuariallyDeterminedContribution"
+          xlink:to="label_cafr_OPEBActuariallyDeterminedContribution"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_OPEBActuariallyDeterminedContribution"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section P50 Paragrph 503</cafr-part:note>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OPEBPlanActiveEmployees"
           xlink:label="cafr_OPEBPlanActiveEmployees"
           xlink:type="locator"/>
@@ -8584,23 +7748,6 @@
             <cafr-part:note>Section P50 Paragraph 532</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_OPEBActuariallyDeterminedContribution"
-          xlink:label="cafr_OPEBActuariallyDeterminedContribution"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_OPEBActuariallyDeterminedContribution"
-          xlink:to="label_cafr_OPEBActuariallyDeterminedContribution"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_OPEBActuariallyDeterminedContribution"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section P50 Paragrph 503</cafr-part:note>
-        </reference>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OPEBExpense"
           xlink:label="cafr_OPEBExpense"
           xlink:type="locator"/>
@@ -8633,23 +7780,6 @@
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
             <cafr-part:note>Section P50 Paragraph 506</cafr-part:note>
-        </reference>
-        <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_OPEBPlanTotalOPEBLiability"
-          xlink:label="cafr_OPEBPlanTotalOPEBLiability"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_OPEBPlanTotalOPEBLiability"
-          xlink:to="label_cafr_OPEBPlanTotalOPEBLiability"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_cafr_OPEBPlanTotalOPEBLiability"
-          xlink:role="http://cafr.us/roles/reference"
-          xlink:type="resource">
-            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
-            <cafr-part:note>Section P50 Paragraph 555</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OPEBFiduciaryNetPosition"
