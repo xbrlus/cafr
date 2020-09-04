@@ -649,14 +649,14 @@
             <link:roleType
               id="roleType_Pension"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/Pension">
-                <link:definition>800000 - Pension Footnote</link:definition>
+                <link:definition>800000 - Pension Plan</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_OPEB"
               roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/OPEB">
-                <link:definition>801000 - OPEB Footnote</link:definition>
+                <link:definition>801000 - OPEB Plan</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
@@ -696,16 +696,16 @@
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_CaliforniaPensionFootnote"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaPensionFootnote">
-                <link:definition>820000 - California Pension Footnote</link:definition>
+              id="roleType_CaliforniaPensionPlan"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaPensionPlan">
+                <link:definition>820000 - California Pension Plan</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_CaliforniaOPEBFootnote"
-              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaOPEBFootnote">
-                <link:definition>830000 - California OPEB Footnote</link:definition>
+              id="roleType_CaliforniaOPEBPlan"
+              roleURI="http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaOPEBPlan">
+                <link:definition>830000 - California OPEB Plan</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
@@ -1336,6 +1336,12 @@
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_ChangeInAccountingPrinciple"
+      name="ChangeInAccountingPrinciple"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="cafr_ChangesInFairValueOfInvestments"
       name="ChangesInFairValueOfInvestments"
@@ -3598,6 +3604,12 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="cafr_NetPositionRestated"
+      name="NetPositionRestated"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="cafr_NetTransfers"
       name="NetTransfers"
       substitutionGroup="xbrli:item"
@@ -3776,7 +3788,7 @@
       name="OPEBCoveredPayroll"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OPEBDiscountRate"
       name="OPEBDiscountRate"
@@ -3794,7 +3806,7 @@
       name="OPEBFiduciaryNetPosition"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OPEBFundedRatio"
       name="OPEBFundedRatio"
@@ -3854,7 +3866,7 @@
       name="OPEBPlanAssets"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OPEBPlanEmployeeCategory"
       name="OPEBPlanEmployeeCategory"
@@ -3938,7 +3950,7 @@
       name="OPEBPlanTotalLiability"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OPEBPlanType"
       name="OPEBPlanType"
@@ -4148,6 +4160,20 @@
       name="OtherNoncurrentLiabilities"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+      name="OtherNoncurrentLiabilitiesDueWithinOneYear"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:balance="credit"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+      name="OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:balance="credit"
       xbrli:periodType="instant"/>
     <xs:element
       id="cafr_OtherNoncurrentLiabilitiesPayableFromRestrictedAssets"
@@ -4377,13 +4403,13 @@
       name="PensionNetLiabilityAtDiscountRateMinus1"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionNetLiabilityAtDiscountRatePlus1"
       name="PensionNetLiabilityAtDiscountRatePlus1"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionPlanActiveEmployees"
       name="PensionPlanActiveEmployees"
@@ -4425,13 +4451,13 @@
       name="PensionPlanDeferredInflowOfResources"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionPlanDeferredOuflowOfResources"
       name="PensionPlanDeferredOuflowOfResources"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionPlanDisabledParticipantsCurrentlyReceivingBenefits"
       name="PensionPlanDisabledParticipantsCurrentlyReceivingBenefits"
@@ -4455,7 +4481,7 @@
       name="PensionPlanFiduciaryNetPosition"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionPlanGainLossFromAssumptionChanges"
       name="PensionPlanGainLossFromAssumptionChanges"
@@ -4478,7 +4504,7 @@
       id="cafr_PensionPlanMortalityRateTable"
       name="PensionPlanMortalityRateTable"
       substitutionGroup="xbrli:item"
-      type="xbrli:monetaryItemType"
+      type="nonnum:textBlockItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="cafr_PensionPlanMortalityRateTableYear"
@@ -4539,7 +4565,7 @@
       name="PensionPlanTotalLiability"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="cafr_PensionPlanTotalPlanMembership"
       name="PensionPlanTotalPlanMembership"
@@ -4857,6 +4883,12 @@
     <xs:element
       id="cafr_RestrictedCash"
       name="RestrictedCash"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="cafr_RestrictedCashAndInvestments"
+      name="RestrictedCashAndInvestments"
       substitutionGroup="xbrli:item"
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>

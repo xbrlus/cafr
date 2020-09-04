@@ -12170,6 +12170,46 @@
           xlink:type="resource"
           xml:lang="en">Changes in net position for business type activities for enterprise funds.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ChangeInAccountingPrinciple"
+          xlink:label="cafr_ChangeInAccountingPrinciple"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ChangeInAccountingPrinciple"
+          xlink:to="label_cafr_ChangeInAccountingPrinciple"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ChangeInAccountingPrinciple"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Change in Accounting Principle</label>
+        <label
+          xlink:label="label_cafr_ChangeInAccountingPrinciple"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Value of a change in an accounting principle which is a change in a method used, such as using a different depreciation method or switching between LIFO to FIFO inventory valuation methods.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetPositionRestated"
+          xlink:label="cafr_NetPositionRestated"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetPositionRestated"
+          xlink:to="label_cafr_NetPositionRestated"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetPositionRestated"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Position, Restated</label>
+        <label
+          xlink:label="label_cafr_NetPositionRestated"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net position, restated.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherOperatingRevenueAxis"
           xlink:label="cafr_NameOfOtherOperatingRevenueAxis"
           xlink:type="locator"/>
@@ -14170,6 +14210,46 @@
           xlink:type="resource"
           xml:lang="en">noncurrent assets.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:label="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:to="label_cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Noncurrent Liabilities Due in More Than One Year</label>
+        <label
+          xlink:label="label_cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Other noncurrent liabilities, due in more than one year, which are present obligations to sacrifice resources that the government has little or no discretion to avoid.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:label="cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:to="label_cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Noncurrent Liabilities Due Within One Year</label>
+        <label
+          xlink:label="label_cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Other noncurrent liabilities, due within one year, which are present obligations to sacrifice resources that the government has little or no discretion to avoid.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LongTermLiabilitiesNoncurrent"
           xlink:label="cafr_LongTermLiabilitiesNoncurrent"
           xlink:type="locator"/>
@@ -14229,6 +14309,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">General revenues which includes all revenues unless they are required to be reported as program revenues.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RestrictedCashAndInvestments"
+          xlink:label="cafr_RestrictedCashAndInvestments"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_RestrictedCashAndInvestments"
+          xlink:to="label_cafr_RestrictedCashAndInvestments"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_RestrictedCashAndInvestments"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Restricted Cash and Investments</label>
+        <label
+          xlink:label="label_cafr_RestrictedCashAndInvestments"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Amount of cash and investments restricted as to withdrawal or usage.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PensionPlanTotalLiability"
           xlink:label="cafr_PensionPlanTotalLiability"
