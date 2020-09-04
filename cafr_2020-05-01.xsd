@@ -1409,6 +1409,12 @@
       type="xbrli:monetaryItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="cafr_CompensatedAbsencesPayableNoncurrent"
+      name="CompensatedAbsencesPayableNoncurrent"
+      substitutionGroup="xbrli:item"
+      type="xbrli:monetaryItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       abstract="true"
       id="cafr_ComponentUnitDiscretelyPresentedAxis"
       name="ComponentUnitDiscretelyPresentedAxis"

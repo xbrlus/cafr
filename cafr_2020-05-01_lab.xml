@@ -14210,6 +14210,26 @@
           xlink:type="resource"
           xml:lang="en">noncurrent assets.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:label="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:to="label_cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Compensated Absences Payable, Noncurrent</label>
+        <label
+          xlink:label="label_cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Compensated absences payable, classified as noncurrent. Compensated absences are compensated time off such as vacation and sick leave, which has been earned by employees and probable that the employer will compensate the employees through paid time off or some other means, such as cash payments at termination or retirement but not yet compensated by the employer.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
           xlink:label="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
           xlink:type="locator"/>

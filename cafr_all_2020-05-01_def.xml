@@ -21695,11 +21695,31 @@
           xlink:to="cafr_CompensatedAbsencesPayable"
           xlink:type="arc"/>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableCurrent"
+          xlink:label="cafr_CompensatedAbsencesPayableCurrent"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="cafr_LiabilitiesAbstract"
+          xlink:to="cafr_CompensatedAbsencesPayableCurrent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:label="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="locator"/>
+        <definitionArc
+          order="3"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="cafr_LiabilitiesAbstract"
+          xlink:to="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="arc"/>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CurrentLiabilities"
           xlink:label="cafr_CurrentLiabilities"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_CurrentLiabilities"
@@ -21709,7 +21729,7 @@
           xlink:label="cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
+          order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_NoncurrentLiabilitiesDueinMorethanOneYear"
@@ -21719,7 +21739,7 @@
           xlink:label="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_OtherNoncurrentLiabilitiesDueinMorethanOneYear"
@@ -21729,7 +21749,7 @@
           xlink:label="cafr_NoncurrentLiabilitiesDueWithinOneYear"
           xlink:type="locator"/>
         <definitionArc
-          order="5"
+          order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_NoncurrentLiabilitiesDueWithinOneYear"
@@ -21739,7 +21759,7 @@
           xlink:label="cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
           xlink:type="locator"/>
         <definitionArc
-          order="6"
+          order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_OtherNoncurrentLiabilitiesDueWithinOneYear"
@@ -21749,7 +21769,7 @@
           xlink:label="cafr_LongTermLiabilitiesNoncurrent"
           xlink:type="locator"/>
         <definitionArc
-          order="7"
+          order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_LongTermLiabilitiesNoncurrent"
@@ -21759,7 +21779,7 @@
           xlink:label="cafr_NetPensionLiability"
           xlink:type="locator"/>
         <definitionArc
-          order="8"
+          order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_NetPensionLiability"
@@ -21769,7 +21789,7 @@
           xlink:label="cafr_NetOPEBLiability"
           xlink:type="locator"/>
         <definitionArc
-          order="9"
+          order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_NetOPEBLiability"
@@ -21779,7 +21799,7 @@
           xlink:label="cafr_NoncurrentLiabilities"
           xlink:type="locator"/>
         <definitionArc
-          order="10"
+          order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_NoncurrentLiabilities"
@@ -21789,7 +21809,7 @@
           xlink:label="cafr_Liabilities"
           xlink:type="locator"/>
         <definitionArc
-          order="11"
+          order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="cafr_LiabilitiesAbstract"
           xlink:to="cafr_Liabilities"

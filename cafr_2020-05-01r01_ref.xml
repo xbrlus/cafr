@@ -7631,6 +7631,22 @@
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
         </reference>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:label="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:to="label_cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_CompensatedAbsencesPayableNoncurrent"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_LongTermLiabilitiesNoncurrent"
           xlink:label="cafr_LongTermLiabilitiesNoncurrent"
           xlink:type="locator"/>
