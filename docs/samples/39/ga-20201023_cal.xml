@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2020 Workiva-->
+<!--r:bd025ec7-7f0b-46ba-b179-c39a44a7bf7b,g:c05be615-98a7-414e-bd36-67afdaf05016-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://sao.georgia.gov/role/StatementofNetPositionDetails" xlink:type="simple" xlink:href="ga-20201023.xsd#StatementofNetPositionDetails"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/StatementofNetPositionDetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://sao.georgia.gov/role/StatementofNetPositionDetails_1" xlink:type="simple" xlink:href="ga-20201023.xsd#StatementofNetPositionDetails_1"/>
+  <link:calculationLink xlink:role="http://sao.georgia.gov/role/StatementofNetPositionDetails_1" xlink:type="extended"/>
+</link:linkbase>
