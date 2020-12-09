@@ -64,7 +64,7 @@
     "total": 0
    },
    "keyCustom": 0,
-   "keyStandard": 14,
+   "keyStandard": 7,
    "memberCustom": 0,
    "memberStandard": 0,
    "nsprefix": "cafr-ref-roles",
@@ -76,9 +76,11 @@
        "span",
        "span",
        "span",
-       "span",
        "div",
        "div",
+       "td",
+       "tr",
+       "table",
        "td",
        "tr",
        "tbody",
@@ -110,111 +112,11 @@
        "span",
        "span",
        "span",
-       "span",
        "div",
        "div",
        "td",
        "tr",
-       "tbody",
        "table",
-       "body",
-       "html"
-      ],
-      "baseRef": "ventura.html",
-      "contextRef": "c82",
-      "decimals": "INF",
-      "first": true,
-      "lang": null,
-      "name": "cafr:CashAndInvestments",
-      "reportCount": 1,
-      "unitRef": "u8",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "307000 - Governmental Funds Balance Sheet Totals (Details)",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows",
-     "shortName": "",
-     "subGroupType": "details",
-     "uniqueAnchor": null
-    },
-    "R11": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "span",
-       "span",
-       "span",
-       "div",
-       "div",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "body",
-       "html"
-      ],
-      "baseRef": "ventura.html",
-      "contextRef": "c82",
-      "decimals": "INF",
-      "first": true,
-      "lang": null,
-      "name": "cafr:CurrentAssets",
-      "reportCount": 1,
-      "unitRef": "u8",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "500000 - Proprietary Funds Net Position - Type of Activities",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities",
-     "shortName": "Type of Activities",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R12": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "span",
-       "span",
-       "span",
-       "div",
-       "div",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "body",
-       "html"
-      ],
-      "baseRef": "ventura.html",
-      "contextRef": "c82",
-      "decimals": "INF",
-      "first": true,
-      "lang": null,
-      "name": "cafr:CurrentAssets",
-      "reportCount": 1,
-      "unitRef": "u8",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "501200 - Proprietary Funds Net Position - Business Activities",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness",
-     "shortName": "Business Activities",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R13": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "span",
-       "span",
-       "span",
-       "div",
-       "div",
        "td",
        "tr",
        "tbody",
@@ -243,10 +145,10 @@
        "span",
        "span",
        "span",
-       "span",
        "div",
        "div",
        "td",
+       "tr",
        "tr",
        "tbody",
        "table",
@@ -264,15 +166,17 @@
       "xsiNil": "false"
      }
     },
-    "R14": {
+    "R11": {
      "firstAnchor": {
       "ancestors": [
        "span",
        "span",
        "span",
-       "span",
        "div",
        "div",
+       "td",
+       "tr",
+       "table",
        "td",
        "tr",
        "tbody",
@@ -298,52 +202,16 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R15": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "span",
-       "span",
-       "span",
-       "div",
-       "div",
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "body",
-       "html"
-      ],
-      "baseRef": "ventura.html",
-      "contextRef": "c82",
-      "decimals": "INF",
-      "first": true,
-      "lang": null,
-      "name": "cafr:NetPensionLiability",
-      "reportCount": 1,
-      "unitRef": "u8",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "820000 - California Pension Plan",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaPensionPlan",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
     "R2": {
      "firstAnchor": {
       "ancestors": [
        "span",
        "span",
        "span",
-       "span",
        "div",
        "div",
        "td",
        "tr",
-       "tbody",
        "table",
        "body",
        "html"
@@ -366,10 +234,9 @@
      "subGroupType": "details",
      "uniqueAnchor": null
     },
-    "R3": {
+    "R5": {
      "firstAnchor": {
       "ancestors": [
-       "span",
        "span",
        "span",
        "span",
@@ -377,38 +244,7 @@
        "div",
        "td",
        "tr",
-       "tbody",
        "table",
-       "body",
-       "html"
-      ],
-      "baseRef": "ventura.html",
-      "contextRef": "c82",
-      "decimals": "INF",
-      "first": true,
-      "lang": null,
-      "name": "cafr:DeferredInflowsOfResources",
-      "reportCount": 1,
-      "unitRef": "u8",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "101000 - Net Position - Other Deferred Inflows (Details)",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/NetPositionOtherDeferredInflows",
-     "shortName": "Other Deferred Inflows (Details)",
-     "subGroupType": "details",
-     "uniqueAnchor": null
-    },
-    "R8": {
-     "firstAnchor": {
-      "ancestors": [
-       "span",
-       "span",
-       "span",
-       "span",
-       "div",
-       "div",
        "td",
        "tr",
        "tbody",
@@ -434,10 +270,9 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R9": {
+    "R6": {
      "firstAnchor": {
       "ancestors": [
-       "span",
        "span",
        "span",
        "span",
@@ -445,7 +280,6 @@
        "div",
        "td",
        "tr",
-       "tbody",
        "table",
        "body",
        "html"
@@ -466,6 +300,112 @@
      "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredOutflows",
      "shortName": "Deferred Outflows (Details)",
      "subGroupType": "details",
+     "uniqueAnchor": null
+    },
+    "R7": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "span",
+       "div",
+       "div",
+       "td",
+       "tr",
+       "table",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "body",
+       "html"
+      ],
+      "baseRef": "ventura.html",
+      "contextRef": "c82",
+      "decimals": "INF",
+      "first": true,
+      "lang": null,
+      "name": "cafr:CashAndInvestments",
+      "reportCount": 1,
+      "unitRef": "u8",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "307000 - Governmental Funds Balance Sheet Totals (Details)",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/GovFundsBalanceDeferredInflows",
+     "shortName": "",
+     "subGroupType": "details",
+     "uniqueAnchor": null
+    },
+    "R8": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "span",
+       "div",
+       "div",
+       "td",
+       "tr",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "body",
+       "html"
+      ],
+      "baseRef": "ventura.html",
+      "contextRef": "c82",
+      "decimals": "INF",
+      "first": true,
+      "lang": null,
+      "name": "cafr:CurrentAssets",
+      "reportCount": 1,
+      "unitRef": "u8",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "500000 - Proprietary Funds Net Position - Type of Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionActivities",
+     "shortName": "Type of Activities",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R9": {
+     "firstAnchor": {
+      "ancestors": [
+       "span",
+       "span",
+       "span",
+       "div",
+       "div",
+       "td",
+       "tr",
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "body",
+       "html"
+      ],
+      "baseRef": "ventura.html",
+      "contextRef": "c82",
+      "decimals": "INF",
+      "first": true,
+      "lang": null,
+      "name": "cafr:CurrentAssets",
+      "reportCount": 1,
+      "unitRef": "u8",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "501200 - Proprietary Funds Net Position - Business Activities",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusiness",
+     "shortName": "Business Activities",
+     "subGroupType": "",
      "uniqueAnchor": null
     }
    },
