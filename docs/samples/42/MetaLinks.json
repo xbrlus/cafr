@@ -3,7 +3,7 @@
   "Upper-St-Clair-PA-net-position-20191231.html": {
    "axisCustom": 0,
    "axisStandard": 22,
-   "contextCount": 142,
+   "contextCount": 143,
    "dts": {
     "definitionLink": {
      "remote": [
@@ -871,7 +871,7 @@
        "html"
       ],
       "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
-      "contextRef": "I20191231_GovernmentalActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Infrastructure_assets_net_of_accumulated_depreciation",
+      "contextRef": "I20191231_PrimaryGovernmentActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Infrastructure_assets_net_of_accumulated_depreciation",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -934,7 +934,7 @@
        "html"
       ],
       "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
-      "contextRef": "I20191231_BusinessTypeActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Infrastructure_assets_net_of_accumulated_depreciation",
+      "contextRef": "I20191231_PrimaryGovernmentActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Infrastructure_assets_net_of_accumulated_depreciation",
       "decimals": "0",
       "first": true,
       "lang": null,
@@ -1126,6 +1126,37 @@
        "html"
       ],
       "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
+      "contextRef": "I20191231_PrimaryGovernmentActivitiesMember_NameOfOtherNoncurrentAssetsDomain_Infrastructure_assets_net_of_accumulated_depreciation",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:OtherNoncurrentAssets",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "501600 - Proprietary Funds Net Position - Business Activities Other Noncurrent Assets (Details)",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFNetPositionBusinessOtherNoncurrentAssets",
+     "shortName": "Business Activities Other Noncurrent Assets (Details)",
+     "subGroupType": "details",
+     "uniqueAnchor": null
+    },
+    "R46": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
       "contextRef": "I20191231_NameOfOtherCurrentLiabilitiesDomain_Due_to_other_funds_NameOfBusinessTypeActivityFundDomain_Boyce/Mayview_Community_Recreation_Center_Fund",
       "decimals": "0",
       "first": true,
@@ -1166,7 +1197,7 @@
       "xsiNil": "false"
      }
     },
-    "R46": {
+    "R47": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1197,7 +1228,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R47": {
+    "R48": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1228,7 +1259,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R48": {
+    "R49": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1257,37 +1288,6 @@
      "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivities",
      "shortName": "Type of Activities",
      "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R49": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
-      "contextRef": "D20191231_ProprietaryFundsBusinessTypeActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:OtherCashFlowsFromOperatingActivities",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "701000 - Proprietary Funds Cash Flows - Type of Activities Other Operating Activities (Details)",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating",
-     "shortName": "Type of Activities Other Operating Activities (Details)",
-     "subGroupType": "details",
      "uniqueAnchor": null
     },
     "R5": {
@@ -1360,6 +1360,37 @@
       "decimals": "0",
       "first": true,
       "lang": null,
+      "name": "cafr:OtherCashFlowsFromOperatingActivities",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "701000 - Proprietary Funds Cash Flows - Type of Activities Other Operating Activities (Details)",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/PFCashActivitiesOperating",
+     "shortName": "Type of Activities Other Operating Activities (Details)",
+     "subGroupType": "details",
+     "uniqueAnchor": null
+    },
+    "R51": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
+      "contextRef": "D20191231_ProprietaryFundsBusinessTypeActivitiesMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
       "name": "cafr:OtherCashFlowsFromInvestingActivities",
       "reportCount": 1,
       "unitRef": "USD",
@@ -1373,7 +1404,7 @@
      "subGroupType": "details",
      "uniqueAnchor": null
     },
-    "R51": {
+    "R52": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1404,7 +1435,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R52": {
+    "R53": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1435,7 +1466,7 @@
      "subGroupType": "details",
      "uniqueAnchor": null
     },
-    "R53": {
+    "R54": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1466,7 +1497,7 @@
      "subGroupType": "details",
      "uniqueAnchor": null
     },
-    "R54": {
+    "R55": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1518,7 +1549,7 @@
       "xsiNil": "false"
      }
     },
-    "R55": {
+    "R56": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1570,7 +1601,7 @@
       "xsiNil": "false"
      }
     },
-    "R56": {
+    "R57": {
      "firstAnchor": {
       "ancestors": [
        "span",
@@ -1602,7 +1633,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R57": {
+    "R58": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1633,7 +1664,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R58": {
+    "R59": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1660,37 +1691,6 @@
      "isDefault": "false",
      "longName": "808000 - California Statement of Activities, General Revenues and Changes in Net Position",
      "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaActivitiesGeneralRevenues",
-     "shortName": "",
-     "subGroupType": "",
-     "uniqueAnchor": null
-    },
-    "R59": {
-     "firstAnchor": {
-      "ancestors": [
-       "td",
-       "tr",
-       "tbody",
-       "table",
-       "div",
-       "div",
-       "div",
-       "body",
-       "html"
-      ],
-      "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
-      "contextRef": "I20191231_ProprietaryFundsBusinessTypeActivitiesMember",
-      "decimals": "0",
-      "first": true,
-      "lang": null,
-      "name": "cafr:Assets",
-      "reportCount": 1,
-      "unitRef": "USD",
-      "xsiNil": "false"
-     },
-     "groupType": "",
-     "isDefault": "false",
-     "longName": "809000 - California Governmental Funds Balance Sheet",
-     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovBalanceSheet ",
      "shortName": "",
      "subGroupType": "",
      "uniqueAnchor": null
@@ -1740,6 +1740,37 @@
        "html"
       ],
       "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
+      "contextRef": "I20191231_ProprietaryFundsBusinessTypeActivitiesMember",
+      "decimals": "0",
+      "first": true,
+      "lang": null,
+      "name": "cafr:Assets",
+      "reportCount": 1,
+      "unitRef": "USD",
+      "xsiNil": "false"
+     },
+     "groupType": "",
+     "isDefault": "false",
+     "longName": "809000 - California Governmental Funds Balance Sheet",
+     "role": "http://xbrl.us/cafr/v0.3/2020-05-01/roles/CaliforniaGovBalanceSheet ",
+     "shortName": "",
+     "subGroupType": "",
+     "uniqueAnchor": null
+    },
+    "R61": {
+     "firstAnchor": {
+      "ancestors": [
+       "td",
+       "tr",
+       "tbody",
+       "table",
+       "div",
+       "div",
+       "div",
+       "body",
+       "html"
+      ],
+      "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
       "contextRef": "D20191231_GovernmentalFundsMember",
       "decimals": "0",
       "first": true,
@@ -1757,7 +1788,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R61": {
+    "R62": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1788,7 +1819,7 @@
      "subGroupType": "",
      "uniqueAnchor": null
     },
-    "R62": {
+    "R63": {
      "firstAnchor": {
       "ancestors": [
        "td",
@@ -1887,11 +1918,11 @@
        "html"
       ],
       "baseRef": "Upper-St-Clair-PA-net-position-20191231.html",
-      "contextRef": "D20191231_NameOfBusinessTypeActivityFundDomain_Boyce/Mayview_Community_Recreation_Center_Fund",
+      "contextRef": "D20191231_NameOfBusinessTypeActivityFundDomain_Other_Business-type_Activities:_Township/School_District_Magazine_Fund",
       "decimals": "0",
       "first": true,
       "lang": null,
-      "name": "cafr:ChangesInNetPositionBusinessTypeActivitiesAdjusted",
+      "name": "cafr:CashProvidedBySalesAndServices",
       "reportCount": 1,
       "unitRef": "USD",
       "xsiNil": "false"
