@@ -16,6 +16,312 @@
       xlink:role="http://www.xbrl.org/2003/role/link"
       xlink:type="extended">
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfGovernment"
+          xlink:label="cafr_NameOfGovernment"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NameOfGovernment"
+          xlink:to="label_cafr_NameOfGovernment"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NameOfGovernment"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_UnitIdentificationNumber"
+          xlink:label="cafr_UnitIdentificationNumber"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_UnitIdentificationNumber"
+          xlink:to="label_cafr_UnitIdentificationNumber"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_UnitIdentificationNumber"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TypeOfGovernment"
+          xlink:label="cafr_TypeOfGovernment"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_TypeOfGovernment"
+          xlink:to="label_cafr_TypeOfGovernment"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_TypeOfGovernment"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_LegalEntityIdentifier"
+          xlink:label="cafr_LegalEntityIdentifier"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_LegalEntityIdentifier"
+          xlink:to="label_cafr_LegalEntityIdentifier"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_LegalEntityIdentifier"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_EmployerIdentificationNumber"
+          xlink:label="cafr_EmployerIdentificationNumber"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_EmployerIdentificationNumber"
+          xlink:to="label_cafr_EmployerIdentificationNumber"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_EmployerIdentificationNumber"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FiscalStartDate"
+          xlink:label="cafr_FiscalStartDate"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_FiscalStartDate"
+          xlink:to="label_cafr_FiscalStartDate"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_FiscalStartDate"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US Census Bureau: F28</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FiscalEndDate"
+          xlink:label="cafr_FiscalEndDate"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_FiscalEndDate"
+          xlink:to="label_cafr_FiscalEndDate"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_FiscalEndDate"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US Census Bureau: F28</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfAuditFirm"
+          xlink:label="cafr_NameOfAuditFirm"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NameOfAuditFirm"
+          xlink:to="label_cafr_NameOfAuditFirm"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NameOfAuditFirm"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditStatus"
+          xlink:label="cafr_AuditStatus"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_AuditStatus"
+          xlink:to="label_cafr_AuditStatus"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_AuditStatus"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditOpinion"
+          xlink:label="cafr_AuditOpinion"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_AuditOpinion"
+          xlink:to="label_cafr_AuditOpinion"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_AuditOpinion"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DateOfAuditOpinion"
+          xlink:label="cafr_DateOfAuditOpinion"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_DateOfAuditOpinion"
+          xlink:to="label_cafr_DateOfAuditOpinion"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_DateOfAuditOpinion"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfState"
+          xlink:label="cafr_NameOfState"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NameOfState"
+          xlink:to="label_cafr_NameOfState"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NameOfState"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DateOfTransmittal"
+          xlink:label="cafr_DateOfTransmittal"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_DateOfTransmittal"
+          xlink:to="label_cafr_DateOfTransmittal"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_DateOfTransmittal"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DocumentTitle"
+          xlink:label="cafr_DocumentTitle"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_DocumentTitle"
+          xlink:to="label_cafr_DocumentTitle"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_DocumentTitle"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:label="cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:to="label_cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_InsideMillage"
+          xlink:label="cafr_InsideMillage"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_InsideMillage"
+          xlink:to="label_cafr_InsideMillage"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_InsideMillage"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OutsideMillage"
+          xlink:label="cafr_OutsideMillage"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_OutsideMillage"
+          xlink:to="label_cafr_OutsideMillage"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_OutsideMillage"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US-CAFR, Filing information</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalPropertyTaxRate"
+          xlink:label="cafr_TotalPropertyTaxRate"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_TotalPropertyTaxRate"
+          xlink:to="label_cafr_TotalPropertyTaxRate"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_TotalPropertyTaxRate"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US Census Bureau</cafr-part:publisher>
+            <cafr-part:note>COG, Glossary.</cafr-part:note>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_PropertyTaxValuation"
+          xlink:label="cafr_PropertyTaxValuation"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_PropertyTaxValuation"
+          xlink:to="label_cafr_PropertyTaxValuation"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_PropertyTaxValuation"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>US Census Bureau</cafr-part:publisher>
+            <cafr-part:note>COG, Glossary.</cafr-part:note>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_TypeOfActivitiesAxis"
           xlink:label="cafr_TypeOfActivitiesAxis"
           xlink:type="locator"/>
@@ -46,6 +352,23 @@
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_PrimaryGovernmentActivitiesMember"
+          xlink:label="cafr_PrimaryGovernmentActivitiesMember"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_PrimaryGovernmentActivitiesMember"
+          xlink:to="label_cafr_PrimaryGovernmentActivitiesMember"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_PrimaryGovernmentActivitiesMember"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+            <cafr-part:note>Section 2100 and Paragraph 112-113</cafr-part:note>
         </reference>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalActivitiesMember"
@@ -3216,17 +3539,17 @@
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueUsedForConventionCentreServices"
-          xlink:label="cafr_RevenueUsedForConventionCentreServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueUsedForConventionCenterServices"
+          xlink:label="cafr_RevenueUsedForConventionCenterServices"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_RevenueUsedForConventionCentreServices"
-          xlink:to="label_cafr_RevenueUsedForConventionCentreServices"
+          xlink:from="cafr_RevenueUsedForConventionCenterServices"
+          xlink:to="label_cafr_RevenueUsedForConventionCenterServices"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_RevenueUsedForConventionCentreServices"
+          xlink:label="label_cafr_RevenueUsedForConventionCenterServices"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
@@ -3586,17 +3909,17 @@
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpensesForHarbourServices"
-          xlink:label="cafr_ExpensesForHarbourServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpensesForHarborServices"
+          xlink:label="cafr_ExpensesForHarborServices"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ExpensesForHarbourServices"
-          xlink:to="label_cafr_ExpensesForHarbourServices"
+          xlink:from="cafr_ExpensesForHarborServices"
+          xlink:to="label_cafr_ExpensesForHarborServices"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_ExpensesForHarbourServices"
+          xlink:label="label_cafr_ExpensesForHarborServices"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
@@ -3806,6 +4129,454 @@
           xlink:type="arc"/>
         <reference
           xlink:label="label_cafr_Expenses"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:label="cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:to="label_cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:label="cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:label="cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForTransportationServices"
+          xlink:label="cafr_NetExpenseRevenueForTransportationServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForTransportationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForTransportationServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForTransportationServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForEducationServices"
+          xlink:label="cafr_NetExpenseRevenueForEducationServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForEducationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForEducationServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForEducationServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:label="cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForAirportsServices"
+          xlink:label="cafr_NetExpenseRevenueForAirportsServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForAirportsServices"
+          xlink:to="label_cafr_NetExpenseRevenueForAirportsServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForAirportsServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForHarborServices"
+          xlink:label="cafr_NetExpenseRevenueForHarborServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForHarborServices"
+          xlink:to="label_cafr_NetExpenseRevenueForHarborServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForHarborServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:label="cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:label="cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:label="cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGaragesServices"
+          xlink:label="cafr_NetExpenseRevenueForGaragesServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForGaragesServices"
+          xlink:to="label_cafr_NetExpenseRevenueForGaragesServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForGaragesServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:label="cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:to="label_cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForContingencyServices"
+          xlink:label="cafr_NetExpenseRevenueForContingencyServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForContingencyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForContingencyServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForContingencyServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:label="cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConservationServices"
+          xlink:label="cafr_NetExpenseRevenueForConservationServices"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NetExpenseRevenueForConservationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConservationServices"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NetExpenseRevenueForConservationServices"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
@@ -4432,6 +5203,22 @@
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
         </reference>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:label="cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:to="label_cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:role="http://cafr.us/roles/reference"
+          xlink:type="resource">
+            <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
+        </reference>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_RestrictedInvestments"
           xlink:label="cafr_RestrictedInvestments"
           xlink:type="locator"/>
@@ -4761,17 +5548,17 @@
             <cafr-part:note>Section 1500 and Paragraph 106. Can be used with NameOfOtherLiabilitiesAxis which is a typed dimension which can be used to represent a specific type of Other Liability which is not represented in the taxonomy. If no axis is used, the amount represents the sum of other liabilities, not elsewhere classified.</cafr-part:note>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalances"
-          xlink:label="cafr_FundBalances"
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalance"
+          xlink:label="cafr_FundBalance"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_FundBalances"
-          xlink:to="label_cafr_FundBalances"
+          xlink:from="cafr_FundBalance"
+          xlink:to="label_cafr_FundBalance"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_FundBalances"
+          xlink:label="label_cafr_FundBalance"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>Codification of Governmental Accounting and Financial Reporting Standards, GASB</cafr-part:publisher>
@@ -5250,17 +6037,17 @@
             <cafr-part:publisher>US Census Bureau: F28</cafr-part:publisher>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForHarbourServices"
-          xlink:label="cafr_ExpendituresForHarbourServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForHarborServices"
+          xlink:label="cafr_ExpendituresForHarborServices"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ExpendituresForHarbourServices"
-          xlink:to="label_cafr_ExpendituresForHarbourServices"
+          xlink:from="cafr_ExpendituresForHarborServices"
+          xlink:to="label_cafr_ExpendituresForHarborServices"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_ExpendituresForHarbourServices"
+          xlink:label="label_cafr_ExpendituresForHarborServices"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>US Census Bureau: F28</cafr-part:publisher>
@@ -6621,17 +7408,17 @@
             <cafr-part:publisher>FASB</cafr-part:publisher>
         </reference>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForPersonalServicesAndBenefits"
-          xlink:label="cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForPersonnelServicesAndBenefits"
+          xlink:label="cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="cafr_ExpendituresForPersonalServicesAndBenefits"
-          xlink:to="label_cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:from="cafr_ExpendituresForPersonnelServicesAndBenefits"
+          xlink:to="label_cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:label="label_cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:role="http://cafr.us/roles/reference"
           xlink:type="resource">
             <cafr-part:publisher>NY State Open Budget: https://openbudget.ny.gov/userGuide.html</cafr-part:publisher>

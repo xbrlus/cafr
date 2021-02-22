@@ -10,6 +10,406 @@
       xlink:role="http://www.xbrl.org/2003/role/link"
       xlink:type="extended">
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DocumentAndEntityAbstract"
+          xlink:label="cafr_DocumentAndEntityAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_DocumentAndEntityAbstract"
+          xlink:to="label_cafr_DocumentAndEntityAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_DocumentAndEntityAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Document and Entity [Abstract]</label>
+        <label
+          xlink:label="label_cafr_DocumentAndEntityAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about the document and the reporting entity.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfGovernment"
+          xlink:label="cafr_NameOfGovernment"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfGovernment"
+          xlink:to="label_cafr_NameOfGovernment"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Government</label>
+        <label
+          xlink:label="label_cafr_NameOfGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Name of the primary government reporting entity.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_UnitIdentificationNumber"
+          xlink:label="cafr_UnitIdentificationNumber"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_UnitIdentificationNumber"
+          xlink:to="label_cafr_UnitIdentificationNumber"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_UnitIdentificationNumber"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Unit Identification Number</label>
+        <label
+          xlink:label="label_cafr_UnitIdentificationNumber"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Unit identification number issued by the regulator or authority.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TypeOfGovernment"
+          xlink:label="cafr_TypeOfGovernment"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_TypeOfGovernment"
+          xlink:to="label_cafr_TypeOfGovernment"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_TypeOfGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Type of Government</label>
+        <label
+          xlink:label="label_cafr_TypeOfGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Type of government which can be reported as State, County, City, Town, Village, Borough, Other general purpose government, School district or Special district.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_LegalEntityIdentifier"
+          xlink:label="cafr_LegalEntityIdentifier"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_LegalEntityIdentifier"
+          xlink:to="label_cafr_LegalEntityIdentifier"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_LegalEntityIdentifier"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Legal Entity Identifier</label>
+        <label
+          xlink:label="label_cafr_LegalEntityIdentifier"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Legal entity identifier issued by the regulator or authority.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_EmployerIdentificationNumber"
+          xlink:label="cafr_EmployerIdentificationNumber"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_EmployerIdentificationNumber"
+          xlink:to="label_cafr_EmployerIdentificationNumber"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_EmployerIdentificationNumber"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Employer Identification number</label>
+        <label
+          xlink:label="label_cafr_EmployerIdentificationNumber"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Employer identification number issued by the appropriate regulator or authority.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FiscalStartDate"
+          xlink:label="cafr_FiscalStartDate"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FiscalStartDate"
+          xlink:to="label_cafr_FiscalStartDate"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FiscalStartDate"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fiscal Start Date</label>
+        <label
+          xlink:label="label_cafr_FiscalStartDate"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Fiscal start date (first date of reporting period) of the report.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FiscalEndDate"
+          xlink:label="cafr_FiscalEndDate"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FiscalEndDate"
+          xlink:to="label_cafr_FiscalEndDate"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FiscalEndDate"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fiscal End Date</label>
+        <label
+          xlink:label="label_cafr_FiscalEndDate"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Fiscal end date (last date of reporting period) of the report.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfAuditFirm"
+          xlink:label="cafr_NameOfAuditFirm"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfAuditFirm"
+          xlink:to="label_cafr_NameOfAuditFirm"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfAuditFirm"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Audit Firm</label>
+        <label
+          xlink:label="label_cafr_NameOfAuditFirm"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Name of external audit firm which has audited the comprehensive annual financial report [CAFR] of the reporting entity and issued the audit opinion.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditStatus"
+          xlink:label="cafr_AuditStatus"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditStatus"
+          xlink:to="label_cafr_AuditStatus"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditStatus"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Status</label>
+        <label
+          xlink:label="label_cafr_AuditStatus"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Indicates the audit status of reported statements, which can be reported as audited, unaudited, reviewed, or unreviewed.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_AuditOpinion"
+          xlink:label="cafr_AuditOpinion"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_AuditOpinion"
+          xlink:to="label_cafr_AuditOpinion"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_AuditOpinion"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Audit Opinion</label>
+        <label
+          xlink:label="label_cafr_AuditOpinion"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Indicates the audit opinion expressed by the auditor which can be reported as qualified, adverse, unmodified or disclaimed.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DateOfAuditOpinion"
+          xlink:label="cafr_DateOfAuditOpinion"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_DateOfAuditOpinion"
+          xlink:to="label_cafr_DateOfAuditOpinion"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_DateOfAuditOpinion"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Date of Audit Opinion</label>
+        <label
+          xlink:label="label_cafr_DateOfAuditOpinion"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Date on which audit opinion was expressed by the auditor.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfState"
+          xlink:label="cafr_NameOfState"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfState"
+          xlink:to="label_cafr_NameOfState"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfState"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of State</label>
+        <label
+          xlink:label="label_cafr_NameOfState"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Name of the state to which the reporting entity belongs.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DateOfTransmittal"
+          xlink:label="cafr_DateOfTransmittal"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_DateOfTransmittal"
+          xlink:to="label_cafr_DateOfTransmittal"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_DateOfTransmittal"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Date of Transmittal</label>
+        <label
+          xlink:label="label_cafr_DateOfTransmittal"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The date management submits their Transmittal Letter accompanying the Management Discussion &amp; Analysis.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_DocumentTitle"
+          xlink:label="cafr_DocumentTitle"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_DocumentTitle"
+          xlink:to="label_cafr_DocumentTitle"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_DocumentTitle"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Document Title</label>
+        <label
+          xlink:label="label_cafr_DocumentTitle"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Document title.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:label="cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:to="label_cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Total Annual Final Appropriations for All Funds for the Reporting Period</label>
+        <label
+          xlink:label="label_cafr_TotalAnnualFinalAppropriationsForAllFunds"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Total annual final appropriations for all funds for the reporting period.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_InsideMillage"
+          xlink:label="cafr_InsideMillage"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_InsideMillage"
+          xlink:to="label_cafr_InsideMillage"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_InsideMillage"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Inside Millage</label>
+        <label
+          xlink:label="label_cafr_InsideMillage"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Inside millage which is a tax rate on property, expressed in mills of the property's value. Millage is used to calculate property taxes. Inside millage is levied by the state without the need for a vote.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OutsideMillage"
+          xlink:label="cafr_OutsideMillage"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_OutsideMillage"
+          xlink:to="label_cafr_OutsideMillage"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_OutsideMillage"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Outside Millage</label>
+        <label
+          xlink:label="label_cafr_OutsideMillage"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Outside millage, which is is a tax rate on property, expressed in mills of the property's value and is used to calculate property taxes. Outside millage is voted on by residents.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalPropertyTaxRate"
+          xlink:label="cafr_TotalPropertyTaxRate"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_TotalPropertyTaxRate"
+          xlink:to="label_cafr_TotalPropertyTaxRate"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_TotalPropertyTaxRate"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Total Property Tax rate</label>
+        <label
+          xlink:label="label_cafr_TotalPropertyTaxRate"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Property tax rate. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_PropertyTaxValuation"
+          xlink:label="cafr_PropertyTaxValuation"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_PropertyTaxValuation"
+          xlink:to="label_cafr_PropertyTaxValuation"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_PropertyTaxValuation"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Property Tax Valuation</label>
+        <label
+          xlink:label="label_cafr_PropertyTaxValuation"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Property tax valuation. Property taxes are ad-valorem taxes levied on an assessed valuation of real property.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfNetPositionAbstract"
           xlink:label="cafr_StatementOfNetPositionAbstract"
           xlink:type="locator"/>
@@ -109,6 +509,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Information about type of activities. Use for Governmental or Business activities. If Primary Government activities need to be represented, do not use an axis.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_PrimaryGovernmentActivitiesMember"
+          xlink:label="cafr_PrimaryGovernmentActivitiesMember"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_PrimaryGovernmentActivitiesMember"
+          xlink:to="label_cafr_PrimaryGovernmentActivitiesMember"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_PrimaryGovernmentActivitiesMember"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Primary Government Activities [Member]</label>
+        <label
+          xlink:label="label_cafr_PrimaryGovernmentActivitiesMember"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Primary government activities. A primary government is any state government or general purpose local government (municipality, township or county) as well as a special-purpose government (for example, a school district or a park district).</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalActivitiesMember"
           xlink:label="cafr_GovernmentalActivitiesMember"
@@ -1469,6 +1889,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Capital assets that are non depreciable or non amortizable.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:label="cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:to="label_cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Capital Assets, Not Being Depreciated</label>
+        <label
+          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Capital assets, classified as not being depreciated.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization"
           xlink:label="cafr_CapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization"
@@ -3970,26 +4410,6 @@
           xlink:type="resource"
           xml:lang="en">Used as an identifier for the name of capital assets, non-depreciable.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:label="cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:type="locator"/>
-        <labelArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:to="label_cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:type="arc"/>
-        <label
-          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:role="http://www.xbrl.org/2003/role/label"
-          xlink:type="resource"
-          xml:lang="en">Capital Assets, Not Being Depreciated</label>
-        <label
-          xlink:label="label_cafr_CapitalAssetsNotBeingDepreciated"
-          xlink:role="http://www.xbrl.org/2003/role/documentation"
-          xlink:type="resource"
-          xml:lang="en">Capital assets, classified as not being depreciated.</label>
-        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis"
           xlink:label="cafr_NameOfCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortizationAxis"
           xlink:type="locator"/>
@@ -4990,22 +5410,22 @@
           xlink:type="resource"
           xml:lang="en">Revenue used for contingency services.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueUsedForConventionCentreServices"
-          xlink:label="cafr_RevenueUsedForConventionCentreServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueUsedForConventionCenterServices"
+          xlink:label="cafr_RevenueUsedForConventionCenterServices"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_RevenueUsedForConventionCentreServices"
-          xlink:to="label_cafr_RevenueUsedForConventionCentreServices"
+          xlink:from="cafr_RevenueUsedForConventionCenterServices"
+          xlink:to="label_cafr_RevenueUsedForConventionCenterServices"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_RevenueUsedForConventionCentreServices"
+          xlink:label="label_cafr_RevenueUsedForConventionCenterServices"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Revenue Used For Convention Centre Services</label>
+          xml:lang="en">Revenue Used For Convention Center Services</label>
         <label
-          xlink:label="label_cafr_RevenueUsedForConventionCentreServices"
+          xlink:label="label_cafr_RevenueUsedForConventionCenterServices"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Revenue used for convention center services.</label>
@@ -5083,7 +5503,7 @@
           xlink:label="label_cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Activities Expenses For Programs and Functions [Abstract]</label>
+          xml:lang="en">Activities Expenses for Programs and Functions [Abstract]</label>
         <label
           xlink:label="label_cafr_ActivitiesExpensesForProgramsFunctionsAbstract"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -5470,22 +5890,22 @@
           xlink:type="resource"
           xml:lang="en">Expenses for airport services.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpensesForHarbourServices"
-          xlink:label="cafr_ExpensesForHarbourServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpensesForHarborServices"
+          xlink:label="cafr_ExpensesForHarborServices"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ExpensesForHarbourServices"
-          xlink:to="label_cafr_ExpensesForHarbourServices"
+          xlink:from="cafr_ExpensesForHarborServices"
+          xlink:to="label_cafr_ExpensesForHarborServices"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_ExpensesForHarbourServices"
+          xlink:label="label_cafr_ExpensesForHarborServices"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
           xml:lang="en">Expenses For Harbor Services</label>
         <label
-          xlink:label="label_cafr_ExpensesForHarbourServices"
+          xlink:label="label_cafr_ExpensesForHarborServices"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Expenses for harbor services.</label>
@@ -5750,6 +6170,606 @@
           xlink:type="resource"
           xml:lang="en">Expenses, which includes an entity's outflows or expiration of assets or the incurrence of liabilities during a period from providing or producing goods, rendering services, or carrying out other activities.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:label="cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:to="label_cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Activities Net (Expense) Revenue for Programs and Functions [Abstract]</label>
+        <label
+          xlink:label="label_cafr_ActivitiesNetExpenseRevenueForProgramsFunctionsAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about net (expense) revenue for programs and functions on the Statement of Activities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Safety Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSafetyServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public safety services..</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Health and Sanitation Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicHealthAndSanitationServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public health and sanitation services..It includes all public health activities; except provision of hospital care. Includes: environmental health activities, health regulation and inspection, water and air pollution control, mosquito control, animal control warden, inspection of food handling establishments, ambulance and paramedic services. not part of a fire department, public health nursing, vital statistics collection, all other services. performed directly by the public health department but excludes payments under public welfare programs.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Works Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWorksServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public works services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Schools Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicSchoolsServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public schools services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Ways and Facilities Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicWaysAndFacilitiesServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public ways and facilities services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:label="cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:to="label_cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Public Assistance Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForPublicAssistanceServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for public assistance services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:label="cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:to="label_cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Other Public Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForOtherPublicServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for other public services when the reporting entity does not separately disclose in the same statement or note. Includes support of, and assistance to, needy persons, including expenditures from State and Federal grants. Includes: money paid directly to needy persons covered by Federal aid programs (e.g., Temporary Assistance for Needy Families), money paid directly to needy persons not covered by Federal aid programs (e.g., general relief, home relief, poor relief, etc.), payments to landlords, utilities, vendors, etc., for rent, goods, and services. furnished to needy persons, other than for medical and hospital care, payments to private vendors for medical and hospital care provided to needy persons excluding payments to hospital or health agencies operated by this government, welfare institutions operated by this government, including nursing homes, veterans’ homes, homes for the elderly, and indigent care institutions, other public welfare - Administration of relief and assistance, foster care, related community action programs, and other welfare activities not reported. Excludes: any payments to the State for this government’s share of the welfare costs.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:label="cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Security of Persons and Property Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForSecurityOfPersonsAndPropertyServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for security of persons and property services. Includes a) police agencies for preventing, controlling, or reducing crime; law enforcement activities of sheriff and constable offices; coroners; medical examiners; vehicular inspection activities; traffic control and safety activities; lock-up operations and excludes contributions to a local police pension fund, local court activities, and local correction activities, b) firefighting and fire prevention and ambulance and paramedic services handled by the fire department, contributions of volunteer fire units, but excludes contributions to a local fire pension fund, forest fire protection amounts.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Community Development Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForCommunityDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for community development services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Economic Development Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForEconomicDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for economic development services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:label="cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:to="label_cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Other Development Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForOtherDevelopmentServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for other development services when the reporting entity does not separately disclose in the same statement or note.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:label="cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Conservation, Recreation, Parks and Cultural Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConservationRecreationParksAndCulturalServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for conservation, recreation, parks and cultural services. Includes provision and support of recreational and cultural-scientific facilities and activities including golf courses, play fields, playgrounds, public beaches, swimming pools, tennis courts, parks, auditoriums, stadiums, auto camps, recreation piers, marinas, botanical gardens, galleries, museums, and zoos. Also includes building and operation of convention centers and exhibition halls.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForTransportationServices"
+          xlink:label="cafr_NetExpenseRevenueForTransportationServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForTransportationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForTransportationServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForTransportationServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Transportation Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForTransportationServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for transportation services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForEducationServices"
+          xlink:label="cafr_NetExpenseRevenueForEducationServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForEducationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForEducationServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForEducationServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Education Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForEducationServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for education services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:label="cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Electricity and Power Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForElectricityAndPowerServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for electricity and power services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For General Government Services, Legislative and Executive</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesLegislativeAndExecutive"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for general government services, legislative and executive.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For General Government Services, Judicial</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesJudicial"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for general government, classified as judicial. Includes all county or municipal court and court-related activities including juries, probate officials, prosecutors, bailiffs, marshals, public defenders, attorneys, legal departments, and court activities of sheriffs departments and excludes all activities related to probation and parole.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:label="cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:to="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For General Government Services, Others</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGeneralGovernmentServicesOthers"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for other general government services and the reporting entity does not separately disclose in the same statement or note.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForAirportsServices"
+          xlink:label="cafr_NetExpenseRevenueForAirportsServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForAirportsServices"
+          xlink:to="label_cafr_NetExpenseRevenueForAirportsServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForAirportsServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Airport Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForAirportsServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for airport services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForHarborServices"
+          xlink:label="cafr_NetExpenseRevenueForHarborServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForHarborServices"
+          xlink:to="label_cafr_NetExpenseRevenueForHarborServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForHarborServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Harbor Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForHarborServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for harbor services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:label="cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Water Supply Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForWaterSupplyServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for water supply services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:label="cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Sanitary Sewer Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForSanitarySewerServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for sanitary sewer services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:label="cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:to="label_cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Storm Sewer Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForStormSewerServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for storm sewer services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForGaragesServices"
+          xlink:label="cafr_NetExpenseRevenueForGaragesServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForGaragesServices"
+          xlink:to="label_cafr_NetExpenseRevenueForGaragesServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGaragesServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Garage Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForGaragesServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for garage services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:label="cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:to="label_cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Jail Stores Commissary Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForJailStoresCommissaryServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for jail stores commissary services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForContingencyServices"
+          xlink:label="cafr_NetExpenseRevenueForContingencyServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForContingencyServices"
+          xlink:to="label_cafr_NetExpenseRevenueForContingencyServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForContingencyServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Contingency Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForContingencyServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for contingency services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:label="cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Convention Center Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConventionCenterServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for convention center services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenueForConservationServices"
+          xlink:label="cafr_NetExpenseRevenueForConservationServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetExpenseRevenueForConservationServices"
+          xlink:to="label_cafr_NetExpenseRevenueForConservationServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConservationServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue For Conservation Services</label>
+        <label
+          xlink:label="label_cafr_NetExpenseRevenueForConservationServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net (Expense) Revenue for conservation services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_OtherNetExpenseRevenue"
+          xlink:label="cafr_OtherNetExpenseRevenue"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_OtherNetExpenseRevenue"
+          xlink:to="label_cafr_OtherNetExpenseRevenue"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_OtherNetExpenseRevenue"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Net (Expense) Revenue</label>
+        <label
+          xlink:label="label_cafr_OtherNetExpenseRevenue"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Other net (expense) revenue.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NetExpenseRevenue"
           xlink:label="cafr_NetExpenseRevenue"
           xlink:type="locator"/>
@@ -5783,7 +6803,7 @@
           xlink:label="label_cafr_StatementOfActivitiesGeneralRevenuesAbstract"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Statement of Activities, General Revenues[Abstract]</label>
+          xml:lang="en">Statement of Activities, General Revenues [Abstract]</label>
         <label
           xlink:label="label_cafr_StatementOfActivitiesGeneralRevenuesAbstract"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -6740,6 +7760,26 @@
           xlink:type="resource"
           xml:lang="en">Used as an identifier for the name of other expenses not elsewhere classified. Should be used with the OtherExpenses concept.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:label="cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:to="label_cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Other Net (Expense) Revenue [Axis]</label>
+        <label
+          xlink:label="label_cafr_NameOfOtherNetExpenseRevenueAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used as an identifier for the name of other net (expense) revenue not elsewhere classified. Should be used with the OtherNetExpenseRevenue concept.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_StatementOfActivitiesExpensesAndRevenuesComponentUnitAbstract"
           xlink:label="cafr_StatementOfActivitiesExpensesAndRevenuesComponentUnitAbstract"
           xlink:type="locator"/>
@@ -7433,7 +8473,7 @@
           xlink:label="label_cafr_FundBalanceNonspendable"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Fund Balances Nonspendable</label>
+          xml:lang="en">Fund Balance Nonspendable</label>
         <label
           xlink:label="label_cafr_FundBalanceNonspendable"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -7453,7 +8493,7 @@
           xlink:label="label_cafr_FundBalanceRestricted"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Fund Balances Restricted</label>
+          xml:lang="en">Fund Balance Restricted</label>
         <label
           xlink:label="label_cafr_FundBalanceRestricted"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -7473,7 +8513,7 @@
           xlink:label="label_cafr_FundBalanceCommitted"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Fund Balances Committed</label>
+          xml:lang="en">Fund Balance Committed</label>
         <label
           xlink:label="label_cafr_FundBalanceCommitted"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -7493,7 +8533,7 @@
           xlink:label="label_cafr_FundBalanceAssigned"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Fund Balances Assigned</label>
+          xml:lang="en">Fund Balance Assigned</label>
         <label
           xlink:label="label_cafr_FundBalanceAssigned"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -7520,22 +8560,22 @@
           xlink:type="resource"
           xml:lang="en">Fund balances, unassigned.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalances"
-          xlink:label="cafr_FundBalances"
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalance"
+          xlink:label="cafr_FundBalance"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_FundBalances"
-          xlink:to="label_cafr_FundBalances"
+          xlink:from="cafr_FundBalance"
+          xlink:to="label_cafr_FundBalance"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_FundBalances"
+          xlink:label="label_cafr_FundBalance"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Fund Balances</label>
+          xml:lang="en">Fund Balance</label>
         <label
-          xlink:label="label_cafr_FundBalances"
+          xlink:label="label_cafr_FundBalance"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">The difference between governmental fund assets and deferred outflows of resources, and liabilities and deferred inflows of resources, the fund equity, is referred to as fund balance.</label>
@@ -7940,6 +8980,326 @@
           xlink:type="resource"
           xml:lang="en">Used to collect information about deferred inflows of resources.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsTable"
+          xlink:label="cafr_GovernmentalFundsTable"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsTable"
+          xlink:to="label_cafr_GovernmentalFundsTable"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsTable"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds [Table]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsTable"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Table used to capture data representing all governmental funds.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsAxis"
+          xlink:label="cafr_GovernmentalFundsAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsAxis"
+          xlink:to="label_cafr_GovernmentalFundsAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds [Axis]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to identify facts reported that represent all governmental funds.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsDomain"
+          xlink:label="cafr_GovernmentalFundsDomain"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsDomain"
+          xlink:to="label_cafr_GovernmentalFundsDomain"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsDomain"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds [Domain]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsDomain"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to identify facts reported that represent all governmental funds.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsMember"
+          xlink:label="cafr_GovernmentalFundsMember"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsMember"
+          xlink:to="label_cafr_GovernmentalFundsMember"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsMember"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds [Member]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsMember"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Represents all governmental funds.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:label="cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:to="label_cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Fund Balance Nonspendable [Abstract]</label>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceNonspendableAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about Fund Balances, Nonspendable.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfFundBalanceTable"
+          xlink:label="cafr_NameOfFundBalanceTable"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfFundBalanceTable"
+          xlink:to="label_cafr_NameOfFundBalanceTable"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceTable"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Fund Balance [Table]</label>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceTable"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to represent data reported about fund balances on the governmental funds balance sheet.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalanceNonspendableAxis"
+          xlink:label="cafr_FundBalanceNonspendableAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FundBalanceNonspendableAxis"
+          xlink:to="label_cafr_FundBalanceNonspendableAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FundBalanceNonspendableAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fund Balance Nonspendable [Axis]</label>
+        <label
+          xlink:label="label_cafr_FundBalanceNonspendableAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used as an identifier for the name of a type of Fund Balance, Nonspendable.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalanceLineItems"
+          xlink:label="cafr_FundBalanceLineItems"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FundBalanceLineItems"
+          xlink:to="label_cafr_FundBalanceLineItems"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FundBalanceLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fund Balance [Line Items]</label>
+        <label
+          xlink:label="label_cafr_FundBalanceLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to collect information about Fund Balances, Restricted.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:label="cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:to="label_cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Fund Balance Restricted [Abstract]</label>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceRestrictedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about Fund Balances, Restricted.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalanceRestrictedAxis"
+          xlink:label="cafr_FundBalanceRestrictedAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FundBalanceRestrictedAxis"
+          xlink:to="label_cafr_FundBalanceRestrictedAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FundBalanceRestrictedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fund Balance Restricted [Axis]</label>
+        <label
+          xlink:label="label_cafr_FundBalanceRestrictedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used as an identifier for the name of a type of Fund Balance, Restricted.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:label="cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:to="label_cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Fund Balance Committed [Abstract]</label>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceCommittedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about Fund Balances, Committed.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalanceCommittedAxis"
+          xlink:label="cafr_FundBalanceCommittedAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FundBalanceCommittedAxis"
+          xlink:to="label_cafr_FundBalanceCommittedAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FundBalanceCommittedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fund Balance Committed [Axis]</label>
+        <label
+          xlink:label="label_cafr_FundBalanceCommittedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used as an identifier for the name of a type of Fund Balance, Committed.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:label="cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:to="label_cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Fund Balance Assigned [Abstract]</label>
+        <label
+          xlink:label="label_cafr_NameOfFundBalanceAssignedAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about Fund Balances, Assigned.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_FundBalanceAssignedAxis"
+          xlink:label="cafr_FundBalanceAssignedAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_FundBalanceAssignedAxis"
+          xlink:to="label_cafr_FundBalanceAssignedAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_FundBalanceAssignedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Fund Balance Assigned [Axis]</label>
+        <label
+          xlink:label="label_cafr_FundBalanceAssignedAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used as an identifier for the name of a type of Fund Balance, Assigned.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:label="cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:to="label_cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds Balance Sheet Fund Balances [Abstract]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsBalanceSheetFundBalancesAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about Fund Balances.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:label="cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:to="label_cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Governmental Funds Balance Sheet Fund Balances [Table]</label>
+        <label
+          xlink:label="label_cafr_GovernmentalFundsBalanceSheetFundBalancesTable"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to represent data reported about totals for fund balances on the governmental funds balance sheet.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract"
           xlink:label="cafr_GovernmentalFundsStatementOfRevenuesAndExpendituresAndChangesInFundBalanceAbstract"
           xlink:type="locator"/>
@@ -8099,6 +9459,46 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Revenue from services to enterprise funds.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueFromRents"
+          xlink:label="cafr_RevenueFromRents"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_RevenueFromRents"
+          xlink:to="label_cafr_RevenueFromRents"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_RevenueFromRents"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Revenue From Rents</label>
+        <label
+          xlink:label="label_cafr_RevenueFromRents"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Revenue from Rents.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_RevenueFromRecreationFees"
+          xlink:label="cafr_RevenueFromRecreationFees"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_RevenueFromRecreationFees"
+          xlink:to="label_cafr_RevenueFromRecreationFees"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_RevenueFromRecreationFees"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Revenue From Recreation Fees</label>
+        <label
+          xlink:label="label_cafr_RevenueFromRecreationFees"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Revenue from Recreation Fees.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_GrantsContributionsAndDonationsFromFederalGovernmentalEntities"
           xlink:label="cafr_GrantsContributionsAndDonationsFromFederalGovernmentalEntities"
@@ -8620,22 +10020,22 @@
           xlink:type="resource"
           xml:lang="en">Expenditures for airport services.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForHarbourServices"
-          xlink:label="cafr_ExpendituresForHarbourServices"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForHarborServices"
+          xlink:label="cafr_ExpendituresForHarborServices"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ExpendituresForHarbourServices"
-          xlink:to="label_cafr_ExpendituresForHarbourServices"
+          xlink:from="cafr_ExpendituresForHarborServices"
+          xlink:to="label_cafr_ExpendituresForHarborServices"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_ExpendituresForHarbourServices"
+          xlink:label="label_cafr_ExpendituresForHarborServices"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
           xml:lang="en">Expenditures for Harbor Services</label>
         <label
-          xlink:label="label_cafr_ExpendituresForHarbourServices"
+          xlink:label="label_cafr_ExpendituresForHarborServices"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Expenditures for harbor services.</label>
@@ -8659,6 +10059,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Expenditures for water supply services.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForLibraryServices"
+          xlink:label="cafr_ExpendituresForLibraryServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExpendituresForLibraryServices"
+          xlink:to="label_cafr_ExpendituresForLibraryServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExpendituresForLibraryServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for Library Services</label>
+        <label
+          xlink:label="label_cafr_ExpendituresForLibraryServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for library services.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForSanitarySewerServices"
           xlink:label="cafr_ExpendituresForSanitarySewerServices"
@@ -8820,6 +10240,66 @@
           xlink:type="resource"
           xml:lang="en">Expenditures for capital outlay which can include construction such as production, additions, replacements, or major structural alterations to buildings and other improvements. May also include purchase of equipment, land, and existing structures including capital leases.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:label="cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:to="label_cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for Capital Outlay, General Government</label>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayGeneralGovernment"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for capital outlay used for general government.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:label="cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:to="label_cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for Capital Outlay, Public Works</label>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayPublicWorks"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for capital outlay used for public works.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:label="cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:to="label_cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for Capital Outlay, Recreation and Leisure Services</label>
+        <label
+          xlink:label="label_cafr_ExpendituresForCapitalOutlayRecreationAndLeisureServices"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for capital outlay used for recreation and leisure services.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForInterGovernmentalActivities"
           xlink:label="cafr_ExpendituresForInterGovernmentalActivities"
           xlink:type="locator"/>
@@ -8839,6 +10319,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Expenditures for inter-governmental activities. Inter-governmental, a fourth character classification, is appropriate where one governmental unit transfers resources to another, such as when states transfer shared revenues to local governments or act as an intermediary in federally financed programs.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_CurrentExpenditures"
+          xlink:label="cafr_CurrentExpenditures"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_CurrentExpenditures"
+          xlink:to="label_cafr_CurrentExpenditures"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_CurrentExpenditures"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Current Expenditures</label>
+        <label
+          xlink:label="label_cafr_CurrentExpenditures"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures classified as current.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OtherExpenditures"
           xlink:label="cafr_OtherExpenditures"
@@ -8980,7 +10480,7 @@
           xlink:type="resource"
           xml:lang="en">Other financing sources (uses) which the reporting entity does not separately disclose in the same statement or note. It includes a limited number of special transactions that are used to account for non-operating revenues or receipts and expenditures or disbursements . Included in this financial reporting category are operating transfers (inflow) and proceeds from debt transactions.</label>
         <label
-          xlink:label="label_cafr_FundBalances"
+          xlink:label="label_cafr_FundBalance"
           xlink:role="http://www.xbrl.org/2003/role/periodStartLabel"
           xlink:type="resource"
           xml:lang="en">Fund Balance at Beginning of Period (Before Adjustment)</label>
@@ -9065,7 +10565,7 @@
           xlink:type="resource"
           xml:lang="en">Amount of net change in fund balance.</label>
         <label
-          xlink:label="label_cafr_FundBalances"
+          xlink:label="label_cafr_FundBalance"
           xlink:role="http://www.xbrl.org/2003/role/periodEndLabel"
           xlink:type="resource"
           xml:lang="en">Fund Balance at End of Period</label>
@@ -9323,7 +10823,7 @@
           xlink:label="label_cafr_DueFromRelatedParties"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Due From Related Parties</label>
+          xml:lang="en">Due from Related Parties</label>
         <label
           xlink:label="label_cafr_DueFromRelatedParties"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -10790,6 +12290,106 @@
           xlink:type="resource"
           xml:lang="en">Represents types of funds for business type activities.</label>
         <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:label="cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:to="label_cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Proprietary Funds Business Type Activities [Abstract]</label>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Information about all Proprietary Funds, Business Activities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:label="cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:to="label_cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Proprietary Funds Business Type Activities [Table]</label>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesTable"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Table used to capture data representing all Proprietary Funds, Business Activities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:label="cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:to="label_cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Proprietary Funds Business Type Activities [Axis]</label>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to identify facts reported that represent all Proprietary Funds, Business Activities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:label="cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:to="label_cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Proprietary Funds Business Type Activities [Domain]</label>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesDomain"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Used to identify facts reported that represent all Proprietary Funds, Business Activities.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:label="cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:to="label_cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Proprietary Funds Business Type Activities [Member]</label>
+        <label
+          xlink:label="label_cafr_ProprietaryFundsBusinessTypeActivitiesMember"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Represents all Proprietary Funds, Business Activities.</label>
+        <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsRevenuesExpensesAbstract"
           xlink:label="cafr_ProprietaryFundsRevenuesExpensesAbstract"
           xlink:type="locator"/>
@@ -11430,25 +13030,25 @@
           xlink:type="resource"
           xml:lang="en">Expenses for bad debt.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForPersonalServicesAndBenefits"
-          xlink:label="cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForPersonnelServicesAndBenefits"
+          xlink:label="cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_ExpendituresForPersonalServicesAndBenefits"
-          xlink:to="label_cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:from="cafr_ExpendituresForPersonnelServicesAndBenefits"
+          xlink:to="label_cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:label="label_cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Expenditures for Personal Services and Benefits</label>
+          xml:lang="en">Expenditures for Personnel Services and Benefits</label>
         <label
-          xlink:label="label_cafr_ExpendituresForPersonalServicesAndBenefits"
+          xlink:label="label_cafr_ExpendituresForPersonnelServicesAndBenefits"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Personal services and benefits which include salaries and non-wage compensation for State employees and certain payments to non-State employees.</label>
+          xml:lang="en">Personnel services and benefits which include salaries and non-wage compensation for State employees and certain payments to non-State employees.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForOtherOperatingActivities"
           xlink:label="cafr_ExpendituresForOtherOperatingActivities"
@@ -11589,6 +13189,26 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Costs of labor, contracts, expendible materials and supplies related to protecting tenants, projects, programs and other assets.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForSewageTreatment"
+          xlink:label="cafr_ExpendituresForSewageTreatment"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ExpendituresForSewageTreatment"
+          xlink:to="label_cafr_ExpendituresForSewageTreatment"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ExpendituresForSewageTreatment"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Expenditures for Sewage Treatment</label>
+        <label
+          xlink:label="label_cafr_ExpendituresForSewageTreatment"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Expenditures on sewage treatment.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ExpendituresForContractualServices"
           xlink:label="cafr_ExpendituresForContractualServices"
@@ -11843,7 +13463,7 @@
           xlink:label="label_cafr_PersonalPropertyReplacementTax"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Personal Property Replacement Tax</label>
+          xml:lang="en">Personnel Property Replacement Tax</label>
         <label
           xlink:label="label_cafr_PersonalPropertyReplacementTax"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -12270,25 +13890,25 @@
           xlink:type="resource"
           xml:lang="en">Used as an identifier for other nonoperating revenues and expenses.</label>
         <loc
-          xlink:href="cafr_2020-05-01.xsd#cafr_NameOfBusinesstypeActivityFundAxis"
-          xlink:label="cafr_NameOfBusinesstypeActivityFundAxis"
+          xlink:href="cafr_2020-05-01.xsd#cafr_ContributionsFromCitizensAndDevelopers"
+          xlink:label="cafr_ContributionsFromCitizensAndDevelopers"
           xlink:type="locator"/>
         <labelArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
-          xlink:from="cafr_NameOfBusinesstypeActivityFundAxis"
-          xlink:to="label_cafr_NameOfBusinesstypeActivityFundAxis"
+          xlink:from="cafr_ContributionsFromCitizensAndDevelopers"
+          xlink:to="label_cafr_ContributionsFromCitizensAndDevelopers"
           xlink:type="arc"/>
         <label
-          xlink:label="label_cafr_NameOfBusinesstypeActivityFundAxis"
+          xlink:label="label_cafr_ContributionsFromCitizensAndDevelopers"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Name of Proprietary Funds Business Type Activity Fund [Axis]</label>
+          xml:lang="en">Contributions from Citizens and Developers</label>
         <label
-          xlink:label="label_cafr_NameOfBusinesstypeActivityFundAxis"
+          xlink:label="label_cafr_ContributionsFromCitizensAndDevelopers"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Represents types of funds for business type activities.</label>
+          xml:lang="en">Amount of contributions to government from citizens and developers.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_ProprietaryFundsStatementOfCashFlowsAbstract"
           xlink:label="cafr_ProprietaryFundsStatementOfCashFlowsAbstract"
@@ -12663,7 +14283,7 @@
           xlink:label="label_cafr_CashProvidedByTaxes"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Cash from Real Estate Taxes and Corporate Personal Property Replacement Taxes</label>
+          xml:lang="en">Cash from Real Estate Taxes and Corporate Personnel Property Replacement Taxes</label>
         <label
           xlink:label="label_cafr_CashProvidedByTaxes"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -13986,9 +15606,19 @@
           xml:lang="en">Fiduciary Net Position</label>
         <label
           xlink:label="label_cafr_PensionPlanFiduciaryNetPosition"
+          xlink:role="http://www.xbrl.org/2003/role/periodStartLabel"
+          xlink:type="resource"
+          xml:lang="en">Fiduciary Net Position at Beginning of Period</label>
+        <label
+          xlink:label="label_cafr_PensionPlanFiduciaryNetPosition"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">The net liability (or asset) of employers and nonemployer contributing entities to employees for benefits provided through a defined benefit pension plan.</label>
+        <label
+          xlink:label="label_cafr_PensionPlanFiduciaryNetPosition"
+          xlink:role="http://www.xbrl.org/2003/role/periodEndLabel"
+          xlink:type="resource"
+          xml:lang="en">Fiduciary Net Position at End of Period</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_PensionFundedRatio"
           xlink:label="cafr_PensionFundedRatio"
@@ -14189,6 +15819,216 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">Changes in Net Pension Liability due to Contributions from Members</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:label="cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:to="label_cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Changes in Pension Liability Due to Change in Benefit Terms</label>
+        <label
+          xlink:label="label_cafr_ChangesInPensionLiabilityDueToChangeInBenefitTerms"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Changes in Pension Liability due to changes in benefit terms.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:label="cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:to="label_cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Change in Pension Liability Due to Difference Between Expected and Actual</label>
+        <label
+          xlink:label="label_cafr_ChangeInPensionLiabilityDueToDifferenceBetweenExpectedandActual"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Changes in Pension Liability due to differences between expected and actual experience.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:label="cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:to="label_cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Change in Pension Liability Due to Change in Assumption</label>
+        <label
+          xlink:label="label_cafr_ChangeInPensionLiabilityDueToChangeInAssumption"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Changes in Pension Liability due to changes in assumptions.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetChangesInPensionLiability"
+          xlink:label="cafr_NetChangesInPensionLiability"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetChangesInPensionLiability"
+          xlink:to="label_cafr_NetChangesInPensionLiability"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetChangesInPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Changes in Pension Liability</label>
+        <label
+          xlink:label="label_cafr_NetChangesInPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net changes in Total Pension Liability.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalPensionLiability"
+          xlink:label="cafr_TotalPensionLiability"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_TotalPensionLiability"
+          xlink:to="label_cafr_TotalPensionLiability"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_TotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Total Pension Liability</label>
+        <label
+          xlink:label="label_cafr_TotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/periodStartLabel"
+          xlink:type="resource"
+          xml:lang="en">Total Pension Liability at Beginning of Period</label>
+        <label
+          xlink:label="label_cafr_TotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Total Pension Liability.</label>
+        <label
+          xlink:label="label_cafr_TotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/periodEndLabel"
+          xlink:type="resource"
+          xml:lang="en">Total Pension Liability at End of Period</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetChangeInFiduciaryNetPosition"
+          xlink:label="cafr_NetChangeInFiduciaryNetPosition"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetChangeInFiduciaryNetPosition"
+          xlink:to="label_cafr_NetChangeInFiduciaryNetPosition"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetChangeInFiduciaryNetPosition"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Change in Fiduciary Net Position</label>
+        <label
+          xlink:label="label_cafr_NetChangeInFiduciaryNetPosition"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net change in Fiduciary Net Position.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:label="cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:to="label_cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Pension Liability as Percent Covered Payroll</label>
+        <label
+          xlink:label="label_cafr_NetPensionLiabilityasPercentCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net Pension Liability as a Percentage of covered payroll.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ContributionDeficiencyExcess"
+          xlink:label="cafr_ContributionDeficiencyExcess"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ContributionDeficiencyExcess"
+          xlink:to="label_cafr_ContributionDeficiencyExcess"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ContributionDeficiencyExcess"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Contribution Deficiency (Excess)</label>
+        <label
+          xlink:label="label_cafr_ContributionDeficiencyExcess"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Contribution deficiency (excess).</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:label="cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:to="label_cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Contribution as Percent of Covered Payroll</label>
+        <label
+          xlink:label="label_cafr_ContributionasPercenTOfCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Contributions as a percentage of covered payroll.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:label="cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:to="label_cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Plan Fiduciary Net Position as Percent of Total Pension Liability</label>
+        <label
+          xlink:label="label_cafr_PlanFiduciaryNetPositionAsPercentOfTotalPensionLiability"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Plan fiduciary net position as percent of total pension liability.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_NoncurrentAssets"
           xlink:label="cafr_NoncurrentAssets"
@@ -14743,12 +16583,12 @@
           xlink:label="label_cafr_OPEBFiduciaryNetPosition"
           xlink:role="http://www.xbrl.org/2003/role/label"
           xlink:type="resource"
-          xml:lang="en">Net OPEB Asset/Liability also known as Fiduciary Net Position</label>
+          xml:lang="en">Net OPEB Asset/Liability</label>
         <label
           xlink:label="label_cafr_OPEBFiduciaryNetPosition"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">The net asset or liability of employers and nonemployer contributing entities to employees for benefits provided through a defined benefit OPEB plan.</label>
+          xml:lang="en">The net asset or liability of employers and nonemployer contributing entities to employees for benefits provided through a defined benefit OPEB plan. This is also known as Fiduciary Net Position.</label>
         <loc
           xlink:href="cafr_2020-05-01.xsd#cafr_OPEBCoveredPayroll"
           xlink:label="cafr_OPEBCoveredPayroll"
@@ -15209,5 +17049,75 @@
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
           xml:lang="en">OPEB plan member contributions.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetChangesInTotalOPEBLiability"
+          xlink:label="cafr_NetChangesInTotalOPEBLiability"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetChangesInTotalOPEBLiability"
+          xlink:to="label_cafr_NetChangesInTotalOPEBLiability"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetChangesInTotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net Changes in Total OPEB Liability</label>
+        <label
+          xlink:label="label_cafr_NetChangesInTotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net Changes in Total OPEB Liability.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_TotalOPEBLiability"
+          xlink:label="cafr_TotalOPEBLiability"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_TotalOPEBLiability"
+          xlink:to="label_cafr_TotalOPEBLiability"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_TotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Total OPEB Liability</label>
+        <label
+          xlink:label="label_cafr_TotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/periodStartLabel"
+          xlink:type="resource"
+          xml:lang="en">Total OPEB Liability at Beginning of Period</label>
+        <label
+          xlink:label="label_cafr_TotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Total OPEB Liability.</label>
+        <loc
+          xlink:href="cafr_2020-05-01.xsd#cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:label="cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:to="label_cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Net OPEB Liability as Percent Covered Payroll</label>
+        <label
+          xlink:label="label_cafr_NetOPEBLiabilityPercentCoveredPayroll"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Net OPEB Liability as a percentage of covered payroll.</label>
+        <label
+          xlink:label="label_cafr_TotalOPEBLiability"
+          xlink:role="http://www.xbrl.org/2003/role/periodEndLabel"
+          xlink:type="resource"
+          xml:lang="en">Total OPEB Liability at End of Period</label>
     </labelLink>
 </linkbase>

@@ -29,10 +29,31 @@ Copyright 2019 XBRL US Inc.
         <xs:enumeration value="City"/>
         <xs:enumeration value="Town"/>      
         <xs:enumeration value="Village"/>
+        <xs:enumeration value="Borough"/>
         <xs:enumeration value="School district"/>
         <xs:enumeration value="Special district"/>
         <xs:enumeration value="Other general purpose government"/>
       </restriction> 
+    </simpleContent>
+   </complexType> 
+   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="auditStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Audited"/>
+        <xs:enumeration value="Unaudited"/>
+        <xs:enumeration value="Reviewed"/>
+        <xs:enumeration value="Unreviewed"/>      
+        </restriction> 
+    </simpleContent>
+   </complexType>
+    <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="auditOpinionItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Qualified"/>
+        <xs:enumeration value="Adverse"/>
+        <xs:enumeration value="Unmodified"/>
+        <xs:enumeration value="Disclaimed"/>      
+        </restriction> 
     </simpleContent>
    </complexType>
     <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="pensionPlanStatusItemType">

@@ -7,44 +7,44 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditSEFANotes"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditClusterTotals"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralEINContinuationList"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralEINContinuationList"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditFederalAgencyTotals"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleFindings"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
       xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralInformation"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralDUNSContinuationList"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralDUNSContinuationList"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindings"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleFindings"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleFindingsAndQuestionedCosts"
       xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleFindingsAndQuestionedCosts"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
-      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleExpenditures"
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditClusterTotals"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditClusterTotals"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSEFANotes"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditSEFANotes"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralDUNSContinuationList"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralDUNSContinuationList"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditFederalAgencyTotals"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditFederalAgencyTotals"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditSubprogram"
       xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditSubprogram"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralEINContinuationList"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditGeneralEINContinuationList"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditScheduleExpenditures"
+      xlink:href="sap_2020-05-01.xsd#roleType_SingleAuditScheduleExpenditures"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/sap/v0.3/2020-05-01/roles/SingleAuditGeneralInformation"
